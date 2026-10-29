@@ -10,7 +10,7 @@ const html = fs.readFileSync(path.join(__dirname, 'engine.html'), 'utf8');
 const ilBlock = html.slice(html.indexOf('const IL={'), html.indexOf('// ---------- timeline'));
 const IL = [...ilBlock.matchAll(/^\s{2}(\w+)\(t/gm)].map(m => m[1]);
 
-for (const k of ['date', 'title', 'caption', 'scenes']) if (!ep[k]) errs.push(`champ manquant : ${k}`);
+for (const k of ['title', 'caption', 'scenes']) if (!ep[k]) errs.push(`champ manquant : ${k}`);
 if (!Array.isArray(ep.sources) || ep.sources.length < 1) errs.push('au moins une source vérifiée est requise dans "sources"');
 let chars = 0;
 (ep.scenes || []).forEach((sc, i) => {

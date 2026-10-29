@@ -80,14 +80,28 @@ def main():
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"anullsrc=r={SR}:cl=mono", "-t", f"{raw_dur:.3f}", str(work / "voice_raw.wav")], check=True)
         tempo_eff = 1.0
     else:
-        print(f"Génération ElevenLabs en une fois : {len(text)} caractères, voix {voice['id']}, modèle {voice.get('model', 'eleven_multilingual_v2')}", flush=True)
-        res = tts_with_timestamps(text, voice)
-        (work / "voice_raw.mp3").write_bytes(base64.b64decode(res["audio_base64"]))
-        al = res.get("alignment") or res.get("normalized_alignment")
-        if "".join(al["characters"]) != text:
-            print("  attention : alignement renvoyé différent du texte envoyé, recalage par longueur", flush=True)
-        starts, ends = al["character_start_times_seconds"], al["character_end_times_seconds"]
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(work / "voice_raw.mp3"), "-ac", "1", "-ar", str(SR), str(work / "voice_raw.wav")], check=True)
+        # Voix déjà générée et stockée (stock d'avance) → aucun appel API
+        vdir = ep_dir / "voice"; stored = vdir / "alignment.json"
+        if stored.exists() and json.loads(stored.read_text()).get("text") == text and (vdir / "voice.mp3").exists():
+            print("Voix stockée réutilisée (aucun crédit ElevenLabs consommé)", flush=True)
+            al = json.loads(stored.read_text())
+        else:
+            if "--stored-only" in sys.argv:
+                print("::error title=Voix manquante::aucune voix stockée pour cet épisode (ou texte modifié depuis)", flush=True)
+                raise SystemExit("Voix stockée absente ou périmée")
+            print(f"Génération ElevenLabs en une fois : {len(text)} caractères, voix {voice['id']}, modèle {voice.get('model', 'eleven_multilingual_v2')}", flush=True)
+            res = tts_with_timestamps(text, voice)
+            a = res.get("alignment") or res.get("normalized_alignment")
+            if "".join(a["characters"]) != text:
+                print("  attention : alignement renvoyé différent du texte envoyé, recalage par longueur", flush=True)
+            vdir.mkdir(exist_ok=True)
+            (vdir / "voice.mp3").write_bytes(base64.b64decode(res["audio_base64"]))
+            al = {"text": text, "voice": voice, "starts": a["character_start_times_seconds"], "ends": a["character_end_times_seconds"]}
+            stored.write_text(json.dumps(al, ensure_ascii=False))
+        if "--voice-only" in sys.argv:
+            print(f"Voix stockée : {vdir}"); return
+        starts, ends = al["starts"], al["ends"]
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(vdir / "voice.mp3"), "-ac", "1", "-ar", str(SR), str(work / "voice_raw.wav")], check=True)
         tempo_eff = tempo
 
     # x1,1 + temps de lancement au début + silence de fin

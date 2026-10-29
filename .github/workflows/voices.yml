@@ -1,0 +1,44 @@
+name: Générer les voix du stock
+
+# Déclenché en modifiant backlog/GENERER_VOIX.txt : génère (ElevenLabs) la voix de chaque épisode du stock
+# qui n'en a pas encore, puis l'enregistre dans le dépôt (backlog/<episode>/voice/). Aucun rendu vidéo ici.
+on:
+  push:
+    branches: [main]
+    paths: ['backlog/GENERER_VOIX.txt']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voix-stock
+  cancel-in-progress: false
+
+jobs:
+  voices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Outils
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Générer les voix manquantes
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          ok=0; fail=0
+          for d in backlog/*/; do
+            [ -f "$d/episode.json" ] || continue
+            if python3 engine/tts.py "$d" --voice-only; then
+              ok=$((ok+1))
+              git add "$d/voice" && git commit -qm "Voix : $d" || true
+              if [ $((ok % 5)) -eq 0 ]; then git pull -q --rebase && git push -q; fi
+            else
+              fail=$((fail+1)); echo "::warning title=Voix non générée::$d"
+              [ $fail -ge 3 ] && { echo "::error title=Arrêt::3 échecs, arrêt (crédits ou accès ElevenLabs ?)"; break; }
+            fi
+          done
+          git pull -q --rebase && git push -q || true
+          echo "::notice title=Bilan voix::$ok épisode(s) avec voix, $fail échec(s)"
+          [ $fail -eq 0 ]
