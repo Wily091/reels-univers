@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Uranus tourne couchée sur le côté",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Uranus est penchée à presque 98° : elle roule autour du Soleil couchée sur le côté 🪐\n\nRésultat : certaines régions vivent un hiver sombre de 21 ans.\n\nTu savais qu'une planète pouvait être aussi bizarre ? 👇",
+ "hashtags": ["#uranus", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetes", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/uranus/facts/"],
+ "scenes": [
+  {"say": ["Il y a une planète qui tourne autour du Soleil… couchée sur le côté."], "ghost": "URANUS", "kicker": "SEPTIÈME PLANÈTE DU SYSTÈME SOLAIRE", "il": {"type": "planet", "label": "URANUS"}, "lines": [{"text": "UNE PLANÈTE", "at": [0, 0.1]}, {"text": "QUI TOURNE", "at": [0, 0.3]}, {"text": "[COUCHÉE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["C'est Uranus."], "hit": true, "ghost": "URANUS", "lines": [{"text": "URANUS.", "at": [0, 0.3], "punch": true, "max": 420}]},
+  {"say": ["Son axe est incliné de presque quatre-vingt-dix-huit degrés."], "ghost": "98°", "kicker": "INCLINAISON · 97,77°", "il": {"type": "globe", "label": "AXE · 98°"}, "lines": [{"text": "SON AXE", "at": [0, 0.1]}, {"text": "EST INCLINÉ DE", "at": [0, 0.35]}, {"text": "[98°]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 98, "fmt": "[{v}°]", "dur": 0.8}}]},
+  {"say": ["La Terre, elle, n'est penchée que d'environ vingt-trois degrés."], "ghost": "TERRE", "kicker": "TERRE · 23,4°", "il": {"type": "globe", "label": "TERRE · 23°"}, "lines": [{"text": "LA TERRE :", "at": [0, 0.1]}, {"text": "[23°]", "at": [0, 0.6], "punch": true}]},
+  {"say": ["Résultat : pendant une partie de son orbite, un de ses pôles fait face au Soleil…", "pendant que l'autre moitié de la planète plonge dans un hiver sombre de vingt et un ans."], "ghost": "HIVER", "kicker": "UNE ANNÉE SUR URANUS · 84 ANS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.5}, "lines": [{"text": "UN HIVER", "at": [1, 0.55]}, {"text": "SOMBRE DE", "at": [1, 0.7]}, {"text": "[21 ANS.]", "at": [1, 0.85], "punch": true}]},
+  {"say": ["Vingt et un ans sans voir le Soleil."], "hit": true, "ghost": "21 ANS", "lines": [{"text": "21 ANS", "at": [0, 0.1], "punch": true, "max": 420}, {"text": "SANS SOLEIL.", "at": [0, 0.6]}]},
+  {"say": ["Et comme Vénus, elle tourne sur elle-même dans le sens inverse des autres planètes."], "ghost": "INVERSE", "il": {"type": "clock"}, "lines": [{"text": "ELLE TOURNE", "at": [0, 0.35]}, {"text": "[À L'ENVERS.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Quand William Herschel l'a découverte, en mille sept cent quatre-vingt-un… il a d'abord cru que c'était une comète."], "ghost": "1781", "kicker": "DÉCOUVERTE · 1781 · W. HERSCHEL", "il": {"type": "comet", "label": "UNE COMÈTE ?"}, "lines": [{"text": "EN [1781],", "at": [0, 0.4]}, {"text": "ON L'A PRISE", "at": [0, 0.7]}, {"text": "POUR UNE [COMÈTE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

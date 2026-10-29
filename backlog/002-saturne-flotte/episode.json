@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Saturne pourrait flotter dans l'eau",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Saturne est neuf fois plus large que la Terre… et pourtant, elle flotterait dans une baignoire géante 🛁🪐\n\nC'est la seule planète du système solaire moins dense que l'eau.\n\nTu le savais ? 👇",
+ "hashtags": ["#saturne", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetes", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/saturn/facts/", "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"],
+ "scenes": [
+  {"say": ["Si tu posais Saturne dans une baignoire géante… elle flotterait."], "ghost": "SATURNE", "kicker": "SIXIÈME PLANÈTE DU SYSTÈME SOLAIRE", "il": {"type": "planet", "ring": true, "label": "SATURNE"}, "lines": [{"text": "SATURNE", "at": [0, 0.25]}, {"text": "DANS UNE BAIGNOIRE…", "at": [0, 0.4]}, {"text": "ELLE [FLOTTERAIT.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Oui. Une planète géante."], "hit": true, "ghost": "GÉANTE", "lines": [{"text": "OUI.", "at": 0, "punch": true, "max": 420}, {"text": "UNE PLANÈTE GÉANTE.", "at": [0, 0.4]}]},
+  {"say": ["Saturne est neuf fois plus large que la Terre."], "ghost": "TAILLE", "kicker": "DIAMÈTRE · 120 536 KM", "il": {"type": "sizeCompare", "big": "SATURNE", "small": "TERRE", "ratio": 9.4}, "lines": [{"text": "NEUF FOIS", "at": [0, 0.3]}, {"text": "[PLUS LARGE]", "at": [0, 0.5], "punch": true}, {"text": "QUE LA TERRE.", "at": [0, 0.75]}]},
+  {"say": ["Mais elle est faite surtout d'hydrogène et d'hélium… les gaz les plus légers de l'univers."], "ghost": "GAZ", "kicker": "COMPOSITION · HYDROGÈNE ET HÉLIUM", "il": {"type": "globe", "label": "GÉANTE GAZEUSE"}, "lines": [{"text": "HYDROGÈNE", "at": [0, 0.3]}, {"text": "ET HÉLIUM :", "at": [0, 0.45]}, {"text": "LES GAZ [LES PLUS]", "at": [0, 0.7]}, {"text": "[LÉGERS.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Résultat : sa densité moyenne est plus faible que celle de l'eau."], "ghost": "DENSITÉ", "kicker": "DENSITÉ · 687 KG/M3 · EAU · 1 000 KG/M3", "il": {"type": "thermo", "label": "DENSITÉ", "level": 0.69}, "lines": [{"text": "SA DENSITÉ :", "at": [0, 0.2]}, {"text": "[0,69]", "at": [0, 0.45], "punch": true, "count": {"from": 0, "to": 0.69, "dec": 2, "fmt": "[{v}]", "dur": 0.8}}, {"text": "L'EAU : 1.", "at": [0, 0.85], "max": 200}]},
+  {"say": ["C'est la seule planète du système solaire dans ce cas."], "ghost": "SEULE", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.8}, "lines": [{"text": "LA SEULE", "at": [0, 0.15]}, {"text": "PLANÈTE", "at": [0, 0.3]}, {"text": "[DANS CE CAS.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Bon… il faudrait quand même une baignoire plus grande que la Terre."], "hit": true, "ghost": "BAIGNOIRE", "lines": [{"text": "IL FAUDRAIT", "at": [0, 0.2]}, {"text": "UNE SACRÉE", "at": [0, 0.5]}, {"text": "BAIGNOIRE.", "at": [0, 0.75], "punch": true, "max": 360}]},
+  {"say": ["Et sur Saturne, une journée ne dure que dix heures et quarante minutes."], "ghost": "JOUR", "kicker": "UN JOUR SUR SATURNE · 10,7 H", "il": {"type": "clock", "forward": true}, "lines": [{"text": "UNE JOURNÉE :", "at": [0, 0.3]}, {"text": "[10 H 40]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

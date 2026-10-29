@@ -93,7 +93,7 @@ function galaxy(cx,cy,r,t,a){X.save();X.translate(cx,cy);X.scale(1,0.5);X.rotate
   X.globalAlpha=a*0.9;stroke('rgba(255,255,255,.8)',3);for(let arm=0;arm<2;arm++){X.beginPath();for(let i=0;i<=80;i++){const k=i/80;const ang=arm*Math.PI+k*4.2;const d=k*r;if(i)X.lineTo(Math.cos(ang)*d,Math.sin(ang)*d);else X.moveTo(0,0)}X.stroke()}X.restore()}
 function planetBody(cx,cy,r,p,t,o={}){stroke(WHITE,6);drawPath(circlePts(cx,cy,r),p);
   if(p>0.6){X.save();X.beginPath();X.arc(cx,cy,r-3,0,7);X.clip();stroke('rgba(255,255,255,.35)',3);for(let k=-2;k<=2;k++){const yy=cy+k*r*0.38+Math.sin(t+k)*4;X.beginPath();X.moveTo(cx-r,yy);X.bezierCurveTo(cx-r*0.3,yy-14,cx+r*0.3,yy+14,cx+r,yy);X.stroke()}X.restore()}
-  if(o.ring&&p>0.4){const q=eo((p-0.4)/0.6);stroke(ACC,5);X.save();X.translate(cx,cy);X.rotate(-0.25);X.beginPath();X.ellipse(0,0,r*1.75*q+r*0.2,r*0.42*q+4,0,Math.PI*0.02,Math.PI*0.98,true);X.stroke();X.restore()}}
+  if(o.ring&&p>0.4){const q=eo((p-0.4)/0.6);stroke(ACC,5);X.save();X.translate(cx,cy);X.rotate(-0.25);X.beginPath();X.ellipse(0,0,r*1.75*q+r*0.2,r*0.42*q+4,0,0,Math.PI*2*q);X.stroke();X.restore()}}
 
 /* ---------- bibliothèque d'illustrations ----------
    Chaque entrée : fonction (t, lt, P) où P = paramètres de l'épisode (+ P.sw = temps absolu de bascule éventuel). */

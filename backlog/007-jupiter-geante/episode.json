@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Jupiter pourrait contenir mille Terres",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Jupiter est si grande qu'on pourrait y loger environ 1 000 Terres 🪐\n\nEt sa Grande Tache rouge, une tempête deux fois plus large que notre planète, est observée depuis plus de 300 ans.\n\nTu l'aurais imaginée aussi énorme ? 👇",
+ "hashtags": ["#jupiter", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetes", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/jupiter/facts/"],
+ "scenes": [
+  {"say": ["Si Jupiter était creuse, tu pourrais y faire entrer environ mille Terres."], "ghost": "JUPITER", "kicker": "CINQUIÈME PLANÈTE DU SYSTÈME SOLAIRE", "il": {"type": "planet", "label": "JUPITER"}, "lines": [{"text": "DANS JUPITER,", "at": [0, 0.15]}, {"text": "ENVIRON", "at": [0, 0.6], "max": 200}, {"text": "[1 000 TERRES.]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 1000, "fmt": "[{v} TERRES.]", "dur": 0.8}}]},
+  {"say": ["Mille."], "hit": true, "ghost": "1 000", "lines": [{"text": "MILLE.", "at": [0, 0.1], "punch": true, "max": 460}]},
+  {"say": ["Son rayon fait onze fois celui de la Terre."], "ghost": "TAILLE", "kicker": "RAYON · 11 FOIS CELUI DE LA TERRE", "il": {"type": "sizeCompare", "big": "JUPITER", "small": "TERRE", "ratio": 11}, "lines": [{"text": "SON RAYON :", "at": [0, 0.15]}, {"text": "[11 FOIS]", "at": [0, 0.5], "punch": true}, {"text": "CELUI DE LA TERRE.", "at": [0, 0.8]}]},
+  {"say": ["Et sur Jupiter souffle une tempête plus large que notre planète entière."], "ghost": "TEMPÊTE", "kicker": "LA GRANDE TACHE ROUGE", "il": {"type": "waves", "label": "GRANDE TACHE ROUGE"}, "lines": [{"text": "UNE TEMPÊTE", "at": [0, 0.35]}, {"text": "PLUS LARGE QUE", "at": [0, 0.6]}, {"text": "[LA TERRE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["La Grande Tache rouge.", "Environ deux fois plus large que la Terre."], "ghost": "TACHE", "kicker": "ENVIRON 2 FOIS LA TERRE", "il": {"type": "sizeCompare", "big": "GRANDE TACHE ROUGE", "small": "TERRE", "ratio": 2}, "lines": [{"text": "LA GRANDE TACHE", "at": 0}, {"text": "[ROUGE]", "at": [0, 0.4], "punch": true, "max": 260}, {"text": "DEUX FOIS LA TERRE.", "at": [1, 0.5]}]},
+  {"say": ["Et cette tempête est observée depuis plus de trois cents ans."], "hit": true, "ghost": "300 ANS", "lines": [{"text": "OBSERVÉE DEPUIS", "at": [0, 0.3]}, {"text": "300 ANS.", "at": [0, 0.75], "punch": true, "max": 400}]},
+  {"say": ["Pourtant, Jupiter tourne très vite. Une journée là-bas ne dure même pas dix heures.", "C'est le jour le plus court du système solaire."], "ghost": "JOUR", "kicker": "UN JOUR SUR JUPITER · 9,9 H", "il": {"type": "clock", "forward": true}, "lines": [{"text": "UNE JOURNÉE :", "at": [0, 0.6]}, {"text": "[MOINS DE 10 H]", "at": [0, 0.85], "punch": true}, {"text": "LE JOUR LE PLUS COURT", "at": [1, 0.3], "gap": 30, "max": 150}]},
+  {"say": ["Et elle est entourée de quatre-vingt-quinze lunes officiellement reconnues."], "ghost": "LUNES", "kicker": "LUNES RECONNUES PAR L'UAI", "il": {"type": "orbit", "center": "JUPITER", "speed": 1.5}, "lines": [{"text": "ELLE A", "at": [0, 0.3], "max": 200}, {"text": "[95 LUNES.]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 95, "fmt": "[{v} LUNES.]", "dur": 0.8}}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

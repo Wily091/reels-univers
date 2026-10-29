@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "La Lune s'éloigne de nous chaque année",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "La Lune s'éloigne de la Terre d'environ 3,8 cm par an 🌕\n\nOn le sait grâce aux miroirs laissés sur la Lune par les astronautes d'Apollo : on y envoie des lasers depuis la Terre !\n\nTu le savais ? 👇",
+ "hashtags": ["#lune", "#apollo", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#cosmos", "#terre"],
+ "sources": ["https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/", "https://science.nasa.gov/moon/facts/"],
+ "scenes": [
+  {"say": ["La Lune est en train de s'éloigner de nous."], "ghost": "LUNE", "kicker": "DISTANCE MOYENNE · 384 400 KM", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "LA LUNE", "at": [0, 0.1], "max": 300}, {"text": "[S'ÉLOIGNE.]", "at": [0, 0.6], "punch": true}]},
+  {"say": ["Chaque année, d'environ trois virgule huit centimètres."], "ghost": "3,8 CM", "kicker": "+3,8 CM PAR AN", "il": {"type": "distance", "label": "+3,8 CM / AN"}, "lines": [{"text": "CHAQUE ANNÉE :", "at": 0}, {"text": "[+3,8 CM]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 3.8, "dec": 1, "fmt": "[+{v} CM]", "dur": 0.8}}]},
+  {"say": ["À peu près la vitesse à laquelle poussent tes ongles."], "hit": true, "ghost": "ONGLES", "lines": [{"text": "LA VITESSE DE", "at": [0, 0.4]}, {"text": "TES ONGLES.", "at": [0, 0.8], "punch": true, "max": 380}]},
+  {"say": ["Mais comment on peut mesurer ça ?"], "ghost": "?", "il": {"type": "question"}, "lines": [{"text": "MAIS COMMENT", "at": 0}, {"text": "[ON LE SAIT ?]", "at": [0, 0.6], "punch": true}]},
+  {"say": ["Les astronautes d'Apollo ont laissé des miroirs sur la Lune."], "ghost": "APOLLO", "kicker": "APOLLO 11, 14 ET 15", "il": {"type": "rocket"}, "lines": [{"text": "LES ASTRONAUTES", "at": [0, 0.1]}, {"text": "D'[APOLLO]", "at": [0, 0.3], "punch": true}, {"text": "ONT LAISSÉ", "at": [0, 0.55]}, {"text": "[DES MIROIRS.]", "at": [0, 0.85]}]},
+  {"say": ["Depuis la Terre, on tire des lasers dessus…", "et on chronomètre le temps que met la lumière pour revenir."], "ghost": "LASER", "kicker": "TÉLÉMÉTRIE LASER LUNE", "il": {"type": "lightTravel", "from": "TERRE", "to": "LUNE"}, "lines": [{"text": "ON TIRE", "at": [0, 0.3]}, {"text": "[DES LASERS]", "at": [0, 0.6], "punch": true}, {"text": "ET ON CHRONOMÈTRE", "at": [1, 0.3], "gap": 30, "max": 150}, {"text": "LE RETOUR.", "at": [1, 0.8], "max": 150}]},
+  {"say": ["Ces miroirs fonctionnent encore aujourd'hui… plus de cinquante ans après."], "ghost": "50 ANS", "il": {"type": "clock", "forward": true}, "lines": [{"text": "ILS MARCHENT", "at": [0, 0.2]}, {"text": "[ENCORE.]", "at": [0, 0.45], "punch": true}, {"text": "PLUS DE 50 ANS APRÈS.", "at": [0, 0.85]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

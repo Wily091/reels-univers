@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Olympus Mons, le plus grand volcan du système solaire",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Sur Mars se trouve un volcan environ trois fois plus haut que l'Everest 🌋\n\nOlympus Mons fait environ 21 km de haut et 600 km de large. Si tu étais à son pied, tu ne verrais même pas son sommet.\n\nTu le connaissais ? 👇",
+ "hashtags": ["#mars", "#olympusmons", "#volcan", "#espace", "#univers", "#astronomie", "#planetes", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://apod.nasa.gov/apod/ap040526.html", "https://science.nasa.gov/mars/facts/"],
+ "scenes": [
+  {"say": ["Le plus grand volcan du système solaire n'est pas sur Terre."], "ghost": "VOLCAN", "kicker": "MARS · THARSIS", "il": {"type": "planet", "label": "MARS"}, "lines": [{"text": "LE PLUS GRAND", "at": [0, 0.05]}, {"text": "VOLCAN", "at": [0, 0.25], "max": 260}, {"text": "N'EST PAS [SUR TERRE.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Il est sur Mars.", "Et il s'appelle Olympus Mons."], "ghost": "OLYMPUS", "kicker": "OLYMPUS MONS", "il": {"type": "horizon"}, "lines": [{"text": "IL EST SUR [MARS.]", "at": 0}, {"text": "[OLYMPUS]", "at": [1, 0.45], "punch": true}, {"text": "[MONS.]", "at": [1, 0.7]}]},
+  {"say": ["Il culmine à environ vingt et un kilomètres au-dessus des plaines."], "ghost": "21 KM", "kicker": "HAUTEUR · ENVIRON 21 KM", "il": {"type": "thermo", "label": "21 KM", "level": 0.95}, "lines": [{"text": "SA HAUTEUR :", "at": [0, 0.2]}, {"text": "[21 KM]", "at": [0, 0.55], "punch": true, "count": {"from": 0, "to": 21, "fmt": "[{v} KM]", "dur": 0.8}}]},
+  {"say": ["C'est environ trois fois la hauteur de l'Everest."], "hit": true, "ghost": "EVEREST", "lines": [{"text": "TROIS FOIS", "at": [0, 0.15], "punch": true}, {"text": "L'EVEREST.", "at": [0, 0.7], "punch": true, "max": 380}]},
+  {"say": ["Et sa base mesure environ six cents kilomètres de large… presque la distance entre Paris et Toulouse."], "ghost": "600 KM", "kicker": "DIAMÈTRE · ENVIRON 600 KM", "il": {"type": "sizeCompare", "big": "OLYMPUS MONS", "small": "EVEREST", "ratio": 12}, "lines": [{"text": "SA BASE :", "at": [0, 0.15]}, {"text": "[600 KM]", "at": [0, 0.4], "punch": true, "count": {"from": 0, "to": 600, "fmt": "[{v} KM]", "dur": 0.8}}, {"text": "COMME PARIS–TOULOUSE.", "at": [0, 0.8], "max": 150}]},
+  {"say": ["Ses pentes sont si douces et si longues…", "que si tu étais à son pied, tu ne verrais même pas son sommet."], "ghost": "SOMMET", "il": {"type": "horizon"}, "lines": [{"text": "À SON PIED,", "at": [1, 0.05]}, {"text": "TU NE VERRAIS", "at": [1, 0.35]}, {"text": "[PAS LE SOMMET.]", "at": [1, 0.75], "punch": true}]},
+  {"say": ["Il se cacherait derrière l'horizon de Mars."], "ghost": "HORIZON", "il": {"type": "globe", "label": "COURBURE DE MARS"}, "lines": [{"text": "IL SE CACHE", "at": [0, 0.1]}, {"text": "DERRIÈRE", "at": [0, 0.35]}, {"text": "[L'HORIZON.]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

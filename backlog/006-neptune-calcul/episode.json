@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Neptune, la planète découverte par le calcul",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Neptune est la première planète trouvée grâce aux maths, avant même d'être vue au télescope 🧮🔭\n\nC'est le Français Urbain Le Verrier qui a calculé sa position en 1846.\n\nTu le savais ? 👇",
+ "hashtags": ["#neptune", "#leverrier", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#histoire", "#nasa"],
+ "sources": ["https://science.nasa.gov/neptune/facts/"],
+ "scenes": [
+  {"say": ["Il existe une planète qu'on a trouvée… avec un crayon et du papier."], "ghost": "CALCUL", "il": {"type": "question"}, "lines": [{"text": "UNE PLANÈTE", "at": [0, 0.1]}, {"text": "TROUVÉE AVEC", "at": [0, 0.35]}, {"text": "[UN CRAYON.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Au dix-neuvième siècle, Uranus ne suivait pas exactement la trajectoire prévue."], "ghost": "URANUS", "kicker": "XIXE SIÈCLE · ORBITE D'URANUS", "il": {"type": "orbit", "center": "SOLEIL"}, "lines": [{"text": "URANUS", "at": [0, 0.35]}, {"text": "NE SUIVAIT PAS", "at": [0, 0.55]}, {"text": "[SA TRAJECTOIRE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Un mathématicien français, Urbain Le Verrier, a eu une idée :", "une planète invisible devait la perturber."], "ghost": "LE VERRIER", "kicker": "URBAIN LE VERRIER · MATHÉMATICIEN", "il": {"type": "exclaim"}, "lines": [{"text": "URBAIN", "at": [0, 0.45]}, {"text": "[LE VERRIER]", "at": [0, 0.6], "punch": true}, {"text": "UNE PLANÈTE", "at": [1, 0.1], "gap": 30, "max": 150}, {"text": "[INVISIBLE ?]", "at": [1, 0.4], "max": 200}]},
+  {"say": ["Il a calculé sa position… sans jamais l'avoir vue."], "ghost": "MATHS", "il": {"type": "distance", "label": "POSITION CALCULÉE"}, "lines": [{"text": "IL A CALCULÉ", "at": [0, 0.1]}, {"text": "SA POSITION", "at": [0, 0.3]}, {"text": "[SANS LA VOIR.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["En mille huit cent quarante-six, les astronomes ont pointé leur télescope au bon endroit…", "et Neptune était là."], "ghost": "1846", "kicker": "DÉCOUVERTE · 1846", "il": {"type": "telescope"}, "lines": [{"text": "EN [1846]", "at": [0, 0.2]}, {"text": "NEPTUNE", "at": [1, 0.3], "punch": true, "max": 300}, {"text": "[ÉTAIT LÀ.]", "at": [1, 0.75]}]},
+  {"say": ["Neptune est si loin qu'elle met cent soixante-cinq ans à faire le tour du Soleil."], "ghost": "165 ANS", "kicker": "UNE ANNÉE SUR NEPTUNE · 165 ANS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.3}, "lines": [{"text": "UN TOUR DU SOLEIL :", "at": [0, 0.5]}, {"text": "[165 ANS]", "at": [0, 0.8], "punch": true, "count": {"from": 0, "to": 165, "fmt": "[{v} ANS]", "dur": 0.8}}]},
+  {"say": ["Elle n'a terminé son premier tour depuis sa découverte… qu'en deux mille onze."], "hit": true, "ghost": "2011", "lines": [{"text": "PREMIER TOUR", "at": [0, 0.2]}, {"text": "BOUCLÉ EN", "at": [0, 0.6]}, {"text": "2011.", "at": [0, 0.9], "punch": true, "max": 380}]},
+  {"say": ["Et là-bas, les vents soufflent à plus de deux mille kilomètres heure."], "ghost": "VENT", "kicker": "VENTS · PLUS DE 2 000 KM/H", "il": {"type": "waves", "label": "LES VENTS LES PLUS RAPIDES"}, "lines": [{"text": "DES VENTS À", "at": [0, 0.4]}, {"text": "[+2 000 KM/H]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 2000, "fmt": "[+{v} KM/H]", "dur": 0.8}}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

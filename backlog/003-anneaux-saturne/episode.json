@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Les anneaux de Saturne sont incroyablement fins",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Les anneaux de Saturne s'étendent jusqu'à 282 000 km de la planète… mais ils ne font qu'environ 10 mètres d'épaisseur 🤯🪐\n\nÀ l'échelle, c'est bien plus fin qu'une feuille de papier.\n\nTu l'aurais deviné ? 👇",
+ "hashtags": ["#saturne", "#anneaux", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/saturn/facts/"],
+ "scenes": [
+  {"say": ["Les anneaux de Saturne sont gigantesques… et pourtant, presque plats comme une feuille."], "ghost": "ANNEAUX", "kicker": "SATURNE · SYSTÈME D'ANNEAUX", "il": {"type": "planet", "ring": true, "label": "SATURNE"}, "lines": [{"text": "LES ANNEAUX", "at": [0, 0.1]}, {"text": "DE [SATURNE]", "at": [0, 0.25]}, {"text": "SONT [PRESQUE PLATS.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Ils s'étendent jusqu'à deux cent quatre-vingt-deux mille kilomètres de la planète."], "ghost": "282 000", "kicker": "ÉTENDUE · JUSQU'À 282 000 KM", "il": {"type": "distance", "label": "282 000 KM"}, "lines": [{"text": "ILS S'ÉTENDENT", "at": [0, 0.1]}, {"text": "JUSQU'À", "at": [0, 0.3], "max": 200}, {"text": "[282 000 KM]", "at": [0, 0.5], "punch": true, "count": {"from": 0, "to": 282000, "fmt": "[{v} KM]", "dur": 1}}]},
+  {"say": ["Presque les trois quarts de la distance entre la Terre et la Lune."], "ghost": "LUNE", "il": {"type": "moon", "label": "TERRE - LUNE · 384 400 KM"}, "lines": [{"text": "PRESQUE", "at": 0}, {"text": "[LES TROIS QUARTS]", "at": [0, 0.3], "punch": true}, {"text": "DE LA DISTANCE", "at": [0, 0.6]}, {"text": "TERRE–LUNE.", "at": [0, 0.85]}]},
+  {"say": ["Mais leur épaisseur ?"], "ghost": "?", "il": {"type": "question"}, "lines": [{"text": "MAIS LEUR", "at": 0}, {"text": "[ÉPAISSEUR ?]", "at": [0, 0.5], "punch": true}]},
+  {"say": ["Environ dix mètres."], "hit": true, "ghost": "10 M", "lines": [{"text": "ENVIRON", "at": 0}, {"text": "10 MÈTRES.", "at": [0, 0.5], "punch": true, "max": 360}]},
+  {"say": ["Dix mètres, dans les anneaux principaux.", "La hauteur d'un immeuble de trois étages."], "ghost": "IMMEUBLE", "kicker": "ÉPAISSEUR TYPIQUE · ~10 M", "il": {"type": "exclaim"}, "lines": [{"text": "LA HAUTEUR", "at": [1, 0.1]}, {"text": "D'UN IMMEUBLE", "at": [1, 0.4]}, {"text": "DE [TROIS ÉTAGES.]", "at": [1, 0.7], "punch": true}]},
+  {"say": ["Ils sont faits de milliards de morceaux de glace et de roche.", "Certains petits comme des grains de sable… d'autres grands comme des maisons."], "ghost": "GLACE", "kicker": "COMPOSITION · GLACE ET ROCHE", "il": {"type": "tunnel"}, "lines": [{"text": "DES MILLIARDS", "at": [0, 0.15]}, {"text": "DE MORCEAUX", "at": [0, 0.35]}, {"text": "DE [GLACE.]", "at": [0, 0.6], "punch": true}, {"text": "DU GRAIN DE SABLE", "at": [1, 0.3], "gap": 30, "max": 150}, {"text": "À LA [MAISON.]", "at": [1, 0.8], "max": 150}]},
+  {"say": ["Vus de loin, ils forment le plus beau bijou du système solaire."], "ghost": "BIJOU", "il": {"type": "planet", "ring": true, "r": 150}, "lines": [{"text": "LE PLUS BEAU", "at": [0, 0.35]}, {"text": "[BIJOU]", "at": [0, 0.55], "punch": true}, {"text": "DU SYSTÈME SOLAIRE.", "at": [0, 0.8]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
