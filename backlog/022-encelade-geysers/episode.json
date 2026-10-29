@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Encelade, la lune qui crache des geysers dans l'espace",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Encelade, une petite lune de Saturne, projette des jets de vapeur d'eau et de glace directement dans l'espace 💨❄️\n\nC'est aussi l'objet le plus réfléchissant du système solaire.\n\nTu la connaissais ? 👇",
+ "hashtags": ["#encelade", "#saturne", "#lune", "#espace", "#univers", "#astronomie", "#cassini", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/saturn/moons/enceladus/"],
+ "scenes": [
+  {"say": ["Il existe une lune qui crache de l'eau dans l'espace."], "ghost": "GEYSERS", "kicker": "LUNE DE SATURNE", "il": {"type": "burst"}, "lines": [{"text": "UNE LUNE", "at": [0, 0.1]}, {"text": "QUI CRACHE", "at": [0, 0.4]}, {"text": "[DE L'EAU.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Elle s'appelle Encelade.", "Elle tourne autour de Saturne."], "ghost": "ENCELADE", "il": {"type": "orbit", "center": "SATURNE", "speed": 1.6}, "lines": [{"text": "[ENCELADE]", "at": [0, 0.5], "punch": true, "max": 320}, {"text": "LUNE DE SATURNE.", "at": [1, 0.5]}]},
+  {"say": ["Elle ne fait qu'environ cinq cents kilomètres de large."], "ghost": "500 KM", "kicker": "DIAMÈTRE · ~500 KM", "il": {"type": "moon", "label": "ENCELADE"}, "lines": [{"text": "À PEINE", "at": [0, 0.3], "max": 200}, {"text": "[500 KM]", "at": [0, 0.65], "punch": true}, {"text": "DE LARGE.", "at": [0, 0.85]}]},
+  {"say": ["Mais à son pôle sud, des jets de vapeur d'eau et de glace jaillissent en continu vers l'espace."], "ghost": "JETS", "kicker": "PÔLE SUD · PANACHES", "il": {"type": "burst"}, "lines": [{"text": "DES JETS", "at": [0, 0.35]}, {"text": "DE [VAPEUR D'EAU]", "at": [0, 0.55], "punch": true}, {"text": "VERS L'ESPACE.", "at": [0, 0.9]}]},
+  {"say": ["En continu."], "hit": true, "ghost": "NON-STOP", "lines": [{"text": "EN CONTINU.", "at": [0, 0.1], "punch": true, "max": 420}]},
+  {"say": ["Ces jets sont alimentés par un océan caché sous sa glace."], "ghost": "OCÉAN", "il": {"type": "waves", "label": "OCÉAN SOUS LA GLACE"}, "lines": [{"text": "ILS VIENNENT", "at": [0, 0.15]}, {"text": "D'UN [OCÉAN]", "at": [0, 0.6], "punch": true}, {"text": "SOUS LA GLACE.", "at": [0, 0.85]}]},
+  {"say": ["La glace qui retombe la rend si blanche… que c'est l'objet le plus réfléchissant du système solaire."], "ghost": "BLANCHE", "kicker": "L'OBJET LE PLUS RÉFLÉCHISSANT", "il": {"type": "starsPulse"}, "lines": [{"text": "L'OBJET LE PLUS", "at": [0, 0.6]}, {"text": "[RÉFLÉCHISSANT]", "at": [0, 0.8], "punch": true}, {"text": "DU SYSTÈME SOLAIRE.", "at": [0, 0.95]}]},
+  {"say": ["Et la sonde Cassini y a même détecté des molécules organiques."], "ghost": "CASSINI", "kicker": "MISSION CASSINI", "il": {"type": "telescope"}, "lines": [{"text": "CASSINI Y A TROUVÉ", "at": [0, 0.3]}, {"text": "[DES MOLÉCULES]", "at": [0, 0.7], "punch": true}, {"text": "ORGANIQUES.", "at": [0, 0.9]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Le télescope Hubble était myope à son lancement",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Quand Hubble a été lancé en 1990, ses images étaient floues : son miroir avait un défaut plus fin qu'un cheveu 🔭👓\n\nEn 1993, des astronautes lui ont installé une optique correctrice… en orbite.\n\nTu connaissais cette histoire ? 👇",
+ "hashtags": ["#hubble", "#telescope", "#espace", "#univers", "#astronomie", "#nasa", "#histoire", "#science", "#lesaviezvous", "#astronaute"],
+ "sources": ["https://science.nasa.gov/mission/hubble/impacts-and-benefits/comeback-story"],
+ "scenes": [
+  {"say": ["Le télescope le plus célèbre du monde… a commencé sa carrière myope."], "ghost": "HUBBLE", "kicker": "TÉLESCOPE SPATIAL HUBBLE", "il": {"type": "telescope"}, "lines": [{"text": "LE TÉLESCOPE", "at": [0, 0.1]}, {"text": "[HUBBLE]", "at": [0, 0.35], "punch": true, "max": 320}, {"text": "ÉTAIT [MYOPE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["En mille neuf cent quatre-vingt-dix, il est lancé dans l'espace.", "Mais ses premières images sont floues."], "ghost": "1990", "kicker": "LANCEMENT · 1990", "il": {"type": "rocket"}, "lines": [{"text": "LANCÉ EN [1990.]", "at": [0, 0.4]}, {"text": "MAIS LES IMAGES", "at": [1, 0.2], "gap": 30}, {"text": "[SONT FLOUES.]", "at": [1, 0.7], "punch": true}]},
+  {"say": ["Le problème ?", "Son miroir principal a été poli avec une petite erreur."], "ghost": "MIROIR", "il": {"type": "question"}, "lines": [{"text": "LE PROBLÈME ?", "at": 0}, {"text": "[SON MIROIR.]", "at": [1, 0.3], "punch": true}]},
+  {"say": ["Une erreur plus fine qu'un cheveu humain."], "hit": true, "ghost": "CHEVEU", "lines": [{"text": "PLUS FINE", "at": [0, 0.2], "punch": true}, {"text": "QU'UN CHEVEU.", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Mais dans l'espace, ça suffit à tout rendre flou."], "ghost": "FLOU", "il": {"type": "blobToGalaxy"}, "lines": [{"text": "ÇA SUFFIT À", "at": [0, 0.4]}, {"text": "[TOUT RENDRE FLOU.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Alors en mille neuf cent quatre-vingt-treize, des astronautes sont montés le réparer…", "et lui ont installé une optique correctrice."], "ghost": "1993", "kicker": "PREMIÈRE MISSION DE MAINTENANCE · 1993", "il": {"type": "blobToGalaxy", "sw": [1, 0.5]}, "lines": [{"text": "EN [1993],", "at": [0, 0.2]}, {"text": "DES ASTRONAUTES", "at": [0, 0.5]}, {"text": "[LE RÉPARENT.]", "at": [0, 0.85], "punch": true}, {"text": "UNE [OPTIQUE]", "at": [1, 0.6], "gap": 30, "max": 150}, {"text": "CORRECTRICE.", "at": [1, 0.85], "max": 150}]},
+  {"say": ["En clair… on a mis des lunettes à un télescope, en orbite."], "hit": true, "ghost": "LUNETTES", "lines": [{"text": "DES LUNETTES,", "at": [0, 0.35], "punch": true}, {"text": "EN ORBITE.", "at": [0, 0.85]}]},
+  {"say": ["Depuis, Hubble a pris certaines des images les plus célèbres de l'univers."], "ghost": "IMAGES", "il": {"type": "galaxy"}, "lines": [{"text": "DEPUIS,", "at": 0, "max": 200}, {"text": "[DES IMAGES]", "at": [0, 0.6], "punch": true}, {"text": "DE LÉGENDE.", "at": [0, 0.9]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

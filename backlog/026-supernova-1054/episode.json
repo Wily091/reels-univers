@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "En 1054, une étoile est apparue en plein jour",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "En juillet 1054, une nouvelle « étoile » est apparue dans le ciel. Elle est restée visible en plein jour pendant 23 jours 🌟\n\nC'était une supernova. Ses restes forment aujourd'hui la nébuleuse du Crabe.\n\nTu connaissais cette histoire ? 👇",
+ "hashtags": ["#supernova", "#nebuleuseducrabe", "#espace", "#univers", "#astronomie", "#histoire", "#science", "#lesaviezvous", "#esa", "#etoiles"],
+ "sources": ["https://www.esa.int/Science_Exploration/Space_Science/22_April"],
+ "scenes": [
+  {"say": ["En juillet mille cinquante-quatre, une nouvelle étoile est apparue dans le ciel."], "ghost": "1054", "kicker": "JUILLET 1054", "il": {"type": "starsPulse"}, "lines": [{"text": "EN [1054],", "at": [0, 0.2]}, {"text": "UNE NOUVELLE", "at": [0, 0.6]}, {"text": "[ÉTOILE.]", "at": [0, 0.9], "punch": true, "max": 300}]},
+  {"say": ["Elle brillait tellement… qu'on la voyait en plein jour."], "hit": true, "ghost": "JOUR", "lines": [{"text": "VISIBLE", "at": [0, 0.5]}, {"text": "EN PLEIN JOUR.", "at": [0, 0.85], "punch": true, "max": 380}]},
+  {"say": ["Pendant vingt-trois jours."], "ghost": "23 JOURS", "il": {"type": "sun"}, "lines": [{"text": "PENDANT", "at": 0, "max": 200}, {"text": "[23 JOURS.]", "at": [0, 0.5], "punch": true, "count": {"from": 0, "to": 23, "fmt": "[{v} JOURS.]", "dur": 0.7}}]},
+  {"say": ["Des astronomes chinois l'ont soigneusement notée dans leurs archives."], "ghost": "ARCHIVES", "kicker": "ASTRONOMES CHINOIS", "il": {"type": "constellation"}, "lines": [{"text": "DES ASTRONOMES", "at": [0, 0.1]}, {"text": "[CHINOIS]", "at": [0, 0.35], "punch": true}, {"text": "L'ONT NOTÉE.", "at": [0, 0.8]}]},
+  {"say": ["Ce n'était pas une naissance… mais une mort."], "ghost": "MORT", "il": {"type": "question"}, "lines": [{"text": "PAS UNE NAISSANCE…", "at": [0, 0.3]}, {"text": "[UNE MORT.]", "at": [0, 0.85], "punch": true, "max": 300}]},
+  {"say": ["Une étoile géante venait d'exploser : une supernova."], "ghost": "SUPERNOVA", "il": {"type": "burst"}, "lines": [{"text": "UNE ÉTOILE", "at": [0, 0.1]}, {"text": "[EXPLOSE.]", "at": [0, 0.4], "punch": true}, {"text": "UNE SUPERNOVA.", "at": [0, 0.85]}]},
+  {"say": ["Aujourd'hui, ses restes forment la nébuleuse du Crabe."], "ghost": "CRABE", "kicker": "NÉBULEUSE DU CRABE · M1", "il": {"type": "blobToGalaxy"}, "lines": [{"text": "SES RESTES :", "at": [0, 0.2]}, {"text": "LA NÉBULEUSE", "at": [0, 0.6]}, {"text": "[DU CRABE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Et en son centre, ce qui reste de l'étoile tourne encore sur lui-même… environ trente fois par seconde."], "ghost": "PULSAR", "kicker": "PULSAR DU CRABE · ~30 TOURS/S", "il": {"type": "waves", "label": "PULSAR"}, "lines": [{"text": "EN SON CENTRE,", "at": [0, 0.1]}, {"text": "[30 TOURS]", "at": [0, 0.8], "punch": true}, {"text": "PAR SECONDE.", "at": [0, 0.95]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

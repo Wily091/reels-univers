@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Io, le monde le plus volcanique du système solaire",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Io, une lune de Jupiter à peine plus grande que notre Lune, possède des centaines de volcans 🌋\n\nCertaines fontaines de lave montent à des dizaines de kilomètres de haut !\n\nTu le savais ? 👇",
+ "hashtags": ["#io", "#jupiter", "#volcan", "#espace", "#univers", "#astronomie", "#lune", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/jupiter/jupiter-moons/io/"],
+ "scenes": [
+  {"say": ["Le monde le plus volcanique du système solaire… n'est pas la Terre."], "ghost": "VOLCANS", "il": {"type": "burst"}, "lines": [{"text": "LE PLUS", "at": [0, 0.05]}, {"text": "[VOLCANIQUE]", "at": [0, 0.3], "punch": true}, {"text": "N'EST PAS LA TERRE.", "at": [0, 0.8]}]},
+  {"say": ["C'est Io, une lune de Jupiter."], "hit": true, "ghost": "IO", "lines": [{"text": "IO.", "at": [0, 0.15], "punch": true, "max": 460}, {"text": "LUNE DE JUPITER.", "at": [0, 0.6]}]},
+  {"say": ["Elle est à peine plus grande que notre Lune."], "ghost": "TAILLE", "il": {"type": "sizeCompare", "big": "IO", "small": "LA LUNE", "ratio": 1.05}, "lines": [{"text": "À PEINE", "at": [0, 0.2], "max": 200}, {"text": "[PLUS GRANDE]", "at": [0, 0.45], "punch": true}, {"text": "QUE NOTRE LUNE.", "at": [0, 0.85]}]},
+  {"say": ["Et pourtant, elle possède des centaines de volcans."], "ghost": "CENTAINES", "kicker": "DES CENTAINES DE VOLCANS", "il": {"type": "moon", "label": "IO"}, "lines": [{"text": "DES", "at": [0, 0.4], "max": 200}, {"text": "[CENTAINES]", "at": [0, 0.6], "punch": true}, {"text": "DE VOLCANS.", "at": [0, 0.85]}]},
+  {"say": ["Certaines fontaines de lave montent à des dizaines de kilomètres de haut."], "ghost": "LAVE", "il": {"type": "thermo", "label": "FONTAINES DE LAVE", "level": 0.9}, "lines": [{"text": "DES FONTAINES", "at": [0, 0.15]}, {"text": "DE LAVE DE", "at": [0, 0.3]}, {"text": "[DIZAINES DE KM.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Pourquoi ?", "Parce qu'elle est prise dans un bras de fer."], "ghost": "?", "il": {"type": "question"}, "lines": [{"text": "POURQUOI ?", "at": 0}, {"text": "UN [BRAS DE FER.]", "at": [1, 0.7], "punch": true}]},
+  {"say": ["L'énorme gravité de Jupiter tire d'un côté…", "et les lunes voisines, Europe et Ganymède, tirent de l'autre."], "ghost": "GRAVITÉ", "kicker": "JUPITER · EUROPE · GANYMÈDE", "il": {"type": "orbit", "center": "JUPITER", "speed": 2}, "lines": [{"text": "[JUPITER]", "at": [0, 0.3], "punch": true, "max": 300}, {"text": "TIRE D'UN CÔTÉ…", "at": [0, 0.7]}, {"text": "SES VOISINES", "at": [1, 0.5], "gap": 30, "max": 150}, {"text": "DE L'AUTRE.", "at": [1, 0.9], "max": 150}]},
+  {"say": ["Son intérieur est malaxé en permanence… et fond."], "hit": true, "ghost": "FOND", "lines": [{"text": "MALAXÉE…", "at": [0, 0.2]}, {"text": "ELLE FOND.", "at": [0, 0.8], "punch": true, "max": 400}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

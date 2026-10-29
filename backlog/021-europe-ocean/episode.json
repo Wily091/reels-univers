@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Europe, la lune qui cache plus d'eau que la Terre",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Sous la glace d'Europe, une lune de Jupiter, se cacherait un océan salé contenant environ deux fois plus d'eau que tous les océans de la Terre 🌊🧊\n\nC'est l'un des endroits les plus prometteurs pour chercher la vie ailleurs.\n\nTu crois qu'on y trouvera quelque chose ? 👇",
+ "hashtags": ["#europe", "#jupiter", "#ocean", "#espace", "#univers", "#astronomie", "#vieextraterrestre", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/jupiter/jupiter-moons/europa/"],
+ "scenes": [
+  {"say": ["Il y a peut-être plus d'eau sous la glace d'une petite lune… que sur toute la Terre."], "ghost": "EUROPE", "kicker": "LUNE DE JUPITER", "il": {"type": "moon", "label": "EUROPE"}, "lines": [{"text": "PLUS D'EAU", "at": [0, 0.05]}, {"text": "SOUS LA GLACE", "at": [0, 0.25]}, {"text": "QUE SUR [LA TERRE ?]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Cette lune s'appelle Europe.", "Elle tourne autour de Jupiter."], "ghost": "JUPITER", "il": {"type": "orbit", "center": "JUPITER", "speed": 1.8}, "lines": [{"text": "[EUROPE]", "at": [0, 0.5], "punch": true, "max": 320}, {"text": "LUNE DE JUPITER.", "at": [1, 0.5]}]},
+  {"say": ["Sa surface est une croûte de glace.", "Mais en dessous, les scientifiques pensent qu'il y a un océan d'eau salée."], "ghost": "OCÉAN", "kicker": "OCÉAN SOUS LA GLACE", "il": {"type": "waves", "label": "OCÉAN SALÉ"}, "lines": [{"text": "SOUS LA GLACE :", "at": [1, 0.2]}, {"text": "[UN OCÉAN]", "at": [1, 0.75], "punch": true}, {"text": "D'EAU SALÉE.", "at": [1, 0.9]}]},
+  {"say": ["Et cet océan contiendrait environ deux fois plus d'eau que tous les océans de la Terre."], "hit": true, "ghost": "X2", "lines": [{"text": "DEUX FOIS", "at": [0, 0.4], "punch": true, "max": 380}, {"text": "L'EAU DE LA TERRE.", "at": [0, 0.8]}]},
+  {"say": ["Une lune plus petite que la nôtre… avec plus d'eau que notre planète."], "ghost": "PETITE", "il": {"type": "sizeCompare", "big": "TERRE", "small": "EUROPE", "ratio": 4.1}, "lines": [{"text": "PLUS PETITE", "at": [0, 0.1]}, {"text": "QUE NOTRE LUNE…", "at": [0, 0.35]}, {"text": "[PLUS D'EAU]", "at": [0, 0.75], "punch": true}, {"text": "QUE LA TERRE.", "at": [0, 0.9]}]},
+  {"say": ["De l'eau liquide, c'est l'un des ingrédients de la vie."], "ghost": "VIE", "il": {"type": "question"}, "lines": [{"text": "L'EAU LIQUIDE :", "at": [0, 0.2]}, {"text": "UN INGRÉDIENT", "at": [0, 0.6]}, {"text": "[DE LA VIE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Alors en octobre deux mille vingt-quatre, la NASA a lancé la sonde Europa Clipper pour l'étudier."], "ghost": "CLIPPER", "kicker": "EUROPA CLIPPER · LANCÉE LE 14/10/2024", "il": {"type": "rocket"}, "lines": [{"text": "LA SONDE", "at": [0, 0.6]}, {"text": "[EUROPA CLIPPER]", "at": [0, 0.75], "punch": true}, {"text": "EST EN ROUTE.", "at": [0, 0.95]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

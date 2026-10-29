@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Le Soleil n'a fait qu'une vingtaine de tours de la galaxie",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Le Soleil tourne autour du centre de la Voie lactée à environ 230 km/s… et il lui faut environ 230 millions d'années pour faire un tour 🌌\n\nC'est ce qu'on appelle une « année galactique ».\n\nTu le savais ? 👇",
+ "hashtags": ["#voielactee", "#galaxie", "#soleil", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#cosmos", "#dinosaures"],
+ "sources": ["https://www.livescience.com/how-long-galactic-year.html"],
+ "scenes": [
+  {"say": ["En ce moment, tu fonces à travers la galaxie à plus de huit cent mille kilomètres heure."], "ghost": "VITESSE", "kicker": "VITESSE DU SOLEIL · ~230 KM/S", "il": {"type": "tunnel"}, "lines": [{"text": "EN CE MOMENT,", "at": [0, 0.05]}, {"text": "TU FONCES À", "at": [0, 0.3]}, {"text": "[+800 000 KM/H]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 800000, "fmt": "[+{v} KM/H]", "dur": 0.9}}]},
+  {"say": ["Parce que le Soleil, et nous avec, tournons autour du centre de la Voie lactée."], "ghost": "VOIE LACTÉE", "il": {"type": "galaxy"}, "lines": [{"text": "NOUS TOURNONS", "at": [0, 0.4]}, {"text": "AUTOUR DE", "at": [0, 0.6]}, {"text": "[LA VOIE LACTÉE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Mais la galaxie est si grande qu'un seul tour prend environ deux cent trente millions d'années."], "ghost": "230 MA", "kicker": "UNE ANNÉE GALACTIQUE · ~230 MILLIONS D'ANNÉES", "il": {"type": "orbit", "center": "CENTRE GALACTIQUE", "speed": 0.2}, "lines": [{"text": "UN SEUL TOUR :", "at": [0, 0.4]}, {"text": "[230 MILLIONS]", "at": [0, 0.75], "punch": true}, {"text": "D'ANNÉES.", "at": [0, 0.95]}]},
+  {"say": ["On appelle ça une année galactique."], "hit": true, "ghost": "ANNÉE", "lines": [{"text": "UNE ANNÉE", "at": [0, 0.4], "punch": true, "max": 380}, {"text": "GALACTIQUE.", "at": [0, 0.7]}]},
+  {"say": ["La dernière fois que le Soleil était à cet endroit de son orbite… les premiers dinosaures commençaient à peine à apparaître."], "ghost": "DINOS", "kicker": "IL Y A ~230 MILLIONS D'ANNÉES · TRIAS", "il": {"type": "timeline", "left": "-230 MA", "leftSub": "PREMIERS DINOSAURES", "right": "AUJOURD'HUI", "rightSub": "UN TOUR PLUS TARD"}, "lines": [{"text": "UN TOUR PLUS TÔT,", "at": [0, 0.2]}, {"text": "LES PREMIERS", "at": [0, 0.7]}, {"text": "[DINOSAURES.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Et depuis sa naissance, le Soleil n'a fait qu'une vingtaine de tours."], "ghost": "20 TOURS", "kicker": "ÂGE DU SOLEIL · ~20 ANNÉES GALACTIQUES", "il": {"type": "sun"}, "lines": [{"text": "DEPUIS SA NAISSANCE,", "at": [0, 0.15]}, {"text": "[~20 TOURS.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["En années galactiques… le Soleil n'a qu'une vingtaine d'années."], "hit": true, "ghost": "20 ANS", "lines": [{"text": "LE SOLEIL A", "at": [0, 0.5]}, {"text": "20 ANS.", "at": [0, 0.85], "punch": true, "max": 420}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
