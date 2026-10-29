@@ -1,0 +1,74 @@
+name: Rendu du reel
+
+on:
+  push:
+    branches: [main]
+    paths: ['episodes/*/episode.json']
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Dossier de l'épisode (ex. episodes/2026-10-30)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rendu-reel
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Trouver l'épisode
+        id: ep
+        run: |
+          if [ -n "${{ github.event.inputs.episode }}" ]; then
+            EP="${{ github.event.inputs.episode }}"
+          else
+            EP=$(git diff --name-only HEAD~1 HEAD | grep -E '^episodes/[^/]+/episode\.json$' | tail -1 | xargs dirname)
+          fi
+          [ -n "$EP" ] || { echo "Aucun épisode modifié"; exit 1; }
+          echo "dir=$EP" >> "$GITHUB_OUTPUT"
+          echo "date=$(basename "$EP")" >> "$GITHUB_OUTPUT"
+          echo "Épisode : $EP"
+
+      - name: Vérifier la clé ElevenLabs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          [ -n "$ELEVENLABS_API_KEY" ] || { echo "::error::Secret ELEVENLABS_API_KEY manquant (Settings → Secrets and variables → Actions)"; exit 1; }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Dépendances
+        run: |
+          npm install --no-package-lock --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install --quiet numpy scipy
+
+      - name: Voix, rendu et mixage
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: bash engine/build.sh "${{ steps.ep.outputs.dir }}"
+
+      - name: Publier la vidéo (release publique)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="ep-${{ steps.ep.outputs.date }}"
+          B="${{ steps.ep.outputs.dir }}/build"
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" "$B/reel.mp4" "$B/cover.jpg" "$B/meta.json" \
+            --title "Épisode ${{ steps.ep.outputs.date }}" \
+            --notes "$(python3 -c "import json;print(json.load(open('${{ steps.ep.outputs.dir }}/episode.json'))['title'])")"
+          echo "Vidéo : https://github.com/${{ github.repository }}/releases/download/$TAG/reel.mp4"
