@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "L'astéroïde Apophis frôlera la Terre en 2029",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Le 13 avril 2029, l'astéroïde Apophis passera à environ 32 000 km de la surface de la Terre ☄️\n\nPlus près que certains satellites géostationnaires ! Et pas de panique : la NASA exclut tout risque d'impact pendant au moins 100 ans.\n\nTu seras au rendez-vous ? 👇",
+ "hashtags": ["#apophis", "#asteroide", "#espace", "#univers", "#astronomie", "#2029", "#science", "#lesaviezvous", "#nasa", "#planetarydefense"],
+ "sources": ["https://science.nasa.gov/solar-system/asteroids/apophis/"],
+ "scenes": [
+  {"say": ["Note bien cette date : le treize avril deux mille vingt-neuf."], "ghost": "2029", "kicker": "13 AVRIL 2029", "il": {"type": "clock", "forward": true}, "lines": [{"text": "NOTE CETTE DATE :", "at": [0, 0.15]}, {"text": "[13 AVRIL 2029]", "at": [0, 0.6], "punch": true}]},
+  {"say": ["Ce jour-là, un astéroïde va frôler la Terre."], "ghost": "APOPHIS", "il": {"type": "comet", "label": "APOPHIS"}, "lines": [{"text": "UN ASTÉROÏDE", "at": [0, 0.35]}, {"text": "[VA FRÔLER]", "at": [0, 0.6], "punch": true}, {"text": "LA TERRE.", "at": [0, 0.85]}]},
+  {"say": ["Son nom : Apophis."], "hit": true, "ghost": "APOPHIS", "lines": [{"text": "APOPHIS.", "at": [0, 0.4], "punch": true, "max": 420}]},
+  {"say": ["Il passera à environ trente-deux mille kilomètres de la surface."], "ghost": "32 000", "kicker": "DISTANCE · ~32 000 KM", "il": {"type": "distance", "label": "32 000 KM"}, "lines": [{"text": "À SEULEMENT", "at": [0, 0.15]}, {"text": "[32 000 KM]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 32000, "fmt": "[{v} KM]", "dur": 0.9}}]},
+  {"say": ["C'est plus près que certains satellites géostationnaires, qui tournent à trente-six mille kilomètres."], "ghost": "SATELLITES", "kicker": "SATELLITES GÉOSTATIONNAIRES · 36 000 KM", "il": {"type": "orbit", "center": "TERRE", "speed": 0.7}, "lines": [{"text": "PLUS PRÈS", "at": [0, 0.05]}, {"text": "QUE [CERTAINS]", "at": [0, 0.2]}, {"text": "[SATELLITES.]", "at": [0, 0.45], "punch": true}]},
+  {"say": ["Mais pas de panique."], "hit": true, "ghost": "CALME", "lines": [{"text": "PAS DE", "at": 0}, {"text": "PANIQUE.", "at": [0, 0.5], "punch": true, "max": 420}]},
+  {"say": ["La NASA est confiante : aucun risque d'impact avec la Terre pendant au moins cent ans."], "ghost": "100 ANS", "kicker": "NASA · DÉFENSE PLANÉTAIRE", "il": {"type": "globe", "label": "TERRE · EN SÉCURITÉ"}, "lines": [{"text": "AUCUN RISQUE", "at": [0, 0.45], "punch": true}, {"text": "D'IMPACT", "at": [0, 0.6]}, {"text": "[PENDANT 100 ANS.]", "at": [0, 0.9]}]},
+  {"say": ["Pour les scientifiques, ce sera une occasion rare d'observer un astéroïde de très près."], "ghost": "OBSERVER", "il": {"type": "telescope"}, "lines": [{"text": "UNE OCCASION", "at": [0, 0.4]}, {"text": "[RARE]", "at": [0, 0.55], "punch": true, "max": 300}, {"text": "DE L'OBSERVER.", "at": [0, 0.9]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

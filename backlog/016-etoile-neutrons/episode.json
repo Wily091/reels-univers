@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Un morceau d'étoile à neutrons de la taille d'un sucre pèse un milliard de tonnes",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Un morceau d'étoile à neutrons grand comme un sucre pèserait environ un milliard de tonnes sur Terre 🤯\n\nImagine la masse du Soleil compressée dans une boule d'environ 20 km.\n\nTu le savais ? 👇",
+ "hashtags": ["#etoileaneutrons", "#espace", "#univers", "#astronomie", "#astrophysique", "#science", "#lesaviezvous", "#nasa", "#cosmos", "#etoiles"],
+ "sources": ["https://imagine.gsfc.nasa.gov/science/objects/neutron_stars1.html"],
+ "scenes": [
+  {"say": ["Imagine un morceau de matière… de la taille d'un sucre."], "ghost": "SUCRE", "il": {"type": "question"}, "lines": [{"text": "UN MORCEAU", "at": [0, 0.15]}, {"text": "DE LA TAILLE", "at": [0, 0.6]}, {"text": "D'[UN SUCRE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Sur Terre, il pèserait environ un milliard de tonnes."], "hit": true, "ghost": "TONNES", "lines": [{"text": "1 MILLIARD", "at": [0, 0.35], "punch": true, "max": 380}, {"text": "DE TONNES.", "at": [0, 0.75]}]},
+  {"say": ["Ce morceau viendrait d'une étoile à neutrons."], "ghost": "NEUTRONS", "kicker": "ÉTOILE À NEUTRONS", "il": {"type": "starsPulse"}, "lines": [{"text": "UNE ÉTOILE", "at": [0, 0.4]}, {"text": "[À NEUTRONS.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["C'est ce qui reste quand une étoile géante explose en supernova…", "et que son cœur s'effondre sur lui-même."], "ghost": "SUPERNOVA", "kicker": "RESTE DE SUPERNOVA", "il": {"type": "burst"}, "lines": [{"text": "UNE ÉTOILE", "at": [0, 0.3]}, {"text": "[EXPLOSE…]", "at": [0, 0.75], "punch": true}, {"text": "SON CŒUR", "at": [1, 0.25], "gap": 30}, {"text": "[S'EFFONDRE.]", "at": [1, 0.7]}]},
+  {"say": ["Résultat : plus que la masse du Soleil, écrasée dans une boule d'environ vingt kilomètres."], "ghost": "20 KM", "kicker": "DIAMÈTRE · ENVIRON 20 KM", "il": {"type": "sizeCompare", "big": "SOLEIL", "small": "ÉTOILE À NEUTRONS", "ratio": 60}, "lines": [{"text": "LA MASSE", "at": [0, 0.15]}, {"text": "DU [SOLEIL]", "at": [0, 0.35]}, {"text": "DANS [20 KM.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["La taille d'une ville."], "hit": true, "ghost": "VILLE", "lines": [{"text": "LA TAILLE", "at": [0, 0.1]}, {"text": "D'UNE VILLE.", "at": [0, 0.6], "punch": true, "max": 380}]},
+  {"say": ["Certaines tournent sur elles-mêmes des centaines de fois par seconde…", "et balaient l'espace de faisceaux, comme des phares cosmiques."], "ghost": "PULSAR", "kicker": "PULSARS", "il": {"type": "waves", "label": "PULSAR"}, "lines": [{"text": "DES CENTAINES", "at": [0, 0.4]}, {"text": "DE TOURS", "at": [0, 0.6]}, {"text": "[PAR SECONDE.]", "at": [0, 0.85], "punch": true}, {"text": "DES [PHARES]", "at": [1, 0.75], "gap": 30}, {"text": "COSMIQUES.", "at": [1, 0.9]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

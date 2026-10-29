@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "La face cachée de la Lune n'est pas sombre",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "On parle de « face cachée » de la Lune… mais elle n'est pas plongée dans le noir 🌗\n\nElle reçoit autant de lumière du Soleil que l'autre face. Elle est juste toujours tournée à l'opposé de nous.\n\nTu croyais qu'elle était sombre ? 👇",
+ "hashtags": ["#lune", "#facecachee", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#cosmos", "#idéesreçues"],
+ "sources": ["https://science.nasa.gov/moon/facts/"],
+ "scenes": [
+  {"say": ["On t'a peut-être dit que la face cachée de la Lune est toujours plongée dans le noir."], "ghost": "FACE CACHÉE", "kicker": "IDÉE REÇUE", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "LA FACE CACHÉE", "at": [0, 0.45]}, {"text": "DE LA LUNE", "at": [0, 0.6]}, {"text": "[DANS LE NOIR ?]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["C'est faux."], "hit": true, "ghost": "FAUX", "lines": [{"text": "C'EST FAUX.", "at": [0, 0.2], "punch": true, "max": 420}]},
+  {"say": ["Elle reçoit autant de lumière du Soleil que l'autre face."], "ghost": "LUMIÈRE", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "LUNE"}, "lines": [{"text": "ELLE REÇOIT", "at": [0, 0.1]}, {"text": "[AUTANT DE SOLEIL]", "at": [0, 0.5], "punch": true}, {"text": "QUE L'AUTRE FACE.", "at": [0, 0.85]}]},
+  {"say": ["Elle est juste cachée… de nous."], "ghost": "CACHÉE", "il": {"type": "question"}, "lines": [{"text": "ELLE EST CACHÉE…", "at": [0, 0.2]}, {"text": "[DE NOUS.]", "at": [0, 0.8], "punch": true, "max": 300}]},
+  {"say": ["La Lune tourne sur elle-même exactement au même rythme qu'elle tourne autour de la Terre."], "ghost": "ROTATION", "kicker": "ROTATION SYNCHRONE", "il": {"type": "orbit", "center": "TERRE", "speed": 1}, "lines": [{"text": "ELLE TOURNE", "at": [0, 0.1]}, {"text": "SUR ELLE-MÊME", "at": [0, 0.3]}, {"text": "[AU MÊME RYTHME]", "at": [0, 0.6], "punch": true}, {"text": "QUE SON ORBITE.", "at": [0, 0.9]}]},
+  {"say": ["Résultat : elle nous montre toujours la même face."], "hit": true, "ghost": "MÊME FACE", "lines": [{"text": "TOUJOURS", "at": [0, 0.35]}, {"text": "LA MÊME FACE.", "at": [0, 0.75], "punch": true, "max": 380}]},
+  {"say": ["Quand c'est la nouvelle Lune pour nous… la face cachée, elle, est en plein soleil."], "ghost": "SOLEIL", "il": {"type": "sun"}, "lines": [{"text": "À LA NOUVELLE LUNE,", "at": [0, 0.25]}, {"text": "LA FACE CACHÉE", "at": [0, 0.6]}, {"text": "[EST EN PLEIN SOLEIL.]", "at": [0, 0.95], "punch": true}]},
+  {"say": ["On ne l'a vue pour la première fois qu'en mille neuf cent cinquante-neuf, grâce à une sonde soviétique."], "ghost": "1959", "kicker": "PREMIÈRES IMAGES · 1959", "il": {"type": "rocket"}, "lines": [{"text": "PREMIÈRES IMAGES :", "at": [0, 0.35]}, {"text": "[1959]", "at": [0, 0.7], "punch": true, "max": 300}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

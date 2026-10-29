@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "16 levers de soleil par jour dans la Station spatiale",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Dans la Station spatiale internationale, les astronautes voient environ 16 levers et 16 couchers de soleil chaque jour 🌅🛰️\n\nLa station fait le tour de la Terre en environ 90 minutes, à près de 28 000 km/h.\n\nTu aimerais voir ça ? 👇",
+ "hashtags": ["#iss", "#stationspatiale", "#astronaute", "#espace", "#univers", "#terre", "#science", "#lesaviezvous", "#nasa", "#thomaspesquet"],
+ "sources": ["https://www.nasa.gov/image-article/first-hint-of-sunrise-from-space", "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"],
+ "scenes": [
+  {"say": ["Toi, tu vois un lever de soleil par jour."], "ghost": "MATIN", "il": {"type": "horizon"}, "lines": [{"text": "TOI :", "at": [0, 0.05], "max": 200}, {"text": "[1 LEVER]", "at": [0, 0.4], "punch": true}, {"text": "DE SOLEIL PAR JOUR.", "at": [0, 0.75]}]},
+  {"say": ["Les astronautes de la Station spatiale internationale… en voient environ seize."], "ghost": "ISS", "kicker": "STATION SPATIALE INTERNATIONALE", "il": {"type": "orbit", "center": "TERRE", "speed": 2.5}, "lines": [{"text": "LES ASTRONAUTES :", "at": [0, 0.3]}, {"text": "[16 LEVERS]", "at": [0, 0.85], "punch": true, "count": {"from": 0, "to": 16, "fmt": "[{v} LEVERS]", "dur": 0.7}}]},
+  {"say": ["Seize levers.", "Et seize couchers."], "hit": true, "ghost": "16", "lines": [{"text": "16 LEVERS.", "at": 0, "punch": true}, {"text": "16 COUCHERS.", "at": [1, 0.1], "punch": true}]},
+  {"say": ["Parce que la station fait le tour complet de la Terre en environ quatre-vingt-dix minutes."], "ghost": "90 MIN", "kicker": "UNE ORBITE · ~90 MIN", "il": {"type": "clock", "forward": true}, "lines": [{"text": "UN TOUR DE LA TERRE :", "at": [0, 0.4]}, {"text": "[90 MINUTES]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Elle file à près de vingt-huit mille kilomètres heure."], "ghost": "VITESSE", "kicker": "VITESSE · ~28 000 KM/H", "il": {"type": "tunnel"}, "lines": [{"text": "SA VITESSE :", "at": [0, 0.15]}, {"text": "[28 000 KM/H]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 28000, "fmt": "[{v} KM/H]", "dur": 0.9}}]},
+  {"say": ["En une seule journée, elle parcourt l'équivalent d'un aller-retour jusqu'à la Lune."], "ghost": "LUNE", "il": {"type": "lightTravel", "from": "TERRE", "to": "LUNE"}, "lines": [{"text": "EN UN JOUR :", "at": [0, 0.15]}, {"text": "UN [ALLER-RETOUR]", "at": [0, 0.6], "punch": true}, {"text": "JUSQU'À LA LUNE.", "at": [0, 0.9]}]},
+  {"say": ["Et depuis novembre deux mille, il y a toujours eu des humains à bord."], "ghost": "2000", "kicker": "OCCUPÉE EN CONTINU DEPUIS 2000", "il": {"type": "rocket"}, "lines": [{"text": "DEPUIS [2000],", "at": [0, 0.3]}, {"text": "TOUJOURS", "at": [0, 0.6]}, {"text": "[DES HUMAINS À BORD.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
