@@ -1,8 +1,8 @@
 {
-  "instagram_username": null,
-  "metricool_blog_id": null,
+  "instagram_username": "universenbref",
+  "metricool_blog_id": "7007176",
   "timezone": "Europe/Paris",
   "voice_id": "pFZP5JQG7iQjIQuC4Bku",
   "theme": "nebuleuse",
-  "never_post_to": ["universenbref"]
+  "never_post_to": []
 }
