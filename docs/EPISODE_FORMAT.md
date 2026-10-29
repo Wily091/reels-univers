@@ -11,7 +11,7 @@ Un épisode = une suite de **scènes**. Chaque scène a :
   "date": "2026-10-30",
   "title": "Titre interne",
   "theme": "nebuleuse",
-  "voice": { "id": "pFZP5JQG7iQjIQuC4Bku", "model": "eleven_multilingual_v2", "speed": 1.08 },
+  "voice": { "id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1 },
   "caption": "Légende Instagram (2–4 phrases, 1–2 emojis max, une question pour les commentaires)",
   "hashtags": ["#espace", "#univers", "..."],
   "sources": ["https://science.nasa.gov/..."],
