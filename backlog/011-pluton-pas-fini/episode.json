@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Pluton n'a pas fini un seul tour depuis sa découverte",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Pluton a été découverte en 1930… et elle n'a toujours pas fait un seul tour complet du Soleil depuis 🌑\n\nIl lui faut 248 ans. Prochain anniversaire : vers 2178.\n\nTu le savais ? 👇",
+ "hashtags": ["#pluton", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetenaine", "#science", "#lesaviezvous", "#nasa", "#newhorizons"],
+ "sources": ["https://science.nasa.gov/dwarf-planets/pluto/facts/", "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"],
+ "scenes": [
+  {"say": ["Depuis qu'on l'a découverte, Pluton n'a jamais fait un seul tour du Soleil."], "ghost": "PLUTON", "kicker": "PLANÈTE NAINE · CEINTURE DE KUIPER", "il": {"type": "moon", "label": "PLUTON"}, "lines": [{"text": "PLUTON N'A", "at": [0, 0.35]}, {"text": "JAMAIS FAIT", "at": [0, 0.55]}, {"text": "[UN SEUL TOUR.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Elle a été découverte en mille neuf cent trente."], "ghost": "1930", "kicker": "DÉCOUVERTE · 1930", "il": {"type": "telescope"}, "lines": [{"text": "DÉCOUVERTE EN", "at": [0, 0.2]}, {"text": "[1930]", "at": [0, 0.65], "punch": true, "max": 300}]},
+  {"say": ["Mais il lui faut deux cent quarante-huit ans pour faire le tour du Soleil."], "ghost": "248 ANS", "kicker": "UNE ANNÉE SUR PLUTON · 248 ANS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.25}, "lines": [{"text": "UN TOUR DU SOLEIL :", "at": [0, 0.4]}, {"text": "[248 ANS]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 248, "fmt": "[{v} ANS]", "dur": 0.9}}]},
+  {"say": ["Son premier anniversaire depuis sa découverte ? Vers l'an deux mille cent soixante-dix-huit."], "hit": true, "ghost": "2178", "lines": [{"text": "PREMIER TOUR :", "at": [0, 0.2]}, {"text": "VERS 2178.", "at": [0, 0.7], "punch": true, "max": 380}]},
+  {"say": ["Et Pluton est minuscule.", "Elle est plus petite que notre Lune."], "ghost": "PETITE", "kicker": "DIAMÈTRE · 2 376 KM", "il": {"type": "sizeCompare", "big": "LA LUNE", "small": "PLUTON", "ratio": 1.46}, "lines": [{"text": "PLUS PETITE", "at": [1, 0.3], "punch": true}, {"text": "QUE [NOTRE LUNE.]", "at": [1, 0.7]}]},
+  {"say": ["En deux mille six, elle a d'ailleurs perdu son statut de planète."], "ghost": "2006", "kicker": "UNION ASTRONOMIQUE INTERNATIONALE · 2006", "il": {"type": "crossStar", "sw": [0, 0.6]}, "lines": [{"text": "EN [2006],", "at": [0, 0.1]}, {"text": "ELLE PERD", "at": [0, 0.5]}, {"text": "SON STATUT.", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Mais en deux mille quinze, la sonde New Horizons a découvert un détail touchant à sa surface :", "un immense cœur, fait de glace d'azote."], "ghost": "CŒUR", "kicker": "NEW HORIZONS · 14 JUILLET 2015", "il": {"type": "globe", "label": "PLAINES D'AZOTE GELÉ"}, "lines": [{"text": "UN IMMENSE", "at": [1, 0.1]}, {"text": "[CŒUR]", "at": [1, 0.35], "punch": true, "max": 300}, {"text": "DE GLACE D'AZOTE.", "at": [1, 0.75]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Le Soleil pèse presque tout le système solaire",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Le Soleil contient 99,8 % de toute la masse du système solaire ☀️\n\nToutes les planètes, les lunes, les astéroïdes et les comètes réunis ? À peine 0,2 %.\n\nTu le savais ? 👇",
+ "hashtags": ["#soleil", "#espace", "#univers", "#astronomie", "#systemesolaire", "#etoile", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/sun/facts/"],
+ "scenes": [
+  {"say": ["Si tu mettais tout le système solaire sur une balance…"], "ghost": "BALANCE", "il": {"type": "orbit", "center": "SOLEIL"}, "lines": [{"text": "TOUT LE", "at": [0, 0.15]}, {"text": "[SYSTÈME SOLAIRE]", "at": [0, 0.4], "punch": true}, {"text": "SUR UNE BALANCE…", "at": [0, 0.8]}]},
+  {"say": ["le Soleil pèserait à lui seul quatre-vingt-dix-neuf virgule huit pour cent du total."], "ghost": "99,8 %", "kicker": "MASSE DU SOLEIL · 99,8 %", "il": {"type": "sun"}, "lines": [{"text": "LE SOLEIL :", "at": [0, 0.1]}, {"text": "[99,8 %]", "at": [0, 0.5], "punch": true, "count": {"from": 0, "to": 99.8, "dec": 1, "fmt": "[{v} %]", "dur": 0.9}}]},
+  {"say": ["Tout le reste ?", "Planètes, lunes, astéroïdes, comètes…"], "ghost": "RESTE", "il": {"type": "comet"}, "lines": [{"text": "TOUT LE RESTE ?", "at": 0}, {"text": "PLANÈTES, LUNES,", "at": [1, 0.2], "max": 150}, {"text": "COMÈTES…", "at": [1, 0.75], "max": 150}]},
+  {"say": ["À peine zéro virgule deux pour cent."], "hit": true, "ghost": "0,2 %", "lines": [{"text": "À PEINE", "at": 0}, {"text": "0,2 %.", "at": [0, 0.45], "punch": true, "max": 460}]},
+  {"say": ["Et Jupiter représente l'essentiel de ces miettes."], "ghost": "JUPITER", "il": {"type": "planet", "label": "JUPITER"}, "lines": [{"text": "ET L'ESSENTIEL :", "at": [0, 0.15]}, {"text": "[JUPITER.]", "at": [0, 0.3], "punch": true}]},
+  {"say": ["Il faudrait plus de trois cent trente mille Terres pour égaler la masse du Soleil."], "ghost": "330 000", "kicker": "MASSE · 330 000 TERRES", "il": {"type": "sizeCompare", "big": "SOLEIL", "small": "TERRE", "ratio": 109}, "lines": [{"text": "SA MASSE :", "at": [0, 0.15]}, {"text": "[330 000 TERRES]", "at": [0, 0.55], "punch": true, "count": {"from": 0, "to": 330000, "fmt": "[{v} TERRES]", "dur": 0.9}}]},
+  {"say": ["Et environ un million trois cent mille Terres pour remplir son volume."], "ghost": "VOLUME", "kicker": "VOLUME · 1,3 MILLION DE TERRES", "il": {"type": "sun"}, "lines": [{"text": "POUR LE REMPLIR :", "at": [0, 0.2]}, {"text": "[1,3 MILLION]", "at": [0, 0.5], "punch": true}, {"text": "DE TERRES.", "at": [0, 0.85]}]},
+  {"say": ["Et pourtant, à l'échelle de la galaxie… c'est une étoile tout à fait ordinaire."], "ghost": "ORDINAIRE", "kicker": "NAINE JAUNE", "il": {"type": "galaxy"}, "lines": [{"text": "UNE ÉTOILE", "at": [0, 0.6]}, {"text": "[ORDINAIRE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

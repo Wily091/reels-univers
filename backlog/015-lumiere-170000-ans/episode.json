@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "La lumière du Soleil a mis des milliers d'années à sortir",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "La lumière du Soleil met environ 8 minutes à nous atteindre… mais son énergie a mis environ 170 000 ans à remonter du cœur jusqu'à la surface ☀️\n\nLa chaleur que tu sens sur ta peau est née bien avant l'Histoire humaine.\n\nTu le savais ? 👇",
+ "hashtags": ["#soleil", "#lumiere", "#espace", "#univers", "#astronomie", "#physique", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/sun/facts/"],
+ "scenes": [
+  {"say": ["La lumière du Soleil met environ huit minutes pour arriver jusqu'à toi."], "ghost": "8 MIN", "kicker": "TERRE - SOLEIL · 150 MILLIONS DE KM", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "TERRE"}, "lines": [{"text": "DU SOLEIL À TOI :", "at": [0, 0.3]}, {"text": "[8 MINUTES]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Mais ce n'est que la fin du voyage."], "hit": true, "ghost": "VOYAGE", "lines": [{"text": "CE N'EST QUE", "at": [0, 0.1]}, {"text": "LA FIN.", "at": [0, 0.6], "punch": true, "max": 420}]},
+  {"say": ["Cette énergie est née au cœur du Soleil, où il fait plus de quinze millions de degrés."], "ghost": "CŒUR", "kicker": "CŒUR · 15 MILLIONS °C", "il": {"type": "sun"}, "lines": [{"text": "AU CŒUR", "at": [0, 0.35]}, {"text": "DU SOLEIL :", "at": [0, 0.5]}, {"text": "[15 MILLIONS °C]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Et pour remonter jusqu'à la surface, elle rebondit d'atome en atome…", "pendant environ cent soixante-dix mille ans."], "ghost": "170 000", "kicker": "DU CŒUR À LA SURFACE · ~170 000 ANS", "il": {"type": "tunnel"}, "lines": [{"text": "ELLE REBONDIT", "at": [0, 0.6]}, {"text": "PENDANT", "at": [1, 0.05], "max": 200}, {"text": "[170 000 ANS]", "at": [1, 0.4], "punch": true, "count": {"from": 0, "to": 170000, "fmt": "[{v} ANS]", "dur": 1}}]},
+  {"say": ["Cent soixante-dix mille ans."], "hit": true, "ghost": "170 000", "lines": [{"text": "170 000", "at": [0, 0.1], "punch": true, "max": 400}, {"text": "ANS.", "at": [0, 0.6], "max": 400}]},
+  {"say": ["Puis à peine huit minutes pour traverser l'espace jusqu'à la Terre."], "ghost": "ESPACE", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "TERRE"}, "lines": [{"text": "PUIS", "at": 0, "max": 200}, {"text": "[8 MINUTES]", "at": [0, 0.3], "punch": true}, {"text": "JUSQU'À LA TERRE.", "at": [0, 0.8]}]},
+  {"say": ["Alors la chaleur que tu sens sur ta peau a commencé son voyage… bien avant l'invention de l'écriture."], "ghost": "PEAU", "kicker": "L'ÉCRITURE · IL Y A ~5 000 ANS", "il": {"type": "timeline", "left": "-170 000 ANS", "leftSub": "AU CŒUR", "right": "AUJOURD'HUI", "rightSub": "SUR TA PEAU"}, "lines": [{"text": "LA CHALEUR", "at": [0, 0.05]}, {"text": "SUR TA PEAU", "at": [0, 0.2]}, {"text": "EST PARTIE", "at": [0, 0.45]}, {"text": "[AVANT L'ÉCRITURE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

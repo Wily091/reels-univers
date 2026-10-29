@@ -15,6 +15,14 @@ OUTRO = {
               {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
 if not ep["scenes"] or ep["scenes"][-1].get("ghost") != "UNIVERS":
     ep["scenes"].append(OUTRO)
+import re
+def idx(spec):
+    return spec if isinstance(spec, int) else spec[0] if isinstance(spec, list) else (spec or {}).get("phrase", 0) if isinstance(spec, dict) else 0
+for sc in ep["scenes"]:
+    need = max([idx(L.get("at", 0)) for L in sc.get("lines", [])] + [idx(L["strike"]) for L in sc.get("lines", []) if "strike" in L] + [idx(sc.get("il", {}).get("sw", 0))])
+    if need >= len(sc["say"]) and len(sc["say"]) == 1 and isinstance(sc["say"][0], str):
+        parts = re.split(r"(?<=[.?!…:])\s+", sc["say"][0])
+        if len(parts) > need: sc["say"] = parts
 order = ["date", "title", "theme", "voice", "caption", "hashtags", "sources", "scenes"]
 ep = {k: ep[k] for k in order if k in ep} | {k: v for k, v in ep.items() if k not in order}
 def dump(ep):

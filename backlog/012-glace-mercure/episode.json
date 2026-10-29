@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Il y a peut-être de la glace sur Mercure",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Mercure est la planète la plus proche du Soleil… et pourtant, elle cacherait de la glace d'eau ❄️☀️\n\nAu fond de cratères polaires, dans une ombre permanente.\n\nTu l'aurais cru ? 👇",
+ "hashtags": ["#mercure", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetes", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/mercury/facts/"],
+ "scenes": [
+  {"say": ["La planète la plus proche du Soleil… pourrait cacher de la glace."], "ghost": "MERCURE", "kicker": "PREMIÈRE PLANÈTE DU SYSTÈME SOLAIRE", "il": {"type": "sun"}, "lines": [{"text": "LA PLUS PROCHE", "at": [0, 0.15]}, {"text": "DU SOLEIL…", "at": [0, 0.35]}, {"text": "[DE LA GLACE ?]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Sur Mercure, le jour, il peut faire quatre cent trente degrés."], "ghost": "430 °C", "kicker": "JOUR · JUSQU'À 430 °C", "il": {"type": "thermo", "label": "+430 °C", "level": 0.95}, "lines": [{"text": "LE JOUR :", "at": [0, 0.2]}, {"text": "[+430 °C]", "at": [0, 0.7], "punch": true, "count": {"from": 0, "to": 430, "fmt": "[+{v} °C]", "dur": 0.8}}]},
+  {"say": ["Et la nuit… moins cent quatre-vingts."], "hit": true, "ghost": "-180", "lines": [{"text": "LA NUIT :", "at": 0}, {"text": "-180 °C.", "at": [0, 0.5], "punch": true, "max": 400}]},
+  {"say": ["Pas d'atmosphère pour garder la chaleur.", "Alors tout s'échappe dès que le Soleil se couche."], "ghost": "VIDE", "kicker": "PAS D'ATMOSPHÈRE", "il": {"type": "planet", "label": "MERCURE"}, "lines": [{"text": "PAS", "at": [0, 0.05], "max": 200}, {"text": "[D'ATMOSPHÈRE.]", "at": [0, 0.4], "punch": true}, {"text": "LA CHALEUR S'ENFUIT.", "at": [1, 0.5], "gap": 30, "max": 150}]},
+  {"say": ["Mais aux pôles, il existe des cratères si profonds que la lumière du Soleil n'y entre jamais."], "ghost": "OMBRE", "kicker": "PÔLES · OMBRE PERMANENTE", "il": {"type": "moon", "label": "CRATÈRES POLAIRES"}, "lines": [{"text": "DES CRATÈRES", "at": [0, 0.3]}, {"text": "OÙ LE SOLEIL", "at": [0, 0.6]}, {"text": "[N'ENTRE JAMAIS.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Et au fond de cette ombre éternelle… il y aurait de la glace d'eau."], "ghost": "GLACE", "il": {"type": "exclaim"}, "lines": [{"text": "DANS L'OMBRE…", "at": [0, 0.2]}, {"text": "[DE LA GLACE]", "at": [0, 0.7], "punch": true}, {"text": "[D'EAU.]", "at": [0, 0.9]}]},
+  {"say": ["De la glace… sur la planète la plus proche du Soleil."], "hit": true, "ghost": "GLACE", "lines": [{"text": "DE LA GLACE", "at": [0, 0.05], "punch": true}, {"text": "PRÈS DU SOLEIL.", "at": [0, 0.6]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
