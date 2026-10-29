@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "La Terre est plus proche du Soleil en janvier",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Idée reçue : il fait chaud en été parce qu'on est plus près du Soleil. Faux ! La Terre est au plus près du Soleil… début janvier ☀️❄️\n\nLes saisons viennent de l'inclinaison de la Terre, pas de sa distance au Soleil.\n\nTu le savais ? 👇",
+ "hashtags": ["#saisons", "#terre", "#soleil", "#espace", "#astronomie", "#science", "#lesaviezvous", "#ideesrecues", "#univers", "#hiver"],
+ "sources": ["https://earthsky.org/tonight/earth-comes-closest-to-sun-every-year-in-early-january/"],
+ "scenes": [
+  {"say": ["En été, il fait chaud parce que la Terre est plus proche du Soleil ?"], "ghost": "ÉTÉ", "kicker": "IDÉE REÇUE", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.8}, "lines": [{"text": "L'ÉTÉ, ON EST", "at": [0, 0.3]}, {"text": "PLUS PRÈS", "at": [0, 0.6]}, {"text": "[DU SOLEIL ?]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["C'est faux."], "hit": true, "ghost": "FAUX", "lines": [{"text": "C'EST FAUX.", "at": [0, 0.1], "punch": true, "max": 420}]},
+  {"say": ["La Terre est au plus près du Soleil… au début du mois de janvier."], "ghost": "JANVIER", "kicker": "PÉRIHÉLIE · DÉBUT JANVIER", "il": {"type": "sun"}, "lines": [{"text": "AU PLUS PRÈS", "at": [0, 0.2]}, {"text": "DU SOLEIL :", "at": [0, 0.45]}, {"text": "[EN JANVIER.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["En plein hiver, pour nous."], "hit": true, "ghost": "HIVER", "lines": [{"text": "EN PLEIN", "at": [0, 0.2]}, {"text": "HIVER.", "at": [0, 0.6], "punch": true, "max": 440}]},
+  {"say": ["Elle est alors environ deux millions et demi de kilomètres plus proche qu'en juillet."], "ghost": "2,5 M KM", "kicker": "~2,5 MILLIONS DE KM DE DIFFÉRENCE", "il": {"type": "distance", "label": "-2,5 MILLIONS DE KM"}, "lines": [{"text": "ENVIRON", "at": [0, 0.05], "max": 200}, {"text": "[2,5 MILLIONS DE KM]", "at": [0, 0.4], "punch": true}, {"text": "PLUS PROCHE.", "at": [0, 0.8]}]},
+  {"say": ["Ce qui fait les saisons, c'est l'inclinaison de la Terre."], "ghost": "23°", "kicker": "INCLINAISON · 23,4°", "il": {"type": "globe", "label": "AXE INCLINÉ · 23°"}, "lines": [{"text": "LES SAISONS ?", "at": [0, 0.15]}, {"text": "[L'INCLINAISON]", "at": [0, 0.6], "punch": true}, {"text": "DE LA TERRE.", "at": [0, 0.9]}]},
+  {"say": ["En été, notre hémisphère penche vers le Soleil : ses rayons arrivent plus droits, et les journées sont plus longues."], "ghost": "RAYONS", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "TERRE"}, "lines": [{"text": "DES RAYONS", "at": [0, 0.5]}, {"text": "[PLUS DROITS]", "at": [0, 0.7], "punch": true}, {"text": "ET DES JOURS PLUS LONGS.", "at": [0, 0.95], "max": 150}]},
+  {"say": ["Et pendant ce temps, en Australie… c'est l'hiver."], "hit": true, "ghost": "AUSTRALIE", "lines": [{"text": "EN AUSTRALIE,", "at": [0, 0.4]}, {"text": "C'EST L'HIVER.", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

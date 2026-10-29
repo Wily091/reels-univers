@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Tu fonces autour du Soleil à plus de 100 000 km/h",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Même assis sur ton canapé, tu tournes autour du Soleil à environ 107 000 km/h 🌍💨\n\nLa Terre parcourt près d'un milliard de km par an, à environ 150 millions de km du Soleil.\n\nTu le sentais ? 😄👇",
+ "hashtags": ["#terre", "#vitesse", "#soleil", "#espace", "#univers", "#astronomie", "#physique", "#science", "#lesaviezvous", "#cosmos"],
+ "sources": ["https://nssdc.gsfc.nasa.gov/planetary/factsheet/", "https://science.nasa.gov/earth/facts/"],
+ "scenes": [
+  {"say": ["Là, maintenant, tu ne bouges pas ?"], "ghost": "IMMOBILE", "il": {"type": "question"}, "lines": [{"text": "LÀ, MAINTENANT,", "at": [0, 0.1]}, {"text": "[TU NE BOUGES PAS ?]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["En réalité, tu fonces autour du Soleil à environ cent sept mille kilomètres heure."], "ghost": "107 000", "kicker": "VITESSE ORBITALE · ~107 000 KM/H", "il": {"type": "orbit", "center": "SOLEIL", "speed": 1.5}, "lines": [{"text": "TU FONCES À", "at": [0, 0.3]}, {"text": "[107 000 KM/H]", "at": [0, 0.8], "punch": true, "count": {"from": 0, "to": 107000, "fmt": "[{v} KM/H]", "dur": 0.9}}]},
+  {"say": ["Environ trente kilomètres… chaque seconde."], "hit": true, "ghost": "30 KM/S", "lines": [{"text": "30 KM", "at": [0, 0.3], "punch": true, "max": 420}, {"text": "PAR SECONDE.", "at": [0, 0.8]}]},
+  {"say": ["Parce que la Terre fait le tour du Soleil en un an…", "et ce tour mesure presque un milliard de kilomètres."], "ghost": "1 MD KM", "kicker": "UN TOUR · ~940 MILLIONS DE KM", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.8}, "lines": [{"text": "UN TOUR PAR AN…", "at": [0, 0.5]}, {"text": "PRESQUE", "at": [1, 0.4], "max": 200}, {"text": "[1 MILLIARD DE KM.]", "at": [1, 0.8], "punch": true}]},
+  {"say": ["Alors pourquoi tu ne sens rien ?"], "ghost": "?", "il": {"type": "question"}, "lines": [{"text": "POURQUOI", "at": [0, 0.1]}, {"text": "[TU NE SENS RIEN ?]", "at": [0, 0.6], "punch": true}]},
+  {"say": ["Parce que tout bouge avec toi, à la même vitesse : le sol, l'air, les océans.", "Comme dans un avion qui vole sans secousse."], "ghost": "AVION", "il": {"type": "globe", "label": "TOUT BOUGE AVEC TOI"}, "lines": [{"text": "TOUT BOUGE", "at": [0, 0.3]}, {"text": "[AVEC TOI.]", "at": [0, 0.5], "punch": true}, {"text": "COMME DANS UN AVION.", "at": [1, 0.5], "gap": 30}]},
+  {"say": ["Bon voyage."], "hit": true, "ghost": "VOYAGE", "lines": [{"text": "BON", "at": 0}, {"text": "VOYAGE.", "at": [0, 0.4], "punch": true, "max": 440}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

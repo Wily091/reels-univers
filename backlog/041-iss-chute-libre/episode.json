@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Dans la Station spatiale, la gravité est presque la même que sur Terre",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Idée reçue : il n'y a pas de gravité dans la Station spatiale. Faux ! À 400 km d'altitude, la gravité vaut encore environ 90 % de celle au sol 🛰️\n\nSi les astronautes flottent, c'est parce qu'ils sont en chute libre permanente autour de la Terre.\n\nTu le savais ? 👇",
+ "hashtags": ["#iss", "#gravite", "#astronaute", "#espace", "#physique", "#science", "#lesaviezvous", "#univers", "#ideesrecues", "#stationspatiale"],
+ "sources": ["https://www.thenakedscientists.com/articles/questions/what-altitude-does-weightlessness-begin", "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"],
+ "scenes": [
+  {"say": ["Dans la Station spatiale, les astronautes flottent… parce qu'il n'y a pas de gravité ?"], "ghost": "GRAVITÉ", "kicker": "IDÉE REÇUE", "il": {"type": "orbit", "center": "TERRE", "speed": 2.5}, "lines": [{"text": "ILS FLOTTENT", "at": [0, 0.3]}, {"text": "CAR IL N'Y A", "at": [0, 0.6]}, {"text": "[PAS DE GRAVITÉ ?]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Faux."], "hit": true, "ghost": "FAUX", "lines": [{"text": "FAUX.", "at": [0, 0.05], "punch": true, "max": 460}]},
+  {"say": ["À cette altitude, la gravité est encore d'environ quatre-vingt-dix pour cent de celle au sol."], "ghost": "90 %", "kicker": "GRAVITÉ À BORD · ~90 %", "il": {"type": "thermo", "label": "90 %", "level": 0.9}, "lines": [{"text": "LA GRAVITÉ :", "at": [0, 0.3]}, {"text": "[~90 %]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 90, "fmt": "[~{v} %]", "dur": 0.8}}, {"text": "DE CELLE AU SOL.", "at": [0, 0.95]}]},
+  {"say": ["Alors pourquoi ils flottent ?", "Parce qu'ils tombent."], "ghost": "TOMBER", "il": {"type": "question"}, "lines": [{"text": "POURQUOI ILS FLOTTENT ?", "at": [0, 0.2], "max": 150}, {"text": "[ILS TOMBENT.]", "at": [1, 0.5], "punch": true}]},
+  {"say": ["La station tombe en permanence vers la Terre.", "Mais elle va si vite… qu'elle rate le sol, en continu."], "ghost": "CHUTE", "kicker": "CHUTE LIBRE · ~28 000 KM/H", "il": {"type": "orbit", "center": "TERRE", "speed": 3}, "lines": [{"text": "ELLE TOMBE…", "at": [0, 0.4]}, {"text": "MAIS VA SI VITE", "at": [1, 0.3]}, {"text": "[QU'ELLE RATE LE SOL.]", "at": [1, 0.85], "punch": true}]},
+  {"say": ["Elle tourne autour de la Terre en chute libre.", "Et tout ce qui est à bord tombe avec elle, à la même vitesse."], "ghost": "ORBITE", "il": {"type": "globe"}, "lines": [{"text": "TOUT TOMBE", "at": [1, 0.3]}, {"text": "[EN MÊME TEMPS.]", "at": [1, 0.75], "punch": true}]},
+  {"say": ["C'est ça, l'apesanteur : une chute libre qui ne finit jamais."], "hit": true, "ghost": "APESANTEUR", "lines": [{"text": "UNE CHUTE", "at": [0, 0.5], "punch": true}, {"text": "SANS FIN.", "at": [0, 0.85]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

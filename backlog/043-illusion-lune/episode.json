@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "La Lune géante à l'horizon est une illusion",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Quand la Lune se lève, elle paraît énorme… mais c'est une illusion 🌕\n\nEn photo, elle a la même taille à l'horizon qu'en haut du ciel. C'est ton cerveau qui te trompe !\n\nTeste avec ton doigt la prochaine fois 👇",
+ "hashtags": ["#lune", "#illusion", "#pleinelune", "#ciel", "#astronomie", "#cerveau", "#science", "#lesaviezvous", "#nasa", "#espace"],
+ "sources": ["https://science.nasa.gov/solar-system/moon/the-moon-illusion-why-does-the-moon-look-so-big-sometimes/"],
+ "scenes": [
+  {"say": ["Tu as déjà vu une pleine Lune énorme, juste au-dessus de l'horizon ?"], "ghost": "LUNE", "il": {"type": "horizon"}, "lines": [{"text": "UNE LUNE", "at": [0, 0.15]}, {"text": "[ÉNORME]", "at": [0, 0.4], "punch": true, "max": 320}, {"text": "À L'HORIZON ?", "at": [0, 0.85]}]},
+  {"say": ["C'est une illusion."], "hit": true, "ghost": "ILLUSION", "lines": [{"text": "UNE ILLUSION.", "at": [0, 0.3], "punch": true, "max": 400}]},
+  {"say": ["En photo, avec le même réglage, la Lune a exactement la même largeur à l'horizon… qu'en haut du ciel."], "ghost": "PHOTO", "kicker": "MÊME TAILLE EN PHOTO", "il": {"type": "sizeCompare", "big": "À L'HORIZON", "small": "EN HAUT", "ratio": 1}, "lines": [{"text": "EN PHOTO :", "at": [0, 0.1]}, {"text": "[LA MÊME TAILLE]", "at": [0, 0.6], "punch": true}, {"text": "PARTOUT.", "at": [0, 0.9]}]},
+  {"say": ["C'est ton cerveau qui te trompe."], "ghost": "CERVEAU", "il": {"type": "question"}, "lines": [{"text": "C'EST", "at": 0, "max": 200}, {"text": "[TON CERVEAU]", "at": [0, 0.35], "punch": true}, {"text": "QUI TE TROMPE.", "at": [0, 0.8]}]},
+  {"say": ["Et on observe cette illusion depuis des milliers d'années…", "sans encore l'expliquer complètement."], "ghost": "MYSTÈRE", "il": {"type": "moon"}, "lines": [{"text": "DEPUIS DES", "at": [0, 0.4]}, {"text": "[MILLIERS D'ANNÉES]", "at": [0, 0.7], "punch": true}, {"text": "PAS ENCORE EXPLIQUÉE.", "at": [1, 0.6], "gap": 30, "max": 150}]},
+  {"say": ["Fais le test : tends le bras, et cache la Lune avec le bout de ton doigt."], "ghost": "TEST", "kicker": "LE TEST DU DOIGT", "il": {"type": "moon", "label": "TON ONGLE"}, "lines": [{"text": "LE TEST :", "at": [0, 0.05], "max": 220}, {"text": "TENDS LE BRAS…", "at": [0, 0.4]}, {"text": "[CACHE-LA AVEC TON DOIGT.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["À l'horizon comme en haut du ciel… ton ongle suffit à la cacher."], "hit": true, "ghost": "ONGLE", "lines": [{"text": "TON ONGLE", "at": [0, 0.6], "punch": true}, {"text": "SUFFIT.", "at": [0, 0.85], "max": 420}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Le point bleu pâle : la Terre vue de 6 milliards de km",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Le 14 février 1990, la sonde Voyager 1 s'est retournée pour photographier la Terre, à environ 6 milliards de km du Soleil 🌍\n\nNotre planète y apparaît comme un point d'à peine un pixel. « Regardez encore ce point. C'est ici. C'est chez nous. C'est nous. » – Carl Sagan\n\nÇa te fait quoi ? 👇",
+ "hashtags": ["#palebluedot", "#voyager1", "#carlsagan", "#terre", "#espace", "#univers", "#nasa", "#astronomie", "#science", "#lesaviezvous"],
+ "sources": ["https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot/"],
+ "scenes": [
+  {"say": ["Le quatorze février mille neuf cent quatre-vingt-dix, une sonde s'est retournée… pour prendre une dernière photo de chez nous."], "ghost": "1990", "kicker": "14 FÉVRIER 1990", "il": {"type": "rocket"}, "lines": [{"text": "[14 FÉVRIER 1990]", "at": [0, 0.3], "punch": true}, {"text": "UNE SONDE", "at": [0, 0.5]}, {"text": "SE RETOURNE…", "at": [0, 0.65]}]},
+  {"say": ["C'était Voyager un, à environ six milliards de kilomètres du Soleil."], "ghost": "6 MD KM", "kicker": "VOYAGER 1 · ~6 MILLIARDS DE KM", "il": {"type": "distance", "label": "6 MILLIARDS DE KM"}, "lines": [{"text": "[VOYAGER 1]", "at": [0, 0.15], "punch": true}, {"text": "À 6 MILLIARDS", "at": [0, 0.6]}, {"text": "DE KM.", "at": [0, 0.8]}]},
+  {"say": ["Sur l'image, la Terre fait à peine… un pixel."], "hit": true, "ghost": "1 PIXEL", "lines": [{"text": "LA TERRE :", "at": [0, 0.1]}, {"text": "UN PIXEL.", "at": [0, 0.8], "punch": true, "max": 420}]},
+  {"say": ["Un minuscule point bleu pâle, perdu dans un rayon de lumière."], "ghost": "POINT", "il": {"type": "stars"}, "lines": [{"text": "UN POINT", "at": [0, 0.15]}, {"text": "[BLEU PÂLE.]", "at": [0, 0.4], "punch": true}, {"text": "DANS UN RAYON DE LUMIÈRE.", "at": [0, 0.85], "max": 150}]},
+  {"say": ["L'astronome Carl Sagan, qui avait poussé pour prendre cette photo, a écrit :"], "ghost": "SAGAN", "kicker": "CARL SAGAN", "il": {"type": "telescope"}, "lines": [{"text": "CARL SAGAN", "at": [0, 0.15], "punch": true}, {"text": "A ÉCRIT :", "at": [0, 0.9]}]},
+  {"say": ["Regardez encore ce point.", "C'est ici. C'est chez nous. C'est nous."], "ghost": "NOUS", "il": {"type": "globe"}, "lines": [{"text": "« REGARDEZ ENCORE", "at": [0, 0.1]}, {"text": "CE POINT.", "at": [0, 0.6]}, {"text": "[C'EST ICI.]", "at": [1, 0.05], "gap": 30}, {"text": "[C'EST NOUS.] »", "at": [1, 0.75], "punch": true}]},
+  {"say": ["Tout ce que tu as connu, tout le monde que tu aimes… tient dans ce pixel."], "hit": true, "ghost": "PIXEL", "lines": [{"text": "TOUT CE QUE TU AIMES", "at": [0, 0.4]}, {"text": "TIENT DANS", "at": [0, 0.8]}, {"text": "UN PIXEL.", "at": [0, 0.95], "punch": true, "max": 380}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

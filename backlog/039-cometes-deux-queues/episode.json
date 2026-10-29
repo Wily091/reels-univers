@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Les comètes ont deux queues… et pas dans le sens qu'on croit",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Une comète, c'est une « boule de neige sale » qui se réveille près du Soleil ☄️\n\nElle a souvent deux queues, une de poussière et une de gaz, et elles sont repoussées à l'opposé du Soleil… pas forcément derrière elle.\n\nTu le savais ? 👇",
+ "hashtags": ["#comete", "#espace", "#univers", "#astronomie", "#systemesolaire", "#ciel", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/solar-system/comets/facts/"],
+ "scenes": [
+  {"say": ["Une comète, c'est une boule de neige sale."], "ghost": "COMÈTE", "il": {"type": "comet"}, "lines": [{"text": "UNE COMÈTE ?", "at": [0, 0.1]}, {"text": "UNE BOULE DE NEIGE", "at": [0, 0.5]}, {"text": "[SALE.]", "at": [0, 0.85], "punch": true, "max": 320}]},
+  {"say": ["De la glace mélangée à de la poussière et à de la matière sombre."], "ghost": "GLACE", "kicker": "GLACE + POUSSIÈRE", "il": {"type": "moon", "label": "NOYAU"}, "lines": [{"text": "DE LA [GLACE]", "at": [0, 0.15], "punch": true}, {"text": "ET DE LA POUSSIÈRE.", "at": [0, 0.6]}]},
+  {"say": ["Loin du Soleil, elle dort.", "Mais quand elle s'en approche, la glace se transforme en gaz… et la comète se réveille."], "ghost": "RÉVEIL", "il": {"type": "sun"}, "lines": [{"text": "PRÈS DU SOLEIL,", "at": [1, 0.2]}, {"text": "LA GLACE", "at": [1, 0.4]}, {"text": "[DEVIENT GAZ.]", "at": [1, 0.65], "punch": true}]},
+  {"say": ["Elle forme alors souvent deux queues.", "Une de poussière… et une de gaz."], "hit": true, "ghost": "DEUX", "lines": [{"text": "DEUX QUEUES.", "at": [0, 0.4], "punch": true, "max": 400}, {"text": "POUSSIÈRE + GAZ.", "at": [1, 0.5]}]},
+  {"say": ["Et voilà le piège : ces queues ne suivent pas forcément la comète."], "ghost": "PIÈGE", "il": {"type": "question"}, "lines": [{"text": "LE PIÈGE :", "at": [0, 0.15]}, {"text": "ELLES NE SUIVENT", "at": [0, 0.55]}, {"text": "[PAS LA COMÈTE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Elles sont soufflées par la lumière et le vent solaire…", "donc elles pointent à l'opposé du Soleil."], "ghost": "VENT", "kicker": "VENT SOLAIRE", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "COMÈTE"}, "lines": [{"text": "SOUFFLÉES PAR", "at": [0, 0.3]}, {"text": "[LE VENT SOLAIRE,]", "at": [0, 0.8], "punch": true}, {"text": "À L'OPPOSÉ", "at": [1, 0.5], "gap": 30}, {"text": "DU SOLEIL.", "at": [1, 0.85]}]},
+  {"say": ["Quand la comète s'éloigne du Soleil… sa queue peut même passer devant elle."], "hit": true, "ghost": "DEVANT", "lines": [{"text": "SA QUEUE", "at": [0, 0.5]}, {"text": "PASSE DEVANT.", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

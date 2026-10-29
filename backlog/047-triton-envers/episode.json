@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Triton, la grande lune qui tourne à l'envers",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Triton, la plus grande lune de Neptune, tourne autour de sa planète dans le sens inverse de sa rotation 🔄\n\nC'est la seule grande lune du système solaire à faire ça. Elle aurait été capturée par Neptune.\n\nTu le savais ? 👇",
+ "hashtags": ["#triton", "#neptune", "#lune", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/neptune/facts/"],
+ "scenes": [
+  {"say": ["Il existe une grande lune qui tourne à l'envers."], "ghost": "TRITON", "il": {"type": "orbit", "center": "NEPTUNE", "speed": -1.2}, "lines": [{"text": "UNE GRANDE LUNE", "at": [0, 0.2]}, {"text": "QUI TOURNE", "at": [0, 0.55]}, {"text": "[À L'ENVERS.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Elle s'appelle Triton.", "Et elle tourne autour de Neptune."], "hit": true, "ghost": "TRITON", "lines": [{"text": "TRITON.", "at": [0, 0.5], "punch": true, "max": 440}, {"text": "LUNE DE NEPTUNE.", "at": [1, 0.5]}]},
+  {"say": ["Presque toutes les grandes lunes tournent dans le même sens que la rotation de leur planète."], "ghost": "SENS", "il": {"type": "clock", "forward": true}, "lines": [{"text": "NORMALEMENT,", "at": [0, 0.1]}, {"text": "[LE MÊME SENS]", "at": [0, 0.6], "punch": true}, {"text": "QUE LA PLANÈTE.", "at": [0, 0.9]}]},
+  {"say": ["Triton, elle, fait l'inverse : on appelle ça une orbite rétrograde."], "ghost": "RÉTROGRADE", "kicker": "ORBITE RÉTROGRADE", "il": {"type": "clock"}, "lines": [{"text": "TRITON :", "at": [0, 0.05], "max": 260}, {"text": "[L'INVERSE.]", "at": [0, 0.3], "punch": true}, {"text": "ORBITE RÉTROGRADE.", "at": [0, 0.85]}]},
+  {"say": ["C'est la seule grande lune du système solaire dans ce cas."], "hit": true, "ghost": "SEULE", "lines": [{"text": "LA SEULE", "at": [0, 0.2], "punch": true, "max": 400}, {"text": "GRANDE LUNE.", "at": [0, 0.6]}]},
+  {"say": ["Une explication possible : Triton ne serait pas née autour de Neptune…", "elle aurait été capturée par sa gravité."], "ghost": "CAPTURÉE", "il": {"type": "comet", "label": "TRITON ?"}, "lines": [{"text": "PAS NÉE ICI ?", "at": [0, 0.7]}, {"text": "[CAPTURÉE]", "at": [1, 0.5], "punch": true, "max": 340}, {"text": "PAR NEPTUNE.", "at": [1, 0.85]}]},
+  {"say": ["Une voyageuse venue de plus loin… prisonnière de Neptune."], "ghost": "PRISONNIÈRE", "il": {"type": "planet", "label": "NEPTUNE"}, "lines": [{"text": "UNE VOYAGEUSE", "at": [0, 0.15]}, {"text": "[PRISONNIÈRE.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

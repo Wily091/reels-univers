@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Saturne a 274 lunes",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Saturne détient le record : 274 lunes confirmées en mars 2025 🪐🌑\n\nC'est bien plus que toutes les autres planètes réunies. Et d'autres attendent encore confirmation.\n\nTu aurais dit combien ? 👇",
+ "hashtags": ["#saturne", "#lunes", "#espace", "#univers", "#astronomie", "#systemesolaire", "#record", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/saturn/facts/", "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"],
+ "scenes": [
+  {"say": ["Nous, on a une Lune."], "ghost": "1 LUNE", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "NOUS ?", "at": 0, "max": 260}, {"text": "[UNE LUNE.]", "at": [0, 0.6], "punch": true, "max": 340}]},
+  {"say": ["Saturne, elle, en a deux cent soixante-quatorze."], "hit": true, "ghost": "274", "lines": [{"text": "SATURNE ?", "at": [0, 0.1]}, {"text": "274.", "at": [0, 0.55], "punch": true, "max": 460}]},
+  {"say": ["C'est le nombre de lunes confirmées en mars deux mille vingt-cinq."], "ghost": "RECORD", "kicker": "MARS 2025 · 274 LUNES CONFIRMÉES", "il": {"type": "orbit", "center": "SATURNE", "speed": 1.4}, "lines": [{"text": "[274 LUNES]", "at": [0, 0.3], "punch": true, "count": {"from": 0, "to": 274, "fmt": "[{v} LUNES]", "dur": 0.9}}, {"text": "CONFIRMÉES.", "at": [0, 0.5]}, {"text": "MARS 2025.", "at": [0, 0.85]}]},
+  {"say": ["Plus que toutes les autres planètes réunies."], "ghost": "TOUTES", "il": {"type": "planet", "ring": true, "label": "SATURNE"}, "lines": [{"text": "PLUS QUE", "at": [0, 0.05]}, {"text": "[TOUTES LES AUTRES]", "at": [0, 0.4], "punch": true}, {"text": "RÉUNIES.", "at": [0, 0.85]}]},
+  {"say": ["La plupart sont minuscules : quelques kilomètres à peine.", "Des morceaux de roche et de glace capturés."], "ghost": "MINI", "il": {"type": "tunnel"}, "lines": [{"text": "QUELQUES", "at": [0, 0.6]}, {"text": "[KILOMÈTRES.]", "at": [0, 0.85], "punch": true}, {"text": "ROCHE ET GLACE.", "at": [1, 0.6], "gap": 30}]},
+  {"say": ["Mais il y a aussi des géantes, comme Titan, plus grande que la planète Mercure."], "ghost": "TITAN", "kicker": "TITAN", "il": {"type": "globe", "label": "TITAN"}, "lines": [{"text": "ET DES GÉANTES :", "at": [0, 0.15]}, {"text": "[TITAN]", "at": [0, 0.45], "punch": true, "max": 320}, {"text": "PLUS GRANDE QUE MERCURE.", "at": [0, 0.9], "max": 150}]},
+  {"say": ["Et d'autres lunes attendent encore d'être confirmées… le compteur n'a pas fini de grimper."], "hit": true, "ghost": "+", "lines": [{"text": "ET LE COMPTEUR", "at": [0, 0.6]}, {"text": "GRIMPE.", "at": [0, 0.9], "punch": true, "max": 420}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
