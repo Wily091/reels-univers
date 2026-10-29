@@ -10,8 +10,8 @@ Variable d'environnement requise (sauf --mock) : ELEVENLABS_API_KEY
 import base64, json, os, subprocess, sys, time, urllib.request, urllib.error, wave, pathlib
 
 SR = 44100
-LEAD_IN = 0.30
-TAIL = 1.40
+LEAD_IN = 0.15
+TAIL = 1.0
 
 def phrases_of(ep):
     out = []
@@ -21,23 +21,33 @@ def phrases_of(ep):
             out.append({"scene": si, "idx": pi, "text": text})
     return out
 
+def spoken(text):
+    """Texte réellement envoyé à la voix : on retire ce qui crée des silences en pleine phrase.
+    « … » en milieu de phrase devient une virgule, en fin de phrase un point (même longueur, positions conservées)."""
+    out = list(text)
+    for i, ch in enumerate(out):
+        if ch == "…":
+            nxt = text[i+1:].lstrip()
+            out[i] = "." if (not nxt or nxt[0].isupper()) else ","
+    return "".join(out)
+
 def full_text(ph):
-    """Texte complet envoyé en une fois + position (début, fin) de chaque phrase dans ce texte.
-    Phrases d'une même scène séparées par une espace, scènes séparées par un retour à la ligne."""
+    """Texte complet envoyé en une fois (tout sur une ligne, séparé par des espaces)
+    + position (début, fin) de chaque phrase dans ce texte."""
     parts, pos = [], 0
     for i, p in enumerate(ph):
         if i:
-            sep = "\n" if ph[i]["scene"] != ph[i-1]["scene"] else " "
-            parts.append(sep); pos += len(sep)
-        p["c0"], p["c1"] = pos, pos + len(p["text"])
-        parts.append(p["text"]); pos += len(p["text"])
+            parts.append(" "); pos += 1
+        t = spoken(p["text"])
+        p["c0"], p["c1"] = pos, pos + len(t)
+        parts.append(t); pos += len(t)
     return "".join(parts)
 
 def tts_with_timestamps(text, voice):
     key = os.environ["ELEVENLABS_API_KEY"]
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice['id']}/with-timestamps?output_format=mp3_44100_128"
     vs = {"stability": voice.get("stability", 0.5), "similarity_boost": voice.get("similarity", 0.75),
-          "style": voice.get("style", 0.0), "use_speaker_boost": True, "speed": voice.get("api_speed", 1.0)}
+          "style": voice.get("style", 0.0), "use_speaker_boost": True, "speed": voice.get("api_speed", 1.1)}
     body = {"text": text, "model_id": voice.get("model", "eleven_multilingual_v2"), "voice_settings": vs}
     if voice.get("language"): body["language_code"] = voice["language"]
     data = json.dumps(body).encode()
@@ -56,6 +66,64 @@ def tts_with_timestamps(text, voice):
             raise SystemExit(f"Erreur ElevenLabs {e.code}: {msg}")
     raise SystemExit("ElevenLabs : échec après plusieurs essais")
 
+def read_mono(path):
+    import numpy as np
+    with wave.open(str(path)) as w:
+        x = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+    return x
+
+def write_mono(path, x):
+    import numpy as np
+    with wave.open(str(path), "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
+        w.writeframes((np.clip(x, -1, 1) * 32767).astype(np.int16).tobytes())
+
+def tighten(x, text, starts, ends, keep=0.10, keep_end=0.16, min_sil=0.16):
+    """Raccourcit les silences : toute pause > min_sil est ramenée à keep (keep_end après . ? !).
+    Renvoie l'audio resserré et la fonction de correspondance temps d'origine -> nouveau temps."""
+    import numpy as np
+    hop = int(0.01 * SR); n = len(x) // hop
+    rms = np.sqrt(np.maximum(np.array([np.mean(x[i*hop:(i+1)*hop]**2) for i in range(n)]), 1e-12))
+    thr = np.percentile(rms, 95) * 10 ** (-32 / 20)
+    quiet = rms < thr
+    runs, i = [], 0
+    while i < n:
+        if quiet[i]:
+            j = i
+            while j < n and quiet[j]: j += 1
+            runs.append((i * 0.01, j * 0.01)); i = j
+        else: i += 1
+    ends_punct = [(e, c) for c, e in zip(text, ends) if c in ".?!"]
+    cuts = []  # (début coupe, fin coupe) en temps d'origine
+    total = len(x) / SR
+    for a, b in runs:
+        if a <= 0.001:            # silence de début : on enlève tout sauf 0
+            cuts.append((0.0, b)); continue
+        if b >= total - 0.011:    # silence de fin
+            cuts.append((a, total)); continue
+        if b - a < min_sil: continue
+        k = keep_end if any(abs(e - a) < 0.25 for e, c in ends_punct) else keep
+        cuts.append((a + k / 2, b - k / 2))
+    # assemblage avec micro-fondus
+    pieces, last, fade = [], 0.0, int(0.004 * SR)
+    for a, b in cuts:
+        if a > last:
+            seg = x[int(last*SR):int(a*SR)].copy()
+            if len(seg) > 2*fade:
+                seg[:fade] *= np.linspace(0, 1, fade); seg[-fade:] *= np.linspace(1, 0, fade)
+            pieces.append(seg)
+        last = max(last, b)
+    if last < total: pieces.append(x[int(last*SR):])
+    y = np.concatenate(pieces) if pieces else x
+    def tmap(t):
+        removed = 0.0
+        for a, b in cuts:
+            if t >= b: removed += b - a
+            elif t > a: removed += t - a
+        return max(0.0, t - removed)
+    print(f"Silences resserrés : {total:.1f}s -> {len(y)/SR:.1f}s", flush=True)
+    return y, tmap
+
 def main():
     ep_dir = pathlib.Path(sys.argv[1]); mock = "--mock" in sys.argv
     ep = json.loads((ep_dir / "episode.json").read_text())
@@ -67,20 +135,16 @@ def main():
     (work / "voice_text.txt").write_text(text)
 
     if mock:
-        # durée estimée : ~14,5 caractères/s à vitesse x1,1, pauses selon la ponctuation
+        # durée estimée (voix rapide, pauses courtes)
         t = 0.0; starts = []; ends = []
-        for i, ch in enumerate(text):
-            starts.append(t)
-            t += 1 / 14.5 * (1.1 / tempo)
-            if ch in ".?!…": t += 0.35
-            elif ch in ",:": t += 0.12
-            elif ch == "\n": t += 0.2
+        for ch in text:
+            starts.append(t); t += 1 / 17.0
+            if ch in ".?!": t += 0.14
+            elif ch in ",:": t += 0.06
             ends.append(t)
-        raw_dur = t
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"anullsrc=r={SR}:cl=mono", "-t", f"{raw_dur:.3f}", str(work / "voice_raw.wav")], check=True)
-        tempo_eff = 1.0
+        import numpy as np
+        y = np.zeros(int(t * SR), dtype=np.float32); tmap = lambda v: v; tempo_eff = 1.0
     else:
-        # Voix déjà générée et stockée (stock d'avance) → aucun appel API
         vdir = ep_dir / "voice"; stored = vdir / "alignment.json"
         if stored.exists() and json.loads(stored.read_text()).get("text") == text and (vdir / "voice.mp3").exists():
             print("Voix stockée réutilisée (aucun crédit ElevenLabs consommé)", flush=True)
@@ -102,20 +166,23 @@ def main():
             print(f"Voix stockée : {vdir}"); return
         starts, ends = al["starts"], al["ends"]
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(vdir / "voice.mp3"), "-ac", "1", "-ar", str(SR), str(work / "voice_raw.wav")], check=True)
+        y, tmap = tighten(read_mono(work / "voice_raw.wav"), text, starts, ends)
         tempo_eff = tempo
 
-    # x1,1 + temps de lancement au début + silence de fin
-    af = f"atempo={tempo_eff},adelay={int(LEAD_IN*1000)},apad=pad_dur={TAIL}" if tempo_eff != 1.0 else f"adelay={int(LEAD_IN*1000)},apad=pad_dur={TAIL}"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(work / "voice_raw.wav"), "-af", af, "-ac", "1", "-ar", str(SR), str(work / "voice.wav")], check=True)
+    write_mono(work / "voice_tight.wav", y)
+    af = (f"atempo={tempo_eff}," if tempo_eff != 1.0 else "") + f"adelay={int(LEAD_IN*1000)},apad=pad_dur={TAIL}"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(work / "voice_tight.wav"), "-af", af, "-ac", "1", "-ar", str(SR), str(work / "voice.wav")], check=True)
     with wave.open(str(work / "voice.wav")) as w: duration = w.getnframes() / w.getframerate()
 
-    n = len(starts)
+    conv = lambda v: round(LEAD_IN + tmap(v) / tempo_eff, 3)
+    cs = [conv(v) for v in starts]; ce = [conv(v) for v in ends]
+    n = len(cs)
     for p in ph:
         a = min(p["c0"], n - 1); b = min(max(p["c1"] - 1, a), n - 1)
         while a < b and text[a].isspace(): a += 1
-        p["s"] = round(LEAD_IN + starts[a] / tempo_eff, 3)
-        p["e"] = round(LEAD_IN + ends[b] / tempo_eff, 3)
-    (work / "phrases.json").write_text(json.dumps({"duration": round(duration, 3), "phrases": ph}, ensure_ascii=False, indent=1))
+        p["s"], p["e"] = cs[a], ce[b]
+    (work / "phrases.json").write_text(json.dumps({"duration": round(duration, 3), "phrases": ph, "text": text, "cs": cs},
+                                                  ensure_ascii=False))
     print(f"Voix : {duration:.1f}s, {len(ph)} phrases, {len(text)} caractères")
 
 if __name__ == "__main__":

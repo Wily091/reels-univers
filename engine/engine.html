@@ -64,11 +64,11 @@ function drawLine(L,text,size,t,y,hit,idx){
   let x0=L.align==='c'?(W-w)/2:M;
   // entrée : alternance glissé bas / gauche / droite, « pop » pour les lignes fortes
   const style=L.punch?'pop':['up','left','up','right'][idx%4];
-  const p=eo(lt/0.32);let tx=0,ty=0,sc=1,al=1;
+  const p=eo(lt/0.16);let tx=0,ty=0,sc=1,al=1;
   if(style==='up'){ty=(1-p)*size*0.85}
-  else if(style==='left'){tx=-(1-p)*170;al=clamp(lt/0.2)}
-  else if(style==='right'){tx=(1-p)*170;al=clamp(lt/0.2)}
-  else{const q=clamp(lt/0.38);const c1=2.2,c3=c1+1;sc=0.55+0.45*(1+c3*Math.pow(q-1,3)+c1*Math.pow(q-1,2));al=clamp(lt/0.12)}
+  else if(style==='left'){tx=-(1-p)*140;al=clamp(lt/0.1)}
+  else if(style==='right'){tx=(1-p)*140;al=clamp(lt/0.1)}
+  else{const q=clamp(lt/0.22);const c1=2.2,c3=c1+1;sc=0.6+0.4*(1+c3*Math.pow(q-1,3)+c1*Math.pow(q-1,2));al=clamp(lt/0.06)}
   X.save();X.globalAlpha=al;
   if(style==='up'){X.beginPath();X.rect(0,y-size*1.02,W,size*1.12);X.clip()}
   X.translate(tx,ty);X.translate(x0+w/2,y-size*0.4);X.scale(sc,sc);X.translate(-(x0+w/2),-(y-size*0.4));
@@ -76,14 +76,14 @@ function drawLine(L,text,size,t,y,hit,idx){
   const base=hit?INK:WHITE,acc=hit?WHITE:ACC;let x=x0;const bars=[];
   for(const r of rs){const rw=X.measureText(r.t).width;X.fillStyle=r.a?acc:base;if(!hit){X.shadowColor='rgba(0,0,0,.6)';X.shadowBlur=30}X.fillText(r.t,x,y);if(r.a&&r.t.trim())bars.push([x,rw]);x+=rw}
   // soulignement balayé sous les mots en couleur
-  X.shadowBlur=0;const u=eo((lt-0.22)/0.35);
+  X.shadowBlur=0;const u=eo((lt-0.1)/0.18);
   if(u>0)for(const [bx,bw] of bars){X.fillStyle=acc;X.globalAlpha=al*0.9;X.fillRect(bx,y+size*0.07,bw*u,Math.max(5,size*0.045))}
   X.restore();
   if(L.strike!==undefined&&t>L.strike){const sp=eo((t-L.strike)/0.25);X.save();X.strokeStyle=hit?INK:ACC;X.lineWidth=size*0.11;X.lineCap='round';X.beginPath();X.moveTo(x0-10,y-size*0.36);X.lineTo(x0-10+(w+20)*sp,y-size*0.40);X.stroke();X.restore()}
 }
 function kicker(sc,t){
   let k=null;for(const it of (sc.kickers||[]))if(t>=it.t)k=it;if(!k)return;
-  const lt=t-k.t;const n=Math.floor(clamp(lt/0.6)*k.text.length);
+  const lt=t-k.t;const n=Math.floor(clamp(lt/0.35)*k.text.length);
   X.save();X.font='700 30px SMono';X.fillStyle=sc.hit?'rgba(0,0,0,.75)':'rgba(255,255,255,.7)';X.fillText(k.text.slice(0,n)+(lt<0.7&&Math.floor(t*8)%2?'_':''),M,250);
   X.fillStyle=sc.hit?INK:ACC;X.fillRect(M,266,Math.min(220,n*12),5);X.restore();
 }
@@ -197,10 +197,10 @@ function render(t){
   let si=0;for(let i=0;i<S.length;i++)if(t>=S[i].s)si=i;const sc=S[si];const lt=t-sc.s;const dir=si%2?1:-1;
   X.save();
   // secousse sur les mots forts
-  let shake=0,kick=0;for(const L of sc.lines){if(L.punch){const d=t-L.t;if(d>=0&&d<0.25)shake=Math.max(shake,(1-d/0.25)*14);if(d>=0&&d<0.45)kick=Math.max(kick,(1-eo(d/0.45))*0.035)}}
+  let shake=0,kick=0;for(const L of sc.lines){if(L.punch){const d=t-L.t;if(d>=0&&d<0.25)shake=Math.max(shake,(1-d/0.25)*14);if(d>=0&&d<0.3)kick=Math.max(kick,(1-eo(d/0.3))*0.04)}}
   if(sc.hit&&lt<0.25)shake=Math.max(shake,(1-lt/0.25)*20);
   // caméra : arrivée en zoom avant + légère rotation, dérive lente, petit zoom de sortie
-  const k=eo(lt/0.38);const ex=si<S.length-1?clamp((t-(sc.e-0.16))/0.16):0;
+  const k=eo(lt/0.22);const ex=si<S.length-1?clamp((t-(sc.e-0.1))/0.1):0;
   const z=(1+0.11*(1-k))*(1+lt*0.014)*(1+kick)*(1+0.07*ex);
   const rot=(1-k)*0.03*dir+Math.sin(t*0.35)*0.004;
   X.translate(W/2,H/2);X.rotate(rot);X.scale(z,z);X.translate(-W/2+Math.sin(t*93)*shake+(1-k)*40*dir,-H/2+Math.cos(t*71)*shake);

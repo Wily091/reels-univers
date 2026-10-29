@@ -6,6 +6,24 @@ const ep = JSON.parse(fs.readFileSync(path.join(dir, 'episode.json'), 'utf8'));
 const ph = JSON.parse(fs.readFileSync(path.join(dir, 'build', 'phrases.json'), 'utf8'));
 
 const byScene = ep.scenes.map(() => []);
+// calage au mot près : on cherche le premier mot du titre dans la phrase prononcée
+const norm = w => w.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+const TXT = ph.text || '', CS = ph.cs || [];
+function tokens(c0, c1) { const out = []; const re = /[A-Za-zÀ-ÿŒœ0-9]+/g; let m; const sub = TXT.slice(c0, c1);
+  while ((m = re.exec(sub))) out.push({ w: norm(m[0]), c: c0 + m.index }); return out; }
+function wordTime(L, si, fb) {
+  // le mot du titre le plus proche du moment prévu (fb) ; refusé s'il est trop loin
+  if (!CS.length || L.count) return null;
+  const words = (L.text || '').replace(/[\[\]]/g, ' ').split(/[\s'’\-]+/).map(norm).filter(w => w.length >= 2);
+  if (!words.length || /^[0-9]/.test(words[0])) return null;
+  const list = byScene[si]; const toks = tokens(list[0].c0, list[list.length - 1].c1);
+  for (let k = 0; k < Math.min(words.length, 3); k++) {
+    let best = null;
+    for (const t of toks) if (t.w === words[k]) { const tt = CS[t.c] - 0.06 - k * 0.18; if (!best || Math.abs(tt - fb) < Math.abs(best - fb)) best = tt; }
+    if (best !== null && Math.abs(best - fb) < 1.6) return +Math.max(list[0].s - 0.05, best).toFixed(3);
+  }
+  return null;
+}
 for (const p of ph.phrases) byScene[p.scene].push(p);
 
 function at(spec, si, fallback) {
@@ -23,11 +41,16 @@ function at(spec, si, fallback) {
 
 const scenes = ep.scenes.map((sc, si) => {
   const first = byScene[si][0];
-  const s = si === 0 ? 0 : +(first.s - 0.12).toFixed(3);
+  const s = si === 0 ? 0 : +(first.s - 0.08).toFixed(3);
   const hit = !!sc.hit;
+  let prevT = -1;
   const lines = (sc.lines || []).map((L, li) => {
     const o = { ...L };
-    o.t = at(L.at, si, +(first.s + li * 0.35).toFixed(3));
+    const fb = at(L.at, si, +(first.s + li * 0.35).toFixed(3));
+    const wt = wordTime(L, si, fb);
+    o.t = wt !== null ? wt : fb;
+    if (li && o.t < prevT + 0.12) o.t = +(prevT + 0.12).toFixed(3);
+    prevT = o.t;
     delete o.at;
     if (L.strike !== undefined) o.strike = at(L.strike, si);
     return o;
