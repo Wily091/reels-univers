@@ -68,7 +68,8 @@ jobs:
           TAG="ep-${{ steps.ep.outputs.date }}"
           B="${{ steps.ep.outputs.dir }}/build"
           gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
-          gh release create "$TAG" "$B/reel.mp4" "$B/cover.jpg" "$B/meta.json" \
+          EXTRA=""; for f in voice/voice.mp3 voice/alignment.json; do [ -f "${{ steps.ep.outputs.dir }}/$f" ] && EXTRA="$EXTRA ${{ steps.ep.outputs.dir }}/$f"; done
+          gh release create "$TAG" "$B/reel.mp4" "$B/cover.jpg" "$B/meta.json" $EXTRA \
             --title "Épisode ${{ steps.ep.outputs.date }}" \
             --notes "$(python3 -c "import json;print(json.load(open('${{ steps.ep.outputs.dir }}/episode.json'))['title'])")"
           echo "Vidéo : https://github.com/${{ github.repository }}/releases/download/$TAG/reel.mp4"

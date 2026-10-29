@@ -78,34 +78,27 @@ def write_mono(path, x):
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
         w.writeframes((np.clip(x, -1, 1) * 32767).astype(np.int16).tobytes())
 
-def tighten(x, text, starts, ends, keep=0.10, keep_end=0.16, min_sil=0.16):
-    """Raccourcit les silences : toute pause > min_sil est ramenée à keep (keep_end après . ? !).
+def tighten(x, text, starts, ends, keep=0.06, keep_end=0.11, min_gap=0.10):
+    """Raccourcit chaque pause entre deux mots grâce à l'horodatage des lettres :
+    toute pause > min_gap est ramenée à keep (keep_end après . ? !), sans jamais toucher aux lettres.
     Renvoie l'audio resserré et la fonction de correspondance temps d'origine -> nouveau temps."""
     import numpy as np
-    hop = int(0.01 * SR); n = len(x) // hop
-    rms = np.sqrt(np.maximum(np.array([np.mean(x[i*hop:(i+1)*hop]**2) for i in range(n)]), 1e-12))
-    thr = np.percentile(rms, 95) * 10 ** (-32 / 20)
-    quiet = rms < thr
-    runs, i = [], 0
-    while i < n:
-        if quiet[i]:
-            j = i
-            while j < n and quiet[j]: j += 1
-            runs.append((i * 0.01, j * 0.01)); i = j
-        else: i += 1
-    ends_punct = [(e, c) for c, e in zip(text, ends) if c in ".?!"]
-    cuts = []  # (début coupe, fin coupe) en temps d'origine
     total = len(x) / SR
-    for a, b in runs:
-        if a <= 0.001:            # silence de début : on enlève tout sauf 0
-            cuts.append((0.0, b)); continue
-        if b >= total - 0.011:    # silence de fin
-            cuts.append((a, total)); continue
-        if b - a < min_sil: continue
-        k = keep_end if any(abs(e - a) < 0.25 for e, c in ends_punct) else keep
-        cuts.append((a + k / 2, b - k / 2))
-    # assemblage avec micro-fondus
-    pieces, last, fade = [], 0.0, int(0.004 * SR)
+    letters = [i for i, c in enumerate(text) if c.isalnum()]
+    cuts = []
+    if letters and starts[letters[0]] > 0.02:
+        cuts.append((0.0, max(0.0, starts[letters[0]] - 0.02)))
+    for i, j in zip(letters, letters[1:]):
+        gap_a, gap_b = ends[i], starts[j]
+        if gap_b - gap_a > min_gap:
+            between = text[i+1:j]
+            k = keep_end if any(c in ".?!" for c in between) else keep
+            if gap_b - gap_a > k:
+                cuts.append((gap_a + 0.02, gap_b - (k - 0.02)))
+    if letters and ends[letters[-1]] + 0.15 < total:
+        cuts.append((ends[letters[-1]] + 0.15, total))
+    cuts = [(a, b) for a, b in cuts if b - a > 0.01]
+    pieces, last, fade = [], 0.0, int(0.005 * SR)
     for a, b in cuts:
         if a > last:
             seg = x[int(last*SR):int(a*SR)].copy()
@@ -121,7 +114,7 @@ def tighten(x, text, starts, ends, keep=0.10, keep_end=0.16, min_sil=0.16):
             if t >= b: removed += b - a
             elif t > a: removed += t - a
         return max(0.0, t - removed)
-    print(f"Silences resserrés : {total:.1f}s -> {len(y)/SR:.1f}s", flush=True)
+    print(f"Pauses resserrées : {total:.1f}s -> {len(y)/SR:.1f}s ({len(cuts)} coupes)", flush=True)
     return y, tmap
 
 def main():
