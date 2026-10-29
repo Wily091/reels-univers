@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Sur Mercure, une journée dure deux années",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Sur Mercure, entre deux levers de Soleil, il s'écoule 176 jours terrestres… soit deux années mercuriennes 🌞\n\nUne année n'y dure que 88 jours.\n\nTu aurais deviné ? 👇",
+ "hashtags": ["#mercure", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetes", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/mercury/facts/"],
+ "scenes": [
+  {"say": ["Sur Mercure, une journée dure deux ans."], "ghost": "MERCURE", "kicker": "LA PLUS PETITE PLANÈTE", "il": {"type": "planet", "label": "MERCURE"}, "lines": [{"text": "SUR [MERCURE,]", "at": [0, 0.1]}, {"text": "UNE JOURNÉE", "at": [0, 0.4]}, {"text": "DURE [DEUX ANS.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Je t'explique."], "hit": true, "ghost": "?", "lines": [{"text": "JE", "at": 0}, {"text": "T'EXPLIQUE.", "at": [0, 0.4], "punch": true, "max": 420}]},
+  {"say": ["Mercure est la planète la plus proche du Soleil.", "Elle en fait le tour très vite : en quatre-vingt-huit jours."], "ghost": "88 JOURS", "kicker": "UNE ANNÉE SUR MERCURE · 88 JOURS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 2.5, "rx": 200}, "lines": [{"text": "UN TOUR DU SOLEIL :", "at": [1, 0.3]}, {"text": "[88 JOURS]", "at": [1, 0.85], "punch": true, "count": {"from": 0, "to": 88, "fmt": "[{v} JOURS]", "dur": 0.7}}]},
+  {"say": ["Mais elle tourne très lentement sur elle-même."], "ghost": "LENT", "il": {"type": "globe", "label": "ROTATION LENTE"}, "lines": [{"text": "MAIS SUR ELLE-MÊME…", "at": [0, 0.3]}, {"text": "[TRÈS LENTEMENT.]", "at": [0, 0.6], "punch": true}]},
+  {"say": ["Résultat : entre deux levers de soleil, il s'écoule cent soixante-seize jours terrestres."], "ghost": "176", "kicker": "JOUR SOLAIRE · 176 JOURS TERRESTRES", "il": {"type": "sun"}, "lines": [{"text": "D'UN LEVER", "at": [0, 0.4]}, {"text": "À L'AUTRE :", "at": [0, 0.55]}, {"text": "[176 JOURS]", "at": [0, 0.85], "punch": true, "count": {"from": 0, "to": 176, "fmt": "[{v} JOURS]", "dur": 0.8}}]},
+  {"say": ["Cent soixante-seize jours… c'est exactement deux années mercuriennes."], "hit": true, "ghost": "X2", "lines": [{"text": "176 = 2 × 88.", "at": [0, 0.15], "punch": true}, {"text": "DEUX ANNÉES.", "at": [0, 0.8]}]},
+  {"say": ["Et pendant ce long jour, la température monte jusqu'à quatre cent trente degrés.", "Puis la nuit, elle chute à moins cent quatre-vingts."], "ghost": "EXTRÊME", "kicker": "DE -180 °C À +430 °C", "il": {"type": "thermo", "label": "+430 °C", "level": 0.95}, "lines": [{"text": "LE JOUR :", "at": [0, 0.4], "max": 200}, {"text": "[+430 °C]", "at": [0, 0.8], "punch": true}, {"text": "LA NUIT : -180 °C.", "at": [1, 0.5], "gap": 30}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

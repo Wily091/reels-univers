@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Plus de 6 000 planètes découvertes autour d'autres étoiles",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "En septembre 2025, la NASA a franchi le cap des 6 000 exoplanètes confirmées 🪐🌍\n\nEt plus de 8 000 candidates attendent encore d'être confirmées. Il y a 30 ans, on n'en connaissait presque aucune.\n\nTu crois qu'on trouvera une autre Terre ? 👇",
+ "hashtags": ["#exoplanetes", "#espace", "#univers", "#astronomie", "#nasa", "#planetes", "#vieextraterrestre", "#science", "#lesaviezvous", "#cosmos"],
+ "sources": ["https://www.jpl.nasa.gov/news/nasas-tally-of-planets-outside-our-solar-system-reaches-6000/"],
+ "scenes": [
+  {"say": ["Il y a à peine trente ans, on ne connaissait presque aucune planète autour d'autres étoiles."], "ghost": "1995", "il": {"type": "starsPulse"}, "lines": [{"text": "IL Y A 30 ANS,", "at": [0, 0.15]}, {"text": "PRESQUE", "at": [0, 0.4], "max": 200}, {"text": "[AUCUNE.]", "at": [0, 0.6], "punch": true, "max": 300}]},
+  {"say": ["La première autour d'une étoile comme le Soleil a été découverte en mille neuf cent quatre-vingt-quinze."], "ghost": "1995", "kicker": "PREMIÈRE AUTOUR D'UNE ÉTOILE TYPE SOLEIL", "il": {"type": "orbit", "center": "ÉTOILE", "speed": 1.5}, "lines": [{"text": "LA PREMIÈRE", "at": [0, 0.1]}, {"text": "AUTOUR D'UN SOLEIL :", "at": [0, 0.4]}, {"text": "[1995]", "at": [0, 0.85], "punch": true, "max": 300}]},
+  {"say": ["Et en septembre deux mille vingt-cinq, la NASA a franchi un cap :"], "ghost": "2025", "kicker": "SEPTEMBRE 2025", "il": {"type": "telescope"}, "lines": [{"text": "SEPTEMBRE 2025 :", "at": [0, 0.4]}, {"text": "[UN CAP.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["six mille exoplanètes confirmées."], "hit": true, "ghost": "6 000", "lines": [{"text": "6 000", "at": [0, 0.1], "punch": true, "max": 460}, {"text": "EXOPLANÈTES.", "at": [0, 0.6]}]},
+  {"say": ["Et plus de huit mille autres candidates attendent encore d'être confirmées."], "ghost": "8 000", "kicker": "+8 000 CANDIDATES", "il": {"type": "starsPulse"}, "lines": [{"text": "ET", "at": 0, "max": 200}, {"text": "[+8 000]", "at": [0, 0.3], "punch": true, "count": {"from": 0, "to": 8000, "fmt": "[+{v}]", "dur": 0.8}}, {"text": "CANDIDATES.", "at": [0, 0.7]}]},
+  {"say": ["Il y a des géantes gazeuses, des mondes rocheux, des planètes brûlantes ou glacées…"], "ghost": "MONDES", "il": {"type": "planet", "ring": true}, "lines": [{"text": "GÉANTES,", "at": [0, 0.15]}, {"text": "ROCHEUSES,", "at": [0, 0.45]}, {"text": "[BRÛLANTES…]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Et chaque année, la liste s'allonge.", "Quelque part, il y a peut-être une autre Terre."], "ghost": "TERRE", "il": {"type": "globe", "label": "UNE AUTRE TERRE ?"}, "lines": [{"text": "LA LISTE", "at": [0, 0.4]}, {"text": "S'ALLONGE.", "at": [0, 0.8]}, {"text": "[UNE AUTRE TERRE ?]", "at": [1, 0.8], "punch": true, "gap": 30}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

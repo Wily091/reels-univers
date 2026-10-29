@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Un jour, le Soleil deviendra une géante rouge",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Dans environ 5 milliards d'années, le Soleil gonflera pour devenir une géante rouge ☀️➡️🔴\n\nIl devrait avaler Mercure et Vénus… et peut-être la Terre. Avant de finir en naine blanche.\n\nPas de panique, on a le temps 😄👇",
+ "hashtags": ["#soleil", "#geanterouge", "#espace", "#univers", "#astronomie", "#etoile", "#futur", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/sun/facts/"],
+ "scenes": [
+  {"say": ["Le Soleil ne brillera pas éternellement."], "ghost": "SOLEIL", "kicker": "ÂGE DU SOLEIL · ~4,6 MILLIARDS D'ANNÉES", "il": {"type": "sun"}, "lines": [{"text": "LE SOLEIL", "at": [0, 0.1], "max": 300}, {"text": "[NE SERA PAS ÉTERNEL.]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Il a environ quatre milliards et demi d'années… et il est à peu près à la moitié de sa vie."], "ghost": "MI-VIE", "il": {"type": "timeline", "left": "NAISSANCE", "leftSub": "-4,6 MD", "right": "FIN", "rightSub": "+5 MD"}, "lines": [{"text": "IL A", "at": [0, 0.1], "max": 200}, {"text": "[4,5 MILLIARDS D'ANNÉES]", "at": [0, 0.4], "punch": true}, {"text": "LA MOITIÉ DE SA VIE.", "at": [0, 0.9]}]},
+  {"say": ["Dans environ cinq milliards d'années, il aura épuisé son carburant…", "et il va gonfler."], "ghost": "5 MD", "kicker": "DANS ~5 MILLIARDS D'ANNÉES", "il": {"type": "burst"}, "lines": [{"text": "DANS", "at": [0, 0.05], "max": 200}, {"text": "[5 MILLIARDS D'ANNÉES]", "at": [0, 0.3], "punch": true}, {"text": "IL VA [GONFLER.]", "at": [1, 0.5]}]},
+  {"say": ["Il deviendra une géante rouge."], "hit": true, "ghost": "ROUGE", "lines": [{"text": "UNE GÉANTE", "at": [0, 0.4], "punch": true}, {"text": "ROUGE.", "at": [0, 0.8], "max": 420}]},
+  {"say": ["Si grosse qu'elle avalera Mercure et Vénus.", "Et peut-être même la Terre."], "ghost": "AVALER", "il": {"type": "orbit", "center": "SOLEIL", "speed": 1}, "lines": [{"text": "ELLE AVALERA", "at": [0, 0.3]}, {"text": "[MERCURE, VÉNUS…]", "at": [0, 0.8], "punch": true}, {"text": "[ET LA TERRE ?]", "at": [1, 0.6], "gap": 30}]},
+  {"say": ["Ensuite, il ne restera de lui qu'un petit cœur brûlant : une naine blanche."], "ghost": "NAINE", "kicker": "FIN DE VIE · NAINE BLANCHE", "il": {"type": "starsPulse"}, "lines": [{"text": "IL FINIRA EN", "at": [0, 0.6]}, {"text": "[NAINE BLANCHE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Mais rassure-toi… on a encore un peu de temps."], "hit": true, "ghost": "TEMPS", "lines": [{"text": "RASSURE-TOI…", "at": [0, 0.2]}, {"text": "ON A LE TEMPS.", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

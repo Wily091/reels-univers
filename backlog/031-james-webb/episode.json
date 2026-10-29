@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "James Webb, un télescope à 1,5 million de km",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Le télescope James Webb observe l'univers depuis un point situé à 1,5 million de km de la Terre 🔭✨\n\nSon miroir doré de 6,5 m est fait de 18 segments, et son pare-soleil a la taille d'un court de tennis.\n\nTu savais qu'il était si loin ? 👇",
+ "hashtags": ["#jameswebb", "#jwst", "#telescope", "#espace", "#univers", "#astronomie", "#nasa", "#esa", "#science", "#lesaviezvous"],
+ "sources": ["https://science.nasa.gov/mission/webb/", "https://www.esa.int/ESA_Multimedia/Images/2021/10/Webb_s_mirror_and_sunshield"],
+ "scenes": [
+  {"say": ["Le télescope le plus puissant jamais envoyé dans l'espace… n'est pas en orbite autour de la Terre."], "ghost": "WEBB", "kicker": "TÉLESCOPE SPATIAL JAMES WEBB", "il": {"type": "telescope"}, "lines": [{"text": "LE PLUS PUISSANT", "at": [0, 0.15]}, {"text": "N'EST PAS", "at": [0, 0.6]}, {"text": "[AUTOUR DE LA TERRE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Le télescope James Webb est à un million et demi de kilomètres de nous."], "ghost": "1,5 M KM", "kicker": "POINT DE LAGRANGE L2", "il": {"type": "distance", "label": "1,5 MILLION DE KM"}, "lines": [{"text": "[JAMES WEBB]", "at": [0, 0.25], "punch": true}, {"text": "EST À", "at": [0, 0.45], "max": 200}, {"text": "[1,5 MILLION DE KM.]", "at": [0, 0.8]}]},
+  {"say": ["Environ quatre fois plus loin que la Lune."], "hit": true, "ghost": "X4", "lines": [{"text": "4 FOIS PLUS LOIN", "at": [0, 0.3], "punch": true}, {"text": "QUE LA LUNE.", "at": [0, 0.8]}]},
+  {"say": ["Il a été lancé le jour de Noël deux mille vingt et un."], "ghost": "NOËL", "kicker": "LANCEMENT · 25 DÉCEMBRE 2021", "il": {"type": "rocket"}, "lines": [{"text": "LANCÉ LE", "at": [0, 0.15]}, {"text": "[25 DÉCEMBRE 2021.]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Son miroir mesure six mètres et demi.", "Il est fait de dix-huit segments hexagonaux… recouverts d'or."], "ghost": "MIROIR", "kicker": "MIROIR · 6,5 M · 18 SEGMENTS", "il": {"type": "telescope"}, "lines": [{"text": "UN MIROIR DE", "at": [0, 0.2]}, {"text": "[6,5 MÈTRES]", "at": [0, 0.6], "punch": true}, {"text": "18 HEXAGONES", "at": [1, 0.45], "gap": 30, "max": 150}, {"text": "[EN OR.]", "at": [1, 0.85], "max": 200}]},
+  {"say": ["Et pour rester glacé, il se cache derrière un pare-soleil grand comme un court de tennis."], "ghost": "TENNIS", "kicker": "PARE-SOLEIL · TAILLE D'UN COURT DE TENNIS", "il": {"type": "sun"}, "lines": [{"text": "UN PARE-SOLEIL", "at": [0, 0.6]}, {"text": "GRAND COMME UN", "at": [0, 0.75]}, {"text": "[COURT DE TENNIS.]", "at": [0, 0.95], "punch": true}]},
+  {"say": ["Grâce à lui, on voit des galaxies telles qu'elles étaient il y a plus de treize milliards d'années."], "ghost": "13 MD", "il": {"type": "tunnel"}, "lines": [{"text": "DES GALAXIES", "at": [0, 0.3]}, {"text": "D'IL Y A", "at": [0, 0.6], "max": 200}, {"text": "[+13 MILLIARDS]", "at": [0, 0.8], "punch": true}, {"text": "D'ANNÉES.", "at": [0, 0.95]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Ganymède, une lune plus grande qu'une planète",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Ganymède, une lune de Jupiter, est plus grande que la planète Mercure 🌑\n\nC'est la plus grande lune du système solaire, et la seule connue à avoir son propre champ magnétique… avec des aurores !\n\nTu la connaissais ? 👇",
+ "hashtags": ["#ganymede", "#jupiter", "#lune", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/jupiter/jupiter-moons/ganymede/"],
+ "scenes": [
+  {"say": ["Il existe une lune plus grande qu'une planète."], "ghost": "GANYMÈDE", "il": {"type": "moon", "label": "GANYMÈDE"}, "lines": [{"text": "UNE LUNE", "at": [0, 0.1]}, {"text": "[PLUS GRANDE]", "at": [0, 0.45], "punch": true}, {"text": "QU'UNE PLANÈTE.", "at": [0, 0.85]}]},
+  {"say": ["Elle s'appelle Ganymède.", "Elle tourne autour de Jupiter."], "ghost": "JUPITER", "il": {"type": "orbit", "center": "JUPITER", "speed": 1.2}, "lines": [{"text": "[GANYMÈDE]", "at": [0, 0.5], "punch": true, "max": 320}, {"text": "LUNE DE JUPITER.", "at": [1, 0.5]}]},
+  {"say": ["C'est la plus grande lune du système solaire.", "Elle est même plus grande que la planète Mercure."], "ghost": "MERCURE", "kicker": "PLUS GRANDE QUE MERCURE ET PLUTON", "il": {"type": "sizeCompare", "big": "GANYMÈDE", "small": "MERCURE", "ratio": 1.08}, "lines": [{"text": "LA PLUS GRANDE", "at": [0, 0.2]}, {"text": "LUNE.", "at": [0, 0.5], "max": 260}, {"text": "[PLUS GRANDE]", "at": [1, 0.35], "punch": true, "gap": 30}, {"text": "[QUE MERCURE.]", "at": [1, 0.85]}]},
+  {"say": ["Si elle tournait autour du Soleil… on l'appellerait sans doute une planète."], "hit": true, "ghost": "PLANÈTE", "lines": [{"text": "AUTOUR DU SOLEIL,", "at": [0, 0.2]}, {"text": "UNE PLANÈTE.", "at": [0, 0.85], "punch": true, "max": 380}]},
+  {"say": ["Et c'est la seule lune connue qui possède son propre champ magnétique."], "ghost": "MAGNÉTIQUE", "kicker": "SEULE LUNE AVEC UN CHAMP MAGNÉTIQUE", "il": {"type": "waves", "label": "CHAMP MAGNÉTIQUE"}, "lines": [{"text": "LA SEULE LUNE", "at": [0, 0.2]}, {"text": "AVEC UN", "at": [0, 0.5]}, {"text": "[CHAMP MAGNÉTIQUE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Résultat : elle a ses propres aurores, autour de ses pôles."], "ghost": "AURORES", "il": {"type": "starsPulse"}, "lines": [{"text": "ELLE A SES", "at": [0, 0.3]}, {"text": "[AURORES.]", "at": [0, 0.6], "punch": true, "max": 320}]},
+  {"say": ["Et sous sa glace, il y aurait un océan d'eau salée… avec peut-être plus d'eau que toute la surface de la Terre."], "ghost": "OCÉAN", "il": {"type": "waves", "label": "OCÉAN SOUS LA GLACE"}, "lines": [{"text": "SOUS LA GLACE :", "at": [0, 0.15]}, {"text": "[UN OCÉAN]", "at": [0, 0.35], "punch": true}, {"text": "PLUS GRAND QUE", "at": [0, 0.75]}, {"text": "CEUX DE LA TERRE ?", "at": [0, 0.95]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

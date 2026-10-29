@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Le trou noir géant au centre de notre galaxie",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Au centre de la Voie lactée se cache Sagittarius A*, un trou noir d'environ 4 millions de fois la masse du Soleil 🕳️\n\nSa toute première image a été dévoilée le 12 mai 2022 par l'Event Horizon Telescope.\n\nTu l'avais déjà vue ? 👇",
+ "hashtags": ["#trounoir", "#sagittariusa", "#voielactee", "#espace", "#univers", "#astronomie", "#eso", "#science", "#lesaviezvous", "#eht"],
+ "sources": ["https://eso.org/public/news/eso2208"],
+ "scenes": [
+  {"say": ["Au centre de notre galaxie se cache un monstre."], "ghost": "MONSTRE", "kicker": "CENTRE DE LA VOIE LACTÉE", "il": {"type": "galaxy"}, "lines": [{"text": "AU CENTRE", "at": [0, 0.05]}, {"text": "DE NOTRE GALAXIE…", "at": [0, 0.3]}, {"text": "[UN MONSTRE.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Un trou noir supermassif, appelé Sagittarius A étoile."], "ghost": "SGR A*", "il": {"type": "blackhole", "label": "SAGITTARIUS A*"}, "lines": [{"text": "UN TROU NOIR", "at": [0, 0.1]}, {"text": "[SUPERMASSIF.]", "at": [0, 0.35], "punch": true}, {"text": "SAGITTARIUS A*", "at": [0, 0.8]}]},
+  {"say": ["Sa masse : environ quatre millions de fois celle du Soleil."], "hit": true, "ghost": "4 M", "lines": [{"text": "4 MILLIONS", "at": [0, 0.4], "punch": true, "max": 400}, {"text": "DE SOLEILS.", "at": [0, 0.8]}]},
+  {"say": ["Il se trouve à environ vingt-sept mille années-lumière de nous."], "ghost": "27 000 AL", "kicker": "DISTANCE · ~27 000 ANNÉES-LUMIÈRE", "il": {"type": "distance", "label": "27 000 ANNÉES-LUMIÈRE"}, "lines": [{"text": "À ENVIRON", "at": [0, 0.1], "max": 200}, {"text": "[27 000]", "at": [0, 0.5], "punch": true, "count": {"from": 0, "to": 27000, "fmt": "[{v}]", "dur": 0.8}}, {"text": "ANNÉES-LUMIÈRE.", "at": [0, 0.85]}]},
+  {"say": ["Pour le photographier, il a fallu relier huit observatoires radio à travers le monde…", "et créer un télescope virtuel de la taille de la Terre."], "ghost": "EHT", "kicker": "EVENT HORIZON TELESCOPE", "il": {"type": "globe", "label": "UN TÉLESCOPE GRAND COMME LA TERRE"}, "lines": [{"text": "8 OBSERVATOIRES", "at": [0, 0.3]}, {"text": "RELIÉS", "at": [0, 0.55], "max": 220}, {"text": "UN TÉLESCOPE", "at": [1, 0.3], "gap": 30}, {"text": "[GRAND COMME LA TERRE.]", "at": [1, 0.85], "punch": true}]},
+  {"say": ["Et le douze mai deux mille vingt-deux, sa toute première image a été dévoilée."], "ghost": "2022", "kicker": "12 MAI 2022", "il": {"type": "blackhole"}, "lines": [{"text": "LE 12 MAI 2022 :", "at": [0, 0.35]}, {"text": "[LA PREMIÈRE IMAGE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Vu d'ici, il paraît aussi petit… qu'un beignet posé sur la Lune."], "hit": true, "ghost": "BEIGNET", "lines": [{"text": "COMME UN BEIGNET", "at": [0, 0.6], "punch": true}, {"text": "SUR LA LUNE.", "at": [0, 0.9]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
