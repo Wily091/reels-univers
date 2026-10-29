@@ -2,6 +2,7 @@
 # Chaîne complète pour un épisode : validation → voix → timeline → rendu → musique → mixage.
 # Usage : engine/build.sh episodes/AAAA-MM-JJ [--mock]
 set -euo pipefail
+trap 'echo "::error title=Échec du rendu::étape en échec ligne $LINENO : $BASH_COMMAND"' ERR
 D="$1"; MOCK="${2:-}"
 B="$D/build"; mkdir -p "$B"
 node engine/validate.js "$D"

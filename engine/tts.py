@@ -52,6 +52,7 @@ def tts_with_timestamps(text, voice):
                 wait = 20 * (attempt + 1)
                 print(f"  ElevenLabs {e.code}, nouvel essai dans {wait}s : {msg}", flush=True)
                 time.sleep(wait); continue
+            print(f"::error title=ElevenLabs {e.code}::{msg.decode(errors='replace')}", flush=True)
             raise SystemExit(f"Erreur ElevenLabs {e.code}: {msg}")
     raise SystemExit("ElevenLabs : échec après plusieurs essais")
 
