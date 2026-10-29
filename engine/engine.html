@@ -59,16 +59,27 @@ function grain(t){X.save();X.globalAlpha=0.07;X.globalCompositeOperation='overla
 
 // ---------- text ----------
 function lineSize(L,text){const rs=runs(text);let size=L.size||200;if(L.fit!==false)size=Math.min(L.max||330,size*(W-2*M)/measure(rs,size));return size}
-function drawLine(L,text,size,t,y,hit){
+function drawLine(L,text,size,t,y,hit,idx){
   const lt=t-L.t;if(lt<0)return;const rs=runs(text);const w=measure(rs,size);
-  let x=L.align==='c'?(W-w)/2:M;const p=eo(lt/0.28);const sc=1+(L.punch?(1-eo(lt/0.3))*0.18:0);
-  X.save();X.beginPath();X.rect(0,y-size*1.02,W,size*1.12);X.clip();
-  X.translate(0,(1-p)*size*0.85);X.translate(W/2,y-size*0.4);X.scale(sc,sc);X.translate(-W/2,-(y-size*0.4));
+  let x0=L.align==='c'?(W-w)/2:M;
+  // entrée : alternance glissé bas / gauche / droite, « pop » pour les lignes fortes
+  const style=L.punch?'pop':['up','left','up','right'][idx%4];
+  const p=eo(lt/0.32);let tx=0,ty=0,sc=1,al=1;
+  if(style==='up'){ty=(1-p)*size*0.85}
+  else if(style==='left'){tx=-(1-p)*170;al=clamp(lt/0.2)}
+  else if(style==='right'){tx=(1-p)*170;al=clamp(lt/0.2)}
+  else{const q=clamp(lt/0.38);const c1=2.2,c3=c1+1;sc=0.55+0.45*(1+c3*Math.pow(q-1,3)+c1*Math.pow(q-1,2));al=clamp(lt/0.12)}
+  X.save();X.globalAlpha=al;
+  if(style==='up'){X.beginPath();X.rect(0,y-size*1.02,W,size*1.12);X.clip()}
+  X.translate(tx,ty);X.translate(x0+w/2,y-size*0.4);X.scale(sc,sc);X.translate(-(x0+w/2),-(y-size*0.4));
   X.font=`${size}px Anton`;X.textBaseline='alphabetic';X.textAlign='left';
-  const base=hit?INK:WHITE,acc=hit?WHITE:ACC;
-  for(const r of rs){X.fillStyle=r.a?acc:base;if(!hit){X.shadowColor='rgba(0,0,0,.6)';X.shadowBlur=30}X.fillText(r.t,x,y);x+=X.measureText(r.t).width}
+  const base=hit?INK:WHITE,acc=hit?WHITE:ACC;let x=x0;const bars=[];
+  for(const r of rs){const rw=X.measureText(r.t).width;X.fillStyle=r.a?acc:base;if(!hit){X.shadowColor='rgba(0,0,0,.6)';X.shadowBlur=30}X.fillText(r.t,x,y);if(r.a&&r.t.trim())bars.push([x,rw]);x+=rw}
+  // soulignement balayé sous les mots en couleur
+  X.shadowBlur=0;const u=eo((lt-0.22)/0.35);
+  if(u>0)for(const [bx,bw] of bars){X.fillStyle=acc;X.globalAlpha=al*0.9;X.fillRect(bx,y+size*0.07,bw*u,Math.max(5,size*0.045))}
   X.restore();
-  if(L.strike!==undefined&&t>L.strike){const sp=eo((t-L.strike)/0.25);X.save();X.strokeStyle=hit?INK:ACC;X.lineWidth=size*0.11;X.lineCap='round';const xs=L.align==='c'?(W-w)/2:M;X.beginPath();X.moveTo(xs-10,y-size*0.36);X.lineTo(xs-10+(w+20)*sp,y-size*0.40);X.stroke();X.restore()}
+  if(L.strike!==undefined&&t>L.strike){const sp=eo((t-L.strike)/0.25);X.save();X.strokeStyle=hit?INK:ACC;X.lineWidth=size*0.11;X.lineCap='round';X.beginPath();X.moveTo(x0-10,y-size*0.36);X.lineTo(x0-10+(w+20)*sp,y-size*0.40);X.stroke();X.restore()}
 }
 function kicker(sc,t){
   let k=null;for(const it of (sc.kickers||[]))if(t>=it.t)k=it;if(!k)return;
@@ -183,20 +194,26 @@ const IL={
 function setTimeline(tl){TL=tl;TH=THEMES[tl.theme]||THEMES.nebuleuse;ACC=TH.acc;INK=TH.ink;S=tl.scenes;S.forEach(sc=>{sc._k=undefined})}
 function layoutK(sc){let tot=0;for(const L of sc.lines){const txt=L.count?countText(L.count,1e9,0):L.text;tot+=lineSize(L,txt)*0.98+12+(L.gap||0)}const lim=(sc.il&&sc.il.type!=='none'?1060:1500)-sc.y;return Math.min(1,lim/tot)}
 function render(t){
-  let sc=S[0];for(const s of S)if(t>=s.s)sc=s;const lt=t-sc.s;
+  let si=0;for(let i=0;i<S.length;i++)if(t>=S[i].s)si=i;const sc=S[si];const lt=t-sc.s;const dir=si%2?1:-1;
   X.save();
-  let shake=0;for(const L of sc.lines){if(L.punch){const d=t-L.t;if(d>=0&&d<0.25)shake=Math.max(shake,(1-d/0.25)*16)}}
-  if(sc.hit&&lt<0.25)shake=Math.max(shake,(1-lt/0.25)*22);
-  const z=1+lt*0.012;X.translate(W/2,H/2);X.scale(z,z);X.translate(-W/2+Math.sin(t*93)*shake,-H/2+Math.cos(t*71)*shake);
+  // secousse sur les mots forts
+  let shake=0,kick=0;for(const L of sc.lines){if(L.punch){const d=t-L.t;if(d>=0&&d<0.25)shake=Math.max(shake,(1-d/0.25)*14);if(d>=0&&d<0.45)kick=Math.max(kick,(1-eo(d/0.45))*0.035)}}
+  if(sc.hit&&lt<0.25)shake=Math.max(shake,(1-lt/0.25)*20);
+  // caméra : arrivée en zoom avant + légère rotation, dérive lente, petit zoom de sortie
+  const k=eo(lt/0.38);const ex=si<S.length-1?clamp((t-(sc.e-0.16))/0.16):0;
+  const z=(1+0.11*(1-k))*(1+lt*0.014)*(1+kick)*(1+0.07*ex);
+  const rot=(1-k)*0.03*dir+Math.sin(t*0.35)*0.004;
+  X.translate(W/2,H/2);X.rotate(rot);X.scale(z,z);X.translate(-W/2+Math.sin(t*93)*shake+(1-k)*40*dir,-H/2+Math.cos(t*71)*shake);
   background(t,sc.hit);ghost(sc.ghost,lt,sc.hit);
-  if(sc.il){const f=IL[sc.il.type]||IL.none;X.save();f(t,lt,sc.il);X.restore()}
+  if(sc.il){const f=IL[sc.il.type]||IL.none;X.save();const fy=Math.sin(t*1.1)*9,fs=1+Math.sin(t*0.7)*0.012+(1-k)*0.08;X.translate(W/2,1350+fy);X.scale(fs,fs);X.translate(-W/2,-1350);f(t,lt,sc.il);X.restore()}
   if(sc._k===undefined)sc._k=layoutK(sc);
-  let y=sc.y;
+  let y=sc.y;let li=0;
   for(const L of sc.lines){if(L.gap)y+=L.gap;const full=L.count?countText(L.count,1e9,0):L.text;let size=lineSize(L,full)*sc._k;y+=size*0.98;
-    const txt=L.count?(t>=L.t?countText(L.count,t,L.t):full):L.text;drawLine(L,txt,size,t,y,sc.hit);y+=12}
+    const txt=L.count?(t>=L.t?countText(L.count,t,L.t):full):L.text;drawLine(L,txt,size,t,y,sc.hit,li++);y+=12}
   X.restore();
   kicker(sc,t);vignette();
-  const fl=t-sc.s;if(fl>=0&&fl<0.07&&sc.s>0){X.fillStyle=sc.hit?'rgba(255,255,255,.55)':'rgba(255,255,255,.18)';X.fillRect(0,0,W,H)}
+  if(ex>0){X.fillStyle=`rgba(0,0,0,${ex*0.35})`;X.fillRect(0,0,W,H)}
+  const fl=t-sc.s;if(fl>=0&&fl<0.08&&sc.s>0){X.fillStyle=sc.hit?`rgba(255,255,255,${0.55*(1-fl/0.08)})`:`rgba(${TH.rgb},${0.22*(1-fl/0.08)})`;X.fillRect(0,0,W,H)}
   if(t>TL.duration-0.7){X.fillStyle=`rgba(0,0,0,${clamp((t-(TL.duration-0.7))/0.6)})`;X.fillRect(0,0,W,H)}
   grain(t);
 }
