@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Tu vois la Lune avec plus d'une seconde de retard",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "La Lune est à environ 384 400 km. Sa lumière met donc environ 1,3 seconde pour nous parvenir 🌕⏱️\n\nQuand tu la regardes, tu vois la Lune telle qu'elle était il y a un peu plus d'une seconde.\n\nTu le savais ? 👇",
+ "hashtags": ["#lune", "#lumiere", "#espace", "#univers", "#astronomie", "#physique", "#science", "#lesaviezvous", "#apollo", "#cosmos"],
+ "sources": ["https://science.nasa.gov/moon/facts/"],
+ "scenes": [
+  {"say": ["Quand tu regardes la Lune… tu regardes le passé."], "ghost": "PASSÉ", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "QUAND TU REGARDES", "at": [0, 0.05]}, {"text": "LA LUNE…", "at": [0, 0.3]}, {"text": "[C'EST LE PASSÉ.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Un passé tout proche : un peu plus d'une seconde."], "hit": true, "ghost": "1 SECONDE", "lines": [{"text": "UN PEU PLUS", "at": [0, 0.4]}, {"text": "D'1 SECONDE.", "at": [0, 0.8], "punch": true, "max": 400}]},
+  {"say": ["La Lune est à environ trois cent quatre-vingt-quatre mille kilomètres."], "ghost": "384 400", "kicker": "DISTANCE MOYENNE · 384 400 KM", "il": {"type": "distance", "label": "384 400 KM"}, "lines": [{"text": "LA LUNE EST À", "at": [0, 0.1]}, {"text": "[384 400 KM]", "at": [0, 0.7], "punch": true, "count": {"from": 0, "to": 384400, "fmt": "[{v} KM]", "dur": 0.9}}]},
+  {"say": ["Et la lumière, à trois cent mille kilomètres par seconde, met donc environ une seconde trois pour faire le trajet."], "ghost": "1,3 S", "kicker": "~1,3 SECONDE-LUMIÈRE", "il": {"type": "lightTravel", "from": "LUNE", "to": "TOI"}, "lines": [{"text": "LA LUMIÈRE MET", "at": [0, 0.5]}, {"text": "[1,3 SECONDE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Lors des missions Apollo, les conversations avec la Terre avaient un petit décalage.", "Un aller-retour radio prenait plus de deux secondes et demie."], "ghost": "APOLLO", "kicker": "MISSIONS APOLLO", "il": {"type": "rocket"}, "lines": [{"text": "AVEC APOLLO,", "at": [0, 0.2]}, {"text": "UN [DÉCALAGE]", "at": [0, 0.8], "punch": true}, {"text": "+2,5 S ALLER-RETOUR.", "at": [1, 0.6], "gap": 30}]},
+  {"say": ["Pour le Soleil, c'est huit minutes.", "Et pour les étoiles… des années, voire des milliers d'années."], "ghost": "ÉTOILES", "il": {"type": "stars"}, "lines": [{"text": "LE SOLEIL : [8 MIN.]", "at": [0, 0.4]}, {"text": "LES ÉTOILES :", "at": [1, 0.3], "gap": 30}, {"text": "[DES ANNÉES.]", "at": [1, 0.7], "punch": true}]},
+  {"say": ["Tout ce que tu vois dans le ciel… est déjà du passé."], "hit": true, "ghost": "DÉJÀ", "lines": [{"text": "TOUT LE CIEL", "at": [0, 0.3]}, {"text": "EST DU PASSÉ.", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

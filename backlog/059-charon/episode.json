@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Charon, la lune presque aussi grosse que sa planète",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Charon, la plus grande lune de Pluton, fait environ la moitié de sa taille 🌑🌑\n\nC'est la plus grosse lune du système solaire par rapport à l'astre autour duquel elle tourne.\n\nTu la connaissais ? 👇",
+ "hashtags": ["#charon", "#pluton", "#lune", "#espace", "#univers", "#astronomie", "#systemesolaire", "#newhorizons", "#science", "#nasa"],
+ "sources": ["https://science.nasa.gov/dwarf-planets/pluto/facts/"],
+ "scenes": [
+  {"say": ["Notre Lune fait environ un quart de la taille de la Terre."], "ghost": "LUNE", "il": {"type": "sizeCompare", "big": "TERRE", "small": "LUNE", "ratio": 3.7}, "lines": [{"text": "NOTRE LUNE :", "at": [0, 0.1]}, {"text": "[UN QUART]", "at": [0, 0.5], "punch": true}, {"text": "DE LA TERRE.", "at": [0, 0.85]}]},
+  {"say": ["Mais là-bas, près de Pluton, il y a une lune bien plus impressionnante."], "ghost": "PLUTON", "il": {"type": "orbit", "center": "PLUTON", "speed": 1}, "lines": [{"text": "PRÈS DE PLUTON…", "at": [0, 0.3]}, {"text": "[UNE LUNE GÉANTE.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Elle s'appelle Charon."], "hit": true, "ghost": "CHARON", "lines": [{"text": "CHARON.", "at": [0, 0.4], "punch": true, "max": 460}]},
+  {"say": ["Elle fait environ la moitié de la taille de Pluton."], "ghost": "MOITIÉ", "kicker": "CHARON · ~MOITIÉ DE PLUTON", "il": {"type": "sizeCompare", "big": "PLUTON", "small": "CHARON", "ratio": 2}, "lines": [{"text": "LA MOITIÉ", "at": [0, 0.3], "punch": true}, {"text": "DE PLUTON.", "at": [0, 0.8]}]},
+  {"say": ["C'est la plus grosse lune du système solaire… par rapport à l'astre autour duquel elle tourne."], "ghost": "RECORD", "il": {"type": "exclaim"}, "lines": [{"text": "LA PLUS GROSSE LUNE", "at": [0, 0.3]}, {"text": "[PAR RAPPORT]", "at": [0, 0.6], "punch": true}, {"text": "À SON ASTRE.", "at": [0, 0.9]}]},
+  {"say": ["Elles sont si proches en taille qu'on les voit presque comme un couple qui danse."], "ghost": "DUO", "il": {"type": "waves", "label": "PLUTON + CHARON"}, "lines": [{"text": "UN COUPLE", "at": [0, 0.6]}, {"text": "[QUI DANSE.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Et en deux mille quinze, la sonde New Horizons les a photographiées de près pour la première fois."], "ghost": "2015", "kicker": "NEW HORIZONS · 2015", "il": {"type": "rocket"}, "lines": [{"text": "[NEW HORIZONS]", "at": [0, 0.3], "punch": true}, {"text": "EN 2015.", "at": [0, 0.5]}, {"text": "ENFIN DE PRÈS.", "at": [0, 0.9]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

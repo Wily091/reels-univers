@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Une année-lumière n'est pas une durée",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Piège classique : une année-lumière n'est pas une durée… c'est une distance 📏✨\n\nC'est la distance parcourue par la lumière en un an : environ 9 460 milliards de km.\n\nTu le savais ? 👇",
+ "hashtags": ["#anneelumiere", "#lumiere", "#espace", "#univers", "#astronomie", "#physique", "#science", "#lesaviezvous", "#ideesrecues", "#cosmos"],
+ "sources": ["https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"],
+ "scenes": [
+  {"say": ["Une année-lumière… ce n'est pas une durée."], "ghost": "PIÈGE", "kicker": "IDÉE REÇUE", "il": {"type": "clock", "forward": true}, "lines": [{"text": "UNE ANNÉE-LUMIÈRE", "at": [0, 0.3]}, {"text": "[N'EST PAS UNE DURÉE.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["C'est une distance."], "hit": true, "ghost": "DISTANCE", "lines": [{"text": "C'EST UNE", "at": 0}, {"text": "DISTANCE.", "at": [0, 0.5], "punch": true, "max": 440}]},
+  {"say": ["La distance que parcourt la lumière… en une année."], "ghost": "LUMIÈRE", "il": {"type": "lightTravel", "from": "DÉPART", "to": "1 AN PLUS TARD"}, "lines": [{"text": "CE QUE PARCOURT", "at": [0, 0.2]}, {"text": "LA LUMIÈRE", "at": [0, 0.45]}, {"text": "[EN UN AN.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Et la lumière va très vite : environ trois cent mille kilomètres par seconde."], "ghost": "300 000", "kicker": "VITESSE DE LA LUMIÈRE · 299 792 KM/S", "il": {"type": "tunnel"}, "lines": [{"text": "LA LUMIÈRE :", "at": [0, 0.2]}, {"text": "[300 000 KM/S]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 300000, "fmt": "[{v} KM/S]", "dur": 0.8}}]},
+  {"say": ["Sept fois et demie le tour de la Terre… en une seule seconde."], "ghost": "7,5 TOURS", "il": {"type": "orbit", "center": "TERRE", "speed": 6}, "lines": [{"text": "7,5 TOURS", "at": [0, 0.2], "punch": true}, {"text": "DE LA TERRE", "at": [0, 0.45]}, {"text": "[EN 1 SECONDE.]", "at": [0, 0.85]}]},
+  {"say": ["Alors en un an, ça fait environ neuf mille quatre cent soixante milliards de kilomètres."], "hit": true, "ghost": "9 460", "lines": [{"text": "9 460", "at": [0, 0.5], "punch": true, "max": 420}, {"text": "MILLIARDS DE KM.", "at": [0, 0.85]}]},
+  {"say": ["Et l'étoile la plus proche du Soleil est à un peu plus de quatre années-lumière.", "Fais le calcul…"], "ghost": "PROXIMA", "kicker": "PROXIMA DU CENTAURE · 4,24 AL", "il": {"type": "distance", "label": "4,24 ANNÉES-LUMIÈRE"}, "lines": [{"text": "L'ÉTOILE LA PLUS PROCHE :", "at": [0, 0.3], "max": 150}, {"text": "[4,2 ANNÉES-LUMIÈRE.]", "at": [0, 0.85], "punch": true}, {"text": "À TOI DE CALCULER…", "at": [1, 0.3], "gap": 30, "max": 150}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

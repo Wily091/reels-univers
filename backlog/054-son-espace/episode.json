@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Dans l'espace, personne ne t'entend… presque",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "L'espace est presque partout silencieux : sans air, le son ne peut pas voyager 🔇\n\nMais dans l'amas de galaxies de Persée, il y a assez de gaz pour porter des ondes sonores… autour d'un trou noir qui « chante » un si bémol plus de 56 octaves sous le do central 🎵🕳️\n\nTu le savais ? 👇",
+ "hashtags": ["#son", "#espace", "#trounoir", "#chandra", "#univers", "#astronomie", "#physique", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://www.skyatnightmagazine.com/space-science/is-space-silent", "https://cxc.harvard.edu/newsletters/news_32/article4.html"],
+ "scenes": [
+  {"say": ["Dans l'espace, une explosion ne ferait aucun bruit."], "ghost": "SILENCE", "il": {"type": "burst"}, "lines": [{"text": "DANS L'ESPACE,", "at": [0, 0.1]}, {"text": "UNE EXPLOSION…", "at": [0, 0.4]}, {"text": "[SANS AUCUN BRUIT.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Le son, c'est une vibration qui doit se propager dans quelque chose : de l'air, de l'eau, un mur."], "ghost": "SON", "il": {"type": "waves", "label": "VIBRATION"}, "lines": [{"text": "LE SON", "at": [0, 0.05], "max": 300}, {"text": "DOIT VOYAGER", "at": [0, 0.4]}, {"text": "[DANS QUELQUE CHOSE.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["Or l'espace est presque vide.", "Pas de matière… pas de son."], "hit": true, "ghost": "VIDE", "lines": [{"text": "PAS DE MATIÈRE,", "at": [1, 0.1]}, {"text": "PAS DE SON.", "at": [1, 0.6], "punch": true, "max": 420}]},
+  {"say": ["Mais il existe une exception."], "ghost": "EXCEPTION", "il": {"type": "exclaim"}, "lines": [{"text": "MAIS IL Y A", "at": [0, 0.2]}, {"text": "[UNE EXCEPTION.]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Dans l'amas de galaxies de Persée, il y a tellement de gaz… que de vraies ondes sonores s'y propagent."], "ghost": "PERSÉE", "kicker": "AMAS DE PERSÉE · CHANDRA", "il": {"type": "galaxy"}, "lines": [{"text": "L'AMAS DE [PERSÉE]", "at": [0, 0.15], "punch": true}, {"text": "ASSEZ DE GAZ", "at": [0, 0.55]}, {"text": "POUR [DU VRAI SON.]", "at": [0, 0.9]}]},
+  {"say": ["Elles sont produites par un trou noir géant.", "Et elles correspondent à une note : un si bémol… plus de cinquante-six octaves sous le do central."], "ghost": "SI BÉMOL", "kicker": "SI BÉMOL · 56 OCTAVES SOUS LE DO CENTRAL", "il": {"type": "blackhole"}, "lines": [{"text": "UN TROU NOIR", "at": [0, 0.4]}, {"text": "QUI [CHANTE.]", "at": [0, 0.8], "punch": true}, {"text": "UN [SI BÉMOL]", "at": [1, 0.4], "gap": 30}, {"text": "56 OCTAVES PLUS BAS.", "at": [1, 0.85]}]},
+  {"say": ["Bien trop grave pour nos oreilles.", "Mais l'univers… chante quand même."], "hit": true, "ghost": "CHANTE", "lines": [{"text": "TROP GRAVE", "at": [0, 0.2]}, {"text": "POUR NOUS…", "at": [0, 0.6]}, {"text": "MAIS IL CHANTE.", "at": [1, 0.6], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

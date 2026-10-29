@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Tous les astéroïdes réunis pèsent moins que la Lune",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Dans les films, la ceinture d'astéroïdes est un champ de rochers serrés. En réalité, la masse de tous les astéroïdes réunis est inférieure à celle de notre Lune 🌑\n\nEt pourtant, il y en a plus d'un million de plus d'un kilomètre !\n\nTu le savais ? 👇",
+ "hashtags": ["#asteroides", "#espace", "#univers", "#astronomie", "#systemesolaire", "#lune", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
+ "sources": ["https://science.nasa.gov/solar-system/asteroids/facts/", "https://science.nasa.gov/dwarf-planets/ceres/facts/"],
+ "scenes": [
+  {"say": ["Dans les films, la ceinture d'astéroïdes ressemble à un champ de rochers où il faut slalomer."], "ghost": "FILMS", "kicker": "IDÉE REÇUE", "il": {"type": "tunnel"}, "lines": [{"text": "DANS LES FILMS,", "at": [0, 0.1]}, {"text": "UN CHAMP", "at": [0, 0.5]}, {"text": "[DE ROCHERS.]", "at": [0, 0.75], "punch": true}]},
+  {"say": ["En réalité, c'est surtout… du vide."], "hit": true, "ghost": "VIDE", "lines": [{"text": "SURTOUT", "at": [0, 0.4]}, {"text": "DU VIDE.", "at": [0, 0.75], "punch": true, "max": 420}]},
+  {"say": ["Pourtant, on estime qu'elle contient plus d'un million d'astéroïdes de plus d'un kilomètre."], "ghost": "1 MILLION", "kicker": "1,1 À 1,9 MILLION DE PLUS D'1 KM", "il": {"type": "starsPulse"}, "lines": [{"text": "PLUS D'", "at": [0, 0.4], "max": 200}, {"text": "[1 MILLION]", "at": [0, 0.55], "punch": true}, {"text": "DE PLUS D'1 KM.", "at": [0, 0.9]}]},
+  {"say": ["Mais ils sont répartis dans un espace gigantesque, entre Mars et Jupiter."], "ghost": "ESPACE", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.6}, "lines": [{"text": "RÉPARTIS DANS", "at": [0, 0.2]}, {"text": "[UN ESPACE]", "at": [0, 0.5], "punch": true}, {"text": "GIGANTESQUE.", "at": [0, 0.7]}]},
+  {"say": ["Et si tu les rassemblais tous… leur masse totale serait inférieure à celle de notre Lune."], "ghost": "LUNE", "kicker": "MASSE TOTALE < MASSE DE LA LUNE", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "TOUS RÉUNIS :", "at": [0, 0.3]}, {"text": "[MOINS QUE]", "at": [0, 0.7], "punch": true}, {"text": "NOTRE LUNE.", "at": [0, 0.95]}]},
+  {"say": ["Et à elle seule, Cérès en représente environ un quart."], "ghost": "CÉRÈS", "il": {"type": "moon", "label": "CÉRÈS"}, "lines": [{"text": "CÉRÈS SEULE :", "at": [0, 0.4]}, {"text": "[UN QUART.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["On est bien loin des scènes de films."], "hit": true, "ghost": "FILMS", "lines": [{"text": "BIEN LOIN", "at": [0, 0.3]}, {"text": "DES FILMS.", "at": [0, 0.8], "punch": true, "max": 420}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Le nuage d'Oort, la frontière qu'on n'a jamais vue",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Bien au-delà de Pluton, le système solaire serait entouré d'une immense sphère d'objets glacés : le nuage d'Oort 🧊\n\nMais il est si lointain que personne ne l'a jamais photographié. On le déduit sans l'avoir vu.\n\nTu en avais entendu parler ? 👇",
+ "hashtags": ["#nuagedoort", "#systemesolaire", "#comete", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#mystere"],
+ "sources": ["https://science.nasa.gov/solar-system/oort-cloud/", "https://science.nasa.gov/solar-system/comets/facts/"],
+ "scenes": [
+  {"say": ["Le système solaire ne s'arrête pas à Pluton."], "ghost": "PLUTON", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.4, "rx": 380}, "lines": [{"text": "LE SYSTÈME SOLAIRE", "at": [0, 0.3]}, {"text": "[NE S'ARRÊTE PAS]", "at": [0, 0.6], "punch": true}, {"text": "À PLUTON.", "at": [0, 0.9]}]},
+  {"say": ["Bien au-delà, il serait entouré d'une gigantesque coquille d'objets glacés."], "ghost": "COQUILLE", "il": {"type": "tunnel"}, "lines": [{"text": "UNE COQUILLE", "at": [0, 0.5]}, {"text": "[D'OBJETS GLACÉS.]", "at": [0, 0.85], "punch": true}]},
+  {"say": ["On l'appelle le nuage d'Oort."], "hit": true, "ghost": "OORT", "lines": [{"text": "LE NUAGE", "at": [0, 0.5]}, {"text": "D'OORT.", "at": [0, 0.8], "punch": true, "max": 440}]},
+  {"say": ["Il se trouverait bien plus loin que Pluton… et que la ceinture de Kuiper."], "ghost": "LOIN", "kicker": "AU-DELÀ DE LA CEINTURE DE KUIPER", "il": {"type": "distance", "label": "BIEN AU-DELÀ DE PLUTON"}, "lines": [{"text": "BIEN PLUS LOIN", "at": [0, 0.2]}, {"text": "QUE PLUTON…", "at": [0, 0.5]}, {"text": "[ET QUE KUIPER.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Le problème ? Personne ne l'a jamais vu."], "ghost": "INVISIBLE", "il": {"type": "question"}, "lines": [{"text": "LE PROBLÈME ?", "at": [0, 0.1]}, {"text": "[PERSONNE NE L'A VU.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Il est si loin que la NASA n'en a aucune image directe.", "Les scientifiques en déduisent l'existence… sans pouvoir le photographier."], "ghost": "DÉDUIT", "kicker": "AUCUNE IMAGE DIRECTE", "il": {"type": "telescope"}, "lines": [{"text": "AUCUNE IMAGE.", "at": [0, 0.6], "punch": true}, {"text": "ON LE DÉDUIT,", "at": [1, 0.3], "gap": 30}, {"text": "[SANS LE VOIR.]", "at": [1, 0.85]}]},
+  {"say": ["Une frontière immense… qu'on n'a encore jamais vue."], "hit": true, "ghost": "FRONTIÈRE", "lines": [{"text": "UNE FRONTIÈRE", "at": [0, 0.2]}, {"text": "JAMAIS VUE.", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

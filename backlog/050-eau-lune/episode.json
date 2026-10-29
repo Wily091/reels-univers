@@ -1,0 +1,18 @@
+{
+ "date": null,
+ "title": "Il y a de l'eau sur la face éclairée de la Lune",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "En 2020, l'observatoire volant SOFIA de la NASA a détecté des molécules d'eau sur la face éclairée de la Lune 🌕💧\n\nEn très petite quantité : l'équivalent d'une petite bouteille par mètre cube de sol. Le Sahara contient environ 100 fois plus d'eau !\n\nTu le savais ? 👇",
+ "hashtags": ["#lune", "#eau", "#nasa", "#sofia", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#artemis"],
+ "sources": ["https://www.sciencedaily.com/releases/2020/10/201026125902.htm"],
+ "scenes": [
+  {"say": ["Il y a de l'eau sur la Lune.", "Et pas seulement cachée dans des cratères sombres."], "ghost": "EAU", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "DE L'EAU", "at": [0, 0.3], "punch": true, "max": 320}, {"text": "SUR LA LUNE.", "at": [0, 0.8]}, {"text": "PAS SEULEMENT DANS L'OMBRE.", "at": [1, 0.6], "gap": 30, "max": 150}]},
+  {"say": ["En deux mille vingt, l'observatoire volant SOFIA de la NASA en a détecté… sur la face éclairée par le Soleil."], "ghost": "SOFIA", "kicker": "NASA · SOFIA · 2020", "il": {"type": "telescope"}, "lines": [{"text": "EN 2020,", "at": [0, 0.05], "max": 240}, {"text": "SOFIA", "at": [0, 0.4], "max": 260}, {"text": "[EN PLEIN SOLEIL.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Dans le cratère Clavius."], "hit": true, "ghost": "CLAVIUS", "lines": [{"text": "CRATÈRE", "at": 0}, {"text": "CLAVIUS.", "at": [0, 0.5], "punch": true, "max": 420}]},
+  {"say": ["Mais attention : il y en a très peu.", "L'équivalent d'une petite bouteille d'eau… par mètre cube de sol."], "ghost": "BOUTEILLE", "kicker": "~1 PETITE BOUTEILLE PAR M3", "il": {"type": "thermo", "label": "TRÈS PEU", "level": 0.08}, "lines": [{"text": "TRÈS PEU :", "at": [0, 0.7]}, {"text": "[UNE PETITE BOUTEILLE]", "at": [1, 0.55], "punch": true}, {"text": "PAR MÈTRE CUBE.", "at": [1, 0.9]}]},
+  {"say": ["Le désert du Sahara contient environ cent fois plus d'eau."], "ghost": "SAHARA", "il": {"type": "sun"}, "lines": [{"text": "LE SAHARA :", "at": [0, 0.2]}, {"text": "[100 FOIS PLUS]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Mais pour de futurs astronautes, chaque goutte compte : de l'eau à boire, de l'oxygène… et même du carburant."], "ghost": "GOUTTE", "kicker": "PROGRAMME ARTEMIS", "il": {"type": "rocket"}, "lines": [{"text": "CHAQUE GOUTTE", "at": [0, 0.2]}, {"text": "[COMPTE.]", "at": [0, 0.4], "punch": true, "max": 320}, {"text": "EAU, OXYGÈNE, CARBURANT.", "at": [0, 0.9], "max": 150}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

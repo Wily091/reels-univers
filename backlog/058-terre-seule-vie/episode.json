@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "La Terre, le seul endroit où l'on connaît la vie",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Sur des milliards de planètes possibles, la Terre reste le seul endroit connu où il y a de la vie 🌍\n\nElle s'est formée il y a environ 4,5 milliards d'années, et la vie serait apparue dans ses océans il y a environ 3,8 milliards d'années.\n\nTu crois qu'on est seuls ? 👇",
+ "hashtags": ["#terre", "#vie", "#espace", "#univers", "#astronomie", "#planete", "#science", "#lesaviezvous", "#nasa", "#exoplanetes"],
+ "sources": ["https://science.nasa.gov/earth/facts/", "https://www.jpl.nasa.gov/news/nasas-tally-of-planets-outside-our-solar-system-reaches-6000/"],
+ "scenes": [
+  {"say": ["On connaît plus de six mille planètes autour d'autres étoiles."], "ghost": "6 000", "kicker": "PLUS DE 6 000 EXOPLANÈTES", "il": {"type": "starsPulse"}, "lines": [{"text": "ON CONNAÎT", "at": [0, 0.1]}, {"text": "[+6 000 PLANÈTES]", "at": [0, 0.5], "punch": true}, {"text": "AILLEURS.", "at": [0, 0.85]}]},
+  {"say": ["Et pourtant, un seul endroit connu abrite la vie."], "hit": true, "ghost": "UN SEUL", "lines": [{"text": "UN SEUL", "at": [0, 0.3], "punch": true, "max": 420}, {"text": "ABRITE LA VIE.", "at": [0, 0.8]}]},
+  {"say": ["Le nôtre."], "ghost": "TERRE", "il": {"type": "globe", "label": "LA TERRE"}, "lines": [{"text": "[LA TERRE.]", "at": [0, 0.1], "punch": true, "max": 380}]},
+  {"say": ["Elle s'est formée il y a environ quatre milliards et demi d'années."], "ghost": "4,5 MD", "kicker": "FORMATION · ~4,5 MILLIARDS D'ANNÉES", "il": {"type": "burst"}, "lines": [{"text": "FORMÉE IL Y A", "at": [0, 0.2]}, {"text": "[4,5 MILLIARDS]", "at": [0, 0.6], "punch": true}, {"text": "D'ANNÉES.", "at": [0, 0.9]}]},
+  {"say": ["Et la vie serait apparue dans ses océans… il y a environ trois virgule huit milliards d'années."], "ghost": "OCÉANS", "kicker": "LA VIE · ~3,8 MILLIARDS D'ANNÉES", "il": {"type": "waves", "label": "LES OCÉANS"}, "lines": [{"text": "LA VIE APPARAÎT", "at": [0, 0.2]}, {"text": "DANS LES OCÉANS,", "at": [0, 0.45]}, {"text": "[IL Y A 3,8 MILLIARDS]", "at": [0, 0.85], "punch": true}, {"text": "D'ANNÉES.", "at": [0, 0.95]}]},
+  {"say": ["De l'eau liquide, une atmosphère, la bonne distance du Soleil…", "notre planète coche toutes les cases."], "ghost": "CASES", "il": {"type": "orbit", "center": "SOLEIL", "speed": 1}, "lines": [{"text": "EAU, AIR,", "at": [0, 0.3]}, {"text": "BONNE DISTANCE…", "at": [0, 0.8]}, {"text": "[TOUTES LES CASES.]", "at": [1, 0.7], "punch": true, "gap": 30}]},
+  {"say": ["Pour l'instant, c'est le seul monde habité que l'on connaisse.", "Prends-en soin."], "hit": true, "ghost": "SOIN", "lines": [{"text": "LE SEUL QU'ON CONNAISSE.", "at": [0, 0.6], "max": 150}, {"text": "PRENDS-EN SOIN.", "at": [1, 0.3], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

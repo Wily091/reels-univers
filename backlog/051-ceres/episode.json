@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Cérès, la planète naine cachée dans la ceinture d'astéroïdes",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Entre Mars et Jupiter se cache Cérès, une planète naine découverte en 1801 🪨\n\nC'est le plus gros objet de la ceinture d'astéroïdes : à elle seule, elle représente environ un quart de toute sa masse.\n\nTu la connaissais ? 👇",
+ "hashtags": ["#ceres", "#planetenaine", "#asteroides", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa"],
+ "sources": ["https://science.nasa.gov/dwarf-planets/ceres/facts/"],
+ "scenes": [
+  {"say": ["Entre Mars et Jupiter, il y a une planète naine que presque personne ne connaît."], "ghost": "CÉRÈS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.9}, "lines": [{"text": "ENTRE MARS", "at": [0, 0.05]}, {"text": "ET JUPITER…", "at": [0, 0.25]}, {"text": "[UNE PLANÈTE NAINE.]", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Elle s'appelle Cérès."], "hit": true, "ghost": "CÉRÈS", "lines": [{"text": "CÉRÈS.", "at": [0, 0.4], "punch": true, "max": 460}]},
+  {"say": ["Elle a été découverte en mille huit cent un, par l'astronome italien Giuseppe Piazzi."], "ghost": "1801", "kicker": "DÉCOUVERTE · 1801 · G. PIAZZI", "il": {"type": "telescope"}, "lines": [{"text": "DÉCOUVERTE EN", "at": [0, 0.05]}, {"text": "[1801]", "at": [0, 0.35], "punch": true, "max": 320}, {"text": "PAR GIUSEPPE PIAZZI.", "at": [0, 0.85]}]},
+  {"say": ["C'est le tout premier objet de la ceinture d'astéroïdes jamais découvert."], "ghost": "PREMIER", "il": {"type": "tunnel"}, "lines": [{"text": "LE TOUT PREMIER", "at": [0, 0.3]}, {"text": "[DE LA CEINTURE]", "at": [0, 0.6], "punch": true}, {"text": "D'ASTÉROÏDES.", "at": [0, 0.9]}]},
+  {"say": ["Et c'est le plus gros : elle représente à elle seule environ un quart de la masse de toute la ceinture."], "ghost": "25 %", "kicker": "~25 % DE LA MASSE DE LA CEINTURE", "il": {"type": "moon", "label": "CÉRÈS · ~950 KM"}, "lines": [{"text": "À ELLE SEULE :", "at": [0, 0.4]}, {"text": "[25 %]", "at": [0, 0.65], "punch": true, "count": {"from": 0, "to": 25, "fmt": "[{v} %]", "dur": 0.7}}, {"text": "DE LA CEINTURE.", "at": [0, 0.95]}]},
+  {"say": ["Longtemps considérée comme un astéroïde, elle a été reclassée planète naine en deux mille six."], "ghost": "2006", "kicker": "PLANÈTE NAINE · 2006", "il": {"type": "crossStar", "sw": [0, 0.5]}, "lines": [{"text": "ASTÉROÏDE ?", "at": [0, 0.2]}, {"text": "[PLANÈTE NAINE.]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["En deux mille quinze, la sonde Dawn est devenue la première à visiter une planète naine.", "Et elle y a trouvé d'immenses dépôts de sels."], "ghost": "DAWN", "kicker": "SONDE DAWN · 2015", "il": {"type": "rocket"}, "lines": [{"text": "LA SONDE [DAWN]", "at": [0, 0.3], "punch": true}, {"text": "EN 2015.", "at": [0, 0.6]}, {"text": "DES DÉPÔTS DE [SELS.]", "at": [1, 0.6], "gap": 30}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
