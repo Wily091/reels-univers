@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Le point le plus proche de l'espace n'est pas l'Everest",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "L'Everest est le plus haut sommet au-dessus du niveau de la mer… mais le point de la Terre le plus éloigné de son centre, c'est le Chimborazo, en Équateur 🏔️\n\nParce que la Terre est légèrement renflée à l'équateur.\n\nTu le savais ? 👇",
+ "hashtags": ["#chimborazo", "#everest", "#terre", "#geographie", "#espace", "#science", "#lesaviezvous", "#noaa", "#montagne", "#equateur"],
+ "sources": ["https://oceanservice.noaa.gov/facts/highestpoint.html"],
+ "scenes": [
+  {"say": ["Quel est le point de la Terre le plus proche de l'espace ?"], "ghost": "?", "il": {"type": "question"}, "lines": [{"text": "LE POINT", "at": [0, 0.1]}, {"text": "LE PLUS PROCHE", "at": [0, 0.4]}, {"text": "[DE L'ESPACE ?]", "at": [0, 0.8], "punch": true}]},
+  {"say": ["Tu penses à l'Everest ?", "Raté."], "hit": true, "ghost": "EVEREST", "lines": [{"text": "L'EVEREST ?", "at": [0, 0.2]}, {"text": "RATÉ.", "at": [1, 0.1], "punch": true, "max": 460}]},
+  {"say": ["Oui, l'Everest est le plus haut au-dessus du niveau de la mer : huit mille huit cent quarante-huit mètres."], "ghost": "8 848 M", "kicker": "EVEREST · 8 848 M", "il": {"type": "horizon"}, "lines": [{"text": "L'EVEREST :", "at": [0, 0.1]}, {"text": "[8 848 M]", "at": [0, 0.8], "punch": true, "count": {"from": 0, "to": 8848, "fmt": "[{v} M]", "dur": 0.8}}, {"text": "AU-DESSUS DE LA MER.", "at": [0, 0.95], "max": 150}]},
+  {"say": ["Mais la Terre n'est pas une sphère parfaite.", "Elle est un peu plus épaisse au niveau de l'équateur."], "ghost": "ÉQUATEUR", "kicker": "RENFLEMENT ÉQUATORIAL", "il": {"type": "globe", "label": "TERRE"}, "lines": [{"text": "PAS UNE SPHÈRE", "at": [0, 0.5]}, {"text": "[PARFAITE.]", "at": [0, 0.8], "punch": true}, {"text": "PLUS ÉPAISSE", "at": [1, 0.3], "gap": 30, "max": 150}, {"text": "À L'ÉQUATEUR.", "at": [1, 0.85], "max": 150}]},
+  {"say": ["Et juste à côté de l'équateur, en Équateur justement, se trouve un volcan : le Chimborazo."], "ghost": "CHIMBORAZO", "kicker": "CHIMBORAZO · ÉQUATEUR · 6 268 M", "il": {"type": "burst"}, "lines": [{"text": "UN VOLCAN", "at": [0, 0.6]}, {"text": "EN ÉQUATEUR :", "at": [0, 0.75]}, {"text": "[CHIMBORAZO.]", "at": [0, 0.95], "punch": true}]},
+  {"say": ["Il ne fait que six mille deux cent soixante-huit mètres d'altitude…", "mais grâce au renflement de la Terre, son sommet est environ deux kilomètres plus loin du centre de la planète que celui de l'Everest."], "ghost": "+2 KM", "kicker": "+2 072 M PLUS LOIN DU CENTRE", "il": {"type": "sizeCompare", "big": "CHIMBORAZO", "small": "EVEREST", "ratio": 1.1}, "lines": [{"text": "SEULEMENT", "at": [0, 0.2], "max": 200}, {"text": "[6 268 M…]", "at": [0, 0.6]}, {"text": "MAIS [+2 KM]", "at": [1, 0.55], "punch": true, "gap": 30}, {"text": "PLUS LOIN DU CENTRE.", "at": [1, 0.8]}]},
+  {"say": ["Son sommet est donc le point de la Terre le plus éloigné de son centre."], "hit": true, "ghost": "SOMMET", "lines": [{"text": "LE PLUS LOIN", "at": [0, 0.5], "punch": true}, {"text": "DU CENTRE.", "at": [0, 0.9]}]},
+  {"say": ["Le vrai toit du monde… est en Équateur."], "ghost": "TOIT", "il": {"type": "horizon"}, "lines": [{"text": "LE VRAI", "at": [0, 0.1]}, {"text": "[TOIT DU MONDE]", "at": [0, 0.35], "punch": true}, {"text": "EST EN ÉQUATEUR.", "at": [0, 0.85]}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

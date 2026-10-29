@@ -1,0 +1,19 @@
+{
+ "date": null,
+ "title": "Le premier humain dans l'espace : 108 minutes",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Le 12 avril 1961, Youri Gagarine devient le premier humain dans l'espace 🚀\n\nUn seul tour de la Terre, 108 minutes, et une phrase restée célèbre : « Je vois la Terre ! Elle est si belle ! »\n\nTu connaissais cette histoire ? 👇",
+ "hashtags": ["#gagarine", "#espace", "#histoire", "#astronaute", "#cosmonaute", "#vostok", "#univers", "#science", "#lesaviezvous", "#esa"],
+ "sources": ["https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/I_see_Earth!_It_is_so_beautiful!"],
+ "scenes": [
+  {"say": ["Le douze avril mille neuf cent soixante et un, un homme de vingt-sept ans quitte la Terre."], "ghost": "1961", "kicker": "12 AVRIL 1961", "il": {"type": "rocket"}, "lines": [{"text": "[12 AVRIL 1961]", "at": [0, 0.35], "punch": true}, {"text": "UN HOMME", "at": [0, 0.65]}, {"text": "QUITTE LA TERRE.", "at": [0, 0.9]}]},
+  {"say": ["Il s'appelle Youri Gagarine."], "hit": true, "ghost": "GAGARINE", "lines": [{"text": "YOURI", "at": [0, 0.4]}, {"text": "GAGARINE.", "at": [0, 0.65], "punch": true, "max": 420}]},
+  {"say": ["À bord de la capsule Vostok un, il devient le premier humain dans l'espace."], "ghost": "VOSTOK", "kicker": "VOSTOK 1", "il": {"type": "orbit", "center": "TERRE", "speed": 1.2}, "lines": [{"text": "LE PREMIER", "at": [0, 0.6]}, {"text": "[HUMAIN]", "at": [0, 0.75], "punch": true, "max": 300}, {"text": "DANS L'ESPACE.", "at": [0, 0.95]}]},
+  {"say": ["Son vol dure cent huit minutes.", "Un seul tour de la Terre."], "ghost": "108 MIN", "kicker": "DURÉE · 108 MINUTES", "il": {"type": "clock", "forward": true}, "lines": [{"text": "SON VOL :", "at": 0}, {"text": "[108 MINUTES]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 108, "fmt": "[{v} MINUTES]", "dur": 0.8}}, {"text": "UN SEUL TOUR.", "at": [1, 0.5]}]},
+  {"say": ["Moins de deux heures… pour changer l'histoire."], "hit": true, "ghost": "HISTOIRE", "lines": [{"text": "MOINS DE 2 HEURES", "at": [0, 0.3]}, {"text": "POUR L'HISTOIRE.", "at": [0, 0.85], "punch": true}]},
+  {"say": ["Et là-haut, il prononce une phrase restée célèbre :", "Je vois la Terre ! Elle est si belle !"], "ghost": "BELLE", "il": {"type": "globe", "label": "LA TERRE"}, "lines": [{"text": "« JE VOIS", "at": [1, 0.1]}, {"text": "LA TERRE !", "at": [1, 0.3], "punch": true}, {"text": "[ELLE EST SI BELLE !] »", "at": [1, 0.65]}]},
+  {"say": ["Depuis, des centaines de personnes ont voyagé dans l'espace.", "Mais il a été le premier."], "ghost": "PREMIER", "il": {"type": "starsPulse"}, "lines": [{"text": "DES CENTAINES", "at": [0, 0.15]}, {"text": "ONT SUIVI…", "at": [0, 0.6]}, {"text": "[IL ÉTAIT LE PREMIER.]", "at": [1, 0.5], "punch": true, "gap": 30}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}

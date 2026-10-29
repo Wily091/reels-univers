@@ -1,0 +1,20 @@
+{
+ "date": null,
+ "title": "Sur Mars, les couchers de soleil sont bleus",
+ "theme": "nebuleuse",
+ "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "caption": "Sur la planète rouge, les couchers de soleil sont… bleus 🌅🔵\n\nLe rover Curiosity l'a photographié en 2015 dans le cratère Gale. La poussière martienne laisse mieux passer la lumière bleue près du Soleil.\n\nTu aimerais voir ça ? 👇",
+ "hashtags": ["#mars", "#curiosity", "#coucherdesoleil", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#planeterouge"],
+ "sources": ["https://science.nasa.gov/resource/sunset-at-mars-gale-crater-curiosity", "https://science.nasa.gov/mars/facts/"],
+ "scenes": [
+  {"say": ["Sur Terre, le ciel est bleu… et les couchers de soleil sont orange."], "ghost": "TERRE", "il": {"type": "horizon"}, "lines": [{"text": "SUR TERRE :", "at": 0, "max": 220}, {"text": "CIEL [BLEU]", "at": [0, 0.3]}, {"text": "COUCHERS [ORANGE.]", "at": [0, 0.8]}]},
+  {"say": ["Sur Mars… c'est l'inverse."], "hit": true, "ghost": "INVERSE", "lines": [{"text": "SUR MARS…", "at": 0}, {"text": "L'INVERSE.", "at": [0, 0.6], "punch": true, "max": 420}]},
+  {"say": ["Pendant la journée, le ciel martien est brumeux et rougeâtre, à cause de la poussière."], "ghost": "POUSSIÈRE", "kicker": "MARS · CIEL POUSSIÉREUX", "il": {"type": "planet", "label": "MARS"}, "lines": [{"text": "LE JOUR :", "at": [0, 0.1]}, {"text": "UN CIEL", "at": [0, 0.4]}, {"text": "[ROUGEÂTRE.]", "at": [0, 0.6], "punch": true}]},
+  {"say": ["Mais au coucher du soleil… une lueur bleue apparaît autour du Soleil."], "ghost": "BLEU", "il": {"type": "sun"}, "lines": [{"text": "AU COUCHER :", "at": [0, 0.3]}, {"text": "UNE LUEUR", "at": [0, 0.6]}, {"text": "[BLEUE.]", "at": [0, 0.75], "punch": true, "max": 320}]},
+  {"say": ["Le rover Curiosity l'a photographiée en deux mille quinze, dans le cratère Gale."], "ghost": "CURIOSITY", "kicker": "CURIOSITY · CRATÈRE GALE · 2015", "il": {"type": "rocket"}, "lines": [{"text": "PHOTOGRAPHIÉE PAR", "at": [0, 0.15]}, {"text": "[CURIOSITY]", "at": [0, 0.35], "punch": true}, {"text": "EN 2015.", "at": [0, 0.6]}]},
+  {"say": ["La raison : la fine poussière martienne laisse mieux passer la lumière bleue…", "qui reste concentrée près du Soleil."], "ghost": "LUMIÈRE", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "MARS"}, "lines": [{"text": "LA POUSSIÈRE", "at": [0, 0.25]}, {"text": "LAISSE PASSER", "at": [0, 0.6]}, {"text": "[LE BLEU.]", "at": [0, 0.9], "punch": true}]},
+  {"say": ["Et l'effet est maximal au coucher, quand la lumière traverse le plus d'atmosphère."], "ghost": "COUCHER", "il": {"type": "horizon"}, "lines": [{"text": "MAXIMAL", "at": [0, 0.15], "max": 260}, {"text": "[AU COUCHER.]", "at": [0, 0.35], "punch": true}]},
+  {"say": ["La planète rouge… a des couchers de soleil bleus."], "hit": true, "ghost": "BLEU", "lines": [{"text": "LA PLANÈTE ROUGE,", "at": [0, 0.1]}, {"text": "COUCHERS BLEUS.", "at": [0, 0.7], "punch": true}]},
+  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+ ]
+}
