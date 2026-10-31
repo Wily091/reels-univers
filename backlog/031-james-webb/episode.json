@@ -2,7 +2,7 @@
  "date": null,
  "title": "James Webb, un télescope à 1,5 million de km",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Le télescope James Webb observe l'univers depuis un point situé à 1,5 million de km de la Terre 🔭✨\n\nSon miroir doré de 6,5 m est fait de 18 segments, et son pare-soleil a la taille d'un court de tennis.\n\nTu savais qu'il était si loin ? 👇",
  "hashtags": ["#jameswebb", "#jwst", "#telescope", "#espace", "#univers", "#astronomie", "#nasa", "#esa", "#science", "#lesaviezvous"],
  "sources": ["https://science.nasa.gov/mission/webb/", "https://www.esa.int/ESA_Multimedia/Images/2021/10/Webb_s_mirror_and_sunshield"],

@@ -2,7 +2,7 @@
  "date": null,
  "title": "Neptune, la planète découverte par le calcul",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Neptune est la première planète trouvée grâce aux maths, avant même d'être vue au télescope 🧮🔭\n\nC'est le Français Urbain Le Verrier qui a calculé sa position en 1846.\n\nTu le savais ? 👇",
  "hashtags": ["#neptune", "#leverrier", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#histoire", "#nasa"],
  "sources": ["https://science.nasa.gov/neptune/facts/"],

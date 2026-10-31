@@ -2,7 +2,7 @@
  "date": null,
  "title": "L'étoile du berger n'est pas une étoile",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Le point très brillant qu'on appelle « l'étoile du berger », le soir ou le matin, n'est pas une étoile : c'est la planète Vénus ✨\n\nAprès la Lune, c'est l'objet le plus brillant du ciel nocturne.\n\nTu l'as déjà repérée ? 👇",
  "hashtags": ["#venus", "#etoileduberger", "#ciel", "#espace", "#univers", "#astronomie", "#planetes", "#science", "#lesaviezvous", "#nasa"],
  "sources": ["https://science.nasa.gov/venus/facts/"],

@@ -2,7 +2,7 @@
  "date": null,
  "title": "Dans la Station spatiale, la gravité est presque la même que sur Terre",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Idée reçue : il n'y a pas de gravité dans la Station spatiale. Faux ! À 400 km d'altitude, la gravité vaut encore environ 90 % de celle au sol 🛰️\n\nSi les astronautes flottent, c'est parce qu'ils sont en chute libre permanente autour de la Terre.\n\nTu le savais ? 👇",
  "hashtags": ["#iss", "#gravite", "#astronaute", "#espace", "#physique", "#science", "#lesaviezvous", "#univers", "#ideesrecues", "#stationspatiale"],
  "sources": ["https://www.thenakedscientists.com/articles/questions/what-altitude-does-weightlessness-begin", "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"],

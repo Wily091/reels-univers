@@ -2,7 +2,7 @@
  "date": null,
  "title": "Voyager 1 est à un jour-lumière de la Terre",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Lancée en 1977, la sonde Voyager 1 est devenue en novembre 2026 le premier objet humain à environ un jour-lumière de la Terre : près de 26 milliards de km 🛰️✨\n\nUn message radio met désormais environ 24 heures pour l'atteindre.\n\nTu le savais ? 👇",
  "hashtags": ["#voyager1", "#voyager", "#espace", "#univers", "#nasa", "#sonde", "#astronomie", "#science", "#lesaviezvous", "#interstellaire"],
  "sources": ["https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"],

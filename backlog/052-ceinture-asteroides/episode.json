@@ -2,7 +2,7 @@
  "date": null,
  "title": "Tous les astéroïdes réunis pèsent moins que la Lune",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Dans les films, la ceinture d'astéroïdes est un champ de rochers serrés. En réalité, la masse de tous les astéroïdes réunis est inférieure à celle de notre Lune 🌑\n\nEt pourtant, il y en a plus d'un million de plus d'un kilomètre !\n\nTu le savais ? 👇",
  "hashtags": ["#asteroides", "#espace", "#univers", "#astronomie", "#systemesolaire", "#lune", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
  "sources": ["https://science.nasa.gov/solar-system/asteroids/facts/", "https://science.nasa.gov/dwarf-planets/ceres/facts/"],

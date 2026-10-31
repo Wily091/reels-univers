@@ -2,7 +2,7 @@
  "date": null,
  "title": "Sur Mars, les couchers de soleil sont bleus",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Sur la planète rouge, les couchers de soleil sont… bleus 🌅🔵\n\nLe rover Curiosity l'a photographié en 2015 dans le cratère Gale. La poussière martienne laisse mieux passer la lumière bleue près du Soleil.\n\nTu aimerais voir ça ? 👇",
  "hashtags": ["#mars", "#curiosity", "#coucherdesoleil", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#planeterouge"],
  "sources": ["https://science.nasa.gov/resource/sunset-at-mars-gale-crater-curiosity", "https://science.nasa.gov/mars/facts/"],

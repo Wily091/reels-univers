@@ -2,7 +2,7 @@
  "date": null,
  "title": "Dans l'espace, personne ne t'entend… presque",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "L'espace est presque partout silencieux : sans air, le son ne peut pas voyager 🔇\n\nMais dans l'amas de galaxies de Persée, il y a assez de gaz pour porter des ondes sonores… autour d'un trou noir qui « chante » un si bémol plus de 56 octaves sous le do central 🎵🕳️\n\nTu le savais ? 👇",
  "hashtags": ["#son", "#espace", "#trounoir", "#chandra", "#univers", "#astronomie", "#physique", "#science", "#lesaviezvous", "#nasa"],
  "sources": ["https://www.skyatnightmagazine.com/space-science/is-space-silent", "https://cxc.harvard.edu/newsletters/news_32/article4.html"],

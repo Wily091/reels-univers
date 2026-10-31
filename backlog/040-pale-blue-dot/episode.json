@@ -2,7 +2,7 @@
  "date": null,
  "title": "Le point bleu pâle : la Terre vue de 6 milliards de km",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Le 14 février 1990, la sonde Voyager 1 s'est retournée pour photographier la Terre, à environ 6 milliards de km du Soleil 🌍\n\nNotre planète y apparaît comme un point d'à peine un pixel. « Regardez encore ce point. C'est ici. C'est chez nous. C'est nous. » – Carl Sagan\n\nÇa te fait quoi ? 👇",
  "hashtags": ["#palebluedot", "#voyager1", "#carlsagan", "#terre", "#espace", "#univers", "#nasa", "#astronomie", "#science", "#lesaviezvous"],
  "sources": ["https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot/"],

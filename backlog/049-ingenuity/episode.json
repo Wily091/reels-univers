@@ -2,7 +2,7 @@
  "date": null,
  "title": "Ingenuity, le premier hélicoptère sur une autre planète",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Le 19 avril 2021, le petit hélicoptère Ingenuity a réalisé le premier vol motorisé et contrôlé sur une autre planète : Mars 🚁🔴\n\nPrévu pour 5 vols d'essai, il en a finalement fait 72 !\n\nTu le savais ? 👇",
  "hashtags": ["#ingenuity", "#mars", "#perseverance", "#helicoptere", "#espace", "#nasa", "#univers", "#science", "#lesaviezvous", "#exploration"],
  "sources": ["https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"],

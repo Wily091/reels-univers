@@ -2,7 +2,7 @@
  "date": null,
  "title": "L'astéroïde Apophis frôlera la Terre en 2029",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Le 13 avril 2029, l'astéroïde Apophis passera à environ 32 000 km de la surface de la Terre ☄️\n\nPlus près que certains satellites géostationnaires ! Et pas de panique : la NASA exclut tout risque d'impact pendant au moins 100 ans.\n\nTu seras au rendez-vous ? 👇",
  "hashtags": ["#apophis", "#asteroide", "#espace", "#univers", "#astronomie", "#2029", "#science", "#lesaviezvous", "#nasa", "#planetarydefense"],
  "sources": ["https://science.nasa.gov/solar-system/asteroids/apophis/"],

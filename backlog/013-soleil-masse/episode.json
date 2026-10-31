@@ -2,7 +2,7 @@
  "date": null,
  "title": "Le Soleil pèse presque tout le système solaire",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Le Soleil contient 99,8 % de toute la masse du système solaire ☀️\n\nToutes les planètes, les lunes, les astéroïdes et les comètes réunis ? À peine 0,2 %.\n\nTu le savais ? 👇",
  "hashtags": ["#soleil", "#espace", "#univers", "#astronomie", "#systemesolaire", "#etoile", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
  "sources": ["https://science.nasa.gov/sun/facts/"],

@@ -2,7 +2,7 @@
  "date": null,
  "title": "Cérès, la planète naine cachée dans la ceinture d'astéroïdes",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Entre Mars et Jupiter se cache Cérès, une planète naine découverte en 1801 🪨\n\nC'est le plus gros objet de la ceinture d'astéroïdes : à elle seule, elle représente environ un quart de toute sa masse.\n\nTu la connaissais ? 👇",
  "hashtags": ["#ceres", "#planetenaine", "#asteroides", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa"],
  "sources": ["https://science.nasa.gov/dwarf-planets/ceres/facts/"],

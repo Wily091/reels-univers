@@ -2,7 +2,7 @@
  "date": null,
  "title": "La plus vieille lumière de l'univers",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "L'univers a environ 13,8 milliards d'années 🌌\n\nEt on peut encore voir sa plus vieille lumière : le fond diffus cosmologique, émis environ 370 000 ans après le Big Bang, cartographié en détail par le satellite Planck.\n\nTu le savais ? 👇",
  "hashtags": ["#bigbang", "#univers", "#cosmologie", "#planck", "#espace", "#astronomie", "#science", "#lesaviezvous", "#esa", "#nasa"],
  "sources": ["https://svs.gsfc.nasa.gov/30133"],

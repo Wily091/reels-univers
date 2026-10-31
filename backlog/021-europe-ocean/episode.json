@@ -2,7 +2,7 @@
  "date": null,
  "title": "Europe, la lune qui cache plus d'eau que la Terre",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Sous la glace d'Europe, une lune de Jupiter, se cacherait un océan salé contenant environ deux fois plus d'eau que tous les océans de la Terre 🌊🧊\n\nC'est l'un des endroits les plus prometteurs pour chercher la vie ailleurs.\n\nTu crois qu'on y trouvera quelque chose ? 👇",
  "hashtags": ["#europe", "#jupiter", "#ocean", "#espace", "#univers", "#astronomie", "#vieextraterrestre", "#science", "#lesaviezvous", "#nasa"],
  "sources": ["https://science.nasa.gov/jupiter/jupiter-moons/europa/"],

@@ -2,7 +2,7 @@
  "date": null,
  "title": "Pluton n'a pas fini un seul tour depuis sa découverte",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Pluton a été découverte en 1930… et elle n'a toujours pas fait un seul tour complet du Soleil depuis 🌑\n\nIl lui faut 248 ans. Prochain anniversaire : vers 2178.\n\nTu le savais ? 👇",
  "hashtags": ["#pluton", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetenaine", "#science", "#lesaviezvous", "#nasa", "#newhorizons"],
  "sources": ["https://science.nasa.gov/dwarf-planets/pluto/facts/", "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"],

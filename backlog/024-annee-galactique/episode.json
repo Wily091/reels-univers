@@ -2,7 +2,7 @@
  "date": null,
  "title": "Le Soleil n'a fait qu'une vingtaine de tours de la galaxie",
  "theme": "nebuleuse",
- "voice": {"id": "3XD5qTvPWht0mpTnYXY0", "model": "eleven_multilingual_v2", "tempo": 1.1},
+ "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
  "caption": "Le Soleil tourne autour du centre de la Voie lactée à environ 230 km/s… et il lui faut environ 230 millions d'années pour faire un tour 🌌\n\nC'est ce qu'on appelle une « année galactique ».\n\nTu le savais ? 👇",
  "hashtags": ["#voielactee", "#galaxie", "#soleil", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#cosmos", "#dinosaures"],
  "sources": ["https://www.livescience.com/how-long-galactic-year.html"],
