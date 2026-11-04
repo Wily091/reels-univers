@@ -1,0 +1,24 @@
+name: Récupérer une voix de l'historique
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/RECUPERER_VOIX.json']
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Récupération
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          EP=$(python3 -c "import json;print(json.load(open('tools/RECUPERER_VOIX.json'))['episode'])")
+          VID=$(python3 -c "import json;print(json.load(open('tools/RECUPERER_VOIX.json'))['voice_id'])")
+          python3 engine/recover_voice.py "$EP" "$VID"
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add "$EP/voice" && git commit -m "Voix récupérée depuis l'historique : $EP" && git push
