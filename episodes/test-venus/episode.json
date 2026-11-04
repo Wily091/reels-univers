@@ -1,9 +1,9 @@
 {
  "date": null,
- "title": "Sur Vénus, un jour dure plus longtemps qu'une année (test Babytchi)",
- "theme": "nebuleuse",
+ "title": "Sur Vénus, un jour dure plus longtemps qu'une année (test carnet, voix Lily)",
+ "theme": "carnet",
  "voice": {
-  "id": "c98DOuI9MUphjtgxeDDc",
+  "id": "3XD5qTvPWht0mpTnYXY0",
   "model": "eleven_multilingual_v2",
   "tempo": 1.1
  },
@@ -335,5 +335,6 @@
     }
    ]
   }
- ]
+ ],
+ "header": "N° 001 — VÉNUS"
 }

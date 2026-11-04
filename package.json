@@ -4,7 +4,10 @@
   "description": "Reels automatiques « Univers en bref » : épisode JSON → voix ElevenLabs → vidéo motion design",
   "dependencies": {
     "@fontsource/anton": "5.3.0",
+    "@fontsource/caveat": "5.2.5",
+    "@fontsource/dm-serif-display": "5.2.5",
     "@fontsource/space-mono": "5.3.0",
+    "@fontsource/special-elite": "5.2.5",
     "playwright": "1.63.0"
   }
 }

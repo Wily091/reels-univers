@@ -64,6 +64,8 @@ const scenes = ep.scenes.map((sc, si) => {
 });
 for (let i = 0; i < scenes.length; i++) scenes[i].e = i + 1 < scenes.length ? scenes[i + 1].s : ph.duration;
 
-const tl = { theme: ep.theme || 'nebuleuse', duration: ph.duration, scenes };
+const num = ep.num || ((path.basename(dir).match(/^(\d{3})-/) || [])[1]);
+const header = ep.header || (num ? `N° ${String(num).padStart(3, '0')}` : '');
+const tl = { theme: ep.theme || 'nebuleuse', duration: ph.duration, header, scenes };
 fs.writeFileSync(path.join(dir, 'build', 'timeline.json'), JSON.stringify(tl, null, 1));
 console.log(`Timeline : ${scenes.length} scènes, ${ph.duration}s`);

@@ -41,6 +41,7 @@ Un épisode = une suite de **scènes**. Chaque scène a :
 - `kicker` : texte, ou liste `[{ "at": 0, "text": "..." }, { "at": 1, "text": "..." }]`.
 - `il.sw` (format `at`) = moment de bascule pour `crossStar` (l'étoile se fait barrer) et `blobToGalaxy` (la tache devient galaxie).
 - Phrase de voix off : chaîne, ou `{ "text": "...", "pause": 0.6 }` pour forcer la pause après.
+- Thème `carnet` (style carnet d'astronome : papier crème, encre bleue, notes manuscrites). `header` (ou `num`) = mention en haut à droite, ex. « N° 001 — VÉNUS ».
 - Scène `hit` sans illustration : titres centrés plus bas (y = 600 par défaut). On peut forcer `"y": 520`.
 
 ## Illustrations disponibles (`il.type`)
