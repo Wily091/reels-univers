@@ -1,9 +1,9 @@
 {
  "date": null,
- "title": "Sur Vénus, un jour dure plus longtemps qu'une année (test carnet, voix Lily)",
+ "title": "Sur Vénus, un jour dure plus longtemps qu'une année (test carnet, voix 3)",
  "theme": "carnet",
  "voice": {
-  "id": "3XD5qTvPWht0mpTnYXY0",
+  "id": "qBhE0hiV7ojwjtUh9t8a",
   "model": "eleven_multilingual_v2",
   "tempo": 1.1
  },

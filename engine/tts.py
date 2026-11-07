@@ -139,7 +139,7 @@ def main():
         y = np.zeros(int(t * SR), dtype=np.float32); tmap = lambda v: v; tempo_eff = 1.0
     else:
         vdir = ep_dir / "voice"; stored = vdir / "alignment.json"
-        if stored.exists() and json.loads(stored.read_text()).get("text") == text and (vdir / "voice.mp3").exists():
+        if stored.exists() and json.loads(stored.read_text()).get("text") == text and json.loads(stored.read_text()).get("voice", {}).get("id") == voice["id"] and (vdir / "voice.mp3").exists():
             print("Voix stockée réutilisée (aucun crédit ElevenLabs consommé)", flush=True)
             al = json.loads(stored.read_text())
         else:
