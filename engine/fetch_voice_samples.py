@@ -2,6 +2,8 @@
 """Télécharge, SANS générer de voix, l'aperçu d'une voix ElevenLabs et ses dernières générations (historique).
 Usage : python3 engine/fetch_voice_samples.py <voice_id> <dossier_sortie>"""
 import json, os, sys, pathlib, urllib.request, urllib.error
+import traceback
+sys.excepthook=lambda t,e,tb: print(f"::error title=Script::{t.__name__}: {e} | "+" ".join(traceback.format_tb(tb)[-1].split()))
 KEY = os.environ["ELEVENLABS_API_KEY"]; vid, out = sys.argv[1], pathlib.Path(sys.argv[2]); out.mkdir(parents=True, exist_ok=True)
 def get(url, raw=False, auth=True):
     req = urllib.request.Request(url, headers={"xi-api-key": KEY} if auth else {})
@@ -10,6 +12,8 @@ def get(url, raw=False, auth=True):
             b = r.read(); return b if raw else json.loads(b)
     except urllib.error.HTTPError as e:
         print(f"::warning title=ElevenLabs {e.code}::{url[:80]} {e.read()[:200].decode(errors='replace')}"); return None
+    except Exception as e:
+        print(f"::warning title=Réseau::{url[:80]} {e}"); return None
 v = get(f"https://api.elevenlabs.io/v1/voices/{vid}")
 info = {"name": v.get("name"), "category": v.get("category"), "labels": v.get("labels"), "settings": v.get("settings"),
         "samples": [{k: s.get(k) for k in ("file_name", "size_bytes", "mime_type")} for s in (v.get("samples") or [])]} if v else {}
