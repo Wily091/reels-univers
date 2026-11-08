@@ -25,6 +25,6 @@ info["history"] = []
 for i, it in enumerate(h.get("history", [])[:3]):
     b = get(f"https://api.elevenlabs.io/v1/history/{it['history_item_id']}/audio", raw=True)
     if b: (out / f"history_{i}.mp3").write_bytes(b)
-    info["history"].append({"text": it.get("text", "")[:200], "date_unix": it.get("date_unix"), "settings": it.get("settings"), "model": it.get("model_id")})
+    info["history"].append({"text": (it.get("text") or "")[:200], "source": it.get("source"), "date_unix": it.get("date_unix"), "settings": it.get("settings"), "model": it.get("model_id")})
 (out / "info.json").write_text(json.dumps(info, ensure_ascii=False, indent=1))
 print(json.dumps(info, ensure_ascii=False)[:1500])
