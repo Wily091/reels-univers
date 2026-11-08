@@ -1,0 +1,52 @@
+{
+ "name": "Babytchi dicta",
+ "category": "cloned",
+ "labels": {
+  "accent": "fr-parisian",
+  "age": "young",
+  "gender": "female",
+  "language": "fr"
+ },
+ "settings": {
+  "stability": 0.5,
+  "use_speaker_boost": true,
+  "similarity_boost": 0.75,
+  "style": 0.0,
+  "speed": 1.0
+ },
+ "samples": [
+  {
+   "file_name": "upload-4F4CD273-A1F9-4A44-BB2D-8110CE3B66D5.mp3",
+   "size_bytes": 1830083,
+   "mime_type": "audio/mpeg"
+  }
+ ],
+ "history": [
+  {
+   "text": "",
+   "source": "TTS",
+   "date_unix": 1794165963,
+   "settings": {
+    "stability": 0.5,
+    "focus": null,
+    "internal_sampling_config": null,
+    "text_boost": false,
+    "similarity": null
+   },
+   "model": "eleven_v4"
+  },
+  {
+   "text": "",
+   "source": "TTS",
+   "date_unix": 1794165962,
+   "settings": {
+    "stability": 0.5,
+    "text_boost": false,
+    "internal_sampling_config": null,
+    "focus": null,
+    "similarity": null
+   },
+   "model": "eleven_v4"
+  }
+ ]
+}
