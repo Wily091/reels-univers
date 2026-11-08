@@ -1,0 +1,23 @@
+name: Récupérer des extraits d'une voix (sans génération)
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/ANALYSER_VOIX.json']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Téléchargement
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          VID=$(python3 -c "import json;print(json.load(open('tools/ANALYSER_VOIX.json'))['voice_id'])")
+          python3 engine/fetch_voice_samples.py "$VID" "tools/voix/$VID"
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add tools/voix && git commit -m "Extraits de la voix $VID" && git push
