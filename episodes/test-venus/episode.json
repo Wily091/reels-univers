@@ -1,9 +1,9 @@
 {
  "date": null,
- "title": "Sur Vénus, un jour dure plus longtemps qu'une année (test carnet, voix 3)",
+ "title": "Sur Vénus, un jour dure plus longtemps qu'une année (test voix Babytchi dicta)",
  "theme": "carnet",
  "voice": {
-  "id": "qBhE0hiV7ojwjtUh9t8a",
+  "id": "Oq5rHLOJHbyDUU9rk9LF",
   "model": "eleven_multilingual_v2",
   "tempo": 1.1
  },
