@@ -3,7 +3,7 @@
 Ce dépôt produit **un reel Instagram par jour** sur l'espace et l'univers, sans intervention humaine, pour le compte
 Instagram indiqué dans `config.json` (via la marque Metricool indiquée).
 
-> **⚠️ Novembre 2026 — nouveau style validé : voir `docs/STYLE_PLANCHE.md` (planche de notes violette, voix Koraly, texte parlé).**
+> **⚠️ Novembre 2026 — style validé : voir `docs/STYLE_PLANCHE.md` (planche de notes sur fond noir, voix Koraly Storyteller d’un seul trait sans silences, texte parlé) — à garder pour tous les posts jusqu’à ce que William demande de changer.**
 > L'ancien rendu (`engine/engine.html`) et les textes actuels de `backlog/` sont dans l'ancien style : ne pas les publier tels quels.
 > Tant que le nouveau rendu n'est pas automatisé et le stock réécrit, la tâche quotidienne ne doit rien publier.
 

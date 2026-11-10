@@ -1,50 +1,57 @@
-# Style validé : « planche de notes » (novembre 2026)
+# Style validé : « planche de notes » sur fond noir (10 novembre 2026)
 
-C'est le style retenu par William pour toutes les vidéos d'Univers en bref. Il remplace l'ancien style (titres cinétiques « nébuleuse » de `engine/engine.html`), qui n'est **plus** à utiliser.
-Vidéo de référence validée : épisode Vénus (« univers_en_bref_001_venus_final.mp4 », 48 s, voix Koraly). Le prototype qui l'a produite est dans `engine/planche/`.
+**C'est LE style de toutes les vidéos d'Univers en bref, jusqu'à ce que William dise de changer.** Ne rien modifier (fond, couleurs, caméra, voix, son, rythme) sans son accord.
+Vidéo de référence validée : `univers_en_bref_001_venus_noir.mp4` (Vénus, 38,5 s, voix Koraly Storyteller d'un seul trait, fond noir). Image finale : `docs/reference_venus_noir.jpg`.
+Le prototype exact qui l'a produite est dans `engine/planche/` (voir plus bas).
 
 ## Concept
-- Une **grande planche de notes de scientifique** (2160 × 3840 px, soit 2 × l'écran du téléphone), vue à travers un cadrage 1080 × 1920.
-- **Début** : la planche entière vue de loin, presque vide. Le thème (« Vénus ») s'écrit au centre avec son croquis.
-- **Ensuite** : la caméra va sur une zone de la planche, la note correspondante **s'écrit toute seule** (sans main visible) au rythme de la voix, puis la caméra passe à la note suivante.
-- **Fin** : un seul dézoom sur la planche entièrement remplie, avec « Si ça t'a plu, abonne-toi » et « … et partage-la » qui s'écrivent en bas.
-- **Notes éparpillées** (pas de carte mentale reliée par des flèches).
+- Une **grande planche de notes de scientifique** (2160 × 3840 px, 2 × l'écran), vue à travers un cadrage 1080 × 1920.
+- **Début** : planche entière vue de loin, presque vide ; le thème (« Vénus ») s'écrit au centre avec son croquis.
+- **Ensuite** : la caméra va sur une zone, la note correspondante **s'écrit toute seule** (sans main visible) au rythme de la voix, puis la caméra glisse vers la note suivante.
+- **Fin** : un seul dézoom sur la planche remplie, « Si ça t'a plu, abonne-toi ✶ » et « … et partage-la » s'écrivent en bas.
+- **Notes éparpillées** autour du thème (pas de carte mentale avec flèches), sur un **parcours en serpentin** (haut gauche → haut droite → milieu droite → bas droite → milieu gauche → bas gauche → fin) pour que les glissements restent courts. Aucune note ne doit en chevaucher une autre (vérifier l'image finale).
+- Deux idées très courtes et liées peuvent **partager un même cadrage** (Vénus : « elle tourne à l'envers » + « le Soleil se lève à l'ouest ») pour ne pas écrire trop vite.
 
 ## Direction artistique
-- Papier **violet nuit** : dégradé #2a1a52 → #170e33, quadrillage léger, grain, taches douces, petites étoiles éparpillées (jamais sous un texte).
+- **Fond noir** : dégradé radial #161616 → #050505, quadrillage blanc à 5 %, voile de taches gris neutre très léger, grain blanc à 6 %, petites étoiles crème/dorées éparpillées (jamais sous un texte).
+  (Le violet nuit #2a1a52 → #170e33 était la version précédente : ne plus l'utiliser.)
 - Écriture **blanc crème** #f3ead8 ; mots importants en **rose** #ff8fc0 et **jaune doré** #ffd27a ; texte secondaire crème à 60 %.
-- Polices : **Caveat 700** (notes manuscrites), **Kalam** (petites annotations), **Special Elite** (en-tête « PLANCHE N° 001 » / « UNIVERS EN BREF », pied « @universenbref »). Toutes via @fontsource.
-- Croquis au trait légèrement tremblé : planète hachurée, horloge, orbite, thermomètre qui se remplit, lever de Soleil, flèche de rotation, nuages ; mots entourés ou soulignés à la main ; bouts de scotch.
+- Polices : **Caveat 700** (notes), **Kalam** (petites annotations), **Special Elite** (en-tête « PLANCHE N° 00X » / « UNIVERS EN BREF », pied « @universenbref »). Via @fontsource.
+- Croquis au trait légèrement tremblé : planète hachurée, horloge, orbite, thermomètre qui se remplit, lever de Soleil, flèche de rotation, nuages ; mots entourés/soulignés à la main ; bouts de scotch.
 - Chiffres à l'écran en chiffres (243, 225 j, + de 460 °C) ; dans la voix, en lettres.
 
-## Caméra (règles validées après plusieurs essais — ne pas revenir en arrière)
-1. **Un seul dézoom au début et un seul à la fin.** Entre les notes : **pas de zoom/dézoom** (ça donnait mal à la tête). La caméra reste à la même distance (échelle 0,95) et **glisse** d'une note à l'autre.
-2. Glissements **lents et doux** : 1,8 à 2,4 s, courbe sinus (départ et arrivée en douceur).
-3. La caméra **reste immobile** pendant l'écriture, et **ne repart qu'une fois la note entièrement écrite** (+ ~0,4 s pour lire).
-4. La note suivante ne commence à s'écrire **qu'une fois la caméra arrivée** (ou en toute fin d'arrivée).
-5. Chaque glissement part de la position réelle de la caméra, en ligne droite, vers une cible **déjà bornée** aux limites de la planche (sinon : à-coups). Test : la vitesse de la caméra ne doit jamais varier de plus de ~2 px d'une image à l'autre.
-6. Pour garder la voix synchronisée, on **insère de courtes respirations dans la voix** (silence) **entre deux phrases ou sur une virgule, jamais au milieu d'une phrase**, quand la caméra a besoin de temps. La vidéo s'allonge (Vénus : 39 s de voix → 48 s).
+## Caméra (règles validées — ne pas revenir en arrière)
+1. **Un seul dézoom au début, un seul à la fin.** Entre les notes : **aucun zoom/dézoom** (mal de tête). Échelle fixe 0,95, la caméra **glisse**.
+2. Glissement en ligne droite, courbe sinus (départ/arrivée doux), durée 1,3 à 2,2 s selon la distance (distance/750 px).
+3. La caméra **sait où elle va** : elle est **immobile** pendant l'écriture (aucune dérive), et ne part qu'une fois la note **entièrement écrite** (+ 0,25 s).
+4. La note suivante commence à s'écrire **quand la caméra arrive** (≈ 0,35 s avant la fin du glissement).
+5. Cibles **bornées d'avance** aux limites de la planche, chaque glissement part de la position réelle (sinon à-coups). Test : `node camtest.js` (saut de vitesse max ≈ 5 px/image, pas de pic).
 
-## Voix et texte
-- Voix : **Koraly – Storyteller** (`TojRWZatQyy9dujEdiQ1`, voix de la bibliothèque ElevenLabs, abonnement Creator), modèle eleven_multilingual_v2, vitesse API 1,1 puis tempo ×1,1, pauses resserrées par `engine/tts.py`.
-- Texte : **comme un humain qui raconte**. Longues phrases liées (« en fait », « et le plus fou », « du coup », « alors que »), **pas de points de suspension, pas de phrases courtes hachées**, peu de points. Une question d'accroche au début. Fin douce : « Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo. »
-- Dans `episode.json`, découper le texte en phrases (une par élément `say`) aux virgules/points : ce découpage sert au calage des notes et aux respirations ; la voix est générée d'un seul trait (texte joint).
-- Toujours faire valider le texte par William avant de générer (≈ 900 crédits par épisode).
+## Voix, rythme et texte
+- **Voix : Koraly – Storyteller** (`TojRWZatQyy9dujEdiQ1`, bibliothèque ElevenLabs), eleven_multilingual_v2, vitesse API 1,1 puis tempo ×1,1, pauses resserrées par `engine/tts.py`. (La version « Expressive and Engaging » `F1toM6PcP54s45kOOAyV` a été testée et écartée.)
+- **Jamais de silences ajoutés** (ça coupe le watchtime) : la voix passe **d'un seul trait**, c'est **la caméra et l'écriture qui s'adaptent à la voix**. Quand le temps manque, l'écriture d'une note est accélérée (compressée entre l'arrivée de la caméra et le départ suivant), jamais la voix ralentie.
+- Texte : **comme un humain qui raconte**. Longues phrases liées (« en fait », « et le plus fou », « du coup », « alors que »), pas de points de suspension, pas de phrases courtes hachées. Question d'accroche au début. Fin : « Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo. »
+- Durée visée ≈ 35–45 s.
+- Dans `episode.json`, une phrase par élément `say` (sert au calage des notes) ; la voix est générée d'un seul trait (texte joint).
+- Faire valider le texte par William avant de générer (≈ 900 crédits par épisode).
 
 ## Son
-- Voix normalisée seule d'abord (loudnorm −16 LUFS ; certaines voix sortent très faibles), musique de `engine/music.py` à 0,22 avec sidechain sous la voix, limiteur ; résultat ≈ −16 LUFS.
-- **Pas de bruitages** (ils étaient trop forts ; s'ils reviennent : très discrets, ~20 dB sous la voix).
+- Voix normalisée seule (loudnorm −16 LUFS), musique `engine/music.py` à 0,22 avec sidechain sous la voix, fondu final 1,2 s, limiteur → ≈ −16 LUFS. Script : `engine/planche/mix.sh`.
+- **Pas de bruitages.**
 
 ## Export
-- 1080 × 1920, 30 i/s, H.264 high, `-crf 18 -maxrate 10M -bufsize 20M` (sinon le grain du papier donne des fichiers de 170 Mo), AAC 192k, faststart. Couverture = dernière image (planche complète).
+- 1080 × 1920, 30 i/s, H.264 high, `-preset slow -crf 18 -maxrate 10M -bufsize 20M`, AAC 192k, faststart (`engine/planche/encode.sh`). Couverture = dernière image (planche complète).
 
-## Prototype (engine/planche/)
-- `planche_anim.html` : planche + notes de Vénus **écrites à la main dans le code** (positions et dessins), animation par `window.renderAt(t)` ; calage via `venus_cues.js` (CUES = instants des mots dans la voix, SHOTS = cadrages, BOUND = silences entre phrases) ; la fonction `plan()` décale caméra/écriture et calcule les respirations (`window.INS`).
-- `plan.js` : affiche le planning et les respirations à insérer ; `render_frames.js <dossier> <début> <fin>` : rend les images (Playwright) ; `planche_statique.html` : planche fixe (aperçu).
-- Étapes utilisées pour Vénus (à automatiser) : `tts.py` (voix stockée) → `phrases.json` → instants des mots clés → `venus_cues.js` → `plan.js` (respirations) → voix avec silences insérés → `music.py` sur la nouvelle durée → mixage ffmpeg → rendu des images (3 processus en parallèle) → encodage.
+## Prototype (engine/planche/) — Vénus, version validée
+- `planche_anim.html` : planche noire + notes de Vénus **codées à la main** (positions, dessins, groupes n1…n7 avec translations), `window.renderAt(t)`. Contient `plan()` : calcule départs/durées des glissements et compresse l'écriture (pas de pauses : `window.INS=[]`).
+- `venus_cues.js` : CUES (instants des mots clés dans la voix Storyteller, END = fin de la dernière phrase + 0,7 s), SHOTS (cadrages : c/c2/fin à 0,5 ; notes à 0,95).
+- `venus_ref/` : voix Storyteller de référence (`voice.mp3`) et son `phrases.json` (phrases + temps de chaque caractère `cs`).
+- `plan.js` (affiche le planning), `camtest.js` (régularité caméra), `render_frames.js <dossier> <début> <fin>` (images, 3 processus en parallèle), `mix.sh`, `encode.sh`.
+- Calage des CUES : le texte est identique, donc on retrouve l'instant d'un mot via l'index de caractère dans `cs`.
+- Chaîne : `tts.py` → `phrases.json` → CUES → `plan.js`/`camtest.js` → `music.py` (durée END) → `mix.sh` → `render_frames.js` ×3 → `encode.sh`.
 
-## Reste à faire (prochaine étape)
-1. **Généraliser** : décrire les notes de chaque épisode dans `episode.json` (texte, dessin, emplacement, mot de la voix déclencheur) au lieu de les coder en dur, avec une mise en page automatique des notes éparpillées autour du thème central.
-2. Brancher ce rendu dans `engine/build.sh` / le workflow GitHub « Rendu du reel » à la place de `engine.html`.
-3. Réécrire les 60 épisodes de `backlog/` dans le ton parlé (leurs textes actuels sont dans l'ancien style haché) et y mettre la voix Koraly, puis les faire valider, puis générer les voix en lot.
-4. Créer la tâche planifiée quotidienne (procédure de CLAUDE.md) une fois le stock prêt.
+## Reste à faire (automatisation)
+1. **Généraliser** : décrire les notes de chaque épisode dans `episode.json` (texte, type de croquis, mot déclencheur dans la voix) avec mise en page automatique en serpentin autour du thème central, contrôle anti-chevauchement, calcul auto des CUES depuis `cs`.
+2. Brancher ce rendu dans `engine/build.sh` / le workflow « Rendu du reel » à la place de `engine.html`.
+3. Réécrire les 60 épisodes de `backlog/` dans le ton parlé (voix Storyteller), les faire valider, puis générer les voix en lot.
+4. Créer la tâche planifiée quotidienne (CLAUDE.md) une fois le stock prêt.
