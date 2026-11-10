@@ -1,9 +1,9 @@
 {
  "date": null,
- "title": "Sur Vénus, un jour dure plus longtemps qu'une année (texte parlé, voix Lily)",
+ "title": "Sur Vénus, un jour dure plus longtemps qu'une année (texte parlé, voix Koraly)",
  "theme": "carnet",
  "voice": {
-  "id": "3XD5qTvPWht0mpTnYXY0",
+  "id": "TojRWZatQyy9dujEdiQ1",
   "model": "eleven_multilingual_v2",
   "tempo": 1.1
  },
