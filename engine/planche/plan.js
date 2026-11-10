@@ -1,0 +1,2 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});p.on('pageerror',e=>console.log('ERR',e.message));
+await p.goto('file://'+__dirname+'/planche_anim.html');await p.evaluate(()=>document.fonts.ready);console.log(JSON.stringify(await p.evaluate(()=>[window.PLAN,window.LAST,window.INS,window.SHIFT])));await b.close()})();

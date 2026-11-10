@@ -3,6 +3,10 @@
 Ce dépôt produit **un reel Instagram par jour** sur l'espace et l'univers, sans intervention humaine, pour le compte
 Instagram indiqué dans `config.json` (via la marque Metricool indiquée).
 
+> **⚠️ Novembre 2026 — nouveau style validé : voir `docs/STYLE_PLANCHE.md` (planche de notes violette, voix Koraly, texte parlé).**
+> L'ancien rendu (`engine/engine.html`) et les textes actuels de `backlog/` sont dans l'ancien style : ne pas les publier tels quels.
+> Tant que le nouveau rendu n'est pas automatisé et le stock réécrit, la tâche quotidienne ne doit rien publier.
+
 Fonctionnement :
 - `backlog/NNN-slug/` = **stock d'épisodes écrits d'avance**. Chacun a `episode.json` et, une fois générée, sa voix dans `voice/`
   (`voice.mp3` + `alignment.json`). Les voix du stock sont générées en lot par le workflow « Générer les voix du stock »

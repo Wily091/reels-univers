@@ -1,0 +1,62 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Caveat;font-weight:700;src:url(../../node_modules/@fontsource/caveat/files/caveat-latin-700-normal.woff2)}
+@font-face{font-family:Kalam;src:url(../../node_modules/@fontsource/kalam/files/kalam-latin-400-normal.woff2)}
+@font-face{font-family:Elite;src:url(../../node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+body{margin:0}#b{width:2160px;height:3840px;position:relative;overflow:hidden}
+</style></head><body><div id="b"></div>
+<script>
+const v=new URLSearchParams(location.search).get('v')||'nuit';
+const TH=v==='nuit'?{bg1:'#2a1a52',bg2:'#170e33',grid:'rgba(220,200,255,.07)',ink:'#f3ead8',soft:'rgba(243,234,216,.55)',pink:'#ff8fc0',gold:'#ffd27a',tape:'rgba(255,230,180,.22)',paperNoise:.10,star:'#f3ead8',hatch:.55}
+                       :{bg1:'#f4ecdc',bg2:'#e9dcc4',grid:'rgba(90,60,160,.09)',ink:'#4a2a8a',soft:'rgba(74,42,138,.5)',pink:'#e0508f',gold:'#d99a1c',tape:'rgba(210,190,140,.55)',paperNoise:.07,star:'#6a4ab0',hatch:.6};
+const W=2160,H=3840;let s=0;
+const wob=(pts,a=3)=>{s++;const ph=s*1.37;return 'M'+pts.map(([x,y],i)=>(x+Math.sin(i*.45+ph)*a*.6).toFixed(1)+' '+(y+Math.cos(i*.38+ph*1.3)*a*.6).toFixed(1)).join(' L')};
+const circ=(cx,cy,r,a=4,turn=1.06,n=70,sq=1)=>wob(Array.from({length:n+1},(_,i)=>{const t=i/n*Math.PI*2*turn-1;return[cx+Math.cos(t)*r,cy+Math.sin(t)*r*sq]}),a);
+const P=(d,c=TH.ink,w=5,ex='')=>`<path d="${d}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round" stroke-linejoin="round" ${ex}/>`;
+const arrow=(d,hx,hy,ang,c=TH.ink,w=5)=>P(d,c,w)+P(`M${hx-34*Math.cos(ang-.45)} ${hy-34*Math.sin(ang-.45)} L${hx} ${hy} L${hx-34*Math.cos(ang+.45)} ${hy-34*Math.sin(ang+.45)}`,c,w);
+const under=(x,y,w,c=TH.pink)=>P(`M${x} ${y} C ${x+w*.3} ${y+12}, ${x+w*.7} ${y-10}, ${x+w} ${y+5}`,c,8)+P(`M${x+25} ${y+20} C ${x+w*.4} ${y+28}, ${x+w*.7} ${y+14}, ${x+w-35} ${y+22}`,c,5);
+const txt=(x,y,t,sz,c=TH.ink,rot=0,f='Caveat',anchor='start')=>`<text x="${x}" y="${y}" font-family="${f}" font-weight="700" font-size="${sz}" fill="${c}" text-anchor="${anchor}" transform="rotate(${rot} ${x} ${y})">${t}</text>`;
+const star=(x,y,k,c=TH.star)=>P(`M${x} ${y-k} L${x} ${y+k} M${x-k} ${y} L${x+k} ${y} M${x-k*.55} ${y-k*.55} L${x+k*.55} ${y+k*.55} M${x+k*.55} ${y-k*.55} L${x-k*.55} ${y+k*.55}`,c,3);
+const tape=(x,y,r)=>`<rect x="${x}" y="${y}" width="200" height="60" fill="${TH.tape}" transform="rotate(${r} ${x+100} ${y+30})"/>`;
+const hatch=(cx,cy,r,ang,step=18)=>{let o='';for(let k=-r;k<r;k+=step){if(k<r*.05)continue;const h=Math.sqrt(r*r-k*k)*.93,c=Math.cos(ang),sn=Math.sin(ang);o+=`<line x1="${cx+k*c+h*sn}" y1="${cy+k*sn-h*c}" x2="${cx+k*c-h*sn}" y2="${cy+k*sn+h*c}" stroke="${TH.ink}" stroke-width="3" opacity="${TH.hatch}"/>`}return o};
+const planet=(cx,cy,r)=>P(circ(cx,cy,r,5,1.04,90))+hatch(cx,cy,r,.5)+[-.4,0,.35].map(o=>P(`M${cx-r*.95} ${cy+o*r} Q ${cx} ${cy+o*r+30} ${cx+r*.95} ${cy+o*r}`,TH.ink,3,'opacity=".6"')).join('');
+let o='';
+// fond : papier + quadrillage + grain + vignette
+o+=`<defs><radialGradient id="bg" cx=".5" cy=".45" r=".8"><stop offset="0" stop-color="${TH.bg1}"/><stop offset="1" stop-color="${TH.bg2}"/></radialGradient>
+<pattern id="gr" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" fill="none" stroke="${TH.grid}" stroke-width="2"/></pattern>
+<filter id="nz"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="4"/><feColorMatrix values="0 0 0 0 ${v==='nuit'?1:.4} 0 0 0 0 ${v==='nuit'?.95:.3} 0 0 0 0 ${v==='nuit'?1:.2} 0 0 0 ${TH.paperNoise} 0"/></filter>
+<filter id="bl"><feTurbulence type="fractalNoise" baseFrequency=".004" numOctaves="2" seed="9"/><feColorMatrix values="0 0 0 0 ${v==='nuit'?.6:.55} 0 0 0 0 ${v==='nuit'?.4:.4} 0 0 0 0 ${v==='nuit'?1:.2} 0 0 0 .35 -.12"/></filter></defs>
+<rect width="${W}" height="${H}" fill="url(#bg)"/><rect width="${W}" height="${H}" fill="url(#gr)"/><rect width="${W}" height="${H}" filter="url(#bl)" opacity=".6"/><rect width="${W}" height="${H}" filter="url(#nz)"/>`;
+// étoiles éparpillées
+let r=7;const rn=()=>{r=(r*16807)%2147483647;return r/2147483647};
+for(let i=0;i<70;i++){const x=rn()*W,y=rn()*H;if(Math.hypot(x-1080,y-1920)<700)continue;o+=rn()<.25?star(x,y,8+rn()*12,rn()<.3?TH.gold:TH.star):`<circle cx="${x}" cy="${y}" r="${2+rn()*3}" fill="${TH.star}" opacity="${.3+rn()*.5}"/>`}
+// en-tête / pied
+o+=txt(140,190,'PLANCHE N° 001',40,TH.soft,0,'Elite')+txt(W-140,190,'UNIVERS EN BREF',40,TH.soft,0,'Elite','end')+txt(W-140,H-130,'@universenbref',40,TH.soft,0,'Elite','end');
+// ===== centre : thème principal
+o+=planet(1080,1960,290)+P(circ(1080,1960,360,4,1.0,90,.3),TH.gold,4,'stroke-dasharray="6 18"');
+o+=txt(1080,1540,'Vénus',260,TH.ink,-3,'Caveat','middle')+under(820,1580,520);
+o+=txt(1080,2400,'2ᵉ planète du Soleil',64,TH.soft,-2,'Kalam','middle');
+// ===== note 1 (haut gauche) : 243 jours + horloge
+o+=tape(300,330,-5)+txt(200,520,'1 jour sur Vénus',96,TH.ink,-4)+txt(220,720,'= 243',190,TH.pink,-4)+txt(700,700,'jours',96,TH.pink,-4)+P(circ(470,640,260,6,1.05,70,.45),TH.pink,6);
+o+=P(circ(800,950,90,4,1.02,50))+P('M800 950 L800 885')+P('M800 950 L850 975')+txt(920,980,'… et elle tourne tout doucement',54,TH.soft,-3,'Kalam');
+// ===== note 2 (haut droite) : 225 jours + orbite
+o+=txt(1260,560,'1 année',96,TH.ink,3)+txt(1270,770,'= 225 j',170,TH.gold,3)+P(circ(1720,1050,250,5,1.0,80,.32),TH.ink,4,'stroke-dasharray="5 16"')+`<circle cx="1720" cy="1050" r="55" fill="${TH.gold}" opacity=".9"/>`+P(circ(1960,1080,30,3,1,30))+txt(1640,1210,'le tour du Soleil',54,TH.soft,2,'Kalam');
+// ===== note 3
+o+=txt(150,1710,'le jour',110,TH.ink,-6)+txt(170,1920,'> l\'année !',120,TH.pink,-6)+P(circ(390,1880,250,4,1.05,70,.42),TH.ink,4)+arrow('M560 2040 C 610 2090, 650 2080, 700 2040',700,2040,-.6,TH.ink,5);
+// ===== note 4
+o+=P(wob([[2010,1620],[2010,2000]],2),TH.ink,30)+P(wob([[2010,1620],[2010,2000]],2),TH.bg1,18)+`<rect x="2001" y="1780" width="18" height="230" fill="${TH.pink}"/><circle cx="2010" cy="2040" r="52" fill="${TH.pink}"/>`+P(circ(2010,2040,52,2,1,30),TH.ink,6);
+o+=txt(1480,1760,'465 °C',140,TH.gold,4)+txt(1480,1870,'en surface',62,TH.ink,4,'Kalam')+txt(1470,1990,'+ chaude que',62,TH.ink,4,'Kalam')+txt(1500,2080,'Mercure !',80,TH.pink,4)+under(1500,2100,300,TH.gold);
+// ===== note 5
+o+=tape(240,2700,4)+P(wob([[160,3180],[380,3140],[600,3170],[840,3130],[980,3160]],5),TH.ink,6)+P(circ(320,3080,80,3,1.03,50),TH.gold,7);
+for(let i=0;i<9;i++){const a=Math.PI+i*Math.PI/8;o+=P(`M${320+Math.cos(a)*105} ${3080+Math.sin(a)*105} L${320+Math.cos(a)*150} ${3080+Math.sin(a)*150}`,TH.gold,6)}
+o+=txt(180,2880,'Le Soleil se lève…',90,TH.ink,-3)+txt(480,3060,'à l\'ouest',120,TH.pink,-3)+txt(170,3270,'← ouest',60,TH.soft,0,'Kalam')+txt(830,3270,'est →',60,TH.soft,0,'Kalam');
+// ===== note 6
+o+=txt(1330,2720,'elle tourne',90,TH.ink,3)+txt(1360,2840,'à l\'envers',100,TH.pink,3);
+o+=P(circ(1740,3120,140,3,1.0,60))+hatch(1740,3120,140,.5,22)+arrow('M1560 3060 C 1600 2930, 1880 2930, 1920 3060',1560,3060,2.1,TH.pink,7);
+o+=txt(1450,3350,'(rotation rétrograde)',58,TH.soft,2,'Kalam');
+// ===== note 7
+o+=star(330,3530,30,TH.gold)+txt(400,3555,'surnom : l\'étoile du Berger',78,TH.ink,-2)+txt(420,3650,'(l\'astre le + brillant de la nuit après la Lune)',50,TH.soft,-2,'Kalam');
+// petits gribouillis
+o+=txt(1260,1340,'?!',120,TH.gold,10)+star(980,1260,26,TH.gold)+star(1250,2560,22,TH.pink);
+document.getElementById('b').innerHTML=`<svg width="${W}" height="${H}">${o}</svg>`;
+</script></body></html>

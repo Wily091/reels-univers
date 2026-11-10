@@ -1,0 +1,110 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Caveat;font-weight:700;src:url(../../node_modules/@fontsource/caveat/files/caveat-latin-700-normal.woff2)}
+@font-face{font-family:Kalam;src:url(../../node_modules/@fontsource/kalam/files/kalam-latin-400-normal.woff2)}
+@font-face{font-family:Elite;src:url(../../node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+body{margin:0;background:#000}#v{width:1080px;height:1920px;overflow:hidden;position:relative;background:#170e33}
+</style></head><body><div id="v"></div>
+<script src="venus_cues.js"></script>
+<script>
+const TH={bg1:'#2a1a52',bg2:'#170e33',grid:'rgba(220,200,255,.07)',ink:'#f3ead8',soft:'rgba(243,234,216,.6)',pink:'#ff8fc0',gold:'#ffd27a',tape:'rgba(255,230,180,.22)',star:'#f3ead8'};
+const W=2160,H=3840;let s=0;
+const wob=(pts,a=3)=>{s++;const ph=s*1.37;return 'M'+pts.map(([x,y],i)=>(x+Math.sin(i*.45+ph)*a*.6).toFixed(1)+' '+(y+Math.cos(i*.38+ph*1.3)*a*.6).toFixed(1)).join(' L')};
+const circ=(cx,cy,r,a=4,turn=1.06,n=70,sq=1)=>wob(Array.from({length:n+1},(_,i)=>{const t=i/n*Math.PI*2*turn-1;return[cx+Math.cos(t)*r,cy+Math.sin(t)*r*sq]}),a);
+// ---- éléments animés : chaque élément a un instant d'apparition t0 et une durée d
+const EL=[];let o='';let uid=0;let G='c';
+const P=(t0,d,path,c=TH.ink,w=5,ex='')=>{const id='e'+(uid++);EL.push({id,k:'p',t0,d,g:G});o+=`<path id="${id}" d="${path}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" ${ex}/>`};
+const X=(t0,x,y,t,sz,c=TH.ink,rot=0,f='Caveat',anchor='start',d)=>{const id='e'+(uid++);d=d||Math.min(1.3,Math.max(.35,t.length*.045));EL.push({id,k:'t',t0,d,x,y,rot,anchor,g:G});o+=`<clipPath id="c${id}"><rect id="r${id}" x="0" y="0" width="0" height="0"/></clipPath><text id="${id}" clip-path="url(#c${id})" x="${x}" y="${y}" font-family="${f}" font-weight="700" font-size="${sz}" fill="${c}" text-anchor="${anchor}" transform="rotate(${rot} ${x} ${y})">${t}</text>`};
+const F=(t0,svg)=>{const id='e'+(uid++);EL.push({id,k:'f',t0,d:.35,g:G});o+=`<g id="${id}" opacity="0">${svg}</g>`};
+const arrow=(t0,path,hx,hy,ang,c=TH.ink,w=5)=>{P(t0,.4,path,c,w);P(t0+.35,.15,`M${hx-34*Math.cos(ang-.45)} ${hy-34*Math.sin(ang-.45)} L${hx} ${hy} L${hx-34*Math.cos(ang+.45)} ${hy-34*Math.sin(ang+.45)}`,c,w)};
+const under=(t0,x,y,w,c=TH.pink)=>{P(t0,.3,`M${x} ${y} C ${x+w*.3} ${y+12}, ${x+w*.7} ${y-10}, ${x+w} ${y+5}`,c,8);P(t0+.2,.25,`M${x+25} ${y+20} C ${x+w*.4} ${y+28}, ${x+w*.7} ${y+14}, ${x+w-35} ${y+22}`,c,5)};
+const hatch=(t0,cx,cy,r,ang,step=18)=>{let i=0;for(let k=-r;k<r;k+=step){if(k<r*.05)continue;const h=Math.sqrt(r*r-k*k)*.93,c=Math.cos(ang),sn=Math.sin(ang);P(t0+i*.025,.12,`M${cx+k*c+h*sn} ${cy+k*sn-h*c} L${cx+k*c-h*sn} ${cy+k*sn+h*c}`,TH.ink,3,'opacity=".55"');i++}};
+const starS=(x,y,k,c=TH.star)=>`<path d="M${x} ${y-k} L${x} ${y+k} M${x-k} ${y} L${x+k} ${y} M${x-k*.55} ${y-k*.55} L${x+k*.55} ${y+k*.55} M${x+k*.55} ${y-k*.55} L${x-k*.55} ${y+k*.55}" stroke="${c}" stroke-width="3" stroke-linecap="round"/>`;
+const tape=(x,y,r)=>`<rect x="${x}" y="${y}" width="200" height="60" fill="${TH.tape}" transform="rotate(${r} ${x+100} ${y+30})"/>`;
+// ---- décor fixe
+let bg=`<defs><radialGradient id="bg" cx=".5" cy=".45" r=".8"><stop offset="0" stop-color="${TH.bg1}"/><stop offset="1" stop-color="${TH.bg2}"/></radialGradient>
+<pattern id="gr" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" fill="none" stroke="${TH.grid}" stroke-width="2"/></pattern>
+<filter id="nz" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="4"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 .95 0 0 0 0 1 0 0 0 .10 0"/></filter>
+<filter id="bl" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".004" numOctaves="2" seed="9"/><feColorMatrix values="0 0 0 0 .6 0 0 0 0 .4 0 0 0 0 1 0 0 0 .35 -.12"/></filter></defs>
+<rect x="-400" y="-400" width="${W+800}" height="${H+800}" fill="${TH.bg2}"/><rect width="${W}" height="${H}" fill="url(#bg)"/><rect width="${W}" height="${H}" fill="url(#gr)"/><rect width="${W}" height="${H}" filter="url(#bl)" opacity=".6"/><rect width="${W}" height="${H}" filter="url(#nz)"/>`;
+let r=7;const rn=()=>{r=(r*16807)%2147483647;return r/2147483647};
+for(let i=0;i<70;i++){const x=rn()*W,y=rn()*H;if(Math.hypot(x-1080,y-2000)<700)continue;bg+=`<g class="st" data-x="${x}" data-y="${y}">`+(rn()<.25?starS(x,y,8+rn()*12,rn()<.3?TH.gold:TH.star):`<circle cx="${x}" cy="${y}" r="${2+rn()*3}" fill="${TH.star}" opacity="${.3+rn()*.5}"/>`)+'</g>'}
+bg+=`<text x="140" y="190" font-family="Elite" font-size="40" fill="${TH.soft}">PLANCHE N° 001</text><text x="${W-140}" y="190" font-family="Elite" font-size="40" fill="${TH.soft}" text-anchor="end">UNIVERS EN BREF</text><text x="${W-140}" y="${H-130}" font-family="Elite" font-size="40" fill="${TH.soft}" text-anchor="end">@universenbref</text>`;
+// ---- notes, calées sur la voix
+const C=window.CUES;
+// centre (accroche)
+X(C.s0+.05,1080,1640,'Vénus',260,TH.ink,-3,'Caveat','middle',.8);under(C.s0+.8,820,1680,520);
+P(C.s0+.9,.7,circ(1080,2050,290,4,1.04,90));hatch(C.s0+1.4,1080,2050,290,.5);
+[-.4,0,.35].forEach((q,i)=>P(C.s0+1.6+i*.1,.3,`M${1080-290*.95} ${2050+q*290} Q 1080 ${2050+q*290+30} ${1080+290*.95} ${2050+q*290}`,TH.ink,3,'opacity=".6"'));
+X(C.annee-.1,1080,2470,'1 jour > 1 année ?!',84,TH.gold,-2,'Caveat','middle',.7);
+
+// note 1 : 243 jours
+G='n1';
+F(C.s2,`${tape(300,330,-5)}`);X(C.s2+.1,200,520,'1 jour sur Vénus',96,TH.ink,-4);
+P(C.lent-.3,.5,circ(330,960,80,3,1.02,50));P(C.lent+.1,.15,'M330 960 L330 902');P(C.lent+.2,.15,'M330 960 L375 982');X(C.lent+.2,440,990,'… extrêmement lentement',50,TH.soft,-3,'Kalam');
+X(C.d243,220,720,'= 243',190,TH.pink,-4,'Caveat','start',.6);X(C.d243+.6,700,700,'jours',96,TH.pink,-4);P(C.d243+1.1,.5,circ(470,640,260,4,1.05,70,.45),TH.pink,6);
+// note 2 : 225 jours
+G='n2';
+X(C.s3+.1,1260,560,'1 année',96,TH.ink,3);P(C.s3+.6,.7,circ(1720,1050,250,4,1.0,80,.32),TH.ink,4,'stroke-dasharray="5 16"');F(C.s3+.7,`<circle cx="1720" cy="1050" r="55" fill="${TH.gold}" opacity=".9"/>`);P(C.s3+1.2,.3,circ(1960,1080,30,2,1,30));
+X(C.s3+1.3,1640,1210,'le tour du Soleil',54,TH.soft,2,'Kalam');X(C.d225,1270,770,'= 225 j',170,TH.gold,3,'Caveat','start',.6);
+// note 3 : le jour > l'année
+G='n3';
+X(C.s4+.05,150,1710,'le jour',110,TH.ink,-6);X(C.plus+.0,170,1920,'> l\'année !',120,TH.pink,-6,'Caveat','start',.6);P(C.plus+.7,.5,circ(390,1880,250,4,1.05,70,.42),TH.ink,4);
+// note 6 : tourne à l'envers
+G='n6';
+X(C.envers-.25,1330,2720,'elle tourne',90,TH.ink,3);X(C.envers+.25,1360,2840,'à l\'envers',100,TH.pink,3);
+P(C.envers+.2,.5,circ(1740,3120,140,3,1.0,60));hatch(C.envers+.5,1740,3120,140,.5,22);arrow(C.envers+.6,'M1560 3060 C 1600 2930, 1880 2930, 1920 3060',1560,3060,2.1,TH.pink,7);
+// note 5 : Soleil à l'ouest
+G='n5';
+F(C.s5b,tape(240,2700,4));X(C.s5b+.05,180,2880,'Le Soleil se lève…',90,TH.ink,-3);
+P(C.s5b+.6,.6,wob([[160,3180],[380,3140],[600,3170],[840,3130],[980,3160]],5),TH.ink,6);P(C.s5b+.8,.5,circ(320,3080,80,3,1.03,50),TH.gold,7);
+for(let i=0;i<9;i++){const a=Math.PI+i*Math.PI/8;P(C.s5b+1.1+i*.04,.1,`M${320+Math.cos(a)*105} ${3080+Math.sin(a)*105} L${320+Math.cos(a)*150} ${3080+Math.sin(a)*150}`,TH.gold,6)}
+X(C.ouest-.1,480,3060,'à l\'ouest',120,TH.pink,-3,'Caveat','start',.5);X(C.ouest+.6,170,3270,'← ouest',60,TH.soft,0,'Kalam');X(C.est-.1,830,3270,'est →',60,TH.soft,0,'Kalam');
+// note 4 : chaleur
+G='n4';
+P(C.s6,.5,wob([[2010,1620],[2010,2000]],2),TH.ink,30);F(C.s6+.3,`<path d="M2010 1622 L2010 1998" stroke="${TH.bg1}" stroke-width="18" stroke-linecap="round"/><circle cx="2010" cy="2040" r="52" fill="${TH.pink}"/>`);
+const thermo='e'+uid;EL.push({id:thermo,k:'g',t0:C.d460,d:1.2,g:G});o+=`<rect id="${thermo}" x="2001" y="2010" width="18" height="0" fill="${TH.pink}"/>`;
+P(C.s6+.5,.3,circ(2010,2040,52,2,1,30),TH.ink,6);
+X(C.d460-.1,1420,1760,'+ de 460 °C',115,TH.gold,4,'Caveat','start',.7);X(C.s6+.2,1480,1870,'en surface',62,TH.ink,4,'Kalam');
+X(C.s7+.05,1470,1990,'+ chaude que',62,TH.ink,4,'Kalam');X(C.merc,1500,2080,'Mercure !',80,TH.pink,4,'Caveat','start',.5);under(C.merc+.5,1500,2100,300,TH.gold);
+X(C.proche,1400,2180,'(pourtant + proche du Soleil)',46,TH.soft,4,'Kalam');
+// note 7 : atmosphère
+G='n7';
+X(C.s8+.05,560,3420,'la faute à son',72,TH.ink,-2);X(C.atmo,1010,3420,'atmosphère',100,TH.gold,-2,'Caveat','start',.6);
+[0,1,2].forEach(i=>P(C.atmo+.5+i*.15,.35,`M${1480+i*20} ${3360+i*40} q 40 -60 90 -20 q 50 -50 100 0 q 60 0 50 50 q 40 30 -10 60 l -200 0 q -50 -40 -30 -90z`,TH.ink,4,'opacity="'+(1-i*.25)+'"'));
+X(C.piege,600,3540,'→ si épaisse qu\'elle piège la chaleur',68,TH.pink,-2,'Caveat','start',1.1);
+// fin
+G='fin';
+X(C.s9,560,3650,'Si ça t\'a plu, abonne-toi ✶',80,TH.gold,-2,'Caveat','start',.9);X(C.partage,760,3760,'… et partage-la',64,TH.pink,-3,'Caveat','start',.6);
+const view=`<svg width="1080" height="1920"><g id="cam">${bg}${o}</g></svg>`;document.getElementById('v').innerHTML=view;
+// mesure des textes pour l'effet d'écriture
+EL.forEach(e=>{if(e.k==='t'){const t=document.getElementById(e.id);const b=t.getBBox();e.b=b;const rr=document.getElementById('r'+e.id);rr.setAttribute('x',b.x-10);rr.setAttribute('y',b.y-40);rr.setAttribute('height',b.height+80)}});
+// retire les étoiles du décor qui tombent sur un texte ou un dessin
+{const boxes=EL.map(e=>{const n=document.getElementById(e.id);try{const bb=n.getBBox();return [bb.x-40,bb.y-40,bb.x+bb.width+40,bb.y+bb.height+40]}catch(_){return null}}).filter(Boolean);
+ document.querySelectorAll('g.st').forEach(g=>{const x=+g.dataset.x,y=+g.dataset.y;if(boxes.some(([a,b,c,d])=>x>a&&x<c&&y>b&&y<d))g.remove()})}
+// ---- caméra : plans (début, cx, cy, échelle). Les transitions plongent en dézoomant.
+const SH=window.SHOTS.map(x=>{const y={...x};const hw=540/y.s,hh=960/y.s;y.x=Math.min(W-hw,Math.max(hw,y.x));y.y=Math.min(H-hh,Math.max(hh,y.y));return y});
+(function plan(){
+  const end=g=>Math.max(0,...EL.filter(e=>e.g===g).map(e=>e.t0+e.d));const INS=[];let cum=0;
+  for(let i=0;i<SH.length-1;i++){const a=SH[i],b=SH[i+1];if(a.g===b.g)continue;
+    const dep=b.t-b.tr;const need=a.g==='c'?end(a.g)+0.2:Math.max(end(a.g)+0.4,a.t+0.9);
+    if(need>dep){const delay=+(need-dep).toFixed(3);const P=Math.min(...EL.filter(e=>e.g===b.g).map(e=>e.t0))-0.05;
+      const co=Math.max(P,dep)-cum;const bo=window.BOUND.reduce((x,y)=>Math.abs(y-co)<Math.abs(x-co)?y:x);const cut=bo+cum;   // respiration placée entre deux phrases
+      EL.forEach(e=>{if(e.t0>=Math.min(cut,Math.max(P,dep)))e.t0+=delay});for(let j=i+1;j<SH.length;j++)SH[j].t+=delay;
+      INS.push([bo,delay]);cum+=delay}}
+  window.PLAN=SH.map(x=>[x.g,+x.t.toFixed(2),x.tr,+end(x.g).toFixed(2)]);window.INS=INS;window.SHIFT=cum})();const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),eio=x=>{x=cl(x);return -(Math.cos(Math.PI*x)-1)/2};
+function hold(a,t){const u=Math.max(0,t-a.t);const ramp=u<1.2?u*u/2.4:u-0.6;   // légère avancée qui démarre en douceur
+  return [a.x,a.y,a.s]}   // caméra immobile pendant l'écriture
+function camAt(t){let i=0;while(i<SH.length-1&&t>=SH[i+1].t)i++;const a=SH[i],b=SH[i+1];
+  let [cx,cy,sc]=hold(a,t);
+  if(b&&b.tr&&t>b.t-b.tr){const t0=b.t-b.tr;const k=eio((t-t0)/b.tr);const [x0,y0,s0]=hold(a,t0);   // le glissement part de la position réelle
+    cx=x0+(b.x-x0)*k;cy=y0+(b.y-y0)*k;sc=s0+(b.s-s0)*k}
+  sc=Math.max(.5,sc);const hw=540/sc,hh=960/sc;cx=Math.min(W-hw,Math.max(hw,cx));cy=Math.min(H-hh,Math.max(hh,cy));return [cx,cy,sc]}
+window.renderAt=t=>{const [cx,cy,sc]=camAt(t);document.getElementById('cam').setAttribute('transform',`translate(540 960) scale(${sc}) translate(${-cx} ${-cy})`);
+  EL.forEach(e=>{const k=cl((t-e.t0)/e.d);const n=document.getElementById(e.id);
+    if(e.k==='p')n.setAttribute('stroke-dashoffset',1-k);
+    else if(e.k==='t'){const rr=document.getElementById('r'+e.id);rr.setAttribute('width',(e.b.width+20)*k)}
+    else if(e.k==='f')n.setAttribute('opacity',k);
+    else if(e.k==='g'){const h=360*k;n.setAttribute('y',2010-h);n.setAttribute('height',h)}})};
+window.ready=true;
+</script></body></html>
