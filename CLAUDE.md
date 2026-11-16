@@ -6,6 +6,7 @@ Instagram indiqué dans `config.json` (via la marque Metricool indiquée).
 > **⚠️ Novembre 2026 — DA officielle validée le 16/11 : voir `docs/STYLE_PLANCHE.md` et la vidéo `docs/reference/univers_en_bref_reference_DA.mp4` (planche noire, photos NASA annotées, ouverture en plan rapproché, voix Koraly Storyteller sans silences, texte parlé) — à garder pour tous les posts jusqu’à ce que William demande de changer.**
 > L'ancien rendu (`engine/engine.html`) et les textes actuels de `backlog/` sont dans l'ancien style : ne pas les publier tels quels.
 > Tant que le nouveau rendu n'est pas automatisé et le stock réécrit, la tâche quotidienne ne doit rien publier.
+> **Musique : TOUJOURS et UNIQUEMENT « orbite » (`assets/music/orbite.wav`), répétée en boucle jusqu'à la fin du reel (`engine/planche/music_loop.py`), très basse sous la voix (`engine/planche/mix.sh`).**
 
 Fonctionnement :
 - `backlog/NNN-slug/` = **stock d'épisodes écrits d'avance**. Chacun a `episode.json` et, une fois générée, sa voix dans `voice/`
