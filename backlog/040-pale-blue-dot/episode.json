@@ -1,19 +1,215 @@
 {
+ "format": "planche",
+ "valide": false,
  "date": null,
- "title": "Le point bleu pâle : la Terre vue de 6 milliards de km",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Le 14 février 1990, la sonde Voyager 1 s'est retournée pour photographier la Terre, à environ 6 milliards de km du Soleil 🌍\n\nNotre planète y apparaît comme un point d'à peine un pixel. « Regardez encore ce point. C'est ici. C'est chez nous. C'est nous. » – Carl Sagan\n\nÇa te fait quoi ? 👇",
- "hashtags": ["#palebluedot", "#voyager1", "#carlsagan", "#terre", "#espace", "#univers", "#nasa", "#astronomie", "#science", "#lesaviezvous"],
- "sources": ["https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot/"],
+ "num": 10,
+ "title": "Le point bleu pâle : la Terre vue à 6 milliards de km",
+ "subject": "La Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pbd",
+   "file": "assets/images/pale_blue_dot.jpg",
+   "nasa_id": "PIA23645",
+   "credit": "« Pale Blue Dot » · Voyager 1 · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/photojournal/pale-blue-dot-revisited",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.35,
+    0.3,
+    0.45,
+    0.45
+   ]
+  },
+  {
+   "id": "pbdzoom",
+   "file": "assets/images/pale_blue_dot.jpg",
+   "nasa_id": "PIA23645",
+   "credit": "« Pale Blue Dot » · Voyager 1 · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/photojournal/pale-blue-dot-revisited",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.5796,
+    0.5044,
+    0.03,
+    0.03
+   ]
+  }
+ ],
+ "center": {
+  "photo": "pbd",
+  "annot": [
+   {
+    "text": "vraie photo !",
+    "color": "pink",
+    "under": true,
+    "pos": "tl"
+   },
+   {
+    "text": "la Terre",
+    "color": "white",
+    "pos": "bl",
+    "arrow": [
+     0.544,
+     0.487
+    ]
+   }
+  ],
+  "tagline": {
+   "text": "ce petit point = nous",
+   "on": "Terre"
+  }
+ },
  "scenes": [
-  {"say": ["Le quatorze février mille neuf cent quatre-vingt-dix, une sonde s'est retournée… pour prendre une dernière photo de chez nous."], "ghost": "1990", "kicker": "14 FÉVRIER 1990", "il": {"type": "rocket"}, "lines": [{"text": "[14 FÉVRIER 1990]", "at": [0, 0.3], "punch": true}, {"text": "UNE SONDE", "at": [0, 0.5]}, {"text": "SE RETOURNE…", "at": [0, 0.65]}]},
-  {"say": ["C'était Voyager un, à environ six milliards de kilomètres du Soleil."], "ghost": "6 MD KM", "kicker": "VOYAGER 1 · ~6 MILLIARDS DE KM", "il": {"type": "distance", "label": "6 MILLIARDS DE KM"}, "lines": [{"text": "[VOYAGER 1]", "at": [0, 0.15], "punch": true}, {"text": "À 6 MILLIARDS", "at": [0, 0.6]}, {"text": "DE KM.", "at": [0, 0.8]}]},
-  {"say": ["Sur l'image, la Terre fait à peine… un pixel."], "hit": true, "ghost": "1 PIXEL", "lines": [{"text": "LA TERRE :", "at": [0, 0.1]}, {"text": "UN PIXEL.", "at": [0, 0.8], "punch": true, "max": 420}]},
-  {"say": ["Un minuscule point bleu pâle, perdu dans un rayon de lumière."], "ghost": "POINT", "il": {"type": "stars"}, "lines": [{"text": "UN POINT", "at": [0, 0.15]}, {"text": "[BLEU PÂLE.]", "at": [0, 0.4], "punch": true}, {"text": "DANS UN RAYON DE LUMIÈRE.", "at": [0, 0.85], "max": 150}]},
-  {"say": ["L'astronome Carl Sagan, qui avait poussé pour prendre cette photo, a écrit :"], "ghost": "SAGAN", "kicker": "CARL SAGAN", "il": {"type": "telescope"}, "lines": [{"text": "CARL SAGAN", "at": [0, 0.15], "punch": true}, {"text": "A ÉCRIT :", "at": [0, 0.9]}]},
-  {"say": ["Regardez encore ce point.", "C'est ici. C'est chez nous. C'est nous."], "ghost": "NOUS", "il": {"type": "globe"}, "lines": [{"text": "« REGARDEZ ENCORE", "at": [0, 0.1]}, {"text": "CE POINT.", "at": [0, 0.6]}, {"text": "[C'EST ICI.]", "at": [1, 0.05], "gap": 30}, {"text": "[C'EST NOUS.] »", "at": [1, 0.75], "punch": true}]},
-  {"say": ["Tout ce que tu as connu, tout le monde que tu aimes… tient dans ce pixel."], "hit": true, "ghost": "PIXEL", "lines": [{"text": "TOUT CE QUE TU AIMES", "at": [0, 0.4]}, {"text": "TIENT DANS", "at": [0, 0.8]}, {"text": "UN PIXEL.", "at": [0, 0.95], "punch": true, "max": 380}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que ce minuscule point, perdu dans un rayon de lumière, c'est la Terre photographiée à six milliards de kilomètres ?"
+   ]
+  },
+  {
+   "say": [
+    "Le quatorze février mille neuf cent quatre-vingt-dix, la sonde Voyager un s'est retournée une dernière fois pour photographier notre planète, juste avant d'éteindre ses caméras,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "14 février 1990",
+     "size": "l",
+     "color": "gold",
+     "on": "quatorze"
+    },
+    {
+     "t": "text",
+     "text": "Voyager 1 se retourne",
+     "size": "m",
+     "on": "retournée"
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "from": "Voyager 1",
+     "to": "Terre",
+     "on": "photographier"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sur l'image, la Terre est si loin qu'elle fait moins d'un seul pixel."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Terre =",
+     "size": "m"
+    },
+    {
+     "t": "text",
+     "text": "< 1 pixel !",
+     "size": "xl",
+     "color": "pink",
+     "circle": true,
+     "on": "pixel"
+    },
+    {
+     "t": "round",
+     "img": "pbdzoom",
+     "arrow": false,
+     "on": "loin"
+    },
+    {
+     "t": "text",
+     "text": "zoom × 100",
+     "size": "s",
+     "color": "soft",
+     "row": "same",
+     "on": "loin"
+    }
+   ]
+  },
+  {
+   "say": [
+    "C'est l'astronome Carl Sagan qui avait eu l'idée de cette photo, et il a écrit : regarde encore ce point, c'est ici, c'est chez nous, c'est nous."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Carl Sagan :",
+     "size": "m",
+     "on": "Carl Sagan"
+    },
+    {
+     "t": "text",
+     "text": "« regarde encore ce point »",
+     "size": "m",
+     "color": "gold",
+     "on": "regarde"
+    },
+    {
+     "t": "text",
+     "text": "c'est ici, c'est chez nous, c'est nous",
+     "size": "s",
+     "color": "soft",
+     "on": "c'est ici"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Et le plus fou, c'est que tout ce que tu as connu, toutes les personnes que tu aimes, et toute l'histoire humaine tiennent dans ce minuscule point bleu."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tous ceux que tu aimes",
+     "size": "m",
+     "on": "personnes"
+    },
+    {
+     "t": "text",
+     "text": "toute l'histoire humaine",
+     "size": "m",
+     "on": "histoire"
+    },
+    {
+     "t": "text",
+     "text": "sont dans ce point",
+     "size": "l",
+     "color": "pink",
+     "under": true,
+     "on": "minuscule point"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "row": "same",
+     "scale": 0.6,
+     "on": "point bleu"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo."
+   ]
+  }
+ ],
+ "caption": "Ce minuscule point, c'est la Terre vue à 6 milliards de km 💙\n\nLe 14 février 1990, la sonde Voyager 1 s'est retournée une dernière fois pour photographier notre planète, juste avant d'éteindre ses caméras. Sur l'image, la Terre fait moins d'un pixel : un point bleu pâle perdu dans un rayon de Soleil. C'est l'astronome Carl Sagan qui avait eu l'idée de cette photo, devenue célèbre sous le nom de « Pale Blue Dot ». Il a écrit : « Regardez encore ce point. C'est ici. C'est chez nous. C'est nous. » Une des images les plus émouvantes de l'histoire de l'espace et de l'astronomie.\n\nÀ qui tu enverrais cette vidéo ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#voyager",
+  "#astronomie",
+  "#culturegenerale",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/photojournal/pale-blue-dot-revisited",
+  "https://science.nasa.gov/resource/voyager-1s-pale-blue-dot/"
  ]
 }

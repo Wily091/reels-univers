@@ -11,7 +11,7 @@ const sc=ep.scenes||[];const says=sc.flatMap(s=>s.say||[]);
 if(!sc.length||!/\?$/.test(sc[0].say[0].trim()))E.push('la 1re phrase doit être une question d\'accroche');
 const last=sc[sc.length-1];if(!last||!last.fin||last.say.join(' ')!==FIN)E.push('dernière scène : fin standard exacte avec "fin": true');
 says.forEach(t=>{if(/…|\.\.\./.test(t))E.push(`points de suspension interdits : « ${t.slice(0,40)}… »`);if(/\d/.test(t))E.push(`chiffres en lettres dans la voix : « ${t.slice(0,50)} »`)});
-const chars=says.join(' ').length;const est=chars/17.5;if(est<30||est>48)Wn.push(`durée estimée ${est.toFixed(0)} s (viser 35–45 s)`);
+const chars=says.join(' ').length;const est=chars/22.8;   // calé sur la référence Vénus : 880 caractères ≈ 38,6 sif(est<30||est>48)Wn.push(`durée estimée ${est.toFixed(0)} s (viser 35–45 s)`);
 const notes=sc.filter(s=>s.note);if(notes.length<4||notes.length>6)E.push(`4 à 6 notes attendues (${notes.length})`);
 const ids=new Set((ep.images||[]).map(i=>i.id));
 (ep.images||[]).forEach(im=>{['id','file','credit','page','license'].forEach(k=>{if(!im[k])E.push(`image ${im.id||'?'} : champ ${k} manquant`)});if(im.file&&!fs.existsSync(path.join(ROOT,im.file)))Wn.push(`photo à télécharger : ${im.file}`)});

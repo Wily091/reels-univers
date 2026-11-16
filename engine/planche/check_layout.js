@@ -1,7 +1,7 @@
 // Contrôle gratuit d'une planche (avant voix ou avant rendu) : erreurs, chevauchements, à-coups de caméra,
 // et aperçu de l'image finale (<ep>/build/preview.jpg) + 4 images clés (<ep>/build/key_*.jpg).
 // Usage : node check_layout.js <dossier_episode>   → code de sortie 1 si problème.
-const fs=require('fs'),path=require('path');const open=require('./page');(async()=>{const dir=process.argv[2];const {b,p,err}=await open(dir);
+const fs=require('fs'),path=require('path');const open=require('./page');(async()=>{const dir=process.argv[2];const {b,p,err}=await open(dir);if(err.length){err.forEach(x=>console.error('::error title=Planche::'+x));await b.close();process.exit(1)}
 const r=await p.evaluate(()=>{let prev=null,maxJ=0,at=0;const n=Math.ceil(window.END*30);for(let i=0;i<n;i++){const t=i/30;window.renderAt(t);const m=document.getElementById('cam').getAttribute('transform').match(/[-\d.]+/g).map(Number);
  if(prev){const d=Math.hypot(m[3]-prev[3],m[4]-prev[4])*m[2]+Math.abs(m[2]-prev[2])*1500;const dd=Math.abs(d-(prev.d||0));if(dd>maxJ){maxJ=dd;at=t}m.d=d}prev=m}
  return {END:window.END,OV:window.OVERLAPS,PLAN:window.PLAN,jump:[+maxJ.toFixed(2),+at.toFixed(2)]}});

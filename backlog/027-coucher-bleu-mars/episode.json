@@ -1,20 +1,208 @@
 {
+ "format": "planche",
+ "valide": false,
  "date": null,
- "title": "Sur Mars, les couchers de soleil sont bleus",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Sur la planète rouge, les couchers de soleil sont… bleus 🌅🔵\n\nLe rover Curiosity l'a photographié en 2015 dans le cratère Gale. La poussière martienne laisse mieux passer la lumière bleue près du Soleil.\n\nTu aimerais voir ça ? 👇",
- "hashtags": ["#mars", "#curiosity", "#coucherdesoleil", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#planeterouge"],
- "sources": ["https://science.nasa.gov/resource/sunset-at-mars-gale-crater-curiosity", "https://science.nasa.gov/mars/facts/"],
+ "num": 8,
+ "title": "Sur Mars, les couchers de Soleil sont bleus",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "sunset",
+   "file": "assets/images/mars_coucher_soleil.jpg",
+   "nasa_id": "PIA19400",
+   "credit": "Coucher de Soleil sur Mars · NASA/JPL-Caltech/MSSS/Texas A&M Univ.",
+   "page": "https://science.nasa.gov/photojournal/sunset-in-mars-gale-crater",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.1,
+    0,
+    0.8,
+    1
+   ]
+  }
+ ],
+ "center": {
+  "photo": "sunset",
+  "annot": [
+   {
+    "text": "vraie photo !",
+    "color": "pink",
+    "under": true,
+    "pos": "tl"
+   }
+  ],
+  "tagline": {
+   "text": "des couchers bleus ?!",
+   "on": "bleus"
+  }
+ },
  "scenes": [
-  {"say": ["Sur Terre, le ciel est bleu… et les couchers de soleil sont orange."], "ghost": "TERRE", "il": {"type": "horizon"}, "lines": [{"text": "SUR TERRE :", "at": 0, "max": 220}, {"text": "CIEL [BLEU]", "at": [0, 0.3]}, {"text": "COUCHERS [ORANGE.]", "at": [0, 0.8]}]},
-  {"say": ["Sur Mars… c'est l'inverse."], "hit": true, "ghost": "INVERSE", "lines": [{"text": "SUR MARS…", "at": 0}, {"text": "L'INVERSE.", "at": [0, 0.6], "punch": true, "max": 420}]},
-  {"say": ["Pendant la journée, le ciel martien est brumeux et rougeâtre, à cause de la poussière."], "ghost": "POUSSIÈRE", "kicker": "MARS · CIEL POUSSIÉREUX", "il": {"type": "planet", "label": "MARS"}, "lines": [{"text": "LE JOUR :", "at": [0, 0.1]}, {"text": "UN CIEL", "at": [0, 0.4]}, {"text": "[ROUGEÂTRE.]", "at": [0, 0.6], "punch": true}]},
-  {"say": ["Mais au coucher du soleil… une lueur bleue apparaît autour du Soleil."], "ghost": "BLEU", "il": {"type": "sun"}, "lines": [{"text": "AU COUCHER :", "at": [0, 0.3]}, {"text": "UNE LUEUR", "at": [0, 0.6]}, {"text": "[BLEUE.]", "at": [0, 0.75], "punch": true, "max": 320}]},
-  {"say": ["Le rover Curiosity l'a photographiée en deux mille quinze, dans le cratère Gale."], "ghost": "CURIOSITY", "kicker": "CURIOSITY · CRATÈRE GALE · 2015", "il": {"type": "rocket"}, "lines": [{"text": "PHOTOGRAPHIÉE PAR", "at": [0, 0.15]}, {"text": "[CURIOSITY]", "at": [0, 0.35], "punch": true}, {"text": "EN 2015.", "at": [0, 0.6]}]},
-  {"say": ["La raison : la fine poussière martienne laisse mieux passer la lumière bleue…", "qui reste concentrée près du Soleil."], "ghost": "LUMIÈRE", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "MARS"}, "lines": [{"text": "LA POUSSIÈRE", "at": [0, 0.25]}, {"text": "LAISSE PASSER", "at": [0, 0.6]}, {"text": "[LE BLEU.]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["Et l'effet est maximal au coucher, quand la lumière traverse le plus d'atmosphère."], "ghost": "COUCHER", "il": {"type": "horizon"}, "lines": [{"text": "MAXIMAL", "at": [0, 0.15], "max": 260}, {"text": "[AU COUCHER.]", "at": [0, 0.35], "punch": true}]},
-  {"say": ["La planète rouge… a des couchers de soleil bleus."], "hit": true, "ghost": "BLEU", "lines": [{"text": "LA PLANÈTE ROUGE,", "at": [0, 0.1]}, {"text": "COUCHERS BLEUS.", "at": [0, 0.7], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que sur Mars, la planète rouge, les couchers de Soleil sont bleus ?"
+   ]
+  },
+  {
+   "say": [
+    "En fait, c'est l'inverse de chez nous, puisque sur Terre le ciel est bleu en journée et le coucher de Soleil devient orange,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre :",
+     "size": "m",
+     "on": "sur Terre"
+    },
+    {
+     "t": "text",
+     "text": "ciel bleu",
+     "size": "m",
+     "on": "bleu"
+    },
+    {
+     "t": "text",
+     "text": "coucher orange",
+     "size": "l",
+     "color": "gold",
+     "on": "orange"
+    },
+    {
+     "t": "sketch",
+     "kind": "sunrise",
+     "on": "orange"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors que sur Mars le ciel est plutôt rougeâtre la journée, à cause de la poussière, et qu'une lueur bleue apparaît autour du Soleil quand il se couche."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Mars :",
+     "size": "m",
+     "on": "sur Mars"
+    },
+    {
+     "t": "text",
+     "text": "ciel rougeâtre",
+     "size": "m",
+     "color": "pink",
+     "on": "rougeâtre"
+    },
+    {
+     "t": "text",
+     "text": "coucher bleu !",
+     "size": "l",
+     "color": "pink",
+     "circle": true,
+     "on": "lueur bleue"
+    }
+   ]
+  },
+  {
+   "say": [
+    "C'est le robot Curiosity qui a pris cette photo en deux mille quinze, dans le cratère Gale,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "photo : Curiosity",
+     "size": "m"
+    },
+    {
+     "t": "text",
+     "text": "15 avril 2015",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille"
+    },
+    {
+     "t": "text",
+     "text": "cratère Gale",
+     "size": "s",
+     "color": "soft",
+     "on": "Gale"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et l'explication, c'est que la poussière martienne est si fine qu'elle laisse mieux passer la lumière bleue, qui reste concentrée tout près du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "poussière très fine",
+     "size": "m",
+     "on": "poussière"
+    },
+    {
+     "t": "text",
+     "text": "→ le bleu passe mieux",
+     "size": "l",
+     "color": "pink",
+     "on": "lumière bleue"
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "from": "Soleil",
+     "to": "Curiosity",
+     "on": "lumière"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et l'effet est encore plus fort au coucher, quand la lumière traverse le plus d'atmosphère."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "encore + fort au coucher",
+     "size": "l",
+     "color": "gold",
+     "on": "coucher"
+    },
+    {
+     "t": "sketch",
+     "kind": "horizon",
+     "on": "atmosphère"
+    },
+    {
+     "t": "text",
+     "text": "+ d'atmosphère traversée",
+     "size": "s",
+     "color": "soft",
+     "on": "traverse"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo."
+   ]
+  }
+ ],
+ "caption": "Sur Mars, les couchers de Soleil sont bleus 🔵\n\nC'est l'inverse de la Terre : sur la planète Mars, le ciel est plutôt rougeâtre en journée à cause de la poussière, mais au coucher, une lueur bleue apparaît autour du Soleil. Le rover Curiosity a photographié ce coucher de soleil le 15 avril 2015, dans le cratère Gale. L'explication : la poussière martienne est si fine qu'elle laisse mieux passer la lumière bleue, qui reste concentrée près du Soleil. L'effet est maximal au coucher, quand la lumière traverse le plus d'atmosphère. Un fait insolite d'astronomie et de science.\n\nTu préfères le coucher orange ou le bleu ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#espace",
+  "#coucherdesoleil",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/photojournal/sunset-in-mars-gale-crater",
+  "https://www.jpl.nasa.gov/news/nasas-curiosity-rover-views-serene-sundown-on-mars/"
  ]
 }

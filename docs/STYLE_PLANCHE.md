@@ -126,8 +126,8 @@ Objectif : aucune vidéo plus forte ou plus faible qu'une autre. **Ne jamais cha
 - Outils : `plan.js`, `camtest.js`, `render_frames.js <dossier> <début> <fin>` (lancer 3 processus en parallèle ; la variable `PAGE` choisit la page), `mix.sh`, `encode.sh`.
 - Chaîne complète : `tts.py` → `phrases.json` → CUES → `plan.js` + `camtest.js` → `music_loop.py` (orbite en boucle, durée END) → `mix.sh` → `render_frames.js` ×3 → `encode.sh` → vérifier 4 images + l'image finale.
 
-## 11. Reste à faire (automatisation)
-1. **Généraliser** : décrire les notes et les photos de chaque épisode dans `episode.json` (texte, croquis ou photo, annotations, mot déclencheur dans la voix), avec mise en page automatique en serpentin, contrôle anti-chevauchement et calcul automatique des CUES depuis `cs`.
-2. Brancher ce rendu dans `engine/build.sh` et le workflow « Rendu du reel », à la place de `engine.html`.
-3. Réécrire les 60 épisodes de `backlog/` dans le ton parlé avec l'effet « wow » et les photos, les faire valider, puis générer les voix en lot.
-4. Créer la tâche planifiée quotidienne (CLAUDE.md) une fois le stock prêt.
+## 11. Automatisation (en place depuis le 16/11)
+- Moteur générique : `engine/planche/planche.html` (mêmes primitives, couleurs, caméra et `plan()` que la référence), piloté par `episode.json` (format : `docs/FORMAT_PLANCHE.md`).
+  Mise en page automatique en serpentin (4 à 6 notes), calage de chaque élément sur un mot de la voix, contrôle anti-chevauchement, couverture = dernière image.
+- Chaîne : `engine/build.sh <épisode> [--mock|--stored-only]` ; workflow « Rendu du reel » (épisodes déplacés dans `episodes/`).
+- Test de non-régression : `tests/venus` (texte et voix de référence) → rendu identique à la référence, son −15,9 LUFS.

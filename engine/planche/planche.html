@@ -109,14 +109,15 @@ async function build(){
  noteSc.forEach((si,ni)=>{const sl=SLOT[(order||ORDER[6])[ni%6]];G='n'+(ni+1);const items=EP.scenes[si].note;const nrot=-4+((EP.num||1)*7+ni*5)%8;
    // instants : mot déclencheur, sinon à la suite de l'élément précédent
    let tprev=scS(si)+.05;items.forEach(it=>{it._t=cue(si,it.on,tprev);tprev=it._t+.6});
-   const lay=f=>{const rows=[];items.forEach((it,i)=>{let w,h;
+   const lay=(F0,pre)=>{const rows=[];items.forEach((it,i)=>{let w,h;const f=F0*(pre?1:(it._rf||1));
        if(it.t==='text'){const [sz,fo]=SIZE[it.size||'m'];it._sz=sz*f;it._f=fo;const txt=it.count?it.count.fmt.replace('{n}',fmtN(it.count.to,it.count.dec)):it.text;it._w=meas(txt,it._sz,fo);w=it._w+(it.circle?90:0);h=it._sz*1.05+(it.circle?50:0)+(it.under?28:0)}
        else if(it.t==='sketch'){const d=SK[it.kind];if(!d){ERR.push('croquis inconnu : '+it.kind);w=h=0}else{it._k=(it.scale||1)*f;w=d.w*it._k;h=d.h*it._k+(['compare','ray','ruler'].includes(it.kind)?60*it._k:0)}}
        else if(it.t==='photo'){it._k=f;w=480*f;h=430*f}
        else if(it.t==='round'){it._k=f;w=300*f;h=300*f}
        it._W=w;it._H=h;if(it.row==='same'&&rows.length)rows[rows.length-1].push(it);else rows.push([it])});
-     let y=0,mw=0;const IND=[0,50,15,70,30];rows.forEach((row,ri)=>{const rh=Math.max(...row.map(i=>i._H));let x=IND[ri%5]*f;row.forEach(it=>{it._x=x;it._y=y+(rh-it._H)/2;x+=it._W+30*f});mw=Math.max(mw,x-30*f);y+=rh+28*f});return [mw,y-28*f]};
-   const sw=sl[2]-sl[0],sh=sl[3]-sl[1];let [w,h]=lay(1);const f=Math.min(1,sw/w,sh/h);if(f<1)[w,h]=lay(f*.98);
+     if(pre){rows.forEach((row,ri)=>{const rw=row.reduce((a,i)=>a+i._W+30,-30)+[0,50,15,70,30][ri%5];row.forEach(i=>i._rf=Math.min(1,(sl[2]-sl[0])/rw))});return}
+     let y=0,mw=0;const IND=[0,50,15,70,30];rows.forEach((row,ri)=>{const rh=Math.max(...row.map(i=>i._H));let x=IND[ri%5]*F0;row.forEach(it=>{it._x=x;it._y=y+(rh-it._H)/2;x+=it._W+30*F0});mw=Math.max(mw,x-30*F0);y+=rh+28*F0});return [mw,y-28*F0]};
+   const sw=sl[2]-sl[0],sh=sl[3]-sl[1];lay(1,true);let [w,h]=lay(1);const f=Math.min(1,sw/w,sh/h);if(f<1)[w,h]=lay(f*.98);
    const x0=sl[0]+(sw-w)/2,y0=sl[1]+(sh-h)/2;
    if(EP.scenes[si].tape!==false)F(items[0]._t-.05,tape(x0+40,y0-70,nrot));
    const fill=items.find(i=>i.count);

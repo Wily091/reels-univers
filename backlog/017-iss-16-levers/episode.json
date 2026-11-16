@@ -1,19 +1,206 @@
 {
+ "format": "planche",
+ "valide": false,
  "date": null,
- "title": "16 levers de soleil par jour dans la Station spatiale",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Dans la Station spatiale internationale, les astronautes voient environ 16 levers et 16 couchers de soleil chaque jour 🌅🛰️\n\nLa station fait le tour de la Terre en environ 90 minutes, à près de 28 000 km/h.\n\nTu aimerais voir ça ? 👇",
- "hashtags": ["#iss", "#stationspatiale", "#astronaute", "#espace", "#univers", "#terre", "#science", "#lesaviezvous", "#nasa", "#thomaspesquet"],
- "sources": ["https://www.nasa.gov/image-article/first-hint-of-sunrise-from-space", "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"],
+ "num": 6,
+ "title": "16 levers de Soleil par jour dans la Station spatiale",
+ "subject": "L'ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "nasa_id": "iss066e081130",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "center": {
+  "photo": "iss",
+  "tagline": {
+   "text": "16 levers de Soleil / jour",
+   "on": "seize"
+  }
+ },
  "scenes": [
-  {"say": ["Toi, tu vois un lever de soleil par jour."], "ghost": "MATIN", "il": {"type": "horizon"}, "lines": [{"text": "TOI :", "at": [0, 0.05], "max": 200}, {"text": "[1 LEVER]", "at": [0, 0.4], "punch": true}, {"text": "DE SOLEIL PAR JOUR.", "at": [0, 0.75]}]},
-  {"say": ["Les astronautes de la Station spatiale internationale… en voient environ seize."], "ghost": "ISS", "kicker": "STATION SPATIALE INTERNATIONALE", "il": {"type": "orbit", "center": "TERRE", "speed": 2.5}, "lines": [{"text": "LES ASTRONAUTES :", "at": [0, 0.3]}, {"text": "[16 LEVERS]", "at": [0, 0.85], "punch": true, "count": {"from": 0, "to": 16, "fmt": "[{v} LEVERS]", "dur": 0.7}}]},
-  {"say": ["Seize levers.", "Et seize couchers."], "hit": true, "ghost": "16", "lines": [{"text": "16 LEVERS.", "at": 0, "punch": true}, {"text": "16 COUCHERS.", "at": [1, 0.1], "punch": true}]},
-  {"say": ["Parce que la station fait le tour complet de la Terre en environ quatre-vingt-dix minutes."], "ghost": "90 MIN", "kicker": "UNE ORBITE · ~90 MIN", "il": {"type": "clock", "forward": true}, "lines": [{"text": "UN TOUR DE LA TERRE :", "at": [0, 0.4]}, {"text": "[90 MINUTES]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Elle file à près de vingt-huit mille kilomètres heure."], "ghost": "VITESSE", "kicker": "VITESSE · ~28 000 KM/H", "il": {"type": "tunnel"}, "lines": [{"text": "SA VITESSE :", "at": [0, 0.15]}, {"text": "[28 000 KM/H]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 28000, "fmt": "[{v} KM/H]", "dur": 0.9}}]},
-  {"say": ["En une seule journée, elle parcourt l'équivalent d'un aller-retour jusqu'à la Lune."], "ghost": "LUNE", "il": {"type": "lightTravel", "from": "TERRE", "to": "LUNE"}, "lines": [{"text": "EN UN JOUR :", "at": [0, 0.15]}, {"text": "UN [ALLER-RETOUR]", "at": [0, 0.6], "punch": true}, {"text": "JUSQU'À LA LUNE.", "at": [0, 0.9]}]},
-  {"say": ["Et depuis novembre deux mille, il y a toujours eu des humains à bord."], "ghost": "2000", "kicker": "OCCUPÉE EN CONTINU DEPUIS 2000", "il": {"type": "rocket"}, "lines": [{"text": "DEPUIS [2000],", "at": [0, 0.3]}, {"text": "TOUJOURS", "at": [0, 0.6]}, {"text": "[DES HUMAINS À BORD.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que les astronautes de la Station spatiale voient environ seize levers de Soleil chaque jour ?"
+   ]
+  },
+  {
+   "say": [
+    "En fait, la Station fait le tour complet de la Terre en à peu près quatre-vingt-dix minutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 tour de la Terre",
+     "size": "m"
+    },
+    {
+     "t": "text",
+     "text": "= 90 min",
+     "size": "xl",
+     "color": "gold",
+     "count": {
+      "to": 90,
+      "fmt": "= {n} min"
+     },
+     "on": "quatre-vingt-dix"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tour complet"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup toutes les quarante-cinq minutes environ, ils passent du jour à la nuit, puis de la nuit au jour."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jour → nuit → jour",
+     "size": "l",
+     "on": "jour"
+    },
+    {
+     "t": "text",
+     "text": "toutes les 45 min !",
+     "size": "m",
+     "color": "pink",
+     "on": "quarante-cinq"
+    },
+    {
+     "t": "sketch",
+     "kind": "sunrise",
+     "on": "nuit"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Pour ça, elle file à près de vingt-huit mille kilomètres à l'heure, c'est à peu près trente fois plus vite qu'un avion de ligne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "28 000 km/h",
+     "size": "xl",
+     "color": "pink",
+     "count": {
+      "to": 28000,
+      "fmt": "{n} km/h"
+     },
+     "on": "vingt-huit mille"
+    },
+    {
+     "t": "text",
+     "text": "≈ 30 × un avion",
+     "size": "l",
+     "color": "gold",
+     "on": "trente fois"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "row": "same",
+     "on": "avion"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le plus fou, c'est qu'en une seule journée elle parcourt l'équivalent d'un aller-retour jusqu'à la Lune."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en 1 journée :",
+     "size": "m"
+    },
+    {
+     "t": "text",
+     "text": "Terre ⇄ Lune",
+     "size": "l",
+     "color": "gold",
+     "on": "aller-retour"
+    },
+    {
+     "t": "sketch",
+     "kind": "ruler",
+     "label": "aller-retour",
+     "on": "aller-retour"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "row": "same",
+     "scale": 0.6,
+     "on": "Lune"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Et depuis novembre deux mille, il y a toujours eu des humains à bord, sans aucune interruption."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "depuis novembre 2000",
+     "size": "l",
+     "color": "gold",
+     "on": "novembre"
+    },
+    {
+     "t": "text",
+     "text": "toujours des humains à bord",
+     "size": "m",
+     "color": "pink",
+     "under": true,
+     "on": "humains"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "interruption"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo."
+   ]
+  }
+ ],
+ "caption": "Les astronautes de la Station spatiale voient 16 levers de Soleil par jour 🌅\n\nLa Station spatiale internationale (ISS) fait le tour de la Terre en environ 90 minutes : toutes les 45 minutes, ses astronautes passent du jour à la nuit. Elle file à près de 28 000 km/h, environ 30 fois plus vite qu'un avion de ligne, et parcourt chaque jour l'équivalent d'un aller-retour Terre–Lune. Depuis novembre 2000, il y a toujours eu des humains à bord, sans interruption. Sur la photo, la Station vue depuis la capsule Crew Dragon. Le saviez-vous ? L'espace, c'est aussi notre quotidien en orbite.\n\nTu aimerais voir ça au moins une fois ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#espace",
+  "#astronaute",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+  "https://www.nasa.gov/image-article/first-hint-of-sunrise-from-space/",
+  "https://images.nasa.gov/details/iss066e081130"
  ]
 }

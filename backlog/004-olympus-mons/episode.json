@@ -1,19 +1,199 @@
 {
+ "format": "planche",
+ "valide": false,
  "date": null,
+ "num": 3,
  "title": "Olympus Mons, le plus grand volcan du système solaire",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Sur Mars se trouve un volcan environ trois fois plus haut que l'Everest 🌋\n\nOlympus Mons fait environ 21 km de haut et 600 km de large. Si tu étais à son pied, tu ne verrais même pas son sommet.\n\nTu le connaissais ? 👇",
- "hashtags": ["#mars", "#olympusmons", "#volcan", "#espace", "#univers", "#astronomie", "#planetes", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://apod.nasa.gov/apod/ap040526.html", "https://science.nasa.gov/mars/facts/"],
+ "subject": "Olympus Mons",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "olympus",
+   "file": "assets/images/olympus_mons_viking.jpg",
+   "nasa_id": "PIA02982",
+   "credit": "Olympus Mons vu par Viking 1 · NASA/JPL",
+   "page": "https://science.nasa.gov/photojournal/color-mosaic-of-olympus-mons/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "center": {
+  "photo": "olympus",
+  "annot": [
+   {
+    "text": "vraie photo !",
+    "color": "pink",
+    "under": true,
+    "pos": "tl"
+   }
+  ],
+  "tagline": {
+   "text": "un volcan sur Mars !",
+   "on": "Mars"
+  }
+ },
  "scenes": [
-  {"say": ["Le plus grand volcan du système solaire n'est pas sur Terre."], "ghost": "VOLCAN", "kicker": "MARS · THARSIS", "il": {"type": "planet", "label": "MARS"}, "lines": [{"text": "LE PLUS GRAND", "at": [0, 0.05]}, {"text": "VOLCAN", "at": [0, 0.25], "max": 260}, {"text": "N'EST PAS [SUR TERRE.]", "at": [0, 0.75], "punch": true}]},
-  {"say": ["Il est sur Mars.", "Et il s'appelle Olympus Mons."], "ghost": "OLYMPUS", "kicker": "OLYMPUS MONS", "il": {"type": "horizon"}, "lines": [{"text": "IL EST SUR [MARS.]", "at": 0}, {"text": "[OLYMPUS]", "at": [1, 0.45], "punch": true}, {"text": "[MONS.]", "at": [1, 0.7]}]},
-  {"say": ["Il culmine à environ vingt et un kilomètres au-dessus des plaines."], "ghost": "21 KM", "kicker": "HAUTEUR · ENVIRON 21 KM", "il": {"type": "thermo", "label": "21 KM", "level": 0.95}, "lines": [{"text": "SA HAUTEUR :", "at": [0, 0.2]}, {"text": "[21 KM]", "at": [0, 0.55], "punch": true, "count": {"from": 0, "to": 21, "fmt": "[{v} KM]", "dur": 0.8}}]},
-  {"say": ["C'est environ trois fois la hauteur de l'Everest."], "hit": true, "ghost": "EVEREST", "lines": [{"text": "TROIS FOIS", "at": [0, 0.15], "punch": true}, {"text": "L'EVEREST.", "at": [0, 0.7], "punch": true, "max": 380}]},
-  {"say": ["Et sa base mesure environ six cents kilomètres de large… presque la distance entre Paris et Toulouse."], "ghost": "600 KM", "kicker": "DIAMÈTRE · ENVIRON 600 KM", "il": {"type": "sizeCompare", "big": "OLYMPUS MONS", "small": "EVEREST", "ratio": 12}, "lines": [{"text": "SA BASE :", "at": [0, 0.15]}, {"text": "[600 KM]", "at": [0, 0.4], "punch": true, "count": {"from": 0, "to": 600, "fmt": "[{v} KM]", "dur": 0.8}}, {"text": "COMME PARIS–TOULOUSE.", "at": [0, 0.8], "max": 150}]},
-  {"say": ["Ses pentes sont si douces et si longues…", "que si tu étais à son pied, tu ne verrais même pas son sommet."], "ghost": "SOMMET", "il": {"type": "horizon"}, "lines": [{"text": "À SON PIED,", "at": [1, 0.05]}, {"text": "TU NE VERRAIS", "at": [1, 0.35]}, {"text": "[PAS LE SOMMET.]", "at": [1, 0.75], "punch": true}]},
-  {"say": ["Il se cacherait derrière l'horizon de Mars."], "ghost": "HORIZON", "il": {"type": "globe", "label": "COURBURE DE MARS"}, "lines": [{"text": "IL SE CACHE", "at": [0, 0.1]}, {"text": "DERRIÈRE", "at": [0, 0.35]}, {"text": "[L'HORIZON.]", "at": [0, 0.7], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que le plus grand volcan du système solaire n'est pas sur Terre, mais sur Mars ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Olympus Mons, et il s'élève à plus de vingt kilomètres au-dessus des plaines, c'est presque trois fois la hauteur de l'Everest,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 20 km",
+     "size": "xl",
+     "color": "gold",
+     "count": {
+      "to": 20,
+      "fmt": "+ de {n} km"
+     },
+     "on": "vingt kilomètres"
+    },
+    {
+     "t": "text",
+     "text": "de haut",
+     "size": "m",
+     "row": "same"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "big": "Olympus Mons",
+     "small": "Everest",
+     "on": "trois fois"
+    },
+    {
+     "t": "text",
+     "text": "≈ 3 × l'Everest",
+     "size": "l",
+     "color": "pink",
+     "on": "Everest"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sa base est tellement large, environ six cents kilomètres, qu'elle irait presque de Paris à Toulouse."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sa base :",
+     "size": "m"
+    },
+    {
+     "t": "text",
+     "text": "600 km",
+     "size": "xl",
+     "color": "gold",
+     "count": {
+      "to": 600,
+      "fmt": "{n} km"
+     },
+     "row": "same",
+     "on": "six cents"
+    },
+    {
+     "t": "sketch",
+     "kind": "ruler",
+     "label": "≈ Paris → Toulouse",
+     "on": "Paris"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Et le plus fou, c'est que ses pentes sont si douces et si longues que si tu étais à son pied, tu ne verrais même pas le sommet, caché derrière l'horizon de Mars."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pentes très douces",
+     "size": "m"
+    },
+    {
+     "t": "sketch",
+     "kind": "horizon",
+     "on": "pied"
+    },
+    {
+     "t": "text",
+     "text": "sommet invisible !",
+     "size": "l",
+     "color": "pink",
+     "circle": true,
+     "on": "sommet"
+    },
+    {
+     "t": "text",
+     "text": "caché derrière l'horizon",
+     "size": "s",
+     "color": "soft",
+     "on": "horizon"
+    }
+   ]
+  },
+  {
+   "say": [
+    "En fait, sur Mars il n'y a pas de plaques qui bougent comme chez nous, du coup la lave est sortie au même endroit pendant des millions d'années, et le volcan a pu grandir encore et encore."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas de plaques qui bougent",
+     "size": "m"
+    },
+    {
+     "t": "text",
+     "text": "→ la lave sort au même endroit",
+     "size": "s",
+     "color": "soft",
+     "on": "lave"
+    },
+    {
+     "t": "text",
+     "text": "pendant des millions d'années",
+     "size": "m",
+     "color": "gold",
+     "on": "millions"
+    },
+    {
+     "t": "text",
+     "text": "il grandit encore et encore",
+     "size": "l",
+     "color": "pink",
+     "under": true,
+     "on": "grandir"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo."
+   ]
+  }
+ ],
+ "caption": "Olympus Mons, le plus grand volcan du système solaire, est sur Mars 🌋\n\nCe volcan géant de la planète Mars s'élève à plus de 20 km au-dessus des plaines, presque trois fois la hauteur de l'Everest, et sa base mesure environ 600 km, quasiment la distance Paris–Toulouse. Ses pentes sont si douces qu'au pied du volcan, tu ne verrais même pas le sommet, caché derrière l'horizon. Pourquoi est-il si grand ? Sur Mars, la croûte ne bouge pas comme les plaques de la Terre : la lave est sortie au même endroit pendant des millions d'années. Un fait insolite d'astronomie et de science à partager.\n\nTu connaissais Olympus Mons ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#astronomie",
+  "#systemesolaire",
+  "#culturegenerale",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/facts/",
+  "https://science.nasa.gov/photojournal/color-mosaic-of-olympus-mons/",
+  "https://apod.nasa.gov/apod/ap040526.html"
  ]
 }

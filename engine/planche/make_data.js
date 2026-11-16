@@ -9,6 +9,7 @@ for(const im of EP.images||[]){
   const src=path.resolve(ROOT,im.file);if(!fs.existsSync(src)){console.error(`::error title=Photo manquante::${im.file} (lancer le workflow « Télécharger des images officielles »)`);process.exit(1)}
   const out=path.join(B,'img',im.id+'.jpg');const vf=[];
   if(im.crop){const [x,y,w,h]=im.crop;vf.push(`crop=iw*${w}:ih*${h}:iw*${x}:ih*${y}`)}
+  if(im.pad)vf.push("pad='max(iw,ih)':'max(iw,ih)':'(ow-iw)/2':'(oh-ih)/2':black");
   vf.push("scale='min(1000,iw)':-2");
   execFileSync('ffmpeg',['-v','error','-y','-i',src,'-vf',vf.join(','),'-q:v','3',out]);
   IMG[im.id]={src:'file://'+out,credit:im.credit};

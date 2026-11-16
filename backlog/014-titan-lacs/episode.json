@@ -1,20 +1,189 @@
 {
+ "format": "planche",
+ "valide": false,
  "date": null,
- "title": "Titan, le seul autre monde avec des lacs",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "À part la Terre, un seul endroit connu possède des liquides à sa surface : Titan, la plus grande lune de Saturne 🌊🪐\n\nSauf que là-bas, les lacs et les mers sont faits de méthane et d'éthane.\n\nTu le savais ? 👇",
- "hashtags": ["#titan", "#saturne", "#lune", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#dragonfly"],
- "sources": ["https://science.nasa.gov/saturn/moons/titan/"],
+ "num": 5,
+ "title": "Titan, l'autre monde avec des lacs et de la pluie",
+ "subject": "Titan",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "titan",
+   "file": "assets/images/titan_lacs_cassini.jpg",
+   "nasa_id": "PIA17655",
+   "credit": "Mers de Titan · radar Cassini (couleurs simulées) · NASA/JPL-Caltech/ASI/USGS",
+   "page": "https://science.nasa.gov/photojournal/titans-north/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.05,
+    0.3,
+    0.65,
+    0.65
+   ]
+  }
+ ],
+ "center": {
+  "photo": "titan",
+  "annot": [
+   {
+    "text": "des mers !",
+    "color": "pink",
+    "under": true,
+    "pos": "tl"
+   }
+  ],
+  "tagline": {
+   "text": "des lacs ailleurs ?!",
+   "on": "lacs"
+  }
+ },
  "scenes": [
-  {"say": ["Il existe un seul autre monde connu avec des lacs, des rivières et de la pluie."], "ghost": "TITAN", "kicker": "LUNE DE SATURNE", "il": {"type": "globe", "label": "TITAN"}, "lines": [{"text": "UN SEUL", "at": [0, 0.15]}, {"text": "AUTRE MONDE", "at": [0, 0.3]}, {"text": "AVEC [DES LACS.]", "at": [0, 0.6], "punch": true}]},
-  {"say": ["C'est Titan, la plus grande lune de Saturne."], "hit": true, "ghost": "TITAN", "lines": [{"text": "TITAN.", "at": [0, 0.1], "punch": true, "max": 440}, {"text": "LUNE DE SATURNE.", "at": [0, 0.6]}]},
-  {"say": ["C'est le seul endroit, à part la Terre, où l'on connaît des liquides à la surface."], "ghost": "LIQUIDES", "il": {"type": "waves", "label": "LIQUIDES DE SURFACE"}, "lines": [{"text": "LE SEUL ENDROIT", "at": [0, 0.15]}, {"text": "À PART [LA TERRE.]", "at": [0, 0.45], "punch": true}]},
-  {"say": ["Mais ces lacs ne sont pas remplis d'eau."], "ghost": "?", "il": {"type": "question"}, "lines": [{"text": "MAIS PAS", "at": [0, 0.4]}, {"text": "[D'EAU.]", "at": [0, 0.8], "punch": true, "max": 300}]},
-  {"say": ["Ce sont des lacs et des mers de méthane et d'éthane liquides."], "ghost": "MÉTHANE", "kicker": "HYDROCARBURES LIQUIDES", "il": {"type": "thermo", "label": "MÉTHANE · ÉTHANE", "level": 0.15}, "lines": [{"text": "DU [MÉTHANE]", "at": [0, 0.5], "punch": true}, {"text": "ET DE L'[ÉTHANE.]", "at": [0, 0.8]}]},
-  {"say": ["Là-bas, il pleut… du méthane."], "hit": true, "ghost": "PLUIE", "lines": [{"text": "IL PLEUT", "at": [0, 0.1]}, {"text": "DU MÉTHANE.", "at": [0, 0.6], "punch": true, "max": 380}]},
-  {"say": ["Et c'est la seule lune du système solaire avec une atmosphère épaisse."], "ghost": "ATMOSPHÈRE", "kicker": "ATMOSPHÈRE ÉPAISSE", "il": {"type": "planet", "label": "TITAN"}, "lines": [{"text": "LA SEULE LUNE", "at": [0, 0.15]}, {"text": "AVEC UNE", "at": [0, 0.5]}, {"text": "[VRAIE ATMOSPHÈRE.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["La NASA prévoit d'y envoyer un drone, Dragonfly, avec un lancement prévu en deux mille vingt-huit."], "ghost": "DRAGONFLY", "kicker": "NASA · DRAGONFLY · LANCEMENT 2028", "il": {"type": "rocket"}, "lines": [{"text": "UN DRONE :", "at": [0, 0.3]}, {"text": "[DRAGONFLY]", "at": [0, 0.55], "punch": true}, {"text": "LANCEMENT EN 2028.", "at": [0, 0.9]}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'il existe un autre monde que la Terre avec des lacs, des mers, et même de la pluie ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Titan, c'est la plus grosse lune de Saturne, et elle est même plus grande que la planète Mercure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Titan = une lune",
+     "size": "m"
+    },
+    {
+     "t": "text",
+     "text": "+ grande que Mercure !",
+     "size": "l",
+     "color": "pink",
+     "on": "Mercure"
+    },
+    {
+     "t": "sketch",
+     "kind": "compare",
+     "big": "Titan",
+     "small": "Mercure",
+     "ratio": 1.06,
+     "on": "plus grande"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est le seul endroit connu, à part chez nous, où des liquides coulent à sa surface,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des liquides en surface",
+     "size": "m",
+     "on": "liquides"
+    },
+    {
+     "t": "text",
+     "text": "le seul autre monde !",
+     "size": "l",
+     "color": "gold",
+     "circle": true,
+     "on": "seul"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "coulent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sauf que là-bas ce n'est pas de l'eau, mais du méthane et de l'éthane liquides, parce qu'il fait environ moins cent quatre-vingts degrés."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas de l'eau !",
+     "size": "m",
+     "color": "pink",
+     "on": "pas de l'eau"
+    },
+    {
+     "t": "text",
+     "text": "méthane + éthane",
+     "size": "l",
+     "color": "gold",
+     "on": "méthane"
+    },
+    {
+     "t": "text",
+     "text": "− 180 °C",
+     "size": "xl",
+     "count": {
+      "to": 180,
+      "fmt": "− {n} °C"
+     },
+     "on": "cent quatre-vingts"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Et le plus fou, c'est qu'il y pleut du méthane, et que la NASA va y envoyer un drone, Dragonfly, avec un départ prévu en deux mille vingt-huit."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il pleut du méthane",
+     "size": "m",
+     "on": "pleut"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "row": "same",
+     "on": "pleut"
+    },
+    {
+     "t": "text",
+     "text": "Dragonfly",
+     "size": "l",
+     "color": "gold",
+     "on": "Dragonfly"
+    },
+    {
+     "t": "text",
+     "text": "départ : 2028",
+     "size": "m",
+     "color": "pink",
+     "row": "same",
+     "on": "deux mille"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo."
+   ]
+  }
+ ],
+ "caption": "Titan, la lune de Saturne où il pleut du méthane 🌧️\n\nTitan est le seul autre monde connu avec des liquides à sa surface : des lacs, des mers et même de la pluie. Mais pas d'eau ! Avec environ −180 °C, ce sont du méthane et de l'éthane liquides. Cette lune géante de Saturne est même plus grande que la planète Mercure. Sur l'image radar de la sonde Cassini (couleurs simulées), les taches sombres sont ses mers. La NASA prévoit d'y envoyer un drone, Dragonfly, avec un départ prévu en 2028. Un monde fascinant pour l'astronomie et la science.\n\nTu irais faire un tour sur Titan ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#titan",
+  "#astronomie",
+  "#espace",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/moons/titan/",
+  "https://science.nasa.gov/photojournal/titans-north/",
+  "https://science.nasa.gov/mission/dragonfly/"
  ]
 }
