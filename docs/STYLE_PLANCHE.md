@@ -98,6 +98,19 @@
 - L'ancien générateur `engine/music.py` (pulsation façon kick) et les autres ambiances (nuage, apesanteur, nébuleuse, aurore) ne sont **plus utilisés**.
 - **Pas de bruitages.**
 
+## 8 bis. Niveaux sonores FIXES (mesurés sur la vidéo de référence, 16/11) — identiques dans toutes les vidéos
+Objectif : aucune vidéo plus forte ou plus faible qu'une autre. **Ne jamais changer ces réglages** ; toujours mixer avec `engine/planche/mix.sh` (ne pas mixer à la main).
+
+| Élément | Réglage dans mix.sh | Mesure de référence |
+|---|---|---|
+| Voix (seule) | passe-haut 70 Hz, loudnorm **I = −16 LUFS**, crête −2 dBTP, LRA 7 | ≈ −16,8 LUFS |
+| Musique « orbite » | loudnorm **I = −32 LUFS**, crête −9 dBTP, LRA 11, puis sidechain sous la voix (seuil 0,04, ratio 2,5, attaque 40 ms, relâche 600 ms) | ≈ −31 LUFS sans voix ; **≈ −39 LUFS sous la voix (≈ 23 dB sous la voix)** |
+| Bruitages / effets | **aucun** | — |
+| Mix final | voix + musique sans normalisation (amix normalize=0), fondu final 1,2 s, limiteur 0,89 | **−15,9 LUFS intégré, crête −3,8 dBTP, dynamique 2,5 LU** |
+| Encodage | AAC 192 kb/s, 48 kHz, stéréo | — |
+
+- **Contrôle obligatoire avant chaque publication** : `engine/planche/check_audio.sh reel.mp4` → doit afficher **OK** (volume entre −17 et −15 LUFS, crête ≤ −1,0 dBTP). Sinon : ne pas publier, refaire le mixage.
+
 ## 9. Export
 - 1080 × 1920, 30 images/s, H.264 high, `-preset slow -crf 18 -maxrate 10M -bufsize 20M`, yuv420p, AAC 192k, faststart (`engine/planche/encode.sh images/ mix.wav sortie.mp4`). Environ 17 Mo pour 38 s.
 - Couverture = dernière image (planche complète).

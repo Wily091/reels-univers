@@ -7,6 +7,7 @@ Instagram indiqué dans `config.json` (via la marque Metricool indiquée).
 > L'ancien rendu (`engine/engine.html`) et les textes actuels de `backlog/` sont dans l'ancien style : ne pas les publier tels quels.
 > Tant que le nouveau rendu n'est pas automatisé et le stock réécrit, la tâche quotidienne ne doit rien publier.
 > **Musique : TOUJOURS et UNIQUEMENT « orbite » (`assets/music/orbite.wav`), répétée en boucle jusqu'à la fin du reel (`engine/planche/music_loop.py`), très basse sous la voix (`engine/planche/mix.sh`).**
+> **Son : niveaux fixes identiques pour toutes les vidéos (voix −16 LUFS, musique −32 LUFS + sidechain, mix final ≈ −16 LUFS, aucun bruitage) — voir `docs/STYLE_PLANCHE.md` § 8 bis. Avant chaque publication, `engine/planche/check_audio.sh reel.mp4` doit afficher OK, sinon ne rien publier.**
 
 Fonctionnement :
 - `backlog/NNN-slug/` = **stock d'épisodes écrits d'avance**. Chacun a `episode.json` et, une fois générée, sa voix dans `voice/`
