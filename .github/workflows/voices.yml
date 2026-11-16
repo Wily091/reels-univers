@@ -1,11 +1,13 @@
 name: Générer les voix du stock
 
-# Déclenché en modifiant backlog/GENERER_VOIX.txt : génère (ElevenLabs) la voix de chaque épisode du stock
-# qui n'en a pas encore, puis l'enregistre dans le dépôt (backlog/<episode>/voice/). Aucun rendu vidéo ici.
+# Déclenché en modifiant backlog/GENERER_VOIX.txt : génère (ElevenLabs, voix Koraly Storyteller) la voix de chaque épisode
+# du stock au format « planche » VALIDÉ par William ("valide": true) qui n'en a pas encore, puis l'enregistre dans
+# backlog/<episode>/voice/. Chaque épisode passe d'abord le contrôle gratuit (texte + mise en page) : en cas d'erreur, aucun crédit n'est dépensé.
 on:
   push:
     branches: [main]
     paths: ['backlog/GENERER_VOIX.txt']
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,16 +22,29 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Outils
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-package-lock --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          pip install --quiet numpy
       - name: Générer les voix manquantes
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: |
+          [ -n "$ELEVENLABS_API_KEY" ] || { echo "::error::Secret ELEVENLABS_API_KEY manquant"; exit 1; }
           git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
-          ok=0; fail=0
+          ok=0; fail=0; skip=0
           for d in backlog/*/; do
-            [ -f "$d/episode.json" ] || continue
+            d=${d%/}; [ -f "$d/episode.json" ] || continue
+            python3 -c "import json,sys;e=json.load(open('$d/episode.json'));sys.exit(0 if e.get('format')=='planche' and e.get('valide') is True else 1)" || { skip=$((skip+1)); continue; }
+            [ -f "$d/voice/voice.mp3" ] && [ -f "$d/voice/alignment.json" ] && python3 engine/tts.py "$d" --stored-only >/dev/null 2>&1 && continue
+            if ! bash engine/build.sh "$d" --mock >/dev/null 2>&1; then
+              echo "::warning title=Contrôle gratuit en échec (aucune voix générée)::$d"; fail=$((fail+1)); continue
+            fi
             if python3 engine/tts.py "$d" --voice-only; then
               ok=$((ok+1))
               git add "$d/voice" && git commit -qm "Voix : $d" || true
@@ -40,5 +55,5 @@ jobs:
             fi
           done
           git pull -q --rebase && git push -q || true
-          echo "::notice title=Bilan voix::$ok épisode(s) avec voix, $fail échec(s)"
+          echo "::notice title=Bilan voix::$ok nouvelle(s) voix, $fail échec(s), $skip épisode(s) non validé(s) ignoré(s)"
           [ $fail -eq 0 ]

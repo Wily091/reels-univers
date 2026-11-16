@@ -1,0 +1,62 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 1,
+ "title": "Sur Vénus, un jour dure plus longtemps qu'une année (test du rendu générique)",
+ "subject": "Vénus",
+ "voice": {"id": "TojRWZatQyy9dujEdiQ1", "model": "eleven_multilingual_v2", "tempo": 1.1, "api_speed": 1.1},
+ "images": [
+  {"id": "venus", "file": "assets/images/venus_mariner10.jpg", "crop": [0, 0, 0.4884, 1], "nasa_id": "PIA23791", "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech", "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/", "license": "Domaine public (NASA)"},
+  {"id": "maat", "file": "assets/images/venus_maat_mons.jpg", "nasa_id": "PIA00254", "credit": "Vénus · radar Magellan (relief ×10) · NASA/JPL", "page": "https://science.nasa.gov/photojournal/venus-3-d-perspective-view-of-maat-mons-2/", "license": "Domaine public (NASA)"}
+ ],
+ "center": {"photo": "venus", "tagline": {"text": "1 jour > 1 année ?!", "on": "année"}},
+ "scenes": [
+  {"say": ["Tu savais que sur Vénus, une journée dure plus longtemps qu'une année entière ?"]},
+  {"say": ["En fait, Vénus tourne sur elle-même tellement lentement qu'il lui faut deux cent quarante-trois jours terrestres pour faire un seul tour,"],
+   "note": [
+    {"t": "text", "text": "1 jour sur Vénus", "size": "l"},
+    {"t": "text", "text": "= 243 jours", "size": "xl", "color": "pink", "circle": true, "on": "deux cent quarante"},
+    {"t": "sketch", "kind": "clock", "on": "lentement"},
+    {"t": "text", "text": "… extrêmement lentement", "size": "s", "color": "soft", "row": "same", "on": "lentement"}
+   ]},
+  {"say": ["alors que pour faire le tour du Soleil, il ne lui en faut que deux cent vingt-cinq,"],
+   "note": [
+    {"t": "text", "text": "1 année", "size": "l"},
+    {"t": "text", "text": "= 225 j", "size": "xl", "color": "gold", "on": "deux cent vingt"},
+    {"t": "sketch", "kind": "orbit", "on": "tour du Soleil"},
+    {"t": "text", "text": "le tour du Soleil", "size": "s", "color": "soft"}
+   ]},
+  {"say": ["donc son jour est plus long que son année."]},
+  {"say": ["Et le plus fou, c'est qu'elle tourne dans le sens inverse de la Terre,"],
+   "note": [
+    {"t": "text", "text": "elle tourne", "size": "m"},
+    {"t": "text", "text": "à l'envers", "size": "l", "color": "pink", "on": "inverse"},
+    {"t": "round", "img": "venus", "flip": true, "on": "inverse"}
+   ]},
+  {"say": ["du coup là-bas le Soleil se lève à l'ouest et se couche à l'est."],
+   "note": [
+    {"t": "text", "text": "Le Soleil se lève", "size": "m"},
+    {"t": "sketch", "kind": "sunrise", "on": "lève"},
+    {"t": "text", "text": "à l'ouest", "size": "l", "color": "pink", "row": "same", "on": "ouest"}
+   ]},
+  {"say": ["Et côté chaleur, il fait plus de quatre cent soixante degrés à sa surface,"],
+   "note": [
+    {"t": "text", "text": "+ de 460 °C", "size": "l", "color": "gold", "count": {"to": 460, "fmt": "+ de {n} °C"}, "on": "quatre cent"},
+    {"t": "sketch", "kind": "thermo", "row": "same", "scale": 0.7},
+    {"t": "text", "text": "en surface", "size": "s"},
+    {"t": "photo", "img": "maat", "on": "surface", "annot": [{"text": "sol à 460 °C", "pos": "bl", "color": "white"}]}
+   ]},
+  {"say": ["c'est même plus chaud que sur Mercure alors que Mercure est plus proche du Soleil,"]},
+  {"say": ["tout ça à cause de son atmosphère tellement épaisse qu'elle garde toute la chaleur prisonnière."],
+   "note": [
+    {"t": "text", "text": "la faute à son", "size": "m"},
+    {"t": "text", "text": "atmosphère", "size": "l", "color": "gold", "on": "atmosphère"},
+    {"t": "sketch", "kind": "clouds", "row": "same", "on": "épaisse"},
+    {"t": "text", "text": "→ elle piège la chaleur", "size": "m", "color": "pink", "on": "chaleur"}
+   ]},
+  {"fin": true, "say": ["Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo."]}
+ ],
+ "caption": "x",
+ "hashtags": ["#venus", "#astronomie", "#espace", "#lesaviezvous", "#universenbref"],
+ "sources": ["https://science.nasa.gov/venus/venus-facts/"]
+}

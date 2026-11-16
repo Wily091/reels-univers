@@ -1,5 +1,8 @@
 name: Rendu du reel
 
+# DA « planche de notes » (docs/STYLE_PLANCHE.md). Déclenché quand un épisode arrive dans episodes/<nom>/
+# (la tâche quotidienne y déplace 2 épisodes du stock : <date>-12h et <date>-19h). Chaque épisode modifié est rendu,
+# puis publié en release « ep-<nom> » (reel.mp4, cover.jpg, meta.json). Voix STOCKÉE uniquement : aucun crédit ElevenLabs.
 on:
   push:
     branches: [main]
@@ -7,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       episode:
-        description: "Dossier de l'épisode (ex. episodes/2026-10-30)"
+        description: "Dossier de l'épisode (ex. episodes/2026-11-17-12h)"
         required: true
 
 permissions:
@@ -20,30 +23,23 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
-      - name: Trouver l'épisode
+      - name: Trouver les épisodes
         id: ep
         run: |
           if [ -n "${{ github.event.inputs.episode }}" ]; then
-            EP="${{ github.event.inputs.episode }}"
+            EPS="${{ github.event.inputs.episode }}"
           else
-            EP=$(git diff --name-only HEAD~1 HEAD | grep -E '^episodes/[^/]+/episode\.json$' | tail -1 | xargs dirname)
+            EPS=$(git diff --name-only --diff-filter=AMR HEAD~1 HEAD | grep -E '^episodes/[^/]+/episode\.json$' | xargs -r -n1 dirname | sort -u | tr '\n' ' ')
           fi
-          [ -n "$EP" ] || { echo "Aucun épisode modifié"; exit 1; }
-          echo "dir=$EP" >> "$GITHUB_OUTPUT"
-          echo "date=$(basename "$EP")" >> "$GITHUB_OUTPUT"
-          echo "Épisode : $EP"
-
-      - name: Vérifier la clé ElevenLabs
-        env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: |
-          [ -n "$ELEVENLABS_API_KEY" ] || { echo "::error::Secret ELEVENLABS_API_KEY manquant (Settings → Secrets and variables → Actions)"; exit 1; }
+          [ -n "$EPS" ] || { echo "Aucun épisode modifié"; exit 1; }
+          echo "list=$EPS" >> "$GITHUB_OUTPUT"
+          echo "Épisodes : $EPS"
 
       - uses: actions/setup-node@v4
         with:
@@ -54,22 +50,20 @@ jobs:
           npm install --no-package-lock --no-audit --no-fund
           npx playwright install --with-deps chromium
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install --quiet numpy scipy
+          pip install --quiet numpy
 
-      - name: Voix, rendu et mixage
-        env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: bash engine/build.sh "${{ steps.ep.outputs.dir }}"
-
-      - name: Publier la vidéo (release publique)
+      - name: Rendu, mixage, contrôle du son et publication
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          TAG="ep-${{ steps.ep.outputs.date }}"
-          B="${{ steps.ep.outputs.dir }}/build"
-          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
-          EXTRA=""; for f in voice/voice.mp3 voice/alignment.json; do [ -f "${{ steps.ep.outputs.dir }}/$f" ] && EXTRA="$EXTRA ${{ steps.ep.outputs.dir }}/$f"; done
-          gh release create "$TAG" "$B/reel.mp4" "$B/cover.jpg" "$B/meta.json" $EXTRA \
-            --title "Épisode ${{ steps.ep.outputs.date }}" \
-            --notes "$(python3 -c "import json;print(json.load(open('${{ steps.ep.outputs.dir }}/episode.json'))['title'])")"
-          echo "Vidéo : https://github.com/${{ github.repository }}/releases/download/$TAG/reel.mp4"
+          for EP in ${{ steps.ep.outputs.list }}; do
+            echo "::group::$EP"
+            bash engine/build.sh "$EP" --stored-only
+            NAME=$(basename "$EP"); TAG="ep-$NAME"; B="$EP/build"
+            gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+            gh release create "$TAG" "$B/reel.mp4" "$B/cover.jpg" "$B/meta.json" \
+              --title "Épisode $NAME" \
+              --notes "$(python3 -c "import json;print(json.load(open('$EP/episode.json'))['title'])")"
+            echo "Vidéo : https://github.com/${{ github.repository }}/releases/download/$TAG/reel.mp4"
+            echo "::endgroup::"
+          done
