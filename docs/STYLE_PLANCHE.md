@@ -90,8 +90,12 @@
 - Dans `episode.json`, une phrase par élément `say` (sert au calage des notes). La voix est générée d'un seul trait (texte joint).
 - **Toujours faire valider le texte par William avant de générer la voix** (≈ 900 crédits par épisode).
 
-## 8. Son
-- Voix normalisée seule (highpass 70 Hz, loudnorm −16 LUFS), musique `engine/music.py` à 0,22 avec sidechain sous la voix, fondu final 1,2 s, limiteur 0,89. Résultat ≈ −16 LUFS. Script : `engine/planche/mix.sh voix.wav musique.wav END sortie.wav`.
+## 8. Son et musique (validé 16/11)
+- **Musique de fond d'ambiance « cloud / univers / apesanteur »**, **sans kick, sans clap, sans aucune percussion** : nappes d'accords qui se fondent lentement, basse très douce, petites notes cristallines, souffle d'air, grande réverbération.
+- **100 % libre de droits** : la musique est **composée par notre propre générateur** `engine/planche/ambient.py <durée> <sortie.wav> <style>` (aucun morceau tiers).
+- 5 styles : 0 nuage, 1 apesanteur, 2 orbite, 3 nébuleuse, 4 aurore. **Varier d'une vidéo à l'autre** (on peut en réutiliser) : passer le slug de l'épisode comme style, il est choisi par hachage. Vénus = « nuage ».
+- Niveau : **vraiment basse mais qu'on la distingue** → musique normalisée à **−32 LUFS** puis légèrement abaissée sous la voix (sidechain doux ratio 2,5) ; voix normalisée seule à −16 LUFS (highpass 70 Hz) ; fondu final 1,2 s ; limiteur 0,89. Résultat ≈ −16 LUFS. Script : `engine/planche/mix.sh voix.wav musique.wav END sortie.wav`.
+- L'ancien générateur `engine/music.py` (pulsation façon kick) n'est **plus utilisé**.
 - **Pas de bruitages.**
 
 ## 9. Export
@@ -107,7 +111,7 @@
 - `venus_cues.js` : CUES (instants des mots clés dans la voix, END = fin de la dernière phrase + 0,7 s) et SHOTS des notes (0,95). Calage : le texte étant identique, l'instant d'un mot se retrouve par son index de caractère dans `phrases.json → cs`.
 - `img/` : photos recadrées (`venus.jpg` = moitié gauche de PIA23791 en couleurs naturelles, `maat_mons.jpg` = PIA00254). `venus_ref/` : voix Storyteller de référence + `phrases.json`.
 - Outils : `plan.js`, `camtest.js`, `render_frames.js <dossier> <début> <fin>` (lancer 3 processus en parallèle ; la variable `PAGE` choisit la page), `mix.sh`, `encode.sh`.
-- Chaîne complète : `tts.py` → `phrases.json` → CUES → `plan.js` + `camtest.js` → `music.py` (durée END) → `mix.sh` → `render_frames.js` ×3 → `encode.sh` → vérifier 4 images + l'image finale.
+- Chaîne complète : `tts.py` → `phrases.json` → CUES → `plan.js` + `camtest.js` → `ambient.py` (durée END, style) → `mix.sh` → `render_frames.js` ×3 → `encode.sh` → vérifier 4 images + l'image finale.
 
 ## 11. Reste à faire (automatisation)
 1. **Généraliser** : décrire les notes et les photos de chaque épisode dans `episode.json` (texte, croquis ou photo, annotations, mot déclencheur dans la voix), avec mise en page automatique en serpentin, contrôle anti-chevauchement et calcul automatique des CUES depuis `cs`.
