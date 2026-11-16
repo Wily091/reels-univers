@@ -6,7 +6,7 @@ Le prototype exact qui l'a produite est dans `engine/planche/` (voir plus bas).
 
 ## Concept
 - Une **grande planche de notes de scientifique** (2160 × 3840 px, 2 × l'écran), vue à travers un cadrage 1080 × 1920.
-- **Début** : planche entière vue de loin, presque vide ; le thème (« Vénus ») s'écrit au centre avec son croquis.
+- **Début** (validé 16/11) : la vidéo démarre **directement en plan rapproché** (échelle ≈ 1,1) sur la photo officielle du thème, déjà affichée à la 1re image ; le titre s'écrit, puis **un seul dézoom doux** (≈ 1,9 s, de 0,6 s à 2,5 s) sur toute la planche. Sans photo : même chose sur le croquis central.
 - **Ensuite** : la caméra va sur une zone, la note correspondante **s'écrit toute seule** (sans main visible) au rythme de la voix, puis la caméra glisse vers la note suivante.
 - **Fin** : un seul dézoom sur la planche remplie, « Si ça t'a plu, abonne-toi ✶ » et « … et partage-la » s'écrivent en bas.
 - **Notes éparpillées** autour du thème (pas de carte mentale avec flèches), sur un **parcours en serpentin** (haut gauche → haut droite → milieu droite → bas droite → milieu gauche → bas gauche → fin) pour que les glissements restent courts. Aucune note ne doit en chevaucher une autre (vérifier l'image finale).
