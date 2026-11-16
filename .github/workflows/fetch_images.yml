@@ -22,20 +22,21 @@ jobs:
           bad = []
           for im in json.load(open('tools/IMAGES.json'))['images']:
               f, i = im['file'], im.get('id')
-              if os.path.exists(f) and os.path.getsize(f) > 20000:
+              if os.path.exists(f) and os.path.getsize(f) > 20000 and open(f, 'rb').read(3) in (b'\xff\xd8\xff', b'\x89PN'):
                   continue
               os.makedirs(os.path.dirname(f), exist_ok=True)
               urls = list(im.get('urls') or [])
               if i and i.startswith('PIA'):
-                  urls += [f"https://photojournal.jpl.nasa.gov/jpeg/{i}.jpg",
-                           f"https://images-assets.nasa.gov/image/{i}/{i}~orig.jpg",
-                           f"https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia{i[3:6]}xx/pia{i[3:]}/{i}.jpg"]
+                  urls += [f"https://images-assets.nasa.gov/image/{i}/{i}~orig.jpg",
+                           f"https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia{i[3:6]}xx/pia{i[3:]}/{i}.jpg",
+                           f"https://images-assets.nasa.gov/image/{i}/{i}~large.jpg",
+                           f"https://photojournal.jpl.nasa.gov/jpeg/{i}.jpg"]
               elif i:
                   urls += [f"https://images-assets.nasa.gov/image/{i}/{i}~orig.jpg", f"https://images-assets.nasa.gov/image/{i}/{i}~large.jpg"]
               ok = False
               for u in urls:
                   r = subprocess.run(['curl', '-sSLf', '-m', '180', '-A', 'Mozilla/5.0', '-o', f, u])
-                  if r.returncode == 0 and os.path.getsize(f) > 20000:
+                  if r.returncode == 0 and os.path.getsize(f) > 20000 and open(f, 'rb').read(3) in (b'\xff\xd8\xff', b'\x89PN'):
                       print('OK', f, u, os.path.getsize(f)); ok = True; break
                   print('échec', u)
               if not ok:
