@@ -20,6 +20,23 @@ Le prototype exact qui l'a produite est dans `engine/planche/` (voir plus bas).
 - Croquis au trait légèrement tremblé : planète hachurée, horloge, orbite, thermomètre qui se remplit, lever de Soleil, flèche de rotation, nuages ; mots entourés/soulignés à la main ; bouts de scotch.
 - Chiffres à l'écran en chiffres (243, 225 j, + de 460 °C) ; dans la voix, en lettres.
 
+## Photos officielles (demandé par William le 16/11/2026)
+- Quand ça illustre mieux le propos **et** qu'une vraie image existe, ajouter **une ou deux photos officielles** (NASA en priorité, sinon ESA, ESO, JAXA…) : vraie surface, vraie planète, image de télescope (Hubble, James Webb, sondes).
+- Intégration dans la DA : la photo est **scotchée sur la planche comme un tirage photo** (bord crème, léger angle, bout de scotch), elle apparaît quand la voix en parle (fondu « qui se développe »), dans le même cadrage que sa note. Jamais en plein écran, jamais à la place des notes.
+- Petite légende manuscrite + **crédit obligatoire** en petit sous la photo (ex. « NASA/JPL-Caltech », « ESA/Webb »).
+- Ne jamais mettre de logo NASA/ESA ni laisser croire que la chaîne est liée à la NASA. NASA : images en général libres de droits (vérifier la page de l'image, certaines appartiennent à des tiers). ESA : souvent CC BY-SA 3.0 IGO (crédit exact obligatoire).
+- Source et URL de chaque image dans `episode.json` (`images` : fichier, crédit, URL, licence). Images téléchargées par le workflow GitHub (le bac à sable ne peut pas les récupérer).
+- Pas d'image inventée/générée présentée comme réelle. Si aucune vraie image ne convient : seulement les croquis.
+
+## Effet « wow » (pour tout le monde, même sans connaître l'espace)
+- **Accroche** : la 1re phrase est le fait le plus fou, posé comme une question simple (« Tu savais que… ? »).
+- **Comparaisons du quotidien** pour rendre les chiffres sensibles : taille, distance, chaleur, durée ramenées à des choses connues (four, avion, terrain de foot, vie humaine…).
+- **Au moins un retournement** par épisode (« et le plus fou… », « alors que… ») qui contredit ce qu'on croirait.
+- **Révélation visuelle** : le croquis s'écrit d'abord, puis la vraie photo officielle apparaît à côté (« voilà à quoi ça ressemble vraiment »).
+- Les chiffres clés peuvent **défiler en comptant** jusqu'à leur valeur (ex. 0 → 460 °C) pendant que la voix les dit.
+- Pas de jargon ; si un mot technique est inévitable, l'expliquer en une demi-phrase.
+- Le style (fond noir, caméra, voix, rythme sans silences) ne change pas : le « wow » vient du contenu, des photos et des révélations, pas d'effets tape-à-l'œil.
+
 ## Caméra (règles validées — ne pas revenir en arrière)
 1. **Un seul dézoom au début, un seul à la fin.** Entre les notes : **aucun zoom/dézoom** (mal de tête). Échelle fixe 0,95, la caméra **glisse**.
 2. Glissement en ligne droite, courbe sinus (départ/arrivée doux), durée 1,3 à 2,2 s selon la distance (distance/750 px).
