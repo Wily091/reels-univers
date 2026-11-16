@@ -23,6 +23,8 @@ Le prototype exact qui l'a produite est dans `engine/planche/` (voir plus bas).
 ## Photos officielles (demandé par William le 16/11/2026)
 - Quand ça illustre mieux le propos **et** qu'une vraie image existe, ajouter **une ou deux photos officielles** (NASA en priorité, sinon ESA, ESO, JAXA…) : vraie surface, vraie planète, image de télescope (Hubble, James Webb, sondes).
 - Intégration dans la DA : la photo est **scotchée sur la planche comme un tirage photo** (bord crème, léger angle, bout de scotch), elle apparaît quand la voix en parle (fondu « qui se développe »), dans le même cadrage que sa note. Jamais en plein écran, jamais à la place des notes.
+- **Une photo ne remplace jamais les explications** : il y a toujours des petites notes manuscrites à côté, quoi qu'il arrive.
+- Quand il y a une photo, **pas de croquis du même objet** : soit on écrit directement les explications à côté, soit on **dessine/annote sur la photo** au trait manuscrit (flèche, cercle autour d'un détail, mot écrit dessus), qui s'écrit au rythme de la voix comme les autres notes.
 - Petite légende manuscrite + **crédit obligatoire** en petit sous la photo (ex. « NASA/JPL-Caltech », « ESA/Webb »).
 - Ne jamais mettre de logo NASA/ESA ni laisser croire que la chaîne est liée à la NASA. NASA : images en général libres de droits (vérifier la page de l'image, certaines appartiennent à des tiers). ESA : souvent CC BY-SA 3.0 IGO (crédit exact obligatoire).
 - Source et URL de chaque image dans `episode.json` (`images` : fichier, crédit, URL, licence). Images téléchargées par le workflow GitHub (le bac à sable ne peut pas les récupérer).
@@ -32,7 +34,7 @@ Le prototype exact qui l'a produite est dans `engine/planche/` (voir plus bas).
 - **Accroche** : la 1re phrase est le fait le plus fou, posé comme une question simple (« Tu savais que… ? »).
 - **Comparaisons du quotidien** pour rendre les chiffres sensibles : taille, distance, chaleur, durée ramenées à des choses connues (four, avion, terrain de foot, vie humaine…).
 - **Au moins un retournement** par épisode (« et le plus fou… », « alors que… ») qui contredit ce qu'on croirait.
-- **Révélation visuelle** : le croquis s'écrit d'abord, puis la vraie photo officielle apparaît à côté (« voilà à quoi ça ressemble vraiment »).
+- **Révélation visuelle** : la vraie photo officielle apparaît, puis les annotations manuscrites s'écrivent dessus ou à côté (« voilà à quoi ça ressemble vraiment »).
 - Les chiffres clés peuvent **défiler en comptant** jusqu'à leur valeur (ex. 0 → 460 °C) pendant que la voix les dit.
 - Pas de jargon ; si un mot technique est inévitable, l'expliquer en une demi-phrase.
 - Le style (fond noir, caméra, voix, rythme sans silences) ne change pas : le « wow » vient du contenu, des photos et des révélations, pas d'effets tape-à-l'œil.
