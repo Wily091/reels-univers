@@ -1,0 +1,8 @@
+{
+ "images": [
+  {"file": "assets/images/venus_mariner10.jpg", "id": "PIA23791",
+   "credit": "NASA/JPL-Caltech", "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/"},
+  {"file": "assets/images/venus_maat_mons.jpg", "id": "PIA00254",
+   "credit": "NASA/JPL", "page": "https://science.nasa.gov/photojournal/venus-3-d-perspective-view-of-maat-mons-2/"}
+ ]
+}

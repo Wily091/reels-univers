@@ -1,0 +1,36 @@
+name: Télécharger des images officielles (NASA)
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/IMAGES.json']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Téléchargement
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          for im in json.load(open('tools/IMAGES.json'))['images']:
+              f, i = im['file'], im.get('id')
+              os.makedirs(os.path.dirname(f), exist_ok=True)
+              urls = im.get('urls') or [f"https://images-assets.nasa.gov/image/{i}/{i}~orig.jpg",
+                                        f"https://photojournal.jpl.nasa.gov/jpeg/{i}.jpg",
+                                        f"https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia{i[3:6]}xx/pia{i[3:]}/{i}.jpg"]
+              ok = False
+              for u in urls:
+                  r = subprocess.run(['curl', '-sSLf', '-m', '120', '-A', 'Mozilla/5.0', '-o', f, u])
+                  if r.returncode == 0 and os.path.getsize(f) > 20000:
+                      print('OK', f, u, os.path.getsize(f)); ok = True; break
+                  print('échec', u)
+              if not ok:
+                  raise SystemExit(f'Impossible de télécharger {i}')
+          PY
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add assets/images && git commit -m "Images officielles téléchargées" && git push
