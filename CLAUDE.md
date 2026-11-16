@@ -9,6 +9,10 @@ Instagram indiqué dans `config.json` (via la marque Metricool indiquée).
 > **Musique : TOUJOURS et UNIQUEMENT « orbite » (`assets/music/orbite.wav`), répétée en boucle jusqu'à la fin du reel (`engine/planche/music_loop.py`), très basse sous la voix (`engine/planche/mix.sh`).**
 > **Son : niveaux fixes identiques pour toutes les vidéos (voix −16 LUFS, musique −32 LUFS + sidechain, mix final ≈ −16 LUFS, aucun bruitage) — voir `docs/STYLE_PLANCHE.md` § 8 bis. Avant chaque publication, `engine/planche/check_audio.sh reel.mp4` doit afficher OK, sinon ne rien publier.**
 
+> **Rythme et publication (exigences de William, 16/11) : 2 reels par jour, programmés à 12:00 et à 19:00 (Europe/Paris), deux sujets différents.**
+> **L'agent agit en expert réseaux sociaux et marketing : légende avec accroche, explication du fait de la vidéo, mots-clés SEO, appel à l'action, 5 hashtags maximum — règles complètes dans `docs/LEGENDES.md`.**
+> (La procédure « Tâche quotidienne » ci-dessous décrit encore 1 reel/jour à l'heure Metricool : à adapter lors de l'automatisation pour 2 reels à heures fixes 12:00 et 19:00.)
+
 Fonctionnement :
 - `backlog/NNN-slug/` = **stock d'épisodes écrits d'avance**. Chacun a `episode.json` et, une fois générée, sa voix dans `voice/`
   (`voice.mp3` + `alignment.json`). Les voix du stock sont générées en lot par le workflow « Générer les voix du stock »
