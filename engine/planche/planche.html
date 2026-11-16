@@ -53,6 +53,11 @@ const SK={
  wave:{w:500,h:160,draw(t,x,y,k){const pts=Array.from({length:61},(_,i)=>[x+i*8.3*k,y+80*k+Math.sin(i*.35)*55*k*Math.exp(-i/80)]);P(t,.9,wob(pts,1),TH.pink,5)}},
  star:{w:220,h:220,draw(t,x,y,k){const cx=x+110*k,cy=y+110*k;for(let i=0;i<8;i++){const a=i*Math.PI/4,L=(i%2?55:95)*k;P(t+i*.05,.15,`M${cx} ${cy} L${cx+Math.cos(a)*L} ${cy+Math.sin(a)*L}`,TH.gold,7)}}},
  arrowdown:{w:120,h:220,draw(t,x,y,k){arrow(t,`M${x+60*k} ${y+10*k} C ${x+80*k} ${y+80*k}, ${x+40*k} ${y+140*k}, ${x+60*k} ${y+200*k}`,x+60*k,y+200*k,Math.PI/2,TH.pink,6)}},
+ mountains:{w:540,h:260,draw(t,x,y,k,e){const b=y+230*k;P(t,.7,wob([[x,b],[x+60*k,b-30*k],[x+150*k,b-140*k],[x+220*k,b-185*k],[x+290*k,b-140*k],[x+380*k,b-30*k],[x+430*k,b]],4),TH.gold,6);P(t+.5,.3,wob([[x+440*k,b],[x+480*k,b-70*k],[x+520*k,b]],2),TH.ink,5);P(t+.1,.4,wob([[x-10*k,b],[x+540*k,b]],2),TH.soft,3);
+   if(e.big)X(t+.6,x+215*k,b+50*k,e.big,42*k,TH.soft,0,'Kalam','middle');if(e.small)X(t+.8,x+480*k,b+50*k,e.small,42*k,TH.soft,0,'Kalam','middle')}},
+ horizon:{w:540,h:240,draw(t,x,y,k){const pts=Array.from({length:41},(_,i)=>{const u=i/40;return[x+u*540*k,y+(230-110*Math.sin(Math.PI*u))*k]});P(t,.7,wob(pts,1),TH.ink,5);
+   const px=x+90*k,py=y+(230-110*Math.sin(Math.PI*90/540))*k;P(t+.4,.2,`M${px} ${py} L${px} ${py-50*k} M${px-16*k} ${py-30*k} L${px+16*k} ${py-30*k}`,TH.ink,4);P(t+.5,.15,circ(px,py-62*k,11*k,1,1,20),TH.ink,4);
+   P(t+.6,.5,`M${px+10*k} ${py-60*k} L${x+470*k} ${y+40*k}`,TH.pink,4,'stroke-dasharray="4 14"');P(t+.9,.4,wob([[x+400*k,y+(230-110*Math.sin(Math.PI*400/540))*k+5*k],[x+460*k,y+150*k],[x+520*k,y+(230-110*Math.sin(Math.PI*520/540))*k+5*k]],2),TH.gold,5)}},
 };
 
 // ---------- gabarits ----------

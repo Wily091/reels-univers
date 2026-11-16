@@ -1,29 +1,82 @@
 {
  "images": [
-  {"file": "assets/images/venus_mariner10.jpg", "id": "PIA23791",
-   "credit": "NASA/JPL-Caltech", "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/"},
-  {"file": "assets/images/venus_maat_mons.jpg", "id": "PIA00254",
-   "credit": "NASA/JPL", "page": "https://science.nasa.gov/photojournal/venus-3-d-perspective-view-of-maat-mons-2/"},
-  {"file": "assets/images/saturne_cassini.jpg", "id": "PIA06193",
-   "credit": "NASA/JPL/Space Science Institute", "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193"},
-  {"file": "assets/images/olympus_mons_viking.jpg", "id": "PIA02982",
-   "credit": "NASA/JPL", "page": "https://science.nasa.gov/photojournal/color-mosaic-of-olympus-mons/"},
-  {"file": "assets/images/jupiter_hubble_2019.jpg", "id": "heic1914a",
-   "urls": ["https://cdn.esahubble.org/archives/images/large/heic1914a.jpg", "https://cdn.esahubble.org/archives/images/screen/heic1914a.jpg"],
-   "credit": "NASA, ESA, A. Simon (GSFC), M.H. Wong (UC Berkeley)", "page": "https://esahubble.org/images/heic1914a/"},
-  {"file": "assets/images/titan_lacs_cassini.jpg", "id": "PIA17655",
-   "urls": ["https://commons.wikimedia.org/wiki/Special:FilePath/PIA17655_crop_Titan_north_polar_seas_and_lakes.jpg"],
-   "credit": "NASA/JPL-Caltech/ASI/USGS", "page": "https://science.nasa.gov/photojournal/titans-north/"},
-  {"file": "assets/images/iss_crew_dragon_2021.jpg", "id": "iss066e081130",
-   "credit": "NASA (photo Thomas Pesquet)", "page": "https://images.nasa.gov/details/iss066e081130"},
-  {"file": "assets/images/encelade_panaches.jpg", "id": "PIA12733",
-   "credit": "NASA/JPL/Space Science Institute", "page": "https://www.jpl.nasa.gov/images/pia12733-highlighting-plumes"},
-  {"file": "assets/images/mars_coucher_soleil.jpg", "id": "PIA19400",
-   "credit": "NASA/JPL-Caltech/MSSS/Texas A&M Univ.", "page": "https://science.nasa.gov/photojournal/sunset-in-mars-gale-crater"},
-  {"file": "assets/images/sgr_a_eht.jpg", "id": "eso2208-eht-mwa",
-   "urls": ["https://cdn.eso.org/images/large/eso2208-eht-mwa.jpg", "https://cdn.eso.org/images/screen/eso2208-eht-mwa.jpg"],
-   "credit": "EHT Collaboration (CC BY 4.0)", "page": "https://www.eso.org/public/images/eso2208-eht-mwa/"},
-  {"file": "assets/images/pale_blue_dot.jpg", "id": "PIA23645",
-   "credit": "NASA/JPL-Caltech", "page": "https://science.nasa.gov/photojournal/pale-blue-dot-revisited"}
- ]
+  {
+   "file": "assets/images/venus_mariner10.jpg",
+   "id": "PIA23791",
+   "credit": "NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/"
+  },
+  {
+   "file": "assets/images/venus_maat_mons.jpg",
+   "id": "PIA00254",
+   "credit": "NASA/JPL",
+   "page": "https://science.nasa.gov/photojournal/venus-3-d-perspective-view-of-maat-mons-2/"
+  },
+  {
+   "file": "assets/images/saturne_cassini.jpg",
+   "id": "PIA06193",
+   "credit": "NASA/JPL/Space Science Institute",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193"
+  },
+  {
+   "file": "assets/images/olympus_mons_viking.jpg",
+   "id": "PIA02982",
+   "credit": "NASA/JPL",
+   "page": "https://science.nasa.gov/photojournal/color-mosaic-of-olympus-mons/"
+  },
+  {
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "id": "heic1914a",
+   "urls": [
+    "https://cdn.esahubble.org/archives/images/large/heic1914a.jpg",
+    "https://cdn.esahubble.org/archives/images/screen/heic1914a.jpg"
+   ],
+   "credit": "NASA, ESA, A. Simon (GSFC), M.H. Wong (UC Berkeley)",
+   "page": "https://esahubble.org/images/heic1914a/"
+  },
+  {
+   "file": "assets/images/titan_lacs_cassini.jpg",
+   "id": "PIA17655",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/PIA17655_crop_Titan_north_polar_seas_and_lakes.jpg"
+   ],
+   "credit": "NASA/JPL-Caltech/ASI/USGS",
+   "page": "https://science.nasa.gov/photojournal/titans-north/"
+  },
+  {
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "id": "iss066e081130",
+   "credit": "NASA (photo Thomas Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130"
+  },
+  {
+   "file": "assets/images/encelade_panaches.jpg",
+   "id": "PIA12733",
+   "credit": "NASA/JPL/Space Science Institute",
+   "page": "https://www.jpl.nasa.gov/images/pia12733-highlighting-plumes"
+  },
+  {
+   "file": "assets/images/mars_coucher_soleil.jpg",
+   "id": "PIA19400",
+   "credit": "NASA/JPL-Caltech/MSSS/Texas A&M Univ.",
+   "page": "https://science.nasa.gov/photojournal/sunset-in-mars-gale-crater"
+  },
+  {
+   "file": "assets/images/sgr_a_eht.jpg",
+   "id": "eso2208-eht-mwa",
+   "urls": [
+    "https://cdn.eso.org/images/large/eso2208-eht-mwa.jpg",
+    "https://cdn.eso.org/images/screen/eso2208-eht-mwa.jpg"
+   ],
+   "credit": "EHT Collaboration (CC BY 4.0)",
+   "page": "https://www.eso.org/public/images/eso2208-eht-mwa/"
+  },
+  {
+   "file": "assets/images/pale_blue_dot.jpg",
+   "id": "PIA23645",
+   "credit": "NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/photojournal/pale-blue-dot-revisited"
+  }
+ ],
+ "note": "Liste des photos officielles. Pousser une modification de ce fichier déclenche le téléchargement des images absentes."
 }
