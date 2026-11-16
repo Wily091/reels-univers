@@ -53,7 +53,10 @@
    "file": "assets/images/encelade_panaches.jpg",
    "id": "PIA12733",
    "credit": "NASA/JPL/Space Science Institute",
-   "page": "https://www.jpl.nasa.gov/images/pia12733-highlighting-plumes"
+   "page": "https://www.jpl.nasa.gov/images/pia12733-highlighting-plumes",
+   "urls": [
+    "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA12733.jpg"
+   ]
   },
   {
    "file": "assets/images/mars_coucher_soleil.jpg",

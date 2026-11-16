@@ -30,6 +30,7 @@ jobs:
                   urls += [f"https://images-assets.nasa.gov/image/{i}/{i}~orig.jpg",
                            f"https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia{i[3:6]}xx/pia{i[3:]}/{i}.jpg",
                            f"https://images-assets.nasa.gov/image/{i}/{i}~large.jpg",
+                           f"https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpeg{i}.jpg",
                            f"https://photojournal.jpl.nasa.gov/jpeg/{i}.jpg"]
               elif i:
                   urls += [f"https://images-assets.nasa.gov/image/{i}/{i}~orig.jpg", f"https://images-assets.nasa.gov/image/{i}/{i}~large.jpg"]
