@@ -53,11 +53,11 @@
   "topics": [
    "Olympus Mons"
   ],
-  "posted": false,
-  "scheduledAt": null,
-  "plannerUrl": null,
-  "caption": null,
-  "error": "Rendu en échec : check_audio.sh HORS NORME (-14,84 LUFS, cible -16 ±1) — reel non publié"
+  "posted": true,
+  "scheduledAt": "2026-11-18T12:00:00+01:00",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=2736065836442601135",
+  "caption": "Olympus Mons, le plus grand volcan du système solaire, est sur Mars 🌋\n\nCe volcan géant de la planète Mars s'élève à plus de 20 km au-dessus des plaines, presque trois fois la hauteur de l'Everest, et sa base mesure environ 600 km, quasiment la distance Paris–Toulouse. Ses pentes sont si douces qu'au pied du volcan, tu ne verrais même pas le sommet, caché derrière l'horizon. Pourquoi est-il si grand ? Sur Mars, la croûte ne bouge pas comme les plaques de la Terre : la lave est sortie au même endroit pendant des millions d'années. Un fait insolite d'astronomie et de science à partager.\n\nTu connaissais Olympus Mons ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#mars #astronomie #systemesolaire #culturegenerale #universenbref",
+  "note": "Rendu automatique HORS NORME (-14,84 LUFS) ; son corrigé à -16,01 LUFS par simple gain sur cette vidéo seulement (moteur inchangé), vidéo hébergée dans episodes/2026-11-18-12h/reel.mp4"
  },
  {
   "date": "2026-11-18",
