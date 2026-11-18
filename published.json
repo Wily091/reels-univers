@@ -1,46 +1,77 @@
 [
-  {
-    "date": "2026-10-26",
-    "title": "Les étoiles que tu vois sont-elles mortes ? Tu regardes le passé",
-    "topics": [
-      "vitesse de la lumière",
-      "étoiles mortes (idée reçue)",
-      "Soleil 8 minutes",
-      "Proxima du Centaure",
-      "Andromède",
-      "James Webb"
-    ],
-    "posted": false,
-    "note": "premier reel monté à la main"
-  },
-  {
-    "date": "2026-11-17",
-    "slot": "12:00",
-    "folder": "episodes/2026-11-17-12h",
-    "num": 1,
-    "title": "Sur Vénus, un jour dure plus longtemps qu'une année",
-    "subject": "Vénus",
-    "topics": [
-      "Vénus"
-    ],
-    "posted": true,
-    "scheduledAt": "2026-11-17T12:00:00+01:00",
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-6595619211349177398",
-    "caption": "Sur Vénus, un jour dure plus longtemps qu'une année 🤯\n\nVénus tourne si lentement sur elle-même qu'il lui faut 243 jours terrestres pour faire un seul tour, alors qu'elle boucle son tour du Soleil en 225 jours. Résultat : sur la planète Vénus, une journée est plus longue qu'une année. Et comme elle tourne dans l'autre sens que la Terre, le Soleil s'y lève à l'ouest ! Sa surface dépasse 460 °C, plus chaude que Mercure, parce que son atmosphère très épaisse piège la chaleur comme un four géant. Un fait insolite du système solaire qui surprend même les fans d'astronomie.\n\nTu le savais, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#venus #astronomie #systemesolaire #lesaviezvous #universenbref"
-  },
-  {
-    "date": "2026-11-17",
-    "slot": "19:00",
-    "folder": "episodes/2026-11-17-19h",
-    "num": 2,
-    "title": "Saturne pourrait flotter dans l'eau",
-    "subject": "Saturne",
-    "topics": [
-      "Saturne"
-    ],
-    "posted": true,
-    "scheduledAt": "2026-11-17T19:00:00+01:00",
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=7848698801000172617",
-    "caption": "Saturne pourrait flotter dans l'eau 🪐\n\nSaturne est neuf fois plus large que la Terre, et pourtant sa densité moyenne (0,69) est plus faible que celle de l'eau (1). La raison : cette planète géante est faite presque entièrement d'hydrogène et d'hélium, les gaz les plus légers. C'est la seule planète du système solaire dans ce cas, même s'il faudrait une baignoire bien plus grande que la Terre ! Autre fait insolite : une journée sur Saturne dure à peine 10 h 40, et ses anneaux sont faits de morceaux de glace et de roche allant du grain de sable à la taille d'une maison. De l'astronomie comme on l'aime.\n\nTu l'aurais deviné, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#saturne #espace #planetes #science #universenbref"
-  }
+ {
+  "date": "2026-10-26",
+  "title": "Les étoiles que tu vois sont-elles mortes ? Tu regardes le passé",
+  "topics": [
+   "vitesse de la lumière",
+   "étoiles mortes (idée reçue)",
+   "Soleil 8 minutes",
+   "Proxima du Centaure",
+   "Andromède",
+   "James Webb"
+  ],
+  "posted": false,
+  "note": "premier reel monté à la main"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "12:00",
+  "folder": "episodes/2026-11-17-12h",
+  "num": 1,
+  "title": "Sur Vénus, un jour dure plus longtemps qu'une année",
+  "subject": "Vénus",
+  "topics": [
+   "Vénus"
+  ],
+  "posted": true,
+  "scheduledAt": "2026-11-17T12:00:00+01:00",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-6595619211349177398",
+  "caption": "Sur Vénus, un jour dure plus longtemps qu'une année 🤯\n\nVénus tourne si lentement sur elle-même qu'il lui faut 243 jours terrestres pour faire un seul tour, alors qu'elle boucle son tour du Soleil en 225 jours. Résultat : sur la planète Vénus, une journée est plus longue qu'une année. Et comme elle tourne dans l'autre sens que la Terre, le Soleil s'y lève à l'ouest ! Sa surface dépasse 460 °C, plus chaude que Mercure, parce que son atmosphère très épaisse piège la chaleur comme un four géant. Un fait insolite du système solaire qui surprend même les fans d'astronomie.\n\nTu le savais, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#venus #astronomie #systemesolaire #lesaviezvous #universenbref"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "19:00",
+  "folder": "episodes/2026-11-17-19h",
+  "num": 2,
+  "title": "Saturne pourrait flotter dans l'eau",
+  "subject": "Saturne",
+  "topics": [
+   "Saturne"
+  ],
+  "posted": true,
+  "scheduledAt": "2026-11-17T19:00:00+01:00",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=7848698801000172617",
+  "caption": "Saturne pourrait flotter dans l'eau 🪐\n\nSaturne est neuf fois plus large que la Terre, et pourtant sa densité moyenne (0,69) est plus faible que celle de l'eau (1). La raison : cette planète géante est faite presque entièrement d'hydrogène et d'hélium, les gaz les plus légers. C'est la seule planète du système solaire dans ce cas, même s'il faudrait une baignoire bien plus grande que la Terre ! Autre fait insolite : une journée sur Saturne dure à peine 10 h 40, et ses anneaux sont faits de morceaux de glace et de roche allant du grain de sable à la taille d'une maison. De l'astronomie comme on l'aime.\n\nTu l'aurais deviné, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#saturne #espace #planetes #science #universenbref"
+ },
+ {
+  "date": "2026-11-18",
+  "slot": "12:00",
+  "folder": "episodes/2026-11-18-12h",
+  "num": 3,
+  "title": "Olympus Mons, le plus grand volcan du système solaire",
+  "subject": "Olympus Mons",
+  "topics": [
+   "Olympus Mons"
+  ],
+  "posted": false,
+  "scheduledAt": null,
+  "plannerUrl": null,
+  "caption": null,
+  "error": "Rendu en échec : check_audio.sh HORS NORME (-14,84 LUFS, cible -16 ±1) — reel non publié"
+ },
+ {
+  "date": "2026-11-18",
+  "slot": "19:00",
+  "folder": "episodes/2026-11-18-19h",
+  "num": 4,
+  "title": "On pourrait faire entrer plus de 1 300 Terres dans Jupiter",
+  "subject": "Jupiter",
+  "topics": [
+   "Jupiter"
+  ],
+  "posted": true,
+  "scheduledAt": "2026-11-18T19:00:00+01:00",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-74441189471073186",
+  "caption": "On pourrait faire entrer plus de 1 300 Terres dans Jupiter 🤯\n\nJupiter, la plus grosse planète du système solaire, est 11 fois plus large que la Terre et plus de deux fois plus massive que toutes les autres planètes réunies. Pourtant, elle tourne si vite qu'une journée y dure moins de 10 heures, le jour le plus court de toutes les planètes. Sa célèbre Grande Tache rouge est une tempête plus grande que la Terre, observée depuis au moins 150 ans. Une image du télescope Hubble, et un vrai fait insolite d'astronomie sur l'espace et notre univers.\n\nTu savais que cette tache était une tempête ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#jupiter #espace #astrophysique #lesaviezvous #universenbref"
+ }
 ]
