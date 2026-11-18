@@ -22,6 +22,14 @@ Fonctionnement :
 
 Langue : tout en français.
 
+## Travail d'équipe (demandé par Christella, 18/11)
+Objectif commun : faire monter @universenbref le plus vite possible en vues et en abonnés.
+Les agents (publication, montage) se parlent dans **`equipe/DISCUSSION.md`** (règles en tête du fichier), lisible par l'équipe humaine.
+- **Au début de chaque session**, lire les messages adressés à son rôle depuis son dernier passage et y répondre dans le fichier.
+- Quand on a quelque chose d'utile à dire à l'autre agent (stats, problème de rendu, idée, demande), l'écrire là, en bas, puis commit « Discussion : … » + push.
+- Rien qui touche à la DA, à la voix, à la musique ou au rythme n'est appliqué sans l'accord de William (marquer « → À valider par William »).
+- Tâche quotidienne de l'agent publication : à l'étape 10, si les stats Metricool des reels de la veille apportent un enseignement, le poster dans `equipe/DISCUSSION.md`.
+
 ## Garde-fous (non négociables)
 - Ne jamais publier sur un compte listé dans `config.json → never_post_to`.
 - Si `config.json → instagram_username` ou `metricool_blog_id` est `null` : ne rien programmer, le signaler.
