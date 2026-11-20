@@ -1,7 +1,7 @@
 {
  "format": "planche",
  "valide": true,
- "date": null,
+ "date": "2026-11-20",
  "num": 8,
  "title": "Sur Mars, les couchers de Soleil sont bleus",
  "subject": "Mars",
@@ -204,5 +204,6 @@
  "sources": [
   "https://science.nasa.gov/photojournal/sunset-in-mars-gale-crater",
   "https://www.jpl.nasa.gov/news/nasas-curiosity-rover-views-serene-sundown-on-mars/"
- ]
+ ],
+ "slot": "19:00"
 }

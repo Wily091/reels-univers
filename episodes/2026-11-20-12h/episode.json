@@ -1,7 +1,7 @@
 {
  "format": "planche",
  "valide": true,
- "date": null,
+ "date": "2026-11-20",
  "num": 7,
  "title": "Encelade, la petite lune qui crache de l'eau dans l'espace",
  "subject": "Encelade",
@@ -177,5 +177,6 @@
  "sources": [
   "https://science.nasa.gov/saturn/moons/enceladus/",
   "https://www.jpl.nasa.gov/images/pia12733-highlighting-plumes"
- ]
+ ],
+ "slot": "12:00"
 }
