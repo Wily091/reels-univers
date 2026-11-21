@@ -1,7 +1,7 @@
 {
  "format": "planche",
  "valide": true,
- "date": null,
+ "date": "2026-11-21",
  "num": 10,
  "title": "Le point bleu pâle : la Terre vue à 6 milliards de km",
  "subject": "La Terre",
@@ -211,5 +211,6 @@
  "sources": [
   "https://science.nasa.gov/photojournal/pale-blue-dot-revisited",
   "https://science.nasa.gov/resource/voyager-1s-pale-blue-dot/"
- ]
+ ],
+ "slot": "19:00"
 }

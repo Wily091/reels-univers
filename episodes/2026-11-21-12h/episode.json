@@ -1,7 +1,7 @@
 {
  "format": "planche",
  "valide": true,
- "date": null,
+ "date": "2026-11-21",
  "num": 9,
  "title": "Le trou noir géant au centre de notre galaxie",
  "subject": "Sgr A*",
@@ -185,5 +185,6 @@
  "sources": [
   "https://www.eso.org/public/news/eso2208/",
   "https://www.eso.org/public/images/eso2208-eht-mwa/"
- ]
+ ],
+ "slot": "12:00"
 }
