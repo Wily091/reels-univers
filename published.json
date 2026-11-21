@@ -1,137 +1,173 @@
 [
- {
-  "date": "2026-10-26",
-  "title": "Les étoiles que tu vois sont-elles mortes ? Tu regardes le passé",
-  "topics": [
-   "vitesse de la lumière",
-   "étoiles mortes (idée reçue)",
-   "Soleil 8 minutes",
-   "Proxima du Centaure",
-   "Andromède",
-   "James Webb"
-  ],
-  "posted": false,
-  "note": "premier reel monté à la main"
- },
- {
-  "date": "2026-11-17",
-  "slot": "12:00",
-  "folder": "episodes/2026-11-17-12h",
-  "num": 1,
-  "title": "Sur Vénus, un jour dure plus longtemps qu'une année",
-  "subject": "Vénus",
-  "topics": [
-   "Vénus"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-17T12:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-6595619211349177398",
-  "caption": "Sur Vénus, un jour dure plus longtemps qu'une année 🤯\n\nVénus tourne si lentement sur elle-même qu'il lui faut 243 jours terrestres pour faire un seul tour, alors qu'elle boucle son tour du Soleil en 225 jours. Résultat : sur la planète Vénus, une journée est plus longue qu'une année. Et comme elle tourne dans l'autre sens que la Terre, le Soleil s'y lève à l'ouest ! Sa surface dépasse 460 °C, plus chaude que Mercure, parce que son atmosphère très épaisse piège la chaleur comme un four géant. Un fait insolite du système solaire qui surprend même les fans d'astronomie.\n\nTu le savais, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#venus #astronomie #systemesolaire #lesaviezvous #universenbref"
- },
- {
-  "date": "2026-11-17",
-  "slot": "19:00",
-  "folder": "episodes/2026-11-17-19h",
-  "num": 2,
-  "title": "Saturne pourrait flotter dans l'eau",
-  "subject": "Saturne",
-  "topics": [
-   "Saturne"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-17T19:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=7848698801000172617",
-  "caption": "Saturne pourrait flotter dans l'eau 🪐\n\nSaturne est neuf fois plus large que la Terre, et pourtant sa densité moyenne (0,69) est plus faible que celle de l'eau (1). La raison : cette planète géante est faite presque entièrement d'hydrogène et d'hélium, les gaz les plus légers. C'est la seule planète du système solaire dans ce cas, même s'il faudrait une baignoire bien plus grande que la Terre ! Autre fait insolite : une journée sur Saturne dure à peine 10 h 40, et ses anneaux sont faits de morceaux de glace et de roche allant du grain de sable à la taille d'une maison. De l'astronomie comme on l'aime.\n\nTu l'aurais deviné, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#saturne #espace #planetes #science #universenbref"
- },
- {
-  "date": "2026-11-18",
-  "slot": "12:00",
-  "folder": "episodes/2026-11-18-12h",
-  "num": 3,
-  "title": "Olympus Mons, le plus grand volcan du système solaire",
-  "subject": "Olympus Mons",
-  "topics": [
-   "Olympus Mons"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-18T12:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=2736065836442601135",
-  "caption": "Olympus Mons, le plus grand volcan du système solaire, est sur Mars 🌋\n\nCe volcan géant de la planète Mars s'élève à plus de 20 km au-dessus des plaines, presque trois fois la hauteur de l'Everest, et sa base mesure environ 600 km, quasiment la distance Paris–Toulouse. Ses pentes sont si douces qu'au pied du volcan, tu ne verrais même pas le sommet, caché derrière l'horizon. Pourquoi est-il si grand ? Sur Mars, la croûte ne bouge pas comme les plaques de la Terre : la lave est sortie au même endroit pendant des millions d'années. Un fait insolite d'astronomie et de science à partager.\n\nTu connaissais Olympus Mons ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#mars #astronomie #systemesolaire #culturegenerale #universenbref",
-  "note": "Rendu automatique HORS NORME (-14,84 LUFS) ; son corrigé à -16,01 LUFS par simple gain sur cette vidéo seulement (moteur inchangé), vidéo hébergée dans episodes/2026-11-18-12h/reel.mp4"
- },
- {
-  "date": "2026-11-18",
-  "slot": "19:00",
-  "folder": "episodes/2026-11-18-19h",
-  "num": 4,
-  "title": "On pourrait faire entrer plus de 1 300 Terres dans Jupiter",
-  "subject": "Jupiter",
-  "topics": [
-   "Jupiter"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-18T19:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-74441189471073186",
-  "caption": "On pourrait faire entrer plus de 1 300 Terres dans Jupiter 🤯\n\nJupiter, la plus grosse planète du système solaire, est 11 fois plus large que la Terre et plus de deux fois plus massive que toutes les autres planètes réunies. Pourtant, elle tourne si vite qu'une journée y dure moins de 10 heures, le jour le plus court de toutes les planètes. Sa célèbre Grande Tache rouge est une tempête plus grande que la Terre, observée depuis au moins 150 ans. Une image du télescope Hubble, et un vrai fait insolite d'astronomie sur l'espace et notre univers.\n\nTu savais que cette tache était une tempête ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#jupiter #espace #astrophysique #lesaviezvous #universenbref"
- },
- {
-  "date": "2026-11-19",
-  "slot": "12:00",
-  "folder": "episodes/2026-11-19-12h",
-  "num": 5,
-  "title": "Titan, l'autre monde avec des lacs et de la pluie",
-  "subject": "Titan",
-  "topics": [
-   "Titan"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-19T12:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=4490494554914637766",
-  "caption": "Titan, la lune de Saturne où il pleut du méthane 🌧️\n\nTitan est le seul autre monde connu du système solaire avec des liquides à sa surface : des lacs, des mers et même de la pluie. Mais pas d'eau ! Il y fait environ −180 °C, alors ce sont du méthane et de l'éthane liquides qui coulent là-bas. Cette lune géante de Saturne est même plus grande que la planète Mercure. Sur l'image radar de la sonde Cassini (couleurs simulées), les taches sombres sont ses mers. Et la NASA prévoit d'y envoyer un drone, Dragonfly, avec un départ prévu en 2028. Un vrai fait insolite d'astronomie !\n\nTu irais faire un tour sur Titan ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#titan #astronomie #espace #science #universenbref"
- },
- {
-  "date": "2026-11-19",
-  "slot": "19:00",
-  "folder": "episodes/2026-11-19-19h",
-  "num": 6,
-  "title": "16 levers de Soleil par jour dans la Station spatiale",
-  "subject": "L'ISS",
-  "topics": [
-   "L'ISS"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-19T19:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-3066119923164495031",
-  "caption": "Dans la Station spatiale, les astronautes voient environ 16 levers de Soleil par jour 🌅\n\nLa Station spatiale internationale (ISS) fait le tour de la Terre en à peu près 90 minutes : toutes les 45 minutes environ, ses astronautes passent du jour à la nuit, puis de la nuit au jour. Elle file à près de 28 000 km/h, environ 30 fois plus vite qu'un avion de ligne, et parcourt chaque jour l'équivalent d'un aller-retour Terre–Lune. Depuis novembre 2000, il y a toujours eu des humains à bord, sans interruption. Sur la photo, la Station vue depuis la capsule Crew Dragon. Le saviez-vous ? L'espace, ce n'est pas que des étoiles lointaines : des gens y vivent en ce moment même.\n\nTu aimerais voir ça au moins une fois ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#iss #espace #astronaute #lesaviezvous #universenbref"
- },
- {
-  "date": "2026-11-20",
-  "slot": "12:00",
-  "folder": "episodes/2026-11-20-12h",
-  "num": 7,
-  "title": "Encelade, la petite lune qui crache de l'eau dans l'espace",
-  "subject": "Encelade",
-  "topics": [
-   "Encelade"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-20T12:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=5025429424684026698",
-  "caption": "Encelade, la lune de Saturne qui crache de l'eau dans l'espace 💦\n\nEncelade ne fait qu'environ 500 km de large, à peu près Paris–Bordeaux, et pourtant des jets de vapeur d'eau et de grains de glace jaillissent sans arrêt de son pôle sud. Leur source : un océan d'eau liquide caché sous sa croûte de glace. La sonde Cassini a traversé ces jets et y a détecté des molécules organiques. C'est pourquoi les scientifiques la voient comme l'un des meilleurs endroits du système solaire pour chercher la vie ailleurs. Sur la photo, les jets éclairés à contre-jour. De l'astronomie qui fait rêver.\n\nTu crois qu'on y trouvera de la vie ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#encelade #astronomie #systemesolaire #science #universenbref"
- },
- {
-  "date": "2026-11-20",
-  "slot": "19:00",
-  "folder": "episodes/2026-11-20-19h",
-  "num": 8,
-  "title": "Sur Mars, les couchers de Soleil sont bleus",
-  "subject": "Mars",
-  "topics": [
-   "Mars"
-  ],
-  "posted": true,
-  "scheduledAt": "2026-11-20T19:00:00+01:00",
-  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-7264055796167654313",
-  "caption": "Sur Mars, les couchers de Soleil sont bleus 🔵\n\nC'est l'inverse de la Terre : sur la planète Mars, le ciel est plutôt rougeâtre en journée à cause de la poussière, mais au coucher, une lueur bleue apparaît autour du Soleil. Le rover Curiosity a photographié ce coucher de soleil le 15 avril 2015, dans le cratère Gale. L'explication : la poussière martienne est si fine qu'elle laisse mieux passer la lumière bleue, qui reste concentrée près du Soleil. L'effet est maximal au coucher, quand la lumière traverse le plus d'atmosphère. Un fait insolite d'astronomie et de science.\n\nTu préfères le coucher orange ou le bleu ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#mars #espace #astronomie #lesaviezvous #universenbref"
- }
+  {
+    "date": "2026-10-26",
+    "title": "Les étoiles que tu vois sont-elles mortes ? Tu regardes le passé",
+    "topics": [
+      "vitesse de la lumière",
+      "étoiles mortes (idée reçue)",
+      "Soleil 8 minutes",
+      "Proxima du Centaure",
+      "Andromède",
+      "James Webb"
+    ],
+    "posted": false,
+    "note": "premier reel monté à la main"
+  },
+  {
+    "date": "2026-11-17",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-17-12h",
+    "num": 1,
+    "title": "Sur Vénus, un jour dure plus longtemps qu'une année",
+    "subject": "Vénus",
+    "topics": [
+      "Vénus"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-17T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-6595619211349177398",
+    "caption": "Sur Vénus, un jour dure plus longtemps qu'une année 🤯\n\nVénus tourne si lentement sur elle-même qu'il lui faut 243 jours terrestres pour faire un seul tour, alors qu'elle boucle son tour du Soleil en 225 jours. Résultat : sur la planète Vénus, une journée est plus longue qu'une année. Et comme elle tourne dans l'autre sens que la Terre, le Soleil s'y lève à l'ouest ! Sa surface dépasse 460 °C, plus chaude que Mercure, parce que son atmosphère très épaisse piège la chaleur comme un four géant. Un fait insolite du système solaire qui surprend même les fans d'astronomie.\n\nTu le savais, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#venus #astronomie #systemesolaire #lesaviezvous #universenbref"
+  },
+  {
+    "date": "2026-11-17",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-17-19h",
+    "num": 2,
+    "title": "Saturne pourrait flotter dans l'eau",
+    "subject": "Saturne",
+    "topics": [
+      "Saturne"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-17T19:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=7848698801000172617",
+    "caption": "Saturne pourrait flotter dans l'eau 🪐\n\nSaturne est neuf fois plus large que la Terre, et pourtant sa densité moyenne (0,69) est plus faible que celle de l'eau (1). La raison : cette planète géante est faite presque entièrement d'hydrogène et d'hélium, les gaz les plus légers. C'est la seule planète du système solaire dans ce cas, même s'il faudrait une baignoire bien plus grande que la Terre ! Autre fait insolite : une journée sur Saturne dure à peine 10 h 40, et ses anneaux sont faits de morceaux de glace et de roche allant du grain de sable à la taille d'une maison. De l'astronomie comme on l'aime.\n\nTu l'aurais deviné, toi ? Dis-le en commentaire 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#saturne #espace #planetes #science #universenbref"
+  },
+  {
+    "date": "2026-11-18",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-18-12h",
+    "num": 3,
+    "title": "Olympus Mons, le plus grand volcan du système solaire",
+    "subject": "Olympus Mons",
+    "topics": [
+      "Olympus Mons"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-18T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=2736065836442601135",
+    "caption": "Olympus Mons, le plus grand volcan du système solaire, est sur Mars 🌋\n\nCe volcan géant de la planète Mars s'élève à plus de 20 km au-dessus des plaines, presque trois fois la hauteur de l'Everest, et sa base mesure environ 600 km, quasiment la distance Paris–Toulouse. Ses pentes sont si douces qu'au pied du volcan, tu ne verrais même pas le sommet, caché derrière l'horizon. Pourquoi est-il si grand ? Sur Mars, la croûte ne bouge pas comme les plaques de la Terre : la lave est sortie au même endroit pendant des millions d'années. Un fait insolite d'astronomie et de science à partager.\n\nTu connaissais Olympus Mons ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#mars #astronomie #systemesolaire #culturegenerale #universenbref",
+    "note": "Rendu automatique HORS NORME (-14,84 LUFS) ; son corrigé à -16,01 LUFS par simple gain sur cette vidéo seulement (moteur inchangé), vidéo hébergée dans episodes/2026-11-18-12h/reel.mp4"
+  },
+  {
+    "date": "2026-11-18",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-18-19h",
+    "num": 4,
+    "title": "On pourrait faire entrer plus de 1 300 Terres dans Jupiter",
+    "subject": "Jupiter",
+    "topics": [
+      "Jupiter"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-18T19:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-74441189471073186",
+    "caption": "On pourrait faire entrer plus de 1 300 Terres dans Jupiter 🤯\n\nJupiter, la plus grosse planète du système solaire, est 11 fois plus large que la Terre et plus de deux fois plus massive que toutes les autres planètes réunies. Pourtant, elle tourne si vite qu'une journée y dure moins de 10 heures, le jour le plus court de toutes les planètes. Sa célèbre Grande Tache rouge est une tempête plus grande que la Terre, observée depuis au moins 150 ans. Une image du télescope Hubble, et un vrai fait insolite d'astronomie sur l'espace et notre univers.\n\nTu savais que cette tache était une tempête ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#jupiter #espace #astrophysique #lesaviezvous #universenbref"
+  },
+  {
+    "date": "2026-11-19",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-19-12h",
+    "num": 5,
+    "title": "Titan, l'autre monde avec des lacs et de la pluie",
+    "subject": "Titan",
+    "topics": [
+      "Titan"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-19T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=4490494554914637766",
+    "caption": "Titan, la lune de Saturne où il pleut du méthane 🌧️\n\nTitan est le seul autre monde connu du système solaire avec des liquides à sa surface : des lacs, des mers et même de la pluie. Mais pas d'eau ! Il y fait environ −180 °C, alors ce sont du méthane et de l'éthane liquides qui coulent là-bas. Cette lune géante de Saturne est même plus grande que la planète Mercure. Sur l'image radar de la sonde Cassini (couleurs simulées), les taches sombres sont ses mers. Et la NASA prévoit d'y envoyer un drone, Dragonfly, avec un départ prévu en 2028. Un vrai fait insolite d'astronomie !\n\nTu irais faire un tour sur Titan ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#titan #astronomie #espace #science #universenbref"
+  },
+  {
+    "date": "2026-11-19",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-19-19h",
+    "num": 6,
+    "title": "16 levers de Soleil par jour dans la Station spatiale",
+    "subject": "L'ISS",
+    "topics": [
+      "L'ISS"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-19T19:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-3066119923164495031",
+    "caption": "Dans la Station spatiale, les astronautes voient environ 16 levers de Soleil par jour 🌅\n\nLa Station spatiale internationale (ISS) fait le tour de la Terre en à peu près 90 minutes : toutes les 45 minutes environ, ses astronautes passent du jour à la nuit, puis de la nuit au jour. Elle file à près de 28 000 km/h, environ 30 fois plus vite qu'un avion de ligne, et parcourt chaque jour l'équivalent d'un aller-retour Terre–Lune. Depuis novembre 2000, il y a toujours eu des humains à bord, sans interruption. Sur la photo, la Station vue depuis la capsule Crew Dragon. Le saviez-vous ? L'espace, ce n'est pas que des étoiles lointaines : des gens y vivent en ce moment même.\n\nTu aimerais voir ça au moins une fois ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#iss #espace #astronaute #lesaviezvous #universenbref"
+  },
+  {
+    "date": "2026-11-20",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-20-12h",
+    "num": 7,
+    "title": "Encelade, la petite lune qui crache de l'eau dans l'espace",
+    "subject": "Encelade",
+    "topics": [
+      "Encelade"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-20T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=5025429424684026698",
+    "caption": "Encelade, la lune de Saturne qui crache de l'eau dans l'espace 💦\n\nEncelade ne fait qu'environ 500 km de large, à peu près Paris–Bordeaux, et pourtant des jets de vapeur d'eau et de grains de glace jaillissent sans arrêt de son pôle sud. Leur source : un océan d'eau liquide caché sous sa croûte de glace. La sonde Cassini a traversé ces jets et y a détecté des molécules organiques. C'est pourquoi les scientifiques la voient comme l'un des meilleurs endroits du système solaire pour chercher la vie ailleurs. Sur la photo, les jets éclairés à contre-jour. De l'astronomie qui fait rêver.\n\nTu crois qu'on y trouvera de la vie ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#encelade #astronomie #systemesolaire #science #universenbref"
+  },
+  {
+    "date": "2026-11-20",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-20-19h",
+    "num": 8,
+    "title": "Sur Mars, les couchers de Soleil sont bleus",
+    "subject": "Mars",
+    "topics": [
+      "Mars"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-20T19:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-7264055796167654313",
+    "caption": "Sur Mars, les couchers de Soleil sont bleus 🔵\n\nC'est l'inverse de la Terre : sur la planète Mars, le ciel est plutôt rougeâtre en journée à cause de la poussière, mais au coucher, une lueur bleue apparaît autour du Soleil. Le rover Curiosity a photographié ce coucher de soleil le 15 avril 2015, dans le cratère Gale. L'explication : la poussière martienne est si fine qu'elle laisse mieux passer la lumière bleue, qui reste concentrée près du Soleil. L'effet est maximal au coucher, quand la lumière traverse le plus d'atmosphère. Un fait insolite d'astronomie et de science.\n\nTu préfères le coucher orange ou le bleu ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#mars #espace #astronomie #lesaviezvous #universenbref"
+  },
+  {
+    "date": "2026-11-21",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-21-12h",
+    "num": 9,
+    "title": "Le trou noir géant au centre de notre galaxie",
+    "subject": "Sgr A*",
+    "topics": [
+      "trou noir",
+      "Sagittarius A*",
+      "Voie lactée",
+      "Event Horizon Telescope"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-21T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=8451909122621522196",
+    "caption": "Trou noir : au centre de notre galaxie se cache un géant 4 millions de fois plus massif que le Soleil 🕳️\n\nIl s'appelle Sagittarius A* et se trouve à environ 27 000 années-lumière : sa lumière est partie bien avant l'invention de l'agriculture. Pour obtenir sa toute première image, dévoilée en mai 2022, l'Event Horizon Telescope a relié huit radiotélescopes à travers le monde pour former un télescope virtuel de la taille de la Terre. Vu d'ici, ce trou noir supermassif paraît aussi petit qu'un beignet posé sur la Lune. Une prouesse de l'astronomie et de la science, au cœur de la Voie lactée.\n\nÇa te fascine ou ça te fait peur ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#trounoir #astrophysique #voielactee #science #universenbref"
+  },
+  {
+    "date": "2026-11-21",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-21-19h",
+    "num": 10,
+    "title": "Le point bleu pâle : la Terre vue à 6 milliards de km",
+    "subject": "La Terre",
+    "topics": [
+      "Terre",
+      "Voyager 1",
+      "Pale Blue Dot",
+      "Carl Sagan"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-21T19:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=6704712110580648680",
+    "caption": "La Terre vue de l'espace à 6 milliards de km : ce minuscule point, c'est nous 💙\n\nLe 14 février 1990, la sonde Voyager 1 s'est retournée une dernière fois pour photographier notre planète, juste avant d'éteindre ses caméras. Sur l'image, la Terre fait moins d'un pixel : un point bleu pâle perdu dans un rayon de Soleil. C'est l'astronome Carl Sagan qui avait eu l'idée de cette photo, devenue célèbre sous le nom de « Pale Blue Dot ». Il a écrit : « Regardez encore ce point. C'est ici. C'est chez nous. C'est nous. » Une des images les plus émouvantes de l'histoire de l'espace et de l'astronomie.\n\nÀ qui tu enverrais cette vidéo ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#terre #voyager #astronomie #culturegenerale #universenbref"
+  }
 ]
