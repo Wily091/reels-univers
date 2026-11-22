@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 157,
+ "title": "Les sondes Voyager emportent un disque d'or pour les extraterrestres",
+ "subject": "Voyager",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces sondes emportent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un disque d'or",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pour les EXTRATERRESTRES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un message en or",
+   "on": "disque"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que deux sondes spatiales emportent un disque en or destiné à d'éventuels extraterrestres ?"
+   ]
+  },
+  {
+   "say": [
+    "Les sondes Voyager un et deux, lancées en mille neuf cent soixante-dix-sept, portent chacune ce disque,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Voyager 1 et 2",
+     "size": "l",
+     "color": "pink",
+     "on": "Voyager"
+    },
+    {
+     "t": "text",
+     "text": "lancées en 1977",
+     "size": "m",
+     "color": "gold",
+     "on": "mille neuf cent"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sondes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "dessus, il y a des sons de la Terre, comme le vent, les baleines ou un bébé qui pleure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des sons de la Terre :",
+     "size": "m",
+     "on": "sons"
+    },
+    {
+     "t": "text",
+     "text": "vent, baleines, bébé…",
+     "size": "l",
+     "color": "gold",
+     "on": "baleines"
+    }
+   ]
+  },
+  {
+   "say": [
+    "des salutations dans cinquante-cinq langues, et de la musique, de Bach à Chuck Berry,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "bonjour en 55 langues",
+     "size": "l",
+     "color": "pink",
+     "on": "cinquante-cinq",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de Bach à Chuck Berry ♪",
+     "size": "m",
+     "on": "Bach"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sur la pochette, des schémas expliquent comment le lire et d'où il vient."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le mode d'emploi",
+     "size": "m",
+     "on": "schémas"
+    },
+    {
+     "t": "text",
+     "text": "est gravé dessus !",
+     "size": "l",
+     "color": "gold",
+     "on": "lire",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les sondes Voyager emportent un disque en or pour d'éventuels extraterrestres 📀\n\nLancées en 1977, les sondes Voyager 1 et 2 de la NASA transportent chacune un disque de cuivre plaqué or, le « Golden Record ». Il contient des sons de la Terre (le vent, la pluie, des baleines, un bébé), des salutations dans 55 langues, des images de notre planète et de la musique du monde entier, de Bach à Chuck Berry. Sur sa pochette, des schémas gravés expliquent comment le lire et où se trouve la Terre. Une bouteille à la mer lancée dans l'espace interstellaire, qui pourrait voyager des milliards d'années. Un symbole émouvant de l'exploration spatiale.\n\nTu aurais mis quelle chanson dessus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#voyager",
+  "#goldenrecord",
+  "#nasa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/voyager/golden-record-contents/",
+  "https://fr.wikipedia.org/wiki/Voyager_Golden_Record"
+ ]
+}

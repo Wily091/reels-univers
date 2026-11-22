@@ -1,0 +1,173 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 167,
+ "title": "Ce sont la Lune et le Soleil qui font les marées",
+ "subject": "Marées",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les marées,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "c'est la LUNE",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qui les fait ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la Lune tire les océans",
+   "on": "mer"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que ce sont surtout la Lune et le Soleil qui font monter et descendre la mer ?"
+   ]
+  },
+  {
+   "say": [
+    "La gravité de la Lune attire un peu les océans, ce qui crée un renflement d'eau du côté de la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Lune attire",
+     "size": "m",
+     "on": "attire"
+    },
+    {
+     "t": "text",
+     "text": "les océans !",
+     "size": "xl",
+     "color": "pink",
+     "on": "océans",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et un autre renflement de l'autre côté de la Terre, du coup il y a en général deux marées hautes par jour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 renflements",
+     "size": "l",
+     "color": "gold",
+     "on": "autre renflement"
+    },
+    {
+     "t": "text",
+     "text": "= 2 marées hautes / jour",
+     "size": "m",
+     "on": "deux marées"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le Soleil joue aussi, et quand il s'aligne avec la Lune, on a les grandes marées,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Soleil + Lune alignés",
+     "size": "m",
+     "on": "aligne"
+    },
+    {
+     "t": "text",
+     "text": "= grandes marées !",
+     "size": "l",
+     "color": "pink",
+     "on": "grandes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et au Canada, dans la baie de Fundy, l'écart entre marée haute et marée basse peut dépasser quinze mètres."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "baie de Fundy :",
+     "size": "m",
+     "on": "Fundy"
+    },
+    {
+     "t": "text",
+     "text": "+ de 15 m d'écart !",
+     "size": "l",
+     "color": "gold",
+     "on": "quinze",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "marée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Ce sont surtout la Lune et le Soleil qui font les marées 🌊\n\nLa gravité de la Lune attire légèrement les océans de la Terre, créant un renflement d'eau du côté tourné vers elle, et un autre du côté opposé. Comme la Terre tourne sur elle-même, la plupart des côtes connaissent ainsi deux marées hautes et deux marées basses par jour. Le Soleil participe aussi : quand il s'aligne avec la Lune, à la nouvelle et à la pleine Lune, leurs effets s'additionnent et donnent les grandes marées. Au Canada, dans la baie de Fundy, l'écart entre marée haute et marée basse peut dépasser 15 mètres ! Sur la photo, la pleine Lune. De l'astronomie que l'on voit à la plage.\n\nTu as déjà vu une très grande marée ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#marees",
+  "#lune",
+  "#ocean",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/tides/",
+  "https://fr.wikipedia.org/wiki/Marée"
+ ]
+}

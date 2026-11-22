@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 164,
+ "title": "Sur la Lune, tu pèserais six fois moins lourd",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu pèserais",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "6 FOIS moins ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "1/6 de la gravité",
+   "on": "pèserais"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur la Lune, tu pèserais environ six fois moins lourd que sur Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "La gravité de la Lune ne fait qu'environ un sixième de celle de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "gravité de la Lune :",
+     "size": "m",
+     "on": "gravité"
+    },
+    {
+     "t": "text",
+     "text": "≈ 1/6",
+     "size": "xl",
+     "color": "pink",
+     "on": "sixième",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, si tu pèses soixante kilos ici, la balance n'afficherait qu'une dizaine de kilos là-haut,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "60 kg sur Terre",
+     "size": "l",
+     "on": "soixante"
+    },
+    {
+     "t": "text",
+     "text": "→ ~ 10 kg sur la Lune",
+     "size": "l",
+     "color": "gold",
+     "on": "dizaine"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est pour ça que les astronautes d'Apollo se déplaçaient en faisant des petits bonds,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les astronautes",
+     "size": "m",
+     "on": "astronautes"
+    },
+    {
+     "t": "text",
+     "text": "avançaient en bondissant !",
+     "size": "l",
+     "color": "pink",
+     "on": "bonds"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais attention, ta masse ne change pas, c'est juste la Lune qui t'attire beaucoup moins fort."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ta masse ne change pas",
+     "size": "m",
+     "on": "masse"
+    },
+    {
+     "t": "text",
+     "text": "la Lune attire moins !",
+     "size": "l",
+     "color": "gold",
+     "on": "attire",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur la Lune, tu pèserais environ six fois moins que sur Terre 🌕\n\nLa gravité à la surface de la Lune ne représente qu'environ un sixième de celle de la Terre. Une personne qui pèse 60 kg sur Terre verrait donc la balance afficher une dizaine de kilos sur la Lune ! C'est pour ça que les astronautes d'Apollo se déplaçaient souvent en faisant de petits bonds, comme des kangourous, malgré leurs lourdes combinaisons. Attention : ta masse, elle, ne change pas. C'est simplement la Lune, plus petite et moins massive, qui t'attire beaucoup moins fort. Sur la photo, Buzz Aldrin sur la Lune. Un fait de physique et d'astronomie.\n\nTu pèserais combien sur la Lune ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#gravite",
+  "#apollo",
+  "#physique",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

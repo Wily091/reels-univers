@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 158,
+ "title": "Voyager 1 est l'objet humain le plus lointain",
+ "subject": "Voyager 1",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pbd",
+   "file": "assets/images/pale_blue_dot.jpg",
+   "credit": "Le point bleu pâle (Voyager 1) · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/photojournal/pale-blue-dot-revisited/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à presque",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "1 JOUR-LUMIÈRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'objet le + lointain",
+   "on": "lointain"
+  },
+  "photo": "pbd"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'objet fabriqué par l'humain le plus lointain est une sonde lancée en mille neuf cent soixante-dix-sept ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Voyager un, partie en septembre mille neuf cent soixante-dix-sept pour survoler Jupiter et Saturne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Voyager 1",
+     "size": "xl",
+     "color": "pink",
+     "on": "Voyager"
+    },
+    {
+     "t": "text",
+     "text": "partie en 1977",
+     "size": "m",
+     "color": "gold",
+     "on": "septembre"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "partie",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "depuis, elle n'a jamais arrêté de s'éloigner, et elle a même quitté la bulle du Soleil en deux mille douze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle quitte la bulle",
+     "size": "m",
+     "on": "quitté"
+    },
+    {
+     "t": "text",
+     "text": "du Soleil en 2012 !",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille douze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "aujourd'hui, elle est à près de vingt-cinq milliards de kilomètres, si loin que ses messages mettent presque un jour à nous parvenir,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 25 milliards de km",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-cinq",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "messages : ~ 1 jour de trajet",
+     "size": "m",
+     "on": "messages"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est elle qui a pris la célèbre photo de la Terre, ce minuscule point bleu pâle."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle a pris cette photo :",
+     "size": "m",
+     "on": "photo"
+    },
+    {
+     "t": "text",
+     "text": "le point bleu pâle",
+     "size": "l",
+     "color": "gold",
+     "on": "point bleu",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Voyager 1 est l'objet humain le plus lointain de l'univers 🚀\n\nLancée en septembre 1977, la sonde Voyager 1 de la NASA a survolé Jupiter et Saturne avant de poursuivre sa route. En 2012, elle est devenue le premier objet humain à quitter l'héliosphère, la bulle formée par le vent du Soleil, pour entrer dans l'espace interstellaire. Aujourd'hui, elle se trouve à près de 25 milliards de kilomètres de nous : ses signaux mettent près d'une journée à nous parvenir ! C'est aussi elle qui a pris en 1990 la célèbre photo du « point bleu pâle », la Terre vue de 6 milliards de km. Sur l'image, cette photo. Une légende de l'exploration spatiale.\n\nTu savais qu'elle marchait encore ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#voyager1",
+  "#nasa",
+  "#espace",
+  "#interstellaire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+  "https://science.nasa.gov/mission/voyager/"
+ ]
+}

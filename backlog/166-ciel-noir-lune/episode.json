@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 165,
+ "title": "Sur la Lune, le ciel est noir même en plein jour",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "drapeau",
+   "file": "assets/images/drapeau_apollo11.jpg",
+   "credit": "Apollo 11 sur la Lune · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Buzz_salutes_the_U.S._Flag.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "le ciel est noir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en PLEIN JOUR ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un ciel noir de jour",
+   "on": "ciel"
+  },
+  "photo": "drapeau"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur la Lune, le ciel reste noir même en plein jour ?"
+   ]
+  },
+  {
+   "say": [
+    "Sur Terre, le ciel est bleu parce que notre atmosphère disperse la lumière du Soleil dans toutes les directions,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre : ciel bleu",
+     "size": "l",
+     "color": "gold",
+     "on": "bleu"
+    },
+    {
+     "t": "text",
+     "text": "grâce à l'atmosphère",
+     "size": "m",
+     "on": "atmosphère"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais la Lune n'a presque pas d'atmosphère, donc rien pour disperser la lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur la Lune :",
+     "size": "m",
+     "on": "Lune n'a"
+    },
+    {
+     "t": "text",
+     "text": "pas d'atmosphère",
+     "size": "l",
+     "color": "pink",
+     "on": "pas d'atmosphère"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, même quand le Soleil brille, le ciel y est noir comme la nuit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Soleil + ciel noir !",
+     "size": "l",
+     "color": "pink",
+     "on": "noir",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et si on ne voit pas d'étoiles sur les photos d'Apollo, c'est parce que le sol éclairé était bien trop lumineux pour l'appareil."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'étoiles en photo ?",
+     "size": "m",
+     "on": "étoiles"
+    },
+    {
+     "t": "text",
+     "text": "le sol était trop lumineux !",
+     "size": "l",
+     "color": "gold",
+     "on": "lumineux",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur la Lune, le ciel est noir même en plein jour 🌑\n\nSur Terre, le ciel est bleu parce que notre atmosphère disperse la lumière du Soleil, surtout le bleu, dans toutes les directions. Mais la Lune n'a presque pas d'atmosphère : rien ne disperse la lumière. Résultat : même en plein jour, quand le Soleil brille, le ciel lunaire est noir ! Et si l'on ne voit pas d'étoiles sur les photos des missions Apollo, ce n'est pas un complot : le sol et les combinaisons éclairés par le Soleil étaient si lumineux que les réglages des appareils photo ne permettaient pas de capter les étoiles, bien plus faibles. Sur la photo, la mission Apollo 11. Un fait d'astronomie qui répond à une question fréquente.\n\nTu avais remarqué ça sur les photos ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#apollo11",
+  "#ciel",
+  "#ideerecue",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/",
+  "https://spaceplace.nasa.gov/blue-sky/"
+ ]
+}

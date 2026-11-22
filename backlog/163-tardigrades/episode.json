@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 162,
+ "title": "Des tardigrades ont survécu au vide spatial",
+ "subject": "Tardigrades",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces petits animaux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ont survécu",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'ESPACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des survivants de l'espace",
+   "on": "survécu"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que de minuscules animaux ont survécu à un voyage dans le vide de l'espace, sans aucune protection ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle les tardigrades, ou oursons d'eau, et ils mesurent environ un demi-millimètre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les tardigrades",
+     "size": "l",
+     "color": "pink",
+     "on": "tardigrades"
+    },
+    {
+     "t": "text",
+     "text": "~ 0,5 mm",
+     "size": "m",
+     "color": "gold",
+     "on": "demi-millimètre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille sept, des scientifiques en ont envoyé dans l'espace, exposés au vide et au froid,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2007 : envoyés dans l'espace",
+     "size": "m",
+     "on": "deux mille sept"
+    },
+    {
+     "t": "text",
+     "text": "dans le vide !",
+     "size": "l",
+     "color": "gold",
+     "on": "vide"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "envoyé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une partie d'entre eux a survécu, puis a même pu se reproduire au retour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "certains ont survécu !",
+     "size": "l",
+     "color": "pink",
+     "on": "survécu",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "et se sont reproduits",
+     "size": "m",
+     "on": "reproduire"
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce qu'ils peuvent se dessécher et se mettre presque en pause, comme en hibernation extrême."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "leur secret :",
+     "size": "m",
+     "on": "dessécher"
+    },
+    {
+     "t": "text",
+     "text": "une pause extrême",
+     "size": "l",
+     "color": "gold",
+     "on": "pause",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Des tardigrades ont survécu au vide de l'espace 🐻\n\nLes tardigrades, aussi appelés oursons d'eau, sont de minuscules animaux d'environ un demi-millimètre. En 2007, lors de l'expérience européenne TARDIS à bord d'un satellite russe, des scientifiques en ont exposé directement au vide spatial et au froid. Résultat : une partie a survécu et a même pu se reproduire au retour sur Terre ! Leur secret : ils peuvent se dessécher presque entièrement et ralentir leur métabolisme à l'extrême, une sorte de pause de la vie. Ils sont parmi les animaux les plus résistants connus. Un fait étonnant entre biologie et espace.\n\nTu les connaissais, ces petites bêtes ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#tardigrade",
+  "#espace",
+  "#biologie",
+  "#insolite",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Tardigrada",
+  "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Tiny_animals_survive_exposure_to_space"
+ ]
+}

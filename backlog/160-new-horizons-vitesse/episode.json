@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 159,
+ "title": "La sonde New Horizons a dépassé la Lune en 9 heures",
+ "subject": "New Horizons",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde a dépassé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Lune en",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "9 HEURES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le départ le + rapide",
+   "on": "neuf heures"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde a dépassé l'orbite de la Lune seulement neuf heures après son décollage ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est New Horizons, lancée le dix-neuf janvier deux mille six pour aller jusqu'à Pluton,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "New Horizons",
+     "size": "l",
+     "color": "pink",
+     "on": "New Horizons"
+    },
+    {
+     "t": "text",
+     "text": "lancée le 19 janvier 2006",
+     "size": "m",
+     "color": "gold",
+     "on": "dix-neuf"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a quitté la Terre à environ cinquante-huit mille kilomètres heure, la vitesse de lancement la plus rapide de l'histoire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 58 000 km/h",
+     "size": "xl",
+     "color": "gold",
+     "on": "cinquante-huit"
+    },
+    {
+     "t": "text",
+     "text": "le lancement le + rapide !",
+     "size": "m",
+     "on": "plus rapide"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, elle a dépassé l'orbite de la Lune en neuf heures, alors que les astronautes d'Apollo mettaient environ trois jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Lune en 9 h !",
+     "size": "l",
+     "color": "pink",
+     "on": "neuf heures",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "(Apollo : ~ 3 jours)",
+     "size": "s",
+     "color": "soft",
+     "on": "trois jours"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et malgré ça, il lui a fallu presque dix ans pour atteindre Pluton."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "et pourtant…",
+     "size": "m",
+     "on": "malgré"
+    },
+    {
+     "t": "text",
+     "text": "~ 10 ans jusqu'à Pluton !",
+     "size": "l",
+     "color": "gold",
+     "on": "dix ans",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La sonde New Horizons a dépassé l'orbite de la Lune en seulement 9 heures 🚀\n\nLe 19 janvier 2006, la sonde New Horizons de la NASA a décollé vers Pluton à environ 58 000 km/h : la vitesse de lancement la plus élevée jamais atteinte par un engin spatial au départ de la Terre. Résultat : elle a dépassé l'orbite de la Lune en à peine 9 heures, alors que les astronautes d'Apollo mettaient environ trois jours pour y arriver ! Et pourtant, le système solaire est si vaste qu'il lui a fallu presque dix ans pour atteindre Pluton, qu'elle a survolée en juillet 2015. Un fait d'exploration spatiale qui donne l'échelle des distances.\n\nTu sais combien de temps Apollo mettait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#newhorizons",
+  "#pluton",
+  "#nasa",
+  "#vitesse",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/new-horizons/",
+  "https://fr.wikipedia.org/wiki/New_Horizons"
+ ]
+}

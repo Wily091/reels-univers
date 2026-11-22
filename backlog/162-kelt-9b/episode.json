@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 161,
+ "title": "La planète la plus chaude connue dépasse 4 000 °C",
+ "subject": "KELT-9b",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "plus chaude",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que des ÉTOILES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "+ de 4 000 °C !",
+   "on": "chaude"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il existe une planète plus chaude que certaines étoiles ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle KELT neuf b, et c'est une géante gazeuse qui tourne tout près d'une étoile très chaude,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "KELT-9b",
+     "size": "xl",
+     "color": "pink",
+     "on": "KELT"
+    },
+    {
+     "t": "text",
+     "text": "une géante collée à son étoile",
+     "size": "m",
+     "on": "géante"
+    }
+   ]
+  },
+  {
+   "say": [
+    "côté jour, sa température dépasse quatre mille degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 4 000 °C",
+     "size": "xl",
+     "color": "gold",
+     "on": "quatre mille",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "température",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est plus chaud que la surface de nombreuses étoiles, et même les molécules y sont cassées par la chaleur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ chaude que",
+     "size": "m",
+     "on": "chaud"
+    },
+    {
+     "t": "text",
+     "text": "beaucoup d'étoiles !",
+     "size": "l",
+     "color": "pink",
+     "on": "étoiles"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle fait le tour de son étoile en seulement un jour et demi."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 année =",
+     "size": "m",
+     "on": "tour"
+    },
+    {
+     "t": "text",
+     "text": "1,5 jour !",
+     "size": "xl",
+     "color": "gold",
+     "on": "jour et demi",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "KELT-9b, la planète la plus chaude connue, dépasse les 4 000 °C 🔥\n\nDécouverte en 2017, KELT-9b est la planète la plus chaude connue à ce jour. Cette géante gazeuse tourne très près d'une étoile bien plus chaude que le Soleil, et fait le tour de son étoile en seulement 1,5 jour environ. Résultat : sa face éclairée dépasse les 4 000 °C, plus que la surface de nombreuses étoiles ! À ces températures, même les molécules sont brisées en atomes, et la planète perd une partie de son atmosphère, qui s'échappe dans l'espace. Elle se trouve à environ 670 années-lumière. Un monde extrême de l'astronomie.\n\nTu irais en vacances là-bas ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#exoplanete",
+  "#kelt9b",
+  "#astronomie",
+  "#record",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/exoplanet-catalog/kelt-9-b/",
+  "https://fr.wikipedia.org/wiki/KELT-9_b"
+ ]
+}

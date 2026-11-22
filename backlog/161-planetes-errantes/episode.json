@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 160,
+ "title": "Des planètes errent dans l'espace sans étoile",
+ "subject": "Planètes",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Des planètes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "voyagent seules,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "SANS étoile ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des planètes vagabondes",
+   "on": "planètes"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des planètes errent seules dans l'espace, sans aucune étoile autour de laquelle tourner ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle des planètes errantes, ou planètes vagabondes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des planètes errantes",
+     "size": "l",
+     "color": "pink",
+     "on": "errantes",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles auraient été éjectées de leur système solaire à cause de la gravité d'autres planètes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "éjectées de leur système",
+     "size": "m",
+     "on": "éjectées"
+    },
+    {
+     "t": "text",
+     "text": "par la gravité",
+     "size": "l",
+     "color": "gold",
+     "on": "gravité"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "éjectées",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elles flottent dans le noir et le froid, sans lever ni coucher de soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans le noir total",
+     "size": "l",
+     "on": "noir"
+    },
+    {
+     "t": "text",
+     "text": "sans soleil, jamais",
+     "size": "m",
+     "color": "pink",
+     "on": "soleil"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et les astronomes pensent qu'il pourrait y en avoir des milliards rien que dans notre galaxie."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "peut-être des milliards",
+     "size": "l",
+     "color": "gold",
+     "on": "milliards"
+    },
+    {
+     "t": "text",
+     "text": "dans notre galaxie !",
+     "size": "m",
+     "on": "galaxie",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Des planètes errent seules dans l'espace, sans aucune étoile 🌑\n\nCertaines planètes ne tournent autour d'aucune étoile : elles voyagent seules dans l'espace. On les appelle les planètes errantes ou vagabondes. Elles auraient été éjectées de leur système d'origine par la gravité d'autres planètes, ou se seraient formées seules. Elles flottent dans le noir et le froid, sans jamais voir de lever de soleil. Difficiles à repérer, elles sont détectées grâce à de légères déformations de la lumière d'étoiles lointaines. Les astronomes pensent qu'il pourrait y en avoir des milliards dans la Voie lactée, et le futur télescope spatial Roman de la NASA devrait en trouver beaucoup. Un mystère fascinant de l'astronomie.\n\nÇa te fait peur ou ça te fascine ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#exoplanete",
+  "#planeteerrante",
+  "#astronomie",
+  "#mystere",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Planète_interstellaire",
+  "https://science.nasa.gov/exoplanets/"
+ ]
+}

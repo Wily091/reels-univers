@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 166,
+ "title": "Le coin le plus froid mesuré dans le système solaire est sur la Lune",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "farside",
+   "file": "assets/images/lune_face_cachee_lro.jpg",
+   "credit": "Face cachée de la Lune · NASA/GSFC/Arizona State University (LRO)",
+   "page": "https://commons.wikimedia.org/wiki/File:Moon_Farside_LRO.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'endroit le + froid",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "jamais mesuré",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est sur la LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "~ −250 °C !",
+   "on": "froid"
+  },
+  "photo": "farside"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un des endroits les plus froids jamais mesurés dans le système solaire se trouve sur la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Près du pôle sud de la Lune, il y a des cratères si profonds que le Soleil n'y entre jamais,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au pôle sud :",
+     "size": "m",
+     "on": "pôle sud"
+    },
+    {
+     "t": "text",
+     "text": "des cratères dans l'ombre",
+     "size": "l",
+     "color": "gold",
+     "on": "cratères"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "profonds",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la sonde LRO de la NASA y a mesuré des températures d'environ moins deux cent cinquante degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ −250 °C",
+     "size": "xl",
+     "color": "pink",
+     "on": "moins deux cent",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "températures",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est plus froid que la surface de Pluton,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ froid que",
+     "size": "m",
+     "on": "froid que"
+    },
+    {
+     "t": "text",
+     "text": "Pluton !",
+     "size": "xl",
+     "color": "gold",
+     "on": "Pluton"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dans ce froid extrême, de la glace d'eau peut rester piégée depuis des milliards d'années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "et de la glace d'eau",
+     "size": "l",
+     "color": "pink",
+     "on": "glace"
+    },
+    {
+     "t": "text",
+     "text": "piégée depuis des milliards d'années",
+     "size": "s",
+     "on": "milliards",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'un des endroits les plus froids du système solaire est sur la Lune 🥶\n\nPrès du pôle sud de la Lune, certains cratères sont si profonds que la lumière du Soleil n'y pénètre jamais. La sonde Lunar Reconnaissance Orbiter (LRO) de la NASA y a mesuré des températures d'environ −250 °C, plus froides que la surface de Pluton ! C'est l'un des endroits les plus froids jamais mesurés dans le système solaire. Dans ce froid extrême, de la glace d'eau peut rester piégée depuis des milliards d'années, une ressource précieuse pour les futures missions habitées du programme Artemis. Sur la photo, la face cachée de la Lune vue par LRO.\n\nTu t'attendais à ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#froid",
+  "#lro",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/",
+  "https://fr.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter"
+ ]
+}

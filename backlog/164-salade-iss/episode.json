@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 163,
+ "title": "Les astronautes ont mangé une salade cultivée dans l'espace",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ils ont mangé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une salade cultivée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'ESPACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une salade de l'espace",
+   "on": "salade"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des astronautes ont déjà mangé une salade qu'ils avaient fait pousser dans l'espace ?"
+   ]
+  },
+  {
+   "say": [
+    "À bord de la Station spatiale, il y a un petit potager appelé Veggie, éclairé par des lumières rouges et bleues,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un potager : Veggie",
+     "size": "l",
+     "color": "pink",
+     "on": "Veggie"
+    },
+    {
+     "t": "text",
+     "text": "lumières rouges et bleues",
+     "size": "m",
+     "on": "lumières"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le dix août deux mille quinze, les astronautes ont goûté pour la première fois la laitue qu'ils y avaient cultivée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "10 août 2015",
+     "size": "l",
+     "color": "gold",
+     "on": "dix août"
+    },
+    {
+     "t": "text",
+     "text": "la 1re salade de l'espace !",
+     "size": "m",
+     "on": "laitue",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils l'ont assaisonnée avec un peu d'huile d'olive et de vinaigre balsamique,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "huile d'olive",
+     "size": "m",
+     "on": "huile"
+    },
+    {
+     "t": "text",
+     "text": "+ vinaigre balsamique",
+     "size": "m",
+     "color": "gold",
+     "on": "vinaigre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ces expériences préparent les futures missions vers Mars, où il faudra produire sa propre nourriture."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en vue de Mars :",
+     "size": "m",
+     "on": "Mars"
+    },
+    {
+     "t": "text",
+     "text": "cultiver sa nourriture",
+     "size": "l",
+     "color": "pink",
+     "on": "nourriture",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les astronautes ont mangé une salade cultivée dans l'espace 🥬\n\nÀ bord de la Station spatiale internationale se trouve un petit potager appelé Veggie, où les plantes poussent sous des lumières LED rouges et bleues. Le 10 août 2015, les astronautes ont goûté pour la première fois une laitue romaine rouge cultivée dans l'espace, assaisonnée d'un filet d'huile d'olive et de vinaigre balsamique ! Depuis, ils ont aussi fait pousser des radis, des piments ou des fleurs. Ces expériences préparent les futures missions de longue durée, vers la Lune ou Mars, où les équipages devront produire une partie de leur nourriture. Sur la photo, la Station spatiale internationale.\n\nTu la goûterais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#nasa",
+  "#jardin",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/missions/station/iss-research/veggie/",
+  "https://fr.wikipedia.org/wiki/Veggie_(Station_spatiale_internationale)"
+ ]
+}
