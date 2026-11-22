@@ -1,19 +1,185 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 44,
  "title": "Saturne a 274 lunes",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Saturne détient le record : 274 lunes confirmées en mars 2025 🪐🌑\n\nC'est bien plus que toutes les autres planètes réunies. Et d'autres attendent encore confirmation.\n\nTu aurais dit combien ? 👇",
- "hashtags": ["#saturne", "#lunes", "#espace", "#univers", "#astronomie", "#systemesolaire", "#record", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://science.nasa.gov/saturn/facts/", "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"],
+ "subject": "Saturne",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "saturne",
+   "file": "assets/images/saturne_cassini.jpg",
+   "credit": "Saturne vue par Cassini · NASA/JPL/Space Science Institute",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.06,
+    0,
+    0.88,
+    1
+   ],
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Nous, on a 1 Lune.",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "Saturne en a…",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "274 ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "saturne",
+  "tagline": {
+   "text": "274 lunes !",
+   "on": "deux cent"
+  }
+ },
  "scenes": [
-  {"say": ["Nous, on a une Lune."], "ghost": "1 LUNE", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "NOUS ?", "at": 0, "max": 260}, {"text": "[UNE LUNE.]", "at": [0, 0.6], "punch": true, "max": 340}]},
-  {"say": ["Saturne, elle, en a deux cent soixante-quatorze."], "hit": true, "ghost": "274", "lines": [{"text": "SATURNE ?", "at": [0, 0.1]}, {"text": "274.", "at": [0, 0.55], "punch": true, "max": 460}]},
-  {"say": ["C'est le nombre de lunes confirmées en mars deux mille vingt-cinq."], "ghost": "RECORD", "kicker": "MARS 2025 · 274 LUNES CONFIRMÉES", "il": {"type": "orbit", "center": "SATURNE", "speed": 1.4}, "lines": [{"text": "[274 LUNES]", "at": [0, 0.3], "punch": true, "count": {"from": 0, "to": 274, "fmt": "[{v} LUNES]", "dur": 0.9}}, {"text": "CONFIRMÉES.", "at": [0, 0.5]}, {"text": "MARS 2025.", "at": [0, 0.85]}]},
-  {"say": ["Plus que toutes les autres planètes réunies."], "ghost": "TOUTES", "il": {"type": "planet", "ring": true, "label": "SATURNE"}, "lines": [{"text": "PLUS QUE", "at": [0, 0.05]}, {"text": "[TOUTES LES AUTRES]", "at": [0, 0.4], "punch": true}, {"text": "RÉUNIES.", "at": [0, 0.85]}]},
-  {"say": ["La plupart sont minuscules : quelques kilomètres à peine.", "Des morceaux de roche et de glace capturés."], "ghost": "MINI", "il": {"type": "tunnel"}, "lines": [{"text": "QUELQUES", "at": [0, 0.6]}, {"text": "[KILOMÈTRES.]", "at": [0, 0.85], "punch": true}, {"text": "ROCHE ET GLACE.", "at": [1, 0.6], "gap": 30}]},
-  {"say": ["Mais il y a aussi des géantes, comme Titan, plus grande que la planète Mercure."], "ghost": "TITAN", "kicker": "TITAN", "il": {"type": "globe", "label": "TITAN"}, "lines": [{"text": "ET DES GÉANTES :", "at": [0, 0.15]}, {"text": "[TITAN]", "at": [0, 0.45], "punch": true, "max": 320}, {"text": "PLUS GRANDE QUE MERCURE.", "at": [0, 0.9], "max": 150}]},
-  {"say": ["Et d'autres lunes attendent encore d'être confirmées… le compteur n'a pas fini de grimper."], "hit": true, "ghost": "+", "lines": [{"text": "ET LE COMPTEUR", "at": [0, 0.6]}, {"text": "GRIMPE.", "at": [0, 0.9], "punch": true, "max": 420}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que Saturne a deux cent soixante-quatorze lunes ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est le nombre de lunes confirmées en mars deux mille vingt-cinq, plus que toutes les autres planètes réunies,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "274 lunes",
+     "size": "xl",
+     "color": "gold",
+     "on": "nombre",
+     "count": {
+      "to": 274,
+      "fmt": "{n} lunes"
+     }
+    },
+    {
+     "t": "text",
+     "text": "(mars 2025)",
+     "size": "s",
+     "color": "soft",
+     "on": "mars"
+    },
+    {
+     "t": "text",
+     "text": "+ que toutes les autres !",
+     "size": "m",
+     "color": "pink",
+     "on": "réunies"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la plupart sont minuscules, quelques kilomètres à peine, des morceaux de roche et de glace capturés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la plupart :",
+     "size": "m",
+     "on": "plupart"
+    },
+    {
+     "t": "text",
+     "text": "quelques km à peine",
+     "size": "l",
+     "color": "pink",
+     "on": "kilomètres"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "minuscules",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il y a aussi des géantes, comme Titan, plus grande que la planète Mercure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Titan",
+     "size": "xl",
+     "color": "gold",
+     "on": "Titan"
+    },
+    {
+     "t": "text",
+     "text": "+ grande que Mercure !",
+     "size": "m",
+     "color": "pink",
+     "on": "Mercure",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et d'autres attendent encore d'être confirmées, donc le compteur n'a pas fini de grimper."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le compteur",
+     "size": "m",
+     "on": "compteur"
+    },
+    {
+     "t": "text",
+     "text": "continue de grimper !",
+     "size": "l",
+     "color": "pink",
+     "on": "grimper"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Saturne a 274 lunes 🪐\n\nNous, on a une seule Lune. Saturne, elle, en compte 274 confirmées depuis mars 2025, plus que toutes les autres planètes du système solaire réunies ! La plupart sont minuscules, à peine quelques kilomètres : des morceaux de roche et de glace capturés par la gravité de la planète. Mais il y a aussi des géantes, comme Titan, plus grande que la planète Mercure. Et d'autres lunes attendent encore d'être confirmées : le record n'a pas fini de grimper. Sur la photo, Saturne vue par la sonde Cassini. Un record d'astronomie impressionnant.\n\nTu aurais deviné combien ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#saturne",
+  "#lunes",
+  "#systemesolaire",
+  "#record",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/facts/",
+  "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
  ]
 }

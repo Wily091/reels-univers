@@ -1,19 +1,164 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 46,
  "title": "Triton, la grande lune qui tourne à l'envers",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Triton, la plus grande lune de Neptune, tourne autour de sa planète dans le sens inverse de sa rotation 🔄\n\nC'est la seule grande lune du système solaire à faire ça. Elle aurait été capturée par Neptune.\n\nTu le savais ? 👇",
- "hashtags": ["#triton", "#neptune", "#lune", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://science.nasa.gov/neptune/facts/"],
+ "subject": "Triton",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "triton",
+   "file": "assets/images/triton_voyager2.jpg",
+   "credit": "Triton vue par Voyager 2 · NASA/JPL/USGS",
+   "page": "https://science.nasa.gov/neptune/moons/triton/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette grande lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tourne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "À L'ENVERS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "triton",
+  "tagline": {
+   "text": "elle tourne à l'envers !",
+   "on": "envers"
+  }
+ },
  "scenes": [
-  {"say": ["Il existe une grande lune qui tourne à l'envers."], "ghost": "TRITON", "il": {"type": "orbit", "center": "NEPTUNE", "speed": -1.2}, "lines": [{"text": "UNE GRANDE LUNE", "at": [0, 0.2]}, {"text": "QUI TOURNE", "at": [0, 0.55]}, {"text": "[À L'ENVERS.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Elle s'appelle Triton.", "Et elle tourne autour de Neptune."], "hit": true, "ghost": "TRITON", "lines": [{"text": "TRITON.", "at": [0, 0.5], "punch": true, "max": 440}, {"text": "LUNE DE NEPTUNE.", "at": [1, 0.5]}]},
-  {"say": ["Presque toutes les grandes lunes tournent dans le même sens que la rotation de leur planète."], "ghost": "SENS", "il": {"type": "clock", "forward": true}, "lines": [{"text": "NORMALEMENT,", "at": [0, 0.1]}, {"text": "[LE MÊME SENS]", "at": [0, 0.6], "punch": true}, {"text": "QUE LA PLANÈTE.", "at": [0, 0.9]}]},
-  {"say": ["Triton, elle, fait l'inverse : on appelle ça une orbite rétrograde."], "ghost": "RÉTROGRADE", "kicker": "ORBITE RÉTROGRADE", "il": {"type": "clock"}, "lines": [{"text": "TRITON :", "at": [0, 0.05], "max": 260}, {"text": "[L'INVERSE.]", "at": [0, 0.3], "punch": true}, {"text": "ORBITE RÉTROGRADE.", "at": [0, 0.85]}]},
-  {"say": ["C'est la seule grande lune du système solaire dans ce cas."], "hit": true, "ghost": "SEULE", "lines": [{"text": "LA SEULE", "at": [0, 0.2], "punch": true, "max": 400}, {"text": "GRANDE LUNE.", "at": [0, 0.6]}]},
-  {"say": ["Une explication possible : Triton ne serait pas née autour de Neptune…", "elle aurait été capturée par sa gravité."], "ghost": "CAPTURÉE", "il": {"type": "comet", "label": "TRITON ?"}, "lines": [{"text": "PAS NÉE ICI ?", "at": [0, 0.7]}, {"text": "[CAPTURÉE]", "at": [1, 0.5], "punch": true, "max": 340}, {"text": "PAR NEPTUNE.", "at": [1, 0.85]}]},
-  {"say": ["Une voyageuse venue de plus loin… prisonnière de Neptune."], "ghost": "PRISONNIÈRE", "il": {"type": "planet", "label": "NEPTUNE"}, "lines": [{"text": "UNE VOYAGEUSE", "at": [0, 0.15]}, {"text": "[PRISONNIÈRE.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'il existe une grande lune qui tourne à l'envers ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Triton, et elle tourne autour de Neptune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Triton",
+     "size": "xl",
+     "color": "pink",
+     "on": "Triton"
+    },
+    {
+     "t": "text",
+     "text": "lune de Neptune",
+     "size": "m",
+     "color": "gold",
+     "on": "Neptune"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors que presque toutes les grandes lunes tournent dans le même sens que la rotation de leur planète, Triton, elle, fait l'inverse,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les autres : même sens",
+     "size": "m",
+     "on": "même sens"
+    },
+    {
+     "t": "text",
+     "text": "Triton : à l'envers !",
+     "size": "l",
+     "color": "pink",
+     "on": "inverse"
+    },
+    {
+     "t": "round",
+     "img": "triton",
+     "on": "inverse"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est la seule grande lune du système solaire dans ce cas,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la seule",
+     "size": "xl",
+     "color": "gold",
+     "on": "seule",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "grande lune comme ça",
+     "size": "m",
+     "on": "grande"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une explication possible, c'est qu'elle ne serait pas née autour de Neptune, mais qu'elle aurait été capturée par sa gravité."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas née là…",
+     "size": "m",
+     "on": "née"
+    },
+    {
+     "t": "text",
+     "text": "capturée !",
+     "size": "xl",
+     "color": "pink",
+     "on": "capturée",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Triton, la grande lune qui tourne à l'envers 🌑\n\nTriton, la plus grande lune de Neptune, a une particularité unique : elle tourne autour de sa planète dans le sens inverse de la rotation de Neptune. On appelle ça une orbite rétrograde, et c'est la seule grande lune du système solaire dans ce cas ! L'explication la plus probable : Triton ne serait pas née autour de Neptune, mais aurait été capturée par sa gravité, peut-être en venant de la lointaine ceinture de Kuiper. Sur l'image, Triton vue par la sonde Voyager 2. Un mystère de l'astronomie.\n\nTu connaissais Triton ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#triton",
+  "#neptune",
+  "#astronomie",
+  "#systemesolaire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/neptune/facts/"
  ]
 }

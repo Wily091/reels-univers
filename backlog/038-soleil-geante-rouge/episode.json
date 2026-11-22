@@ -1,19 +1,173 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 38,
  "title": "Un jour, le Soleil deviendra une géante rouge",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Dans environ 5 milliards d'années, le Soleil gonflera pour devenir une géante rouge ☀️➡️🔴\n\nIl devrait avaler Mercure et Vénus… et peut-être la Terre. Avant de finir en naine blanche.\n\nPas de panique, on a le temps 😄👇",
- "hashtags": ["#soleil", "#geanterouge", "#espace", "#univers", "#astronomie", "#etoile", "#futur", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://science.nasa.gov/sun/facts/"],
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un jour, le Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "va gonfler et avaler",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "VÉNUS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "soleil",
+  "tagline": {
+   "text": "une future géante rouge",
+   "on": "éternellement"
+  }
+ },
  "scenes": [
-  {"say": ["Le Soleil ne brillera pas éternellement."], "ghost": "SOLEIL", "kicker": "ÂGE DU SOLEIL · ~4,6 MILLIARDS D'ANNÉES", "il": {"type": "sun"}, "lines": [{"text": "LE SOLEIL", "at": [0, 0.1], "max": 300}, {"text": "[NE SERA PAS ÉTERNEL.]", "at": [0, 0.7], "punch": true}]},
-  {"say": ["Il a environ quatre milliards et demi d'années… et il est à peu près à la moitié de sa vie."], "ghost": "MI-VIE", "il": {"type": "timeline", "left": "NAISSANCE", "leftSub": "-4,6 MD", "right": "FIN", "rightSub": "+5 MD"}, "lines": [{"text": "IL A", "at": [0, 0.1], "max": 200}, {"text": "[4,5 MILLIARDS D'ANNÉES]", "at": [0, 0.4], "punch": true}, {"text": "LA MOITIÉ DE SA VIE.", "at": [0, 0.9]}]},
-  {"say": ["Dans environ cinq milliards d'années, il aura épuisé son carburant…", "et il va gonfler."], "ghost": "5 MD", "kicker": "DANS ~5 MILLIARDS D'ANNÉES", "il": {"type": "burst"}, "lines": [{"text": "DANS", "at": [0, 0.05], "max": 200}, {"text": "[5 MILLIARDS D'ANNÉES]", "at": [0, 0.3], "punch": true}, {"text": "IL VA [GONFLER.]", "at": [1, 0.5]}]},
-  {"say": ["Il deviendra une géante rouge."], "hit": true, "ghost": "ROUGE", "lines": [{"text": "UNE GÉANTE", "at": [0, 0.4], "punch": true}, {"text": "ROUGE.", "at": [0, 0.8], "max": 420}]},
-  {"say": ["Si grosse qu'elle avalera Mercure et Vénus.", "Et peut-être même la Terre."], "ghost": "AVALER", "il": {"type": "orbit", "center": "SOLEIL", "speed": 1}, "lines": [{"text": "ELLE AVALERA", "at": [0, 0.3]}, {"text": "[MERCURE, VÉNUS…]", "at": [0, 0.8], "punch": true}, {"text": "[ET LA TERRE ?]", "at": [1, 0.6], "gap": 30}]},
-  {"say": ["Ensuite, il ne restera de lui qu'un petit cœur brûlant : une naine blanche."], "ghost": "NAINE", "kicker": "FIN DE VIE · NAINE BLANCHE", "il": {"type": "starsPulse"}, "lines": [{"text": "IL FINIRA EN", "at": [0, 0.6]}, {"text": "[NAINE BLANCHE.]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["Mais rassure-toi… on a encore un peu de temps."], "hit": true, "ghost": "TEMPS", "lines": [{"text": "RASSURE-TOI…", "at": [0, 0.2]}, {"text": "ON A LE TEMPS.", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que le Soleil ne brillera pas éternellement ?"
+   ]
+  },
+  {
+   "say": [
+    "Il a environ quatre milliards et demi d'années, et il est à peu près à la moitié de sa vie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "âge : 4,6 milliards d'années",
+     "size": "m",
+     "color": "gold",
+     "on": "quatre milliards"
+    },
+    {
+     "t": "text",
+     "text": "à la moitié de sa vie",
+     "size": "l",
+     "color": "pink",
+     "on": "moitié"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "vie",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dans environ cinq milliards d'années, il aura épuisé son carburant et il va gonfler pour devenir une géante rouge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans 5 milliards d'années :",
+     "size": "m",
+     "on": "cinq milliards"
+    },
+    {
+     "t": "text",
+     "text": "une géante rouge !",
+     "size": "xl",
+     "color": "pink",
+     "on": "géante",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "si grosse qu'elle avalera Mercure et Vénus, et peut-être même la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Mercure, Vénus avalées",
+     "size": "l",
+     "color": "gold",
+     "on": "Mercure"
+    },
+    {
+     "t": "text",
+     "text": "et peut-être la Terre…",
+     "size": "m",
+     "color": "pink",
+     "on": "Terre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis il ne restera de lui qu'un petit cœur brûlant, une naine blanche."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à la fin :",
+     "size": "m",
+     "on": "restera"
+    },
+    {
+     "t": "text",
+     "text": "une naine blanche",
+     "size": "l",
+     "color": "gold",
+     "on": "naine"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "naine",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Un jour, le Soleil deviendra une géante rouge ☀️\n\nNotre étoile a environ 4,6 milliards d'années et elle est à peu près à la moitié de sa vie. Dans environ 5 milliards d'années, quand elle aura épuisé l'hydrogène de son cœur, elle va gonfler et devenir une géante rouge, si énorme qu'elle avalera Mercure et Vénus, et peut-être même la Terre. Ensuite, il ne restera du Soleil qu'un petit cœur très chaud et très dense : une naine blanche. Rassure-toi, on a encore un peu de temps ! Sur la photo, le Soleil vu par le satellite SDO de la NASA. L'astrophysique de notre étoile.\n\nÇa te rassure ou ça t'inquiète ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#geanterouge",
+  "#astrophysique",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/"
  ]
 }

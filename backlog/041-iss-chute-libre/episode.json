@@ -1,19 +1,173 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 40,
  "title": "Dans la Station spatiale, la gravité est presque la même que sur Terre",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Idée reçue : il n'y a pas de gravité dans la Station spatiale. Faux ! À 400 km d'altitude, la gravité vaut encore environ 90 % de celle au sol 🛰️\n\nSi les astronautes flottent, c'est parce qu'ils sont en chute libre permanente autour de la Terre.\n\nTu le savais ? 👇",
- "hashtags": ["#iss", "#gravite", "#astronaute", "#espace", "#physique", "#science", "#lesaviezvous", "#univers", "#ideesrecues", "#stationspatiale"],
- "sources": ["https://www.thenakedscientists.com/articles/questions/what-altitude-does-weightlessness-begin", "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"],
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station spatiale vue de Crew Dragon · NASA",
+   "page": "https://www.nasa.gov/international-space-station/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les astronautes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "flottent… mais la gravité",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est LÀ ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "iss",
+  "tagline": {
+   "text": "90 % de la gravité !",
+   "on": "gravité"
+  }
+ },
  "scenes": [
-  {"say": ["Dans la Station spatiale, les astronautes flottent… parce qu'il n'y a pas de gravité ?"], "ghost": "GRAVITÉ", "kicker": "IDÉE REÇUE", "il": {"type": "orbit", "center": "TERRE", "speed": 2.5}, "lines": [{"text": "ILS FLOTTENT", "at": [0, 0.3]}, {"text": "CAR IL N'Y A", "at": [0, 0.6]}, {"text": "[PAS DE GRAVITÉ ?]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["Faux."], "hit": true, "ghost": "FAUX", "lines": [{"text": "FAUX.", "at": [0, 0.05], "punch": true, "max": 460}]},
-  {"say": ["À cette altitude, la gravité est encore d'environ quatre-vingt-dix pour cent de celle au sol."], "ghost": "90 %", "kicker": "GRAVITÉ À BORD · ~90 %", "il": {"type": "thermo", "label": "90 %", "level": 0.9}, "lines": [{"text": "LA GRAVITÉ :", "at": [0, 0.3]}, {"text": "[~90 %]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 90, "fmt": "[~{v} %]", "dur": 0.8}}, {"text": "DE CELLE AU SOL.", "at": [0, 0.95]}]},
-  {"say": ["Alors pourquoi ils flottent ?", "Parce qu'ils tombent."], "ghost": "TOMBER", "il": {"type": "question"}, "lines": [{"text": "POURQUOI ILS FLOTTENT ?", "at": [0, 0.2], "max": 150}, {"text": "[ILS TOMBENT.]", "at": [1, 0.5], "punch": true}]},
-  {"say": ["La station tombe en permanence vers la Terre.", "Mais elle va si vite… qu'elle rate le sol, en continu."], "ghost": "CHUTE", "kicker": "CHUTE LIBRE · ~28 000 KM/H", "il": {"type": "orbit", "center": "TERRE", "speed": 3}, "lines": [{"text": "ELLE TOMBE…", "at": [0, 0.4]}, {"text": "MAIS VA SI VITE", "at": [1, 0.3]}, {"text": "[QU'ELLE RATE LE SOL.]", "at": [1, 0.85], "punch": true}]},
-  {"say": ["Elle tourne autour de la Terre en chute libre.", "Et tout ce qui est à bord tombe avec elle, à la même vitesse."], "ghost": "ORBITE", "il": {"type": "globe"}, "lines": [{"text": "TOUT TOMBE", "at": [1, 0.3]}, {"text": "[EN MÊME TEMPS.]", "at": [1, 0.75], "punch": true}]},
-  {"say": ["C'est ça, l'apesanteur : une chute libre qui ne finit jamais."], "hit": true, "ghost": "APESANTEUR", "lines": [{"text": "UNE CHUTE", "at": [0, 0.5], "punch": true}, {"text": "SANS FIN.", "at": [0, 0.85]}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que dans la Station spatiale, les astronautes flottent alors qu'il y a encore de la gravité ?"
+   ]
+  },
+  {
+   "say": [
+    "À cette altitude, la gravité est encore d'environ quatre-vingt-dix pour cent de celle qu'on a au sol,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "gravité là-haut :",
+     "size": "m",
+     "on": "gravité"
+    },
+    {
+     "t": "text",
+     "text": "~ 90 %",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre-vingt-dix",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors s'ils flottent, c'est parce qu'ils tombent, puisque la station tombe en permanence vers la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ils flottent car…",
+     "size": "m",
+     "on": "flottent"
+    },
+    {
+     "t": "text",
+     "text": "ils tombent !",
+     "size": "xl",
+     "color": "gold",
+     "on": "tombent"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "tombe",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais elle va tellement vite qu'elle rate le sol en continu, du coup elle tourne autour de la Terre en chute libre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "si vite qu'elle",
+     "size": "m",
+     "on": "vite"
+    },
+    {
+     "t": "text",
+     "text": "rate le sol !",
+     "size": "l",
+     "color": "pink",
+     "on": "rate"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourne",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et tout ce qui est à bord tombe avec elle, à la même vitesse."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tout tombe ensemble",
+     "size": "l",
+     "color": "gold",
+     "on": "tombe avec"
+    },
+    {
+     "t": "text",
+     "text": "= l'apesanteur",
+     "size": "m",
+     "color": "pink",
+     "on": "vitesse",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans la Station spatiale, la gravité est presque la même que sur Terre 🧑‍🚀\n\nC'est une idée reçue : les astronautes ne flottent pas parce qu'il n'y a pas de gravité. À l'altitude de la Station spatiale internationale (ISS), environ 400 km, la gravité vaut encore à peu près 90 % de celle qu'on ressent au sol ! S'ils flottent, c'est parce qu'ils tombent : la station chute en permanence vers la Terre, mais elle va si vite qu'elle « rate » le sol et tourne autour de la planète. Tout ce qui est à bord tombe avec elle, à la même vitesse : c'est ça, l'apesanteur. Sur la photo, l'ISS vue depuis la capsule Crew Dragon. De la physique de l'espace expliquée simplement.\n\nTu pensais qu'il n'y avait pas de gravité ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#apesanteur",
+  "#physique",
+  "#ideerecue",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+  "https://www.thenakedscientists.com/articles/questions/what-altitude-does-weightlessness-begin"
  ]
 }

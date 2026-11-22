@@ -1,19 +1,178 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 43,
  "title": "L'étoile du berger n'est pas une étoile",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Le point très brillant qu'on appelle « l'étoile du berger », le soir ou le matin, n'est pas une étoile : c'est la planète Vénus ✨\n\nAprès la Lune, c'est l'objet le plus brillant du ciel nocturne.\n\nTu l'as déjà repérée ? 👇",
- "hashtags": ["#venus", "#etoileduberger", "#ciel", "#espace", "#univers", "#astronomie", "#planetes", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://science.nasa.gov/venus/facts/"],
+ "subject": "Vénus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'étoile du berger",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'est pas",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une ÉTOILE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "venus",
+  "tagline": {
+   "text": "c'est Vénus !",
+   "on": "étoile"
+  }
+ },
  "scenes": [
-  {"say": ["Ce point très brillant, le soir, juste après le coucher du soleil…"], "ghost": "BERGER", "il": {"type": "horizon"}, "lines": [{"text": "CE POINT", "at": [0, 0.05]}, {"text": "[TRÈS BRILLANT]", "at": [0, 0.25], "punch": true}, {"text": "LE SOIR…", "at": [0, 0.55]}]},
-  {"say": ["On l'appelle l'étoile du berger.", "Mais ce n'est pas une étoile."], "hit": true, "ghost": "ÉTOILE", "lines": [{"text": "L'ÉTOILE DU BERGER…", "at": [0, 0.3]}, {"text": "PAS UNE ÉTOILE.", "at": [1, 0.5], "punch": true}]},
-  {"say": ["C'est la planète Vénus."], "ghost": "VÉNUS", "kicker": "DEUXIÈME PLANÈTE DU SYSTÈME SOLAIRE", "il": {"type": "planet", "label": "VÉNUS"}, "lines": [{"text": "C'EST", "at": 0, "max": 200}, {"text": "[VÉNUS.]", "at": [0, 0.5], "punch": true, "max": 380}]},
-  {"say": ["Après la Lune, c'est l'objet le plus brillant du ciel nocturne."], "ghost": "BRILLANT", "il": {"type": "starsPulse"}, "lines": [{"text": "APRÈS LA LUNE,", "at": [0, 0.1]}, {"text": "[LA PLUS BRILLANTE]", "at": [0, 0.6], "punch": true}, {"text": "DU CIEL DE NUIT.", "at": [0, 0.9]}]},
-  {"say": ["Elle est enveloppée de nuages épais qui renvoient énormément de lumière.", "Des nuages… d'acide sulfurique."], "ghost": "NUAGES", "kicker": "NUAGES D'ACIDE SULFURIQUE", "il": {"type": "globe", "label": "VÉNUS"}, "lines": [{"text": "DES NUAGES ÉPAIS", "at": [0, 0.2]}, {"text": "QUI [RENVOIENT]", "at": [0, 0.6]}, {"text": "[LA LUMIÈRE.]", "at": [0, 0.85], "punch": true}, {"text": "D'ACIDE SULFURIQUE.", "at": [1, 0.6], "gap": 30, "max": 150}]},
-  {"say": ["Dans l'Antiquité, on croyait même que c'était deux astres différents : une étoile du matin… et une étoile du soir."], "ghost": "MATIN", "kicker": "ÉTOILE DU MATIN · ÉTOILE DU SOIR", "il": {"type": "sun"}, "lines": [{"text": "ON CROYAIT À", "at": [0, 0.2]}, {"text": "[DEUX ASTRES :]", "at": [0, 0.4], "punch": true}, {"text": "LE MATIN…", "at": [0, 0.75]}, {"text": "ET LE SOIR.", "at": [0, 0.95]}]},
-  {"say": ["Alors la prochaine fois que tu la vois… dis bonjour à Vénus."], "hit": true, "ghost": "BONJOUR", "lines": [{"text": "DIS BONJOUR", "at": [0, 0.5]}, {"text": "À VÉNUS.", "at": [0, 0.85], "punch": true, "max": 400}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que l'étoile du berger, ce point très brillant le soir, n'est pas une étoile ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est la planète Vénus, et après la Lune, c'est l'objet le plus brillant du ciel la nuit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "c'est Vénus !",
+     "size": "xl",
+     "color": "pink",
+     "on": "Vénus",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "la + brillante après la Lune",
+     "size": "s",
+     "on": "brillant"
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce qu'elle est enveloppée de nuages épais qui renvoient énormément de lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des nuages épais",
+     "size": "l",
+     "on": "nuages"
+    },
+    {
+     "t": "text",
+     "text": "qui renvoient la lumière",
+     "size": "m",
+     "color": "gold",
+     "on": "lumière"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "nuages",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "des nuages d'acide sulfurique,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "d'acide sulfurique !",
+     "size": "l",
+     "color": "pink",
+     "on": "acide",
+     "under": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dans l'Antiquité, on croyait même que c'était deux astres différents, une étoile du matin et une étoile du soir."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "autrefois :",
+     "size": "m",
+     "on": "Antiquité"
+    },
+    {
+     "t": "text",
+     "text": "étoile du matin",
+     "size": "m",
+     "color": "gold",
+     "on": "matin"
+    },
+    {
+     "t": "text",
+     "text": "+ étoile du soir",
+     "size": "m",
+     "color": "gold",
+     "on": "soir"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "soir",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'étoile du berger n'est pas une étoile ✨\n\nCe point très brillant qu'on voit le soir après le coucher du Soleil, ou le matin avant l'aube, on l'appelle « l'étoile du berger ». Mais c'est en réalité la planète Vénus ! Après la Lune, c'est l'objet le plus brillant du ciel nocturne, car elle est enveloppée d'épais nuages d'acide sulfurique qui renvoient énormément de lumière. Dans l'Antiquité, on pensait même qu'il s'agissait de deux astres différents : l'étoile du matin et l'étoile du soir. Sur la photo, Vénus vue par la sonde Mariner 10. De l'astronomie à observer à l'œil nu.\n\nTu l'as déjà repérée dans le ciel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#etoileduberger",
+  "#astronomie",
+  "#ciel",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/venus/facts/"
  ]
 }

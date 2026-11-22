@@ -1,19 +1,171 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 45,
  "title": "Mars est rouge parce qu'elle a rouillé",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Pourquoi Mars est-elle rouge ? Parce qu'elle a… rouillé 🔴\n\nLe fer contenu dans ses roches, son sol et sa poussière s'est oxydé, exactement comme un vieux clou.\n\nTu le savais ? 👇",
- "hashtags": ["#mars", "#planeterouge", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa", "#chimie"],
- "sources": ["https://science.nasa.gov/mars/facts/"],
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Mars est rouge",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "parce qu'elle a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ROUILLÉ ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "mars",
+  "tagline": {
+   "text": "une planète rouillée !",
+   "on": "rouillé"
+  }
+ },
  "scenes": [
-  {"say": ["Pourquoi Mars est-elle rouge ?"], "ghost": "ROUGE", "il": {"type": "planet", "label": "MARS"}, "lines": [{"text": "POURQUOI MARS", "at": [0, 0.1]}, {"text": "EST-ELLE", "at": [0, 0.5]}, {"text": "[ROUGE ?]", "at": [0, 0.8], "punch": true, "max": 340}]},
-  {"say": ["Parce qu'elle a rouillé."], "hit": true, "ghost": "ROUILLE", "lines": [{"text": "ELLE A", "at": [0, 0.2]}, {"text": "ROUILLÉ.", "at": [0, 0.6], "punch": true, "max": 440}]},
-  {"say": ["Ses roches, son sol et sa poussière contiennent beaucoup de fer."], "ghost": "FER", "kicker": "FER DANS LES ROCHES", "il": {"type": "globe", "label": "MARS"}, "lines": [{"text": "ROCHES, SOL,", "at": [0, 0.2]}, {"text": "POUSSIÈRE :", "at": [0, 0.45]}, {"text": "[DU FER.]", "at": [0, 0.85], "punch": true, "max": 340}]},
-  {"say": ["Et ce fer s'est oxydé.", "Exactement comme un vieux clou laissé dehors."], "ghost": "CLOU", "il": {"type": "exclaim"}, "lines": [{"text": "CE FER", "at": [0, 0.1]}, {"text": "[S'EST OXYDÉ.]", "at": [0, 0.6], "punch": true}, {"text": "COMME UN VIEUX CLOU.", "at": [1, 0.6], "gap": 30}]},
-  {"say": ["Cette poussière rouillée est si fine qu'elle flotte dans l'air.", "Et elle donne au ciel martien une teinte brumeuse et rougeâtre."], "ghost": "CIEL", "il": {"type": "horizon"}, "lines": [{"text": "ELLE FLOTTE", "at": [0, 0.6]}, {"text": "DANS L'AIR…", "at": [0, 0.8]}, {"text": "[LE CIEL EST ROUGE.]", "at": [1, 0.85], "punch": true, "gap": 30}]},
-  {"say": ["Parfois, des tempêtes de poussière peuvent recouvrir la planète entière."], "ghost": "TEMPÊTE", "il": {"type": "tunnel"}, "lines": [{"text": "DES TEMPÊTES", "at": [0, 0.3]}, {"text": "QUI COUVRENT", "at": [0, 0.6]}, {"text": "[TOUTE LA PLANÈTE.]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["La planète rouge… est en fait une planète rouillée."], "hit": true, "ghost": "ROUILLÉE", "lines": [{"text": "LA PLANÈTE", "at": [0, 0.4]}, {"text": "ROUILLÉE.", "at": [0, 0.85], "punch": true, "max": 420}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que Mars est rouge parce qu'elle a rouillé ?"
+   ]
+  },
+  {
+   "say": [
+    "Ses roches, son sol et sa poussière contiennent beaucoup de fer,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "roches, sol, poussière",
+     "size": "m",
+     "on": "roches"
+    },
+    {
+     "t": "text",
+     "text": "plein de fer !",
+     "size": "xl",
+     "color": "gold",
+     "on": "fer"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce fer s'est oxydé, exactement comme un vieux clou laissé dehors,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le fer s'oxyde",
+     "size": "l",
+     "color": "pink",
+     "on": "oxydé"
+    },
+    {
+     "t": "text",
+     "text": "= un vieux clou rouillé !",
+     "size": "m",
+     "on": "clou",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "cette poussière rouillée est si fine qu'elle flotte dans l'air, et elle donne au ciel martien une teinte rougeâtre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une poussière très fine",
+     "size": "m",
+     "on": "fine"
+    },
+    {
+     "t": "text",
+     "text": "→ un ciel rougeâtre",
+     "size": "l",
+     "color": "pink",
+     "on": "rougeâtre"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "air",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et parfois, des tempêtes de poussière peuvent recouvrir la planète entière."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des tempêtes",
+     "size": "l",
+     "color": "gold",
+     "on": "tempêtes"
+    },
+    {
+     "t": "text",
+     "text": "sur toute la planète !",
+     "size": "m",
+     "color": "pink",
+     "on": "entière"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "tempêtes",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Mars est rouge… parce qu'elle a rouillé 🔴\n\nPourquoi la planète Mars est-elle rouge ? Ses roches, son sol et sa poussière contiennent beaucoup de fer. Au fil du temps, ce fer s'est oxydé, exactement comme un vieux clou laissé sous la pluie : la planète rouge est en fait une planète rouillée ! Cette poussière d'oxyde de fer est si fine qu'elle reste en suspension dans l'atmosphère et donne au ciel martien une teinte rougeâtre. Parfois, des tempêtes de poussière enveloppent même la planète entière. Sur la photo, Mars vue par la sonde Rosetta. Un fait de science et d'astronomie tout simple.\n\nTu le savais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#planeterouge",
+  "#astronomie",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/facts/"
  ]
 }
