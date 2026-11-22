@@ -284,6 +284,270 @@
    "urls": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/NASA-Apollo8-Dec24-Earthrise.jpg"
    ]
+  },
+  {
+   "file": "assets/images/lune_empreinte_apollo11.jpg",
+   "id": "Apollo_11_bootprint",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo_11_bootprint.jpg"
+   ],
+   "credit": "NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_bootprint.jpg"
+  },
+  {
+   "file": "assets/images/betelgeuse_alma.jpg",
+   "id": "Betelgeuse_captured_by_ALMA",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Betelgeuse_captured_by_ALMA.jpg"
+   ],
+   "credit": "ALMA (ESO/NAOJ/NRAO)/E. O'Gorman/P. Kervella (CC BY 4.0)",
+   "page": "https://commons.wikimedia.org/wiki/File:Betelgeuse_captured_by_ALMA.jpg"
+  },
+  {
+   "file": "assets/images/m87_trou_noir_eht.jpg",
+   "id": "Black_hole_-_Messier_87_crop_max_res",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Black_hole_-_Messier_87_crop_max_res.jpg"
+   ],
+   "credit": "EHT Collaboration (CC BY 4.0)",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
+  },
+  {
+   "file": "assets/images/andromede.jpg",
+   "id": "Andromeda_Galaxy_(with_h-alpha)",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Andromeda_Galaxy_(with_h-alpha).jpg"
+   ],
+   "credit": "Adam Evans (CC BY 2.0)",
+   "page": "https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg"
+  },
+  {
+   "file": "assets/images/tunguska_arbres.jpg",
+   "id": "Tunguska_event_fallen_trees",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Tunguska_event_fallen_trees.jpg"
+   ],
+   "credit": "Expédition Kulik (1927) — domaine public",
+   "page": "https://commons.wikimedia.org/wiki/File:Tunguska_event_fallen_trees.jpg"
+  },
+  {
+   "file": "assets/images/aldrin_lune.jpg",
+   "id": "Aldrin_Apollo_11_original",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Aldrin_Apollo_11_original.jpg"
+   ],
+   "credit": "NASA (photo N. Armstrong)",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg"
+  },
+  {
+   "file": "assets/images/eclipse_2017.jpg",
+   "id": "Total_Solar_Eclipse_(NHQ201708210100)",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Total_Solar_Eclipse_(NHQ201708210100).jpg"
+   ],
+   "credit": "NASA/Aubrey Gemignani",
+   "page": "https://commons.wikimedia.org/wiki/File:Total_Solar_Eclipse_(NHQ201708210100).jpg"
+  },
+  {
+   "file": "assets/images/piliers_creation.jpg",
+   "id": "Pillars_of_creation_2014_HST_WFC3-UVIS_f",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg"
+   ],
+   "credit": "NASA, ESA, Hubble Heritage Team",
+   "page": "https://commons.wikimedia.org/wiki/File:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg"
+  },
+  {
+   "file": "assets/images/orion_nebuleuse.jpg",
+   "id": "Orion_Nebula_-_Hubble_2006_mosaic_18000",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+   ],
+   "credit": "NASA, ESA, M. Robberto (STScI/ESA)",
+   "page": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+  },
+  {
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "id": "Hubble_ultra_deep_field",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hubble_ultra_deep_field.jpg"
+   ],
+   "credit": "NASA, ESA, S. Beckwith (STScI), HUDF Team",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg"
+  },
+  {
+   "file": "assets/images/terre_nuit.jpg",
+   "id": "The_earth_at_night",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/The_earth_at_night.jpg"
+   ],
+   "credit": "NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg"
+  },
+  {
+   "file": "assets/images/spoutnik.jpg",
+   "id": "Sputnik_asm",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Sputnik_asm.jpg"
+   ],
+   "credit": "NASA (réplique de Spoutnik 1)",
+   "page": "https://commons.wikimedia.org/wiki/File:Sputnik_asm.jpg"
+  },
+  {
+   "file": "assets/images/drapeau_apollo11.jpg",
+   "id": "Buzz_salutes_the_U.S._Flag",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Buzz_salutes_the_U.S._Flag.jpg"
+   ],
+   "credit": "NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Buzz_salutes_the_U.S._Flag.jpg"
+  },
+  {
+   "file": "assets/images/meteor_crater.jpg",
+   "id": "Barringer_Crater_aerial_photo_by_USGS",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Barringer_Crater_aerial_photo_by_USGS.jpg"
+   ],
+   "credit": "USGS/D. Roddy (domaine public)",
+   "page": "https://commons.wikimedia.org/wiki/File:Barringer_Crater_aerial_photo_by_USGS.jpg"
+  },
+  {
+   "file": "assets/images/tcheliabinsk.jpg",
+   "id": "Chelyabinsk_meteor_trace_15-02-2013",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Chelyabinsk_meteor_trace_15-02-2013.jpg"
+   ],
+   "credit": "Alex Alishevskikh (CC BY-SA 2.0)",
+   "page": "https://commons.wikimedia.org/wiki/File:Chelyabinsk_meteor_trace_15-02-2013.jpg"
+  },
+  {
+   "file": "assets/images/comete_67p.jpg",
+   "id": "Comet_67P_on_19_September_2014_NavCam_mo",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Comet_67P_on_19_September_2014_NavCam_mosaic.jpg"
+   ],
+   "credit": "ESA/Rosetta/NAVCAM (CC BY-SA 3.0 IGO)",
+   "page": "https://commons.wikimedia.org/wiki/File:Comet_67P_on_19_September_2014_NavCam_mosaic.jpg"
+  },
+  {
+   "file": "assets/images/comete_halley.jpg",
+   "id": "Lspn_comet_halley",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Lspn_comet_halley.jpg"
+   ],
+   "credit": "NASA/W. Liller",
+   "page": "https://commons.wikimedia.org/wiki/File:Lspn_comet_halley.jpg"
+  },
+  {
+   "file": "assets/images/aurore.jpg",
+   "id": "Polarlicht_2",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Polarlicht_2.jpg"
+   ],
+   "credit": "Senior Airman Joshua Strang, US Air Force (domaine public)",
+   "page": "https://commons.wikimedia.org/wiki/File:Polarlicht_2.jpg"
+  },
+  {
+   "file": "assets/images/vesta.jpg",
+   "id": "Vesta_full_mosaic",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Vesta_full_mosaic.jpg"
+   ],
+   "credit": "NASA/JPL-Caltech/UCAR/MPS/DLR/IDA",
+   "page": "https://commons.wikimedia.org/wiki/File:Vesta_full_mosaic.jpg"
+  },
+  {
+   "file": "assets/images/callisto.jpg",
+   "id": "Callisto",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Callisto.jpg"
+   ],
+   "credit": "NASA/JPL/DLR",
+   "page": "https://commons.wikimedia.org/wiki/File:Callisto.jpg"
+  },
+  {
+   "file": "assets/images/japet.jpg",
+   "id": "Iapetus_as_seen_by_the_Cassini_probe_-_2",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Iapetus_as_seen_by_the_Cassini_probe_-_20071008.jpg"
+   ],
+   "credit": "NASA/JPL/Space Science Institute",
+   "page": "https://commons.wikimedia.org/wiki/File:Iapetus_as_seen_by_the_Cassini_probe_-_20071008.jpg"
+  },
+  {
+   "file": "assets/images/hyperion.jpg",
+   "id": "Hyperion_true",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hyperion_true.jpg"
+   ],
+   "credit": "NASA/JPL/Space Science Institute",
+   "page": "https://commons.wikimedia.org/wiki/File:Hyperion_true.jpg"
+  },
+  {
+   "file": "assets/images/sirius_hubble.jpg",
+   "id": "Sirius_A_and_B_Hubble_photo",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Sirius_A_and_B_Hubble_photo.jpg"
+   ],
+   "credit": "NASA, ESA, H. Bond (STScI), M. Barstow (Univ. of Leicester)",
+   "page": "https://commons.wikimedia.org/wiki/File:Sirius_A_and_B_Hubble_photo.jpg"
+  },
+  {
+   "file": "assets/images/voie_lactee_eso.jpg",
+   "id": "ESO_-_Milky_Way",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/ESO_-_Milky_Way.jpg"
+   ],
+   "credit": "ESO/S. Brunier (CC BY 4.0)",
+   "page": "https://commons.wikimedia.org/wiki/File:ESO_-_Milky_Way.jpg"
+  },
+  {
+   "file": "assets/images/tardigrade.jpg",
+   "id": "SEM_image_of_Milnesium_tardigradum_in_ac",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2.png"
+   ],
+   "credit": "Schokraie et al. (CC BY 2.5)",
+   "page": "https://commons.wikimedia.org/wiki/File:SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2.png"
+  },
+  {
+   "file": "assets/images/premiere_photo_terre_1946.jpg",
+   "id": "First_photo_from_space",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/First_photo_from_space.jpg"
+   ],
+   "credit": "US Army / White Sands Missile Range (domaine public)",
+   "page": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg"
+  },
+  {
+   "file": "assets/images/disque_or_voyager.jpg",
+   "id": "The_Sounds_of_Earth_Record_Cover_-_GPN-2",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg"
+   ],
+   "credit": "NASA/JPL",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg"
+  },
+  {
+   "file": "assets/images/miranda.jpg",
+   "id": "Miranda",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Miranda.jpg"
+   ],
+   "credit": "NASA/JPL",
+   "page": "https://commons.wikimedia.org/wiki/File:Miranda.jpg"
+  },
+  {
+   "file": "assets/images/curiosity_selfie.jpg",
+   "id": "PIA19808",
+   "credit": "NASA/JPL-Caltech/MSSS",
+   "page": "https://science.nasa.gov/photojournal/curiosity-self-portrait-at-buckskin-drilling-site-on-mount-sharp/"
+  },
+  {
+   "file": "assets/images/saturne_hexagone.jpg",
+   "id": "PIA21611",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "page": "https://science.nasa.gov/photojournal/"
   }
  ],
  "note": "Liste des photos officielles. Pousser une modification de ce fichier déclenche le téléchargement des images absentes."
