@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 276,
+ "title": "Le Soleil traverse 13 constellations, pas 12",
+ "subject": "Ophiuchus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le Soleil traverse",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en fait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "13 CONSTELLATIONS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la 13e constellation",
+   "on": "Soleil"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'au cours de l'année, le Soleil traverse en réalité treize constellations, et pas douze ?"
+   ]
+  },
+  {
+   "say": [
+    "Au fil de l'année, vu de la Terre, le Soleil semble passer devant différentes constellations,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Soleil semble",
+     "size": "m",
+     "on": "semble"
+    },
+    {
+     "t": "text",
+     "text": "passer devant les étoiles",
+     "size": "l",
+     "color": "gold",
+     "on": "constellations"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "année",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "on connaît bien les douze du zodiaque, mais il y en a une treizième, Ophiuchus, le porteur de serpent,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la 13e : Ophiuchus",
+     "size": "l",
+     "color": "pink",
+     "on": "Ophiuchus",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "le porteur de serpent",
+     "size": "m",
+     "on": "serpent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le Soleil la traverse environ de fin novembre à mi-décembre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "fin nov. → mi-déc.",
+     "size": "l",
+     "color": "gold",
+     "on": "novembre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ça, c'est de l'astronomie, la science, alors que les signes de l'astrologie sont restés figés il y a plus de deux mille ans."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "astronomie ≠ astrologie",
+     "size": "l",
+     "color": "pink",
+     "on": "astronomie"
+    },
+    {
+     "t": "text",
+     "text": "signes figés depuis 2 000 ans",
+     "size": "m",
+     "on": "figés",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le Soleil traverse en réalité 13 constellations, pas 12 : voici Ophiuchus ⛎\n\nAu cours de l'année, vu depuis la Terre, le Soleil semble se déplacer devant les étoiles, le long d'une ligne appelée l'écliptique. Selon les frontières officielles des constellations fixées par l'UAI, cette ligne traverse en réalité 13 constellations, et pas seulement les 12 du zodiaque : la treizième est Ophiuchus, le « porteur de serpent ». Le Soleil s'y trouve environ de fin novembre à mi-décembre. De plus, à cause de la précession de l'axe terrestre, les dates de passage ont glissé depuis l'Antiquité. L'astronomie est une science ; les signes astrologiques, eux, ont été définis il y a plus de deux mille ans et n'en tiennent pas compte. Sur l'image, un ciel nocturne.\n\nTu connaissais Ophiuchus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#ophiuchus",
+  "#constellations",
+  "#zodiaque",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Ophiuchus",
+  "https://fr.wikipedia.org/wiki/Écliptique"
+ ]
+}

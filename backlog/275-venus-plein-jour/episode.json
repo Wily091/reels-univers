@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 274,
+ "title": "On peut voir Vénus en plein jour",
+ "subject": "Vénus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Tu peux voir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une planète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en PLEIN JOUR ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "Vénus de jour",
+   "on": "planète"
+  },
+  "photo": "venus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que tu peux voir une planète en plein jour, à l'œil nu ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Vénus, l'objet le plus brillant du ciel après le Soleil et la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Vénus",
+     "size": "xl",
+     "color": "pink",
+     "on": "Vénus"
+    },
+    {
+     "t": "text",
+     "text": "3e + brillant du ciel",
+     "size": "m",
+     "on": "brillant"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle est si brillante qu'on peut l'apercevoir en pleine journée, comme un petit point blanc dans le ciel bleu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un point blanc",
+     "size": "l",
+     "color": "gold",
+     "on": "point blanc",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "dans le ciel bleu !",
+     "size": "m",
+     "on": "bleu"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le plus dur, c'est de savoir où regarder, et une application d'astronomie peut t'aider,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le secret :",
+     "size": "m",
+     "on": "dur"
+    },
+    {
+     "t": "text",
+     "text": "savoir où regarder",
+     "size": "l",
+     "color": "pink",
+     "on": "regarder"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais attention, ne cherche jamais quand elle est trop près du Soleil, pour protéger tes yeux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jamais près du Soleil !",
+     "size": "l",
+     "color": "gold",
+     "on": "Soleil",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "yeux",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "On peut voir Vénus en plein jour, à l'œil nu ☀️⚪\n\nAprès le Soleil et la Lune, Vénus est l'objet naturel le plus brillant de notre ciel. Elle est si lumineuse que, lorsqu'elle est bien placée et suffisamment éloignée du Soleil dans le ciel, on peut l'apercevoir en pleine journée à l'œil nu, comme un minuscule point blanc dans le ciel bleu ! Toute la difficulté est de savoir exactement où regarder : une application d'astronomie ou la proximité de la Lune peuvent aider. Attention : ne la cherche jamais quand elle est proche du Soleil, et ne regarde jamais le Soleil directement, même un instant. Sur la photo, Vénus. Un défi d'observation à tenter !\n\nTu as déjà essayé ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#cielnocturne",
+  "#observation",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/venus/facts/",
+  "https://fr.wikipedia.org/wiki/Vénus_(planète)"
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 267,
+ "title": "La comète NEOWISE ne reviendra pas avant 6 800 ans",
+ "subject": "NEOWISE",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette comète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ne reviendra pas",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "avant 6 800 ANS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la comète de 2020",
+   "on": "comète"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une comète visible à l'œil nu en deux mille vingt ne reviendra pas avant environ six mille huit cents ans ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle NEOWISE, du nom du télescope spatial qui l'a découverte en mars deux mille vingt,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "NEOWISE",
+     "size": "xl",
+     "color": "pink",
+     "on": "NEOWISE"
+    },
+    {
+     "t": "text",
+     "text": "découverte en mars 2020",
+     "size": "m",
+     "color": "gold",
+     "on": "mars"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en juillet deux mille vingt, elle était visible à l'œil nu dans l'hémisphère Nord, avec une jolie queue,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "juillet 2020",
+     "size": "l",
+     "color": "gold",
+     "on": "juillet"
+    },
+    {
+     "t": "text",
+     "text": "visible à l'œil nu !",
+     "size": "m",
+     "on": "œil"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "queue",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était la comète la plus brillante vue depuis le Nord depuis des années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la + brillante",
+     "size": "l",
+     "color": "pink",
+     "on": "brillante"
+    },
+    {
+     "t": "text",
+     "text": "depuis des années",
+     "size": "m",
+     "on": "années,"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle est repartie si loin qu'elle ne repassera pas avant environ six mille huit cents ans."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "retour dans",
+     "size": "m",
+     "on": "repassera"
+    },
+    {
+     "t": "text",
+     "text": "~ 6 800 ans !",
+     "size": "xl",
+     "color": "gold",
+     "on": "six mille",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La comète NEOWISE, vue en 2020, ne reviendra pas avant environ 6 800 ans ☄️\n\nDécouverte le 27 mars 2020 par le télescope spatial NEOWISE de la NASA, la comète C/2020 F3 (NEOWISE) a offert un beau spectacle en juillet 2020, en plein confinement pour certains pays : elle était visible à l'œil nu dans l'hémisphère Nord, avec une longue queue courbée, juste avant l'aube puis le soir. C'était la comète la plus brillante observée depuis l'hémisphère Nord depuis Hale-Bopp en 1997. Après son passage près du Soleil, elle est repartie vers les confins du système solaire : elle ne devrait pas revenir avant environ 6 800 ans. Sur l'image, un ciel nocturne. Ceux qui l'ont vue ont eu de la chance !\n\nTu l'avais vue pendant l'été 2020 ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#neowise",
+  "#comete",
+  "#cielnocturne",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/C/2020_F3_(NEOWISE)",
+  "https://science.nasa.gov/solar-system/comets/"
+ ]
+}

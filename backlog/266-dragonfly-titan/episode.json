@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 265,
+ "title": "La NASA va envoyer un drone voler sur Titan",
+ "subject": "Dragonfly",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "titan",
+   "file": "assets/images/titan_lacs_cassini.jpg",
+   "credit": "Mers de Titan · radar Cassini (couleurs simulées) · NASA/JPL-Caltech/ASI/USGS",
+   "page": "https://science.nasa.gov/photojournal/titans-north/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.05,
+    0.3,
+    0.65,
+    0.65
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La NASA va envoyer",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un drone",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur TITAN ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un drone sur Titan",
+   "on": "drone"
+  },
+  "photo": "titan"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la NASA prépare un drone qui va voler dans le ciel de Titan, la grande lune de Saturne ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Dragonfly, la libellule, il a la taille d'une voiture et huit hélices,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Dragonfly",
+     "size": "xl",
+     "color": "pink",
+     "on": "Dragonfly"
+    },
+    {
+     "t": "text",
+     "text": "taille d'une voiture, 8 hélices",
+     "size": "m",
+     "on": "hélices"
+    }
+   ]
+  },
+  {
+   "say": [
+    "son lancement est prévu en deux mille vingt-huit, pour une arrivée sur Titan vers deux mille trente-quatre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "lancement ~ 2028",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-huit"
+    },
+    {
+     "t": "text",
+     "text": "arrivée ~ 2034",
+     "size": "m",
+     "on": "trente-quatre"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancement",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sur Titan, voler est plus facile que sur Terre, car l'air y est plus épais et la gravité plus faible,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "air épais + gravité faible",
+     "size": "l",
+     "color": "pink",
+     "on": "épais",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "= idéal pour voler",
+     "size": "m",
+     "on": "voler"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il ira de site en site, pour étudier les molécules qui pourraient ressembler aux débuts de la vie."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à la recherche",
+     "size": "m",
+     "on": "étudier"
+    },
+    {
+     "t": "text",
+     "text": "des briques de la vie",
+     "size": "l",
+     "color": "gold",
+     "on": "vie",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La NASA va envoyer un drone voler sur Titan, la grande lune de Saturne 🚁\n\nDragonfly (« la libellule ») est une future mission de la NASA : un drone à huit rotors, de la taille d'une voiture, qui volera dans le ciel de Titan, la plus grande lune de Saturne. Son lancement est prévu vers 2028, pour une arrivée vers 2034. Sur Titan, voler est paradoxalement plus facile que sur Terre : l'atmosphère y est environ quatre fois plus dense et la gravité sept fois plus faible. Dragonfly sautera d'un site à l'autre, sur des kilomètres, pour analyser la chimie de la surface, riche en molécules organiques, et chercher des indices sur les conditions qui ont précédé l'apparition de la vie. Sur la photo, Titan.\n\nTu aimerais le piloter ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#dragonfly",
+  "#titan",
+  "#nasa",
+  "#drone",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/dragonfly/",
+  "https://en.wikipedia.org/wiki/Dragonfly_(Titan_space_probe)"
+ ]
+}

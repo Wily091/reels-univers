@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 271,
+ "title": "Le prochain passage de Vénus devant le Soleil aura lieu en 2117",
+ "subject": "Vénus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le prochain passage",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de Vénus devant le Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en 2117 ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un rendez-vous rare",
+   "on": "Vénus"
+  },
+  "photo": "venus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le prochain passage de Vénus devant le Soleil n'aura lieu qu'en deux mille cent dix-sept ?"
+   ]
+  },
+  {
+   "say": [
+    "Parfois, Vénus passe exactement entre la Terre et le Soleil, et on la voit comme un petit point noir sur le disque solaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un petit point noir",
+     "size": "l",
+     "color": "pink",
+     "on": "point noir"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ces passages arrivent par paires séparées de huit ans, puis plus rien pendant plus d'un siècle,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "par paires (8 ans)",
+     "size": "l",
+     "color": "gold",
+     "on": "huit ans"
+    },
+    {
+     "t": "text",
+     "text": "puis + d'un siècle",
+     "size": "m",
+     "on": "siècle"
+    }
+   ]
+  },
+  {
+   "say": [
+    "les derniers ont eu lieu en deux mille quatre et en deux mille douze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2004 et 2012",
+     "size": "l",
+     "on": "deux mille quatre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le prochain sera en décembre deux mille cent dix-sept, autant dire qu'aucun de nous ne le verra."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le prochain :",
+     "size": "m",
+     "on": "prochain"
+    },
+    {
+     "t": "text",
+     "text": "décembre 2117 !",
+     "size": "xl",
+     "color": "pink",
+     "on": "cent dix-sept",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le prochain passage de Vénus devant le Soleil aura lieu en 2117 ⚫☀️\n\nUn transit de Vénus se produit quand la planète passe exactement entre la Terre et le Soleil : on la voit alors comme un petit disque noir traverser lentement la surface solaire pendant plusieurs heures. Ce phénomène est très rare : les transits arrivent par paires séparées de huit ans, puis plus rien pendant plus d'un siècle. Les derniers ont eu lieu le 8 juin 2004 et le 6 juin 2012. Le prochain se produira en décembre 2117, puis en 2125 ! Au XVIIIe siècle, ces transits ont permis aux astronomes de mesurer la distance Terre-Soleil. Ne jamais observer le Soleil sans filtre adapté. Sur la photo, Vénus.\n\nTu avais vu celui de 2012 ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#transit",
+  "#soleil",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Transit_de_Vénus",
+  "https://science.nasa.gov/venus/"
+ ]
+}

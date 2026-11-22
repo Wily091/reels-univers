@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 273,
+ "title": "Tu peux voir 5 planètes à l'œil nu",
+ "subject": "Planètes",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Tu peux voir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "5 planètes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sans TÉLESCOPE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "5 planètes à l'œil nu",
+   "on": "planètes"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que tu peux voir cinq planètes à l'œil nu, sans aucun télescope ?"
+   ]
+  },
+  {
+   "say": [
+    "Mercure, Vénus, Mars, Jupiter et Saturne sont visibles sans instrument, quand elles sont bien placées,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Mercure, Vénus, Mars",
+     "size": "l",
+     "color": "pink",
+     "on": "Mercure"
+    },
+    {
+     "t": "text",
+     "text": "Jupiter, Saturne",
+     "size": "l",
+     "color": "gold",
+     "on": "Saturne"
+    }
+   ]
+  },
+  {
+   "say": [
+    "on les connaît depuis l'Antiquité, et le mot planète vient du grec, il veut dire astre errant,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« planète » =",
+     "size": "m",
+     "on": "planète"
+    },
+    {
+     "t": "text",
+     "text": "astre errant",
+     "size": "l",
+     "color": "pink",
+     "on": "errant",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que, nuit après nuit, elles se déplacent par rapport aux étoiles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elles bougent",
+     "size": "l",
+     "on": "déplacent"
+    },
+    {
+     "t": "text",
+     "text": "parmi les étoiles",
+     "size": "m",
+     "color": "gold",
+     "on": "étoiles"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "nuit",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une astuce pour les repérer, en général, elles ne scintillent pas, contrairement aux étoiles."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'astuce :",
+     "size": "m",
+     "on": "astuce"
+    },
+    {
+     "t": "text",
+     "text": "elles ne scintillent pas !",
+     "size": "l",
+     "color": "gold",
+     "on": "scintillent",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Tu peux voir 5 planètes à l'œil nu, sans télescope 👀\n\nPas besoin de télescope pour voir des planètes ! Cinq d'entre elles sont visibles à l'œil nu quand elles sont bien placées : Mercure, Vénus, Mars, Jupiter et Saturne. Elles sont connues depuis l'Antiquité. Le mot « planète » vient du grec « planêtês », qui signifie « astre errant », car, nuit après nuit, elles se déplacent par rapport aux étoiles fixes. Astuce pour les reconnaître : elles brillent d'un éclat plus stable, et en général elles ne scintillent pas, contrairement aux étoiles. Vénus et Jupiter sont souvent les « étoiles » les plus brillantes du ciel. Uranus est tout juste à la limite de visibilité. Sur la photo, Jupiter.\n\nTu en as déjà vu combien ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#planetes",
+  "#cielnocturne",
+  "#observation",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Planète",
+  "https://science.nasa.gov/solar-system/planets/"
+ ]
+}

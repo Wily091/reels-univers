@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 270,
+ "title": "La prochaine éclipse totale de Soleil en France sera en 2081",
+ "subject": "Éclipse",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La prochaine éclipse totale",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en France",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en 2081 ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "rendez-vous en 2081",
+   "on": "éclipse"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu sais quand aura lieu la prochaine éclipse totale de Soleil visible en France métropolitaine ?"
+   ]
+  },
+  {
+   "say": [
+    "Une éclipse totale, c'est quand la Lune cache entièrement le Soleil, et que le jour devient nuit pendant quelques minutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le jour devient nuit",
+     "size": "l",
+     "color": "pink",
+     "on": "nuit"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "la dernière en France métropolitaine, c'était le onze août mille neuf cent quatre-vingt-dix-neuf,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la dernière : 11 août 1999",
+     "size": "l",
+     "color": "gold",
+     "on": "onze août"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la prochaine aura lieu le trois septembre deux mille quatre-vingt-un,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la prochaine :",
+     "size": "m",
+     "on": "prochaine"
+    },
+    {
+     "t": "text",
+     "text": "3 sept. 2081 !",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre-vingt-un",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "en attendant, il faudra voyager pour en voir une, car chaque éclipse totale ne touche qu'une étroite bande de la Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une bande étroite",
+     "size": "m",
+     "on": "étroite"
+    },
+    {
+     "t": "text",
+     "text": "il faudra voyager !",
+     "size": "l",
+     "color": "gold",
+     "on": "voyager",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La prochaine éclipse totale de Soleil en France métropolitaine aura lieu en 2081 🌑☀️\n\nLors d'une éclipse totale de Soleil, la Lune masque entièrement le disque solaire : le ciel s'assombrit, les étoiles apparaissent et la couronne solaire devient visible pendant quelques minutes. Mais l'ombre de la Lune ne balaie qu'une étroite bande de la Terre à chaque éclipse. En France métropolitaine, la dernière éclipse totale a eu lieu le 11 août 1999. La prochaine ne se produira que le 3 septembre 2081 ! D'ici là, il faudra voyager pour en profiter, par exemple dans le sud de l'Espagne pour l'éclipse totale du 2 août 2027. Ne jamais regarder le Soleil sans protection adaptée. Sur la photo, le Soleil.\n\nTu crois que tu la verras ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#eclipse",
+  "#soleil",
+  "#lune",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Éclipse_solaire_du_3_septembre_2081",
+  "https://fr.wikipedia.org/wiki/Éclipse_solaire_du_11_août_1999"
+ ]
+}

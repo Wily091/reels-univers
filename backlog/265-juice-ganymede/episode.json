@@ -1,0 +1,155 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 264,
+ "title": "Une sonde européenne va tourner autour d'une lune de Jupiter",
+ "subject": "JUICE",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "ganymede",
+   "file": "assets/images/ganymede_juno.jpg",
+   "credit": "Ganymède vue par Juno · NASA/JPL-Caltech/SwRI/MSSS",
+   "page": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une sonde européenne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "va tourner autour",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'une LUNE de Jupiter ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une 1re mondiale",
+   "on": "lune"
+  },
+  "photo": "ganymede"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde européenne doit devenir la première à tourner autour d'une lune d'une autre planète ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle JUICE, et elle a décollé de Kourou, en Guyane, le quatorze avril deux mille vingt-trois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "JUICE",
+     "size": "xl",
+     "color": "pink",
+     "on": "JUICE"
+    },
+    {
+     "t": "text",
+     "text": "14 avril 2023, Kourou",
+     "size": "m",
+     "color": "gold",
+     "on": "quatorze avril"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décollé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle doit arriver près de Jupiter en deux mille trente et un, pour étudier ses grandes lunes glacées,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Jupiter en 2031",
+     "size": "l",
+     "color": "gold",
+     "on": "trente et un"
+    },
+    {
+     "t": "text",
+     "text": "ses lunes glacées",
+     "size": "m",
+     "on": "glacées"
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis vers deux mille trente-quatre, elle se placera en orbite autour de Ganymède, la plus grande lune du système solaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "orbite autour de Ganymède",
+     "size": "l",
+     "color": "pink",
+     "on": "Ganymède",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce sera la toute première fois qu'une sonde tourne autour d'une autre lune que la nôtre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une 1re dans l'histoire !",
+     "size": "l",
+     "color": "gold",
+     "on": "première",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "JUICE, la sonde européenne qui va tourner autour de Ganymède, une lune de Jupiter 🇪🇺\n\nLancée le 14 avril 2023 depuis Kourou par une fusée Ariane 5, la sonde JUICE (JUpiter ICy moons Explorer) de l'Agence spatiale européenne est en route vers Jupiter, qu'elle doit atteindre en 2031. Elle étudiera les grandes lunes glacées Europe, Callisto et surtout Ganymède, qui pourraient abriter des océans souterrains. Vers 2034, elle se placera en orbite autour de Ganymède, la plus grande lune du système solaire : ce sera la première fois qu'une sonde tourne autour d'une lune autre que la nôtre ! Plusieurs instruments ont été conçus en France. Sur la photo, Ganymède. Une grande mission européenne.\n\nTu suivras cette mission ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#juice",
+  "#esa",
+  "#ganymede",
+  "#jupiter",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.esa.int/Science_Exploration/Space_Science/Juice",
+  "https://en.wikipedia.org/wiki/Jupiter_Icy_Moons_Explorer"
+ ]
+}

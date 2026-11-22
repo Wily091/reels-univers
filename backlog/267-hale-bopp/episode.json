@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 266,
+ "title": "La comète Hale-Bopp est restée visible 18 mois à l'œil nu",
+ "subject": "Hale-Bopp",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "comete",
+   "file": "assets/images/comete_hale_bopp.jpg",
+   "credit": "Comète Hale-Bopp (1997) · E. Kolmhofer, H. Raab",
+   "page": "https://commons.wikimedia.org/wiki/File:Comet_Hale-Bopp_1995O1.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette comète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est restée visible",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "18 MOIS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la comète record",
+   "on": "comète"
+  },
+  "photo": "comete"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une comète est restée visible à l'œil nu pendant environ dix-huit mois ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est la comète Hale-Bopp, découverte en juillet mille neuf cent quatre-vingt-quinze par deux astronomes amateurs américains, Alan Hale et Thomas Bopp,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Hale-Bopp",
+     "size": "xl",
+     "color": "pink",
+     "on": "Hale-Bopp"
+    },
+    {
+     "t": "text",
+     "text": "découverte en 1995",
+     "size": "m",
+     "color": "gold",
+     "on": "quatre-vingt-quinze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a brillé dans le ciel en mille neuf cent quatre-vingt-dix-sept, avec deux longues queues, une blanche et une bleue,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1997 : spectaculaire !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-dix-sept"
+    },
+    {
+     "t": "text",
+     "text": "2 queues",
+     "size": "m",
+     "on": "queues"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle est restée visible à l'œil nu environ dix-huit mois, un record,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 18 mois à l'œil nu",
+     "size": "l",
+     "color": "pink",
+     "on": "dix-huit mois",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle ne reviendra pas avant plus de deux mille ans."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "prochain passage :",
+     "size": "m",
+     "on": "reviendra"
+    },
+    {
+     "t": "text",
+     "text": "dans + de 2 000 ans !",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Hale-Bopp, la comète restée visible environ 18 mois à l'œil nu ☄️\n\nDécouverte le 23 juillet 1995, indépendamment, par deux astronomes amateurs américains, Alan Hale et Thomas Bopp, la comète Hale-Bopp a illuminé le ciel en 1997. Son noyau, d'environ 60 km, est l'un des plus gros jamais observés pour une comète passant près du Soleil. Avec ses deux queues bien visibles, une queue de poussière blanche et une queue de gaz bleutée, elle est restée visible à l'œil nu pendant environ 18 mois, un record ! Des centaines de millions de personnes l'ont vue. Elle ne repassera pas avant plus de 2 000 ans. Sur la photo, Hale-Bopp en 1997.\n\nTu l'avais vue en 1997 ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#halebopp",
+  "#comete",
+  "#cielnocturne",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/C/1995_O1_(Hale-Bopp)",
+  "https://en.wikipedia.org/wiki/Comet_Hale–Bopp"
+ ]
+}

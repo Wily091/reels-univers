@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 263,
+ "title": "Une sonde géante file vers l'océan caché d'Europe",
+ "subject": "Europa Clipper",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "europe",
+   "file": "assets/images/europe_galileo.jpg",
+   "credit": "Europe vue par Galileo · NASA/JPL-Caltech/SETI Institute",
+   "page": "https://science.nasa.gov/jupiter/jupiter-moons/europa/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "va chercher un océan",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "caché sous la GLACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "cap sur Europe",
+   "on": "océan"
+  },
+  "photo": "europe"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde géante est en route vers un océan caché sous la glace d'une lune de Jupiter ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Europa Clipper, et la NASA l'a lancée en octobre deux mille vingt-quatre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Europa Clipper",
+     "size": "l",
+     "color": "pink",
+     "on": "Europa"
+    },
+    {
+     "t": "text",
+     "text": "lancée en oct. 2024",
+     "size": "m",
+     "color": "gold",
+     "on": "octobre"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est la plus grande sonde jamais construite par la NASA pour explorer une planète, avec des panneaux solaires de plus de trente mètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la + grande sonde",
+     "size": "m",
+     "on": "grande"
+    },
+    {
+     "t": "text",
+     "text": "panneaux de + de 30 m !",
+     "size": "l",
+     "color": "gold",
+     "on": "trente",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "à partir de deux mille trente, elle doit survoler Europe une cinquantaine de fois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dès 2030",
+     "size": "l",
+     "color": "pink",
+     "on": "deux mille trente"
+    },
+    {
+     "t": "text",
+     "text": "~ 50 survols",
+     "size": "m",
+     "on": "cinquantaine"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour savoir si son océan d'eau salée pourrait offrir des conditions favorables à la vie."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un océan habitable ?",
+     "size": "l",
+     "color": "gold",
+     "on": "vie",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Europa Clipper, la sonde géante qui file vers l'océan caché d'Europe 🌊\n\nLancée le 14 octobre 2024, Europa Clipper est la plus grande sonde jamais construite par la NASA pour une mission planétaire : ses panneaux solaires déployés mesurent plus de 30 mètres d'envergure ! Sa destination : Europe, une lune de Jupiter qui cache sous sa croûte de glace un immense océan d'eau salée, contenant peut-être plus d'eau que tous les océans de la Terre. À partir de 2030, la sonde doit survoler Europe une cinquantaine de fois pour étudier sa glace, son océan et sa composition, et déterminer si elle pourrait offrir des conditions favorables à la vie. Sur la photo, Europe vue par la sonde Galileo.\n\nTu crois qu'il y a de la vie là-bas ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#europaclipper",
+  "#europe",
+  "#jupiter",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/europa-clipper/",
+  "https://en.wikipedia.org/wiki/Europa_Clipper"
+ ]
+}

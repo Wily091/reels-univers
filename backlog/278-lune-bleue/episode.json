@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 277,
+ "title": "Une « Lune bleue » n'est pas bleue",
+ "subject": "Lune bleue",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La « Lune bleue »",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'est pas",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "BLEUE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une Lune bleue",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Lune bleue n'a en général rien de bleu ?"
+   ]
+  },
+  {
+   "say": [
+    "Une Lune bleue, c'est souvent la deuxième pleine Lune dans un même mois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une « Lune bleue » =",
+     "size": "m",
+     "on": "Lune bleue"
+    },
+    {
+     "t": "text",
+     "text": "la 2e pleine Lune du mois",
+     "size": "l",
+     "color": "pink",
+     "on": "deuxième",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "comme il y a environ vingt-neuf jours et demi entre deux pleines Lunes, ça arrive parfois quand un mois a trente ou trente et un jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 29,5 jours entre 2",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-neuf"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "pleines",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ça se produit environ tous les deux ou trois ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ tous les 2-3 ans",
+     "size": "l",
+     "on": "deux ou trois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "d'où l'expression anglaise « une fois par Lune bleue », qui veut dire très rarement."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« once in a blue moon »",
+     "size": "l",
+     "color": "pink",
+     "on": "expression"
+    },
+    {
+     "t": "text",
+     "text": "= très rarement !",
+     "size": "m",
+     "on": "rarement",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une « Lune bleue » n'a en général rien de bleu 🔵🌕\n\nOn appelle souvent « Lune bleue » la deuxième pleine Lune d'un même mois calendaire. Comme il s'écoule environ 29,5 jours entre deux pleines Lunes, il arrive qu'un mois de 30 ou 31 jours en contienne deux. Ce phénomène se produit environ tous les deux à trois ans. Il existe aussi une définition plus ancienne : la troisième pleine Lune d'une saison qui en compte quatre. Dans les deux cas, la Lune n'est pas bleue ! Elle ne prend une teinte bleutée que très rarement, après de grandes éruptions volcaniques ou des incendies. D'où l'expression anglaise « once in a blue moon », pour dire « très rarement ». Sur la photo, la pleine Lune.\n\nTu connaissais l'expression ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lunebleue",
+  "#lune",
+  "#pleinelune",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Lune_bleue",
+  "https://science.nasa.gov/moon/"
+ ]
+}

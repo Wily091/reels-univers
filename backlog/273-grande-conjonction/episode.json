@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 272,
+ "title": "En 2020, Jupiter et Saturne ont semblé se toucher",
+ "subject": "Conjonction",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "saturne",
+   "file": "assets/images/saturne_cassini.jpg",
+   "credit": "Saturne vue par Cassini · NASA/JPL/Space Science Institute",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.06,
+    0,
+    0.88,
+    1
+   ],
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Jupiter et Saturne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "se sont presque",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "TOUCHÉES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la grande conjonction",
+   "on": "Saturne"
+  },
+  "photo": "saturne"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en décembre deux mille vingt, Jupiter et Saturne ont semblé presque se toucher dans le ciel ?"
+   ]
+  },
+  {
+   "say": [
+    "Le vingt et un décembre deux mille vingt, les deux géantes se sont retrouvées tout près l'une de l'autre, vues depuis la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "21 décembre 2020",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt et un"
+    },
+    {
+     "t": "sketch",
+     "kind": "planet",
+     "on": "géantes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "on appelle ça une grande conjonction, et elles n'étaient séparées que d'un cinquième du diamètre de la pleine Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une grande conjonction",
+     "size": "l",
+     "color": "pink",
+     "on": "conjonction"
+    },
+    {
+     "t": "text",
+     "text": "1/5 de pleine Lune !",
+     "size": "m",
+     "on": "cinquième",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "en réalité, Saturne était presque deux fois plus loin de nous que Jupiter, c'est juste un effet d'alignement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "juste un alignement",
+     "size": "l",
+     "on": "alignement"
+    },
+    {
+     "t": "text",
+     "text": "(Saturne 2× + loin)",
+     "size": "s",
+     "color": "soft",
+     "on": "deux fois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles n'avaient pas été aussi proches dans le ciel depuis mille six cent vingt-trois."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "du jamais vu depuis",
+     "size": "m",
+     "on": "depuis"
+    },
+    {
+     "t": "text",
+     "text": "1623 !",
+     "size": "xl",
+     "color": "gold",
+     "on": "vingt-trois",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En décembre 2020, Jupiter et Saturne ont semblé presque se toucher 🪐\n\nTous les 20 ans environ, Jupiter et Saturne semblent se rapprocher dans notre ciel : c'est une « grande conjonction ». Celle du 21 décembre 2020 était exceptionnelle : les deux planètes géantes n'étaient séparées que d'environ 0,1°, soit à peu près un cinquième du diamètre apparent de la pleine Lune ! Elles n'avaient pas paru aussi proches depuis 1623, et une conjonction aussi serrée n'avait pas été bien observable depuis 1226. En réalité, Saturne était presque deux fois plus loin de nous que Jupiter : c'est un simple effet d'alignement. La prochaine conjonction aussi serrée aura lieu en 2080. Sur la photo, Saturne.\n\nTu l'avais vue en décembre 2020 ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jupiter",
+  "#saturne",
+  "#conjonction",
+  "#cielnocturne",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Grande_conjonction",
+  "https://science.nasa.gov/saturn/"
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 268,
+ "title": "En 1833, une pluie de dizaines de milliers d'étoiles filantes",
+ "subject": "Léonides",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1833,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il est tombé des dizaines de milliers",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'étoiles filantes PAR HEURE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une pluie historique",
+   "on": "étoiles filantes"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille huit cent trente-trois, on a vu des dizaines de milliers d'étoiles filantes par heure ?"
+   ]
+  },
+  {
+   "say": [
+    "Dans la nuit du douze au treize novembre mille huit cent trente-trois, le ciel d'Amérique du Nord s'est mis à pleuvoir des étoiles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "12-13 novembre 1833",
+     "size": "l",
+     "color": "gold",
+     "on": "douze"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était la pluie des Léonides, avec des dizaines de milliers de météores par heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les Léonides",
+     "size": "l",
+     "color": "pink",
+     "on": "Léonides"
+    },
+    {
+     "t": "text",
+     "text": "des dizaines de milliers / h !",
+     "size": "l",
+     "color": "gold",
+     "on": "dizaines",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "beaucoup de gens ont cru à la fin du monde,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la fin du monde ?",
+     "size": "l",
+     "on": "fin du monde"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais cet événement a lancé l'étude scientifique des étoiles filantes, qui viennent des poussières de la comète Tempel-Tuttle."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "début de la science",
+     "size": "m",
+     "on": "étude"
+    },
+    {
+     "t": "text",
+     "text": "des météores !",
+     "size": "l",
+     "color": "pink",
+     "on": "Tempel",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1833, une pluie de dizaines de milliers d'étoiles filantes par heure 🌠\n\nDans la nuit du 12 au 13 novembre 1833, les habitants d'Amérique du Nord ont assisté à un spectacle inouï : la pluie de météores des Léonides a atteint des dizaines de milliers d'étoiles filantes par heure ! Beaucoup ont cru à la fin du monde. Cet événement a marqué le début de l'étude scientifique des météores : les astronomes ont compris que les étoiles filantes semblaient toutes venir d'un même point du ciel, dans la constellation du Lion, d'où leur nom. On sait aujourd'hui que les Léonides sont des poussières laissées par la comète Tempel-Tuttle. Elles reviennent chaque année vers la mi-novembre, en général bien plus discrètes.\n\nTu aurais eu peur ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#leonides",
+  "#etoilesfilantes",
+  "#histoire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Léonides",
+  "https://science.nasa.gov/solar-system/meteors-meteorites/"
+ ]
+}

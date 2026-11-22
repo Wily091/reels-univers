@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 275,
+ "title": "Il y a officiellement 88 constellations",
+ "subject": "Constellations",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "orion",
+   "file": "assets/images/orion_nebuleuse.jpg",
+   "credit": "Nébuleuse d'Orion · NASA, ESA, M. Robberto",
+   "page": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le ciel est découpé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en exactement",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "88 CONSTELLATIONS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "88 constellations",
+   "on": "ciel"
+  },
+  "photo": "orion"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le ciel est découpé en exactement quatre-vingt-huit constellations officielles ?"
+   ]
+  },
+  {
+   "say": [
+    "Depuis l'Antiquité, chaque peuple imaginait ses propres figures dans les étoiles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "chaque peuple",
+     "size": "m",
+     "on": "peuple"
+    },
+    {
+     "t": "text",
+     "text": "ses propres figures",
+     "size": "l",
+     "color": "gold",
+     "on": "figures"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en mille neuf cent vingt-deux, l'Union astronomique internationale a fixé une liste officielle de quatre-vingt-huit constellations,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1922 : 88 officielles",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-deux",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et quelques années plus tard, l'astronome belge Eugène Delporte a tracé leurs frontières, comme les pays sur une carte,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Eugène Delporte",
+     "size": "l",
+     "on": "Delporte"
+    },
+    {
+     "t": "text",
+     "text": "trace les frontières",
+     "size": "m",
+     "color": "gold",
+     "on": "frontières"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, chaque étoile du ciel appartient à une seule constellation, comme Orion, ou la Grande Ourse."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 étoile = 1 constellation",
+     "size": "l",
+     "color": "pink",
+     "on": "seule"
+    },
+    {
+     "t": "text",
+     "text": "Orion, Grande Ourse…",
+     "size": "m",
+     "on": "Orion",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le ciel est découpé en exactement 88 constellations officielles ✨\n\nDepuis l'Antiquité, chaque civilisation a imaginé ses propres figures dans les étoiles. Pour y mettre de l'ordre, l'Union astronomique internationale (UAI) a adopté en 1922 une liste officielle de 88 constellations, dont beaucoup héritées des Grecs, et d'autres ajoutées lors de l'exploration du ciel austral. Quelques années plus tard, l'astronome belge Eugène Delporte a tracé leurs frontières précises. Aujourd'hui, le ciel est découpé comme une carte en 88 « pays » : chaque étoile appartient à une seule constellation. La plus grande est l'Hydre, la plus petite la Croix du Sud. Sur la photo, la nébuleuse d'Orion, dans la constellation d'Orion.\n\nTu en connais combien ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#constellations",
+  "#etoiles",
+  "#cielnocturne",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Constellation",
+  "https://www.iau.org/public/themes/constellations/"
+ ]
+}
