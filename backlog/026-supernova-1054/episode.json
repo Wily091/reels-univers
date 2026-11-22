@@ -1,20 +1,195 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 29,
  "title": "En 1054, une étoile est apparue en plein jour",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "En juillet 1054, une nouvelle « étoile » est apparue dans le ciel. Elle est restée visible en plein jour pendant 23 jours 🌟\n\nC'était une supernova. Ses restes forment aujourd'hui la nébuleuse du Crabe.\n\nTu connaissais cette histoire ? 👇",
- "hashtags": ["#supernova", "#nebuleuseducrabe", "#espace", "#univers", "#astronomie", "#histoire", "#science", "#lesaviezvous", "#esa", "#etoiles"],
- "sources": ["https://www.esa.int/Science_Exploration/Space_Science/22_April"],
+ "subject": "Le Crabe",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "crabe",
+   "file": "assets/images/crabe_hubble.jpg",
+   "credit": "Nébuleuse du Crabe · NASA, ESA, J. Hester, A. Loll (ASU)",
+   "page": "https://esahubble.org/images/heic0515a/",
+   "license": "CC BY 4.0 (ESA/Hubble)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1054, une étoile",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "brillait en",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "PLEIN JOUR ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "crabe",
+  "annot": [
+   {
+    "text": "ses restes aujourd'hui !",
+    "color": "white",
+    "pos": "bl",
+    "size": 40
+   }
+  ],
+  "tagline": {
+   "text": "une étoile en plein jour !",
+   "on": "jour"
+  }
+ },
  "scenes": [
-  {"say": ["En juillet mille cinquante-quatre, une nouvelle étoile est apparue dans le ciel."], "ghost": "1054", "kicker": "JUILLET 1054", "il": {"type": "starsPulse"}, "lines": [{"text": "EN [1054],", "at": [0, 0.2]}, {"text": "UNE NOUVELLE", "at": [0, 0.6]}, {"text": "[ÉTOILE.]", "at": [0, 0.9], "punch": true, "max": 300}]},
-  {"say": ["Elle brillait tellement… qu'on la voyait en plein jour."], "hit": true, "ghost": "JOUR", "lines": [{"text": "VISIBLE", "at": [0, 0.5]}, {"text": "EN PLEIN JOUR.", "at": [0, 0.85], "punch": true, "max": 380}]},
-  {"say": ["Pendant vingt-trois jours."], "ghost": "23 JOURS", "il": {"type": "sun"}, "lines": [{"text": "PENDANT", "at": 0, "max": 200}, {"text": "[23 JOURS.]", "at": [0, 0.5], "punch": true, "count": {"from": 0, "to": 23, "fmt": "[{v} JOURS.]", "dur": 0.7}}]},
-  {"say": ["Des astronomes chinois l'ont soigneusement notée dans leurs archives."], "ghost": "ARCHIVES", "kicker": "ASTRONOMES CHINOIS", "il": {"type": "constellation"}, "lines": [{"text": "DES ASTRONOMES", "at": [0, 0.1]}, {"text": "[CHINOIS]", "at": [0, 0.35], "punch": true}, {"text": "L'ONT NOTÉE.", "at": [0, 0.8]}]},
-  {"say": ["Ce n'était pas une naissance… mais une mort."], "ghost": "MORT", "il": {"type": "question"}, "lines": [{"text": "PAS UNE NAISSANCE…", "at": [0, 0.3]}, {"text": "[UNE MORT.]", "at": [0, 0.85], "punch": true, "max": 300}]},
-  {"say": ["Une étoile géante venait d'exploser : une supernova."], "ghost": "SUPERNOVA", "il": {"type": "burst"}, "lines": [{"text": "UNE ÉTOILE", "at": [0, 0.1]}, {"text": "[EXPLOSE.]", "at": [0, 0.4], "punch": true}, {"text": "UNE SUPERNOVA.", "at": [0, 0.85]}]},
-  {"say": ["Aujourd'hui, ses restes forment la nébuleuse du Crabe."], "ghost": "CRABE", "kicker": "NÉBULEUSE DU CRABE · M1", "il": {"type": "blobToGalaxy"}, "lines": [{"text": "SES RESTES :", "at": [0, 0.2]}, {"text": "LA NÉBULEUSE", "at": [0, 0.6]}, {"text": "[DU CRABE.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Et en son centre, ce qui reste de l'étoile tourne encore sur lui-même… environ trente fois par seconde."], "ghost": "PULSAR", "kicker": "PULSAR DU CRABE · ~30 TOURS/S", "il": {"type": "waves", "label": "PULSAR"}, "lines": [{"text": "EN SON CENTRE,", "at": [0, 0.1]}, {"text": "[30 TOURS]", "at": [0, 0.8], "punch": true}, {"text": "PAR SECONDE.", "at": [0, 0.95]}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'en mille cinquante-quatre, une étoile est apparue dans le ciel et qu'on la voyait en plein jour ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle brillait tellement qu'elle est restée visible en plein jour pendant vingt-trois jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "visible de jour",
+     "size": "m",
+     "on": "visible"
+    },
+    {
+     "t": "text",
+     "text": "23 jours !",
+     "size": "xl",
+     "color": "gold",
+     "on": "vingt-trois"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "jour",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et des astronomes chinois l'ont soigneusement notée dans leurs archives,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "notée par des",
+     "size": "m",
+     "on": "notée"
+    },
+    {
+     "t": "text",
+     "text": "astronomes chinois",
+     "size": "l",
+     "color": "pink",
+     "on": "chinois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais ce n'était pas une naissance, c'était une mort, une étoile géante qui venait d'exploser en supernova,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas une naissance…",
+     "size": "m",
+     "on": "naissance"
+    },
+    {
+     "t": "text",
+     "text": "une supernova !",
+     "size": "xl",
+     "color": "pink",
+     "on": "supernova",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "exploser",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et aujourd'hui, ses restes forment la nébuleuse du Crabe, avec en son centre ce qui reste de l'étoile, qui tourne encore sur lui-même environ trente fois par seconde."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "nébuleuse du Crabe",
+     "size": "l",
+     "color": "gold",
+     "on": "Crabe"
+    },
+    {
+     "t": "text",
+     "text": "le cœur tourne",
+     "size": "m",
+     "on": "tourne"
+    },
+    {
+     "t": "text",
+     "text": "30 fois / seconde !",
+     "size": "l",
+     "color": "pink",
+     "on": "trente"
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1054, une étoile est apparue… et brillait en plein jour 💥\n\nEn juillet 1054, des astronomes chinois ont noté l'apparition d'une « étoile invitée » si brillante qu'elle est restée visible en plein jour pendant 23 jours. Ce n'était pas une naissance mais une mort : une étoile géante venait d'exploser en supernova. Aujourd'hui, ses restes forment la nébuleuse du Crabe, photographiée ici par le télescope Hubble. En son centre se cache ce qui reste du cœur de l'étoile, une étoile à neutrons qui tourne encore sur elle-même environ 30 fois par seconde. Un fait d'histoire de l'astronomie fascinant.\n\nTu imagines voir ça dans le ciel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#supernova",
+  "#nebuleuseducrabe",
+  "#hubble",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.esa.int/Science_Exploration/Space_Science/22_April",
+  "https://esahubble.org/images/heic0515a/"
  ]
 }

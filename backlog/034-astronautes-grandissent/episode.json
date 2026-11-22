@@ -1,20 +1,193 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 34,
  "title": "Les astronautes grandissent dans l'espace",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Dans l'espace, les astronautes peuvent grandir jusqu'à 3 % 📏🚀\n\nSans la gravité, leur colonne vertébrale se détend. Pour une personne d'1,80 m, ça fait environ 5 cm de plus… temporairement.\n\nTu voudrais essayer ? 😄👇",
- "hashtags": ["#astronaute", "#espace", "#iss", "#corpshumain", "#science", "#lesaviezvous", "#nasa", "#univers", "#gravite", "#santé"],
- "sources": ["https://www.space.com/19116-astronauts-taller-space-spines.html"],
+ "subject": "Astronautes",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station spatiale vue de Crew Dragon · NASA",
+   "page": "https://www.nasa.gov/international-space-station/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "les astronautes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "GRANDISSENT ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "iss",
+  "annot": [
+   {
+    "text": "ils grandissent ici !",
+    "color": "pink",
+    "under": true,
+    "pos": "tl"
+   }
+  ],
+  "tagline": {
+   "text": "jusqu'à + 3 % !",
+   "on": "grandirais"
+  }
+ },
  "scenes": [
-  {"say": ["Si tu partais vivre dans l'espace… tu grandirais."], "ghost": "GRANDIR", "il": {"type": "rocket"}, "lines": [{"text": "DANS L'ESPACE,", "at": [0, 0.1]}, {"text": "[TU GRANDIRAIS.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Pas de blague."], "hit": true, "ghost": "VRAI", "lines": [{"text": "PAS DE", "at": 0}, {"text": "BLAGUE.", "at": [0, 0.5], "punch": true, "max": 440}]},
-  {"say": ["Les astronautes peuvent gagner jusqu'à trois pour cent de leur taille."], "ghost": "3 %", "kicker": "JUSQU'À +3 %", "il": {"type": "thermo", "label": "+3 %", "level": 0.8}, "lines": [{"text": "JUSQU'À", "at": [0, 0.4], "max": 200}, {"text": "[+3 %]", "at": [0, 0.65], "punch": true}, {"text": "DE TAILLE.", "at": [0, 0.9]}]},
-  {"say": ["Pour quelqu'un d'un mètre quatre-vingts, ça fait environ cinq centimètres de plus."], "ghost": "5 CM", "il": {"type": "sizeCompare", "big": "1,85 M", "small": "", "ratio": 1.03}, "lines": [{"text": "1,80 M", "at": [0, 0.35]}, {"text": "[+5 CM]", "at": [0, 0.8], "punch": true, "max": 320}]},
-  {"say": ["La raison : sur Terre, la gravité tasse en permanence ta colonne vertébrale."], "ghost": "GRAVITÉ", "il": {"type": "globe", "label": "GRAVITÉ"}, "lines": [{"text": "SUR TERRE,", "at": [0, 0.1]}, {"text": "LA GRAVITÉ", "at": [0, 0.3]}, {"text": "[TASSE TON DOS.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["En apesanteur, les vertèbres se détendent… et s'écartent un peu."], "ghost": "APESANTEUR", "kicker": "MICROGRAVITÉ", "il": {"type": "starsPulse"}, "lines": [{"text": "EN APESANTEUR,", "at": [0, 0.15]}, {"text": "LES VERTÈBRES", "at": [0, 0.5]}, {"text": "[S'ÉCARTENT.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Mais attention : de retour sur Terre, tout revient à la normale en quelques mois."], "ghost": "RETOUR", "il": {"type": "horizon"}, "lines": [{"text": "DE RETOUR SUR TERRE…", "at": [0, 0.35]}, {"text": "[TOUT REVIENT.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Désolé… ça ne marche pas pour longtemps."], "hit": true, "ghost": "DÉSOLÉ", "lines": [{"text": "DÉSOLÉ.", "at": [0, 0.05], "punch": true, "max": 440}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que si tu partais vivre dans l'espace, tu grandirais ?"
+   ]
+  },
+  {
+   "say": [
+    "Les astronautes peuvent gagner jusqu'à trois pour cent de leur taille,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jusqu'à",
+     "size": "m",
+     "on": "jusqu'à"
+    },
+    {
+     "t": "text",
+     "text": "+ 3 %",
+     "size": "xl",
+     "color": "pink",
+     "on": "trois pour cent",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de leur taille",
+     "size": "m",
+     "on": "taille"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour quelqu'un d'un mètre quatre-vingts, ça fait environ cinq centimètres de plus,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1,80 m →",
+     "size": "l",
+     "on": "quatre-vingts"
+    },
+    {
+     "t": "text",
+     "text": "+ 5 cm !",
+     "size": "xl",
+     "color": "gold",
+     "on": "cinq"
+    },
+    {
+     "t": "sketch",
+     "kind": "ruler",
+     "on": "centimètres",
+     "row": "same",
+     "label": "+5 cm",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que sur Terre, la gravité tasse ta colonne vertébrale, alors qu'en apesanteur, les vertèbres se détendent et s'écartent un peu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre : tassé",
+     "size": "m",
+     "on": "tasse"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "gravité",
+     "row": "same",
+     "scale": 0.5
+    },
+    {
+     "t": "text",
+     "text": "en apesanteur : étiré !",
+     "size": "l",
+     "color": "pink",
+     "on": "apesanteur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais de retour sur Terre, tout revient à la normale en quelques mois."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au retour :",
+     "size": "m",
+     "on": "retour"
+    },
+    {
+     "t": "text",
+     "text": "ça ne dure pas…",
+     "size": "l",
+     "color": "gold",
+     "on": "normale"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "mois",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les astronautes grandissent dans l'espace 📏\n\nEn apesanteur, les astronautes peuvent gagner jusqu'à 3 % de leur taille, soit environ 5 cm pour une personne de 1,80 m. La raison : sur Terre, la gravité tasse en permanence la colonne vertébrale. Dans l'espace, les vertèbres se détendent et s'écartent légèrement. Mais l'effet ne dure pas : de retour sur Terre, la taille revient à la normale en quelques mois. Sur la photo, la Station spatiale internationale, où vivent les astronautes. Un fait insolite sur la vie dans l'espace.\n\nTu irais là-haut pour 5 cm ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#astronaute",
+  "#iss",
+  "#espace",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.space.com/19116-astronauts-taller-space-spines.html"
  ]
 }
