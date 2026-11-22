@@ -1,146 +1,146 @@
 {
- "format": "planche",
- "valide": true,
- "num": 212,
- "title": "Le trou noir le plus proche connu est à 1 560 années-lumière",
- "subject": "Trou noir",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Le trou noir",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "le + proche",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "de la TERRE ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
+  "format": "planche",
+  "valide": true,
+  "num": 212,
+  "title": "Le trou noir le plus proche connu est à 1 560 années-lumière",
+  "subject": "Trou noir",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Le trou noir",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "le + proche",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "de la TERRE ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "le + proche connu",
+      "on": "trou noir"
+    },
+    "sketch": "star"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu sais à quelle distance se trouve le trou noir le plus proche connu de la Terre ?"
+      ]
+    },
+    {
+      "say": [
+        "Il s'appelle Gaia BH un, et il a été découvert en deux mille vingt-deux,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Gaia BH1",
+          "size": "xl",
+          "color": "pink",
+          "on": "Gaia"
+        },
+        {
+          "t": "text",
+          "text": "découvert en 2022",
+          "size": "m",
+          "color": "gold",
+          "on": "deux mille vingt-deux"
+        }
+      ]
+    },
+    {
+      "say": [
+        "il se trouve à environ mille cinq cent soixante années-lumière, dans notre galaxie,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "~ 1 560 années-lumière",
+          "size": "l",
+          "color": "gold",
+          "on": "mille cinq cent",
+          "circle": true
+        }
+      ]
+    },
+    {
+      "say": [
+        "il ne brille pas, mais on l'a trouvé parce qu'une étoile tourne autour de lui en se dandinant,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "une étoile se dandine",
+          "size": "l",
+          "on": "dandinant"
+        },
+        {
+          "t": "sketch",
+          "kind": "orbit",
+          "on": "tourne",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "say": [
+        "et rassure-toi, il est bien trop loin pour nous faire quoi que ce soit."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "trop loin",
+          "size": "l",
+          "color": "pink",
+          "on": "loin"
+        },
+        {
+          "t": "text",
+          "text": "aucun danger !",
+          "size": "m",
+          "on": "rassure",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "Le trou noir le plus proche connu de la Terre est à environ 1 560 années-lumière 🕳️\n\nDécouvert en 2022 grâce au satellite Gaia de l'Agence spatiale européenne, Gaia BH1 est le trou noir le plus proche de la Terre connu à ce jour. Il se trouve à environ 1 560 années-lumière, dans la constellation d'Ophiuchus, et pèse environ 10 fois la masse du Soleil. Il n'émet aucune lumière, mais les astronomes l'ont repéré grâce à l'étoile semblable au Soleil qui tourne autour de lui : son mouvement trahit la présence d'un compagnon invisible et massif. Rassure-toi : il est bien trop loin pour représenter le moindre danger. Un fait d'astronomie fascinant.\n\nÇa te fait peur ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#trounoir",
+    "#gaia",
+    "#esa",
+    "#astronomie",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Gaia_BH1",
+    "https://en.wikipedia.org/wiki/Gaia_(spacecraft)"
   ]
- },
- "center": {
-  "tagline": {
-   "text": "le + proche connu",
-   "on": "trou noir"
-  },
-  "sketch": "star"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu sais à quelle distance se trouve le trou noir le plus proche connu de la Terre ?"
-   ]
-  },
-  {
-   "say": [
-    "Il s'appelle Gaia BH un, et il a été découvert en deux mille vingt-deux,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Gaia BH1",
-     "size": "xl",
-     "color": "pink",
-     "on": "Gaia"
-    },
-    {
-     "t": "text",
-     "text": "découvert en 2022",
-     "size": "m",
-     "color": "gold",
-     "on": "deux mille vingt-deux"
-    }
-   ]
-  },
-  {
-   "say": [
-    "il se trouve à environ mille cinq cent soixante années-lumière, dans notre galaxie,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "~ 1 560 années-lumière",
-     "size": "l",
-     "color": "gold",
-     "on": "mille cinq cent",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "il ne brille pas, mais on l'a trouvé parce qu'une étoile tourne autour de lui en se dandinant,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "une étoile se dandine",
-     "size": "l",
-     "on": "dandinant"
-    },
-    {
-     "t": "sketch",
-     "kind": "orbit",
-     "on": "tourne",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "et rassure-toi, il est bien trop loin pour nous faire quoi que ce soit."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "trop loin",
-     "size": "l",
-     "color": "pink",
-     "on": "loin"
-    },
-    {
-     "t": "text",
-     "text": "aucun danger !",
-     "size": "m",
-     "on": "rassure",
-     "under": true
-    }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Le trou noir le plus proche connu de la Terre est à environ 1 560 années-lumière 🕳️\n\nDécouvert en 2022 grâce au satellite Gaia de l'Agence spatiale européenne, Gaia BH1 est le trou noir le plus proche de la Terre connu à ce jour. Il se trouve à environ 1 560 années-lumière, dans la constellation d'Ophiuchus, et pèse environ 10 fois la masse du Soleil. Il n'émet aucune lumière, mais les astronomes l'ont repéré grâce à l'étoile semblable au Soleil qui tourne autour de lui : son mouvement trahit la présence d'un compagnon invisible et massif. Rassure-toi : il est bien trop loin pour représenter le moindre danger. Un fait d'astronomie fascinant.\n\nÇa te fait peur ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#trounoir",
-  "#gaia",
-  "#esa",
-  "#astronomie",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Gaia_BH1",
-  "https://www.esa.int/Science_Exploration/Space_Science/Gaia"
- ]
 }

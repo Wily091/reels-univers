@@ -1,160 +1,160 @@
 {
- "format": "planche",
- "valide": true,
- "num": 219,
- "title": "Le premier rover sur Mars était grand comme un micro-ondes",
- "subject": "Sojourner",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "mars",
-   "file": "assets/images/mars_rosetta.jpg",
-   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
-   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
-   "license": "CC BY-SA 3.0 IGO"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Le 1er rover martien",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "était grand comme",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "un MICRO-ONDES ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
+  "format": "planche",
+  "valide": true,
+  "num": 219,
+  "title": "Le premier rover sur Mars était grand comme un micro-ondes",
+  "subject": "Sojourner",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [
+    {
+      "id": "mars",
+      "file": "assets/images/mars_rosetta.jpg",
+      "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+      "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+      "license": "CC BY-SA 3.0 IGO"
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Le 1er rover martien",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "était grand comme",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "un MICRO-ONDES ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "le 1er rover martien",
+      "on": "rover"
+    },
+    "photo": "mars"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que le tout premier rover sur Mars était à peine plus grand qu'un four micro-ondes ?"
+      ]
+    },
+    {
+      "say": [
+        "Il s'appelait Sojourner, et il s'est posé sur Mars le quatre juillet mille neuf cent quatre-vingt-dix-sept,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Sojourner",
+          "size": "xl",
+          "color": "pink",
+          "on": "Sojourner"
+        },
+        {
+          "t": "text",
+          "text": "4 juillet 1997",
+          "size": "l",
+          "color": "gold",
+          "on": "quatre juillet"
+        }
+      ]
+    },
+    {
+      "say": [
+        "pour atterrir, sa mission a rebondi sur le sol, protégée par des airbags géants,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "atterrissage",
+          "size": "m",
+          "on": "atterrir"
+        },
+        {
+          "t": "text",
+          "text": "en rebondissant sur des airbags !",
+          "size": "l",
+          "color": "pink",
+          "on": "airbags",
+          "circle": true
+        }
+      ]
+    },
+    {
+      "say": [
+        "il pesait une dizaine de kilos, et roulait à environ un centimètre par seconde,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "~ 10 kg",
+          "size": "l",
+          "color": "gold",
+          "on": "dizaine"
+        },
+        {
+          "t": "text",
+          "text": "~ 1 cm par seconde",
+          "size": "m",
+          "on": "centimètre"
+        }
+      ]
+    },
+    {
+      "say": [
+        "et il a ouvert la voie à tous les rovers suivants, jusqu'à Curiosity et Perseverance."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "il a ouvert la voie",
+          "size": "m",
+          "on": "voie"
+        },
+        {
+          "t": "text",
+          "text": "à Curiosity et Perseverance",
+          "size": "l",
+          "color": "gold",
+          "on": "Perseverance",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "Sojourner, le premier rover sur Mars, était grand comme un micro-ondes 🤖\n\nLe 4 juillet 1997, la mission Mars Pathfinder de la NASA se pose sur Mars d'une manière spectaculaire : protégée par d'énormes airbags, elle rebondit plusieurs fois sur le sol avant de s'immobiliser. À son bord, Sojourner, le tout premier rover à rouler sur une autre planète. À peine plus grand qu'un four micro-ondes, il pesait une dizaine de kilos et avançait à environ 1 cm par seconde. Prévu pour une semaine, il a fonctionné près de trois mois, analysant roches et sols martiens. Il a ouvert la voie à Spirit, Opportunity, Curiosity et Perseverance. Sur la photo, Mars.\n\nTu connaissais Sojourner ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#mars",
+    "#sojourner",
+    "#nasa",
+    "#rover",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sojourner_(rover)",
+    "https://fr.wikipedia.org/wiki/Mars_Pathfinder"
   ]
- },
- "center": {
-  "tagline": {
-   "text": "le 1er rover martien",
-   "on": "rover"
-  },
-  "photo": "mars"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que le tout premier rover sur Mars était à peine plus grand qu'un four micro-ondes ?"
-   ]
-  },
-  {
-   "say": [
-    "Il s'appelait Sojourner, et il s'est posé sur Mars le quatre juillet mille neuf cent quatre-vingt-dix-sept,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Sojourner",
-     "size": "xl",
-     "color": "pink",
-     "on": "Sojourner"
-    },
-    {
-     "t": "text",
-     "text": "4 juillet 1997",
-     "size": "l",
-     "color": "gold",
-     "on": "quatre juillet"
-    }
-   ]
-  },
-  {
-   "say": [
-    "pour atterrir, sa mission a rebondi sur le sol, protégée par des airbags géants,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "atterrissage",
-     "size": "m",
-     "on": "atterrir"
-    },
-    {
-     "t": "text",
-     "text": "en rebondissant sur des airbags !",
-     "size": "l",
-     "color": "pink",
-     "on": "airbags",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "il pesait une dizaine de kilos, et roulait à environ un centimètre par seconde,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "~ 10 kg",
-     "size": "l",
-     "color": "gold",
-     "on": "dizaine"
-    },
-    {
-     "t": "text",
-     "text": "~ 1 cm par seconde",
-     "size": "m",
-     "on": "centimètre"
-    }
-   ]
-  },
-  {
-   "say": [
-    "et il a ouvert la voie à tous les rovers suivants, jusqu'à Curiosity et Perseverance."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "il a ouvert la voie",
-     "size": "m",
-     "on": "voie"
-    },
-    {
-     "t": "text",
-     "text": "à Curiosity et Perseverance",
-     "size": "l",
-     "color": "gold",
-     "on": "Perseverance",
-     "under": true
-    }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Sojourner, le premier rover sur Mars, était grand comme un micro-ondes 🤖\n\nLe 4 juillet 1997, la mission Mars Pathfinder de la NASA se pose sur Mars d'une manière spectaculaire : protégée par d'énormes airbags, elle rebondit plusieurs fois sur le sol avant de s'immobiliser. À son bord, Sojourner, le tout premier rover à rouler sur une autre planète. À peine plus grand qu'un four micro-ondes, il pesait une dizaine de kilos et avançait à environ 1 cm par seconde. Prévu pour une semaine, il a fonctionné près de trois mois, analysant roches et sols martiens. Il a ouvert la voie à Spirit, Opportunity, Curiosity et Perseverance. Sur la photo, Mars.\n\nTu connaissais Sojourner ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#mars",
-  "#sojourner",
-  "#nasa",
-  "#rover",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Sojourner_(rover)",
-  "https://fr.wikipedia.org/wiki/Mars_Pathfinder"
- ]
 }

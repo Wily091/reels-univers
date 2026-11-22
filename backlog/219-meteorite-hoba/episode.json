@@ -1,151 +1,151 @@
 {
- "format": "planche",
- "valide": true,
- "num": 218,
- "title": "La plus grosse météorite connue n'a jamais été déplacée",
- "subject": "Hoba",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Cette météorite",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "pèse ~ 60 tonnes",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "et n'a JAMAIS bougé ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
+  "format": "planche",
+  "valide": true,
+  "num": 218,
+  "title": "La plus grosse météorite connue n'a jamais été déplacée",
+  "subject": "Hoba",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Cette météorite",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "pèse ~ 60 tonnes",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "et n'a JAMAIS bougé ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "la + grosse météorite",
+      "on": "météorite"
+    },
+    "sketch": "star"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que la plus grosse météorite connue sur Terre n'a jamais été déplacée ?"
+      ]
+    },
+    {
+      "say": [
+        "Elle s'appelle Hoba, et elle se trouve en Namibie, en Afrique,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Hoba",
+          "size": "xl",
+          "color": "pink",
+          "on": "Hoba"
+        },
+        {
+          "t": "text",
+          "text": "en Namibie",
+          "size": "m",
+          "on": "Namibie"
+        }
+      ]
+    },
+    {
+      "say": [
+        "elle est faite presque entièrement de fer et de nickel, et pèse environ soixante tonnes,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "~ 60 tonnes !",
+          "size": "xl",
+          "color": "gold",
+          "on": "soixante",
+          "circle": true
+        },
+        {
+          "t": "text",
+          "text": "de fer et de nickel",
+          "size": "m",
+          "on": "fer"
+        }
+      ]
+    },
+    {
+      "say": [
+        "elle a été découverte en mille neuf cent vingt par un fermier qui labourait son champ, sa charrue a heurté le métal,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "1920 : un fermier",
+          "size": "l",
+          "on": "fermier"
+        },
+        {
+          "t": "text",
+          "text": "sa charrue la heurte !",
+          "size": "m",
+          "color": "gold",
+          "on": "charrue"
+        }
+      ]
+    },
+    {
+      "say": [
+        "et comme elle est bien trop lourde, elle est restée exactement là où elle est tombée."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "trop lourde :",
+          "size": "m",
+          "on": "lourde"
+        },
+        {
+          "t": "text",
+          "text": "elle n'a jamais bougé !",
+          "size": "l",
+          "color": "pink",
+          "on": "tombée",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "Hoba, la plus grosse météorite connue, pèse environ 60 tonnes ☄️\n\nEn Namibie, en Afrique australe, se trouve la météorite Hoba, la plus grosse météorite connue sur Terre sous forme d'un seul bloc. Composée presque entièrement de fer et de nickel, elle pèse environ 60 tonnes ! Elle a été découverte en 1920 par un fermier dont la charrue a heurté le métal en labourant son champ. Trop lourde pour être déplacée, elle est restée exactement là où elle est tombée, il y a sans doute moins de 80 000 ans. Fait étonnant : elle n'a laissé aucun cratère, sans doute parce qu'elle a été très freinée par l'atmosphère. Elle est aujourd'hui un monument national. Un trésor de l'astronomie.\n\nTu aimerais la voir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#meteorite",
+    "#namibie",
+    "#hoba",
+    "#astronomie",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hoba_meteorite",
+    "https://science.nasa.gov/solar-system/meteors-meteorites/"
   ]
- },
- "center": {
-  "tagline": {
-   "text": "la + grosse météorite",
-   "on": "météorite"
-  },
-  "sketch": "star"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que la plus grosse météorite connue sur Terre n'a jamais été déplacée ?"
-   ]
-  },
-  {
-   "say": [
-    "Elle s'appelle Hoba, et elle se trouve en Namibie, en Afrique,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Hoba",
-     "size": "xl",
-     "color": "pink",
-     "on": "Hoba"
-    },
-    {
-     "t": "text",
-     "text": "en Namibie",
-     "size": "m",
-     "on": "Namibie"
-    }
-   ]
-  },
-  {
-   "say": [
-    "elle est faite presque entièrement de fer et de nickel, et pèse environ soixante tonnes,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "~ 60 tonnes !",
-     "size": "xl",
-     "color": "gold",
-     "on": "soixante",
-     "circle": true
-    },
-    {
-     "t": "text",
-     "text": "de fer et de nickel",
-     "size": "m",
-     "on": "fer"
-    }
-   ]
-  },
-  {
-   "say": [
-    "elle a été découverte en mille neuf cent vingt par un fermier qui labourait son champ, sa charrue a heurté le métal,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "1920 : un fermier",
-     "size": "l",
-     "on": "fermier"
-    },
-    {
-     "t": "text",
-     "text": "sa charrue la heurte !",
-     "size": "m",
-     "color": "gold",
-     "on": "charrue"
-    }
-   ]
-  },
-  {
-   "say": [
-    "et comme elle est bien trop lourde, elle est restée exactement là où elle est tombée."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "trop lourde :",
-     "size": "m",
-     "on": "lourde"
-    },
-    {
-     "t": "text",
-     "text": "elle n'a jamais bougé !",
-     "size": "l",
-     "color": "pink",
-     "on": "tombée",
-     "under": true
-    }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Hoba, la plus grosse météorite connue, pèse environ 60 tonnes ☄️\n\nEn Namibie, en Afrique australe, se trouve la météorite Hoba, la plus grosse météorite connue sur Terre sous forme d'un seul bloc. Composée presque entièrement de fer et de nickel, elle pèse environ 60 tonnes ! Elle a été découverte en 1920 par un fermier dont la charrue a heurté le métal en labourant son champ. Trop lourde pour être déplacée, elle est restée exactement là où elle est tombée, il y a sans doute moins de 80 000 ans. Fait étonnant : elle n'a laissé aucun cratère, sans doute parce qu'elle a été très freinée par l'atmosphère. Elle est aujourd'hui un monument national. Un trésor de l'astronomie.\n\nTu aimerais la voir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#meteorite",
-  "#namibie",
-  "#hoba",
-  "#astronomie",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Hoba_(météorite)",
-  "https://science.nasa.gov/solar-system/meteors-meteorites/"
- ]
 }

@@ -1,159 +1,159 @@
 {
- "format": "planche",
- "valide": true,
- "num": 230,
- "title": "Starship est la fusée la plus puissante jamais construite",
- "subject": "Starship",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Cette fusée",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "est + haute",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "qu'un IMMEUBLE de 40 étages ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
+  "format": "planche",
+  "valide": true,
+  "num": 230,
+  "title": "Starship est la fusée la plus puissante jamais construite",
+  "subject": "Starship",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Cette fusée",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "est + haute",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "qu'un IMMEUBLE de 40 étages ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "la + puissante fusée",
+      "on": "fusée"
+    },
+    "sketch": "rocket"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que la fusée la plus puissante jamais lancée est plus haute qu'un immeuble de quarante étages ?"
+      ]
+    },
+    {
+      "say": [
+        "C'est Starship, développée par l'entreprise SpaceX,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Starship",
+          "size": "xl",
+          "color": "pink",
+          "on": "Starship"
+        },
+        {
+          "t": "text",
+          "text": "de SpaceX",
+          "size": "m",
+          "on": "SpaceX"
+        },
+        {
+          "t": "sketch",
+          "kind": "rocket",
+          "on": "entreprise",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "say": [
+        "avec son premier étage, elle mesure plus de cent vingt mètres de haut,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "+ de 120 m de haut !",
+          "size": "l",
+          "color": "gold",
+          "on": "cent vingt",
+          "circle": true
+        }
+      ]
+    },
+    {
+      "say": [
+        "son premier étage, Super Heavy, a trente-trois moteurs qui s'allument en même temps,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "33 moteurs",
+          "size": "xl",
+          "color": "pink",
+          "on": "trente-trois"
+        },
+        {
+          "t": "text",
+          "text": "allumés ensemble !",
+          "size": "m",
+          "on": "allument"
+        }
+      ]
+    },
+    {
+      "say": [
+        "et la NASA compte sur une version de Starship pour reposer des astronautes sur la Lune."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "objectif :",
+          "size": "m",
+          "on": "compte"
+        },
+        {
+          "t": "text",
+          "text": "retourner sur la Lune",
+          "size": "l",
+          "color": "gold",
+          "on": "Lune",
+          "under": true
+        },
+        {
+          "t": "sketch",
+          "kind": "moon",
+          "on": "astronautes",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "Starship, la fusée la plus puissante jamais lancée 🚀\n\nDéveloppée par SpaceX, Starship est la fusée la plus grande et la plus puissante jamais lancée. Avec son premier étage, Super Heavy, elle mesure plus de 120 mètres de haut, davantage que la fusée Saturn V des missions Apollo, soit la hauteur d'un immeuble d'environ quarante étages. Super Heavy est propulsé par 33 moteurs Raptor qui s'allument simultanément au décollage ! Les deux étages sont conçus pour être réutilisés, et SpaceX a déjà réussi à rattraper le premier étage avec les bras de sa tour de lancement. La NASA a choisi une version de Starship pour faire atterrir ses astronautes sur la Lune dans le cadre du programme Artemis.\n\nTu aimerais voir un décollage ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#starship",
+    "#spacex",
+    "#fusee",
+    "#espace",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://www.spacex.com/vehicles/starship/",
+    "https://en.wikipedia.org/wiki/SpaceX_Starship"
   ]
- },
- "center": {
-  "tagline": {
-   "text": "la + puissante fusée",
-   "on": "fusée"
-  },
-  "sketch": "rocket"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que la fusée la plus puissante jamais lancée est plus haute qu'un immeuble de quarante étages ?"
-   ]
-  },
-  {
-   "say": [
-    "C'est Starship, développée par l'entreprise SpaceX,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Starship",
-     "size": "xl",
-     "color": "pink",
-     "on": "Starship"
-    },
-    {
-     "t": "text",
-     "text": "de SpaceX",
-     "size": "m",
-     "on": "SpaceX"
-    },
-    {
-     "t": "sketch",
-     "kind": "rocket",
-     "on": "entreprise",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "avec son premier étage, elle mesure plus de cent vingt mètres de haut,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "+ de 120 m de haut !",
-     "size": "l",
-     "color": "gold",
-     "on": "cent vingt",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "son premier étage, Super Heavy, a trente-trois moteurs qui s'allument en même temps,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "33 moteurs",
-     "size": "xl",
-     "color": "pink",
-     "on": "trente-trois"
-    },
-    {
-     "t": "text",
-     "text": "allumés ensemble !",
-     "size": "m",
-     "on": "allument"
-    }
-   ]
-  },
-  {
-   "say": [
-    "et la NASA compte sur une version de Starship pour reposer des astronautes sur la Lune."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "objectif :",
-     "size": "m",
-     "on": "compte"
-    },
-    {
-     "t": "text",
-     "text": "retourner sur la Lune",
-     "size": "l",
-     "color": "gold",
-     "on": "Lune",
-     "under": true
-    },
-    {
-     "t": "sketch",
-     "kind": "moon",
-     "on": "astronautes",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Starship, la fusée la plus puissante jamais lancée 🚀\n\nDéveloppée par SpaceX, Starship est la fusée la plus grande et la plus puissante jamais lancée. Avec son premier étage, Super Heavy, elle mesure plus de 120 mètres de haut, davantage que la fusée Saturn V des missions Apollo, soit la hauteur d'un immeuble d'environ quarante étages. Super Heavy est propulsé par 33 moteurs Raptor qui s'allument simultanément au décollage ! Les deux étages sont conçus pour être réutilisés, et SpaceX a déjà réussi à rattraper le premier étage avec les bras de sa tour de lancement. La NASA a choisi une version de Starship pour faire atterrir ses astronautes sur la Lune dans le cadre du programme Artemis.\n\nTu aimerais voir un décollage ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#starship",
-  "#spacex",
-  "#fusee",
-  "#espace",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Starship_(SpaceX)",
-  "https://en.wikipedia.org/wiki/SpaceX_Starship"
- ]
 }

@@ -1,159 +1,159 @@
 {
- "format": "planche",
- "valide": true,
- "num": 226,
- "title": "Le plus grand radiotélescope du monde fait 500 mètres",
- "subject": "FAST",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Cette antenne",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "fait 500 m,",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "comme 5 TERRAINS DE FOOT ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
+  "format": "planche",
+  "valide": true,
+  "num": 226,
+  "title": "Le plus grand radiotélescope du monde fait 500 mètres",
+  "subject": "FAST",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Cette antenne",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "fait 500 m,",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "comme 5 TERRAINS DE FOOT ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "une oreille géante",
+      "on": "antenne"
+    },
+    "sketch": "star"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que la plus grande antenne unique pour écouter l'univers fait cinq cents mètres de diamètre ?"
+      ]
+    },
+    {
+      "say": [
+        "C'est le radiotélescope FAST, en Chine, installé dans une cuvette naturelle entre des montagnes,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "FAST, en Chine",
+          "size": "l",
+          "color": "pink",
+          "on": "FAST"
+        },
+        {
+          "t": "sketch",
+          "kind": "mountains",
+          "on": "montagnes",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "say": [
+        "son immense coupole fait cinq cents mètres, presque la longueur de cinq terrains de foot,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "500 m de diamètre",
+          "size": "xl",
+          "color": "gold",
+          "on": "cinq cents",
+          "circle": true
+        },
+        {
+          "t": "text",
+          "text": "~ 5 terrains de foot",
+          "size": "m",
+          "on": "terrains"
+        }
+      ]
+    },
+    {
+      "say": [
+        "il ne regarde pas la lumière, il écoute les ondes radio venues de l'espace,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "il écoute",
+          "size": "l",
+          "on": "écoute"
+        },
+        {
+          "t": "text",
+          "text": "les ondes radio",
+          "size": "m",
+          "color": "pink",
+          "on": "ondes"
+        },
+        {
+          "t": "sketch",
+          "kind": "wave",
+          "on": "radio",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "say": [
+        "et il a déjà découvert plus de mille pulsars, ces étoiles mortes qui tournent à toute vitesse."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "+ de 1 000 pulsars",
+          "size": "l",
+          "color": "gold",
+          "on": "mille pulsars"
+        },
+        {
+          "t": "text",
+          "text": "découverts !",
+          "size": "m",
+          "on": "découvert",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "FAST, le plus grand radiotélescope du monde, fait 500 mètres de diamètre 📡\n\nEn Chine, dans la province du Guizhou, se trouve FAST, le plus grand radiotélescope à antenne unique du monde. Mis en service en 2016, il a été installé dans une cuvette naturelle entre des collines karstiques. Sa coupole mesure 500 mètres de diamètre, et est formée de milliers de panneaux réglables. FAST ne capte pas la lumière visible, mais les ondes radio venues de l'espace. Il a déjà découvert plus de 1 000 pulsars, ces étoiles à neutrons qui tournent sur elles-mêmes à toute vitesse en émettant des faisceaux réguliers. Une oreille géante tournée vers le cosmos.\n\nTu savais que ça existait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#fast",
+    "#radiotelescope",
+    "#pulsar",
+    "#astronomie",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Pulsar",
+    "https://en.wikipedia.org/wiki/Five-hundred-meter_Aperture_Spherical_Telescope"
   ]
- },
- "center": {
-  "tagline": {
-   "text": "une oreille géante",
-   "on": "antenne"
-  },
-  "sketch": "star"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que la plus grande antenne unique pour écouter l'univers fait cinq cents mètres de diamètre ?"
-   ]
-  },
-  {
-   "say": [
-    "C'est le radiotélescope FAST, en Chine, installé dans une cuvette naturelle entre des montagnes,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "FAST, en Chine",
-     "size": "l",
-     "color": "pink",
-     "on": "FAST"
-    },
-    {
-     "t": "sketch",
-     "kind": "mountains",
-     "on": "montagnes",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "son immense coupole fait cinq cents mètres, presque la longueur de cinq terrains de foot,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "500 m de diamètre",
-     "size": "xl",
-     "color": "gold",
-     "on": "cinq cents",
-     "circle": true
-    },
-    {
-     "t": "text",
-     "text": "~ 5 terrains de foot",
-     "size": "m",
-     "on": "terrains"
-    }
-   ]
-  },
-  {
-   "say": [
-    "il ne regarde pas la lumière, il écoute les ondes radio venues de l'espace,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "il écoute",
-     "size": "l",
-     "on": "écoute"
-    },
-    {
-     "t": "text",
-     "text": "les ondes radio",
-     "size": "m",
-     "color": "pink",
-     "on": "ondes"
-    },
-    {
-     "t": "sketch",
-     "kind": "wave",
-     "on": "radio",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "et il a déjà découvert plus de mille pulsars, ces étoiles mortes qui tournent à toute vitesse."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "+ de 1 000 pulsars",
-     "size": "l",
-     "color": "gold",
-     "on": "mille pulsars"
-    },
-    {
-     "t": "text",
-     "text": "découverts !",
-     "size": "m",
-     "on": "découvert",
-     "under": true
-    }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "FAST, le plus grand radiotélescope du monde, fait 500 mètres de diamètre 📡\n\nEn Chine, dans la province du Guizhou, se trouve FAST, le plus grand radiotélescope à antenne unique du monde. Mis en service en 2016, il a été installé dans une cuvette naturelle entre des collines karstiques. Sa coupole mesure 500 mètres de diamètre, et est formée de milliers de panneaux réglables. FAST ne capte pas la lumière visible, mais les ondes radio venues de l'espace. Il a déjà découvert plus de 1 000 pulsars, ces étoiles à neutrons qui tournent sur elles-mêmes à toute vitesse en émettant des faisceaux réguliers. Une oreille géante tournée vers le cosmos.\n\nTu savais que ça existait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#fast",
-  "#radiotelescope",
-  "#pulsar",
-  "#astronomie",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Five-hundred-meter_Aperture_Spherical_Telescope",
-  "https://en.wikipedia.org/wiki/Five-hundred-meter_Aperture_Spherical_Telescope"
- ]
 }
