@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 89,
+ "title": "On ne peut pas se poser sur Jupiter",
+ "subject": "Jupiter",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Jupiter,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il n'y a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "PAS DE SOL ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "pas de sol !",
+   "on": "sol"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'on ne peut pas se poser sur Jupiter, parce qu'elle n'a pas de sol ?"
+   ]
+  },
+  {
+   "say": [
+    "Jupiter est une géante gazeuse, faite surtout d'hydrogène et d'hélium,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une géante gazeuse",
+     "size": "l",
+     "color": "pink",
+     "on": "géante"
+    },
+    {
+     "t": "text",
+     "text": "hydrogène + hélium",
+     "size": "m",
+     "color": "gold",
+     "on": "hydrogène"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et si tu essayais d'y descendre, tu traverserais des nuages de plus en plus épais,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tu traverserais",
+     "size": "m",
+     "on": "traverserais"
+    },
+    {
+     "t": "text",
+     "text": "des nuages sans fin",
+     "size": "l",
+     "color": "gold",
+     "on": "nuages"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "nuages",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis la pression et la chaleur deviendraient si fortes qu'aucun vaisseau ne pourrait résister,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pression + chaleur",
+     "size": "m",
+     "on": "pression"
+    },
+    {
+     "t": "text",
+     "text": "aucun vaisseau ne tient !",
+     "size": "l",
+     "color": "pink",
+     "on": "résister",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et tout au fond, le gaz devient liquide, mais il n'y a jamais de sol où marcher."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au fond : du gaz liquide",
+     "size": "m",
+     "on": "liquide"
+    },
+    {
+     "t": "text",
+     "text": "jamais de sol !",
+     "size": "xl",
+     "color": "gold",
+     "on": "jamais",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "On ne peut pas se poser sur Jupiter : elle n'a pas de sol 🪐\n\nJupiter est une géante gazeuse composée surtout d'hydrogène et d'hélium. Contrairement à la Terre ou à Mars, elle n'a pas de surface solide où se poser. Un vaisseau qui tenterait d'y descendre traverserait des couches de nuages de plus en plus denses, puis serait écrasé et fondu par une pression et une chaleur énormes. Plus profondément, l'hydrogène devient liquide, mais il n'y a jamais de « sol » où marcher. En 2003, la sonde Galileo a d'ailleurs été volontairement plongée dans Jupiter. Sur la photo, Jupiter vue par Hubble. Un fait d'astronomie surprenant.\n\nTu pensais qu'on pouvait s'y poser ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jupiter",
+  "#planetegazeuse",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/jupiter/facts/"
+ ]
+}

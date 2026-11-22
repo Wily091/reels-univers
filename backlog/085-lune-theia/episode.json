@@ -1,0 +1,173 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 84,
+ "title": "La Lune serait née d'une collision géante",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Lune serait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un morceau",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la TERRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "née d'une collision !",
+   "on": "collision"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Lune serait née d'une collision géante avec la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Il y a environ quatre milliards et demi d'années, une planète de la taille de Mars aurait percuté la jeune Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il y a ~ 4,5 milliards d'années",
+     "size": "s",
+     "on": "quatre milliards"
+    },
+    {
+     "t": "text",
+     "text": "un choc géant !",
+     "size": "l",
+     "color": "pink",
+     "on": "percuté",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "percuté",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "les scientifiques l'appellent Théia,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Théia",
+     "size": "xl",
+     "color": "gold",
+     "on": "Théia"
+    },
+    {
+     "t": "text",
+     "text": "(taille de Mars)",
+     "size": "s",
+     "color": "soft",
+     "on": "appellent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le choc aurait projeté dans l'espace une énorme quantité de roches en fusion,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des roches en fusion",
+     "size": "l",
+     "color": "pink",
+     "on": "roches"
+    },
+    {
+     "t": "text",
+     "text": "projetées dans l'espace",
+     "size": "m",
+     "on": "projeté"
+    }
+   ]
+  },
+  {
+   "say": [
+    "qui se seraient ensuite rassemblées pour former la Lune, c'est pour ça que ses roches ressemblent tant à celles de la Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "rassemblées → la Lune",
+     "size": "l",
+     "color": "gold",
+     "on": "rassemblées"
+    },
+    {
+     "t": "text",
+     "text": "roches ≈ celles de la Terre",
+     "size": "m",
+     "on": "ressemblent",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Lune serait née d'une collision géante avec la Terre 🌕\n\nSelon la théorie la plus acceptée, il y a environ 4,5 milliards d'années, une planète de la taille de Mars, baptisée Théia, aurait percuté la jeune Terre. Le choc aurait projeté dans l'espace d'énormes quantités de roches en fusion, qui se seraient ensuite rassemblées en orbite pour former la Lune. C'est ce qui expliquerait pourquoi les roches lunaires rapportées par les missions Apollo ressemblent tant à celles de la Terre. Sur la photo, la pleine Lune. Une histoire violente à l'origine de notre astronomie quotidienne.\n\nTu connaissais cette théorie ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#theia",
+  "#astronomie",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/formation/"
+ ]
+}

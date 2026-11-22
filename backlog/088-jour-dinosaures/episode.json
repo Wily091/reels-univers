@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 87,
+ "title": "Au temps des dinosaures, une journée durait moins de 24 heures",
+ "subject": "La Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Au temps des dinosaures,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une journée durait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "MOINS de 24 h ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des jours + courts !",
+   "on": "journée"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'au temps des dinosaures, une journée durait moins de vingt-quatre heures ?"
+   ]
+  },
+  {
+   "say": [
+    "Il y a environ soixante-dix millions d'années, la Terre tournait plus vite sur elle-même,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il y a ~ 70 millions d'années",
+     "size": "m",
+     "on": "soixante-dix"
+    },
+    {
+     "t": "text",
+     "text": "la Terre tournait + vite",
+     "size": "l",
+     "color": "pink",
+     "on": "vite"
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tournait",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une journée ne durait qu'environ vingt-trois heures et demie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 jour =",
+     "size": "m",
+     "on": "journée"
+    },
+    {
+     "t": "text",
+     "text": "23 h 30",
+     "size": "xl",
+     "color": "gold",
+     "on": "vingt-trois",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, une année comptait environ trois cent soixante-douze jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 année =",
+     "size": "m",
+     "on": "année"
+    },
+    {
+     "t": "text",
+     "text": "~ 372 jours !",
+     "size": "l",
+     "color": "pink",
+     "on": "trois cent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la Terre ralentit encore aujourd'hui, freinée par la Lune et les marées."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle ralentit encore",
+     "size": "m",
+     "on": "ralentit"
+    },
+    {
+     "t": "text",
+     "text": "freinée par la Lune",
+     "size": "l",
+     "color": "gold",
+     "on": "Lune",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "marées",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Au temps des dinosaures, une journée ne durait que 23 h 30 🦖\n\nIl y a environ 70 millions d'années, à la fin de l'ère des dinosaures, la Terre tournait plus vite sur elle-même. Une journée durait alors environ 23 h 30, et une année comptait à peu près 372 jours ! C'est ce qu'ont révélé en 2020 des scientifiques en étudiant les couches de croissance quotidiennes d'un coquillage fossile. Depuis, la rotation de la Terre ralentit très lentement, freinée par la Lune et les marées. Sur la photo, la Terre vue par Apollo 17. Un fait fascinant entre astronomie et paléontologie.\n\nTu aurais aimé des journées plus longues ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#dinosaures",
+  "#terre",
+  "#science",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019PA003723"
+ ]
+}

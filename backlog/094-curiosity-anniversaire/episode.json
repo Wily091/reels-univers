@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 93,
+ "title": "Le robot Curiosity s'est chanté joyeux anniversaire sur Mars",
+ "subject": "Curiosity",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "curiosity",
+   "file": "assets/images/curiosity_selfie.jpg",
+   "credit": "Autoportrait de Curiosity · NASA/JPL-Caltech/MSSS",
+   "page": "https://science.nasa.gov/mission/msl-curiosity/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce robot",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "s'est chanté",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "JOYEUX ANNIVERSAIRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "seul sur Mars…",
+   "on": "anniversaire"
+  },
+  "photo": "curiosity"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un robot sur Mars s'est chanté joyeux anniversaire tout seul ?"
+   ]
+  },
+  {
+   "say": [
+    "Le robot Curiosity de la NASA s'est posé sur Mars en août deux mille douze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Curiosity",
+     "size": "xl",
+     "color": "pink",
+     "on": "Curiosity"
+    },
+    {
+     "t": "text",
+     "text": "arrivé en août 2012",
+     "size": "m",
+     "color": "gold",
+     "on": "août"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et un an plus tard, le cinq août deux mille treize, il a fait vibrer un de ses instruments pour jouer la chanson,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "5 août 2013",
+     "size": "l",
+     "color": "gold",
+     "on": "cinq août"
+    },
+    {
+     "t": "text",
+     "text": "un instrument vibre",
+     "size": "m",
+     "on": "vibrer"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "chanson",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "ces vibrations ont produit les notes de joyeux anniversaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "♪ joyeux anniversaire ♪",
+     "size": "l",
+     "color": "pink",
+     "on": "notes",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il est toujours en activité aujourd'hui, plus de treize ans après son arrivée."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toujours actif",
+     "size": "l",
+     "color": "gold",
+     "on": "toujours"
+    },
+    {
+     "t": "text",
+     "text": "+ de 13 ans après !",
+     "size": "m",
+     "color": "pink",
+     "on": "treize",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le robot Curiosity s'est chanté joyeux anniversaire sur Mars 🎂\n\nLe rover Curiosity de la NASA s'est posé sur Mars le 6 août 2012 (heure de la côte Est des États-Unis). Pour fêter sa première année sur la planète rouge, le 5 août 2013, les ingénieurs lui ont fait jouer « Joyeux anniversaire » en faisant vibrer l'un de ses instruments scientifiques à différentes fréquences. Un petit concert en solo, à des millions de kilomètres de la Terre ! Plus de 13 ans après son arrivée, Curiosity explore toujours Mars. Sur la photo, un autoportrait de Curiosity. Un moment touchant de l'exploration spatiale.\n\nÇa t'émeut un peu ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#curiosity",
+  "#mars",
+  "#nasa",
+  "#insolite",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/msl-curiosity/"
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 94,
+ "title": "Pluton a un ciel bleu et des montagnes de glace",
+ "subject": "Pluton",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pluton",
+   "file": "assets/images/pluton_new_horizons.jpg",
+   "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
+   "page": "https://science.nasa.gov/dwarf-planets/pluto/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pluton a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un ciel BLEU",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "comme la Terre ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un ciel bleu !",
+   "on": "bleu"
+  },
+  "photo": "pluton"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que Pluton, la petite planète naine glacée, a un ciel bleu ?"
+   ]
+  },
+  {
+   "say": [
+    "En deux mille quinze, la sonde New Horizons est passée près d'elle et a photographié son atmosphère,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2015 : New Horizons",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille quinze"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle a découvert une brume bleue, faite de minuscules particules qui diffusent la lumière bleue,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une brume bleue !",
+     "size": "l",
+     "color": "pink",
+     "on": "brume",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de minuscules particules",
+     "size": "m",
+     "on": "particules"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en plus, Pluton a des montagnes de glace d'eau hautes de plusieurs kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des montagnes",
+     "size": "m",
+     "on": "montagnes"
+    },
+    {
+     "t": "text",
+     "text": "de glace d'eau !",
+     "size": "l",
+     "color": "gold",
+     "on": "glace"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "montagnes",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une immense plaine glacée en forme de cœur, sur une planète où il fait environ moins deux cent trente degrés."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un cœur de glace ♥",
+     "size": "l",
+     "color": "pink",
+     "on": "cœur"
+    },
+    {
+     "t": "text",
+     "text": "à ~ −230 °C",
+     "size": "m",
+     "color": "gold",
+     "on": "moins",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pluton a un ciel bleu et des montagnes de glace 💙\n\nEn juillet 2015, la sonde New Horizons de la NASA a survolé Pluton et nous a révélé un monde étonnant. Sa fine atmosphère contient une brume de minuscules particules qui diffusent la lumière bleue : Pluton a donc un ciel bleuté ! La sonde a aussi découvert des montagnes de glace d'eau hautes de plusieurs kilomètres et une immense plaine glacée en forme de cœur, le tout à environ −230 °C. Sur la photo, Pluton en couleurs naturelles vue par New Horizons. Une planète naine bien plus vivante qu'on ne le pensait.\n\nTu imaginais Pluton comme ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pluton",
+  "#newhorizons",
+  "#planetenaine",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+ ]
+}

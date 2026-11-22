@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 85,
+ "title": "Les éclipses totales existent grâce à une coïncidence incroyable",
+ "subject": "Éclipses",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les éclipses totales",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "existent grâce",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à un HASARD fou ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "400 × + grand, 400 × + loin",
+   "on": "hasard"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les éclipses totales de Soleil existent grâce à un hasard incroyable ?"
+   ]
+  },
+  {
+   "say": [
+    "Le Soleil est environ quatre cents fois plus large que la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Soleil :",
+     "size": "m",
+     "on": "Soleil"
+    },
+    {
+     "t": "text",
+     "text": "400 × + large",
+     "size": "xl",
+     "color": "gold",
+     "on": "quatre cents"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il est aussi environ quatre cents fois plus loin de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "mais aussi",
+     "size": "m",
+     "on": "aussi"
+    },
+    {
+     "t": "text",
+     "text": "400 × + loin !",
+     "size": "xl",
+     "color": "pink",
+     "on": "plus loin",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, vus depuis la Terre, ils paraissent presque exactement de la même taille,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans le ciel :",
+     "size": "m",
+     "on": "Terre"
+    },
+    {
+     "t": "text",
+     "text": "la même taille !",
+     "size": "l",
+     "color": "gold",
+     "on": "même taille"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est pour ça que la Lune peut cacher parfaitement le Soleil, en laissant juste apparaître sa couronne."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Lune cache le Soleil",
+     "size": "m",
+     "on": "cacher"
+    },
+    {
+     "t": "text",
+     "text": "parfaitement !",
+     "size": "l",
+     "color": "pink",
+     "on": "parfaitement",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les éclipses totales existent grâce à une coïncidence incroyable 🌑☀️\n\nLe Soleil est environ 400 fois plus large que la Lune… mais il est aussi environ 400 fois plus éloigné de nous ! Résultat : vus depuis la Terre, les deux astres paraissent presque exactement de la même taille dans le ciel. C'est cette coïncidence qui permet aux éclipses totales : la Lune peut alors masquer parfaitement le disque du Soleil et laisser apparaître sa couronne, ce halo lumineux normalement invisible. Sur la photo, le Soleil vu par le satellite SDO. Un hasard cosmique qui rend l'astronomie magique.\n\nTu as déjà vu une éclipse totale ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#eclipse",
+  "#soleil",
+  "#lune",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/eclipses/",
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

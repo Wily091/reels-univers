@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 86,
+ "title": "Un jour, il n'y aura plus d'éclipses totales",
+ "subject": "Éclipses",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un jour, il n'y aura",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "plus aucune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ÉCLIPSE totale ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "elles vont disparaître !",
+   "on": "éclipse"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un jour, il n'y aura plus aucune éclipse totale de Soleil sur Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Parce que la Lune s'éloigne de nous d'environ trois virgule huit centimètres chaque année,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Lune s'éloigne :",
+     "size": "m",
+     "on": "éloigne"
+    },
+    {
+     "t": "text",
+     "text": "3,8 cm / an",
+     "size": "xl",
+     "color": "gold",
+     "on": "trois virgule"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, dans le ciel, elle paraît de plus en plus petite,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle paraît",
+     "size": "m",
+     "on": "paraît"
+    },
+    {
+     "t": "text",
+     "text": "+ en + petite",
+     "size": "l",
+     "color": "pink",
+     "on": "petite"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dans environ six cents millions d'années, elle ne sera plus assez grande pour cacher tout le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans ~ 600 millions d'années",
+     "size": "m",
+     "color": "gold",
+     "on": "six cents"
+    },
+    {
+     "t": "text",
+     "text": "elle ne cachera plus tout !",
+     "size": "l",
+     "color": "pink",
+     "on": "cacher",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "donc profite des éclipses totales, elles ne dureront pas éternellement."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "profites-en !",
+     "size": "xl",
+     "color": "gold",
+     "on": "profite",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Un jour, il n'y aura plus d'éclipses totales de Soleil 🌑\n\nLa Lune s'éloigne de la Terre d'environ 3,8 cm par an. Résultat : elle paraît très lentement de plus en plus petite dans notre ciel. Aujourd'hui, elle peut encore masquer entièrement le Soleil lors des éclipses totales, mais dans environ 600 millions d'années, elle sera trop petite pour le cacher complètement : il n'y aura plus que des éclipses annulaires, avec un anneau de lumière autour de la Lune. Profite des éclipses totales, elles ne dureront pas éternellement ! Sur la photo, la pleine Lune. Un fait d'astronomie à l'échelle des temps géologiques.\n\nTu as eu la chance d'en voir une ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#eclipse",
+  "#lune",
+  "#soleil",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/",
+  "https://science.nasa.gov/eclipses/"
+ ]
+}

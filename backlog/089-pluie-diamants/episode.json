@@ -1,0 +1,174 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 88,
+ "title": "Il pourrait pleuvoir des diamants sur Neptune",
+ "subject": "Neptune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "neptune",
+   "file": "assets/images/neptune_voyager2.jpg",
+   "credit": "Neptune vue par Voyager 2 · NASA/JPL",
+   "page": "https://science.nasa.gov/neptune/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur cette planète,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il pourrait pleuvoir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des DIAMANTS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une pluie de diamants ?!",
+   "on": "diamants"
+  },
+  "photo": "neptune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il pourrait pleuvoir des diamants sur Neptune et Uranus ?"
+   ]
+  },
+  {
+   "say": [
+    "Leur atmosphère contient du méthane, un gaz fait de carbone et d'hydrogène,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "du méthane",
+     "size": "l",
+     "color": "gold",
+     "on": "méthane"
+    },
+    {
+     "t": "text",
+     "text": "= carbone + hydrogène",
+     "size": "m",
+     "on": "carbone"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dans les profondeurs, la pression et la chaleur sont énormes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une pression énorme",
+     "size": "l",
+     "color": "pink",
+     "on": "pression"
+    },
+    {
+     "t": "text",
+     "text": "+ une chaleur énorme",
+     "size": "m",
+     "on": "chaleur"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "chaleur",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, le carbone pourrait être compressé en diamants, qui tomberaient comme de la grêle,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "carbone → diamants",
+     "size": "l",
+     "color": "gold",
+     "on": "diamants"
+    },
+    {
+     "t": "text",
+     "text": "comme de la grêle !",
+     "size": "l",
+     "color": "pink",
+     "on": "grêle",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "tomberaient",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en deux mille dix-sept, des scientifiques ont réussi à reproduire ce phénomène en laboratoire avec des lasers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2017 : reproduit",
+     "size": "m",
+     "on": "deux mille"
+    },
+    {
+     "t": "text",
+     "text": "en labo avec des lasers !",
+     "size": "l",
+     "color": "gold",
+     "on": "lasers",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il pourrait pleuvoir des diamants sur Neptune 💎\n\nLes atmosphères de Neptune et d'Uranus contiennent du méthane, un gaz fait de carbone et d'hydrogène. Dans les profondeurs de ces planètes géantes, la pression et la chaleur sont colossales. Les scientifiques pensent que le carbone pourrait y être comprimé en diamants, qui tomberaient lentement vers le centre comme une pluie de grêle étincelante ! En 2017, des chercheurs ont réussi à reproduire ce phénomène en laboratoire grâce à des lasers puissants. Sur la photo, Neptune vue par la sonde Voyager 2. Un fait d'astronomie qui brille.\n\nTu irais en chercher ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#neptune",
+  "#diamants",
+  "#planetes",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nature.com/articles/s41550-017-0219-9",
+  "https://science.nasa.gov/neptune/facts/"
+ ]
+}

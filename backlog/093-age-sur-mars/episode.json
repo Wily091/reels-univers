@@ -1,0 +1,176 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 92,
+ "title": "Sur Mars, tu aurais environ deux fois moins d'anniversaires",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Mars,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu aurais",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "2 FOIS moins d'années ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "1 année = 687 jours",
+   "on": "anniversaires"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur Mars, tu fêterais presque deux fois moins d'anniversaires ?"
+   ]
+  },
+  {
+   "say": [
+    "Une année sur Mars dure six cent quatre-vingt-sept jours terrestres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 année martienne =",
+     "size": "m",
+     "on": "année"
+    },
+    {
+     "t": "text",
+     "text": "687 jours",
+     "size": "xl",
+     "color": "gold",
+     "on": "six cent",
+     "count": {
+      "to": 687,
+      "fmt": "{n} jours"
+     }
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "jours",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce qu'elle est plus loin du Soleil et qu'elle met plus de temps à en faire le tour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ loin du Soleil",
+     "size": "l",
+     "color": "pink",
+     "on": "loin"
+    },
+    {
+     "t": "text",
+     "text": "→ un tour + long",
+     "size": "m",
+     "on": "tour"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, si tu as vingt ans sur Terre, tu n'aurais qu'environ dix ans et demi sur Mars,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "20 ans sur Terre",
+     "size": "l",
+     "on": "vingt ans"
+    },
+    {
+     "t": "text",
+     "text": "= 10,5 ans sur Mars !",
+     "size": "l",
+     "color": "pink",
+     "on": "dix ans",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "par contre, une journée martienne ressemble beaucoup à la nôtre, avec vingt-quatre heures et trente-sept minutes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 jour martien :",
+     "size": "m",
+     "on": "journée"
+    },
+    {
+     "t": "text",
+     "text": "24 h 37",
+     "size": "xl",
+     "color": "gold",
+     "on": "trente-sept",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "clock",
+     "on": "heures",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Mars, tu aurais presque deux fois moins d'anniversaires 🎂\n\nLa planète Mars est plus éloignée du Soleil que la Terre : il lui faut 687 jours terrestres pour en faire le tour. Une année martienne dure donc presque deux de nos années ! Si tu as 20 ans sur Terre, tu n'aurais qu'environ 10 ans et demi en années martiennes. En revanche, une journée sur Mars, qu'on appelle un « sol », ressemble beaucoup à la nôtre : elle dure 24 heures et 37 minutes. Sur la photo, Mars vue par la sonde Rosetta. Un fait d'astronomie à calculer pour toi-même.\n\nTu aurais quel âge sur Mars ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#planeterouge",
+  "#anniversaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/facts/"
+ ]
+}

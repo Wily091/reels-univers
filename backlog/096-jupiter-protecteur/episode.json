@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 95,
+ "title": "Jupiter est 2,5 fois plus massive que toutes les autres planètes réunies",
+ "subject": "Jupiter",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète pèse",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "+ que toutes les autres",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "RÉUNIES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "× 2,5 les autres !",
+   "on": "planète"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que Jupiter est plus lourde que toutes les autres planètes du système solaire réunies ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle est environ deux fois et demie plus massive que toutes les autres planètes mises ensemble,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "× 2,5",
+     "size": "xl",
+     "color": "pink",
+     "on": "deux fois",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "toutes les autres réunies !",
+     "size": "m",
+     "on": "ensemble"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle pèse à elle seule plus de trois cents fois la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 300 Terres",
+     "size": "l",
+     "color": "gold",
+     "on": "trois cents"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pourtant, pour devenir une étoile, il lui aurait fallu être environ quatre-vingts fois plus massive,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pour être une étoile :",
+     "size": "m",
+     "on": "étoile"
+    },
+    {
+     "t": "text",
+     "text": "× 80 !",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre-vingts"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, Jupiter est restée une planète géante, et la reine du système solaire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la reine",
+     "size": "xl",
+     "color": "gold",
+     "on": "reine"
+    },
+    {
+     "t": "text",
+     "text": "du système solaire",
+     "size": "m",
+     "on": "système",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Jupiter pèse 2,5 fois plus que toutes les autres planètes réunies 👑\n\nJupiter est la planète la plus massive du système solaire, de très loin : elle est environ 2,5 fois plus lourde que toutes les autres planètes réunies, et pèse à elle seule plus de 300 fois la Terre ! Pourtant, il lui aurait fallu être environ 80 fois plus massive pour que la fusion s'allume en son cœur et qu'elle devienne une étoile. Jupiter est donc restée une planète géante, la reine du système solaire. Sur la photo, Jupiter vue par le télescope spatial Hubble. Un fait d'astronomie impressionnant.\n\nTu pensais qu'elle était aussi lourde ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jupiter",
+  "#planete",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/jupiter/facts/"
+ ]
+}

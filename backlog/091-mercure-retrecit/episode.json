@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 90,
+ "title": "La planète Mercure est en train de rétrécir",
+ "subject": "Mercure",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mercure",
+   "file": "assets/images/mercure_messenger.jpg",
+   "credit": "Mercure vue par MESSENGER · NASA/JHUAPL/Carnegie Institution",
+   "page": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est en train",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de RÉTRÉCIR ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "elle rétrécit !",
+   "on": "rétrécir"
+  },
+  "photo": "mercure"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la planète Mercure est en train de rétrécir ?"
+   ]
+  },
+  {
+   "say": [
+    "Son cœur de fer, énorme, refroidit lentement depuis des milliards d'années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un énorme cœur de fer",
+     "size": "m",
+     "on": "fer"
+    },
+    {
+     "t": "text",
+     "text": "qui refroidit",
+     "size": "l",
+     "color": "gold",
+     "on": "refroidit"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "refroidit",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en refroidissant, il se contracte, comme un fruit qui sèche,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il se contracte",
+     "size": "l",
+     "color": "pink",
+     "on": "contracte"
+    },
+    {
+     "t": "text",
+     "text": "comme un fruit qui sèche",
+     "size": "m",
+     "on": "fruit"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, la surface se plisse et forme des falaises de plusieurs kilomètres de haut,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la surface se plisse",
+     "size": "m",
+     "on": "plisse"
+    },
+    {
+     "t": "text",
+     "text": "des falaises géantes !",
+     "size": "l",
+     "color": "gold",
+     "on": "falaises",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "falaises",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et depuis sa naissance, son rayon aurait diminué d'environ sept kilomètres."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "son rayon a perdu",
+     "size": "m",
+     "on": "rayon"
+    },
+    {
+     "t": "text",
+     "text": "~ 7 km !",
+     "size": "xl",
+     "color": "pink",
+     "on": "sept",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La planète Mercure est en train de rétrécir 🪨\n\nMercure possède un énorme cœur de fer qui refroidit lentement depuis des milliards d'années. En refroidissant, ce cœur se contracte et toute la planète se rétracte, un peu comme un fruit qui sèche et se ride. Résultat : la surface se plisse et forme des falaises pouvant atteindre plusieurs kilomètres de haut. Grâce à la sonde MESSENGER, les scientifiques ont estimé que le rayon de Mercure aurait diminué d'environ 7 km depuis sa formation, et que ce rétrécissement continue encore. Sur la photo, Mercure vue par MESSENGER. Un fait d'astronomie surprenant.\n\nTu savais qu'une planète pouvait rétrécir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mercure",
+  "#planete",
+  "#messenger",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mercury/facts/"
+ ]
+}

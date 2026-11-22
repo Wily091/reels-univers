@@ -1,0 +1,181 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 91,
+ "title": "Sur Vénus, la pression écrase tout",
+ "subject": "Vénus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Vénus,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu serais écrasé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "comme à 900 m sous l'EAU ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une pression écrasante",
+   "on": "écrasé"
+  },
+  "photo": "venus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'à la surface de Vénus, tu serais écrasé comme à neuf cents mètres sous l'eau ?"
+   ]
+  },
+  {
+   "say": [
+    "La pression y est environ quatre-vingt-dix fois plus forte que sur Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la pression :",
+     "size": "m",
+     "on": "pression"
+    },
+    {
+     "t": "text",
+     "text": "× 90 !",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre-vingt-dix",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est comme être à environ neuf cents mètres de profondeur dans l'océan,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "= à 900 m sous l'eau",
+     "size": "l",
+     "color": "gold",
+     "on": "neuf cents"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "océan",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "en plus, il y fait plus de quatre cent soixante degrés, si bien que les sondes soviétiques Venera n'ont tenu que quelques heures au mieux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 460 °C",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre cent soixante"
+    },
+    {
+     "t": "text",
+     "text": "les sondes Venera :",
+     "size": "m",
+     "on": "Venera"
+    },
+    {
+     "t": "text",
+     "text": "quelques heures au mieux",
+     "size": "m",
+     "color": "gold",
+     "on": "heures"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le record, c'est Venera treize, qui a résisté environ deux heures en mille neuf cent quatre-vingt-deux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "record : Venera 13",
+     "size": "l",
+     "color": "gold",
+     "on": "treize"
+    },
+    {
+     "t": "text",
+     "text": "~ 2 heures, en 1982",
+     "size": "m",
+     "color": "pink",
+     "on": "deux heures",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "résisté",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Vénus, la pression est 90 fois plus forte que sur Terre 🌋\n\nÀ la surface de Vénus, l'atmosphère est si épaisse que la pression est environ 90 fois plus forte que sur Terre : c'est comme se trouver à environ 900 m sous l'eau ! Ajoute à ça une température de plus de 460 °C. Résultat : les sondes soviétiques Venera qui s'y sont posées n'ont survécu que quelques dizaines de minutes à quelques heures. Le record est détenu par Venera 13, qui a tenu environ deux heures en 1982 et envoyé les premières images en couleur de la surface. Sur la photo, Vénus vue par Mariner 10. Un enfer de l'astronomie.\n\nTu oserais y aller ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#venera",
+  "#planete",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/venus/facts/",
+  "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1981-106D"
+ ]
+}
