@@ -1,179 +1,179 @@
 {
- "format": "planche",
- "valide": true,
- "num": 67,
- "title": "Dans l'espace, les larmes ne coulent pas",
- "subject": "Astronautes",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "iss",
-   "file": "assets/images/iss_crew_dragon_2021.jpg",
-   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
-   "page": "https://images.nasa.gov/details/iss066e081130",
-   "license": "Domaine public (NASA)",
-   "crop": [
-    0.17,
-    0,
-    0.66,
-    1
-   ]
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Dans l'espace,",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "tes larmes",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "ne COULENT pas ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
+  "format": "planche",
+  "valide": true,
+  "num": 67,
+  "title": "Dans l'espace, les larmes ne coulent pas",
+  "subject": "Astronautes",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [
+    {
+      "id": "iss",
+      "file": "assets/images/iss_crew_dragon_2021.jpg",
+      "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+      "page": "https://images.nasa.gov/details/iss066e081130",
+      "license": "Domaine public (NASA)",
+      "crop": [
+        0.17,
+        0,
+        0.66,
+        1
+      ]
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Dans l'espace,",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "tes larmes",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "ne COULENT pas ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "pas de larmes qui coulent",
+      "on": "pleurer"
+    },
+    "photo": "iss"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que dans l'espace, tu ne peux pas vraiment pleurer ?"
+      ]
+    },
+    {
+      "say": [
+        "Tes yeux produisent bien des larmes, mais en apesanteur, elles ne coulent pas sur tes joues,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "les larmes",
+          "size": "l",
+          "on": "larmes"
+        },
+        {
+          "t": "text",
+          "text": "ne coulent pas !",
+          "size": "l",
+          "color": "pink",
+          "on": "coulent",
+          "circle": true
+        }
+      ]
+    },
+    {
+      "say": [
+        "elles restent collées à l'œil et forment une petite boule d'eau qui grossit,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "une boule d'eau",
+          "size": "l",
+          "color": "gold",
+          "on": "boule"
+        },
+        {
+          "t": "text",
+          "text": "collée à l'œil",
+          "size": "m",
+          "on": "collées"
+        },
+        {
+          "t": "sketch",
+          "kind": "wave",
+          "on": "eau",
+          "row": "same",
+          "scale": 0.6
+        }
+      ]
+    },
+    {
+      "say": [
+        "et ça pique, si bien que l'astronaute Chris Hadfield l'a testé en direct en deux mille treize,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "et ça pique !",
+          "size": "l",
+          "color": "pink",
+          "on": "pique"
+        },
+        {
+          "t": "text",
+          "text": "testé par Chris Hadfield",
+          "size": "m",
+          "on": "Hadfield"
+        },
+        {
+          "t": "text",
+          "text": "(2013)",
+          "size": "s",
+          "color": "soft",
+          "on": "deux mille treize"
+        }
+      ]
+    },
+    {
+      "say": [
+        "parce que sans gravité, rien ne tombe, pas même une larme."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "sans gravité",
+          "size": "m",
+          "on": "gravité"
+        },
+        {
+          "t": "text",
+          "text": "rien ne tombe !",
+          "size": "xl",
+          "color": "gold",
+          "on": "tombe",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "Dans l'espace, les larmes ne coulent pas 💧\n\nEn apesanteur, pleurer devient une drôle d'expérience. Les larmes sont bien produites, mais sans gravité, elles ne coulent pas sur les joues : elles restent collées à l'œil et forment une petite boule d'eau qui grossit, et qui pique ! L'astronaute canadien Chris Hadfield l'a montré en direct depuis la Station spatiale internationale en 2013. Dans l'espace, rien ne « tombe », pas même une larme. Sur la photo, la Station spatiale internationale. Un fait insolite sur la vie des astronautes.\n\nTu savais ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#astronaute",
+    "#iss",
+    "#apesanteur",
+    "#lesaviezvous",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chris_Hadfield",
+    "https://www.nasa.gov/international-space-station/"
   ]
- },
- "center": {
-  "tagline": {
-   "text": "pas de larmes qui coulent",
-   "on": "pleurer"
-  },
-  "photo": "iss"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que dans l'espace, tu ne peux pas vraiment pleurer ?"
-   ]
-  },
-  {
-   "say": [
-    "Tes yeux produisent bien des larmes, mais en apesanteur, elles ne coulent pas sur tes joues,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "les larmes",
-     "size": "l",
-     "on": "larmes"
-    },
-    {
-     "t": "text",
-     "text": "ne coulent pas !",
-     "size": "l",
-     "color": "pink",
-     "on": "coulent",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "elles restent collées à l'œil et forment une petite boule d'eau qui grossit,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "une boule d'eau",
-     "size": "l",
-     "color": "gold",
-     "on": "boule"
-    },
-    {
-     "t": "text",
-     "text": "collée à l'œil",
-     "size": "m",
-     "on": "collées"
-    },
-    {
-     "t": "sketch",
-     "kind": "wave",
-     "on": "eau",
-     "row": "same",
-     "scale": 0.6
-    }
-   ]
-  },
-  {
-   "say": [
-    "et ça pique, si bien que l'astronaute Chris Hadfield l'a testé en direct en deux mille treize,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "et ça pique !",
-     "size": "l",
-     "color": "pink",
-     "on": "pique"
-    },
-    {
-     "t": "text",
-     "text": "testé par Chris Hadfield",
-     "size": "m",
-     "on": "Hadfield"
-    },
-    {
-     "t": "text",
-     "text": "(2013)",
-     "size": "s",
-     "color": "soft",
-     "on": "deux mille treize"
-    }
-   ]
-  },
-  {
-   "say": [
-    "parce que sans gravité, rien ne tombe, pas même une larme."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "sans gravité",
-     "size": "m",
-     "on": "gravité"
-    },
-    {
-     "t": "text",
-     "text": "rien ne tombe !",
-     "size": "xl",
-     "color": "gold",
-     "on": "tombe",
-     "under": true
-    }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Dans l'espace, les larmes ne coulent pas 💧\n\nEn apesanteur, pleurer devient une drôle d'expérience. Les larmes sont bien produites, mais sans gravité, elles ne coulent pas sur les joues : elles restent collées à l'œil et forment une petite boule d'eau qui grossit, et qui pique ! L'astronaute canadien Chris Hadfield l'a montré en direct depuis la Station spatiale internationale en 2013. Dans l'espace, rien ne « tombe », pas même une larme. Sur la photo, la Station spatiale internationale. Un fait insolite sur la vie des astronautes.\n\nTu savais ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#astronaute",
-  "#iss",
-  "#apesanteur",
-  "#lesaviezvous",
-  "#universenbref"
- ],
- "sources": [
-  "https://www.asc-csa.gc.ca/eng/astronauts/canadian/former/bio-chris-hadfield.asp",
-  "https://www.nasa.gov/international-space-station/"
- ]
 }
