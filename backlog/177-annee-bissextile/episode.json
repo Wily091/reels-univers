@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 176,
+ "title": "Pourquoi il y a un 29 février tous les 4 ans",
+ "subject": "Calendrier",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pourquoi",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il y a un",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "29 FÉVRIER ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'année bissextile",
+   "on": "février"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le vingt-neuf février existe à cause d'un petit décalage de la Terre autour du Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "La Terre met environ trois cent soixante-cinq jours et six heures pour faire le tour du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 an ≈ 365 j + 6 h",
+     "size": "l",
+     "color": "pink",
+     "on": "six heures",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "si on ignorait ces six heures, le calendrier prendrait un jour de retard tous les quatre ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "6 h × 4 ans",
+     "size": "m",
+     "on": "quatre ans"
+    },
+    {
+     "t": "text",
+     "text": "= 1 jour de retard !",
+     "size": "l",
+     "color": "gold",
+     "on": "retard"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, tous les quatre ans, on ajoute un jour, le vingt-neuf février,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on ajoute le 29 février",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-neuf"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme ce n'est pas tout à fait six heures, on saute même certaines années, comme deux mille cent."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sauf exceptions :",
+     "size": "m",
+     "on": "saute"
+    },
+    {
+     "t": "text",
+     "text": "pas en 2100 !",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille cent",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pourquoi il y a un 29 février tous les 4 ans 📅\n\nLa Terre met environ 365 jours et 6 heures (un peu moins, en réalité : 365,2422 jours) pour faire le tour du Soleil. Si notre calendrier ignorait ces heures en trop, il prendrait environ un jour de retard tous les quatre ans, et les saisons finiraient par se décaler. La solution : ajouter un jour, le 29 février, tous les quatre ans. Comme le surplus n'est pas tout à fait de 6 heures, le calendrier grégorien saute l'année bissextile pour les années séculaires non divisibles par 400 : 2000 était bissextile, mais 2100 ne le sera pas. Sur la photo, la Terre. De l'astronomie cachée dans ton calendrier !\n\nTu connais quelqu'un né un 29 février ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#calendrier",
+  "#bissextile",
+  "#terre",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Année_bissextile",
+  "https://science.nasa.gov/earth/facts/"
+ ]
+}

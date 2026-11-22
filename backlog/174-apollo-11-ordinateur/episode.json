@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 173,
+ "title": "L'ordinateur d'Apollo 11 avait moins de mémoire qu'une calculatrice",
+ "subject": "Apollo 11",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On est allés sur la Lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "avec moins de mémoire",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qu'une CALCULATRICE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un ordinateur minuscule",
+   "on": "ordinateur"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'ordinateur qui a guidé Apollo onze vers la Lune avait moins de mémoire qu'une simple calculatrice d'aujourd'hui ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait l'ordinateur de guidage d'Apollo, et il avait environ quatre kilo-octets de mémoire vive,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 4 Ko de mémoire vive",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre kilo-octets",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ses programmes étaient tissés à la main avec des fils de cuivre, qu'on appelait la mémoire tressée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des programmes",
+     "size": "m",
+     "on": "programmes"
+    },
+    {
+     "t": "text",
+     "text": "tissés à la main !",
+     "size": "l",
+     "color": "gold",
+     "on": "tissés"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pendant l'alunissage, il a même lancé des alarmes parce qu'il était surchargé,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "alarmes 1201 / 1202",
+     "size": "m",
+     "on": "alarmes"
+    },
+    {
+     "t": "text",
+     "text": "surchargé !",
+     "size": "l",
+     "color": "pink",
+     "on": "surchargé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il a tenu bon, et Neil Armstrong et Buzz Aldrin se sont posés sans problème."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "et pourtant…",
+     "size": "m",
+     "on": "tenu"
+    },
+    {
+     "t": "text",
+     "text": "ils se sont posés !",
+     "size": "l",
+     "color": "gold",
+     "on": "posés",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Aldrin",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'ordinateur d'Apollo 11 avait moins de mémoire qu'une calculatrice 💾\n\nL'ordinateur de guidage d'Apollo (AGC) a mené les astronautes d'Apollo 11 jusqu'à la Lune en juillet 1969. Il disposait d'environ 4 kilo-octets de mémoire vive : bien moins qu'une calculatrice moderne, et des millions de fois moins qu'un smartphone ! Ses programmes étaient stockés dans une « mémoire tressée », des fils de cuivre tissés à la main. Pendant la descente, il a déclenché les fameuses alarmes 1201 et 1202 parce qu'il était surchargé, mais il a continué à faire l'essentiel, et Neil Armstrong et Buzz Aldrin se sont posés sans encombre. Sur la photo, Buzz Aldrin sur la Lune.\n\nTon téléphone, il a combien de mémoire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo11",
+  "#nasa",
+  "#informatique",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Apollo_Guidance_Computer",
+  "https://www.nasa.gov/history/"
+ ]
+}

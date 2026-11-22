@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 169,
+ "title": "Miranda a la plus haute falaise connue du système solaire",
+ "subject": "Miranda",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "uranus",
+   "file": "assets/images/uranus_voyager2.jpg",
+   "credit": "Uranus vue par Voyager 2 · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/uranus/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une falaise",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de 20 km",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de HAUT ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la plus haute falaise",
+   "on": "falaise"
+  },
+  "photo": "uranus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la plus haute falaise connue du système solaire se trouve sur une petite lune d'Uranus ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Verona Rupes, sur la lune Miranda,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Verona Rupes",
+     "size": "l",
+     "color": "pink",
+     "on": "Verona"
+    },
+    {
+     "t": "text",
+     "text": "sur Miranda",
+     "size": "m",
+     "on": "Miranda"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a été photographiée en mille neuf cent quatre-vingt-six par la sonde Voyager deux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1986 : Voyager 2",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-six"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle ferait environ vingt kilomètres de haut, plus de deux fois l'Everest,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 20 km de haut !",
+     "size": "xl",
+     "color": "pink",
+     "on": "vingt",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "> 2 × l'Everest",
+     "size": "m",
+     "on": "Everest"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme la gravité y est très faible, une chute depuis le sommet durerait plusieurs minutes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une chute de",
+     "size": "m",
+     "on": "chute"
+    },
+    {
+     "t": "text",
+     "text": "plusieurs minutes !",
+     "size": "l",
+     "color": "gold",
+     "on": "minutes",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Miranda, une lune d'Uranus, a la plus haute falaise connue du système solaire 🧗\n\nSur Miranda, une petite lune d'Uranus, se trouve Verona Rupes, considérée comme la plus haute falaise connue du système solaire. Photographiée en 1986 par la sonde Voyager 2 de la NASA, elle mesurerait environ 20 kilomètres de haut, plus de deux fois la hauteur de l'Everest ! Comme la gravité de Miranda est très faible, un objet qui tomberait du sommet mettrait plusieurs minutes à atteindre le pied de la falaise. Miranda est d'ailleurs une lune très étrange, couverte de canyons et de terrains en patchwork. Sur la photo, Uranus, vue par Voyager 2.\n\nTu sauterais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#miranda",
+  "#uranus",
+  "#voyager2",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/uranus/moons/miranda/",
+  "https://fr.wikipedia.org/wiki/Verona_Rupes"
+ ]
+}

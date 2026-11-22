@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 174,
+ "title": "Une sonde japonaise a tiré sur un astéroïde pour ramener ses cailloux",
+ "subject": "Hayabusa2",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "TIRÉ",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur un astéroïde ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une mission folle",
+   "on": "astéroïde"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde japonaise a tiré un projectile sur un astéroïde pour récupérer ses cailloux ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Hayabusa deux, de l'agence spatiale japonaise, envoyée vers l'astéroïde Ryugu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Hayabusa2",
+     "size": "l",
+     "color": "pink",
+     "on": "Hayabusa"
+    },
+    {
+     "t": "text",
+     "text": "vers l'astéroïde Ryugu",
+     "size": "m",
+     "on": "Ryugu"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "envoyée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille dix-neuf, elle a tiré un projectile en cuivre pour creuser un cratère artificiel,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2019 : un tir !",
+     "size": "l",
+     "color": "gold",
+     "on": "tiré"
+    },
+    {
+     "t": "text",
+     "text": "un cratère artificiel",
+     "size": "m",
+     "on": "cratère",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis elle s'est posée pour aspirer des grains de sous la surface,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle récolte",
+     "size": "m",
+     "on": "posée"
+    },
+    {
+     "t": "text",
+     "text": "des grains cachés",
+     "size": "l",
+     "color": "pink",
+     "on": "grains"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en décembre deux mille vingt, sa capsule a rapporté sur Terre environ cinq grammes de poussière d'astéroïde."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 5 g rapportés",
+     "size": "l",
+     "color": "gold",
+     "on": "cinq grammes"
+    },
+    {
+     "t": "text",
+     "text": "sur Terre !",
+     "size": "m",
+     "on": "Terre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Hayabusa2 a tiré sur un astéroïde pour ramener ses cailloux sur Terre ☄️\n\nLa sonde Hayabusa2 de l'agence spatiale japonaise (JAXA) a rejoint l'astéroïde Ryugu en 2018. En 2019, elle a tiré un projectile en cuivre sur sa surface pour creuser un cratère artificiel, puis s'est posée pour récolter des grains venus des profondeurs, protégés du rayonnement du Soleil. En décembre 2020, sa capsule a atterri en Australie avec environ 5 grammes d'échantillons ! Les scientifiques y ont trouvé de l'eau et des molécules organiques, dont des acides aminés, des briques de base de la vie. Une prouesse de l'exploration spatiale.\n\nTu savais que le Japon avait fait ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#hayabusa2",
+  "#ryugu",
+  "#jaxa",
+  "#asteroide",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Hayabusa_2",
+  "https://science.nasa.gov/solar-system/asteroids/"
+ ]
+}

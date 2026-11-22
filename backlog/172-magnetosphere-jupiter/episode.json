@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 171,
+ "title": "La magnétosphère de Jupiter est la plus grande structure du système solaire",
+ "subject": "Jupiter",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Si tu pouvais la voir,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "elle serait + grosse",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que la PLEINE LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une bulle invisible géante",
+   "on": "bulle"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que Jupiter est entourée d'une bulle invisible gigantesque, la plus grande structure du système solaire ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est sa magnétosphère, la zone où son champ magnétique, environ vingt fois plus fort que celui de la Terre, fait la loi,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sa magnétosphère",
+     "size": "l",
+     "color": "pink",
+     "on": "magnétosphère"
+    },
+    {
+     "t": "text",
+     "text": "champ ~ 20 × la Terre",
+     "size": "m",
+     "color": "gold",
+     "on": "vingt fois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "côté opposé au Soleil, sa queue s'étire jusqu'à l'orbite de Saturne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une queue jusqu'à",
+     "size": "m",
+     "on": "queue"
+    },
+    {
+     "t": "text",
+     "text": "Saturne !",
+     "size": "xl",
+     "color": "gold",
+     "on": "Saturne",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et si tes yeux pouvaient la voir depuis la Terre, elle paraîtrait plus grosse que la pleine Lune dans le ciel,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ grosse que",
+     "size": "m",
+     "on": "grosse"
+    },
+    {
+     "t": "text",
+     "text": "la pleine Lune !",
+     "size": "l",
+     "color": "pink",
+     "on": "pleine Lune"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle crée de magnifiques aurores aux pôles de Jupiter."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "et des aurores",
+     "size": "l",
+     "color": "gold",
+     "on": "aurores",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La magnétosphère de Jupiter, la plus grande structure du système solaire 🧲\n\nJupiter possède le champ magnétique le plus puissant des planètes, environ 20 fois plus fort que celui de la Terre. La zone qu'il contrôle, la magnétosphère, est la plus grande structure du système solaire. Du côté opposé au Soleil, elle s'étire en une longue queue qui atteint l'orbite de Saturne ! Si nos yeux pouvaient la voir, elle paraîtrait plus grande que la pleine Lune dans notre ciel. Elle piège des particules chargées et provoque des aurores spectaculaires aux pôles de Jupiter, observées par le télescope Hubble et la sonde Juno. Sur la photo, Jupiter.\n\nTu savais que Jupiter avait ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jupiter",
+  "#magnetosphere",
+  "#nasa",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/jupiter/facts/",
+  "https://fr.wikipedia.org/wiki/Magnétosphère_de_Jupiter"
+ ]
+}

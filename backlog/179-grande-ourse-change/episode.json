@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 178,
+ "title": "La Grande Ourse ne gardera pas sa forme",
+ "subject": "Grande Ourse",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Grande Ourse",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ne gardera pas",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sa FORME ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des étoiles qui bougent",
+   "on": "Grande Ourse"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Grande Ourse, la casserole du ciel, ne gardera pas toujours sa forme ?"
+   ]
+  },
+  {
+   "say": [
+    "Ses étoiles ont l'air fixes, mais en réalité, elles se déplacent toutes dans l'espace,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les étoiles bougent",
+     "size": "l",
+     "color": "pink",
+     "on": "déplacent"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "comme elles sont très loin, ce mouvement est invisible à l'échelle d'une vie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "invisible",
+     "size": "l",
+     "on": "invisible"
+    },
+    {
+     "t": "text",
+     "text": "à l'échelle d'une vie",
+     "size": "m",
+     "on": "vie"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais dans environ cinquante mille ans, la casserole sera déformée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans ~ 50 000 ans",
+     "size": "l",
+     "color": "gold",
+     "on": "cinquante mille",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "casserole déformée !",
+     "size": "m",
+     "on": "déformée"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la plupart de ses étoiles voyagent en groupe, alors que deux d'entre elles partent dans une autre direction."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 étoiles",
+     "size": "m",
+     "on": "deux"
+    },
+    {
+     "t": "text",
+     "text": "partent ailleurs !",
+     "size": "l",
+     "color": "pink",
+     "on": "direction",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Grande Ourse ne gardera pas toujours sa forme de casserole ✨\n\nLa Grande Ourse, avec sa forme de casserole, est l'une des figures les plus connues du ciel. Pourtant, elle ne la gardera pas éternellement. Les étoiles ne sont pas fixes : elles se déplacent toutes dans la galaxie, mais si lentement à nos yeux qu'on ne le remarque pas à l'échelle d'une vie. Cinq de ses sept étoiles voyagent ensemble, dans un même groupe, tandis que les deux étoiles des extrémités partent dans une autre direction. Dans environ 50 000 ans, la casserole sera nettement déformée ! Sur la photo, un ciel nocturne. Un fait d'astronomie qui montre que le ciel change.\n\nTu sais la repérer dans le ciel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#grandeourse",
+  "#etoiles",
+  "#ciel",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Grande_Ourse",
+  "https://fr.wikipedia.org/wiki/Courant_de_la_Grande_Ourse"
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 175,
+ "title": "Une journée ne dure pas vraiment 24 heures",
+ "subject": "Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une journée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ne dure pas",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "24 HEURES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "23 h 56 min",
+   "on": "tour"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en réalité, la Terre ne fait pas un tour sur elle-même en vingt-quatre heures ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle fait un tour complet en vingt-trois heures et cinquante-six minutes environ, c'est ce qu'on appelle le jour sidéral,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 tour = 23 h 56",
+     "size": "xl",
+     "color": "pink",
+     "on": "cinquante-six",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "le jour sidéral",
+     "size": "m",
+     "on": "sidéral"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais pendant ce temps, la Terre a aussi un peu avancé autour du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle avance aussi",
+     "size": "m",
+     "on": "avancé"
+    },
+    {
+     "t": "text",
+     "text": "autour du Soleil",
+     "size": "l",
+     "color": "gold",
+     "on": "Soleil"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "autour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, il lui faut environ quatre minutes de plus pour que le Soleil revienne au même endroit dans le ciel,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ 4 minutes",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre minutes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est pour ça que les étoiles se lèvent environ quatre minutes plus tôt chaque nuit."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les étoiles se lèvent",
+     "size": "m",
+     "on": "étoiles"
+    },
+    {
+     "t": "text",
+     "text": "4 min + tôt chaque nuit !",
+     "size": "l",
+     "color": "gold",
+     "on": "plus tôt",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une journée sur Terre ne dure pas vraiment 24 heures 🌍\n\nPar rapport aux étoiles, la Terre fait un tour complet sur elle-même en environ 23 heures et 56 minutes : c'est le jour sidéral. Mais pendant ce temps, elle avance aussi sur son orbite autour du Soleil. Il lui faut donc environ 4 minutes de plus pour que le Soleil revienne au même endroit dans le ciel : c'est le jour solaire de 24 heures que l'on utilise au quotidien. Conséquence amusante : chaque nuit, les étoiles se lèvent environ 4 minutes plus tôt que la veille, et le ciel nocturne change au fil des saisons. Sur la photo, la Terre vue par Apollo 17.\n\nTu le savais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#astronomie",
+  "#temps",
+  "#sciences",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Jour_sidéral",
+  "https://science.nasa.gov/earth/facts/"
+ ]
+}

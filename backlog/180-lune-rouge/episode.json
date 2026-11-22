@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 179,
+ "title": "Pendant une éclipse, la Lune devient rouge",
+ "subject": "Éclipse",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pourquoi la Lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "devient rouge",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pendant une ÉCLIPSE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une Lune de sang",
+   "on": "rouge"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que pendant une éclipse totale de Lune, elle ne disparaît pas, mais devient rouge ?"
+   ]
+  },
+  {
+   "say": [
+    "Une éclipse de Lune, c'est quand la Terre passe pile entre le Soleil et la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Soleil → Terre → Lune",
+     "size": "l",
+     "color": "gold",
+     "on": "pile"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "la Lune devrait devenir noire, mais l'atmosphère de la Terre dévie un peu de lumière vers elle,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'atmosphère dévie",
+     "size": "m",
+     "on": "atmosphère"
+    },
+    {
+     "t": "text",
+     "text": "la lumière",
+     "size": "l",
+     "color": "pink",
+     "on": "lumière"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme le bleu est dispersé en route, c'est surtout la lumière rouge qui arrive jusqu'à la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "seul le rouge passe !",
+     "size": "l",
+     "color": "pink",
+     "on": "rouge",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "en fait, c'est la lumière de tous les levers et couchers de soleil de la Terre qui l'éclaire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tous les couchers de soleil",
+     "size": "m",
+     "on": "couchers"
+    },
+    {
+     "t": "text",
+     "text": "de la Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "Terre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pendant une éclipse totale, la Lune devient rouge 🔴🌕\n\nLors d'une éclipse totale de Lune, la Terre passe exactement entre le Soleil et la Lune. On pourrait s'attendre à ce que la Lune devienne noire… mais elle prend une couleur rouge cuivrée ! L'atmosphère de la Terre dévie une partie de la lumière du Soleil vers la Lune. En chemin, la lumière bleue est dispersée (c'est pour ça que le ciel est bleu), et seule la lumière rouge passe. En clair : la Lune est éclairée par la lumière de tous les levers et couchers de soleil de la Terre en même temps. C'est la fameuse « Lune de sang ». Sur la photo, la pleine Lune.\n\nTu en as déjà vu une ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#eclipse",
+  "#lunedesang",
+  "#lune",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/lunar-eclipses/",
+  "https://fr.wikipedia.org/wiki/Éclipse_lunaire"
+ ]
+}

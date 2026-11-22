@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 168,
+ "title": "Japet, la lune de Saturne à deux couleurs",
+ "subject": "Japet",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette lune est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "moitié noire,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "moitié BLANCHE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une lune bicolore",
+   "on": "lune"
+  },
+  "sketch": "moon"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une lune de Saturne a une moitié noire comme du charbon, et l'autre blanche comme la neige ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Japet, et c'est une des grandes lunes de Saturne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Japet",
+     "size": "xl",
+     "color": "pink",
+     "on": "Japet"
+    },
+    {
+     "t": "text",
+     "text": "une lune de Saturne",
+     "size": "m",
+     "on": "Saturne"
+    }
+   ]
+  },
+  {
+   "say": [
+    "dès mille six cent soixante et onze, l'astronome Cassini avait remarqué qu'on la voyait d'un côté de Saturne, mais presque plus de l'autre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1671 : Cassini",
+     "size": "l",
+     "color": "gold",
+     "on": "Cassini"
+    },
+    {
+     "t": "text",
+     "text": "visible… puis presque plus !",
+     "size": "m",
+     "on": "presque"
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce qu'une face est très sombre, et l'autre très claire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 face sombre",
+     "size": "l",
+     "on": "sombre"
+    },
+    {
+     "t": "text",
+     "text": "1 face claire",
+     "size": "l",
+     "color": "gold",
+     "on": "claire",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en plus, une immense crête de montagnes fait le tour de son équateur, comme la couture d'une noix."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une crête autour",
+     "size": "m",
+     "on": "crête"
+    },
+    {
+     "t": "text",
+     "text": "comme une noix !",
+     "size": "l",
+     "color": "pink",
+     "on": "noix",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "montagnes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Japet, la lune de Saturne à moitié noire et à moitié blanche ⚫⚪\n\nJapet est l'une des grandes lunes de Saturne, et l'une des plus étranges du système solaire. Dès 1671, l'astronome Jean-Dominique Cassini avait remarqué qu'on la voyait bien d'un côté de Saturne, mais presque plus de l'autre. La raison : une de ses faces est sombre comme du charbon, l'autre claire comme de la neige ! La sonde Cassini de la NASA a aussi découvert une immense crête de montagnes qui suit son équateur, lui donnant l'allure d'une noix. Ces deux couleurs viendraient de poussières sombres et de la glace qui migre d'un côté à l'autre. Un mystère de l'astronomie.\n\nTu la trouves belle ou bizarre ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#japet",
+  "#saturne",
+  "#cassini",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/moons/iapetus/",
+  "https://fr.wikipedia.org/wiki/Japet_(lune)"
+ ]
+}

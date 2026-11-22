@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 172,
+ "title": "La Station spatiale va finir dans l'océan Pacifique",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Station spatiale",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "va finir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'OCÉAN ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la fin de l'ISS",
+   "on": "Station"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Station spatiale internationale va bientôt être volontairement détruite ?"
+   ]
+  },
+  {
+   "say": [
+    "Habitée sans interruption depuis l'an deux mille, elle doit prendre sa retraite vers deux mille trente,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "habitée depuis 2000",
+     "size": "m",
+     "on": "deux mille,"
+    },
+    {
+     "t": "text",
+     "text": "retraite vers 2030",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille trente"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la NASA a choisi SpaceX pour construire un vaisseau qui va la pousser vers l'atmosphère,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un vaisseau SpaceX",
+     "size": "l",
+     "color": "pink",
+     "on": "SpaceX"
+    },
+    {
+     "t": "text",
+     "text": "va la pousser",
+     "size": "m",
+     "on": "pousser"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "vaisseau",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "la plus grande partie va brûler, et les morceaux restants tomberont dans un coin isolé de l'océan Pacifique,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle va brûler…",
+     "size": "m",
+     "on": "brûler"
+    },
+    {
+     "t": "text",
+     "text": "+ chute dans le Pacifique",
+     "size": "l",
+     "color": "gold",
+     "on": "Pacifique",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "près du point Nemo, l'endroit de l'océan le plus éloigné de toute terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le point Nemo",
+     "size": "l",
+     "color": "pink",
+     "on": "Nemo",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Station spatiale internationale va finir dans l'océan Pacifique 🌊\n\nHabitée en permanence depuis novembre 2000, la Station spatiale internationale (ISS) devrait prendre sa retraite vers 2030. La NASA a choisi SpaceX pour construire un véhicule spécial chargé de la pousser hors de son orbite. La station entrera alors dans l'atmosphère, où la plus grande partie brûlera ; les morceaux restants doivent tomber dans une zone isolée de l'océan Pacifique, près du point Nemo, l'endroit de l'océan le plus éloigné de toute terre émergée, déjà surnommé le « cimetière des vaisseaux spatiaux ». Sur la photo, l'ISS. Une page de l'histoire de l'exploration spatiale qui se tourne.\n\nTu l'as déjà vue passer dans le ciel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#nasa",
+  "#spacex",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/space-station-deorbit-vehicle/",
+  "https://fr.wikipedia.org/wiki/Station_spatiale_internationale"
+ ]
+}
