@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 151,
+ "title": "En 1974, l'humanité a envoyé un message vers les étoiles",
+ "subject": "Arecibo",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1974, on a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "envoyé un message",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "aux EXTRATERRESTRES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un message pour les étoiles",
+   "on": "message"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille neuf cent soixante-quatorze, l'humanité a envoyé un message radio vers les étoiles ?"
+   ]
+  },
+  {
+   "say": [
+    "Il a été envoyé depuis le radiotélescope d'Arecibo, à Porto Rico, le seize novembre mille neuf cent soixante-quatorze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "radiotélescope d'Arecibo",
+     "size": "l",
+     "color": "pink",
+     "on": "Arecibo"
+    },
+    {
+     "t": "text",
+     "text": "16 novembre 1974",
+     "size": "m",
+     "color": "gold",
+     "on": "seize"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était un petit dessin codé avec des chiffres, notre ADN, un humain et le système solaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un dessin codé :",
+     "size": "m",
+     "on": "dessin"
+    },
+    {
+     "t": "text",
+     "text": "ADN, humain, système solaire",
+     "size": "m",
+     "color": "pink",
+     "on": "ADN"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il a été envoyé vers un amas d'étoiles situé à environ vingt-cinq mille années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vers un amas d'étoiles",
+     "size": "m",
+     "on": "amas"
+    },
+    {
+     "t": "text",
+     "text": "à ~ 25 000 années-lumière",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-cinq",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "envoyé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, il n'arrivera pas avant vingt-cinq mille ans, et une réponse mettrait autant de temps à revenir."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "arrivée dans 25 000 ans…",
+     "size": "m",
+     "on": "arrivera"
+    },
+    {
+     "t": "text",
+     "text": "+ 25 000 ans pour répondre !",
+     "size": "l",
+     "color": "pink",
+     "on": "réponse",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1974, l'humanité a envoyé un message radio vers les étoiles 📡\n\nLe 16 novembre 1974, le radiotélescope d'Arecibo, à Porto Rico, a envoyé dans l'espace un message radio de quelques minutes. Il formait un petit dessin codé en binaire : les nombres de 1 à 10, la structure de notre ADN, la silhouette d'un humain, le système solaire et le télescope lui-même. Il a été dirigé vers l'amas d'étoiles M13, à environ 25 000 années-lumière. Il n'arrivera donc pas avant 25 000 ans… et une éventuelle réponse mettrait autant de temps à nous revenir ! C'était surtout une démonstration symbolique. Un moment de l'histoire de la recherche de vie extraterrestre.\n\nTu aurais mis quoi dans le message ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#arecibo",
+  "#extraterrestre",
+  "#seti",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Message_d'Arecibo"
+ ]
+}

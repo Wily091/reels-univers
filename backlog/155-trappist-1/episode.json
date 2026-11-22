@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 154,
+ "title": "Une étoile entourée de sept planètes de la taille de la Terre",
+ "subject": "TRAPPIST-1",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette étoile a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "7 planètes de la taille",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la TERRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "7 planètes rocheuses",
+   "on": "planètes"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il existe une étoile entourée de sept planètes de la taille de la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle TRAPPIST un, c'est une petite étoile froide située à environ quarante années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "TRAPPIST-1",
+     "size": "xl",
+     "color": "pink",
+     "on": "TRAPPIST"
+    },
+    {
+     "t": "text",
+     "text": "à ~ 40 années-lumière",
+     "size": "m",
+     "color": "gold",
+     "on": "quarante"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en deux mille dix-sept, les astronomes ont annoncé qu'elle avait sept planètes rocheuses,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2017 :",
+     "size": "m",
+     "on": "deux mille dix-sept"
+    },
+    {
+     "t": "text",
+     "text": "7 planètes rocheuses !",
+     "size": "l",
+     "color": "gold",
+     "on": "sept planètes",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "planètes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles sont toutes très proches de leur étoile, et une année y dure seulement entre un jour et demi et vingt jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 année = 1,5 à 20 jours !",
+     "size": "l",
+     "color": "pink",
+     "on": "année"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et depuis l'une d'elles, les autres planètes paraîtraient parfois plus grosses que notre Lune dans le ciel."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans leur ciel :",
+     "size": "m",
+     "on": "ciel"
+    },
+    {
+     "t": "text",
+     "text": "des planètes + grosses que la Lune",
+     "size": "m",
+     "color": "gold",
+     "on": "grosses",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "TRAPPIST-1, l'étoile entourée de sept planètes de la taille de la Terre 🪐\n\nÀ environ 40 années-lumière de nous, une petite étoile froide nommée TRAPPIST-1 est entourée de sept planètes rocheuses de taille comparable à la Terre ! L'annonce, faite en 2017, a fait sensation. Ces planètes sont toutes très proches de leur étoile : une année y dure entre 1,5 et 19 jours environ. Elles sont si serrées que, depuis l'une d'elles, les autres paraîtraient parfois plus grosses que notre Lune dans le ciel. Plusieurs se trouvent dans la zone où de l'eau liquide pourrait exister, et le télescope James Webb les étudie de près. Un système fascinant de l'astronomie.\n\nTu crois qu'il y a de la vie là-bas ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#trappist1",
+  "#exoplanetes",
+  "#astronomie",
+  "#vieextraterrestre",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/exoplanets/trappist1/",
+  "https://fr.wikipedia.org/wiki/TRAPPIST-1"
+ ]
+}

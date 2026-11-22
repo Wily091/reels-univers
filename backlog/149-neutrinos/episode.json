@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 148,
+ "title": "Des milliards de particules du Soleil te traversent chaque seconde",
+ "subject": "Neutrinos",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Des milliards",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de particules te traversent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "CHAQUE SECONDE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des neutrinos partout",
+   "on": "particules"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des dizaines de milliards de particules venues du Soleil te traversent à chaque seconde ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle des neutrinos, et le Soleil en fabrique énormément dans son cœur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les neutrinos",
+     "size": "xl",
+     "color": "pink",
+     "on": "neutrinos"
+    },
+    {
+     "t": "text",
+     "text": "fabriqués dans le Soleil",
+     "size": "m",
+     "on": "fabrique"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "environ soixante milliards traversent chaque centimètre carré de ta peau, chaque seconde,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 60 milliards",
+     "size": "xl",
+     "color": "gold",
+     "on": "soixante milliards",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "par cm² et par seconde !",
+     "size": "m",
+     "on": "carré"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais ils n'interagissent presque jamais avec la matière, donc ils passent à travers toi sans rien faire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ils te traversent",
+     "size": "l",
+     "color": "pink",
+     "on": "passent"
+    },
+    {
+     "t": "text",
+     "text": "sans rien toucher",
+     "size": "m",
+     "on": "rien"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et même la nuit, ils arrivent par en dessous, en traversant toute la Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "même la nuit :",
+     "size": "m",
+     "on": "nuit"
+    },
+    {
+     "t": "text",
+     "text": "ils traversent la Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "toute la Terre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Des dizaines de milliards de particules du Soleil te traversent chaque seconde ☀️\n\nLe cœur du Soleil produit d'énormes quantités de neutrinos, des particules minuscules et presque sans masse. Environ 60 milliards d'entre eux traversent chaque centimètre carré de ta peau à chaque seconde ! Mais ils n'interagissent presque jamais avec la matière : ils passent à travers ton corps, à travers les murs et même à travers la Terre entière sans s'arrêter. La nuit, ils te traversent donc… en arrivant par en dessous ! Pour les détecter, les scientifiques utilisent d'immenses détecteurs enfouis sous terre. Sur la photo, le Soleil vu par SDO. De la physique fascinante.\n\nTu les sens passer ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#neutrinos",
+  "#soleil",
+  "#physique",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Neutrino_solaire",
+  "https://science.nasa.gov/sun/facts/"
+ ]
+}

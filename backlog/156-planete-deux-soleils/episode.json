@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 155,
+ "title": "Une planète qui tourne autour de deux soleils",
+ "subject": "Kepler-16b",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur cette planète,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il y a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "DEUX SOLEILS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "2 couchers de Soleil",
+   "on": "soleils"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il existe une planète qui tourne autour de deux soleils ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Kepler seize b, et elle a été découverte en deux mille onze par le télescope Kepler,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Kepler-16b",
+     "size": "xl",
+     "color": "pink",
+     "on": "seize b"
+    },
+    {
+     "t": "text",
+     "text": "découverte en 2011",
+     "size": "m",
+     "color": "gold",
+     "on": "deux mille onze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle tourne autour d'un couple de deux étoiles qui tournent elles-mêmes l'une autour de l'autre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 étoiles",
+     "size": "l",
+     "color": "gold",
+     "on": "deux étoiles"
+    },
+    {
+     "t": "text",
+     "text": "qui tournent ensemble",
+     "size": "m",
+     "on": "l'une autour"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, là-bas, on pourrait voir deux couchers de soleil chaque soir,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 couchers de soleil",
+     "size": "l",
+     "color": "pink",
+     "on": "couchers",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "sunrise",
+     "on": "soir",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais c'est une planète géante et froide, à peu près de la taille de Saturne, donc pas de plage pour admirer la vue."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une géante froide",
+     "size": "m",
+     "on": "géante"
+    },
+    {
+     "t": "text",
+     "text": "(≈ taille de Saturne)",
+     "size": "m",
+     "color": "gold",
+     "on": "Saturne",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Kepler-16b, la planète qui tourne autour de deux soleils ☀️☀️\n\nEn 2011, le télescope spatial Kepler a découvert une planète qui tourne autour de deux étoiles à la fois : Kepler-16b. Ces deux soleils tournent l'un autour de l'autre, et la planète fait le tour du couple en environ 229 jours. Depuis sa surface, on pourrait donc assister à deux couchers de soleil chaque soir, comme dans un film de science-fiction ! Mais pas question d'y aller en vacances : c'est une planète géante et froide, à peu près de la taille de Saturne. Elle se trouve à environ 245 années-lumière de nous. Un monde réel qui ressemble à de la fiction.\n\nTu aimerais voir deux couchers de Soleil ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#exoplanete",
+  "#kepler",
+  "#astronomie",
+  "#insolite",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/exoplanet-catalog/kepler-16-b/",
+  "https://fr.wikipedia.org/wiki/Kepler-16_b"
+ ]
+}

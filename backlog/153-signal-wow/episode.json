@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 152,
+ "title": "Le mystérieux signal « Wow! » de 1977",
+ "subject": "Signal Wow!",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1977, un signal",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "venu de l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a duré 72 SECONDES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le signal « Wow! »",
+   "on": "signal"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille neuf cent soixante-dix-sept, un mystérieux signal radio venu de l'espace a été capté pendant soixante-douze secondes ?"
+   ]
+  },
+  {
+   "say": [
+    "Le quinze août mille neuf cent soixante-dix-sept, le radiotélescope Big Ear, aux États-Unis, capte un signal très puissant,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "15 août 1977",
+     "size": "l",
+     "color": "gold",
+     "on": "quinze août"
+    },
+    {
+     "t": "text",
+     "text": "radiotélescope Big Ear",
+     "size": "m",
+     "on": "Big Ear"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "signal",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'astronome Jerry Ehman est tellement surpris qu'il entoure les chiffres sur le papier et écrit Wow à côté,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Jerry Ehman écrit",
+     "size": "m",
+     "on": "Ehman"
+    },
+    {
+     "t": "text",
+     "text": "« Wow! »",
+     "size": "xl",
+     "color": "pink",
+     "on": "Wow",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "le signal a duré soixante-douze secondes, le temps exact où le télescope pointait vers cette zone du ciel,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "72 secondes",
+     "size": "xl",
+     "color": "gold",
+     "on": "soixante-douze"
+    },
+    {
+     "t": "text",
+     "text": "puis plus rien…",
+     "size": "m",
+     "on": "exact"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais on ne l'a jamais retrouvé, et son origine reste encore discutée aujourd'hui."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jamais retrouvé",
+     "size": "l",
+     "color": "pink",
+     "on": "jamais"
+    },
+    {
+     "t": "text",
+     "text": "un mystère !",
+     "size": "l",
+     "color": "gold",
+     "on": "discutée",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le mystérieux signal « Wow! » capté en 1977 📡\n\nLe 15 août 1977, le radiotélescope Big Ear de l'université d'État de l'Ohio capte un signal radio étonnamment puissant venu de la direction de la constellation du Sagittaire. En découvrant la série de chiffres sur le listing imprimé, l'astronome Jerry Ehman l'entoure et écrit « Wow! » dans la marge. Le signal a duré 72 secondes, exactement le temps pendant lequel le télescope balayait cette zone du ciel. Mais il n'a jamais été capté de nouveau, malgré de nombreuses recherches, et son origine reste débattue. Un des grands mystères de la radioastronomie.\n\nTu crois que c'était quoi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#signalwow",
+  "#seti",
+  "#mystere",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Signal_Wow!"
+ ]
+}

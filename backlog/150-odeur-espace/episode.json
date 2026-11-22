@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 149,
+ "title": "L'espace sentirait le steak grillé et le métal chaud",
+ "subject": "Astronautes",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sentirait le",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "STEAK GRILLÉ ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une drôle d'odeur",
+   "on": "odeur"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que d'après les astronautes, l'espace aurait une odeur de steak grillé ?"
+   ]
+  },
+  {
+   "say": [
+    "Bien sûr, on ne peut pas sentir l'espace directement, puisqu'il n'y a pas d'air,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'air dans l'espace",
+     "size": "m",
+     "on": "air"
+    },
+    {
+     "t": "text",
+     "text": "donc pas d'odeur…",
+     "size": "l",
+     "on": "sentir"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais quand les astronautes rentrent d'une sortie, leurs combinaisons ramènent une odeur étrange dans la Station,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au retour d'une sortie :",
+     "size": "m",
+     "on": "sortie"
+    },
+    {
+     "t": "text",
+     "text": "une odeur étrange !",
+     "size": "l",
+     "color": "pink",
+     "on": "étrange",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils la décrivent comme du steak grillé, du métal chaud ou des fumées de soudure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "steak grillé",
+     "size": "l",
+     "color": "gold",
+     "on": "steak"
+    },
+    {
+     "t": "text",
+     "text": "métal chaud, soudure",
+     "size": "m",
+     "color": "pink",
+     "on": "métal"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle viendrait de molécules très réactives qui collent aux combinaisons dans le vide spatial."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des molécules",
+     "size": "m",
+     "on": "molécules"
+    },
+    {
+     "t": "text",
+     "text": "collées aux combinaisons",
+     "size": "l",
+     "color": "gold",
+     "on": "collent",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'espace sentirait le steak grillé et le métal chaud 🥩\n\nDans l'espace, il n'y a pas d'air, donc pas d'odeur à proprement parler. Pourtant, quand les astronautes rentrent d'une sortie extravéhiculaire, ils remarquent tous une odeur étrange sur leurs combinaisons et leurs équipements. Beaucoup la décrivent comme une odeur de steak grillé, de métal chaud ou de fumée de soudure ! Elle viendrait de molécules très réactives, comme l'oxygène atomique, qui s'accrochent aux surfaces dans le vide spatial puis réagissent avec l'air de la Station. Sur la photo, la Station spatiale internationale. Un fait insolite sur la vie des astronautes.\n\nTu t'attendais à quelle odeur ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#astronaute",
+  "#espace",
+  "#insolite",
+  "#iss",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Odeur_de_l'espace",
+  "https://www.nasa.gov/international-space-station/"
+ ]
+}

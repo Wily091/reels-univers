@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 144,
+ "title": "Une comète venue d'une autre étoile a traversé le système solaire en 2025",
+ "subject": "3I/ATLAS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 2025, une comète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "venue d'une",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "AUTRE ÉTOILE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une visiteuse interstellaire",
+   "on": "comète"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en deux mille vingt-cinq, une comète venue d'une autre étoile a traversé notre système solaire ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle a été découverte le premier juillet deux mille vingt-cinq par un télescope au Chili, le réseau ATLAS,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er juillet 2025",
+     "size": "l",
+     "color": "gold",
+     "on": "premier juillet"
+    },
+    {
+     "t": "text",
+     "text": "télescope ATLAS, Chili",
+     "size": "m",
+     "on": "ATLAS"
+    }
+   ]
+  },
+  {
+   "say": [
+    "on l'a appelée trois I ATLAS, parce que c'est seulement le troisième objet interstellaire jamais repéré,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3I/ATLAS",
+     "size": "xl",
+     "color": "pink",
+     "on": "trois I"
+    },
+    {
+     "t": "text",
+     "text": "le 3e objet interstellaire !",
+     "size": "m",
+     "on": "troisième",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa vitesse était si grande qu'elle ne pouvait pas être retenue par le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "trop rapide",
+     "size": "l",
+     "color": "gold",
+     "on": "vitesse"
+    },
+    {
+     "t": "text",
+     "text": "pour rester ici !",
+     "size": "m",
+     "on": "retenue"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "vitesse",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle pourrait être plus vieille que notre système solaire lui-même."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "peut-être + vieille",
+     "size": "m",
+     "on": "vieille"
+    },
+    {
+     "t": "text",
+     "text": "que le système solaire !",
+     "size": "l",
+     "color": "pink",
+     "on": "système solaire",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 2025, une comète venue d'une autre étoile a traversé le système solaire ☄️\n\nLe 1er juillet 2025, le réseau de télescopes ATLAS, au Chili, a repéré une comète inhabituelle. Sa trajectoire et sa très grande vitesse ont rapidement montré qu'elle ne venait pas de notre système solaire : c'est seulement le troisième objet interstellaire jamais observé, après ʻOumuamua en 2017 et la comète Borisov en 2019. Elle a été nommée 3I/ATLAS. Trop rapide pour être retenue par la gravité du Soleil, elle ne fait que passer. Certains scientifiques pensent qu'elle pourrait être encore plus vieille que notre système solaire ! Un visiteur rare de l'astronomie.\n\nTu l'avais vue passer dans l'actu ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#3iatlas",
+  "#comete",
+  "#interstellaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/comets/3i-atlas/",
+  "https://fr.wikipedia.org/wiki/3I/ATLAS"
+ ]
+}

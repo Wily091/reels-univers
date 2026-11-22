@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 150,
+ "title": "Le plus grand appareil photo du monde observe le ciel",
+ "subject": "Vera Rubin",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cet appareil photo",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "fait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "3 200 MÉGAPIXELS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "3 200 mégapixels",
+   "on": "appareil"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le plus grand appareil photo numérique du monde sert à photographier le ciel ?"
+   ]
+  },
+  {
+   "say": [
+    "Il équipe l'observatoire Vera Rubin, au Chili, qui a dévoilé ses premières images en juin deux mille vingt-cinq,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "observatoire Vera Rubin",
+     "size": "l",
+     "color": "pink",
+     "on": "Vera Rubin"
+    },
+    {
+     "t": "text",
+     "text": "Chili, juin 2025",
+     "size": "m",
+     "color": "gold",
+     "on": "juin"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa caméra fait trois mille deux cents mégapixels, à peu près la taille d'une petite voiture,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3 200 mégapixels",
+     "size": "xl",
+     "color": "gold",
+     "on": "trois mille",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "grande comme une petite voiture !",
+     "size": "s",
+     "on": "voiture"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il faudrait des centaines d'écrans de télévision pour afficher une seule de ses photos en entier,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 photo =",
+     "size": "m",
+     "on": "photos"
+    },
+    {
+     "t": "text",
+     "text": "des centaines d'écrans !",
+     "size": "l",
+     "color": "pink",
+     "on": "centaines"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pendant dix ans, il va photographier tout le ciel austral encore et encore, pour en faire un film de l'univers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pendant 10 ans :",
+     "size": "m",
+     "on": "dix ans"
+    },
+    {
+     "t": "text",
+     "text": "un film de l'univers !",
+     "size": "l",
+     "color": "gold",
+     "on": "film",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le plus grand appareil photo numérique du monde photographie le ciel 📸\n\nL'observatoire Vera C. Rubin, installé au sommet du Cerro Pachón au Chili, a dévoilé ses premières images en juin 2025. Il abrite la plus grande caméra numérique jamais construite pour l'astronomie : 3 200 mégapixels, pour un engin à peu près de la taille d'une petite voiture ! Il faudrait des centaines d'écrans de télévision pour afficher une seule de ses images en pleine résolution. Pendant dix ans, il va photographier encore et encore tout le ciel austral pour réaliser une sorte de film de l'univers et repérer astéroïdes, supernovas et galaxies. Une révolution pour l'astronomie.\n\nTu imagines la taille des photos ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#verarubin",
+  "#telescope",
+  "#astronomie",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://rubinobservatory.org/",
+  "https://fr.wikipedia.org/wiki/Observatoire_Vera-C.-Rubin"
+ ]
+}

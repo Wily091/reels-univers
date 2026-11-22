@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 145,
+ "title": "Au-delà de Neptune, une ceinture de mondes glacés",
+ "subject": "Kuiper",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pluton",
+   "file": "assets/images/pluton_new_horizons.jpg",
+   "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
+   "page": "https://science.nasa.gov/dwarf-planets/pluto/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Après Neptune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il y a une ceinture",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de MONDES glacés ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la ceinture de Kuiper",
+   "on": "ceinture"
+  },
+  "photo": "pluton"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'au-delà de Neptune, il y a une immense ceinture de mondes glacés ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle la ceinture de Kuiper, et elle s'étend bien au-delà de l'orbite de Neptune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la ceinture de Kuiper",
+     "size": "l",
+     "color": "pink",
+     "on": "Kuiper",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "au-delà de Neptune",
+     "size": "m",
+     "on": "Neptune"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle contiendrait des centaines de milliers d'objets glacés de plus de cent kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des centaines de milliers",
+     "size": "m",
+     "on": "centaines"
+    },
+    {
+     "t": "text",
+     "text": "d'objets glacés",
+     "size": "l",
+     "color": "gold",
+     "on": "glacés"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "objets",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "Pluton en fait partie, avec d'autres planètes naines comme Éris, Hauméa ou Makémaké,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Pluton, Éris, Hauméa…",
+     "size": "l",
+     "color": "gold",
+     "on": "Pluton"
+    },
+    {
+     "t": "text",
+     "text": "des planètes naines",
+     "size": "m",
+     "on": "naines"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est de là que viendraient beaucoup de comètes qui reviennent régulièrement près du Soleil."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la maison de",
+     "size": "m",
+     "on": "viendraient"
+    },
+    {
+     "t": "text",
+     "text": "nombreuses comètes !",
+     "size": "l",
+     "color": "pink",
+     "on": "comètes",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Au-delà de Neptune s'étend une immense ceinture de mondes glacés 🧊\n\nBien au-delà de l'orbite de Neptune s'étend la ceinture de Kuiper, une vaste région en forme d'anneau peuplée d'objets glacés. Elle contiendrait des centaines de milliers d'objets de plus de 100 km, et sans doute des milliards de plus petits. Pluton en fait partie, tout comme d'autres planètes naines comme Éris, Hauméa ou Makémaké. C'est aussi de là que proviendraient de nombreuses comètes à courte période. En 2019, la sonde New Horizons y a survolé Arrokoth, l'objet le plus lointain jamais visité. Sur la photo, Pluton vue par New Horizons. Une frontière glacée de l'astronomie.\n\nTu savais que Pluton y vivait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#kuiper",
+  "#pluton",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/kuiper-belt/",
+  "https://fr.wikipedia.org/wiki/Ceinture_de_Kuiper"
+ ]
+}

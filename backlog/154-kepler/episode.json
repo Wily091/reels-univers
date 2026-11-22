@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 153,
+ "title": "Le télescope Kepler a découvert plus de 2 600 planètes",
+ "subject": "Kepler",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un seul télescope",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a découvert",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "+ de 2 600 PLANÈTES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "+ de 2 600 planètes",
+   "on": "planètes"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un seul télescope spatial a découvert plus de deux mille six cents planètes autour d'autres étoiles ?"
+   ]
+  },
+  {
+   "say": [
+    "Le télescope spatial Kepler de la NASA a été lancé en deux mille neuf,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le télescope Kepler",
+     "size": "l",
+     "color": "pink",
+     "on": "Kepler"
+    },
+    {
+     "t": "text",
+     "text": "lancé en 2009",
+     "size": "m",
+     "color": "gold",
+     "on": "deux mille neuf"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il fixait les étoiles et guettait de toutes petites baisses de leur lumière, quand une planète passait devant,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il guette une baisse",
+     "size": "m",
+     "on": "baisses"
+    },
+    {
+     "t": "text",
+     "text": "de lumière",
+     "size": "l",
+     "color": "gold",
+     "on": "lumière"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "pendant neuf ans, il a confirmé plus de deux mille six cents planètes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 2 600",
+     "size": "xl",
+     "color": "pink",
+     "on": "deux mille six",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "planètes confirmées !",
+     "size": "m",
+     "on": "confirmé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il a montré qu'il y aurait en moyenne plus de planètes que d'étoiles dans notre galaxie."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de planètes",
+     "size": "l",
+     "color": "gold",
+     "on": "plus de planètes"
+    },
+    {
+     "t": "text",
+     "text": "que d'étoiles !",
+     "size": "l",
+     "color": "pink",
+     "on": "étoiles dans",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le télescope Kepler a découvert plus de 2 600 planètes 🔭\n\nLancé par la NASA en 2009, le télescope spatial Kepler a observé en continu plus de 150 000 étoiles. Sa méthode : guetter les minuscules baisses de luminosité qui se produisent quand une planète passe devant son étoile. En neuf ans de mission, il a confirmé plus de 2 600 exoplanètes, dont de nombreuses planètes de la taille de la Terre ! Grâce à lui, on sait aujourd'hui qu'il y aurait en moyenne plus de planètes que d'étoiles dans la Voie lactée. Kepler a été mis à la retraite en 2018, à court de carburant. Un pionnier de l'astronomie moderne.\n\nTu savais qu'il y en avait autant ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#kepler",
+  "#exoplanetes",
+  "#nasa",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/kepler/",
+  "https://fr.wikipedia.org/wiki/Kepler_(télescope_spatial)"
+ ]
+}

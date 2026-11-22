@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 146,
+ "title": "Toutes les planètes tiennent entre la Terre et la Lune",
+ "subject": "Planètes",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Toutes les planètes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tiennent entre",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Terre et la LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "elles tiennent toutes !",
+   "on": "planètes"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que toutes les planètes du système solaire pourraient tenir côte à côte entre la Terre et la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "La Lune se trouve en moyenne à environ trois cent quatre-vingt-quatre mille kilomètres de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Terre → Lune :",
+     "size": "m",
+     "on": "Lune"
+    },
+    {
+     "t": "text",
+     "text": "~ 384 000 km",
+     "size": "xl",
+     "color": "gold",
+     "on": "trois cent"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "moyenne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et si tu alignes Mercure, Vénus, Mars, Jupiter, Saturne, Uranus et Neptune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Mercure, Vénus, Mars,",
+     "size": "m",
+     "on": "Mercure"
+    },
+    {
+     "t": "text",
+     "text": "Jupiter, Saturne, Uranus, Neptune",
+     "size": "s",
+     "color": "pink",
+     "on": "Jupiter"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la somme de leurs diamètres fait environ trois cent quatre-vingt mille kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "total ≈ 380 000 km",
+     "size": "l",
+     "color": "pink",
+     "on": "somme",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, elles tiennent tout juste dans l'espace qui nous sépare de la Lune, ce qui montre à quel point cet espace est grand."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ça tient tout juste !",
+     "size": "l",
+     "color": "gold",
+     "on": "tout juste"
+    },
+    {
+     "t": "text",
+     "text": "l'espace est immense",
+     "size": "m",
+     "on": "grand",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Toutes les planètes du système solaire tiennent entre la Terre et la Lune 🪐\n\nLa Lune se trouve en moyenne à environ 384 000 km de la Terre. Si l'on alignait côte à côte Mercure, Vénus, Mars, Jupiter, Saturne, Uranus et Neptune, la somme de leurs diamètres ferait environ 380 000 km : elles tiendraient donc, tout juste, dans l'espace qui nous sépare de la Lune ! Ce calcul montre surtout à quel point la distance Terre-Lune est grande, même si notre satellite nous paraît proche dans le ciel. Bien sûr, ça ne marche qu'à la distance moyenne de la Lune. Sur la photo, la pleine Lune. Un fait d'astronomie qui change notre sens des distances.\n\nTu l'aurais cru ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#planetes",
+  "#lune",
+  "#systemesolaire",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/",
+  "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+ ]
+}
