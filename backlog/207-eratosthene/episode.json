@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 206,
+ "title": "Il y a 2 200 ans, un savant a mesuré la Terre avec des ombres",
+ "subject": "Ératosthène",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Il y a 2 200 ans,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il a mesuré la Terre",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "avec une OMBRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une mesure géniale",
+   "on": "Terre"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il y a plus de deux mille ans, un savant a mesuré la taille de la Terre avec des ombres ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait Ératosthène, et il vivait à Alexandrie, en Égypte, vers deux cent quarante avant notre ère,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Ératosthène",
+     "size": "xl",
+     "color": "pink",
+     "on": "Ératosthène"
+    },
+    {
+     "t": "text",
+     "text": "~ 240 av. J.-C.",
+     "size": "m",
+     "color": "gold",
+     "on": "deux cent quarante"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il sait qu'un certain jour, à midi, à Syène, plus au sud, le Soleil ne fait aucune ombre au fond d'un puits,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à Syène : pas d'ombre",
+     "size": "l",
+     "on": "Syène"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais au même moment, à Alexandrie, un bâton fait une petite ombre, avec un angle d'environ sept degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à Alexandrie : ~ 7°",
+     "size": "l",
+     "color": "gold",
+     "on": "sept degrés",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "avec la distance entre les deux villes, il calcule le tour de la Terre, et trouve environ quarante mille kilomètres, presque la vraie valeur."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 40 000 km !",
+     "size": "xl",
+     "color": "pink",
+     "on": "quarante mille"
+    },
+    {
+     "t": "text",
+     "text": "presque parfait",
+     "size": "m",
+     "on": "presque",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il y a 2 200 ans, Ératosthène a mesuré la Terre avec des ombres 📏\n\nVers 240 avant notre ère, le savant grec Ératosthène, directeur de la bibliothèque d'Alexandrie, a une idée géniale. Il sait qu'à Syène (l'actuelle Assouan), au solstice d'été, à midi, le Soleil éclaire le fond des puits : il est exactement au-dessus. Au même moment, à Alexandrie, plus au nord, un bâton projette une ombre faisant un angle d'environ 7°, soit 1/50 d'un cercle. En multipliant la distance entre les deux villes par 50, il estime la circonférence de la Terre à environ 40 000 km, une valeur remarquablement proche de la réalité ! Sur la photo, la Terre. Un chef-d'œuvre de raisonnement scientifique.\n\nTu aurais eu l'idée ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#eratosthene",
+  "#terre",
+  "#histoire",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Ératosthène",
+  "https://science.nasa.gov/earth/facts/"
+ ]
+}

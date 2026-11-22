@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 213,
+ "title": "On peut voir deux autres galaxies à l'œil nu depuis l'hémisphère Sud",
+ "subject": "Magellan",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Depuis l'hémisphère Sud,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "on voit 2 galaxies",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à l'ŒIL NU ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "2 galaxies visibles",
+   "on": "galaxies"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que depuis l'hémisphère Sud, on peut voir deux autres galaxies à l'œil nu ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont le Grand et le Petit Nuage de Magellan, deux petites galaxies qui accompagnent la nôtre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les Nuages de Magellan",
+     "size": "l",
+     "color": "pink",
+     "on": "Magellan"
+    },
+    {
+     "t": "text",
+     "text": "2 galaxies voisines",
+     "size": "m",
+     "on": "petites galaxies"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le Grand Nuage est à environ cent soixante mille années-lumière, et le Petit à environ deux cent mille,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 160 000 a.-l.",
+     "size": "l",
+     "color": "gold",
+     "on": "cent soixante mille"
+    },
+    {
+     "t": "text",
+     "text": "et ~ 200 000 a.-l.",
+     "size": "m",
+     "on": "deux cent mille"
+    }
+   ]
+  },
+  {
+   "say": [
+    "dans un ciel bien noir, on les voit comme deux taches floues, comme des morceaux de Voie lactée détachés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 taches floues",
+     "size": "l",
+     "color": "pink",
+     "on": "taches",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles portent le nom de l'explorateur Magellan, dont l'expédition les a décrites lors du premier tour du monde."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le 1er tour du monde",
+     "size": "m",
+     "on": "tour du monde"
+    },
+    {
+     "t": "text",
+     "text": "les a fait connaître !",
+     "size": "l",
+     "color": "gold",
+     "on": "décrites",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Depuis l'hémisphère Sud, deux galaxies sont visibles à l'œil nu : les Nuages de Magellan 🌌\n\nDans le ciel de l'hémisphère Sud, loin des lumières des villes, on peut voir à l'œil nu deux taches floues : le Grand et le Petit Nuage de Magellan. Ce sont deux petites galaxies voisines qui accompagnent notre Voie lactée, situées respectivement à environ 160 000 et 200 000 années-lumière. Connues depuis l'Antiquité par les peuples de l'hémisphère Sud, elles portent le nom de l'explorateur Fernand de Magellan, dont l'expédition (1519-1522), le premier tour du monde, les a fait connaître en Europe. Sur l'image, un ciel nocturne. Un spectacle à voir au moins une fois.\n\nTu les as déjà vues ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#magellan",
+  "#galaxie",
+  "#cielnocturne",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Grand_Nuage_de_Magellan",
+  "https://fr.wikipedia.org/wiki/Petit_Nuage_de_Magellan"
+ ]
+}

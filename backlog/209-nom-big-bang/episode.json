@@ -1,0 +1,147 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 208,
+ "title": "Le nom « Big Bang » était une moquerie",
+ "subject": "Big Bang",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le nom « Big Bang »",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "était au départ",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une MOQUERIE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un nom moqueur",
+   "on": "nom"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le nom Big Bang a été inventé par un astronome qui n'y croyait pas ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait Fred Hoyle, un astronome britannique très connu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Fred Hoyle",
+     "size": "l",
+     "color": "pink",
+     "on": "Hoyle"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en mille neuf cent quarante-neuf, à la radio de la BBC, il parle de cette théorie d'un univers né d'un état très chaud et très dense,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1949, à la radio",
+     "size": "l",
+     "color": "gold",
+     "on": "quarante-neuf"
+    },
+    {
+     "t": "text",
+     "text": "un univers né très chaud",
+     "size": "m",
+     "on": "chaud"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pour s'en moquer un peu, il l'appelle le Big Bang, le grand boum,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« le grand boum »",
+     "size": "xl",
+     "color": "pink",
+     "on": "grand boum",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "lui pensait que l'univers avait toujours existé, mais c'est son nom moqueur qui est resté."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il avait tort…",
+     "size": "m",
+     "on": "pensait"
+    },
+    {
+     "t": "text",
+     "text": "mais le nom est resté !",
+     "size": "l",
+     "color": "gold",
+     "on": "resté",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le nom « Big Bang » a été inventé par un astronome qui n'y croyait pas 💥\n\nEn 1949, lors d'une émission de radio de la BBC, l'astronome britannique Fred Hoyle évoque la théorie selon laquelle l'univers serait né d'un état extrêmement chaud et dense, avant de s'étendre. Pour la décrire, et un peu pour s'en moquer, il parle de « Big Bang », le « grand boum ». Hoyle défendait au contraire l'idée d'un univers éternel, sans début. Ironie de l'histoire : la découverte du fond diffus cosmologique en 1965 a donné raison au Big Bang, et le surnom moqueur est devenu le nom officiel de la théorie ! Sur la photo, le champ ultra-profond de Hubble.\n\nTu l'aurais appelé comment ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#bigbang",
+  "#univers",
+  "#histoire",
+  "#cosmologie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Fred_Hoyle",
+  "https://fr.wikipedia.org/wiki/Big_Bang"
+ ]
+}

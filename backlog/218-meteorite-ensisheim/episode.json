@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 217,
+ "title": "La plus ancienne chute de météorite conservée en Europe est en Alsace",
+ "subject": "Ensisheim",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1492,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une pierre tombe du ciel",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en ALSACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une pierre du ciel",
+   "on": "pierre"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille quatre cent quatre-vingt-douze, une pierre est tombée du ciel en Alsace ?"
+   ]
+  },
+  {
+   "say": [
+    "Le sept novembre mille quatre cent quatre-vingt-douze, un énorme bruit retentit près du village d'Ensisheim,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "7 novembre 1492",
+     "size": "l",
+     "color": "gold",
+     "on": "sept novembre"
+    },
+    {
+     "t": "text",
+     "text": "Ensisheim, en Alsace",
+     "size": "l",
+     "color": "pink",
+     "on": "Ensisheim"
+    }
+   ]
+  },
+  {
+   "say": [
+    "un jeune garçon voit une pierre d'environ cent vingt-sept kilos tomber dans un champ de blé,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 127 kg !",
+     "size": "xl",
+     "color": "pink",
+     "on": "cent vingt-sept",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "dans un champ de blé",
+     "size": "m",
+     "on": "champ"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "tomber",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est la plus ancienne chute de météorite en Europe dont on a encore un morceau,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la + ancienne",
+     "size": "m",
+     "on": "ancienne"
+    },
+    {
+     "t": "text",
+     "text": "conservée en Europe",
+     "size": "l",
+     "color": "gold",
+     "on": "Europe"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et aujourd'hui, son plus gros fragment est toujours exposé à Ensisheim."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toujours exposée",
+     "size": "l",
+     "color": "pink",
+     "on": "exposé",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1492, une météorite de 127 kg est tombée en Alsace ☄️\n\nLe 7 novembre 1492, quelques semaines après l'arrivée de Christophe Colomb en Amérique, un fracas retentit près d'Ensisheim, en Alsace. Un jeune garçon voit une pierre d'environ 127 kg s'écraser dans un champ de blé. C'est la plus ancienne chute de météorite en Europe dont des fragments sont encore conservés ! L'événement fit grand bruit à l'époque : on y vit un présage, et la pierre fut suspendue dans l'église du village. Aujourd'hui, son plus gros fragment, d'environ 55 kg, est exposé au musée de la Régence d'Ensisheim. Un fait d'astronomie et d'histoire made in France.\n\nTu savais que c'était en France ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#meteorite",
+  "#alsace",
+  "#histoire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Météorite_d'Ensisheim",
+  "https://science.nasa.gov/solar-system/meteors-meteorites/"
+ ]
+}

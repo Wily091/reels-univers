@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 204,
+ "title": "Galilée a découvert 4 lunes de Jupiter avec une petite lunette",
+ "subject": "Galilée",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "4 points lumineux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ont changé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "notre vision du MONDE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la découverte de Galilée",
+   "on": "Jupiter"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que quatre petits points lumineux autour de Jupiter ont changé notre vision du monde ?"
+   ]
+  },
+  {
+   "say": [
+    "En janvier mille six cent dix, Galilée pointe sa petite lunette vers Jupiter,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "janvier 1610",
+     "size": "l",
+     "color": "gold",
+     "on": "mille six cent dix"
+    },
+    {
+     "t": "text",
+     "text": "Galilée",
+     "size": "xl",
+     "color": "pink",
+     "on": "Galilée"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il voit quatre points qui changent de place chaque nuit autour de la planète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "4 points qui bougent",
+     "size": "l",
+     "on": "quatre"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "autour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce sont quatre lunes, Io, Europe, Ganymède et Callisto, qu'on appelle aujourd'hui les lunes galiléennes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "4 lunes !",
+     "size": "xl",
+     "color": "gold",
+     "on": "lunes",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "Io, Europe, Ganymède, Callisto",
+     "size": "s",
+     "on": "Io"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ça prouvait une chose énorme, tout ne tourne pas autour de la Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tout ne tourne pas",
+     "size": "m",
+     "on": "tout"
+    },
+    {
+     "t": "text",
+     "text": "autour de la Terre !",
+     "size": "l",
+     "color": "pink",
+     "on": "Terre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Galilée a découvert 4 lunes de Jupiter en 1610 avec une simple lunette 🔭\n\nEn janvier 1610, Galilée pointe vers Jupiter une lunette qu'il a fabriquée lui-même, grossissant une vingtaine de fois. Il remarque quatre petits points lumineux alignés près de la planète, qui changent de position d'une nuit à l'autre. Il comprend qu'il s'agit de lunes en orbite autour de Jupiter : Io, Europe, Ganymède et Callisto, aujourd'hui appelées les lunes galiléennes. Une découverte révolutionnaire : elle prouvait que tous les astres ne tournent pas autour de la Terre, un argument de poids pour le modèle de Copernic. Sur la photo, Jupiter. Un tournant de l'histoire de l'astronomie.\n\nTu as déjà vu Jupiter dans une lunette ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#galilee",
+  "#jupiter",
+  "#histoire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Satellite_galiléen",
+  "https://fr.wikipedia.org/wiki/Galilée_(savant)"
+ ]
+}

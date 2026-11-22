@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 214,
+ "title": "Les quasars brillent plus que des galaxies entières",
+ "subject": "Quasars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "m87",
+   "file": "assets/images/m87_trou_noir_eht.jpg",
+   "credit": "Trou noir de M87 · EHT Collaboration",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce point lumineux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "brille + qu'une galaxie",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ENTIÈRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les objets les + brillants",
+   "on": "lumineux"
+  },
+  "photo": "m87"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un seul point lumineux dans l'univers peut briller plus qu'une galaxie entière ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle les quasars, et ce sont parmi les objets les plus lumineux de l'univers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les quasars",
+     "size": "xl",
+     "color": "pink",
+     "on": "quasars"
+    },
+    {
+     "t": "text",
+     "text": "parmi les + lumineux",
+     "size": "m",
+     "on": "plus lumineux"
+    }
+   ]
+  },
+  {
+   "say": [
+    "au centre, il y a un trou noir géant qui avale de la matière à toute vitesse,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un trou noir géant",
+     "size": "l",
+     "on": "trou noir"
+    },
+    {
+     "t": "text",
+     "text": "qui avale de la matière",
+     "size": "m",
+     "color": "gold",
+     "on": "avale"
+    }
+   ]
+  },
+  {
+   "say": [
+    "avant d'être engloutie, cette matière chauffe énormément et brille plus que les centaines de milliards d'étoiles de sa galaxie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ brillant que",
+     "size": "m",
+     "on": "brille"
+    },
+    {
+     "t": "text",
+     "text": "toute sa galaxie !",
+     "size": "l",
+     "color": "gold",
+     "on": "galaxie",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la plupart sont si loin que leur lumière a voyagé pendant des milliards d'années pour nous atteindre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une lumière de",
+     "size": "m",
+     "on": "lumière"
+    },
+    {
+     "t": "text",
+     "text": "milliards d'années !",
+     "size": "l",
+     "color": "pink",
+     "on": "milliards",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les quasars brillent plus que des galaxies entières ✨\n\nLes quasars sont parmi les objets les plus lumineux de l'univers. Au cœur de certaines galaxies lointaines, un trou noir supermassif, des millions à des milliards de fois plus massif que le Soleil, engloutit d'énormes quantités de gaz et de poussière. Avant de disparaître, cette matière tourbillonne dans un disque où elle chauffe à des températures extrêmes, au point de briller plus que les centaines de milliards d'étoiles de la galaxie tout entière ! La plupart sont si éloignés que leur lumière a voyagé des milliards d'années. Sur l'image, le trou noir de la galaxie M87, photographié en 2019.\n\nTu en avais déjà entendu parler ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#quasar",
+  "#trounoir",
+  "#galaxie",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Quasar",
+  "https://science.nasa.gov/universe/black-holes/"
+ ]
+}

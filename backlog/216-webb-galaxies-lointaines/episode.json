@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 215,
+ "title": "Webb voit des galaxies nées juste après le Big Bang",
+ "subject": "James Webb",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "webb",
+   "file": "assets/images/webb_miroir.jpg",
+   "credit": "Le miroir de James Webb · NASA/Chris Gunn",
+   "page": "https://commons.wikimedia.org/wiki/File:JWST_Full_Mirror.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce télescope",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "voit des galaxies",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "nées après le BIG BANG ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un voyage dans le passé",
+   "on": "télescope"
+  },
+  "photo": "webb"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un télescope voit des galaxies telles qu'elles étaient juste après le Big Bang ?"
+   ]
+  },
+  {
+   "say": [
+    "Le télescope spatial James Webb observe la lumière infrarouge, invisible pour nos yeux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "James Webb",
+     "size": "xl",
+     "color": "pink",
+     "on": "James Webb"
+    },
+    {
+     "t": "text",
+     "text": "voit l'infrarouge",
+     "size": "m",
+     "on": "infrarouge"
+    }
+   ]
+  },
+  {
+   "say": [
+    "plus une galaxie est loin, plus sa lumière a mis de temps à nous parvenir, donc on la voit dans le passé,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ loin = + ancien",
+     "size": "l",
+     "color": "gold",
+     "on": "passé",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "Webb a repéré des galaxies telles qu'elles étaient moins de trois cents millions d'années après le Big Bang,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "< 300 millions d'années",
+     "size": "l",
+     "color": "pink",
+     "on": "trois cents millions"
+    },
+    {
+     "t": "text",
+     "text": "après le Big Bang !",
+     "size": "m",
+     "on": "Big Bang"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et surprise, certaines étaient déjà bien plus brillantes que ce que les astronomes imaginaient."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ brillantes",
+     "size": "l",
+     "color": "gold",
+     "on": "brillantes"
+    },
+    {
+     "t": "text",
+     "text": "que prévu !",
+     "size": "m",
+     "on": "imaginaient",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le télescope James Webb voit des galaxies nées juste après le Big Bang 🔭\n\nLe télescope spatial James Webb, lancé fin 2021, observe l'univers dans l'infrarouge. Comme la lumière voyage à une vitesse finie, observer loin, c'est observer dans le passé. Webb a ainsi repéré des galaxies telles qu'elles étaient moins de 300 millions d'années après le Big Bang, il y a plus de 13,5 milliards d'années ! Surprise pour les astronomes : certaines de ces très jeunes galaxies étaient déjà bien plus grandes et plus brillantes que ce que prévoyaient les modèles. Webb oblige à repenser la naissance des premières galaxies. Sur la photo, le miroir du télescope James Webb.\n\nTu imagines ce qu'il verra ensuite ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jameswebb",
+  "#galaxies",
+  "#bigbang",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/webb/",
+  "https://fr.wikipedia.org/wiki/James_Webb_Space_Telescope"
+ ]
+}

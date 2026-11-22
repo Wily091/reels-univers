@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 205,
+ "title": "Uranus a été découverte depuis un jardin",
+ "subject": "Uranus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "uranus",
+   "file": "assets/images/uranus_voyager2.jpg",
+   "credit": "Uranus vue par Voyager 2 · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/uranus/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a été découverte",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "depuis un JARDIN ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une découverte au jardin",
+   "on": "planète"
+  },
+  "photo": "uranus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une planète entière a été découverte par un musicien, depuis son jardin ?"
+   ]
+  },
+  {
+   "say": [
+    "Le treize mars mille sept cent quatre-vingt-un, William Herschel, un musicien passionné d'astronomie, observe le ciel à Bath, en Angleterre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "13 mars 1781",
+     "size": "l",
+     "color": "gold",
+     "on": "treize mars"
+    },
+    {
+     "t": "text",
+     "text": "William Herschel",
+     "size": "l",
+     "color": "pink",
+     "on": "Herschel"
+    }
+   ]
+  },
+  {
+   "say": [
+    "avec un télescope fabriqué par lui-même, il repère un petit disque qu'il prend d'abord pour une comète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une comète ?",
+     "size": "l",
+     "on": "comète"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "télescope",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en fait, c'était une nouvelle planète, Uranus, la première découverte avec un télescope,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une nouvelle planète !",
+     "size": "l",
+     "color": "gold",
+     "on": "nouvelle planète",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "1re trouvée au télescope",
+     "size": "m",
+     "on": "première"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il voulait l'appeler l'étoile de George, en l'honneur du roi d'Angleterre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il voulait l'appeler",
+     "size": "m",
+     "on": "appeler"
+    },
+    {
+     "t": "text",
+     "text": "« l'étoile de George » !",
+     "size": "l",
+     "color": "pink",
+     "on": "George",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Uranus a été découverte en 1781 par un musicien, depuis son jardin 🔭\n\nLe 13 mars 1781, à Bath, en Angleterre, William Herschel, musicien de métier et astronome passionné, observe le ciel depuis son jardin avec un télescope qu'il a construit lui-même. Il repère un petit disque qu'il prend d'abord pour une comète. Les calculs montrent vite qu'il s'agit d'une nouvelle planète, bien au-delà de Saturne : Uranus ! C'est la première planète découverte à l'aide d'un télescope. Herschel voulait l'appeler « Georgium Sidus », l'étoile de George, en l'honneur du roi George III. Sur la photo, Uranus vue par Voyager 2. Une belle histoire d'astronomie amateur.\n\nTu as déjà observé le ciel depuis chez toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#uranus",
+  "#herschel",
+  "#histoire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/William_Herschel",
+  "https://science.nasa.gov/uranus/facts/"
+ ]
+}

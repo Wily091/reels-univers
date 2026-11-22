@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 207,
+ "title": "Les cendres du découvreur de Pluton ont voyagé jusqu'à Pluton",
+ "subject": "Pluton",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pluton",
+   "file": "assets/images/pluton_new_horizons.jpg",
+   "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
+   "page": "https://science.nasa.gov/dwarf-planets/pluto/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ses cendres",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ont voyagé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "jusqu'à PLUTON ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un dernier voyage",
+   "on": "Pluton"
+  },
+  "photo": "pluton"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les cendres de l'homme qui a découvert Pluton ont voyagé jusqu'à Pluton ?"
+   ]
+  },
+  {
+   "say": [
+    "En février mille neuf cent trente, Clyde Tombaugh, un jeune astronome de vingt-quatre ans, découvre Pluton,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "février 1930",
+     "size": "l",
+     "color": "gold",
+     "on": "février"
+    },
+    {
+     "t": "text",
+     "text": "Clyde Tombaugh, 24 ans",
+     "size": "l",
+     "color": "pink",
+     "on": "Tombaugh"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il l'a trouvée en comparant des photos du ciel, à la recherche d'un point qui bouge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en comparant des photos",
+     "size": "m",
+     "on": "comparant"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il est mort en mille neuf cent quatre-vingt-dix-sept, et une partie de ses cendres a été placée à bord de la sonde New Horizons,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ses cendres",
+     "size": "l",
+     "on": "cendres"
+    },
+    {
+     "t": "text",
+     "text": "à bord de New Horizons",
+     "size": "m",
+     "color": "gold",
+     "on": "New Horizons",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en juillet deux mille quinze, elles sont passées tout près de Pluton."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2015 : il rejoint",
+     "size": "m",
+     "on": "deux mille quinze"
+    },
+    {
+     "t": "text",
+     "text": "sa planète !",
+     "size": "l",
+     "color": "pink",
+     "on": "Pluton",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les cendres du découvreur de Pluton ont voyagé jusqu'à Pluton 🕊️\n\nEn février 1930, à l'observatoire Lowell, en Arizona, un jeune astronome de 24 ans, Clyde Tombaugh, découvre Pluton en comparant minutieusement des photographies du ciel prises à quelques jours d'intervalle, à la recherche d'un point qui se déplace. Tombaugh est mort en 1997. En 2006, une partie de ses cendres a été placée à bord de la sonde New Horizons de la NASA, lancée vers Pluton. Le 14 juillet 2015, la sonde a survolé Pluton : son découvreur a ainsi fait le voyage jusqu'au monde qu'il avait révélé. Sur la photo, Pluton vue par New Horizons.\n\nTu trouves ça beau ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pluton",
+  "#newhorizons",
+  "#histoire",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Clyde_Tombaugh",
+  "https://science.nasa.gov/mission/new-horizons/"
+ ]
+}

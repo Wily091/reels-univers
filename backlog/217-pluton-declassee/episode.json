@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 216,
+ "title": "Pourquoi Pluton n'est plus une planète",
+ "subject": "Pluton",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pluton",
+   "file": "assets/images/pluton_new_horizons.jpg",
+   "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
+   "page": "https://science.nasa.gov/dwarf-planets/pluto/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pourquoi Pluton",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'est plus",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une PLANÈTE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "planète naine",
+   "on": "Pluton"
+  },
+  "photo": "pluton"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu sais pourquoi Pluton n'est plus considérée comme une planète depuis deux mille six ?"
+   ]
+  },
+  {
+   "say": [
+    "Le vingt-quatre août deux mille six, l'Union astronomique internationale a voté une définition officielle d'une planète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "24 août 2006",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-quatre"
+    },
+    {
+     "t": "text",
+     "text": "un vote officiel",
+     "size": "m",
+     "on": "voté"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour être une planète, il faut tourner autour du Soleil, être assez gros pour être rond,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1. tourner autour du Soleil",
+     "size": "m",
+     "on": "tourner"
+    },
+    {
+     "t": "text",
+     "text": "2. être rond",
+     "size": "m",
+     "on": "rond"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et surtout, avoir fait le ménage sur son orbite, ce que Pluton n'a pas fait, car elle partage sa zone avec plein d'autres objets glacés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3. faire le ménage",
+     "size": "l",
+     "color": "pink",
+     "on": "ménage",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "Pluton : non !",
+     "size": "m",
+     "on": "Pluton"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, elle est devenue une planète naine, et ça fait encore débat aujourd'hui."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une planète naine",
+     "size": "l",
+     "color": "gold",
+     "on": "naine"
+    },
+    {
+     "t": "text",
+     "text": "et ça fait débat !",
+     "size": "m",
+     "on": "débat",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pourquoi Pluton n'est plus une planète depuis 2006 🪐\n\nLe 24 août 2006, à Prague, l'Union astronomique internationale (UAI) a adopté une définition officielle de ce qu'est une planète. Il faut remplir trois conditions : tourner autour du Soleil, être assez massif pour avoir une forme presque ronde, et avoir « fait le ménage » sur son orbite, c'est-à-dire dominer sa zone. Pluton remplit les deux premières, mais pas la troisième : elle partage son orbite avec de nombreux objets glacés de la ceinture de Kuiper. Elle a donc été reclassée parmi les planètes naines, avec Cérès ou Éris. Une décision encore débattue par certains scientifiques ! Sur la photo, Pluton.\n\nPour toi, Pluton est une planète ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pluton",
+  "#planetenaine",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Définition_des_planètes",
+  "https://science.nasa.gov/dwarf-planets/pluto/"
+ ]
+}

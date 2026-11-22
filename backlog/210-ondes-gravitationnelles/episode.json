@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 209,
+ "title": "En 2015, on a entendu deux trous noirs fusionner",
+ "subject": "Ondes",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On a « entendu »",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "deux trous noirs",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "FUSIONNER ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des ondes dans l'espace",
+   "on": "trous noirs"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en deux mille quinze, on a capté sur Terre le signal de deux trous noirs qui fusionnaient ?"
+   ]
+  },
+  {
+   "say": [
+    "Le quatorze septembre deux mille quinze, les détecteurs LIGO, aux États-Unis, captent une minuscule vibration,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "14 septembre 2015",
+     "size": "l",
+     "color": "gold",
+     "on": "quatorze"
+    },
+    {
+     "t": "text",
+     "text": "les détecteurs LIGO",
+     "size": "m",
+     "on": "LIGO"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était une onde gravitationnelle, une déformation de l'espace lui-même, prédite par Einstein un siècle plus tôt,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une onde gravitationnelle",
+     "size": "l",
+     "color": "pink",
+     "on": "onde"
+    },
+    {
+     "t": "text",
+     "text": "prédite par Einstein",
+     "size": "m",
+     "on": "Einstein"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "déformation",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle venait de deux trous noirs qui se sont percutés, à plus d'un milliard d'années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 trous noirs",
+     "size": "l",
+     "on": "deux trous"
+    },
+    {
+     "t": "text",
+     "text": "à + d'1 milliard d'a.-l.",
+     "size": "m",
+     "color": "gold",
+     "on": "milliard",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la déformation mesurée était plus petite qu'une fraction de la taille d'un proton."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ petite qu'un",
+     "size": "m",
+     "on": "petite"
+    },
+    {
+     "t": "text",
+     "text": "proton !",
+     "size": "xl",
+     "color": "pink",
+     "on": "proton",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 2015, on a capté le signal de deux trous noirs qui fusionnaient 🌊\n\nLe 14 septembre 2015, les détecteurs LIGO, aux États-Unis, ont capté pour la première fois une onde gravitationnelle : une minuscule déformation de l'espace-temps lui-même, prédite par Albert Einstein un siècle plus tôt. Elle provenait de la fusion de deux trous noirs, à plus d'un milliard d'années-lumière de nous. En traversant la Terre, cette onde a modifié la longueur des bras de 4 km des détecteurs d'une quantité bien plus petite que la taille d'un proton ! Cette découverte a valu le prix Nobel de physique 2017 à ses pionniers. Un nouveau sens pour observer l'univers.\n\nTu savais que l'espace pouvait vibrer ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#ondesgravitationnelles",
+  "#trounoir",
+  "#einstein",
+  "#physique",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Ondes_gravitationnelles",
+  "https://fr.wikipedia.org/wiki/GW150914"
+ ]
+}

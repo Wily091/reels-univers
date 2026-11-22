@@ -1,0 +1,151 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 210,
+ "title": "La neige des vieilles télés contenait un écho du Big Bang",
+ "subject": "Big Bang",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La neige de la télé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "contenait un écho",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "du BIG BANG ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un écho du Big Bang",
+   "on": "Big Bang"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la neige des vieilles télés contenait un petit écho du Big Bang ?"
+   ]
+  },
+  {
+   "say": [
+    "Après le Big Bang, l'univers était une soupe brûlante, et environ trois cent quatre-vingt mille ans plus tard, une première lumière s'en est libérée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 380 000 ans après",
+     "size": "l",
+     "color": "gold",
+     "on": "trois cent quatre-vingt"
+    },
+    {
+     "t": "text",
+     "text": "la 1re lumière",
+     "size": "m",
+     "on": "lumière"
+    }
+   ]
+  },
+  {
+   "say": [
+    "cette lumière existe encore, partout dans le ciel, on l'appelle le fond diffus cosmologique,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le fond diffus",
+     "size": "l",
+     "color": "pink",
+     "on": "fond diffus"
+    },
+    {
+     "t": "text",
+     "text": "cosmologique",
+     "size": "m",
+     "on": "cosmologique"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en mille neuf cent soixante-cinq, deux ingénieurs l'ont découverte par hasard, en pensant d'abord que c'étaient des fientes de pigeons dans leur antenne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1965 : découvert par hasard",
+     "size": "m",
+     "on": "hasard"
+    },
+    {
+     "t": "text",
+     "text": "des fientes de pigeons ?",
+     "size": "l",
+     "color": "gold",
+     "on": "pigeons"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une petite partie de la neige sur les vieilles télés venait de cette lumière."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 1 % de la neige",
+     "size": "l",
+     "color": "pink",
+     "on": "neige",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "= l'écho du Big Bang !",
+     "size": "m",
+     "on": "lumière.",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La neige des vieilles télés contenait un écho du Big Bang 📺\n\nEnviron 380 000 ans après le Big Bang, l'univers s'est assez refroidi pour que la lumière puisse enfin voyager librement. Cette première lumière existe toujours : elle baigne tout le ciel sous forme de micro-ondes, c'est le fond diffus cosmologique. En 1965, deux ingénieurs américains, Arno Penzias et Robert Wilson, l'ont détecté par hasard avec leur antenne, en accusant d'abord des fientes de pigeons ! Ils ont reçu le prix Nobel en 1978. Fait étonnant : une petite partie de la « neige » des anciennes télévisions analogiques, de l'ordre de 1 %, venait de ce rayonnement. Un écho du Big Bang dans ton salon !\n\nTu te souviens de cette neige ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#bigbang",
+  "#cosmologie",
+  "#univers",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Fond_diffus_cosmologique",
+  "https://science.nasa.gov/universe/"
+ ]
+}

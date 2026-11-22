@@ -1,0 +1,155 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 211,
+ "title": "Pourquoi le ciel est noir la nuit, alors qu'il y a des milliards d'étoiles",
+ "subject": "La nuit",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Avec des milliards d'étoiles,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pourquoi la nuit",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est NOIRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le paradoxe de la nuit",
+   "on": "nuit"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le simple fait que la nuit soit noire est une énigme célèbre de l'astronomie ?"
+   ]
+  },
+  {
+   "say": [
+    "Si l'univers était infini et existait depuis toujours, dans chaque direction du ciel, ton regard finirait par tomber sur une étoile,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une étoile partout ?",
+     "size": "l",
+     "color": "gold",
+     "on": "étoile"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "direction",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, le ciel de nuit devrait être aussi brillant que le Soleil, c'est le paradoxe d'Olbers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le paradoxe d'Olbers",
+     "size": "l",
+     "color": "pink",
+     "on": "Olbers",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "la réponse, c'est que l'univers a un âge, et la lumière des étoiles très lointaines n'a pas encore eu le temps d'arriver,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'univers a un âge",
+     "size": "l",
+     "on": "âge"
+    },
+    {
+     "t": "text",
+     "text": "la lumière n'est pas arrivée",
+     "size": "m",
+     "color": "gold",
+     "on": "arriver"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en plus, l'expansion de l'univers étire la lumière des galaxies lointaines, jusqu'à la rendre invisible à nos yeux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'expansion étire",
+     "size": "m",
+     "on": "expansion"
+    },
+    {
+     "t": "text",
+     "text": "la lumière !",
+     "size": "l",
+     "color": "pink",
+     "on": "invisible",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pourquoi la nuit est noire alors qu'il y a des milliards d'étoiles 🌌\n\nSi l'univers était infini, immuable et éternel, chaque direction du ciel finirait par croiser la surface d'une étoile, et la nuit devrait être aussi éclatante que le Soleil. C'est le paradoxe d'Olbers, du nom d'un astronome allemand du XIXe siècle. La solution : l'univers a un âge, environ 13,8 milliards d'années, donc la lumière des étoiles et galaxies trop lointaines n'a pas encore eu le temps de nous parvenir. De plus, l'expansion de l'univers étire la lumière des galaxies lointaines vers des longueurs d'onde invisibles pour nos yeux. Sur l'image, un ciel nocturne. Une question simple, une réponse cosmique !\n\nTu t'étais déjà posé la question ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#nuit",
+  "#univers",
+  "#cosmologie",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Paradoxe_d'Olbers",
+  "https://science.nasa.gov/universe/"
+ ]
+}
