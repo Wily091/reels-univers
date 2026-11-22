@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 140,
+ "title": "Une sonde a rapporté sur Terre des morceaux d'astéroïde",
+ "subject": "Bennu",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une sonde a rapporté",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des morceaux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'ASTÉROÏDE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "121 g d'astéroïde",
+   "on": "morceaux"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde de la NASA a rapporté sur Terre des morceaux d'un astéroïde ?"
+   ]
+  },
+  {
+   "say": [
+    "La sonde OSIRIS-REx est allée jusqu'à l'astéroïde Bennu, et elle a touché sa surface en deux mille vingt,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "OSIRIS-REx",
+     "size": "l",
+     "color": "pink",
+     "on": "OSIRIS"
+    },
+    {
+     "t": "text",
+     "text": "touche Bennu en 2020",
+     "size": "m",
+     "color": "gold",
+     "on": "deux mille vingt"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis sa capsule a atterri dans le désert de l'Utah, le vingt-quatre septembre deux mille vingt-trois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "retour : 24 sept. 2023",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-quatre"
+    },
+    {
+     "t": "text",
+     "text": "dans le désert de l'Utah",
+     "size": "m",
+     "on": "Utah"
+    }
+   ]
+  },
+  {
+   "say": [
+    "avec environ cent vingt et un grammes de roche et de poussière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 121 grammes",
+     "size": "xl",
+     "color": "pink",
+     "on": "cent vingt",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de roche et de poussière",
+     "size": "m",
+     "on": "roche"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et les scientifiques y ont trouvé des ingrédients de la vie, comme de l'eau et des molécules organiques."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dedans :",
+     "size": "m",
+     "on": "trouvé"
+    },
+    {
+     "t": "text",
+     "text": "des ingrédients de la vie !",
+     "size": "l",
+     "color": "gold",
+     "on": "vie",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une sonde de la NASA a rapporté sur Terre des morceaux d'astéroïde 🪨\n\nLa sonde OSIRIS-REx de la NASA a voyagé jusqu'à l'astéroïde Bennu, a touché sa surface en octobre 2020 et y a prélevé des échantillons. Le 24 septembre 2023, sa capsule a atterri dans le désert de l'Utah avec environ 121 grammes de roche et de poussière : le plus gros échantillon d'astéroïde jamais rapporté par la NASA ! En les analysant, les scientifiques y ont trouvé des minéraux formés dans l'eau et de nombreuses molécules organiques, des ingrédients de la vie. Ces grains datent de la naissance du système solaire. Une prouesse de l'exploration spatiale.\n\nTu aimerais en toucher un morceau ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#osirisrex",
+  "#bennu",
+  "#asteroide",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/osiris-rex/",
+  "https://fr.wikipedia.org/wiki/OSIRIS-REx"
+ ]
+}

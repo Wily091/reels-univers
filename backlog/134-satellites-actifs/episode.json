@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 133,
+ "title": "Plus de 10 000 satellites actifs tournent autour de la Terre",
+ "subject": "Satellites",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Plus de 10 000",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "satellites actifs",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "au-dessus de toi ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "+ de 10 000 satellites",
+   "on": "satellites"
+  },
+  "sketch": "orbit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que plus de dix mille satellites en activité tournent autour de la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "En mille neuf cent cinquante-sept, il n'y en avait qu'un seul, Spoutnik,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en 1957 :",
+     "size": "m",
+     "on": "mille neuf cent"
+    },
+    {
+     "t": "text",
+     "text": "1 seul satellite",
+     "size": "l",
+     "color": "gold",
+     "on": "seul"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais depuis quelques années, leur nombre explose, surtout à cause des grandes constellations pour l'internet,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "leur nombre explose !",
+     "size": "l",
+     "color": "pink",
+     "on": "explose"
+    },
+    {
+     "t": "text",
+     "text": "(internet par satellite)",
+     "size": "s",
+     "color": "soft",
+     "on": "internet"
+    }
+   ]
+  },
+  {
+   "say": [
+    "aujourd'hui, ils sont plus de dix mille en service,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aujourd'hui :",
+     "size": "m",
+     "on": "aujourd'hui"
+    },
+    {
+     "t": "text",
+     "text": "+ de 10 000",
+     "size": "xl",
+     "color": "pink",
+     "on": "dix mille",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "service",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils servent au GPS, à la météo, à la télévision ou au téléphone, et beaucoup sont visibles à l'œil nu au crépuscule."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "GPS, météo, télé…",
+     "size": "m",
+     "on": "GPS"
+    },
+    {
+     "t": "text",
+     "text": "visibles au crépuscule !",
+     "size": "l",
+     "color": "gold",
+     "on": "crépuscule",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Plus de 10 000 satellites actifs tournent autour de la Terre 🛰️\n\nEn 1957, Spoutnik était le seul satellite artificiel en orbite. Aujourd'hui, plus de 10 000 satellites actifs tournent autour de la Terre ! Leur nombre a explosé ces dernières années, notamment avec les grandes constellations destinées à l'internet par satellite. Ils servent au GPS, à la météo, aux télécommunications, à l'observation de la Terre et à la science. Beaucoup sont visibles à l'œil nu juste après le coucher du Soleil, comme de petits points lumineux qui se déplacent. Mais cette multiplication inquiète aussi les astronomes, car elle peut gêner les observations. Un fait sur l'espace d'aujourd'hui.\n\nTu en as déjà vu passer ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#satellites",
+  "#espace",
+  "#ciel",
+  "#technologie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Satellite_artificiel",
+  "https://www.esa.int/Space_Safety/Space_Debris/About_space_debris"
+ ]
+}

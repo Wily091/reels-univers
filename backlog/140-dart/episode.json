@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 139,
+ "title": "En 2022, la NASA a dévié un astéroïde",
+ "subject": "DART",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 2022, la NASA",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a percuté un astéroïde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "EXPRÈS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une mission de défense",
+   "on": "astéroïde"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en deux mille vingt-deux, la NASA a volontairement percuté un astéroïde pour le dévier ?"
+   ]
+  },
+  {
+   "say": [
+    "La sonde DART a foncé sur Dimorphos, un petit astéroïde d'environ cent soixante mètres qui tourne autour d'un plus gros,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la sonde DART",
+     "size": "l",
+     "color": "pink",
+     "on": "DART"
+    },
+    {
+     "t": "text",
+     "text": "vise Dimorphos (~ 160 m)",
+     "size": "m",
+     "on": "Dimorphos"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "foncé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "le vingt-six septembre deux mille vingt-deux, elle l'a percuté à plus de vingt mille kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "26 septembre 2022",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-six"
+    },
+    {
+     "t": "text",
+     "text": "impact à + de 20 000 km/h !",
+     "size": "m",
+     "on": "percuté"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et l'orbite de Dimorphos a été raccourcie de trente-deux minutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "son orbite raccourcie de",
+     "size": "m",
+     "on": "raccourcie"
+    },
+    {
+     "t": "text",
+     "text": "32 minutes !",
+     "size": "xl",
+     "color": "pink",
+     "on": "trente-deux",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était la première fois que l'humanité modifiait la trajectoire d'un astéroïde, une sorte de répétition pour protéger la Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une 1re historique",
+     "size": "l",
+     "color": "gold",
+     "on": "première"
+    },
+    {
+     "t": "text",
+     "text": "pour protéger la Terre",
+     "size": "m",
+     "on": "protéger",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 2022, la NASA a dévié un astéroïde en le percutant 🎯\n\nLe 26 septembre 2022, la sonde DART de la NASA a volontairement percuté Dimorphos, un petit astéroïde d'environ 160 mètres qui tourne autour d'un astéroïde plus gros, Didymos. Aucun des deux ne menaçait la Terre : c'était un test. Résultat : l'orbite de Dimorphos autour de Didymos a été raccourcie de 32 minutes ! C'était la première fois que l'humanité modifiait la trajectoire d'un objet céleste. Une technique qui pourrait un jour servir à protéger la Terre d'un astéroïde dangereux. Une grande première de la défense planétaire.\n\nTu te sens plus en sécurité ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#dart",
+  "#nasa",
+  "#asteroide",
+  "#defenseplanetaire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/dart/",
+  "https://fr.wikipedia.org/wiki/Double_Asteroid_Redirection_Test"
+ ]
+}

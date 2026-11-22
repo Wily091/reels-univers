@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 132,
+ "title": "Plus d'un million de débris tournent autour de la Terre",
+ "subject": "Débris",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Plus d'1 MILLION",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de débris tournent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "autour de nous ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une poubelle en orbite",
+   "on": "débris"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que plus d'un million de débris tournent autour de la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont des morceaux de vieux satellites, de fusées et d'anciennes collisions,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vieux satellites, fusées…",
+     "size": "m",
+     "on": "morceaux"
+    },
+    {
+     "t": "text",
+     "text": "des débris spatiaux",
+     "size": "l",
+     "color": "pink",
+     "on": "collisions"
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'Agence spatiale européenne estime qu'il y a plus d'un million de débris de plus d'un centimètre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ d'1 million",
+     "size": "xl",
+     "color": "gold",
+     "on": "million",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de + d'1 cm",
+     "size": "m",
+     "on": "centimètre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ils filent à environ vingt-huit mille kilomètres heure, donc même un petit morceau peut détruire un satellite,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 28 000 km/h",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-huit"
+    },
+    {
+     "t": "text",
+     "text": "un petit bout = danger !",
+     "size": "m",
+     "on": "détruire"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "filent",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, la Station spatiale doit parfois changer de route pour les éviter."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Station esquive",
+     "size": "l",
+     "color": "gold",
+     "on": "Station"
+    },
+    {
+     "t": "text",
+     "text": "des débris !",
+     "size": "l",
+     "color": "pink",
+     "on": "éviter",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Plus d'un million de débris spatiaux tournent autour de la Terre 🛰️\n\nDepuis le début de la conquête spatiale, des débris s'accumulent autour de la Terre : vieux satellites, étages de fusées, morceaux issus de collisions ou d'explosions. Selon l'Agence spatiale européenne, il y aurait plus d'un million de débris de plus d'un centimètre en orbite ! Comme ils filent à environ 28 000 km/h, même un petit fragment peut endommager gravement un satellite. La Station spatiale internationale doit d'ailleurs régulièrement manœuvrer pour les éviter. Sur la photo, la Terre vue par Apollo 17. Un vrai défi pour l'avenir de l'espace.\n\nTu savais qu'il y avait autant de déchets ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#debrisspatiaux",
+  "#espace",
+  "#satellites",
+  "#esa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.esa.int/Space_Safety/Space_Debris/About_space_debris",
+  "https://fr.wikipedia.org/wiki/Débris_spatial"
+ ]
+}

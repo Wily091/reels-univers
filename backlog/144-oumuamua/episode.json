@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 143,
+ "title": "Le premier objet venu d'un autre système solaire",
+ "subject": "'Oumuamua",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cet objet venait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'un AUTRE",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "système solaire ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un visiteur interstellaire",
+   "on": "objet"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en deux mille dix-sept, on a vu passer le premier objet venu d'un autre système solaire ?"
+   ]
+  },
+  {
+   "say": [
+    "Il a été repéré en octobre deux mille dix-sept par un télescope à Hawaï, et nommé 'Oumuamua,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "octobre 2017",
+     "size": "l",
+     "color": "gold",
+     "on": "octobre"
+    },
+    {
+     "t": "text",
+     "text": "'Oumuamua",
+     "size": "xl",
+     "color": "pink",
+     "on": "nommé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce nom hawaïen veut dire à peu près le messager venu de loin,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« le messager",
+     "size": "l",
+     "on": "messager"
+    },
+    {
+     "t": "text",
+     "text": "venu de loin »",
+     "size": "l",
+     "color": "pink",
+     "on": "loin"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa trajectoire et sa vitesse prouvaient qu'il ne tournait pas autour du Soleil, mais qu'il venait d'ailleurs,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il ne tourne pas",
+     "size": "m",
+     "on": "tournait"
+    },
+    {
+     "t": "text",
+     "text": "autour du Soleil !",
+     "size": "l",
+     "color": "gold",
+     "on": "Soleil",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "venait",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il est déjà reparti vers les étoiles, sans qu'on sache exactement de quoi il était fait."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "déjà reparti…",
+     "size": "m",
+     "on": "reparti"
+    },
+    {
+     "t": "text",
+     "text": "un mystère !",
+     "size": "l",
+     "color": "pink",
+     "on": "exactement",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "'Oumuamua, le premier objet venu d'un autre système solaire 🛸\n\nEn octobre 2017, un télescope à Hawaï repère un objet étrange qui traverse le système solaire. Sa vitesse et sa trajectoire ne laissent aucun doute : il ne tourne pas autour du Soleil, il vient d'ailleurs ! C'est le premier objet interstellaire jamais observé. On l'a baptisé 'Oumuamua, un nom hawaïen qui signifie à peu près « le messager venu de loin ». De forme allongée et légèrement accéléré en s'éloignant, il a beaucoup intrigué les scientifiques, qui pensent plutôt à un fragment de glace ou de roche. Il est déjà reparti vers les étoiles. Un mystère de l'astronomie.\n\nTu crois que c'était quoi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#oumuamua",
+  "#interstellaire",
+  "#astronomie",
+  "#mystere",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/comets/oumuamua/",
+  "https://fr.wikipedia.org/wiki/%CA%BBOumuamua"
+ ]
+}

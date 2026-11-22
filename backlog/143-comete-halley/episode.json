@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 142,
+ "title": "La comète de Halley revient tous les 76 ans",
+ "subject": "Halley",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette comète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "repasse tous les",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "76 ANS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "prochain passage : 2061",
+   "on": "comète"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une célèbre comète ne repasse près de la Terre qu'environ tous les soixante-seize ans ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est la comète de Halley, du nom de l'astronome Edmond Halley,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la comète de Halley",
+     "size": "l",
+     "color": "pink",
+     "on": "Halley"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été le premier à comprendre que c'était la même comète qui revenait régulièrement, et il a prédit son retour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la même comète",
+     "size": "m",
+     "on": "même"
+    },
+    {
+     "t": "text",
+     "text": "qui revient !",
+     "size": "l",
+     "color": "gold",
+     "on": "revenait",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle fait le tour du Soleil en environ soixante-seize ans, et son dernier passage date de mille neuf cent quatre-vingt-six,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 tour ≈ 76 ans",
+     "size": "l",
+     "color": "gold",
+     "on": "soixante-seize"
+    },
+    {
+     "t": "text",
+     "text": "dernier passage : 1986",
+     "size": "m",
+     "on": "mille neuf cent"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, la prochaine fois qu'on pourra la voir, ce sera en deux mille soixante et un."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "prochain rendez-vous :",
+     "size": "m",
+     "on": "prochaine"
+    },
+    {
+     "t": "text",
+     "text": "2061 !",
+     "size": "xl",
+     "color": "pink",
+     "on": "deux mille soixante",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La comète de Halley revient tous les 76 ans ☄️\n\nLa comète de Halley est la plus célèbre des comètes. Elle doit son nom à l'astronome anglais Edmond Halley, qui a compris au début du XVIIIe siècle que les comètes observées en 1531, 1607 et 1682 étaient en fait le même objet revenant régulièrement, et a prédit son retour. Elle fait le tour du Soleil en environ 76 ans. Son dernier passage près de la Terre remonte à 1986, quand plusieurs sondes l'ont étudiée de près. La prochaine fois qu'on pourra l'admirer, ce sera en 2061 ! Note la date dans ton agenda. Un rendez-vous d'astronomie à ne pas manquer.\n\nTu seras là en 2061 ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#comete",
+  "#halley",
+  "#astronomie",
+  "#ciel",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Comète_de_Halley",
+  "https://science.nasa.gov/solar-system/comets/facts/"
+ ]
+}

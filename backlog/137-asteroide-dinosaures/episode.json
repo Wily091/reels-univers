@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 136,
+ "title": "L'astéroïde des dinosaures faisait environ 10 km",
+ "subject": "Chicxulub",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "crater",
+   "file": "assets/images/meteor_crater.jpg",
+   "credit": "Meteor Crater, Arizona · USGS/D. Roddy",
+   "page": "https://commons.wikimedia.org/wiki/File:Barringer_Crater_aerial_photo_by_USGS.jpg",
+   "license": "Domaine public (USGS)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'astéroïde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des dinosaures faisait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "10 KM de large ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "10 km, 66 millions d'années",
+   "on": "astéroïde"
+  },
+  "photo": "crater"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'astéroïde qui a fait disparaître les dinosaures faisait environ dix kilomètres de large ?"
+   ]
+  },
+  {
+   "say": [
+    "Il a percuté la Terre il y a environ soixante-six millions d'années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il y a ~ 66 millions d'années",
+     "size": "l",
+     "color": "gold",
+     "on": "soixante-six"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il a laissé un cratère d'environ cent quatre-vingts kilomètres, enfoui au Mexique, près de Chicxulub,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un cratère de ~ 180 km",
+     "size": "l",
+     "color": "pink",
+     "on": "cent quatre-vingts"
+    },
+    {
+     "t": "text",
+     "text": "au Mexique (Chicxulub)",
+     "size": "m",
+     "on": "Mexique"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le choc a projeté tellement de poussière que le ciel s'est assombri et que le climat s'est refroidi,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le ciel s'assombrit",
+     "size": "l",
+     "on": "assombri"
+    },
+    {
+     "t": "text",
+     "text": "le climat se refroidit",
+     "size": "m",
+     "color": "gold",
+     "on": "refroidi"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "poussière",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et environ trois espèces sur quatre ont disparu, dont tous les dinosaures non volants."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 3 espèces sur 4 disparues",
+     "size": "m",
+     "on": "espèces"
+    },
+    {
+     "t": "text",
+     "text": "dont les dinosaures !",
+     "size": "l",
+     "color": "pink",
+     "on": "dinosaures",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'astéroïde qui a fait disparaître les dinosaures faisait environ 10 km de large ☄️\n\nIl y a environ 66 millions d'années, un astéroïde d'environ 10 km de large a percuté la Terre au niveau de l'actuelle péninsule du Yucatán, au Mexique. Il a laissé un cratère d'environ 180 km de diamètre, aujourd'hui enfoui, près de la ville de Chicxulub. Le choc a projeté d'énormes quantités de poussière et de gaz dans l'atmosphère, assombrissant le ciel et refroidissant le climat. Environ trois espèces sur quatre ont disparu, dont tous les dinosaures non aviens. Sur la photo, Meteor Crater en Arizona, un cratère bien plus petit. Une catastrophe de l'histoire de la Terre.\n\nTu savais que le cratère était au Mexique ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#dinosaures",
+  "#asteroide",
+  "#chicxulub",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Cratère_de_Chicxulub",
+  "https://science.nasa.gov/solar-system/asteroids/facts/"
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 138,
+ "title": "En 1908, une explosion a rasé 80 millions d'arbres en Sibérie",
+ "subject": "Tunguska",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1908, une explosion",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a couché",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "80 MILLIONS d'arbres ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "30 juin 1908",
+   "on": "explosion"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille neuf cent huit, une explosion venue du ciel a couché quatre-vingts millions d'arbres en Sibérie ?"
+   ]
+  },
+  {
+   "say": [
+    "Le trente juin mille neuf cent huit, près de la rivière Toungouska, un objet venu de l'espace a explosé dans l'air,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "30 juin 1908",
+     "size": "l",
+     "color": "gold",
+     "on": "trente juin"
+    },
+    {
+     "t": "text",
+     "text": "Toungouska, Sibérie",
+     "size": "m",
+     "on": "Toungouska"
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'explosion a aplati la forêt sur plus de deux mille kilomètres carrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 2 000 km²",
+     "size": "xl",
+     "color": "pink",
+     "on": "deux mille"
+    },
+    {
+     "t": "text",
+     "text": "de forêt rasée",
+     "size": "m",
+     "on": "forêt"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "forêt",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "environ quatre-vingts millions d'arbres ont été couchés, mais on n'a jamais trouvé de cratère,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 80 millions d'arbres",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingts"
+    },
+    {
+     "t": "text",
+     "text": "et aucun cratère !",
+     "size": "l",
+     "color": "pink",
+     "on": "cratère",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que l'astéroïde, ou la comète, a explosé avant de toucher le sol."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il a explosé",
+     "size": "m",
+     "on": "explosé"
+    },
+    {
+     "t": "text",
+     "text": "avant de toucher le sol",
+     "size": "l",
+     "color": "gold",
+     "on": "sol",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "explosé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1908, une explosion venue du ciel a couché 80 millions d'arbres en Sibérie 🌲\n\nLe 30 juin 1908, près de la rivière Toungouska en Sibérie, un objet venu de l'espace a explosé dans l'atmosphère à plusieurs kilomètres d'altitude. L'explosion a été si puissante qu'elle a aplati la forêt sur plus de 2 000 km², couchant environ 80 millions d'arbres. Pourtant, aucun cratère n'a jamais été trouvé : l'astéroïde ou le fragment de comète s'est désintégré avant de toucher le sol. C'est le plus grand impact cosmique de l'histoire récente. Heureusement, la région était presque inhabitée. Un mystère célèbre de l'astronomie.\n\nTu connaissais ce mystère ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#tunguska",
+  "#asteroide",
+  "#siberie",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Événement_de_la_Toungouska",
+  "https://science.nasa.gov/solar-system/asteroids/facts/"
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 135,
+ "title": "Les pôles magnétiques de la Terre s'inversent",
+ "subject": "La Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ta boussole",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a déjà indiqué",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "le SUD ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les pôles s'inversent",
+   "on": "pôles"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les pôles magnétiques de la Terre s'inversent de temps en temps ?"
+   ]
+  },
+  {
+   "say": [
+    "Le champ magnétique de la Terre vient des mouvements de fer liquide dans son noyau,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "champ magnétique =",
+     "size": "m",
+     "on": "champ"
+    },
+    {
+     "t": "text",
+     "text": "du fer liquide qui bouge",
+     "size": "l",
+     "color": "gold",
+     "on": "fer"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et au fil des millions d'années, le nord et le sud magnétiques ont échangé leur place des centaines de fois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "nord ↔ sud",
+     "size": "xl",
+     "color": "pink",
+     "on": "nord",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "des centaines de fois !",
+     "size": "m",
+     "on": "centaines"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la dernière inversion date d'environ sept cent quatre-vingt mille ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la dernière :",
+     "size": "m",
+     "on": "dernière"
+    },
+    {
+     "t": "text",
+     "text": "il y a ~ 780 000 ans",
+     "size": "l",
+     "color": "gold",
+     "on": "sept cent"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "ans",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à ce moment-là, une boussole aurait pointé vers le sud au lieu du nord."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une boussole aurait pointé",
+     "size": "m",
+     "on": "boussole"
+    },
+    {
+     "t": "text",
+     "text": "vers le sud !",
+     "size": "l",
+     "color": "pink",
+     "on": "sud",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les pôles magnétiques de la Terre s'inversent de temps en temps 🧭\n\nLe champ magnétique de la Terre est produit par les mouvements de fer liquide dans le noyau externe. Et il n'est pas fixe : au cours de l'histoire de la Terre, les pôles magnétiques nord et sud ont échangé leur place des centaines de fois ! On le sait grâce aux roches volcaniques, qui enregistrent la direction du champ au moment où elles refroidissent. La dernière inversion date d'environ 780 000 ans : à cette époque, une boussole aurait indiqué le sud. Sur la photo, la Terre vue par Apollo 17. Un fait de géophysique étonnant.\n\nTu savais que ça pouvait arriver ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#magnetisme",
+  "#boussole",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Inversion_du_champ_magnétique_terrestre",
+  "https://science.nasa.gov/earth/facts/"
+ ]
+}

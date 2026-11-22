@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 141,
+ "title": "En 2014, un robot s'est posé sur une comète",
+ "subject": "Philae",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "comete",
+   "file": "assets/images/comete_hale_bopp.jpg",
+   "credit": "Comète Hale-Bopp (1997) · E. Kolmhofer, H. Raab",
+   "page": "https://commons.wikimedia.org/wiki/File:Comet_Hale-Bopp_1995O1.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 2014, un robot",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "s'est posé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur une COMÈTE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "1er atterrissage sur une comète",
+   "on": "comète"
+  },
+  "photo": "comete"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en deux mille quatorze, un petit robot européen s'est posé sur une comète ?"
+   ]
+  },
+  {
+   "say": [
+    "La sonde Rosetta de l'Agence spatiale européenne a voyagé dix ans pour rejoindre la comète Tchouri,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la sonde Rosetta (ESA)",
+     "size": "m",
+     "color": "gold",
+     "on": "Rosetta"
+    },
+    {
+     "t": "text",
+     "text": "10 ans de voyage !",
+     "size": "l",
+     "color": "pink",
+     "on": "dix ans"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "voyagé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le douze novembre deux mille quatorze, elle a largué un petit atterrisseur, Philae,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "12 novembre 2014",
+     "size": "l",
+     "color": "gold",
+     "on": "douze novembre"
+    },
+    {
+     "t": "text",
+     "text": "Philae se détache",
+     "size": "m",
+     "on": "Philae"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Philae a rebondi plusieurs fois avant de s'immobiliser dans un coin à l'ombre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il rebondit !",
+     "size": "xl",
+     "color": "pink",
+     "on": "rebondi",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "et finit à l'ombre",
+     "size": "m",
+     "on": "ombre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il a quand même réussi à envoyer des mesures, c'était le premier atterrissage sur une comète de l'histoire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er atterrissage",
+     "size": "l",
+     "color": "gold",
+     "on": "premier"
+    },
+    {
+     "t": "text",
+     "text": "sur une comète !",
+     "size": "l",
+     "color": "pink",
+     "on": "histoire",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 2014, le robot Philae s'est posé sur une comète ☄️\n\nAprès un voyage de dix ans, la sonde Rosetta de l'Agence spatiale européenne a rejoint la comète 67P/Tchourioumov-Guérassimenko, surnommée Tchouri. Le 12 novembre 2014, elle a largué Philae, un petit atterrisseur de la taille d'un lave-vaisselle. Ses harpons ne se sont pas déclenchés : Philae a rebondi plusieurs fois avant de s'immobiliser dans un coin ombragé. Il a malgré tout réussi à envoyer des mesures pendant plusieurs dizaines d'heures. C'était le tout premier atterrissage sur une comète de l'histoire ! Sur la photo, une autre comète célèbre, Hale-Bopp. Une grande réussite de l'exploration spatiale européenne.\n\nTu connaissais Philae ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#philae",
+  "#rosetta",
+  "#comete",
+  "#esa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Philae_(atterrisseur)",
+  "https://fr.wikipedia.org/wiki/Rosetta_(sonde_spatiale)"
+ ]
+}

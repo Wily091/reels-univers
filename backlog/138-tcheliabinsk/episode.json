@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 137,
+ "title": "En 2013, un météore a explosé au-dessus d'une ville russe",
+ "subject": "Tcheliabinsk",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 2013,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un météore a explosé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "au-dessus d'une VILLE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "15 février 2013",
+   "on": "météore"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en deux mille treize, un météore a explosé au-dessus d'une ville russe ?"
+   ]
+  },
+  {
+   "say": [
+    "Le quinze février deux mille treize, un astéroïde d'environ vingt mètres est entré dans l'atmosphère au-dessus de Tcheliabinsk,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "15 février 2013",
+     "size": "l",
+     "color": "gold",
+     "on": "quinze février"
+    },
+    {
+     "t": "text",
+     "text": "~ 20 m, au-dessus de Tcheliabinsk",
+     "size": "m",
+     "on": "vingt mètres"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a explosé dans le ciel en brillant plus fort que le Soleil pendant quelques secondes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ brillant que le Soleil !",
+     "size": "l",
+     "color": "pink",
+     "on": "brillant",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et l'onde de choc a brisé des milliers de fenêtres, blessant environ mille cinq cents personnes, surtout à cause du verre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des milliers de vitres brisées",
+     "size": "m",
+     "on": "fenêtres"
+    },
+    {
+     "t": "text",
+     "text": "~ 1 500 blessés",
+     "size": "l",
+     "color": "gold",
+     "on": "mille cinq cents"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il a été filmé par des dizaines de caméras de voitures, ce qui a permis de reconstituer sa trajectoire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "filmé par des caméras",
+     "size": "m",
+     "on": "filmé"
+    },
+    {
+     "t": "text",
+     "text": "de voitures !",
+     "size": "l",
+     "color": "pink",
+     "on": "voitures",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 2013, un météore a explosé au-dessus de la ville russe de Tcheliabinsk ☄️\n\nLe 15 février 2013, un astéroïde d'environ 20 mètres est entré dans l'atmosphère au-dessus de Tcheliabinsk, en Russie. Il a explosé à environ 30 km d'altitude en brillant, quelques secondes, plus fort que le Soleil. L'onde de choc a brisé des milliers de fenêtres et blessé environ 1 500 personnes, surtout à cause des éclats de verre. L'événement a été filmé par de nombreuses caméras de tableau de bord, ce qui a permis aux scientifiques de reconstituer sa trajectoire et de mieux comprendre ces risques. Un rappel de l'importance de surveiller le ciel.\n\nTu te souviens de ces vidéos ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#meteore",
+  "#tcheliabinsk",
+  "#asteroide",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Superbolide_de_Tcheliabinsk",
+  "https://science.nasa.gov/solar-system/asteroids/facts/"
+ ]
+}

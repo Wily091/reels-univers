@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 134,
+ "title": "Le cœur de la Terre est aussi chaud que la surface du Soleil",
+ "subject": "La Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le cœur de la Terre",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est aussi chaud",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que le SOLEIL ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "~ 5 200 °C au centre",
+   "on": "chaud"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le cœur de la Terre est presque aussi chaud que la surface du Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "Au centre de notre planète, à plus de six mille kilomètres sous tes pieds, se trouve une boule de fer et de nickel,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à + de 6 000 km sous toi",
+     "size": "m",
+     "on": "six mille"
+    },
+    {
+     "t": "text",
+     "text": "une boule de fer",
+     "size": "l",
+     "color": "gold",
+     "on": "fer"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sa température atteint environ cinq mille deux cents degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 5 200 °C",
+     "size": "xl",
+     "color": "pink",
+     "on": "cinq mille",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "degrés",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est à peu près la température de la surface du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "≈ la surface",
+     "size": "m",
+     "on": "surface"
+    },
+    {
+     "t": "text",
+     "text": "du Soleil !",
+     "size": "l",
+     "color": "gold",
+     "on": "Soleil"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pourtant cette graine reste solide, parce que la pression y est énorme."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "et pourtant, elle est",
+     "size": "m",
+     "on": "pourtant"
+    },
+    {
+     "t": "text",
+     "text": "solide !",
+     "size": "xl",
+     "color": "pink",
+     "on": "solide",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le cœur de la Terre est presque aussi chaud que la surface du Soleil 🌍\n\nAu centre de notre planète, à plus de 6 000 km sous nos pieds, se trouve la graine, une boule faite surtout de fer et de nickel. Sa température atteindrait environ 5 200 °C, à peu près autant que la surface du Soleil ! Et pourtant, elle reste solide : la pression y est si énorme qu'elle empêche le métal de fondre. Autour, le noyau externe, lui, est liquide, et ses mouvements créent le champ magnétique qui protège la Terre. Sur la photo, la Terre vue par Apollo 17. Un fait fascinant de géologie et de science.\n\nTu t'en doutais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#noyau",
+  "#geologie",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/earth/facts/",
+  "https://fr.wikipedia.org/wiki/Noyau_terrestre"
+ ]
+}
