@@ -1,0 +1,177 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 64,
+ "title": "L'atmosphère du Soleil est plus chaude que sa surface",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'atmosphère du Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est + chaude",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que sa SURFACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un mystère brûlant !",
+   "on": "chaude"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'atmosphère du Soleil est beaucoup plus chaude que sa surface ?"
+   ]
+  },
+  {
+   "say": [
+    "La surface du Soleil est à environ cinq mille cinq cents degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "surface :",
+     "size": "m",
+     "on": "surface"
+    },
+    {
+     "t": "text",
+     "text": "5 500 °C",
+     "size": "xl",
+     "color": "gold",
+     "on": "cinq mille",
+     "count": {
+      "to": 5500,
+      "fmt": "{n} °C"
+     }
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "degrés",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais sa couronne, la couche de gaz autour, dépasse le million de degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la couronne :",
+     "size": "m",
+     "on": "couronne"
+    },
+    {
+     "t": "text",
+     "text": "+ d'1 million °C !",
+     "size": "xl",
+     "color": "pink",
+     "on": "million",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est comme si l'air devenait plus chaud en s'éloignant d'un feu de camp,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "comme un feu de camp",
+     "size": "l",
+     "color": "gold",
+     "on": "feu"
+    },
+    {
+     "t": "text",
+     "text": "+ chaud de loin ?!",
+     "size": "m",
+     "color": "pink",
+     "on": "éloignant"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pour percer ce mystère, la sonde Parker Solar Probe est allée toucher cette couronne en deux mille vingt et un."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Parker Solar Probe",
+     "size": "l",
+     "color": "pink",
+     "on": "Parker"
+    },
+    {
+     "t": "text",
+     "text": "touche la couronne en 2021",
+     "size": "m",
+     "on": "toucher"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'atmosphère du Soleil est des centaines de fois plus chaude que sa surface ☀️\n\nLa surface visible du Soleil est à environ 5 500 °C. Pourtant, sa couronne, la couche de gaz très fin qui l'entoure, dépasse le million de degrés ! C'est comme si l'air devenait plus chaud en s'éloignant d'un feu de camp. Ce paradoxe reste l'un des grands mystères de la physique solaire. Pour l'étudier, la sonde Parker Solar Probe de la NASA est devenue en 2021 le premier engin à « toucher » la couronne du Soleil. Sur la photo, le Soleil vu par le satellite SDO. De l'astrophysique brûlante.\n\nTu trouves ça logique, toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#parkersolarprobe",
+  "#nasa",
+  "#astrophysique",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/",
+  "https://science.nasa.gov/mission/parker-solar-probe/"
+ ]
+}

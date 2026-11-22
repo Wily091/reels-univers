@@ -1,0 +1,179 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 60,
+ "title": "Les empreintes sur la Lune peuvent rester des millions d'années",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "empreinte",
+   "file": "assets/images/lune_empreinte_apollo11.jpg",
+   "credit": "Empreinte d'Apollo 11 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_bootprint.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces empreintes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "vont rester là",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des MILLIONS d'années ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "intactes depuis 1969 !",
+   "on": "empreintes"
+  },
+  "photo": "empreinte"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les empreintes laissées sur la Lune par les astronautes peuvent y rester des millions d'années ?"
+   ]
+  },
+  {
+   "say": [
+    "Sur la Lune, il n'y a presque pas d'atmosphère, donc pas de vent pour les effacer,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'atmosphère",
+     "size": "l",
+     "on": "atmosphère"
+    },
+    {
+     "t": "text",
+     "text": "= pas de vent !",
+     "size": "l",
+     "color": "pink",
+     "on": "vent"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "vent",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pas de pluie non plus, ni d'eau qui coule pour les abîmer,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas de pluie",
+     "size": "l",
+     "color": "gold",
+     "on": "pluie"
+    },
+    {
+     "t": "text",
+     "text": "pas d'eau qui coule",
+     "size": "m",
+     "on": "eau"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "pluie",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, les traces de pas des missions Apollo sont toujours là depuis mille neuf cent soixante-neuf,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toujours là",
+     "size": "l",
+     "color": "pink",
+     "on": "toujours"
+    },
+    {
+     "t": "text",
+     "text": "depuis 1969 !",
+     "size": "xl",
+     "color": "gold",
+     "on": "mille neuf cent",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et seuls de minuscules météorites qui tombent très lentement pourront les faire disparaître, au bout de millions d'années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "seules de micro-météorites",
+     "size": "m",
+     "on": "météorites"
+    },
+    {
+     "t": "text",
+     "text": "les effaceront…",
+     "size": "m",
+     "on": "disparaître"
+    },
+    {
+     "t": "text",
+     "text": "dans des millions d'années",
+     "size": "l",
+     "color": "pink",
+     "on": "millions",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les empreintes des astronautes sur la Lune peuvent rester intactes pendant des millions d'années 👣\n\nSur la Lune, il n'y a presque pas d'atmosphère : pas de vent, pas de pluie, pas d'eau qui coule. Rien pour effacer les traces ! Les empreintes laissées par les astronautes des missions Apollo depuis 1969 sont donc toujours là, telles quelles. Seule la lente pluie de micro-météorites qui frappe la surface finira par les effacer, au bout de millions d'années. Sur la photo, une empreinte de botte laissée par Apollo 11. Un fait d'astronomie et d'histoire de l'exploration spatiale.\n\nTu aimerais laisser la tienne ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#apollo11",
+  "#espace",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

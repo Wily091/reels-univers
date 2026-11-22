@@ -1,0 +1,176 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 61,
+ "title": "Sur Neptune, les vents soufflent à plus de 2 000 km/h",
+ "subject": "Neptune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "neptune",
+   "file": "assets/images/neptune_voyager2.jpg",
+   "credit": "Neptune vue par Voyager 2 · NASA/JPL",
+   "page": "https://science.nasa.gov/neptune/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur cette planète,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "le vent souffle à",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "2 000 km/h ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les vents les + rapides !",
+   "on": "vents"
+  },
+  "photo": "neptune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les vents les plus rapides du système solaire soufflent sur Neptune ?"
+   ]
+  },
+  {
+   "say": [
+    "Là-bas, ils dépassent les deux mille kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 2 000 km/h",
+     "size": "xl",
+     "color": "pink",
+     "on": "deux mille",
+     "count": {
+      "to": 2000,
+      "fmt": "+ de {n} km/h"
+     }
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "kilomètres",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est plus que la vitesse du son sur Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ rapide que",
+     "size": "m",
+     "on": "plus"
+    },
+    {
+     "t": "text",
+     "text": "le son sur Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "son",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors que Neptune est trente fois plus loin du Soleil que nous, et reçoit très peu de chaleur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "30 × + loin du Soleil",
+     "size": "l",
+     "color": "gold",
+     "on": "trente"
+    },
+    {
+     "t": "text",
+     "text": "très peu de chaleur",
+     "size": "m",
+     "on": "chaleur"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une seule sonde l'a visitée, Voyager deux, en mille neuf cent quatre-vingt-neuf."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 seule visite :",
+     "size": "m",
+     "on": "seule"
+    },
+    {
+     "t": "text",
+     "text": "Voyager 2, 1989",
+     "size": "l",
+     "color": "pink",
+     "on": "Voyager",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Neptune, les vents soufflent à plus de 2 000 km/h 🌪️\n\nNeptune détient le record des vents les plus rapides du système solaire : ils dépassent les 2 000 km/h, plus vite que la vitesse du son sur Terre ! Et pourtant, cette planète géante est environ 30 fois plus éloignée du Soleil que la Terre et reçoit très peu de chaleur, ce qui intrigue encore les scientifiques. Une seule sonde l'a visitée de près : Voyager 2, en 1989. Sur la photo, Neptune vue par Voyager 2, avec sa grande tache sombre, une tempête géante. Un fait d'astronomie qui décoiffe.\n\nTu imagines une tempête pareille ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#neptune",
+  "#vent",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/neptune/facts/"
+ ]
+}

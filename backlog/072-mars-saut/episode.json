@@ -1,0 +1,173 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 71,
+ "title": "Sur Mars, tu sauterais presque trois fois plus haut",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Mars,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu sauterais",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "3 FOIS plus haut ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "× 3 plus haut !",
+   "on": "sauterais"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur Mars, tu sauterais presque trois fois plus haut que sur Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Parce que la gravité de Mars ne fait que trente-huit pour cent de celle de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "gravité de Mars :",
+     "size": "m",
+     "on": "gravité"
+    },
+    {
+     "t": "text",
+     "text": "38 %",
+     "size": "xl",
+     "color": "pink",
+     "on": "trente-huit",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, si tu pèses soixante kilos ici, tu ne pèserais qu'environ vingt-trois kilos là-bas,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "60 kg sur Terre",
+     "size": "l",
+     "on": "soixante"
+    },
+    {
+     "t": "text",
+     "text": "→ 23 kg sur Mars !",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-trois"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "pèserais",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et un saut d'un demi-mètre deviendrait un saut de plus d'un mètre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "50 cm →",
+     "size": "l",
+     "on": "demi-mètre"
+    },
+    {
+     "t": "text",
+     "text": "+ d'1 m !",
+     "size": "xl",
+     "color": "pink",
+     "on": "plus d'un"
+    },
+    {
+     "t": "sketch",
+     "kind": "ruler",
+     "on": "saut",
+     "row": "same",
+     "label": "× 2,6",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais attention, l'air y est si fin qu'il te faudrait une combinaison pour respirer."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "mais l'air est si fin…",
+     "size": "m",
+     "on": "air"
+    },
+    {
+     "t": "text",
+     "text": "combinaison obligatoire !",
+     "size": "l",
+     "color": "gold",
+     "on": "combinaison",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Mars, tu sauterais presque trois fois plus haut que sur Terre 🦘\n\nLa gravité à la surface de Mars ne représente que 38 % de celle de la Terre. Une personne de 60 kg n'y pèserait donc qu'environ 23 kg, et un saut d'un demi-mètre deviendrait un bond de plus d'un mètre ! Mais avant de rêver de records, il faudrait une combinaison spatiale : l'atmosphère martienne est très fine et composée surtout de dioxyde de carbone, impossible à respirer. Sur la photo, la planète Mars vue par la sonde Rosetta. Un fait d'astronomie et de physique amusant.\n\nTu sauterais jusqu'où, toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#gravite",
+  "#planeterouge",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/facts/"
+ ]
+}

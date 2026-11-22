@@ -1,0 +1,175 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 63,
+ "title": "Bételgeuse, l'étoile géante qui va exploser",
+ "subject": "Bételgeuse",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "betelgeuse",
+   "file": "assets/images/betelgeuse_alma.jpg",
+   "credit": "Bételgeuse vue par ALMA · ESO/NAOJ/NRAO, E. O'Gorman, P. Kervella",
+   "page": "https://commons.wikimedia.org/wiki/File:Betelgeuse_captured_by_ALMA.jpg",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette étoile",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "va EXPLOSER",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un jour ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une future supernova !",
+   "on": "exploser"
+  },
+  "photo": "betelgeuse"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une étoile que tu peux voir à l'œil nu va un jour exploser ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Bételgeuse, c'est l'épaule de la constellation d'Orion, et c'est une supergéante rouge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Bételgeuse",
+     "size": "l",
+     "color": "pink",
+     "on": "Bételgeuse"
+    },
+    {
+     "t": "text",
+     "text": "dans Orion",
+     "size": "m",
+     "color": "gold",
+     "on": "Orion"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "constellation",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "si on la mettait à la place du Soleil, elle irait au-delà de l'orbite de Mars,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à la place du Soleil :",
+     "size": "m",
+     "on": "place"
+    },
+    {
+     "t": "text",
+     "text": "au-delà de Mars !",
+     "size": "xl",
+     "color": "pink",
+     "on": "Mars",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à la fin de sa vie, elle explosera en supernova, peut-être d'ici cent mille ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une supernova",
+     "size": "l",
+     "color": "gold",
+     "on": "supernova"
+    },
+    {
+     "t": "text",
+     "text": "d'ici ~ 100 000 ans",
+     "size": "m",
+     "on": "cent mille"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "explosera",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce jour-là, on la verra briller même en plein jour, mais sans aucun danger pour nous."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "visible en plein jour !",
+     "size": "l",
+     "color": "pink",
+     "on": "plein jour"
+    },
+    {
+     "t": "text",
+     "text": "sans danger pour nous",
+     "size": "m",
+     "color": "gold",
+     "on": "danger",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Bételgeuse, l'étoile géante d'Orion qui va exploser 💥\n\nBételgeuse, l'étoile rouge qui forme l'épaule de la constellation d'Orion, est une supergéante. Placée à la place du Soleil, elle s'étendrait au-delà de l'orbite de Mars ! En fin de vie, elle explosera en supernova, peut-être d'ici 100 000 ans, ce qui est très court à l'échelle des étoiles. Ce jour-là, elle sera visible même en plein jour, mais sans aucun danger pour la Terre, car elle est à plusieurs centaines d'années-lumière. Sur l'image, Bételgeuse vue par le radiotélescope ALMA. Un spectacle d'astronomie qu'on aimerait tous voir.\n\nTu aimerais voir ça de ton vivant ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#betelgeuse",
+  "#supernova",
+  "#orion",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/universe/stars/",
+  "https://www.eso.org/public/news/eso1726/"
+ ]
+}

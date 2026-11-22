@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 62,
+ "title": "Le rover Opportunity devait durer 90 jours, il a tenu 15 ans",
+ "subject": "Opportunity",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce robot devait vivre",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "90 jours…",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il a tenu 15 ANS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "90 jours → 15 ans !",
+   "on": "quinze"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un robot envoyé sur Mars devait fonctionner quatre-vingt-dix jours et qu'il a tenu quinze ans ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Opportunity, et il s'est posé sur Mars en janvier deux mille quatre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Opportunity",
+     "size": "l",
+     "color": "pink",
+     "on": "Opportunity"
+    },
+    {
+     "t": "text",
+     "text": "arrivé en 2004",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille quatre"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "posé",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa mission était prévue pour durer quatre-vingt-dix jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "mission prévue :",
+     "size": "m",
+     "on": "prévue"
+    },
+    {
+     "t": "text",
+     "text": "90 jours",
+     "size": "xl",
+     "color": "gold",
+     "on": "quatre-vingt-dix"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il a roulé pendant quinze ans, sur plus de quarante-cinq kilomètres, plus qu'un marathon,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "15 ans !",
+     "size": "xl",
+     "color": "pink",
+     "on": "quinze",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "45 km = + qu'un marathon",
+     "size": "m",
+     "on": "quarante-cinq"
+    }
+   ]
+  },
+  {
+   "say": [
+    "jusqu'à ce qu'une immense tempête de poussière recouvre ses panneaux solaires en deux mille dix-huit."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2018 : une tempête",
+     "size": "l",
+     "color": "gold",
+     "on": "tempête"
+    },
+    {
+     "t": "text",
+     "text": "couvre ses panneaux solaires",
+     "size": "m",
+     "on": "panneaux"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "poussière",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le rover Opportunity devait durer 90 jours sur Mars… il a tenu 15 ans 🤖\n\nLe robot Opportunity de la NASA s'est posé sur la planète Mars en janvier 2004, pour une mission prévue de 90 jours seulement. Il a finalement fonctionné pendant près de 15 ans et parcouru plus de 45 km, plus qu'un marathon ! Il a notamment trouvé des preuves qu'il y avait autrefois de l'eau liquide sur Mars. En 2018, une gigantesque tempête de poussière a recouvert ses panneaux solaires et il s'est éteint. Sur la photo, Mars vue par la sonde Rosetta. Une légende de l'exploration spatiale.\n\nTu connaissais Opportunity ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#opportunity",
+  "#mars",
+  "#nasa",
+  "#exploration",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/mer-opportunity/"
+ ]
+}

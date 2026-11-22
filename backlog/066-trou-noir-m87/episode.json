@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 65,
+ "title": "La toute première photo d'un trou noir",
+ "subject": "M87*",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "m87",
+   "file": "assets/images/m87_trou_noir_eht.jpg",
+   "credit": "Trou noir de M87 · EHT Collaboration",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ceci est la",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "1re PHOTO",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'un trou noir ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "6,5 milliards de Soleils",
+   "on": "trou noir"
+  },
+  "photo": "m87"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la toute première photo d'un trou noir date seulement de deux mille dix-neuf ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle a été dévoilée le dix avril deux mille dix-neuf, et montre le trou noir au centre de la galaxie M quatre-vingt-sept,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "10 avril 2019",
+     "size": "l",
+     "color": "gold",
+     "on": "dix avril"
+    },
+    {
+     "t": "text",
+     "text": "galaxie M87",
+     "size": "l",
+     "color": "pink",
+     "on": "galaxie"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il se trouve à cinquante-cinq millions d'années-lumière de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à 55 millions",
+     "size": "l",
+     "color": "gold",
+     "on": "cinquante-cinq"
+    },
+    {
+     "t": "text",
+     "text": "d'années-lumière",
+     "size": "m",
+     "on": "années-lumière"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il est six milliards et demi de fois plus massif que le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "6,5 milliards",
+     "size": "xl",
+     "color": "pink",
+     "on": "six milliards",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "× le Soleil",
+     "size": "m",
+     "on": "Soleil"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce qu'on voit, c'est son ombre entourée de gaz brûlant, car un trou noir, lui, ne laisse échapper aucune lumière."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au centre : son ombre",
+     "size": "m",
+     "on": "ombre"
+    },
+    {
+     "t": "text",
+     "text": "aucune lumière ne sort !",
+     "size": "l",
+     "color": "pink",
+     "on": "aucune lumière",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Voici la toute première photo d'un trou noir 🕳️\n\nLe 10 avril 2019, la collaboration Event Horizon Telescope a dévoilé la toute première image d'un trou noir : celui qui se trouve au centre de la galaxie M87, à 55 millions d'années-lumière de nous. Ce monstre est 6,5 milliards de fois plus massif que le Soleil ! Comme aucune lumière ne peut s'échapper d'un trou noir, ce qu'on voit, c'est son « ombre » entourée d'un anneau de gaz extrêmement chaud. Pour obtenir cette image, des radiotélescopes du monde entier ont travaillé ensemble. Une prouesse historique de l'astronomie.\n\nÇa te fascine ou ça te fait peur ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#trounoir",
+  "#m87",
+  "#astrophysique",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.eso.org/public/news/eso1907/",
+  "https://science.nasa.gov/universe/black-holes/"
+ ]
+}

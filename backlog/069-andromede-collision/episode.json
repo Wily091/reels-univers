@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 68,
+ "title": "La galaxie d'Andromède fonce vers nous",
+ "subject": "Andromède",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "andromede",
+   "file": "assets/images/andromede.jpg",
+   "credit": "Galaxie d'Andromède · Adam Evans",
+   "page": "https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg",
+   "license": "CC BY 2.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette galaxie",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "fonce droit",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur la NÔTRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "elle fonce vers nous !",
+   "on": "galaxie"
+  },
+  "photo": "andromede"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la galaxie d'Andromède fonce vers notre galaxie ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle se trouve à environ deux millions et demi d'années-lumière, et c'est l'objet le plus lointain qu'on peut voir à l'œil nu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à 2,5 millions",
+     "size": "l",
+     "color": "gold",
+     "on": "deux millions"
+    },
+    {
+     "t": "text",
+     "text": "d'années-lumière",
+     "size": "m",
+     "on": "années-lumière"
+    },
+    {
+     "t": "text",
+     "text": "visible à l'œil nu !",
+     "size": "m",
+     "color": "pink",
+     "on": "œil nu"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle se rapproche de nous à environ quatre cent mille kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle approche à",
+     "size": "m",
+     "on": "rapproche"
+    },
+    {
+     "t": "text",
+     "text": "~ 400 000 km/h",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre cent mille",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, dans quelques milliards d'années, les deux galaxies pourraient se rencontrer et fusionner,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans quelques milliards d'années :",
+     "size": "s",
+     "on": "milliards"
+    },
+    {
+     "t": "text",
+     "text": "la fusion !",
+     "size": "xl",
+     "color": "gold",
+     "on": "fusionner"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "galaxies",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais les étoiles sont tellement éloignées les unes des autres qu'elles ne se cogneraient presque jamais."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les étoiles se cogneraient ?",
+     "size": "m",
+     "on": "étoiles"
+    },
+    {
+     "t": "text",
+     "text": "presque jamais !",
+     "size": "l",
+     "color": "pink",
+     "on": "jamais",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La galaxie d'Andromède fonce vers la Voie lactée 🌌\n\nLa galaxie d'Andromède, notre grande voisine, se trouve à environ 2,5 millions d'années-lumière : c'est l'objet le plus lointain visible à l'œil nu. Et elle se rapproche de nous à environ 400 000 km/h ! Dans quelques milliards d'années, Andromède et la Voie lactée pourraient se rencontrer et fusionner en une seule galaxie géante. Pas de panique : les étoiles sont si éloignées les unes des autres qu'elles ne se percuteraient presque jamais. Sur la photo, la galaxie d'Andromède. Un rendez-vous cosmique de l'astronomie.\n\nÇa t'inquiète ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#andromede",
+  "#galaxie",
+  "#voielactee",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-milky-way-is-destined-for-head-on-collision/"
+ ]
+}

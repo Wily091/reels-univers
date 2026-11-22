@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 70,
+ "title": "Uranus sentirait l'œuf pourri",
+ "subject": "Uranus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "uranus",
+   "file": "assets/images/uranus_voyager2.jpg",
+   "credit": "Uranus vue par Voyager 2 · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/uranus/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sentirait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "l'ŒUF POURRI ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "ça sent l'œuf pourri !",
+   "on": "odeur"
+  },
+  "photo": "uranus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que si tu pouvais sentir l'odeur d'Uranus, elle sentirait l'œuf pourri ?"
+   ]
+  },
+  {
+   "say": [
+    "En deux mille dix-huit, des astronomes ont étudié la lumière de ses nuages avec un grand télescope,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2018 :",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille dix-huit"
+    },
+    {
+     "t": "text",
+     "text": "on analyse ses nuages",
+     "size": "m",
+     "on": "nuages"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "nuages",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ils ont découvert que ses nuages du haut contiennent du sulfure d'hydrogène,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "du sulfure d'hydrogène",
+     "size": "l",
+     "color": "pink",
+     "on": "sulfure",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est exactement le gaz qui donne aux œufs pourris leur odeur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le gaz des",
+     "size": "m",
+     "on": "gaz"
+    },
+    {
+     "t": "text",
+     "text": "œufs pourris !",
+     "size": "xl",
+     "color": "gold",
+     "on": "œufs"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais un humain là-haut ne sentirait pas grand-chose, car il mourrait avant, à cause du froid et de l'absence d'oxygène."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "mais tu ne tiendrais pas :",
+     "size": "s",
+     "on": "humain"
+    },
+    {
+     "t": "text",
+     "text": "froid + pas d'oxygène",
+     "size": "l",
+     "color": "pink",
+     "on": "oxygène",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Uranus sentirait l'œuf pourri 🥚\n\nEn 2018, des astronomes ont analysé la lumière renvoyée par les nuages d'Uranus avec le télescope Gemini Nord, à Hawaï. Résultat : ses nuages supérieurs contiennent du sulfure d'hydrogène, le gaz qui donne aux œufs pourris leur odeur si particulière ! Mais un humain ne pourrait pas en profiter longtemps : à plus de −200 °C et sans oxygène, il ne survivrait pas. Sur la photo, Uranus vue par la sonde Voyager 2. Un fait insolite d'astronomie sur notre système solaire.\n\nTu irais la renifler ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#uranus",
+  "#planetes",
+  "#insolite",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nature.com/articles/s41550-018-0432-1",
+  "https://science.nasa.gov/uranus/facts/"
+ ]
+}

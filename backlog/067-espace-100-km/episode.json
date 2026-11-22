@@ -1,0 +1,174 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 66,
+ "title": "L'espace commence à seulement 100 km",
+ "subject": "L'espace",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'espace est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à seulement",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "1 HEURE de voiture ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "à 100 km d'ici !",
+   "on": "kilomètres"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'espace commence à seulement cent kilomètres au-dessus de nos têtes ?"
+   ]
+  },
+  {
+   "say": [
+    "Cette limite s'appelle la ligne de Kármán, et elle est placée à environ cent kilomètres d'altitude,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la ligne de Kármán",
+     "size": "l",
+     "color": "pink",
+     "on": "Kármán"
+    },
+    {
+     "t": "text",
+     "text": "≈ 100 km",
+     "size": "xl",
+     "color": "gold",
+     "on": "cent kilomètres"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, si tu pouvais rouler tout droit vers le haut à cent kilomètres heure, tu y serais en une heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en voiture à 100 km/h :",
+     "size": "m",
+     "on": "rouler"
+    },
+    {
+     "t": "text",
+     "text": "1 heure !",
+     "size": "xl",
+     "color": "pink",
+     "on": "une heure",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "haut",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la Station spatiale internationale tourne à peine plus haut, vers quatre cents kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Station :",
+     "size": "m",
+     "on": "Station"
+    },
+    {
+     "t": "text",
+     "text": "~ 400 km",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre cents"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors que Paris et Marseille sont séparées par plus de six cents kilomètres."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Paris → Marseille :",
+     "size": "m",
+     "on": "Paris"
+    },
+    {
+     "t": "text",
+     "text": "+ loin que l'espace !",
+     "size": "l",
+     "color": "pink",
+     "on": "six cents",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'espace commence à seulement 100 km au-dessus de nos têtes 🚀\n\nLa frontière de l'espace la plus souvent utilisée, la ligne de Kármán, se trouve à environ 100 km d'altitude. Si l'on pouvait rouler tout droit vers le ciel à 100 km/h, on y serait en une heure ! La Station spatiale internationale tourne à peine plus haut, vers 400 km. Pour comparer, Paris et Marseille sont séparées de plus de 600 km : l'espace est plus proche de toi que bien des villes de France. Sur la photo, la Terre vue par l'équipage d'Apollo 17. Un fait d'astronomie qui remet les distances en perspective.\n\nTu pensais que c'était plus loin ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#espace",
+  "#karman",
+  "#iss",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+  "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits"
+ ]
+}

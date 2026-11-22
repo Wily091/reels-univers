@@ -1,0 +1,174 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 69,
+ "title": "Une météorite a creusé un cratère de plus d'un kilomètre en Arizona",
+ "subject": "Meteor Crater",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "crater",
+   "file": "assets/images/meteor_crater.jpg",
+   "credit": "Meteor Crater, Arizona · USGS/D. Roddy",
+   "page": "https://commons.wikimedia.org/wiki/File:Barringer_Crater_aerial_photo_by_USGS.jpg",
+   "license": "Domaine public (USGS)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce trou d'1 km",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a été fait par",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une MÉTÉORITE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "1,2 km de large !",
+   "on": "cratère"
+  },
+  "photo": "crater"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en Arizona, il y a un cratère de plus d'un kilomètre creusé par une météorite ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Meteor Crater, il fait environ un virgule deux kilomètre de large et cent soixante-dix mètres de profondeur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Meteor Crater",
+     "size": "l",
+     "color": "pink",
+     "on": "Meteor"
+    },
+    {
+     "t": "text",
+     "text": "1,2 km de large",
+     "size": "l",
+     "color": "gold",
+     "on": "un virgule"
+    },
+    {
+     "t": "text",
+     "text": "170 m de profondeur",
+     "size": "m",
+     "on": "profondeur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été creusé il y a environ cinquante mille ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il y a ~ 50 000 ans",
+     "size": "l",
+     "color": "gold",
+     "on": "cinquante mille"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "ans",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "par une météorite en fer d'à peine une cinquantaine de mètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une météorite en fer",
+     "size": "m",
+     "on": "fer"
+    },
+    {
+     "t": "text",
+     "text": "de ~ 50 m seulement !",
+     "size": "l",
+     "color": "pink",
+     "on": "cinquantaine",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "qui a frappé le sol à une vitesse folle et libéré l'énergie d'une énorme explosion."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vitesse folle",
+     "size": "m",
+     "on": "vitesse"
+    },
+    {
+     "t": "text",
+     "text": "= une énorme explosion",
+     "size": "l",
+     "color": "gold",
+     "on": "explosion",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "explosion",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une météorite de 50 m a creusé ce cratère d'1,2 km en Arizona ☄️\n\nMeteor Crater, dans le désert de l'Arizona, est l'un des cratères d'impact les mieux conservés de la Terre. Il mesure environ 1,2 km de large et 170 m de profondeur. Il a été creusé il y a environ 50 000 ans par une météorite en fer d'une cinquantaine de mètres seulement, qui a percuté le sol à très grande vitesse en libérant l'énergie d'une gigantesque explosion. Les astronautes d'Apollo s'y sont même entraînés avant d'aller sur la Lune ! Sur la photo, le cratère vu du ciel. Un fait de science et d'astronomie impressionnant.\n\nTu aimerais le visiter ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#meteorite",
+  "#cratere",
+  "#arizona",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.usgs.gov/media/images/meteor-crater-arizona",
+  "https://science.nasa.gov/solar-system/meteors-meteorites/facts/"
+ ]
+}
