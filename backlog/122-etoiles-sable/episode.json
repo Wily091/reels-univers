@@ -1,0 +1,151 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 121,
+ "title": "Il y aurait plus d'étoiles dans l'univers que de grains de sable sur Terre",
+ "subject": "Univers",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "+ d'étoiles",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que de grains de sable",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur TOUTE la Terre ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "+ que de grains de sable",
+   "on": "sable"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il y aurait plus d'étoiles dans l'univers que de grains de sable sur toutes les plages de la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "L'univers observable contiendrait des centaines de milliards de galaxies,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des centaines de milliards",
+     "size": "m",
+     "on": "centaines"
+    },
+    {
+     "t": "text",
+     "text": "de galaxies",
+     "size": "l",
+     "color": "gold",
+     "on": "galaxies"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et chacune contient souvent des milliards d'étoiles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "× des milliards d'étoiles",
+     "size": "l",
+     "color": "pink",
+     "on": "milliards d'étoiles"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, on arrive à un nombre gigantesque, de l'ordre d'un suivi de vingt-deux zéros,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "≈ 1 suivi de",
+     "size": "m",
+     "on": "suivi"
+    },
+    {
+     "t": "text",
+     "text": "22 zéros !",
+     "size": "xl",
+     "color": "pink",
+     "on": "vingt-deux",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est plus que tous les grains de sable de toutes les plages et de tous les déserts réunis."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ que tous les grains",
+     "size": "m",
+     "on": "grains"
+    },
+    {
+     "t": "text",
+     "text": "de toutes les plages !",
+     "size": "l",
+     "color": "gold",
+     "on": "plages",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il y aurait plus d'étoiles dans l'univers que de grains de sable sur Terre ✨\n\nL'univers observable contiendrait des centaines de milliards de galaxies, et chacune abrite souvent des milliards d'étoiles. En multipliant, les astronomes arrivent à un nombre vertigineux : de l'ordre de 10 000 milliards de milliards d'étoiles, soit un 1 suivi d'environ 22 zéros ! C'est probablement plus que le nombre de grains de sable sur toutes les plages et dans tous les déserts de la Terre réunis. Ce n'est qu'une estimation, mais elle donne une idée de l'immensité de l'univers. Un fait d'astronomie qui fait réfléchir.\n\nTu arrives à imaginer ce nombre ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#univers",
+  "#etoiles",
+  "#astronomie",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.esa.int/Science_Exploration/Space_Science/Herschel/How_many_stars_are_there_in_the_Universe"
+ ]
+}

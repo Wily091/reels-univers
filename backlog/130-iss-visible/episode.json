@@ -1,0 +1,171 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 129,
+ "title": "Tu peux voir la Station spatiale à l'œil nu",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Tu peux voir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Station spatiale",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à l'ŒIL NU ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "visible depuis chez toi",
+   "on": "œil nu"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que tu peux voir la Station spatiale passer dans le ciel, à l'œil nu ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle ressemble à une étoile très brillante qui traverse le ciel en quelques minutes, sans clignoter,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un point très brillant",
+     "size": "l",
+     "color": "gold",
+     "on": "brillante"
+    },
+    {
+     "t": "text",
+     "text": "qui ne clignote pas",
+     "size": "m",
+     "on": "clignoter"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est souvent l'objet le plus brillant de la nuit après la Lune et Vénus,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ brillante que",
+     "size": "m",
+     "on": "brillant"
+    },
+    {
+     "t": "text",
+     "text": "presque toutes les étoiles !",
+     "size": "l",
+     "color": "pink",
+     "on": "Vénus",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que ses grands panneaux solaires renvoient la lumière du Soleil, juste après le coucher ou avant le lever du jour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ses panneaux renvoient",
+     "size": "m",
+     "on": "panneaux"
+    },
+    {
+     "t": "text",
+     "text": "la lumière du Soleil",
+     "size": "l",
+     "color": "gold",
+     "on": "lumière"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la NASA propose même un service gratuit pour savoir quand elle passera au-dessus de chez toi."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« Spot the Station »",
+     "size": "l",
+     "color": "pink",
+     "on": "service"
+    },
+    {
+     "t": "text",
+     "text": "pour savoir quand la voir !",
+     "size": "m",
+     "on": "passera",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Tu peux voir la Station spatiale passer à l'œil nu 🛰️\n\nLa Station spatiale internationale est souvent l'objet le plus brillant du ciel nocturne après la Lune et Vénus. On la voit comme un point très lumineux qui traverse le ciel en quelques minutes, sans clignoter (contrairement aux avions). Elle est visible peu après le coucher du Soleil ou avant son lever, quand ses grands panneaux solaires sont encore éclairés alors que le ciel est noir. La NASA propose un service gratuit, « Spot the Station », pour savoir quand elle passera au-dessus de chez toi ! Sur la photo, l'ISS vue depuis Crew Dragon. De l'astronomie à faire depuis ton jardin.\n\nTu vas essayer de la voir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#ciel",
+  "#astronomie",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://spotthestation.nasa.gov/"
+ ]
+}

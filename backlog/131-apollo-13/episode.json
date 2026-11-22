@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 130,
+ "title": "Apollo 13, le retour miraculeux",
+ "subject": "Apollo 13",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "« Houston,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "on a eu",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un PROBLÈME » ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "Houston, on a un problème",
+   "on": "Houston"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la phrase Houston, on a eu un problème, vient d'une vraie mission spatiale ?"
+   ]
+  },
+  {
+   "say": [
+    "En avril mille neuf cent soixante-dix, la mission Apollo treize part vers la Lune avec trois astronautes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "avril 1970",
+     "size": "l",
+     "color": "gold",
+     "on": "avril"
+    },
+    {
+     "t": "text",
+     "text": "Apollo 13, vers la Lune",
+     "size": "m",
+     "on": "Apollo"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "part",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en chemin, un réservoir d'oxygène explose,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un réservoir",
+     "size": "m",
+     "on": "réservoir"
+    },
+    {
+     "t": "text",
+     "text": "explose !",
+     "size": "xl",
+     "color": "pink",
+     "on": "explose",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, ils ne peuvent plus se poser, et ils se réfugient dans le module lunaire, en manquant de tout,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'alunissage",
+     "size": "m",
+     "on": "poser"
+    },
+    {
+     "t": "text",
+     "text": "réfugiés dans le module lunaire",
+     "size": "m",
+     "color": "gold",
+     "on": "réfugient"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais grâce à des ingénieurs au sol qui ont tout improvisé, ils sont revenus sains et saufs sur Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tous revenus",
+     "size": "l",
+     "color": "gold",
+     "on": "revenus"
+    },
+    {
+     "t": "text",
+     "text": "sains et saufs !",
+     "size": "l",
+     "color": "pink",
+     "on": "saufs",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Apollo 13 : « Houston, on a eu un problème » 🚀\n\nEn avril 1970, la mission Apollo 13 décolle vers la Lune avec trois astronautes : Jim Lovell, Jack Swigert et Fred Haise. Mais en chemin, un réservoir d'oxygène explose. L'équipage prévient le centre de contrôle avec une phrase devenue célèbre : « Houston, we've had a problem ». Impossible de se poser sur la Lune : les astronautes se réfugient dans le module lunaire, avec très peu d'énergie, d'eau et de chaleur. Grâce à l'ingéniosité des équipes au sol, qui improvisent des solutions, ils reviennent sains et saufs sur Terre. Une histoire vraie de l'exploration spatiale.\n\nTu connaissais cette histoire vraie ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo13",
+  "#nasa",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/"
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 128,
+ "title": "La Station spatiale est grande comme un terrain de foot",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Station spatiale",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est aussi grande",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qu'un TERRAIN de foot ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un terrain de foot !",
+   "on": "terrain"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Station spatiale internationale est à peu près aussi grande qu'un terrain de football ?"
+   ]
+  },
+  {
+   "say": [
+    "D'un bout à l'autre de ses panneaux solaires, elle mesure environ cent neuf mètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 109 mètres",
+     "size": "xl",
+     "color": "gold",
+     "on": "cent neuf"
+    },
+    {
+     "t": "text",
+     "text": "de bout en bout",
+     "size": "m",
+     "on": "bout"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ça correspond à la longueur d'un terrain de football américain avec les zones d'en-but,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "= un terrain de foot !",
+     "size": "l",
+     "color": "pink",
+     "on": "terrain",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle pèse environ quatre cent vingt tonnes, autant qu'environ trois cents voitures,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 420 tonnes",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre cent vingt"
+    },
+    {
+     "t": "text",
+     "text": "≈ 300 voitures !",
+     "size": "m",
+     "on": "voitures"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pourtant, elle a été assemblée pièce par pièce dans l'espace, à partir de mille neuf cent quatre-vingt-dix-huit."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "montée pièce par pièce",
+     "size": "m",
+     "on": "pièce"
+    },
+    {
+     "t": "text",
+     "text": "dans l'espace, dès 1998 !",
+     "size": "l",
+     "color": "pink",
+     "on": "mille neuf cent",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "assemblée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Station spatiale internationale est grande comme un terrain de foot 🛰️\n\nLa Station spatiale internationale (ISS) est le plus grand objet jamais construit par l'humain dans l'espace. Avec ses panneaux solaires, elle mesure environ 109 mètres de long, à peu près la taille d'un terrain de football américain, et pèse environ 420 tonnes, l'équivalent de plusieurs centaines de voitures ! Elle a été assemblée pièce par pièce en orbite à partir de 1998, au fil de dizaines de lancements et de sorties dans l'espace, grâce à la coopération de plusieurs pays. Sur la photo, l'ISS vue depuis la capsule Crew Dragon. Un chef-d'œuvre de l'exploration spatiale.\n\nTu pensais qu'elle était aussi grande ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#stationspatiale",
+  "#nasa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 124,
+ "title": "Tu es fait de poussière d'étoiles",
+ "subject": "Univers",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ton corps est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "fait de",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "POUSSIÈRE d'étoiles ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "de la poussière d'étoiles",
+   "on": "étoiles"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que ton corps est en grande partie fait de poussière d'étoiles ?"
+   ]
+  },
+  {
+   "say": [
+    "Juste après le Big Bang, l'univers ne contenait presque que de l'hydrogène et de l'hélium,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au début :",
+     "size": "m",
+     "on": "Big Bang"
+    },
+    {
+     "t": "text",
+     "text": "hydrogène + hélium",
+     "size": "l",
+     "color": "gold",
+     "on": "hydrogène"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce sont les étoiles qui ont fabriqué, dans leur cœur, le carbone, l'oxygène, le calcium ou le fer,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les étoiles fabriquent",
+     "size": "m",
+     "on": "fabriqué"
+    },
+    {
+     "t": "text",
+     "text": "carbone, oxygène, fer…",
+     "size": "l",
+     "color": "pink",
+     "on": "carbone"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis en explosant, elles ont dispersé ces éléments dans l'espace,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elles explosent",
+     "size": "l",
+     "color": "pink",
+     "on": "explosant",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "et sèment tout ça",
+     "size": "m",
+     "on": "dispersé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, le calcium de tes os et le fer de ton sang ont été fabriqués dans des étoiles, il y a des milliards d'années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tes os, ton sang :",
+     "size": "m",
+     "on": "os"
+    },
+    {
+     "t": "text",
+     "text": "fabriqués par des étoiles !",
+     "size": "l",
+     "color": "gold",
+     "on": "fabriqués dans",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Tu es fait de poussière d'étoiles ✨\n\nJuste après le Big Bang, l'univers ne contenait presque que de l'hydrogène et de l'hélium. Les éléments plus lourds, comme le carbone, l'oxygène, le calcium ou le fer, ont été fabriqués au cœur des étoiles, puis dispersés dans l'espace quand ces étoiles sont mortes, parfois dans de gigantesques explosions. Ces éléments ont ensuite servi à former de nouvelles étoiles, des planètes… et nous. Le calcium de tes os et le fer de ton sang ont donc été fabriqués dans des étoiles il y a des milliards d'années ! Comme le disait l'astronome Carl Sagan : « nous sommes faits de poussière d'étoiles ».\n\nÇa te fait quoi de le savoir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#poussieredetoiles",
+  "#etoiles",
+  "#univers",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 131,
+ "title": "Laïka, la première chienne en orbite autour de la Terre",
+ "subject": "Laïka",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le 1er être vivant",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en orbite",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "était une CHIENNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "Laïka, 1957",
+   "on": "chienne"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le premier être vivant à faire le tour de la Terre était une chienne ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelait Laïka, c'était une chienne des rues de Moscou,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Laïka",
+     "size": "xl",
+     "color": "pink",
+     "on": "Laïka"
+    },
+    {
+     "t": "text",
+     "text": "une chienne des rues de Moscou",
+     "size": "m",
+     "on": "Moscou"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le trois novembre mille neuf cent cinquante-sept, elle a été lancée à bord de Spoutnik deux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3 novembre 1957",
+     "size": "l",
+     "color": "gold",
+     "on": "trois novembre"
+    },
+    {
+     "t": "text",
+     "text": "à bord de Spoutnik 2",
+     "size": "m",
+     "on": "Spoutnik"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a prouvé qu'un être vivant pouvait supporter le lancement et l'apesanteur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle prouve que",
+     "size": "m",
+     "on": "prouvé"
+    },
+    {
+     "t": "text",
+     "text": "la vie supporte l'espace !",
+     "size": "l",
+     "color": "pink",
+     "on": "apesanteur",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il n'était pas prévu qu'elle revienne, et elle est morte quelques heures après le décollage, à cause de la chaleur."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas de retour prévu…",
+     "size": "m",
+     "on": "revienne"
+    },
+    {
+     "t": "text",
+     "text": "une pionnière de l'espace",
+     "size": "l",
+     "color": "gold",
+     "on": "morte",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Laïka, la première chienne à faire le tour de la Terre 🐕\n\nLe 3 novembre 1957, un mois après Spoutnik 1, l'Union soviétique lance Spoutnik 2 avec à son bord une passagère : Laïka, une chienne recueillie dans les rues de Moscou. Elle devient le premier être vivant à faire le tour de la Terre en orbite et prouve qu'un organisme peut supporter le lancement et l'apesanteur. Mais aucun retour n'était prévu : Laïka est morte quelques heures après le décollage, à cause de la surchauffe de la capsule. Son sacrifice a ouvert la voie aux vols habités. Une histoire émouvante de la conquête spatiale.\n\nTu connaissais l'histoire de Laïka ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#laika",
+  "#spoutnik",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/history/",
+  "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1957-002A"
+ ]
+}

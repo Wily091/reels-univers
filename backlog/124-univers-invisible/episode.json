@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 123,
+ "title": "95 % de l'univers nous est inconnu",
+ "subject": "Univers",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On ne connaît",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que 5 %",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de l'UNIVERS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "95 % de mystère",
+   "on": "univers"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que tout ce qu'on voit, les étoiles, les planètes et nous, ne représente qu'environ cinq pour cent de l'univers ?"
+   ]
+  },
+  {
+   "say": [
+    "La matière ordinaire, celle qu'on connaît, ne fait qu'environ cinq pour cent du contenu de l'univers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "matière ordinaire :",
+     "size": "m",
+     "on": "ordinaire"
+    },
+    {
+     "t": "text",
+     "text": "~ 5 %",
+     "size": "xl",
+     "color": "gold",
+     "on": "cinq pour cent",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "environ vingt-sept pour cent seraient de la matière noire, invisible, qu'on ne détecte que par sa gravité,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "matière noire : ~ 27 %",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-sept"
+    },
+    {
+     "t": "text",
+     "text": "(invisible !)",
+     "size": "s",
+     "color": "soft",
+     "on": "invisible"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le reste, environ soixante-huit pour cent, serait de l'énergie noire, qui accélère l'expansion de l'univers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "énergie noire : ~ 68 %",
+     "size": "l",
+     "color": "pink",
+     "on": "soixante-huit"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "accélère",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "donc on ne connaît vraiment qu'une toute petite partie de l'univers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on ne connaît que",
+     "size": "m",
+     "on": "connaît"
+    },
+    {
+     "t": "text",
+     "text": "une infime partie !",
+     "size": "l",
+     "color": "gold",
+     "on": "petite",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "95 % de l'univers nous est encore inconnu 🌌\n\nLes étoiles, les planètes, les gaz, les galaxies et nous-mêmes : toute la matière « ordinaire » ne représente qu'environ 5 % du contenu de l'univers ! Environ 27 % seraient de la matière noire, invisible, qu'on ne détecte que par ses effets gravitationnels sur les galaxies. Et les 68 % restants seraient de l'énergie noire, une force mystérieuse qui accélère l'expansion de l'univers. Autrement dit, la science n'a encore identifié qu'une toute petite partie de ce qui compose le cosmos. Un des plus grands mystères de l'astrophysique.\n\nÇa te fascine ou ça t'angoisse ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#matierenoire",
+  "#energienoire",
+  "#univers",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/dark-energy/",
+  "https://science.nasa.gov/universe/dark-matter-dark-energy/"
+ ]
+}

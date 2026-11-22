@@ -1,0 +1,170 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 126,
+ "title": "Sur la Station spatiale, il fait 120 °C au soleil et −150 °C à l'ombre",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Au soleil, + 120 °C.",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "À l'ombre,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "− 150 °C ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "de + 120 à − 150 °C !",
+   "on": "soleil"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'extérieur de la Station spatiale passe de plus de cent vingt degrés au soleil à moins cent cinquante à l'ombre ?"
+   ]
+  },
+  {
+   "say": [
+    "Dans l'espace, il n'y a pas d'air pour répartir la chaleur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'air",
+     "size": "l",
+     "on": "air"
+    },
+    {
+     "t": "text",
+     "text": "pour répartir la chaleur",
+     "size": "m",
+     "on": "répartir"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, une surface en plein soleil peut monter à plus de cent vingt degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au soleil :",
+     "size": "m",
+     "on": "soleil"
+    },
+    {
+     "t": "text",
+     "text": "+ de 120 °C",
+     "size": "xl",
+     "color": "pink",
+     "on": "cent vingt"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "degrés",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à l'ombre, elle peut descendre en dessous de moins cent cinquante degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à l'ombre :",
+     "size": "m",
+     "on": "ombre"
+    },
+    {
+     "t": "text",
+     "text": "− 150 °C",
+     "size": "xl",
+     "color": "gold",
+     "on": "moins",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme la Station passe du jour à la nuit toutes les quarante-cinq minutes, elle doit sans cesse se protéger avec des isolants et des radiateurs."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jour ↔ nuit toutes les 45 min",
+     "size": "m",
+     "on": "quarante-cinq"
+    },
+    {
+     "t": "text",
+     "text": "isolants + radiateurs !",
+     "size": "l",
+     "color": "pink",
+     "on": "radiateurs",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur la Station spatiale, +120 °C au soleil et −150 °C à l'ombre 🌡️\n\nDans l'espace, il n'y a pas d'air pour répartir la chaleur. Résultat : à l'extérieur de la Station spatiale internationale, une surface exposée au Soleil peut dépasser 120 °C, tandis qu'une surface à l'ombre peut descendre en dessous de −150 °C ! Et comme la Station fait le tour de la Terre en 90 minutes, elle passe du jour à la nuit toutes les 45 minutes environ. Pour protéger les astronautes et le matériel, elle est équipée d'isolants et de grands radiateurs qui évacuent la chaleur. Sur la photo, la Station vue depuis Crew Dragon. Un fait de science spatiale extrême.\n\nTu préfères le chaud ou le froid ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#espace",
+  "#temperature",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"
+ ]
+}

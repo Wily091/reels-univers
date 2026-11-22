@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 122,
+ "title": "L'expansion de l'univers accélère",
+ "subject": "Univers",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'univers grandit",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "et en plus,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il ACCÉLÈRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un univers qui accélère",
+   "on": "vite"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'univers grandit, et qu'en plus, il grandit de plus en plus vite ?"
+   ]
+  },
+  {
+   "say": [
+    "Depuis les années mille neuf cent vingt, on sait que les galaxies s'éloignent les unes des autres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les galaxies s'éloignent",
+     "size": "l",
+     "color": "gold",
+     "on": "éloignent"
+    },
+    {
+     "t": "text",
+     "text": "(depuis les années 1920)",
+     "size": "s",
+     "color": "soft",
+     "on": "vingt"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en mille neuf cent quatre-vingt-dix-huit, des astronomes ont découvert que cette expansion accélère,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1998 : surprise !",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre-vingt-dix-huit"
+    },
+    {
+     "t": "text",
+     "text": "l'expansion accélère",
+     "size": "l",
+     "on": "accélère",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce qui leur a valu le prix Nobel de physique en deux mille onze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "prix Nobel 2011",
+     "size": "l",
+     "color": "gold",
+     "on": "Nobel"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "prix",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et on ne sait pas encore ce qui pousse l'univers comme ça, alors on l'appelle l'énergie noire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la cause ?",
+     "size": "m",
+     "on": "pousse"
+    },
+    {
+     "t": "text",
+     "text": "« l'énergie noire »",
+     "size": "l",
+     "color": "pink",
+     "on": "énergie noire",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'expansion de l'univers accélère 🌌\n\nDepuis les années 1920, on sait que l'univers est en expansion : les galaxies s'éloignent les unes des autres. Mais en 1998, deux équipes d'astronomes ont fait une découverte stupéfiante en observant des supernovas lointaines : cette expansion accélère ! Cette découverte leur a valu le prix Nobel de physique en 2011. Personne ne sait encore ce qui pousse l'univers à grandir de plus en plus vite : les scientifiques appellent cette force mystérieuse « l'énergie noire ». Sur l'image, le champ ultra-profond de Hubble. L'une des plus grandes énigmes de la cosmologie.\n\nÇa te paraît logique ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#univers",
+  "#energienoire",
+  "#cosmologie",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/dark-energy/",
+  "https://www.nobelprize.org/prizes/physics/2011/summary/"
+ ]
+}

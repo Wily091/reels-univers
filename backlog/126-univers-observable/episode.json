@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 125,
+ "title": "L'univers observable mesure 93 milliards d'années-lumière",
+ "subject": "Univers",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'univers a 13,8 milliards d'années",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "mais il mesure",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "93 MILLIARDS d'a.-l. ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "93 milliards d'a.-l.",
+   "on": "mesure"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'univers a environ treize virgule huit milliards d'années, mais que la partie qu'on peut voir mesure quatre-vingt-treize milliards d'années-lumière ?"
+   ]
+  },
+  {
+   "say": [
+    "Ça paraît impossible, puisque rien ne va plus vite que la lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "rien ne va + vite",
+     "size": "m",
+     "on": "rien"
+    },
+    {
+     "t": "text",
+     "text": "que la lumière…",
+     "size": "l",
+     "color": "pink",
+     "on": "lumière"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais pendant que la lumière voyageait vers nous, l'espace lui-même s'est étiré,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pendant ce temps,",
+     "size": "m",
+     "on": "pendant"
+    },
+    {
+     "t": "text",
+     "text": "l'espace s'étire !",
+     "size": "l",
+     "color": "gold",
+     "on": "étiré",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, les galaxies dont la lumière nous arrive aujourd'hui sont maintenant bien plus loin,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ces galaxies sont",
+     "size": "m",
+     "on": "galaxies"
+    },
+    {
+     "t": "text",
+     "text": "bien + loin aujourd'hui",
+     "size": "l",
+     "color": "pink",
+     "on": "plus loin"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le diamètre de l'univers observable atteint environ quatre-vingt-treize milliards d'années-lumière."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "diamètre :",
+     "size": "m",
+     "on": "diamètre"
+    },
+    {
+     "t": "text",
+     "text": "~ 93 milliards d'a.-l.",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-treize",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'univers a 13,8 milliards d'années… mais il mesure 93 milliards d'années-lumière 🌌\n\nL'univers a environ 13,8 milliards d'années. On pourrait donc penser qu'on ne peut voir qu'à 13,8 milliards d'années-lumière. Pourtant, le diamètre de l'univers observable est estimé à environ 93 milliards d'années-lumière ! L'explication : pendant que la lumière des galaxies les plus lointaines voyageait vers nous, l'espace lui-même s'est étiré. Ces galaxies sont donc aujourd'hui bien plus éloignées qu'au moment où leur lumière est partie. Ce n'est pas un objet qui va plus vite que la lumière, c'est l'espace qui grandit. Sur l'image, le champ ultra-profond de Hubble. Un vertige de cosmologie.\n\nÇa te paraît possible ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#univers",
+  "#cosmologie",
+  "#bigbang",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/universe/overview/",
+  "https://science.nasa.gov/mission/hubble/science/science-highlights/discovering-a-runaway-universe/"
+ ]
+}

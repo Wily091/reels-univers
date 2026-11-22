@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 120,
+ "title": "Notre galaxie contient des centaines de milliards d'étoiles",
+ "subject": "Voie lactée",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Notre galaxie contient",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des centaines de",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "MILLIARDS d'étoiles ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "100 à 400 milliards",
+   "on": "étoiles"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que notre galaxie, la Voie lactée, contient des centaines de milliards d'étoiles ?"
+   ]
+  },
+  {
+   "say": [
+    "Les astronomes estiment qu'il y en a entre cent et quatre cents milliards,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "100 à 400",
+     "size": "xl",
+     "color": "gold",
+     "on": "cent et quatre cents"
+    },
+    {
+     "t": "text",
+     "text": "milliards d'étoiles !",
+     "size": "l",
+     "color": "pink",
+     "on": "milliards"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le Soleil n'est qu'une étoile parmi toutes celles-là, plutôt ordinaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Soleil :",
+     "size": "m",
+     "on": "Soleil"
+    },
+    {
+     "t": "text",
+     "text": "1 étoile parmi d'autres",
+     "size": "l",
+     "on": "parmi"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "la galaxie est si grande que la lumière met environ cent mille ans pour la traverser,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pour la traverser :",
+     "size": "m",
+     "on": "traverser"
+    },
+    {
+     "t": "text",
+     "text": "~ 100 000 ans-lumière !",
+     "size": "l",
+     "color": "pink",
+     "on": "cent mille",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pourtant, à l'œil nu, même dans un ciel très noir, tu ne peux en voir que quelques milliers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à l'œil nu :",
+     "size": "m",
+     "on": "œil nu"
+    },
+    {
+     "t": "text",
+     "text": "quelques milliers seulement",
+     "size": "l",
+     "color": "gold",
+     "on": "quelques milliers",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "voir",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Notre galaxie contient des centaines de milliards d'étoiles 🌌\n\nLa Voie lactée, notre galaxie, contiendrait entre 100 et 400 milliards d'étoiles selon les estimations des astronomes. Le Soleil n'est qu'une étoile parmi toutes celles-là, plutôt ordinaire. Notre galaxie est si vaste que la lumière met environ 100 000 ans pour la traverser d'un bout à l'autre ! Et pourtant, même par une nuit très noire, on ne peut en voir à l'œil nu que quelques milliers. La bande blanche qu'on appelle la Voie lactée, c'est la lumière de milliards d'étoiles lointaines vues par la tranche. Un fait d'astronomie qui donne le vertige.\n\nTu les as déjà vues, ces étoiles ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#voielactee",
+  "#galaxie",
+  "#etoiles",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/universe/galaxies/",
+  "https://science.nasa.gov/resource/the-milky-way-galaxy/"
+ ]
+}
