@@ -1,0 +1,41 @@
+name: Vérifier les liens des sources
+
+# Déclenché en modifiant tools/VERIFIER_SOURCES.txt : teste chaque URL de "sources" (et des pages d'images) des épisodes du stock.
+on:
+  push:
+    branches: [main]
+    paths: ['tools/VERIFIER_SOURCES.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vérification
+        run: |
+          python3 - <<'PY'
+          import json, glob, subprocess
+          urls = {}
+          for f in sorted(glob.glob('backlog/*/episode.json')):
+              try: e = json.load(open(f))
+              except Exception: continue
+              if e.get('format') != 'planche': continue
+              for u in e.get('sources', []): urls.setdefault(u, set()).add(f.split('/')[1])
+              for im in e.get('images', []):
+                  if im.get('page'): urls.setdefault(im['page'], set()).add(f.split('/')[1])
+          out = []
+          for u, eps in sorted(urls.items()):
+              r = subprocess.run(['curl', '-sS', '-L', '-o', '/dev/null', '-w', '%{http_code}', '-m', '40', '-A',
+                                  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36', u], capture_output=True, text=True)
+              code = r.stdout.strip() or 'ERR'
+              out.append(f"{code}\t{u}\t{','.join(sorted(eps))}")
+          open('tools/sources_report.txt', 'w').write('\n'.join(out) + '\n')
+          bad = [l for l in out if not l.startswith(('200', '403'))]
+          print(f"{len(out)} liens, {len(bad)} à revoir"); print('\n'.join(bad))
+          PY
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add tools/sources_report.txt && git commit -m "Rapport de vérification des sources" && git pull --rebase && git push || echo "rien"
