@@ -1,0 +1,147 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 336,
+ "title": "Au retour de la Lune, les astronautes ont été mis en quarantaine",
+ "subject": "Apollo 11",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Au retour de la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ils ont été mis",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en QUARANTAINE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "21 jours d'isolement",
+   "on": "Lune"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'à leur retour de la Lune, les astronautes d'Apollo onze ont été mis en quarantaine pendant vingt et un jours ?"
+   ]
+  },
+  {
+   "say": [
+    "À l'époque, personne ne savait s'il pouvait exister des microbes sur la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des microbes lunaires ?",
+     "size": "l",
+     "color": "pink",
+     "on": "microbes",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors, par précaution, Armstrong, Aldrin et Collins ont été isolés dès leur retour, dans une caravane spéciale, puis dans un laboratoire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "isolés dès le retour",
+     "size": "l",
+     "color": "gold",
+     "on": "isolés"
+    },
+    {
+     "t": "text",
+     "text": "caravane + laboratoire",
+     "size": "m",
+     "on": "caravane"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la quarantaine a duré vingt et un jours, à compter de leur départ de la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "21 jours !",
+     "size": "xl",
+     "color": "pink",
+     "on": "vingt et un"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme on n'a trouvé aucun microbe, la quarantaine a été abandonnée après Apollo quatorze."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aucun microbe trouvé",
+     "size": "m",
+     "on": "aucun"
+    },
+    {
+     "t": "text",
+     "text": "fin après Apollo 14",
+     "size": "l",
+     "color": "gold",
+     "on": "quatorze",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Au retour de la Lune, les astronautes d'Apollo 11 ont été mis en quarantaine 21 jours 🦠\n\nEn 1969, personne ne pouvait être certain que la Lune était dépourvue de micro-organismes. Par précaution, à leur retour sur Terre le 24 juillet 1969, Neil Armstrong, Buzz Aldrin et Michael Collins ont été isolés : d'abord dans une caravane hermétique, la Mobile Quarantine Facility, sur le porte-avions, puis dans un laboratoire spécial à Houston. Leur quarantaine a duré 21 jours au total, à compter de leur départ de la Lune. Même les échantillons lunaires et des animaux de laboratoire ont été étudiés. Comme aucune trace de vie n'a été détectée, la quarantaine a été abandonnée après la mission Apollo 14. Sur la photo, Buzz Aldrin sur la Lune.\n\nTu aurais eu peur des microbes lunaires ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo11",
+  "#quarantaine",
+  "#lune",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Apollo_11",
+  "https://www.nasa.gov/history/"
+ ]
+}

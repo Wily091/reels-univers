@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 331,
+ "title": "Les premiers humains à voir la face cachée de la Lune",
+ "subject": "Apollo 8",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "farside",
+   "file": "assets/images/lune_face_cachee_lro.jpg",
+   "credit": "Face cachée de la Lune · NASA/GSFC/Arizona State University (LRO)",
+   "page": "https://commons.wikimedia.org/wiki/File:Moon_Farside_LRO.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les 1ers humains",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à voir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la FACE CACHÉE de la Lune ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "Apollo 8",
+   "on": "humains"
+  },
+  "photo": "farside"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les premiers humains à voir la face cachée de la Lune de leurs propres yeux étaient trois astronautes, en mille neuf cent soixante-huit ?"
+   ]
+  },
+  {
+   "say": [
+    "En décembre mille neuf cent soixante-huit, la mission Apollo huit emmène Frank Borman, Jim Lovell et Bill Anders autour de la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "décembre 1968 : Apollo 8",
+     "size": "l",
+     "color": "pink",
+     "on": "huit"
+    },
+    {
+     "t": "text",
+     "text": "Borman, Lovell, Anders",
+     "size": "m",
+     "on": "Borman"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "mission",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils sont les premiers à quitter l'orbite de la Terre, et à faire dix fois le tour de la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "10 tours de la Lune !",
+     "size": "l",
+     "color": "gold",
+     "on": "dix fois",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils découvrent de leurs yeux sa face cachée, couverte de cratères, que personne n'avait jamais vue directement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la face cachée",
+     "size": "l",
+     "color": "pink",
+     "on": "face cachée"
+    },
+    {
+     "t": "text",
+     "text": "vue pour la 1re fois !",
+     "size": "m",
+     "on": "jamais"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à chaque passage derrière la Lune, ils perdaient tout contact radio avec la Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "derrière la Lune :",
+     "size": "m",
+     "on": "derrière"
+    },
+    {
+     "t": "text",
+     "text": "silence radio !",
+     "size": "l",
+     "color": "gold",
+     "on": "radio",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Apollo 8, les premiers humains à voir la face cachée de la Lune 🌑👀\n\nEn décembre 1968, la mission Apollo 8 emmène Frank Borman, Jim Lovell et Bill Anders là où aucun humain n'était jamais allé : autour de la Lune. Ils sont les premiers à quitter l'orbite terrestre, et effectuent dix révolutions autour de la Lune. Ils deviennent ainsi les premiers êtres humains à voir de leurs propres yeux la face cachée de la Lune, criblée de cratères. À chaque passage derrière elle, ils perdaient tout contact radio avec la Terre pendant environ 45 minutes. C'est aussi lors de cette mission que Bill Anders a pris la célèbre photo « Earthrise », le lever de Terre. Sur la photo, la face cachée de la Lune.\n\nTu aurais aimé être à leur place ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo8",
+  "#lune",
+  "#facecachee",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Apollo_8",
+  "https://www.nasa.gov/history/"
+ ]
+}

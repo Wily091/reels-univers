@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 332,
+ "title": "Sur la Lune, un marteau et une plume tombent à la même vitesse",
+ "subject": "Apollo 15",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un marteau",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "et une plume",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tombent EN MÊME TEMPS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'expérience de la plume",
+   "on": "plume"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur la Lune, un astronaute a lâché un marteau et une plume, et qu'ils sont tombés exactement en même temps ?"
+   ]
+  },
+  {
+   "say": [
+    "Le deux août mille neuf cent soixante et onze, pendant la mission Apollo quinze, l'astronaute David Scott fait une petite expérience,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 août 1971 : Apollo 15",
+     "size": "l",
+     "color": "gold",
+     "on": "quinze"
+    },
+    {
+     "t": "text",
+     "text": "David Scott",
+     "size": "m",
+     "on": "Scott"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il tient un marteau dans une main et une plume de faucon dans l'autre, et les lâche en même temps,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un marteau",
+     "size": "l",
+     "on": "marteau"
+    },
+    {
+     "t": "text",
+     "text": "+ une plume de faucon",
+     "size": "l",
+     "color": "pink",
+     "on": "faucon"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sur Terre, la plume tomberait bien plus lentement à cause de l'air, mais sur la Lune, il n'y a pas d'air,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'air",
+     "size": "l",
+     "color": "gold",
+     "on": "pas d'air",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "= pas de freinage",
+     "size": "m",
+     "on": "Lune, il"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ils touchent le sol au même moment, comme Galilée l'avait prédit plus de trois cents ans plus tôt."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "même moment !",
+     "size": "l",
+     "color": "pink",
+     "on": "moment"
+    },
+    {
+     "t": "text",
+     "text": "Galilée avait raison",
+     "size": "m",
+     "on": "Galilée",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "sol",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur la Lune, un marteau et une plume tombent exactement en même temps 🔨🪶\n\nLe 2 août 1971, à la fin d'une sortie lunaire de la mission Apollo 15, l'astronaute David Scott réalise une expérience célèbre devant la caméra. Il lâche en même temps un marteau de géologue et une plume de faucon. Sur Terre, la plume tomberait bien plus lentement, freinée par la résistance de l'air. Mais sur la Lune, il n'y a pratiquement pas d'atmosphère : les deux objets touchent le sol exactement au même moment ! Une démonstration spectaculaire de ce que Galilée avait compris plus de trois siècles plus tôt : dans le vide, tous les objets tombent à la même vitesse, quelle que soit leur masse. Sur la photo, un astronaute d'Apollo sur la Lune.\n\nTu aurais parié sur lequel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo15",
+  "#physique",
+  "#galilee",
+  "#lune",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Apollo_15",
+  "https://www.nasa.gov/history/"
+ ]
+}

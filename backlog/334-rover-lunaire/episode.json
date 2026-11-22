@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 333,
+ "title": "Les astronautes ont conduit une voiture sur la Lune",
+ "subject": "Apollo 15",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les astronautes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ont conduit",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une VOITURE sur la Lune ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la voiture lunaire",
+   "on": "voiture"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des astronautes ont conduit une voiture électrique sur la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelait le rover lunaire, une petite voiture électrique pliable, arrivée sur la Lune en mille neuf cent soixante et onze avec Apollo quinze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le rover lunaire",
+     "size": "l",
+     "color": "pink",
+     "on": "rover"
+    },
+    {
+     "t": "text",
+     "text": "1971 : Apollo 15",
+     "size": "m",
+     "color": "gold",
+     "on": "quinze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle était repliée comme un origami contre le module lunaire, et les astronautes la dépliaient sur place,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pliée comme un origami !",
+     "size": "l",
+     "color": "gold",
+     "on": "origami",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle roulait à une quinzaine de kilomètres heure, et leur permettait d'explorer bien plus loin à pied,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 15 km/h",
+     "size": "l",
+     "color": "pink",
+     "on": "quinzaine"
+    },
+    {
+     "t": "text",
+     "text": "explorer + loin",
+     "size": "m",
+     "on": "explorer"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "loin",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "trois de ces voitures ont été utilisées, et elles sont toujours garées sur la Lune."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3 rovers",
+     "size": "l",
+     "on": "trois"
+    },
+    {
+     "t": "text",
+     "text": "toujours garés là-haut !",
+     "size": "m",
+     "color": "gold",
+     "on": "garées",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les astronautes d'Apollo ont conduit une voiture électrique sur la Lune 🚙🌕\n\nPour les trois dernières missions Apollo (15, 16 et 17), en 1971 et 1972, la NASA a envoyé sur la Lune un véhicule étonnant : le Lunar Roving Vehicle, une petite voiture électrique à quatre roues. Repliée comme un origami contre le flanc du module lunaire, elle était dépliée sur place par les astronautes. Alimentée par des batteries, elle roulait à environ 13 km/h, avec une pointe autour de 18 km/h, et permettait d'explorer des sites bien plus éloignés qu'à pied, en rapportant plus d'échantillons. Les trois rovers utilisés sont restés sur la Lune, toujours garés là où les astronautes les ont laissés ! Sur la photo, un astronaute d'Apollo sur la Lune.\n\nTu aimerais conduire là-haut ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo",
+  "#roverlunaire",
+  "#lune",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Lunar_Roving_Vehicle",
+  "https://www.nasa.gov/history/"
+ ]
+}

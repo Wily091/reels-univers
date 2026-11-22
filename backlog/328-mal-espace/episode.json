@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 327,
+ "title": "Beaucoup d'astronautes ont le mal de l'espace",
+ "subject": "Nausée",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les astronautes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ont souvent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "le MAL DE L'ESPACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le mal de l'espace",
+   "on": "astronautes"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que beaucoup d'astronautes ont la nausée pendant leurs premiers jours dans l'espace ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle le mal de l'espace, un peu comme le mal des transports,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le mal de l'espace",
+     "size": "l",
+     "color": "pink",
+     "on": "mal de l'espace"
+    },
+    {
+     "t": "text",
+     "text": "≈ mal des transports",
+     "size": "m",
+     "on": "transports"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ton oreille interne, qui gère l'équilibre, ne sent plus la gravité, alors que tes yeux voient une cabine bien droite,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'oreille interne",
+     "size": "l",
+     "color": "gold",
+     "on": "oreille"
+    },
+    {
+     "t": "text",
+     "text": "vs les yeux",
+     "size": "m",
+     "on": "yeux"
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "équilibre",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "le cerveau reçoit des messages qui se contredisent, et ça peut donner la nausée, des maux de tête et des vertiges,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "messages contradictoires",
+     "size": "m",
+     "on": "contredisent"
+    },
+    {
+     "t": "text",
+     "text": "→ nausée !",
+     "size": "l",
+     "color": "pink",
+     "on": "nausée",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "environ la moitié des astronautes le ressentent, mais en général, ça passe au bout de quelques jours."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 1 astronaute sur 2",
+     "size": "l",
+     "color": "gold",
+     "on": "moitié"
+    },
+    {
+     "t": "text",
+     "text": "ça passe en quelques jours",
+     "size": "m",
+     "on": "passe",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le mal de l'espace touche environ un astronaute sur deux 🤢🚀\n\nPendant leurs premiers jours en apesanteur, environ la moitié des astronautes souffrent du « mal de l'espace » (syndrome d'adaptation à l'espace) : nausées, vomissements, maux de tête, vertiges. La cause ressemble à celle du mal des transports : l'oreille interne, qui gère notre équilibre en détectant la gravité, ne perçoit plus de « bas », alors que les yeux voient une cabine aménagée normalement. Le cerveau reçoit des informations contradictoires, et réagit mal. Heureusement, il s'adapte en général en deux à quatre jours. Même des pilotes chevronnés y sont sujets, et on ne peut pas vraiment prédire qui sera touché. Sur la photo, l'ISS.\n\nToi, tu as le mal des transports ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#astronaute",
+  "#apesanteur",
+  "#sante",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Space_adaptation_syndrome",
+  "https://www.nasa.gov/international-space-station/"
+ ]
+}

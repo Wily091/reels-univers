@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 330,
+ "title": "Le premier touriste de l'espace a payé environ 20 millions de dollars",
+ "subject": "Tourisme",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le 1er touriste spatial",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a payé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "20 MILLIONS de dollars ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le 1er touriste",
+   "on": "touriste"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le premier touriste de l'espace aurait payé environ vingt millions de dollars pour son voyage ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Dennis Tito, un homme d'affaires américain, ancien ingénieur de la NASA,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Dennis Tito",
+     "size": "l",
+     "color": "pink",
+     "on": "Tito"
+    },
+    {
+     "t": "text",
+     "text": "ancien ingénieur",
+     "size": "m",
+     "on": "ingénieur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le vingt-huit avril deux mille un, il décolle à bord d'un vaisseau russe Soyouz,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "28 avril 2001",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-huit"
+    },
+    {
+     "t": "text",
+     "text": "à bord d'un Soyouz",
+     "size": "m",
+     "on": "Soyouz"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décolle",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il passe environ une semaine à bord de la Station spatiale internationale, à soixante ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 1 semaine sur l'ISS",
+     "size": "l",
+     "on": "semaine"
+    },
+    {
+     "t": "text",
+     "text": "à 60 ans !",
+     "size": "m",
+     "color": "gold",
+     "on": "soixante"
+    }
+   ]
+  },
+  {
+   "say": [
+    "son billet aurait coûté environ vingt millions de dollars, et depuis, le tourisme spatial s'est développé."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 20 millions $",
+     "size": "xl",
+     "color": "pink",
+     "on": "vingt millions",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "le tourisme spatial est né",
+     "size": "m",
+     "on": "tourisme",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le premier touriste de l'espace aurait payé environ 20 millions de dollars 💸🚀\n\nLe 28 avril 2001, l'homme d'affaires américain Dennis Tito, ancien ingénieur du Jet Propulsion Laboratory de la NASA, décolle de Baïkonour à bord d'un vaisseau russe Soyouz. Âgé de 60 ans, il passe environ une semaine à bord de la Station spatiale internationale, devenant le premier touriste spatial à financer lui-même son voyage. Son billet aurait coûté environ 20 millions de dollars. La NASA n'était pas favorable à cette visite, mais l'agence russe l'a rendue possible. Depuis, d'autres touristes ont suivi, et des entreprises privées proposent désormais des vols suborbitaux ou orbitaux. Sur la photo, l'ISS.\n\nTu paierais combien pour y aller ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#tourismespatial",
+  "#iss",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Dennis_Tito",
+  "https://www.nasa.gov/international-space-station/"
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 328,
+ "title": "Quelle est la température de l'espace ?",
+ "subject": "Espace",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Quelle est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la température",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de l'ESPACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "~ −270 °C",
+   "on": "température"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu t'es déjà demandé quelle est la température de l'espace ?"
+   ]
+  },
+  {
+   "say": [
+    "Loin de toute étoile, l'espace baigne dans une lumière très ancienne, venue du Big Bang,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "loin des étoiles",
+     "size": "m",
+     "on": "étoile"
+    },
+    {
+     "t": "text",
+     "text": "une lumière du Big Bang",
+     "size": "l",
+     "color": "gold",
+     "on": "Big Bang"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle donne au vide une température d'environ moins deux cent soixante-dix degrés, à peine au-dessus du zéro absolu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ −270 °C",
+     "size": "xl",
+     "color": "pink",
+     "on": "moins deux cent",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "presque le zéro absolu",
+     "size": "m",
+     "on": "zéro"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "température",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais près du Soleil, c'est différent, un objet au soleil peut chauffer à plus de cent degrés, et geler à l'ombre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au soleil : + de 100 °C",
+     "size": "l",
+     "color": "gold",
+     "on": "cent degrés"
+    },
+    {
+     "t": "text",
+     "text": "à l'ombre : glacial",
+     "size": "m",
+     "on": "ombre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en fait, le vide ne transmet presque pas la chaleur, c'est la lumière reçue qui fait tout."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "c'est la lumière",
+     "size": "m",
+     "on": "lumière reçue"
+    },
+    {
+     "t": "text",
+     "text": "qui fait la température !",
+     "size": "l",
+     "color": "pink",
+     "on": "tout",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Quelle est la température de l'espace ? Environ −270 °C… ou pas ! 🌡️\n\nLoin de toute étoile, l'espace est baigné par le fond diffus cosmologique, la plus ancienne lumière de l'univers, émise après le Big Bang. Elle fixe la température du vide intergalactique à environ 2,7 kelvins, soit environ −270 °C, à peine au-dessus du zéro absolu (−273,15 °C). Mais près d'une étoile, tout change : comme le vide ne transporte presque pas la chaleur, la température d'un objet dépend surtout de la lumière qu'il reçoit. Ainsi, en orbite autour de la Terre, une face exposée au Soleil peut dépasser 120 °C, tandis que la face à l'ombre descend sous −100 °C. Sur la photo, le champ ultra-profond de Hubble.\n\nTu pensais qu'il faisait si froid ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#espace",
+  "#temperature",
+  "#bigbang",
+  "#physique",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Fond_diffus_cosmologique",
+  "https://science.nasa.gov/universe/"
+ ]
+}

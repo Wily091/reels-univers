@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 335,
+ "title": "La fusée d'Apollo 12 a été frappée deux fois par la foudre",
+ "subject": "Apollo 12",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette fusée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a été frappée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "par la FOUDRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un décollage électrique",
+   "on": "fusée"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la fusée d'Apollo douze a été frappée deux fois par la foudre juste après le décollage ?"
+   ]
+  },
+  {
+   "say": [
+    "Le quatorze novembre mille neuf cent soixante-neuf, la fusée Saturn cinq décolle sous un ciel orageux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "14 novembre 1969",
+     "size": "l",
+     "color": "gold",
+     "on": "quatorze novembre"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "fusée",
+     "row": "same",
+     "scale": 0.5
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "orageux",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "dans la première minute, elle est frappée deux fois par la foudre, et des voyants s'allument partout dans la cabine,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 coups de foudre !",
+     "size": "l",
+     "color": "pink",
+     "on": "deux fois",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "tous les voyants s'allument",
+     "size": "m",
+     "on": "voyants"
+    }
+   ]
+  },
+  {
+   "say": [
+    "au sol, un jeune ingénieur, John Aaron, se souvient d'un problème similaire, et propose de basculer un interrupteur peu connu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "John Aaron",
+     "size": "l",
+     "color": "gold",
+     "on": "Aaron"
+    },
+    {
+     "t": "text",
+     "text": "un interrupteur oublié",
+     "size": "m",
+     "on": "interrupteur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ça marche, tout revient, et Apollo douze se posera sur la Lune quelques jours plus tard."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ça marche !",
+     "size": "l",
+     "color": "pink",
+     "on": "marche"
+    },
+    {
+     "t": "text",
+     "text": "Apollo 12 atteint la Lune",
+     "size": "m",
+     "on": "posera",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La fusée d'Apollo 12 a été frappée deux fois par la foudre au décollage ⚡🚀\n\nLe 14 novembre 1969, la fusée Saturn V de la mission Apollo 12 décolle sous un ciel nuageux. Dans la première minute du vol, elle est frappée deux fois par la foudre, déclenchée par la fusée elle-même et son panache. Dans la cabine, une multitude de voyants d'alarme s'allument et une partie des instruments devient illisible. Au centre de contrôle, un jeune ingénieur de 24 ans, John Aaron, se souvient d'une anomalie similaire vue en simulation et recommande de basculer un interrupteur méconnu, « SCE to AUX ». L'astronaute Alan Bean le trouve, et tout revient à la normale ! Apollo 12 s'est ensuite posée avec succès sur la Lune. Une histoire de sang-froid légendaire.\n\nTu aurais gardé ton calme ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo12",
+  "#foudre",
+  "#nasa",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Apollo_12",
+  "https://www.nasa.gov/history/"
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 326,
+ "title": "Dans l'espace, la vue des astronautes peut changer",
+ "subject": "Vision",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "les yeux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "changent de FORME ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des yeux aplatis",
+   "on": "yeux"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que lors des longs séjours dans l'espace, les yeux de certains astronautes changent de forme ?"
+   ]
+  },
+  {
+   "say": [
+    "En apesanteur, les liquides du corps remontent vers la tête, et appuient un peu derrière les yeux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les liquides remontent",
+     "size": "l",
+     "color": "gold",
+     "on": "remontent"
+    },
+    {
+     "t": "text",
+     "text": "vers la tête",
+     "size": "m",
+     "on": "tête"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, l'arrière de l'œil peut s'aplatir légèrement, et la vue de près devient moins nette,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'œil s'aplatit",
+     "size": "l",
+     "color": "pink",
+     "on": "aplatir",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "vue + floue",
+     "size": "m",
+     "on": "nette"
+    }
+   ]
+  },
+  {
+   "say": [
+    "beaucoup d'astronautes emportent donc des lunettes spéciales pour s'adapter pendant la mission,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des lunettes",
+     "size": "l",
+     "color": "gold",
+     "on": "lunettes"
+    },
+    {
+     "t": "text",
+     "text": "ajustables à bord",
+     "size": "m",
+     "on": "adapter"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est un des défis à résoudre avant d'envoyer des humains vers Mars, pour un voyage de plusieurs années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un défi",
+     "size": "m",
+     "on": "défis"
+    },
+    {
+     "t": "text",
+     "text": "avant Mars !",
+     "size": "l",
+     "color": "pink",
+     "on": "Mars",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans l'espace, les yeux de certains astronautes changent de forme 👁️\n\nLors des longs séjours en apesanteur, les liquides du corps se redistribuent vers la tête. Chez de nombreux astronautes, cela provoque un ensemble de changements appelé SANS (syndrome neuro-oculaire associé aux vols spatiaux) : l'arrière du globe oculaire peut s'aplatir, le nerf optique gonfler légèrement, et la vision de près se dégrader. C'est pourquoi les astronautes emportent souvent des lunettes de différentes corrections. Ces effets sont parfois durables après le retour. Comprendre et prévenir ce phénomène est l'un des grands défis médicaux avant d'envoyer des humains vers Mars, pour un voyage de plusieurs années. Sur la photo, l'ISS.\n\nTu savais que l'espace touchait les yeux ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#astronaute",
+  "#vision",
+  "#nasa",
+  "#sante",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Spaceflight-associated_neuro-ocular_syndrome",
+  "https://www.nasa.gov/international-space-station/"
+ ]
+}

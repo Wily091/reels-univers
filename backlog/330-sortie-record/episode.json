@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 329,
+ "title": "La plus longue sortie dans l'espace a duré presque 9 heures",
+ "subject": "Record",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La + longue sortie",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a duré ~ 9 HEURES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un record de sortie",
+   "on": "sortie"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu sais combien de temps a duré la plus longue sortie dans l'espace ?"
+   ]
+  },
+  {
+   "say": [
+    "Le onze mars deux mille un, les astronautes américains Jim Voss et Susan Helms sortent de la navette spatiale,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "11 mars 2001",
+     "size": "l",
+     "color": "gold",
+     "on": "onze mars"
+    },
+    {
+     "t": "text",
+     "text": "Jim Voss et Susan Helms",
+     "size": "m",
+     "on": "Voss"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils doivent préparer la Station spatiale pour l'arrivée de nouveaux modules,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "travaux sur la Station",
+     "size": "l",
+     "on": "Station"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et leur sortie dure huit heures et cinquante-six minutes, presque neuf heures dans le vide,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "8 h 56 min !",
+     "size": "xl",
+     "color": "pink",
+     "on": "huit heures",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "un record qui tient toujours, sans manger, avec juste un peu d'eau dans leur combinaison."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "record toujours actuel",
+     "size": "m",
+     "on": "record"
+    },
+    {
+     "t": "text",
+     "text": "sans manger !",
+     "size": "l",
+     "color": "gold",
+     "on": "manger",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La plus longue sortie dans l'espace a duré 8 h 56 min 👩‍🚀\n\nLe 11 mars 2001, lors de la mission STS-102 de la navette Discovery, les astronautes américains Jim Voss et Susan Helms sont sortis dans l'espace pour préparer la Station spatiale internationale à l'arrivée de nouveaux éléments. Leur sortie extravéhiculaire a duré 8 heures et 56 minutes : un record qui tient toujours aujourd'hui ! Pendant tout ce temps, ils ne pouvaient pas manger, et disposaient seulement d'une petite poche d'eau dans leur combinaison. Les sorties dans l'espace sont parmi les tâches les plus épuisantes et les plus risquées pour les astronautes. Sur la photo, l'ISS. Un exploit d'endurance.\n\nTu tiendrais 9 heures dans une combinaison ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#record",
+  "#astronaute",
+  "#iss",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/List_of_longest_spacewalks",
+  "https://www.nasa.gov/international-space-station/"
+ ]
+}

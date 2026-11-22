@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 323,
+ "title": "Dans l'espace, l'eau forme des boules flottantes",
+ "subject": "Eau",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "l'eau forme",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des BOULES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des bulles d'eau",
+   "on": "eau"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que dans l'espace, l'eau ne coule pas, mais forme des boules qui flottent ?"
+   ]
+  },
+  {
+   "say": [
+    "Sur Terre, la gravité fait couler l'eau et l'étale au fond d'un verre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre : elle coule",
+     "size": "l",
+     "color": "gold",
+     "on": "couler"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "gravité",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en apesanteur, c'est la tension de surface qui prend le dessus, une force qui tire l'eau vers l'intérieur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la tension de surface",
+     "size": "l",
+     "color": "pink",
+     "on": "tension"
+    },
+    {
+     "t": "text",
+     "text": "tire l'eau vers l'intérieur",
+     "size": "m",
+     "on": "intérieur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la forme qui prend le moins de place, c'est la sphère, donc l'eau devient une boule parfaite,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une boule parfaite !",
+     "size": "xl",
+     "color": "gold",
+     "on": "boule",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "les astronautes s'amusent à les attraper avec une paille, et doivent faire attention, l'eau peut coller au visage."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on la boit à la paille !",
+     "size": "l",
+     "color": "pink",
+     "on": "paille"
+    },
+    {
+     "t": "text",
+     "text": "attention au visage…",
+     "size": "m",
+     "on": "visage",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans l'espace, l'eau forme des boules qui flottent 💧\n\nSur Terre, la gravité attire l'eau vers le bas : elle coule et prend la forme de son récipient. En apesanteur, la gravité ne domine plus, et c'est une autre force qui prend le dessus : la tension de surface, qui attire les molécules d'eau les unes vers les autres. Or, la forme qui offre la plus petite surface pour un volume donné est la sphère : l'eau forme donc des boules qui flottent dans la cabine ! Les astronautes s'amusent à les gober ou à les aspirer avec une paille. Mais l'eau peut aussi coller à la peau et aux yeux : lors d'une sortie en 2013, le casque de l'astronaute Luca Parmitano s'est rempli d'eau. Sur la photo, l'ISS.\n\nTu aimerais attraper une boule d'eau ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#eau",
+  "#apesanteur",
+  "#iss",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/",
+  "https://fr.wikipedia.org/wiki/Tension_superficielle"
+ ]
+}

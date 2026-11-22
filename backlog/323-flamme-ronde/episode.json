@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 322,
+ "title": "Dans l'espace, une flamme est ronde et bleue",
+ "subject": "Feu",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une flamme",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est RONDE et BLEUE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le feu en apesanteur",
+   "on": "flamme"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que dans l'espace, une flamme n'a pas sa forme habituelle, mais devient une petite boule bleue ?"
+   ]
+  },
+  {
+   "say": [
+    "Sur Terre, l'air chaud monte, il étire la flamme vers le haut et lui donne sa forme de goutte,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre :",
+     "size": "m",
+     "on": "Terre"
+    },
+    {
+     "t": "text",
+     "text": "l'air chaud monte",
+     "size": "l",
+     "color": "gold",
+     "on": "monte"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "chaud",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en apesanteur, l'air chaud ne monte plus, alors la flamme s'étale dans toutes les directions,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en apesanteur :",
+     "size": "m",
+     "on": "apesanteur"
+    },
+    {
+     "t": "text",
+     "text": "rien ne monte !",
+     "size": "l",
+     "color": "pink",
+     "on": "plus"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, elle devient une sphère, souvent bleue, car elle brûle de façon plus complète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une boule de feu bleue",
+     "size": "l",
+     "color": "gold",
+     "on": "sphère",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "des expériences sur la Station spatiale étudient ces flammes, pour mieux comprendre les incendies et améliorer la sécurité des vaisseaux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "étudiée sur l'ISS",
+     "size": "m",
+     "on": "Station"
+    },
+    {
+     "t": "text",
+     "text": "pour la sécurité !",
+     "size": "l",
+     "color": "pink",
+     "on": "sécurité",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans l'espace, une flamme devient une petite boule bleue 🔵🔥\n\nSur Terre, la flamme d'une bougie a une forme de goutte allongée parce que l'air chauffé, plus léger, monte et aspire de l'air frais par le bas : c'est la convection. En apesanteur, cette convection disparaît : l'air chaud ne monte plus. L'oxygène arrive alors lentement de toutes les directions, et la flamme prend la forme d'une sphère, souvent bleue et plus faible. Des expériences de la NASA à bord de la Station spatiale internationale, comme FLEX, ont même découvert des « flammes froides » étonnantes. Comprendre le feu en apesanteur est essentiel pour la sécurité des astronautes. Sur la photo, l'ISS.\n\nTu imaginais le feu comme ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#feu",
+  "#apesanteur",
+  "#iss",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/",
+  "https://en.wikipedia.org/wiki/Combustion_in_microgravity"
+ ]
+}

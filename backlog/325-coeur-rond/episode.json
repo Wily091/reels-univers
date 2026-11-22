@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 324,
+ "title": "Dans l'espace, le cœur devient plus rond",
+ "subject": "Cœur",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ton cœur",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "devient plus ROND ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un cœur qui change de forme",
+   "on": "cœur"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que dans l'espace, le cœur des astronautes devient plus rond ?"
+   ]
+  },
+  {
+   "say": [
+    "Sur Terre, ton cœur doit pomper fort pour faire monter le sang jusqu'à la tête, contre la gravité,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre :",
+     "size": "m",
+     "on": "Terre"
+    },
+    {
+     "t": "text",
+     "text": "il pompe contre la gravité",
+     "size": "l",
+     "color": "gold",
+     "on": "pomper"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en apesanteur, il a beaucoup moins d'efforts à faire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "moins d'efforts",
+     "size": "l",
+     "color": "pink",
+     "on": "efforts"
+    }
+   ]
+  },
+  {
+   "say": [
+    "une étude de la NASA a montré que le cœur des astronautes devient environ dix pour cent plus sphérique pendant leur séjour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 10 % + sphérique !",
+     "size": "xl",
+     "color": "gold",
+     "on": "dix pour cent",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "heureusement, il reprend sa forme normale peu de temps après le retour sur Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "puis il redevient",
+     "size": "m",
+     "on": "reprend"
+    },
+    {
+     "t": "text",
+     "text": "normal sur Terre !",
+     "size": "l",
+     "color": "pink",
+     "on": "retour",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans l'espace, le cœur des astronautes devient plus rond ❤️\n\nSur Terre, le cœur travaille en permanence contre la gravité pour pomper le sang jusqu'au cerveau. En apesanteur, cette contrainte disparaît en grande partie : le cœur a moins d'efforts à fournir et s'adapte. Une étude de la NASA publiée en 2014, menée sur douze astronautes de la Station spatiale internationale, a montré que leur cœur devenait environ 9,4 % plus sphérique pendant leur séjour en orbite. Heureusement, ce changement est temporaire : le cœur retrouve sa forme allongée habituelle peu de temps après le retour sur Terre. Ces résultats sont importants pour préparer de longs voyages vers Mars. Sur la photo, l'ISS.\n\nTu savais que l'espace changeait le corps ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#coeur",
+  "#astronaute",
+  "#nasa",
+  "#sante",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/",
+  "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body"
+ ]
+}

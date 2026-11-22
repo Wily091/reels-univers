@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 334,
+ "title": "Pendant Apollo 11, Michael Collins était l'humain le plus seul de l'univers",
+ "subject": "Apollo 11",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pendant que les autres",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "marchaient sur la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il était TOUT SEUL ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'astronaute oublié",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que pendant qu'Armstrong et Aldrin marchaient sur la Lune, le troisième astronaute était tout seul en orbite ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait Michael Collins, et il pilotait le module de commande, qui tournait autour de la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Michael Collins",
+     "size": "l",
+     "color": "pink",
+     "on": "Collins"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tournait",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "à chaque fois qu'il passait derrière la Lune, il perdait tout contact radio avec la Terre et avec ses coéquipiers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "derrière la Lune :",
+     "size": "m",
+     "on": "derrière"
+    },
+    {
+     "t": "text",
+     "text": "plus aucun contact !",
+     "size": "l",
+     "color": "gold",
+     "on": "contact",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "il était alors l'être humain le plus isolé de l'histoire, seul, à des milliers de kilomètres de tout le monde,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'humain le + isolé",
+     "size": "l",
+     "color": "pink",
+     "on": "isolé"
+    },
+    {
+     "t": "text",
+     "text": "de l'histoire !",
+     "size": "m",
+     "on": "histoire"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pourtant, il a raconté qu'il ne s'était pas senti seul, mais plutôt confiant, presque exalté."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas seul :",
+     "size": "m",
+     "on": "seul, mais"
+    },
+    {
+     "t": "text",
+     "text": "confiant, presque exalté",
+     "size": "l",
+     "color": "gold",
+     "on": "exalté",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pendant Apollo 11, Michael Collins était l'humain le plus isolé de l'histoire 🌕\n\nEn juillet 1969, pendant que Neil Armstrong et Buzz Aldrin marchaient sur la Lune, le troisième membre de l'équipage d'Apollo 11, Michael Collins, était resté seul à bord du module de commande Columbia, en orbite lunaire. À chaque révolution, quand il passait derrière la Lune, il perdait tout contact radio avec la Terre et avec ses coéquipiers, pendant environ 48 minutes. Il était alors l'être humain le plus isolé de l'histoire, à plus de 3 000 km de ses deux collègues et à près de 380 000 km du reste de l'humanité. Dans ses mémoires, il a raconté avoir ressenti non pas de la solitude, mais de la conscience, de l'anticipation, de la satisfaction et même de l'exultation. Sur la photo, la Lune.\n\nTu aurais préféré marcher ou rester en orbite ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo11",
+  "#michaelcollins",
+  "#lune",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Michael_Collins_(astronaute)",
+  "https://www.nasa.gov/history/"
+ ]
+}

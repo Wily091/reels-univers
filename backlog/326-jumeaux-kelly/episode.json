@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 325,
+ "title": "La NASA a comparé deux jumeaux, l'un dans l'espace, l'autre sur Terre",
+ "subject": "Jumeaux",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un jumeau dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "l'autre sur Terre :",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qu'est-ce qui CHANGE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'étude des jumeaux",
+   "on": "jumeau"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la NASA a comparé deux vrais jumeaux, l'un envoyé dans l'espace pendant presque un an, l'autre resté sur Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Scott Kelly a passé trois cent quarante jours à bord de la Station spatiale, en deux mille quinze et deux mille seize,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Scott Kelly",
+     "size": "l",
+     "color": "pink",
+     "on": "Scott"
+    },
+    {
+     "t": "text",
+     "text": "340 jours dans l'espace",
+     "size": "m",
+     "color": "gold",
+     "on": "trois cent quarante"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pendant ce temps, son frère jumeau Mark, lui aussi astronaute, est resté sur Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "son jumeau Mark",
+     "size": "l",
+     "color": "gold",
+     "on": "Mark"
+    },
+    {
+     "t": "text",
+     "text": "resté sur Terre",
+     "size": "m",
+     "on": "resté"
+    }
+   ]
+  },
+  {
+   "say": [
+    "les scientifiques ont comparé leurs corps, leur sang, leurs gènes, et ont vu des changements chez Scott,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "corps, sang, gènes…",
+     "size": "m",
+     "on": "gènes"
+    },
+    {
+     "t": "text",
+     "text": "des changements !",
+     "size": "l",
+     "color": "pink",
+     "on": "changements",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "bonne nouvelle, la plupart sont revenus à la normale après son retour, ce qui rassure pour les futurs voyages vers Mars."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la plupart réversibles",
+     "size": "l",
+     "color": "gold",
+     "on": "normale"
+    },
+    {
+     "t": "text",
+     "text": "rassurant pour Mars !",
+     "size": "m",
+     "on": "Mars",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La NASA a comparé deux jumeaux : l'un dans l'espace, l'autre sur Terre 👨‍🚀👨\n\nEntre 2015 et 2016, l'astronaute américain Scott Kelly a passé 340 jours à bord de la Station spatiale internationale. Pendant ce temps, son frère jumeau identique, Mark Kelly, lui aussi ancien astronaute, est resté sur Terre. Une occasion unique pour la NASA : comparer deux personnes au patrimoine génétique identique, l'une dans l'espace, l'autre au sol. Les résultats, publiés en 2019, ont montré des changements chez Scott : expression de certains gènes, système immunitaire, vision, longueur des télomères… Mais la grande majorité de ces changements sont revenus à la normale quelques mois après son retour. Une étude clé pour préparer les missions vers Mars.\n\nTu aurais voulu être lequel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#nasa",
+  "#jumeaux",
+  "#astronaute",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/NASA_Twins_Study",
+  "https://www.nasa.gov/international-space-station/"
+ ]
+}
