@@ -1,0 +1,145 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 315,
+ "title": "Éris, la planète naine qui a fait perdre son statut à Pluton",
+ "subject": "Éris",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète naine",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a fait perdre",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "son titre à PLUTON ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la responsable",
+   "on": "Pluton"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une planète naine découverte en deux mille cinq a indirectement fait perdre à Pluton son statut de planète ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Éris, et elle se trouve encore plus loin que Pluton, aux confins du système solaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Éris",
+     "size": "xl",
+     "color": "pink",
+     "on": "Éris"
+    },
+    {
+     "t": "text",
+     "text": "+ loin que Pluton",
+     "size": "m",
+     "on": "loin"
+    }
+   ]
+  },
+  {
+   "say": [
+    "quand on l'a découverte, elle semblait aussi grosse que Pluton, et elle est même un peu plus massive,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ massive que Pluton !",
+     "size": "l",
+     "color": "gold",
+     "on": "massive",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors les astronomes ont dû choisir, soit Éris devenait la dixième planète, soit il fallait une nouvelle définition,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "10e planète ?",
+     "size": "l",
+     "on": "dixième"
+    },
+    {
+     "t": "text",
+     "text": "ou nouvelle définition ?",
+     "size": "m",
+     "color": "gold",
+     "on": "définition"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en deux mille six, Éris et Pluton sont toutes les deux devenues des planètes naines."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2006 : toutes les deux",
+     "size": "m",
+     "on": "deux mille six"
+    },
+    {
+     "t": "text",
+     "text": "planètes naines !",
+     "size": "l",
+     "color": "pink",
+     "on": "naines",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Éris, la planète naine qui a fait perdre à Pluton son statut de planète 🪐\n\nDécouverte en 2005 par l'équipe de l'astronome Mike Brown, Éris est une planète naine glacée située bien au-delà de Pluton, aux confins du système solaire. Elle a un diamètre presque identique à celui de Pluton, mais elle est environ 27 % plus massive. Sa découverte a obligé les astronomes à trancher : fallait-il en faire la dixième planète, et en ajouter peut-être des dizaines d'autres ? En 2006, l'Union astronomique internationale a préféré adopter une définition officielle des planètes : Pluton et Éris sont alors devenues des planètes naines. Son nom vient de la déesse grecque de la discorde… bien choisi ! Un fait d'astronomie.\n\nTu en veux à Éris ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#eris",
+  "#pluton",
+  "#planetenaine",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/(136199)_Éris",
+  "https://science.nasa.gov/dwarf-planets/eris/"
+ ]
+}

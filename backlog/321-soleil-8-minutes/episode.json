@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 320,
+ "title": "Si le Soleil disparaissait, on ne le saurait qu'après 8 minutes",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Si le Soleil disparaissait,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "on ne le saurait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qu'après 8 MINUTES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "8 minutes de retard",
+   "on": "Soleil"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que si le Soleil disparaissait d'un coup, on ne s'en rendrait compte qu'environ huit minutes plus tard ?"
+   ]
+  },
+  {
+   "say": [
+    "La lumière du Soleil met environ huit minutes et vingt secondes pour arriver jusqu'à nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 8 min 20 s",
+     "size": "xl",
+     "color": "pink",
+     "on": "huit minutes",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "on": "lumière",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "donc pendant ces huit minutes, on continuerait à le voir briller normalement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on le verrait encore",
+     "size": "l",
+     "color": "gold",
+     "on": "briller"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sa gravité voyage à la même vitesse que la lumière, donc la Terre continuerait aussi à tourner autour de lui pendant ce temps,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la gravité aussi",
+     "size": "m",
+     "on": "gravité"
+    },
+    {
+     "t": "text",
+     "text": "arrive 8 min après !",
+     "size": "l",
+     "color": "pink",
+     "on": "même vitesse"
+    }
+   ]
+  },
+  {
+   "say": [
+    "quand tu regardes le Soleil, enfin pas directement, tu vois en fait le Soleil d'il y a huit minutes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tu vois le Soleil",
+     "size": "m",
+     "on": "regardes"
+    },
+    {
+     "t": "text",
+     "text": "d'il y a 8 minutes !",
+     "size": "l",
+     "color": "gold",
+     "on": "il y a",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Si le Soleil disparaissait, on ne le saurait qu'au bout de 8 minutes ☀️⏱️\n\nLa lumière du Soleil met en moyenne environ 8 minutes et 20 secondes pour parcourir les 150 millions de kilomètres qui nous séparent de lui. Conséquence vertigineuse : si le Soleil disparaissait brusquement, nous continuerions à le voir briller pendant environ 8 minutes ! Et selon la relativité générale d'Einstein, la gravité se propage elle aussi à la vitesse de la lumière : la Terre continuerait donc à tourner comme si de rien n'était pendant ces quelques minutes. Rassure-toi, le Soleil ne peut pas disparaître ainsi. Mais retiens qu'en regardant le ciel, tu vois toujours le passé ! Ne regarde jamais le Soleil directement.\n\nÇa te rassure ou ça te fait peur ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#lumiere",
+  "#einstein",
+  "#physique",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/",
+  "https://fr.wikipedia.org/wiki/Vitesse_de_la_lumière"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 309,
+ "title": "Un rover a filmé une éclipse de Soleil sur Mars",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un rover a filmé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une éclipse",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur MARS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une éclipse martienne",
+   "on": "éclipse"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un robot a filmé une éclipse de Soleil depuis la surface de Mars ?"
+   ]
+  },
+  {
+   "say": [
+    "En avril deux mille vingt-deux, le rover Perseverance a pointé sa caméra vers le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "avril 2022",
+     "size": "l",
+     "color": "gold",
+     "on": "avril"
+    },
+    {
+     "t": "text",
+     "text": "Perseverance",
+     "size": "l",
+     "color": "pink",
+     "on": "Perseverance"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il a filmé Phobos, la lune de Mars, en train de passer devant le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Phobos passe devant",
+     "size": "l",
+     "on": "Phobos"
+    },
+    {
+     "t": "text",
+     "text": "le Soleil !",
+     "size": "m",
+     "color": "gold",
+     "on": "passer"
+    }
+   ]
+  },
+  {
+   "say": [
+    "comme Phobos est trop petite pour cacher tout le Soleil, on dirait une patate sombre qui glisse dessus,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une patate sombre",
+     "size": "l",
+     "color": "pink",
+     "on": "patate",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "qui glisse sur le Soleil",
+     "size": "m",
+     "on": "glisse"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et l'éclipse n'a duré qu'une quarantaine de secondes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 40 secondes !",
+     "size": "xl",
+     "color": "gold",
+     "on": "quarantaine",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le rover Perseverance a filmé une éclipse de Soleil sur Mars 🌞🥔\n\nLe 2 avril 2022, le rover Perseverance de la NASA a pointé sa caméra Mastcam-Z vers le Soleil et filmé un spectacle unique : Phobos, la plus grande lune de Mars, passant devant le disque solaire. Comme Phobos est bien trop petite pour masquer entièrement le Soleil, on voit une silhouette sombre en forme de pomme de terre glisser sur lui : c'est une éclipse partielle, ou plutôt un transit. Phobos tourne si vite autour de Mars que l'éclipse n'a duré qu'une quarantaine de secondes ! Ces observations aident les scientifiques à mieux connaître l'orbite de Phobos, qui se rapproche lentement de Mars. Sur la photo, Mars.\n\nTu l'avais vue, cette vidéo ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#perseverance",
+  "#eclipse",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/mars-2020-perseverance/",
+  "https://fr.wikipedia.org/wiki/Phobos_(lune)"
+ ]
+}

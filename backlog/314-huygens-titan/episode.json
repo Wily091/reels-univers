@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 313,
+ "title": "Une sonde européenne s'est posée sur Titan en 2005",
+ "subject": "Huygens",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "titan",
+   "file": "assets/images/titan_lacs_cassini.jpg",
+   "credit": "Mers de Titan · radar Cassini (couleurs simulées) · NASA/JPL-Caltech/ASI/USGS",
+   "page": "https://science.nasa.gov/photojournal/titans-north/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.05,
+    0.3,
+    0.65,
+    0.65
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une sonde européenne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "s'est posée sur",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "TITAN ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'atterrissage le + lointain",
+   "on": "sonde"
+  },
+  "photo": "titan"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde européenne s'est posée sur Titan, la grande lune de Saturne ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelait Huygens, et elle a voyagé pendant sept ans, accrochée à la sonde Cassini,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Huygens",
+     "size": "xl",
+     "color": "pink",
+     "on": "Huygens"
+    },
+    {
+     "t": "text",
+     "text": "7 ans de voyage avec Cassini",
+     "size": "m",
+     "on": "sept ans"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "le quatorze janvier deux mille cinq, elle a traversé l'épaisse atmosphère orange de Titan sous ses parachutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "14 janvier 2005",
+     "size": "l",
+     "color": "gold",
+     "on": "quatorze janvier"
+    },
+    {
+     "t": "text",
+     "text": "sous parachutes",
+     "size": "m",
+     "on": "parachutes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle s'est posée sur un sol humide, couvert de galets de glace, comme une plage,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des galets de glace !",
+     "size": "l",
+     "color": "pink",
+     "on": "galets",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est encore aujourd'hui l'atterrissage le plus lointain jamais réussi."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'atterrissage",
+     "size": "m",
+     "on": "atterrissage"
+    },
+    {
+     "t": "text",
+     "text": "le + lointain !",
+     "size": "l",
+     "color": "gold",
+     "on": "lointain",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Huygens, la sonde européenne qui s'est posée sur Titan en 2005 🪂\n\nLe 14 janvier 2005, la sonde européenne Huygens, conçue par l'ESA, s'est posée sur Titan, la plus grande lune de Saturne, après sept ans de voyage accrochée à la sonde Cassini de la NASA. Pendant sa descente de plus de deux heures sous parachutes, à travers l'épaisse atmosphère orangée de Titan, elle a photographié des réseaux de rivières et de collines. Elle s'est posée sur un sol humide et meuble, parsemé de galets de glace arrondis, rappelant un lit de rivière asséché. C'est encore aujourd'hui l'atterrissage le plus lointain jamais réalisé, à plus d'un milliard de kilomètres de la Terre. Sur la photo, Titan.\n\nTu savais que l'Europe avait fait ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#huygens",
+  "#titan",
+  "#esa",
+  "#saturne",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Huygens_(sonde_spatiale)",
+  "https://science.nasa.gov/saturn/moons/titan/"
+ ]
+}

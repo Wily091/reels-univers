@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 311,
+ "title": "Chaque année, des milliers de tonnes de poussière spatiale tombent sur Terre",
+ "subject": "Poussière",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Chaque année,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des milliers de tonnes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tombent de l'ESPACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "de la poussière d'étoiles",
+   "on": "milliers"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que chaque année, des milliers de tonnes de poussière venue de l'espace tombent sur la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont des micrométéorites, des grains minuscules, souvent plus petits qu'un grain de sable,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des micrométéorites",
+     "size": "l",
+     "color": "pink",
+     "on": "micrométéorites"
+    },
+    {
+     "t": "text",
+     "text": "+ petites qu'un grain de sable",
+     "size": "m",
+     "on": "sable"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "grains",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles viennent surtout de comètes et d'astéroïdes, et elles tombent en douceur partout sur la planète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "de comètes et d'astéroïdes",
+     "size": "m",
+     "on": "comètes"
+    },
+    {
+     "t": "text",
+     "text": "partout sur Terre",
+     "size": "l",
+     "color": "gold",
+     "on": "partout"
+    }
+   ]
+  },
+  {
+   "say": [
+    "une étude menée en Antarctique estime qu'environ cinq mille tonnes en arrivent au sol chaque année,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 5 000 tonnes / an !",
+     "size": "xl",
+     "color": "pink",
+     "on": "cinq mille",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et on en retrouve même dans les gouttières des toits, dans les grandes villes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "même dans",
+     "size": "m",
+     "on": "même"
+    },
+    {
+     "t": "text",
+     "text": "les gouttières !",
+     "size": "l",
+     "color": "gold",
+     "on": "gouttières",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Chaque année, des milliers de tonnes de poussière spatiale tombent sur Terre 🌠\n\nLa Terre reçoit en permanence une pluie invisible de poussière venue de l'espace : des micrométéorites, des grains minuscules, souvent plus petits qu'un grain de sable, issus de comètes et d'astéroïdes. Une étude franco-américaine publiée en 2021, menée près de la station Concordia en Antarctique, a estimé qu'environ 5 200 tonnes de ces poussières atteignent le sol chaque année ! Bien plus que les grosses météorites. On en retrouve partout, jusque dans les gouttières des toits des villes, où des chercheurs et amateurs ont appris à les identifier au microscope. Nous vivons littéralement sous une pluie de poussière d'étoiles. Sur la photo, la Terre.\n\nTu savais qu'il y en avait peut-être sur ton toit ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#micrometeorites",
+  "#poussiere",
+  "#terre",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Micrométéorite",
+  "https://science.nasa.gov/solar-system/meteors-meteorites/"
+ ]
+}

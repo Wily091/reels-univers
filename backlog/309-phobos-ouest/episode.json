@@ -1,0 +1,155 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 308,
+ "title": "Sur Mars, la lune Phobos se lève à l'ouest",
+ "subject": "Phobos",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "phobos",
+   "file": "assets/images/phobos_hirise.jpg",
+   "credit": "Phobos vue par MRO (HiRISE) · NASA/JPL-Caltech/Univ. of Arizona",
+   "page": "https://science.nasa.gov/mars/moons/phobos/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Mars,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "cette lune se lève",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à l'OUEST ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une lune à l'envers",
+   "on": "lune"
+  },
+  "photo": "phobos"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur Mars, une des deux lunes se lève à l'ouest et se couche à l'est ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Phobos, une petite lune en forme de patate, d'environ vingt-deux kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Phobos",
+     "size": "xl",
+     "color": "pink",
+     "on": "Phobos"
+    },
+    {
+     "t": "text",
+     "text": "~ 22 km",
+     "size": "m",
+     "color": "gold",
+     "on": "vingt-deux"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle tourne si près de Mars qu'elle en fait le tour en sept heures et demie, plus vite que Mars ne tourne sur elle-même,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 tour en ~ 7 h 30",
+     "size": "l",
+     "color": "gold",
+     "on": "sept heures",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, vue du sol martien, elle traverse le ciel à l'envers, de l'ouest vers l'est,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle se lève à l'ouest !",
+     "size": "l",
+     "color": "pink",
+     "on": "ouest"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle le fait environ deux fois par jour martien, alors que l'autre lune, Deimos, prend son temps."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 2 fois par jour",
+     "size": "l",
+     "on": "deux fois"
+    },
+    {
+     "t": "text",
+     "text": "Deimos, elle, traîne",
+     "size": "m",
+     "color": "gold",
+     "on": "Deimos",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Mars, la lune Phobos se lève à l'ouest et se couche à l'est 🌑\n\nMars possède deux petites lunes, Phobos et Deimos. Phobos, la plus grande, mesure environ 22 km et ressemble à une pomme de terre. Elle orbite si près de Mars, à environ 6 000 km de sa surface, qu'elle en fait le tour en à peine 7 h 39 min, bien plus vite que la planète ne tourne sur elle-même (environ 24 h 37 min). Résultat : vue depuis le sol martien, Phobos se lève à l'ouest et se couche à l'est, et traverse le ciel environ deux fois par jour ! Deimos, plus lointaine, se lève normalement à l'est et met plus de deux jours à traverser le ciel. Sur la photo, Phobos vue par la sonde Mars Reconnaissance Orbiter.\n\nTu imagines une lune qui se lève à l'ouest ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#phobos",
+  "#mars",
+  "#lunes",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/moons/phobos/",
+  "https://fr.wikipedia.org/wiki/Phobos_(lune)"
+ ]
+}

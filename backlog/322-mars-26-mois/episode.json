@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 321,
+ "title": "On ne peut partir vers Mars que tous les 26 mois",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On ne peut partir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "vers Mars",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que tous les 26 MOIS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une fenêtre de tir",
+   "on": "Mars"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'on ne peut envoyer des fusées vers Mars qu'environ tous les vingt-six mois ?"
+   ]
+  },
+  {
+   "say": [
+    "La Terre et Mars tournent autour du Soleil à des vitesses différentes, donc leur distance change tout le temps,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des vitesses différentes",
+     "size": "m",
+     "on": "vitesses"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tournent",
+     "row": "same",
+     "scale": 0.5
+    },
+    {
+     "t": "text",
+     "text": "la distance change",
+     "size": "l",
+     "color": "gold",
+     "on": "distance"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle varie d'environ cinquante-cinq millions à plus de quatre cents millions de kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "de ~ 55 à + de 400",
+     "size": "l",
+     "color": "pink",
+     "on": "cinquante-cinq"
+    },
+    {
+     "t": "text",
+     "text": "millions de km !",
+     "size": "m",
+     "on": "quatre cents"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour économiser du carburant, il faut partir au bon moment, quand les deux planètes sont bien placées,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le bon moment :",
+     "size": "m",
+     "on": "moment"
+    },
+    {
+     "t": "text",
+     "text": "une fenêtre de tir",
+     "size": "l",
+     "color": "gold",
+     "on": "placées",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et cette fenêtre ne s'ouvre qu'environ tous les vingt-six mois, c'est pour ça que les missions martiennes partent souvent en même temps."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ tous les 26 mois",
+     "size": "xl",
+     "color": "pink",
+     "on": "vingt-six"
+    },
+    {
+     "t": "text",
+     "text": "les missions partent ensemble",
+     "size": "m",
+     "on": "même temps",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "On ne peut partir vers Mars qu'environ tous les 26 mois 🚀🔴\n\nLa Terre et Mars tournent autour du Soleil à des vitesses différentes : la Terre boucle son tour en un an, Mars en près de deux ans. La distance entre les deux planètes varie donc énormément, d'environ 55 millions à plus de 400 millions de kilomètres. Pour atteindre Mars en consommant le moins de carburant possible, il faut lancer la fusée au moment où les deux planètes sont idéalement placées : c'est la « fenêtre de tir ». Elle ne s'ouvre qu'environ tous les 26 mois ! C'est pour ça que plusieurs missions martiennes de pays différents décollent souvent la même année, comme en juillet 2020 avec Perseverance, Tianwen-1 et Hope. Sur la photo, Mars.\n\nTu partirais à la prochaine fenêtre ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#fenetredetir",
+  "#espace",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/facts/",
+  "https://fr.wikipedia.org/wiki/Fenêtre_de_lancement"
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 318,
+ "title": "Si le Soleil était un ballon, la Terre serait un grain de poivre",
+ "subject": "Échelle",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Si le Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "était un ballon,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Terre serait un GRAIN DE POIVRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le système solaire en miniature",
+   "on": "Soleil"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu sais à quoi ressemblerait le système solaire si le Soleil était un ballon d'environ vingt centimètres ?"
+   ]
+  },
+  {
+   "say": [
+    "Dans ce modèle, la Terre serait un minuscule grain de poivre, à environ vingt-cinq mètres du ballon,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Terre = un grain de poivre",
+     "size": "l",
+     "color": "gold",
+     "on": "poivre",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "à ~ 25 m",
+     "size": "m",
+     "on": "vingt-cinq"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la Lune serait une tête d'épingle, à seulement six centimètres de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Lune : à ~ 6 cm",
+     "size": "l",
+     "color": "pink",
+     "on": "six centimètres"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "épingle",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "Jupiter serait une grosse bille, à environ cent trente mètres, et Neptune, à plus de sept cents mètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Jupiter : ~ 130 m",
+     "size": "m",
+     "on": "cent trente"
+    },
+    {
+     "t": "text",
+     "text": "Neptune : + de 700 m !",
+     "size": "l",
+     "color": "gold",
+     "on": "sept cents"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et l'étoile la plus proche, elle, serait à plus de six mille kilomètres, l'espace est surtout du vide."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'étoile la + proche :",
+     "size": "m",
+     "on": "proche"
+    },
+    {
+     "t": "text",
+     "text": "+ de 6 000 km !",
+     "size": "xl",
+     "color": "pink",
+     "on": "six mille",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Si le Soleil était un ballon, la Terre serait un grain de poivre à 25 mètres ⚽\n\nLes distances du système solaire sont si grandes qu'il est difficile de se les représenter. Imagine que le Soleil soit un ballon d'environ 20 cm de diamètre. À cette échelle, la Terre serait un minuscule grain de poivre, à environ 25 mètres du ballon. La Lune, une tête d'épingle, tournerait à 6 cm de la Terre. Jupiter, une grosse bille, se trouverait à environ 130 m, et Neptune à plus de 700 m ! Quant à l'étoile la plus proche, Proxima du Centaure, elle serait à plus de 6 000 km, à peu près la distance Paris-New York. L'espace est avant tout… immensément vide. Sur la photo, le Soleil.\n\nTu imaginais des distances aussi énormes ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#systemesolaire",
+  "#echelle",
+  "#distances",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/",
+  "https://fr.wikipedia.org/wiki/Système_solaire"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 312,
+ "title": "Pourquoi les étoiles filantes ont des couleurs",
+ "subject": "Météores",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pourquoi certaines",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "étoiles filantes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sont VERTES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des étoiles filantes colorées",
+   "on": "filante"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu as déjà vu une étoile filante verte, orange ou violette ?"
+   ]
+  },
+  {
+   "say": [
+    "Une étoile filante, c'est un petit caillou de l'espace qui brûle en entrant dans l'atmosphère à toute vitesse,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un caillou qui brûle",
+     "size": "l",
+     "color": "pink",
+     "on": "brûle"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "caillou",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sa couleur dépend des éléments chimiques qu'il contient, comme dans un feu d'artifice,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "couleur = chimie",
+     "size": "l",
+     "color": "gold",
+     "on": "chimiques",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "comme un feu d'artifice",
+     "size": "m",
+     "on": "feu"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le sodium donne de l'orange, le magnésium du bleu-vert, le fer du jaune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sodium → orange",
+     "size": "m",
+     "color": "gold",
+     "on": "sodium"
+    },
+    {
+     "t": "text",
+     "text": "magnésium → bleu-vert",
+     "size": "m",
+     "on": "magnésium"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et l'air lui-même, chauffé par le passage du météore, peut aussi briller en vert ou en rouge."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'air brille aussi",
+     "size": "m",
+     "on": "air"
+    },
+    {
+     "t": "text",
+     "text": "vert ou rouge !",
+     "size": "l",
+     "color": "pink",
+     "on": "rouge",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pourquoi les étoiles filantes ont-elles des couleurs ? 🌠🎆\n\nUne étoile filante est un petit fragment de roche ou de métal venu de l'espace, souvent pas plus gros qu'un grain de sable, qui entre dans l'atmosphère à des dizaines de kilomètres par seconde. En se vaporisant, il émet de la lumière dont la couleur dépend de sa composition chimique, exactement comme dans un feu d'artifice : le sodium donne une teinte orangée, le magnésium un bleu-vert, le fer un jaune, le calcium un violet. L'air lui-même, surchauffé sur le passage du météore, peut émettre une lueur verte (oxygène) ou rouge (azote). Les Perséides et les Léonides sont célèbres pour leurs couleurs. Sur l'image, un ciel nocturne.\n\nTu en as déjà vu une colorée ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etoilesfilantes",
+  "#meteore",
+  "#cielnocturne",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Météore",
+  "https://science.nasa.gov/solar-system/meteors-meteorites/"
+ ]
+}

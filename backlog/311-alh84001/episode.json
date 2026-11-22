@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 310,
+ "title": "Une météorite venue de Mars a été trouvée en Antarctique",
+ "subject": "Météorite",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce caillou",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "trouvé en Antarctique",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "vient de MARS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un caillou martien",
+   "on": "caillou"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'on a trouvé sur Terre des cailloux venus de Mars ?"
+   ]
+  },
+  {
+   "say": [
+    "Quand un gros astéroïde frappe Mars, des morceaux de roche peuvent être éjectés dans l'espace, et certains finissent par tomber sur Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des roches éjectées",
+     "size": "m",
+     "on": "éjectés"
+    },
+    {
+     "t": "text",
+     "text": "qui tombent sur Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "tomber"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "astéroïde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "la plus célèbre s'appelle ALH quatre-vingt-quatre mille un, trouvée en Antarctique en mille neuf cent quatre-vingt-quatre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ALH84001",
+     "size": "xl",
+     "color": "pink",
+     "on": "ALH"
+    },
+    {
+     "t": "text",
+     "text": "Antarctique, 1984",
+     "size": "m",
+     "on": "Antarctique"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en mille neuf cent quatre-vingt-seize, des scientifiques ont annoncé y avoir vu de possibles traces de microbes fossiles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1996 : des microbes ?",
+     "size": "l",
+     "color": "gold",
+     "on": "microbes",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "aujourd'hui, la plupart des chercheurs pensent que ces traces ne viennent pas de la vie, mais le débat a relancé l'exploration de Mars."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sans doute pas la vie…",
+     "size": "m",
+     "on": "pensent"
+    },
+    {
+     "t": "text",
+     "text": "mais Mars fascine encore !",
+     "size": "l",
+     "color": "pink",
+     "on": "exploration",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "ALH84001, la météorite venue de Mars qui a fait croire à de la vie martienne 🪨\n\nQuand un gros astéroïde percute Mars, des fragments de roche peuvent être éjectés dans l'espace ; après des millions d'années, certains finissent par tomber sur Terre. On connaît aujourd'hui plusieurs centaines de météorites martiennes. La plus célèbre, ALH84001, a été découverte en 1984 dans les Allan Hills, en Antarctique. En 1996, des scientifiques de la NASA ont annoncé y avoir observé des structures ressemblant à des microbes fossiles, une annonce qui a fait le tour du monde. Aujourd'hui, la plupart des chercheurs pensent que ces structures peuvent s'expliquer sans vie, mais cette affaire a relancé l'exploration de Mars.\n\nTu crois qu'il y a eu de la vie sur Mars ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#meteorite",
+  "#vieextraterrestre",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/ALH_84001",
+  "https://science.nasa.gov/mars/"
+ ]
+}

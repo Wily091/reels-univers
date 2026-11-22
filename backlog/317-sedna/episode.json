@@ -1,0 +1,146 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 316,
+ "title": "Sedna met plus de 10 000 ans à faire le tour du Soleil",
+ "subject": "Sedna",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une année",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur Sedna dure",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "+ de 10 000 ANS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une année interminable",
+   "on": "tour"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un petit monde glacé met plus de dix mille ans à faire le tour du Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Sedna, un objet d'environ mille kilomètres, découvert en deux mille trois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Sedna",
+     "size": "xl",
+     "color": "pink",
+     "on": "Sedna"
+    },
+    {
+     "t": "text",
+     "text": "~ 1 000 km, découvert en 2003",
+     "size": "m",
+     "on": "deux mille trois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "son orbite est un ovale immense, qui l'emmène des centaines de fois plus loin que la Terre du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une orbite géante",
+     "size": "l",
+     "color": "gold",
+     "on": "ovale"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "orbite",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, une année sur Sedna dure plus de dix mille ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 année = + de 10 000 ans !",
+     "size": "l",
+     "color": "pink",
+     "on": "dix mille",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il passe en ce moment près du point le plus proche du Soleil, une occasion rare de l'étudier."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il est au + près",
+     "size": "m",
+     "on": "proche"
+    },
+    {
+     "t": "text",
+     "text": "en ce moment !",
+     "size": "l",
+     "color": "gold",
+     "on": "moment",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sedna met plus de 10 000 ans à faire le tour du Soleil 🥶\n\nDécouvert en 2003, Sedna est un petit monde glacé d'environ 1 000 km de diamètre, à la couleur rougeâtre. Son orbite est un ovale extrêmement allongé : au plus près, il passe à environ 76 fois la distance Terre-Soleil, et au plus loin, à près de 1 000 fois cette distance. Une année sur Sedna dure ainsi plus de 10 000 ans ! Il approche actuellement de son point le plus proche du Soleil, qu'il atteindra vers 2076, une occasion rare de l'étudier. Son orbite étrange intrigue les astronomes : elle pourrait avoir été façonnée par une étoile passée près du Soleil, ou par une planète encore inconnue. Un mystère du système solaire.\n\nTu fêterais ton anniversaire quand ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#sedna",
+  "#systemesolaire",
+  "#planetenaine",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/(90377)_Sedna",
+  "https://science.nasa.gov/solar-system/"
+ ]
+}

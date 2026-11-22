@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 317,
+ "title": "Une neuvième planète se cache peut-être au fond du système solaire",
+ "subject": "Planète Neuf",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une 9e planète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "se cache peut-être",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "au fond du SYSTÈME SOLAIRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la Planète Neuf",
+   "on": "planète"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des astronomes soupçonnent l'existence d'une neuvième planète, cachée loin au-delà de Neptune ?"
+   ]
+  },
+  {
+   "say": [
+    "Au fond du système solaire, certains petits objets glacés ont des orbites étrangement alignées,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des orbites alignées",
+     "size": "l",
+     "color": "gold",
+     "on": "alignées"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "orbites",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille seize, deux astronomes ont proposé qu'une planète inconnue les influence avec sa gravité,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2016 : une hypothèse",
+     "size": "m",
+     "on": "deux mille seize"
+    },
+    {
+     "t": "text",
+     "text": "une planète cachée ?",
+     "size": "l",
+     "color": "pink",
+     "on": "inconnue",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "on l'appelle la Planète Neuf, elle serait plusieurs fois plus massive que la Terre, et très lointaine,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« Planète Neuf »",
+     "size": "l",
+     "color": "gold",
+     "on": "Planète Neuf"
+    },
+    {
+     "t": "text",
+     "text": "+ massive que la Terre",
+     "size": "m",
+     "on": "massive"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais personne ne l'a encore jamais vue, et certains pensent qu'elle n'existe pas."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jamais observée…",
+     "size": "m",
+     "on": "vue"
+    },
+    {
+     "t": "text",
+     "text": "existe-t-elle ?",
+     "size": "l",
+     "color": "pink",
+     "on": "existe",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une « Planète Neuf » se cache-t-elle au fond du système solaire ? 🔭\n\nAu-delà de Neptune, plusieurs petits objets glacés très lointains suivent des orbites étrangement regroupées et inclinées dans la même direction. En 2016, les astronomes Konstantin Batygin et Mike Brown, de Caltech, ont proposé une explication : une planète inconnue, plusieurs fois plus massive que la Terre, tournant très loin du Soleil, influencerait ces objets par sa gravité. On l'a surnommée la « Planète Neuf ». Mais personne ne l'a encore observée, et certains chercheurs pensent que cet alignement pourrait être un biais d'observation. Le nouvel observatoire Vera Rubin pourrait bientôt trancher. Un des grands mystères de notre système solaire.\n\nTu crois qu'elle existe ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#planeteneuf",
+  "#systemesolaire",
+  "#mystere",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Planète_Neuf",
+  "https://science.nasa.gov/solar-system/"
+ ]
+}

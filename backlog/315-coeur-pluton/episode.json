@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 314,
+ "title": "Pluton a un cœur géant, fait de glace d'azote",
+ "subject": "Pluton",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pluton",
+   "file": "assets/images/pluton_new_horizons.jpg",
+   "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
+   "page": "https://science.nasa.gov/dwarf-planets/pluto/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pluton a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un cœur",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de GLACE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le cœur de Pluton",
+   "on": "Pluton"
+  },
+  "photo": "pluton"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que Pluton a un énorme cœur blanc sur sa surface ?"
+   ]
+  },
+  {
+   "say": [
+    "En juillet deux mille quinze, la sonde New Horizons a photographié Pluton de près, et tout le monde a remarqué ce grand cœur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "juillet 2015",
+     "size": "l",
+     "color": "gold",
+     "on": "juillet"
+    },
+    {
+     "t": "text",
+     "text": "un grand cœur !",
+     "size": "l",
+     "color": "pink",
+     "on": "cœur",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été baptisé Tombaugh Regio, en hommage à l'astronome qui a découvert Pluton,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Tombaugh Regio",
+     "size": "l",
+     "on": "Tombaugh"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa partie gauche est un immense glacier de glace d'azote, plus grand que la France,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un glacier d'azote",
+     "size": "l",
+     "color": "gold",
+     "on": "azote"
+    },
+    {
+     "t": "text",
+     "text": "+ grand que la France !",
+     "size": "m",
+     "on": "France"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et cette glace bouge lentement, comme sur Terre, ce qui prouve que Pluton est encore active."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la glace bouge",
+     "size": "m",
+     "on": "bouge"
+    },
+    {
+     "t": "text",
+     "text": "Pluton est vivante !",
+     "size": "l",
+     "color": "pink",
+     "on": "active",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pluton a un cœur géant, fait de glace d'azote 🤍\n\nLe 14 juillet 2015, la sonde New Horizons de la NASA a révélé le vrai visage de Pluton, et une surprise a conquis le monde : un immense cœur clair sur sa surface ! Baptisé Tombaugh Regio, en hommage à Clyde Tombaugh, qui a découvert Pluton en 1930, il mesure environ 1 600 km de large. Sa moitié gauche, appelée Spoutnik Planitia, est un gigantesque bassin rempli de glace d'azote, d'une superficie supérieure à celle de la France. Cette glace se déplace lentement, comme les glaciers terrestres, et se renouvelle par convection, preuve que Pluton est un monde encore géologiquement actif. Sur la photo, Pluton vue par New Horizons.\n\nTu l'avais remarqué sur la photo ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pluton",
+  "#newhorizons",
+  "#nasa",
+  "#coeur",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Spoutnik_Planitia",
+  "https://science.nasa.gov/dwarf-planets/pluto/"
+ ]
+}
