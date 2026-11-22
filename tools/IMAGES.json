@@ -91,7 +91,12 @@
    "file": "assets/images/apollo11_miroir_laser.jpg",
    "id": "as11-40-5952",
    "credit": "NASA",
-   "page": "https://images.nasa.gov/details/as11-40-5952"
+   "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Laser_Ranging_Experiment.jpg",
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo_11_Lunar_Laser_Ranging_Experiment.jpg",
+    "https://images-assets.nasa.gov/image/AS11-40-5952/AS11-40-5952~orig.jpg",
+    "https://images-assets.nasa.gov/image/as11-40-5952/as11-40-5952~large.jpg"
+   ]
   },
   {
    "file": "assets/images/io_galileo.jpg",
