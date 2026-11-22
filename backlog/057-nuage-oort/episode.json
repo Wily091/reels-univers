@@ -1,19 +1,164 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 56,
  "title": "Le nuage d'Oort, la frontière qu'on n'a jamais vue",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Bien au-delà de Pluton, le système solaire serait entouré d'une immense sphère d'objets glacés : le nuage d'Oort 🧊\n\nMais il est si lointain que personne ne l'a jamais photographié. On le déduit sans l'avoir vu.\n\nTu en avais entendu parler ? 👇",
- "hashtags": ["#nuagedoort", "#systemesolaire", "#comete", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#mystere"],
- "sources": ["https://science.nasa.gov/solar-system/oort-cloud/", "https://science.nasa.gov/solar-system/comets/facts/"],
+ "subject": "Nuage d'Oort",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le système solaire",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a une frontière",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "JAMAIS VUE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "sketch": "orbit",
+  "tagline": {
+   "text": "personne ne l'a vu !",
+   "on": "Pluton"
+  }
+ },
  "scenes": [
-  {"say": ["Le système solaire ne s'arrête pas à Pluton."], "ghost": "PLUTON", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.4, "rx": 380}, "lines": [{"text": "LE SYSTÈME SOLAIRE", "at": [0, 0.3]}, {"text": "[NE S'ARRÊTE PAS]", "at": [0, 0.6], "punch": true}, {"text": "À PLUTON.", "at": [0, 0.9]}]},
-  {"say": ["Bien au-delà, il serait entouré d'une gigantesque coquille d'objets glacés."], "ghost": "COQUILLE", "il": {"type": "tunnel"}, "lines": [{"text": "UNE COQUILLE", "at": [0, 0.5]}, {"text": "[D'OBJETS GLACÉS.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["On l'appelle le nuage d'Oort."], "hit": true, "ghost": "OORT", "lines": [{"text": "LE NUAGE", "at": [0, 0.5]}, {"text": "D'OORT.", "at": [0, 0.8], "punch": true, "max": 440}]},
-  {"say": ["Il se trouverait bien plus loin que Pluton… et que la ceinture de Kuiper."], "ghost": "LOIN", "kicker": "AU-DELÀ DE LA CEINTURE DE KUIPER", "il": {"type": "distance", "label": "BIEN AU-DELÀ DE PLUTON"}, "lines": [{"text": "BIEN PLUS LOIN", "at": [0, 0.2]}, {"text": "QUE PLUTON…", "at": [0, 0.5]}, {"text": "[ET QUE KUIPER.]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["Le problème ? Personne ne l'a jamais vu."], "ghost": "INVISIBLE", "il": {"type": "question"}, "lines": [{"text": "LE PROBLÈME ?", "at": [0, 0.1]}, {"text": "[PERSONNE NE L'A VU.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Il est si loin que la NASA n'en a aucune image directe.", "Les scientifiques en déduisent l'existence… sans pouvoir le photographier."], "ghost": "DÉDUIT", "kicker": "AUCUNE IMAGE DIRECTE", "il": {"type": "telescope"}, "lines": [{"text": "AUCUNE IMAGE.", "at": [0, 0.6], "punch": true}, {"text": "ON LE DÉDUIT,", "at": [1, 0.3], "gap": 30}, {"text": "[SANS LE VOIR.]", "at": [1, 0.85]}]},
-  {"say": ["Une frontière immense… qu'on n'a encore jamais vue."], "hit": true, "ghost": "FRONTIÈRE", "lines": [{"text": "UNE FRONTIÈRE", "at": [0, 0.2]}, {"text": "JAMAIS VUE.", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que le système solaire ne s'arrête pas du tout à Pluton ?"
+   ]
+  },
+  {
+   "say": [
+    "Bien au-delà, il serait entouré d'une gigantesque coquille d'objets glacés qu'on appelle le nuage d'Oort,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une coquille glacée",
+     "size": "l",
+     "on": "coquille"
+    },
+    {
+     "t": "text",
+     "text": "le nuage d'Oort",
+     "size": "l",
+     "color": "pink",
+     "on": "Oort",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "il se trouverait bien plus loin que Pluton et que la ceinture de Kuiper,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "bien + loin que",
+     "size": "m",
+     "on": "loin"
+    },
+    {
+     "t": "text",
+     "text": "Pluton et Kuiper",
+     "size": "l",
+     "color": "gold",
+     "on": "Kuiper"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "ceinture",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais personne ne l'a jamais vu, il est si loin que la NASA n'en a aucune image directe,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jamais vu !",
+     "size": "xl",
+     "color": "pink",
+     "on": "jamais"
+    },
+    {
+     "t": "text",
+     "text": "aucune image directe",
+     "size": "m",
+     "on": "image"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et les scientifiques en déduisent l'existence grâce aux comètes qui en viendraient, sans pouvoir le photographier."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "indice : les comètes",
+     "size": "l",
+     "color": "gold",
+     "on": "comètes"
+    },
+    {
+     "t": "text",
+     "text": "qui viendraient de là-bas",
+     "size": "m",
+     "on": "viendraient"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "comètes",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le nuage d'Oort, la frontière du système solaire que personne n'a jamais vue 🧊\n\nLe système solaire ne s'arrête pas à Pluton ! Bien au-delà de la ceinture de Kuiper, il serait entouré d'une immense coquille d'objets glacés : le nuage d'Oort. Le problème ? Il est si lointain que personne ne l'a jamais observé directement, et la NASA n'en possède aucune image. Les scientifiques en déduisent l'existence grâce aux comètes à très longue période qui sembleraient en venir. Une frontière gigantesque, encore invisible. L'un des plus grands mystères de l'astronomie.\n\nTu savais que le système solaire allait si loin ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#nuagedoort",
+  "#systemesolaire",
+  "#comete",
+  "#mystere",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/oort-cloud/",
+  "https://science.nasa.gov/solar-system/comets/facts/"
  ]
 }

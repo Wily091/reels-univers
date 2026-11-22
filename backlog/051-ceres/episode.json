@@ -1,19 +1,174 @@
 {
- "date": null,
- "title": "Cérès, la planète naine cachée dans la ceinture d'astéroïdes",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Entre Mars et Jupiter se cache Cérès, une planète naine découverte en 1801 🪨\n\nC'est le plus gros objet de la ceinture d'astéroïdes : à elle seule, elle représente environ un quart de toute sa masse.\n\nTu la connaissais ? 👇",
- "hashtags": ["#ceres", "#planetenaine", "#asteroides", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://science.nasa.gov/dwarf-planets/ceres/facts/"],
+ "format": "planche",
+ "valide": true,
+ "num": 50,
+ "title": "Cérès, la planète naine cachée entre Mars et Jupiter",
+ "subject": "Cérès",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "ceres",
+   "file": "assets/images/ceres_dawn.jpg",
+   "credit": "Cérès vue par Dawn · NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+   "page": "https://science.nasa.gov/dwarf-planets/ceres/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Entre Mars et Jupiter,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "se cache une",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "PLANÈTE NAINE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "ceres",
+  "tagline": {
+   "text": "une planète naine !",
+   "on": "naine"
+  }
+ },
  "scenes": [
-  {"say": ["Entre Mars et Jupiter, il y a une planète naine que presque personne ne connaît."], "ghost": "CÉRÈS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.9}, "lines": [{"text": "ENTRE MARS", "at": [0, 0.05]}, {"text": "ET JUPITER…", "at": [0, 0.25]}, {"text": "[UNE PLANÈTE NAINE.]", "at": [0, 0.7], "punch": true}]},
-  {"say": ["Elle s'appelle Cérès."], "hit": true, "ghost": "CÉRÈS", "lines": [{"text": "CÉRÈS.", "at": [0, 0.4], "punch": true, "max": 460}]},
-  {"say": ["Elle a été découverte en mille huit cent un, par l'astronome italien Giuseppe Piazzi."], "ghost": "1801", "kicker": "DÉCOUVERTE · 1801 · G. PIAZZI", "il": {"type": "telescope"}, "lines": [{"text": "DÉCOUVERTE EN", "at": [0, 0.05]}, {"text": "[1801]", "at": [0, 0.35], "punch": true, "max": 320}, {"text": "PAR GIUSEPPE PIAZZI.", "at": [0, 0.85]}]},
-  {"say": ["C'est le tout premier objet de la ceinture d'astéroïdes jamais découvert."], "ghost": "PREMIER", "il": {"type": "tunnel"}, "lines": [{"text": "LE TOUT PREMIER", "at": [0, 0.3]}, {"text": "[DE LA CEINTURE]", "at": [0, 0.6], "punch": true}, {"text": "D'ASTÉROÏDES.", "at": [0, 0.9]}]},
-  {"say": ["Et c'est le plus gros : elle représente à elle seule environ un quart de la masse de toute la ceinture."], "ghost": "25 %", "kicker": "~25 % DE LA MASSE DE LA CEINTURE", "il": {"type": "moon", "label": "CÉRÈS · ~950 KM"}, "lines": [{"text": "À ELLE SEULE :", "at": [0, 0.4]}, {"text": "[25 %]", "at": [0, 0.65], "punch": true, "count": {"from": 0, "to": 25, "fmt": "[{v} %]", "dur": 0.7}}, {"text": "DE LA CEINTURE.", "at": [0, 0.95]}]},
-  {"say": ["Longtemps considérée comme un astéroïde, elle a été reclassée planète naine en deux mille six."], "ghost": "2006", "kicker": "PLANÈTE NAINE · 2006", "il": {"type": "crossStar", "sw": [0, 0.5]}, "lines": [{"text": "ASTÉROÏDE ?", "at": [0, 0.2]}, {"text": "[PLANÈTE NAINE.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["En deux mille quinze, la sonde Dawn est devenue la première à visiter une planète naine.", "Et elle y a trouvé d'immenses dépôts de sels."], "ghost": "DAWN", "kicker": "SONDE DAWN · 2015", "il": {"type": "rocket"}, "lines": [{"text": "LA SONDE [DAWN]", "at": [0, 0.3], "punch": true}, {"text": "EN 2015.", "at": [0, 0.6]}, {"text": "DES DÉPÔTS DE [SELS.]", "at": [1, 0.6], "gap": 30}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'entre Mars et Jupiter, il y a une planète naine que presque personne ne connaît ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Cérès, et elle a été découverte en mille huit cent un par l'astronome italien Giuseppe Piazzi,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Cérès",
+     "size": "xl",
+     "color": "pink",
+     "on": "Cérès"
+    },
+    {
+     "t": "text",
+     "text": "1801 : Piazzi",
+     "size": "l",
+     "color": "gold",
+     "on": "mille huit cent"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "astronome",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est le tout premier objet de la ceinture d'astéroïdes jamais découvert, et c'est le plus gros,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le 1er découvert",
+     "size": "m",
+     "on": "premier"
+    },
+    {
+     "t": "text",
+     "text": "et le + gros !",
+     "size": "l",
+     "color": "pink",
+     "on": "gros",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "à elle seule, elle fait environ un quart de la masse de toute la ceinture,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "≈ ¼ de la masse",
+     "size": "l",
+     "color": "gold",
+     "on": "quart"
+    },
+    {
+     "t": "text",
+     "text": "de toute la ceinture !",
+     "size": "m",
+     "on": "ceinture"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en deux mille quinze, la sonde Dawn est devenue la première à se mettre en orbite autour d'une planète naine."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2015 : la sonde Dawn",
+     "size": "m",
+     "color": "gold",
+     "on": "Dawn"
+    },
+    {
+     "t": "text",
+     "text": "1re en orbite !",
+     "size": "l",
+     "color": "pink",
+     "on": "orbite",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Cérès, la planète naine cachée entre Mars et Jupiter 🪨\n\nDans la ceinture d'astéroïdes, entre Mars et Jupiter, se trouve Cérès, une planète naine que peu de gens connaissent. Découverte en 1801 par l'astronome italien Giuseppe Piazzi, c'est le tout premier objet de la ceinture d'astéroïdes jamais identifié, et le plus gros : elle représente à elle seule environ un quart de la masse de toute la ceinture. Longtemps considérée comme un astéroïde, elle est devenue planète naine en 2006. En 2015, la sonde Dawn de la NASA a été la première à se mettre en orbite autour d'une planète naine. Sur la photo, Cérès vue par Dawn. Un trésor caché de l'astronomie.\n\nTu avais déjà entendu parler de Cérès ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#ceres",
+  "#planetenaine",
+  "#asteroides",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/dwarf-planets/ceres/facts/"
  ]
 }

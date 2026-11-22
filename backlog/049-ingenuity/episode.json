@@ -1,19 +1,193 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 48,
  "title": "Ingenuity, le premier hélicoptère sur une autre planète",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Le 19 avril 2021, le petit hélicoptère Ingenuity a réalisé le premier vol motorisé et contrôlé sur une autre planète : Mars 🚁🔴\n\nPrévu pour 5 vols d'essai, il en a finalement fait 72 !\n\nTu le savais ? 👇",
- "hashtags": ["#ingenuity", "#mars", "#perseverance", "#helicoptere", "#espace", "#nasa", "#univers", "#science", "#lesaviezvous", "#exploration"],
- "sources": ["https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"],
+ "subject": "Ingenuity",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "ingenuity",
+   "file": "assets/images/ingenuity.jpg",
+   "credit": "Perseverance et Ingenuity sur Mars · NASA/JPL-Caltech/MSSS",
+   "page": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un hélicoptère",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a volé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur MARS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "ingenuity",
+  "annot": [
+   {
+    "text": "Ingenuity !",
+    "color": "pink",
+    "under": true,
+    "pos": "bl",
+    "arrow": [
+     0.32,
+     0.62
+    ]
+   }
+  ],
+  "tagline": {
+   "text": "1er vol sur Mars !",
+   "on": "volé"
+  }
+ },
  "scenes": [
-  {"say": ["Le dix-neuf avril deux mille vingt et un, un objet humain a volé… sur une autre planète."], "ghost": "MARS", "kicker": "19 AVRIL 2021", "il": {"type": "planet", "label": "MARS"}, "lines": [{"text": "[19 AVRIL 2021]", "at": [0, 0.3], "punch": true}, {"text": "UN ENGIN HUMAIN", "at": [0, 0.6]}, {"text": "VOLE SUR MARS.", "at": [0, 0.9]}]},
-  {"say": ["Un petit hélicoptère : Ingenuity."], "hit": true, "ghost": "INGENUITY", "lines": [{"text": "INGENUITY.", "at": [0, 0.5], "punch": true, "max": 420}]},
-  {"say": ["Il pesait environ un kilo huit.", "Il était arrivé sur Mars accroché sous le rover Perseverance."], "ghost": "1,8 KG", "kicker": "MASSE · 1,8 KG", "il": {"type": "rocket"}, "lines": [{"text": "À PEINE", "at": [0, 0.1], "max": 200}, {"text": "[1,8 KG]", "at": [0, 0.4], "punch": true}, {"text": "SOUS PERSEVERANCE.", "at": [1, 0.6]}]},
-  {"say": ["Voler sur Mars, c'est très difficile : l'air y est extrêmement fin.", "Ses pales devaient tourner très vite pour réussir à décoller."], "ghost": "AIR", "il": {"type": "waves", "label": "ATMOSPHÈRE TRÈS FINE"}, "lines": [{"text": "L'AIR EST", "at": [0, 0.6]}, {"text": "[EXTRÊMEMENT FIN.]", "at": [0, 0.85], "punch": true}, {"text": "DES PALES ULTRA RAPIDES.", "at": [1, 0.6], "gap": 30, "max": 150}]},
-  {"say": ["C'était le premier vol motorisé et contrôlé… sur une autre planète."], "ghost": "PREMIER", "il": {"type": "exclaim"}, "lines": [{"text": "LE PREMIER VOL", "at": [0, 0.2]}, {"text": "[SUR UNE AUTRE]", "at": [0, 0.7], "punch": true}, {"text": "[PLANÈTE.]", "at": [0, 0.9]}]},
-  {"say": ["Il devait faire cinq vols d'essai au maximum.", "Il en a fait soixante-douze."], "ghost": "72", "kicker": "PRÉVU : 5 VOLS · RÉALISÉ : 72", "il": {"type": "orbit", "center": "MARS", "speed": 2}, "lines": [{"text": "PRÉVU :", "at": [0, 0.4], "max": 220}, {"text": "5 VOLS.", "at": [0, 0.8], "max": 220}, {"text": "RÉALISÉ :", "at": [1, 0.2], "gap": 30, "max": 220}, {"text": "[72 VOLS.]", "at": [1, 0.7], "punch": true, "count": {"from": 0, "to": 72, "fmt": "[{v} VOLS.]", "dur": 0.7}}]},
-  {"say": ["Pendant près de trois ans. Pas mal pour un drone d'un kilo huit."], "hit": true, "ghost": "BRAVO", "lines": [{"text": "PENDANT", "at": [0, 0.05]}, {"text": "3 ANS.", "at": [0, 0.35], "punch": true, "max": 420}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'un hélicoptère a déjà volé sur une autre planète ?"
+   ]
+  },
+  {
+   "say": [
+    "Le dix-neuf avril deux mille vingt et un, le petit hélicoptère Ingenuity a décollé sur Mars, il pesait à peine un kilo huit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "19 avril 2021",
+     "size": "l",
+     "color": "gold",
+     "on": "dix-neuf"
+    },
+    {
+     "t": "text",
+     "text": "1,8 kg seulement",
+     "size": "m",
+     "color": "pink",
+     "on": "kilo"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décollé",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et voler là-bas est très difficile, parce que l'air de Mars est extrêmement fin, du coup ses pales devaient tourner très vite,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "air très fin",
+     "size": "l",
+     "on": "fin"
+    },
+    {
+     "t": "text",
+     "text": "pales ultra-rapides !",
+     "size": "m",
+     "color": "pink",
+     "on": "pales"
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tourner",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était le premier vol motorisé et contrôlé sur une autre planète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er vol",
+     "size": "xl",
+     "color": "gold",
+     "on": "premier"
+    },
+    {
+     "t": "text",
+     "text": "sur une autre planète !",
+     "size": "m",
+     "color": "pink",
+     "on": "planète",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et alors qu'il devait faire cinq vols d'essai au maximum, il en a fait soixante-douze, pendant près de trois ans."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "prévu : 5 vols",
+     "size": "m",
+     "on": "cinq"
+    },
+    {
+     "t": "text",
+     "text": "réalisé : 72 !",
+     "size": "xl",
+     "color": "pink",
+     "on": "soixante-douze",
+     "under": true
+    },
+    {
+     "t": "text",
+     "text": "(près de 3 ans)",
+     "size": "s",
+     "color": "soft",
+     "on": "trois ans"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Ingenuity, le premier hélicoptère à avoir volé sur une autre planète 🚁\n\nLe 19 avril 2021, le petit hélicoptère Ingenuity de la NASA, d'à peine 1,8 kg, a décollé sur Mars. Une prouesse : l'atmosphère martienne est extrêmement fine, ses pales devaient donc tourner très vite pour réussir à s'envoler. C'était le premier vol motorisé et contrôlé de l'histoire sur une autre planète ! Prévu pour cinq vols d'essai au maximum, Ingenuity en a finalement réalisé 72, pendant près de trois ans. Sur la photo, le rover Perseverance et Ingenuity posé à côté. Une page d'histoire de l'exploration spatiale.\n\nTu le connaissais ce petit héros ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#ingenuity",
+  "#mars",
+  "#nasa",
+  "#exploration",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
  ]
 }

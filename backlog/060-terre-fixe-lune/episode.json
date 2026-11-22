@@ -1,19 +1,172 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 59,
  "title": "Depuis la Lune, la Terre ne se lève jamais",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Depuis la face visible de la Lune, la Terre ne se lève et ne se couche jamais : elle reste presque immobile dans le ciel 🌍🌕\n\nParce que la Lune nous montre toujours la même face.\n\nTu y avais pensé ? 👇",
- "hashtags": ["#lune", "#terre", "#espace", "#univers", "#astronomie", "#apollo", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
- "sources": ["https://science.nasa.gov/moon/facts/"],
+ "subject": "La Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "earthrise",
+   "file": "assets/images/earthrise_apollo8.jpg",
+   "credit": "La Terre vue depuis l'orbite lunaire (Apollo 8) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Depuis la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Terre ne se couche",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "JAMAIS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "earthrise",
+  "tagline": {
+   "text": "elle ne bouge pas !",
+   "on": "jamais"
+  }
+ },
  "scenes": [
-  {"say": ["Imagine que tu es debout sur la Lune, face à la Terre."], "ghost": "LUNE", "il": {"type": "horizon"}, "lines": [{"text": "DEBOUT", "at": [0, 0.15], "max": 260}, {"text": "[SUR LA LUNE,]", "at": [0, 0.35], "punch": true}, {"text": "FACE À LA TERRE.", "at": [0, 0.85]}]},
-  {"say": ["Tu attends qu'elle se couche… mais elle ne bouge pas."], "ghost": "IMMOBILE", "il": {"type": "globe", "label": "LA TERRE"}, "lines": [{"text": "TU ATTENDS…", "at": [0, 0.3]}, {"text": "[ELLE NE BOUGE PAS.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Depuis la face visible de la Lune, la Terre ne se lève jamais… et ne se couche jamais."], "hit": true, "ghost": "JAMAIS", "lines": [{"text": "ELLE NE SE LÈVE", "at": [0, 0.5]}, {"text": "JAMAIS.", "at": [0, 0.75], "punch": true, "max": 440}]},
-  {"say": ["Elle reste presque fixe dans le ciel, au même endroit."], "ghost": "FIXE", "il": {"type": "globe"}, "lines": [{"text": "[PRESQUE FIXE]", "at": [0, 0.3], "punch": true}, {"text": "DANS LE CIEL.", "at": [0, 0.7]}]},
-  {"say": ["La raison : la Lune nous montre toujours la même face.", "Elle tourne sur elle-même au même rythme qu'elle tourne autour de nous."], "ghost": "SYNCHRONE", "kicker": "ROTATION SYNCHRONE", "il": {"type": "orbit", "center": "TERRE", "speed": 1}, "lines": [{"text": "TOUJOURS", "at": [0, 0.4]}, {"text": "[LA MÊME FACE.]", "at": [0, 0.8], "punch": true}, {"text": "MÊME RYTHME.", "at": [1, 0.7], "gap": 30}]},
-  {"say": ["En revanche, tu verrais la Terre changer de phase, comme notre Lune.", "Pleine Terre… demi-Terre… nouvelle Terre."], "ghost": "PHASES", "il": {"type": "moon", "label": "PHASES DE LA TERRE"}, "lines": [{"text": "LA TERRE A", "at": [0, 0.4]}, {"text": "[DES PHASES.]", "at": [0, 0.75], "punch": true}, {"text": "PLEINE TERRE…", "at": [1, 0.1], "gap": 30, "max": 150}, {"text": "NOUVELLE TERRE…", "at": [1, 0.8], "max": 150}]},
-  {"say": ["Et sur la face cachée de la Lune… tu ne la verrais jamais."], "hit": true, "ghost": "CACHÉE", "lines": [{"text": "FACE CACHÉE :", "at": [0, 0.3]}, {"text": "JAMAIS VUE.", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que si tu étais debout sur la Lune, la Terre ne se lèverait ni ne se coucherait jamais ?"
+   ]
+  },
+  {
+   "say": [
+    "Depuis la face visible de la Lune, la Terre reste presque fixe dans le ciel, toujours au même endroit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Terre reste",
+     "size": "m",
+     "on": "reste"
+    },
+    {
+     "t": "text",
+     "text": "presque fixe !",
+     "size": "xl",
+     "color": "pink",
+     "on": "fixe",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que la Lune nous montre toujours la même face, puisqu'elle tourne sur elle-même au même rythme qu'elle tourne autour de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toujours la même face",
+     "size": "m",
+     "on": "même face"
+    },
+    {
+     "t": "text",
+     "text": "même rythme",
+     "size": "l",
+     "color": "gold",
+     "on": "rythme"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "en revanche, tu verrais la Terre changer de phase, comme notre Lune, pleine Terre, demi-Terre, nouvelle Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "mais elle a des phases :",
+     "size": "m",
+     "on": "phase"
+    },
+    {
+     "t": "text",
+     "text": "pleine Terre, demi-Terre…",
+     "size": "l",
+     "color": "pink",
+     "on": "pleine Terre"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et depuis la face cachée de la Lune, tu ne la verrais jamais."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "face cachée :",
+     "size": "m",
+     "on": "face cachée"
+    },
+    {
+     "t": "text",
+     "text": "jamais de Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "jamais",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Depuis la Lune, la Terre ne se lève jamais 🌍\n\nSi tu étais debout sur la face visible de la Lune, la Terre resterait presque immobile dans le ciel, toujours au même endroit : elle ne se lèverait ni ne se coucherait jamais. La raison : la Lune tourne sur elle-même au même rythme qu'elle tourne autour de la Terre, et nous montre donc toujours la même face. En revanche, tu verrais la Terre changer de phase, comme notre Lune : pleine Terre, demi-Terre, nouvelle Terre. Et depuis la face cachée, tu ne la verrais jamais ! Sur la photo, le célèbre « lever de Terre » pris en orbite lunaire par Apollo 8. Un fait d'astronomie vertigineux.\n\nTu aimerais voir la Terre depuis la Lune ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#lune",
+  "#apollo8",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/"
  ]
 }

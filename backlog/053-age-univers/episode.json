@@ -1,19 +1,173 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 52,
  "title": "La plus vieille lumière de l'univers",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "L'univers a environ 13,8 milliards d'années 🌌\n\nEt on peut encore voir sa plus vieille lumière : le fond diffus cosmologique, émis environ 370 000 ans après le Big Bang, cartographié en détail par le satellite Planck.\n\nTu le savais ? 👇",
- "hashtags": ["#bigbang", "#univers", "#cosmologie", "#planck", "#espace", "#astronomie", "#science", "#lesaviezvous", "#esa", "#nasa"],
- "sources": ["https://svs.gsfc.nasa.gov/30133"],
+ "subject": "Big Bang",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une lumière voyage",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "depuis presque",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "le BIG BANG ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "sketch": "star",
+  "tagline": {
+   "text": "la + vieille lumière",
+   "on": "lumière"
+  }
+ },
  "scenes": [
-  {"say": ["Il existe une lumière qui voyage depuis presque le début de l'univers."], "ghost": "LUMIÈRE", "il": {"type": "burst"}, "lines": [{"text": "UNE LUMIÈRE", "at": [0, 0.1]}, {"text": "QUI VOYAGE DEPUIS", "at": [0, 0.4]}, {"text": "[LE DÉBUT.]", "at": [0, 0.85], "punch": true, "max": 340}]},
-  {"say": ["L'univers a environ treize virgule huit milliards d'années."], "ghost": "13,8", "kicker": "ÂGE DE L'UNIVERS · ~13,8 MILLIARDS D'ANNÉES", "il": {"type": "timeline", "left": "BIG BANG", "leftSub": "-13,8 MD", "right": "AUJOURD'HUI", "rightSub": "NOUS"}, "lines": [{"text": "L'UNIVERS A", "at": [0, 0.1]}, {"text": "[13,8 MILLIARDS]", "at": [0, 0.6], "punch": true}, {"text": "D'ANNÉES.", "at": [0, 0.9]}]},
-  {"say": ["Au début, il était si chaud et si dense… que la lumière ne pouvait pas circuler."], "ghost": "BROUILLARD", "il": {"type": "blobToGalaxy"}, "lines": [{"text": "TROP CHAUD,", "at": [0, 0.4]}, {"text": "TROP DENSE :", "at": [0, 0.55]}, {"text": "[LA LUMIÈRE BLOQUÉE.]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["Puis, environ trois cent soixante-dix mille ans après le Big Bang, le brouillard s'est levé."], "ghost": "370 000", "kicker": "~370 000 ANS APRÈS LE BIG BANG", "il": {"type": "blobToGalaxy", "sw": [0, 0.7]}, "lines": [{"text": "APRÈS", "at": [0, 0.1], "max": 200}, {"text": "[370 000 ANS]", "at": [0, 0.35], "punch": true}, {"text": "LE BROUILLARD SE LÈVE.", "at": [0, 0.9], "max": 150}]},
-  {"say": ["Et la lumière libérée à ce moment-là… voyage encore aujourd'hui."], "hit": true, "ghost": "ENCORE", "lines": [{"text": "ELLE VOYAGE", "at": [0, 0.4]}, {"text": "ENCORE.", "at": [0, 0.8], "punch": true, "max": 440}]},
-  {"say": ["On l'appelle le fond diffus cosmologique.", "C'est la plus vieille lumière de l'univers."], "ghost": "FOND DIFFUS", "kicker": "FOND DIFFUS COSMOLOGIQUE", "il": {"type": "stars"}, "lines": [{"text": "LE FOND DIFFUS", "at": [0, 0.3]}, {"text": "COSMOLOGIQUE.", "at": [0, 0.7]}, {"text": "[LA PLUS VIEILLE LUMIÈRE.]", "at": [1, 0.6], "punch": true, "gap": 30}]},
-  {"say": ["Le satellite Planck l'a cartographiée en détail… comme une photo de bébé de l'univers."], "ghost": "PLANCK", "kicker": "SATELLITE PLANCK", "il": {"type": "globe", "label": "CARTE DU CIEL"}, "lines": [{"text": "CARTOGRAPHIÉE", "at": [0, 0.4]}, {"text": "PAR [PLANCK.]", "at": [0, 0.55], "punch": true}, {"text": "UNE PHOTO DE BÉBÉ.", "at": [0, 0.95]}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'il existe une lumière qui voyage depuis presque le début de l'univers ?"
+   ]
+  },
+  {
+   "say": [
+    "L'univers a environ treize virgule huit milliards d'années, et au début, il était si chaud et si dense que la lumière ne pouvait pas circuler,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "13,8 milliards d'années",
+     "size": "l",
+     "color": "gold",
+     "on": "treize"
+    },
+    {
+     "t": "text",
+     "text": "au début : trop dense",
+     "size": "m",
+     "color": "pink",
+     "on": "dense"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "années",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis environ trois cent quatre-vingt mille ans après le Big Bang, ce brouillard s'est levé,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "380 000 ans après :",
+     "size": "l",
+     "color": "pink",
+     "on": "trois cent"
+    },
+    {
+     "t": "text",
+     "text": "le brouillard se lève !",
+     "size": "m",
+     "on": "brouillard"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "brouillard",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la lumière libérée à ce moment-là voyage encore aujourd'hui, on l'appelle le fond diffus cosmologique,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle voyage encore !",
+     "size": "m",
+     "on": "voyage"
+    },
+    {
+     "t": "text",
+     "text": "le fond diffus",
+     "size": "l",
+     "color": "gold",
+     "on": "fond diffus",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le satellite Planck l'a cartographiée en détail, comme une photo de bébé de l'univers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le satellite Planck",
+     "size": "m",
+     "on": "Planck"
+    },
+    {
+     "t": "text",
+     "text": "une photo de bébé",
+     "size": "l",
+     "color": "pink",
+     "on": "bébé",
+     "under": true
+    },
+    {
+     "t": "text",
+     "text": "de l'univers !",
+     "size": "m",
+     "color": "pink",
+     "on": "univers"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La plus vieille lumière de l'univers ✨\n\nL'univers a environ 13,8 milliards d'années. Au tout début, il était si chaud et si dense que la lumière ne pouvait pas circuler librement. Puis, environ 380 000 ans après le Big Bang, ce « brouillard » s'est dissipé et la lumière a enfin pu voyager. Cette lumière, la plus ancienne de l'univers, nous arrive encore aujourd'hui de toutes les directions : on l'appelle le fond diffus cosmologique. Le satellite Planck de l'ESA l'a cartographiée en détail, comme une photo de bébé de l'univers. Un fait fascinant de cosmologie et d'astronomie.\n\nÇa te donne le vertige ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#bigbang",
+  "#univers",
+  "#cosmologie",
+  "#astrophysique",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://svs.gsfc.nasa.gov/30133",
+  "https://www.esa.int/Science_Exploration/Space_Science/Planck"
  ]
 }

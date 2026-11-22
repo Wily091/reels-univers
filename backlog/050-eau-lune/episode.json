@@ -1,18 +1,179 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 49,
  "title": "Il y a de l'eau sur la face éclairée de la Lune",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "En 2020, l'observatoire volant SOFIA de la NASA a détecté des molécules d'eau sur la face éclairée de la Lune 🌕💧\n\nEn très petite quantité : l'équivalent d'une petite bouteille par mètre cube de sol. Le Sahara contient environ 100 fois plus d'eau !\n\nTu le savais ? 👇",
- "hashtags": ["#lune", "#eau", "#nasa", "#sofia", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#artemis"],
- "sources": ["https://www.sciencedaily.com/releases/2020/10/201026125902.htm"],
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Il y a de l'EAU",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "même au soleil ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "lune",
+  "tagline": {
+   "text": "de l'eau sur la Lune !",
+   "on": "eau"
+  }
+ },
  "scenes": [
-  {"say": ["Il y a de l'eau sur la Lune.", "Et pas seulement cachée dans des cratères sombres."], "ghost": "EAU", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "DE L'EAU", "at": [0, 0.3], "punch": true, "max": 320}, {"text": "SUR LA LUNE.", "at": [0, 0.8]}, {"text": "PAS SEULEMENT DANS L'OMBRE.", "at": [1, 0.6], "gap": 30, "max": 150}]},
-  {"say": ["En deux mille vingt, l'observatoire volant SOFIA de la NASA en a détecté… sur la face éclairée par le Soleil."], "ghost": "SOFIA", "kicker": "NASA · SOFIA · 2020", "il": {"type": "telescope"}, "lines": [{"text": "EN 2020,", "at": [0, 0.05], "max": 240}, {"text": "SOFIA", "at": [0, 0.4], "max": 260}, {"text": "[EN PLEIN SOLEIL.]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["Dans le cratère Clavius."], "hit": true, "ghost": "CLAVIUS", "lines": [{"text": "CRATÈRE", "at": 0}, {"text": "CLAVIUS.", "at": [0, 0.5], "punch": true, "max": 420}]},
-  {"say": ["Mais attention : il y en a très peu.", "L'équivalent d'une petite bouteille d'eau… par mètre cube de sol."], "ghost": "BOUTEILLE", "kicker": "~1 PETITE BOUTEILLE PAR M3", "il": {"type": "thermo", "label": "TRÈS PEU", "level": 0.08}, "lines": [{"text": "TRÈS PEU :", "at": [0, 0.7]}, {"text": "[UNE PETITE BOUTEILLE]", "at": [1, 0.55], "punch": true}, {"text": "PAR MÈTRE CUBE.", "at": [1, 0.9]}]},
-  {"say": ["Le désert du Sahara contient environ cent fois plus d'eau."], "ghost": "SAHARA", "il": {"type": "sun"}, "lines": [{"text": "LE SAHARA :", "at": [0, 0.2]}, {"text": "[100 FOIS PLUS]", "at": [0, 0.7], "punch": true}]},
-  {"say": ["Mais pour de futurs astronautes, chaque goutte compte : de l'eau à boire, de l'oxygène… et même du carburant."], "ghost": "GOUTTE", "kicker": "PROGRAMME ARTEMIS", "il": {"type": "rocket"}, "lines": [{"text": "CHAQUE GOUTTE", "at": [0, 0.2]}, {"text": "[COMPTE.]", "at": [0, 0.4], "punch": true, "max": 320}, {"text": "EAU, OXYGÈNE, CARBURANT.", "at": [0, 0.9], "max": 150}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'il y a de l'eau sur la Lune, même sur sa face éclairée par le Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "En deux mille vingt, l'observatoire volant SOFIA de la NASA en a détecté dans le cratère Clavius,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2020 : SOFIA",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille vingt"
+    },
+    {
+     "t": "text",
+     "text": "cratère Clavius",
+     "size": "m",
+     "color": "pink",
+     "on": "Clavius"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "cratère",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il y en a très peu, l'équivalent d'une petite bouteille d'eau par mètre cube de sol,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "très peu :",
+     "size": "m",
+     "on": "très peu"
+    },
+    {
+     "t": "text",
+     "text": "1 petite bouteille",
+     "size": "l",
+     "color": "pink",
+     "on": "bouteille"
+    },
+    {
+     "t": "text",
+     "text": "par m³ de sol",
+     "size": "m",
+     "on": "mètre cube"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le désert du Sahara en contient environ cent fois plus,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Sahara :",
+     "size": "m",
+     "on": "Sahara"
+    },
+    {
+     "t": "text",
+     "text": "× 100 !",
+     "size": "xl",
+     "color": "gold",
+     "on": "cent fois",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais pour de futurs astronautes, chaque goutte compte, pour boire, pour l'oxygène, et même pour le carburant."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pour boire, respirer",
+     "size": "m",
+     "on": "boire"
+    },
+    {
+     "t": "text",
+     "text": "et faire du carburant !",
+     "size": "l",
+     "color": "pink",
+     "on": "carburant"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "astronautes",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il y a de l'eau sur la face éclairée de la Lune 💧\n\nOn savait que de la glace pouvait se cacher dans des cratères lunaires toujours à l'ombre. Mais en 2020, l'observatoire volant SOFIA de la NASA a détecté des molécules d'eau sur la face éclairée par le Soleil, dans le cratère Clavius ! Attention, il y en a très peu : l'équivalent d'une petite bouteille d'eau par mètre cube de sol, environ 100 fois moins que dans le désert du Sahara. Mais pour de futurs astronautes, chaque goutte compte : de l'eau à boire, de l'oxygène et même du carburant pour les fusées. Une découverte clé de l'exploration spatiale.\n\nTu boirais de l'eau lunaire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#eau",
+  "#nasa",
+  "#exploration",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/news-release/nasas-sofia-discovers-water-on-sunlit-surface-of-moon/",
+  "https://www.sciencedaily.com/releases/2020/10/201026125902.htm"
  ]
 }
