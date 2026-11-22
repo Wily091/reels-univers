@@ -1,19 +1,187 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 18,
  "title": "Phobos, la lune de Mars condamnée",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Phobos, une des deux lunes de Mars, se rapproche de la planète d'environ 1,8 mètre par siècle 🌑\n\nDans environ 50 millions d'années, elle s'écrasera sur Mars… ou se brisera en un anneau.\n\nTu le savais ? 👇",
- "hashtags": ["#mars", "#phobos", "#lune", "#espace", "#univers", "#astronomie", "#systemesolaire", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://science.nasa.gov/mars/moons/phobos/", "https://science.nasa.gov/mars/facts/"],
+ "subject": "Phobos",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "phobos",
+   "file": "assets/images/phobos_hirise.jpg",
+   "credit": "Phobos vue par MRO (HiRISE) · NASA/JPL-Caltech/Univ. of Arizona",
+   "page": "https://science.nasa.gov/mars/moons/phobos/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette lune de Mars",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "va finir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "par S'ÉCRASER ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "phobos",
+  "tagline": {
+   "text": "une lune condamnée !",
+   "on": "condamnée"
+  }
+ },
  "scenes": [
-  {"say": ["Mars a une lune… qui est condamnée."], "ghost": "PHOBOS", "kicker": "MARS · DEUX LUNES", "il": {"type": "orbit", "center": "MARS", "speed": 2.2}, "lines": [{"text": "MARS A UNE LUNE", "at": 0}, {"text": "[CONDAMNÉE.]", "at": [0, 0.65], "punch": true}]},
-  {"say": ["Elle s'appelle Phobos.", "Elle fait à peine vingt-sept kilomètres de long."], "ghost": "27 KM", "kicker": "PHOBOS · 27 × 22 × 18 KM", "il": {"type": "moon", "label": "PHOBOS"}, "lines": [{"text": "[PHOBOS]", "at": [0, 0.35], "punch": true, "max": 300}, {"text": "À PEINE", "at": [1, 0.15], "max": 200}, {"text": "[27 KM.]", "at": [1, 0.6]}]},
-  {"say": ["Et elle est si proche de Mars qu'elle en fait le tour trois fois par jour."], "ghost": "3 FOIS", "kicker": "TROIS ORBITES PAR JOUR", "il": {"type": "orbit", "center": "MARS", "speed": 3.5, "rx": 220}, "lines": [{"text": "ELLE FAIT LE TOUR", "at": [0, 0.55]}, {"text": "[3 FOIS PAR JOUR.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Mais chaque siècle, elle se rapproche d'environ un mètre quatre-vingts."], "ghost": "1,8 M", "kicker": "RAPPROCHEMENT · 1,8 M PAR SIÈCLE", "il": {"type": "distance", "label": "1,8 M / SIÈCLE"}, "lines": [{"text": "CHAQUE SIÈCLE :", "at": [0, 0.15]}, {"text": "[-1,8 MÈTRE]", "at": [0, 0.7], "punch": true}]},
-  {"say": ["Ça paraît peu… mais ça ne s'arrêtera pas."], "hit": true, "ghost": "STOP", "lines": [{"text": "ÇA PARAÎT PEU…", "at": 0}, {"text": "MAIS ÇA", "at": [0, 0.6]}, {"text": "CONTINUE.", "at": [0, 0.8], "punch": true, "max": 380}]},
-  {"say": ["Dans environ cinquante millions d'années, Phobos s'écrasera sur Mars."], "ghost": "IMPACT", "kicker": "DANS ~50 MILLIONS D'ANNÉES", "il": {"type": "burst"}, "lines": [{"text": "DANS", "at": 0, "max": 200}, {"text": "[50 MILLIONS]", "at": [0, 0.3], "punch": true}, {"text": "D'ANNÉES…", "at": [0, 0.5]}, {"text": "[L'IMPACT.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Ou alors, elle se brisera en morceaux… et Mars aura un anneau, comme Saturne."], "ghost": "ANNEAU", "il": {"type": "planet", "ring": true, "label": "MARS ?"}, "lines": [{"text": "OU ELLE", "at": [0, 0.05]}, {"text": "SE BRISERA…", "at": [0, 0.3]}, {"text": "ET MARS AURA", "at": [0, 0.6]}, {"text": "[UN ANNEAU.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que Mars a une lune qui est condamnée ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Phobos, elle fait à peine vingt-sept kilomètres de long, et elle est si proche de Mars qu'elle en fait le tour trois fois par jour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Phobos : 27 km",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-sept"
+    },
+    {
+     "t": "text",
+     "text": "3 tours de Mars",
+     "size": "l",
+     "color": "pink",
+     "on": "trois fois"
+    },
+    {
+     "t": "text",
+     "text": "par jour !",
+     "size": "m",
+     "on": "par jour",
+     "row": "same"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tour",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais elle se rapproche de la planète d'environ un mètre quatre-vingts tous les cent ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle se rapproche",
+     "size": "m",
+     "on": "rapproche"
+    },
+    {
+     "t": "text",
+     "text": "1,80 m / siècle",
+     "size": "xl",
+     "color": "gold",
+     "on": "un mètre"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "rapproche",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, dans environ cinquante millions d'années, elle s'écrasera sur Mars,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans 50 millions",
+     "size": "l",
+     "color": "pink",
+     "on": "cinquante"
+    },
+    {
+     "t": "text",
+     "text": "d'années : boum !",
+     "size": "l",
+     "color": "pink",
+     "on": "écrasera",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ou alors elle se brisera en morceaux, et Mars aura un anneau, comme Saturne."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ou bien…",
+     "size": "m",
+     "on": "ou alors"
+    },
+    {
+     "t": "text",
+     "text": "un anneau autour de Mars !",
+     "size": "m",
+     "color": "gold",
+     "on": "anneau"
+    },
+    {
+     "t": "sketch",
+     "kind": "planet",
+     "on": "Saturne",
+     "ring": true,
+     "scale": 0.7
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Phobos, la lune de Mars qui va finir par s'écraser 🌑\n\nPhobos, la plus grande lune de la planète Mars, ne mesure qu'environ 27 km de long. Elle orbite si près de Mars qu'elle en fait le tour trois fois par jour. Mais elle se rapproche d'environ 1,80 m par siècle : dans environ 50 millions d'années, elle devrait s'écraser sur Mars, ou se briser en morceaux qui formeraient un anneau autour de la planète, comme celui de Saturne. Sur la photo, Phobos vue par la sonde Mars Reconnaissance Orbiter. Un fait insolite d'astronomie sur le système solaire.\n\nTu préfères le crash ou l'anneau ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#phobos",
+  "#espace",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/moons/phobos/",
+  "https://science.nasa.gov/mars/facts/"
  ]
 }

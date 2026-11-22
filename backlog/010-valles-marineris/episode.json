@@ -1,19 +1,178 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 19,
  "title": "Valles Marineris, le canyon géant de Mars",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Sur Mars, un canyon s'étend sur environ 3 870 km de long et jusqu'à 9 km de profondeur 🏜️\n\nÀ côté, le Grand Canyon paraît minuscule.\n\nTu le connaissais ? 👇",
- "hashtags": ["#mars", "#vallesmarineris", "#canyon", "#espace", "#univers", "#astronomie", "#planetes", "#science", "#lesaviezvous", "#nasa"],
- "sources": ["https://science.nasa.gov/mars/facts/", "https://www.nps.gov/grca/learn/management/park-facts.htm"],
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "valles",
+   "file": "assets/images/valles_marineris_viking.jpg",
+   "credit": "Mars et Valles Marineris · NASA/USGS (Viking)",
+   "page": "https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris_EDIT.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Mars, un canyon",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "aussi long que",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "l'EUROPE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "valles",
+  "annot": [
+   {
+    "text": "le canyon !",
+    "color": "pink",
+    "under": true,
+    "pos": "tl"
+   }
+  ],
+  "tagline": {
+   "text": "un canyon géant !",
+   "on": "canyon"
+  }
+ },
  "scenes": [
-  {"say": ["Sur Mars, il y a une cicatrice tellement grande… qu'on la voit depuis l'espace."], "ghost": "CANYON", "kicker": "MARS · VALLES MARINERIS", "il": {"type": "planet", "label": "MARS"}, "lines": [{"text": "SUR MARS,", "at": 0}, {"text": "UNE [CICATRICE]", "at": [0, 0.4], "punch": true}, {"text": "GÉANTE.", "at": [0, 0.7]}]},
-  {"say": ["Un canyon : Valles Marineris."], "hit": true, "ghost": "CANYON", "lines": [{"text": "VALLES", "at": [0, 0.45], "punch": true, "max": 380}, {"text": "MARINERIS.", "at": [0, 0.7]}]},
-  {"say": ["Il s'étend sur environ trois mille huit cent soixante-dix kilomètres de long."], "ghost": "3 870 KM", "kicker": "LONGUEUR · ENVIRON 3 870 KM", "il": {"type": "timeline", "left": "0 KM", "right": "3 870 KM", "leftSub": "DÉBUT", "rightSub": "FIN"}, "lines": [{"text": "LONGUEUR :", "at": [0, 0.1]}, {"text": "[3 870 KM]", "at": [0, 0.5], "punch": true, "count": {"from": 0, "to": 3870, "fmt": "[{v} KM]", "dur": 0.9}}]},
-  {"say": ["C'est à peu près la distance entre Lisbonne et Moscou."], "ghost": "EUROPE", "il": {"type": "distance", "label": "LISBONNE - MOSCOU"}, "lines": [{"text": "COMME", "at": [0, 0.1], "max": 200}, {"text": "[LISBONNE]", "at": [0, 0.6], "punch": true}, {"text": "[MOSCOU.]", "at": [0, 0.85]}]},
-  {"say": ["Et il plonge jusqu'à neuf kilomètres de profondeur."], "ghost": "9 KM", "kicker": "PROFONDEUR MAX · 9,3 KM", "il": {"type": "thermo", "label": "9,3 KM", "level": 0.9}, "lines": [{"text": "PROFONDEUR :", "at": [0, 0.15]}, {"text": "[9 KM]", "at": [0, 0.75], "punch": true}]},
-  {"say": ["Le Grand Canyon, aux États-Unis, fait moins de deux kilomètres de profondeur."], "ghost": "GRAND CANYON", "kicker": "GRAND CANYON · ~1,8 KM", "il": {"type": "sizeCompare", "big": "VALLES MARINERIS", "small": "GRAND CANYON", "ratio": 5}, "lines": [{"text": "LE GRAND CANYON :", "at": [0, 0.3]}, {"text": "[MOINS DE 2 KM.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Valles Marineris pourrait l'avaler… plusieurs fois."], "hit": true, "ghost": "AVALER", "lines": [{"text": "IL L'AVALERAIT", "at": [0, 0.3]}, {"text": "PLUSIEURS FOIS.", "at": [0, 0.8], "punch": true, "max": 380}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que sur Mars, il y a un canyon tellement grand qu'on le voit depuis l'espace ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Valles Marineris, et il s'étend sur environ trois mille huit cent soixante-dix kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Valles Marineris",
+     "size": "l",
+     "color": "pink",
+     "on": "Valles"
+    },
+    {
+     "t": "text",
+     "text": "3 870 km",
+     "size": "xl",
+     "color": "gold",
+     "on": "trois mille",
+     "count": {
+      "to": 3870,
+      "fmt": "{n} km"
+     }
+    }
+   ]
+  },
+  {
+   "say": [
+    "à peu près la distance entre Lisbonne et Moscou,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "= Lisbonne → Moscou !",
+     "size": "l",
+     "color": "pink",
+     "on": "Lisbonne"
+    },
+    {
+     "t": "sketch",
+     "kind": "ruler",
+     "on": "distance",
+     "label": "3 870 km",
+     "scale": 0.7
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il plonge jusqu'à environ neuf kilomètres de profondeur, alors que le Grand Canyon, aux États-Unis, fait moins de deux kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "profondeur : 9 km",
+     "size": "l",
+     "color": "gold",
+     "on": "neuf"
+    },
+    {
+     "t": "text",
+     "text": "Grand Canyon : < 2 km",
+     "size": "m",
+     "on": "Grand Canyon"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "profondeur",
+     "scale": 0.7
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, Valles Marineris pourrait l'avaler plusieurs fois."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il l'avalerait",
+     "size": "m",
+     "on": "avaler"
+    },
+    {
+     "t": "text",
+     "text": "plusieurs fois !",
+     "size": "xl",
+     "color": "pink",
+     "on": "plusieurs",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Valles Marineris, le canyon géant de la planète Mars 🏜️\n\nSur Mars se trouve l'un des plus grands canyons du système solaire : Valles Marineris. Il s'étend sur environ 3 870 km, à peu près la distance entre Lisbonne et Moscou, et plonge jusqu'à environ 9 km de profondeur. À côté, le Grand Canyon américain, profond de moins de 2 km, paraît minuscule : Valles Marineris pourrait l'avaler plusieurs fois. Sur la photo, la longue cicatrice qui traverse Mars, vue par les sondes Viking. De l'astronomie à l'échelle d'un continent.\n\nTu irais faire de la rando là-bas ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#planeterouge",
+  "#astronomie",
+  "#geologie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/facts/",
+  "https://www.nps.gov/grca/learn/management/park-facts.htm"
  ]
 }

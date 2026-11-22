@@ -1,19 +1,182 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 20,
  "title": "Pluton n'a pas fini un seul tour depuis sa découverte",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Pluton a été découverte en 1930… et elle n'a toujours pas fait un seul tour complet du Soleil depuis 🌑\n\nIl lui faut 248 ans. Prochain anniversaire : vers 2178.\n\nTu le savais ? 👇",
- "hashtags": ["#pluton", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetenaine", "#science", "#lesaviezvous", "#nasa", "#newhorizons"],
- "sources": ["https://science.nasa.gov/dwarf-planets/pluto/facts/", "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"],
+ "subject": "Pluton",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "pluton",
+   "file": "assets/images/pluton_new_horizons.jpg",
+   "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
+   "page": "https://science.nasa.gov/dwarf-planets/pluto/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pluton n'a pas fait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "UN SEUL tour du Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "depuis 1930 ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "pluton",
+  "annot": [
+   {
+    "text": "un cœur !",
+    "color": "pink",
+    "under": true,
+    "pos": "bl"
+   }
+  ],
+  "tagline": {
+   "text": "pas encore 1 tour !",
+   "on": "tour"
+  }
+ },
  "scenes": [
-  {"say": ["Depuis qu'on l'a découverte, Pluton n'a jamais fait un seul tour du Soleil."], "ghost": "PLUTON", "kicker": "PLANÈTE NAINE · CEINTURE DE KUIPER", "il": {"type": "moon", "label": "PLUTON"}, "lines": [{"text": "PLUTON N'A", "at": [0, 0.35]}, {"text": "JAMAIS FAIT", "at": [0, 0.55]}, {"text": "[UN SEUL TOUR.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Elle a été découverte en mille neuf cent trente."], "ghost": "1930", "kicker": "DÉCOUVERTE · 1930", "il": {"type": "telescope"}, "lines": [{"text": "DÉCOUVERTE EN", "at": [0, 0.2]}, {"text": "[1930]", "at": [0, 0.65], "punch": true, "max": 300}]},
-  {"say": ["Mais il lui faut deux cent quarante-huit ans pour faire le tour du Soleil."], "ghost": "248 ANS", "kicker": "UNE ANNÉE SUR PLUTON · 248 ANS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.25}, "lines": [{"text": "UN TOUR DU SOLEIL :", "at": [0, 0.4]}, {"text": "[248 ANS]", "at": [0, 0.75], "punch": true, "count": {"from": 0, "to": 248, "fmt": "[{v} ANS]", "dur": 0.9}}]},
-  {"say": ["Son premier anniversaire depuis sa découverte ? Vers l'an deux mille cent soixante-dix-huit."], "hit": true, "ghost": "2178", "lines": [{"text": "PREMIER TOUR :", "at": [0, 0.2]}, {"text": "VERS 2178.", "at": [0, 0.7], "punch": true, "max": 380}]},
-  {"say": ["Et Pluton est minuscule.", "Elle est plus petite que notre Lune."], "ghost": "PETITE", "kicker": "DIAMÈTRE · 2 376 KM", "il": {"type": "sizeCompare", "big": "LA LUNE", "small": "PLUTON", "ratio": 1.46}, "lines": [{"text": "PLUS PETITE", "at": [1, 0.3], "punch": true}, {"text": "QUE [NOTRE LUNE.]", "at": [1, 0.7]}]},
-  {"say": ["En deux mille six, elle a d'ailleurs perdu son statut de planète."], "ghost": "2006", "kicker": "UNION ASTRONOMIQUE INTERNATIONALE · 2006", "il": {"type": "crossStar", "sw": [0, 0.6]}, "lines": [{"text": "EN [2006],", "at": [0, 0.1]}, {"text": "ELLE PERD", "at": [0, 0.5]}, {"text": "SON STATUT.", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Mais en deux mille quinze, la sonde New Horizons a découvert un détail touchant à sa surface :", "un immense cœur, fait de glace d'azote."], "ghost": "CŒUR", "kicker": "NEW HORIZONS · 14 JUILLET 2015", "il": {"type": "globe", "label": "PLAINES D'AZOTE GELÉ"}, "lines": [{"text": "UN IMMENSE", "at": [1, 0.1]}, {"text": "[CŒUR]", "at": [1, 0.35], "punch": true, "max": 300}, {"text": "DE GLACE D'AZOTE.", "at": [1, 0.75]}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que depuis qu'on l'a découverte, Pluton n'a jamais fait un seul tour du Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle a été découverte en mille neuf cent trente, mais il lui faut deux cent quarante-huit ans pour boucler un tour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "découverte en 1930",
+     "size": "m",
+     "on": "mille neuf cent"
+    },
+    {
+     "t": "text",
+     "text": "1 tour = 248 ans",
+     "size": "xl",
+     "color": "gold",
+     "on": "deux cent quarante-huit"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup son premier anniversaire depuis sa découverte, ce sera vers l'an deux mille cent soixante-dix-huit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er anniversaire :",
+     "size": "m",
+     "on": "anniversaire"
+    },
+    {
+     "t": "text",
+     "text": "en 2178 !",
+     "size": "xl",
+     "color": "pink",
+     "on": "deux mille cent",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle est même plus petite que notre Lune, au point d'avoir perdu son statut de planète en deux mille six,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ petite que la Lune",
+     "size": "m",
+     "on": "petite"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.6
+    },
+    {
+     "t": "text",
+     "text": "2006 : plus une planète",
+     "size": "m",
+     "color": "gold",
+     "on": "deux mille six"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en deux mille quinze, la sonde New Horizons a découvert sur elle un immense cœur de glace."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2015 : New Horizons",
+     "size": "m",
+     "color": "gold",
+     "on": "New Horizons"
+    },
+    {
+     "t": "text",
+     "text": "un cœur de glace ♥",
+     "size": "l",
+     "color": "pink",
+     "on": "cœur",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pluton n'a pas encore fait un seul tour du Soleil depuis sa découverte 🤍\n\nPluton a été découverte en 1930, mais il lui faut 248 ans pour faire le tour du Soleil : son premier « anniversaire » depuis sa découverte tombera vers 2178 ! Plus petite que notre Lune, elle a perdu son statut de planète en 2006 et elle est aujourd'hui une planète naine. En 2015, la sonde New Horizons l'a survolée et a révélé à sa surface une immense plaine de glace en forme de cœur. Sur la photo, Pluton en couleurs naturelles. Un fait insolite d'astronomie et du système solaire.\n\nPour toi, Pluton est une planète ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pluton",
+  "#astronomie",
+  "#planetenaine",
+  "#culturegenerale",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+  "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
  ]
 }

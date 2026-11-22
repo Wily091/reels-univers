@@ -1,20 +1,180 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": true,
+ "num": 26,
  "title": "Le télescope Hubble était myope à son lancement",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Quand Hubble a été lancé en 1990, ses images étaient floues : son miroir avait un défaut plus fin qu'un cheveu 🔭👓\n\nEn 1993, des astronautes lui ont installé une optique correctrice… en orbite.\n\nTu connaissais cette histoire ? 👇",
- "hashtags": ["#hubble", "#telescope", "#espace", "#univers", "#astronomie", "#nasa", "#histoire", "#science", "#lesaviezvous", "#astronaute"],
- "sources": ["https://science.nasa.gov/mission/hubble/impacts-and-benefits/comeback-story"],
+ "subject": "Hubble",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hubble",
+   "file": "assets/images/hubble_sm4.jpg",
+   "credit": "Hubble en orbite (2009) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:HST-SM4.jpeg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le télescope Hubble",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "était",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "MYOPE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "hubble",
+  "tagline": {
+   "text": "il avait besoin de lunettes !",
+   "on": "myope"
+  }
+ },
  "scenes": [
-  {"say": ["Le télescope le plus célèbre du monde… a commencé sa carrière myope."], "ghost": "HUBBLE", "kicker": "TÉLESCOPE SPATIAL HUBBLE", "il": {"type": "telescope"}, "lines": [{"text": "LE TÉLESCOPE", "at": [0, 0.1]}, {"text": "[HUBBLE]", "at": [0, 0.35], "punch": true, "max": 320}, {"text": "ÉTAIT [MYOPE.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["En mille neuf cent quatre-vingt-dix, il est lancé dans l'espace.", "Mais ses premières images sont floues."], "ghost": "1990", "kicker": "LANCEMENT · 1990", "il": {"type": "rocket"}, "lines": [{"text": "LANCÉ EN [1990.]", "at": [0, 0.4]}, {"text": "MAIS LES IMAGES", "at": [1, 0.2], "gap": 30}, {"text": "[SONT FLOUES.]", "at": [1, 0.7], "punch": true}]},
-  {"say": ["Le problème ?", "Son miroir principal a été poli avec une petite erreur."], "ghost": "MIROIR", "il": {"type": "question"}, "lines": [{"text": "LE PROBLÈME ?", "at": 0}, {"text": "[SON MIROIR.]", "at": [1, 0.3], "punch": true}]},
-  {"say": ["Une erreur plus fine qu'un cheveu humain."], "hit": true, "ghost": "CHEVEU", "lines": [{"text": "PLUS FINE", "at": [0, 0.2], "punch": true}, {"text": "QU'UN CHEVEU.", "at": [0, 0.7], "punch": true}]},
-  {"say": ["Mais dans l'espace, ça suffit à tout rendre flou."], "ghost": "FLOU", "il": {"type": "blobToGalaxy"}, "lines": [{"text": "ÇA SUFFIT À", "at": [0, 0.4]}, {"text": "[TOUT RENDRE FLOU.]", "at": [0, 0.8], "punch": true}]},
-  {"say": ["Alors en mille neuf cent quatre-vingt-treize, des astronautes sont montés le réparer…", "et lui ont installé une optique correctrice."], "ghost": "1993", "kicker": "PREMIÈRE MISSION DE MAINTENANCE · 1993", "il": {"type": "blobToGalaxy", "sw": [1, 0.5]}, "lines": [{"text": "EN [1993],", "at": [0, 0.2]}, {"text": "DES ASTRONAUTES", "at": [0, 0.5]}, {"text": "[LE RÉPARENT.]", "at": [0, 0.85], "punch": true}, {"text": "UNE [OPTIQUE]", "at": [1, 0.6], "gap": 30, "max": 150}, {"text": "CORRECTRICE.", "at": [1, 0.85], "max": 150}]},
-  {"say": ["En clair… on a mis des lunettes à un télescope, en orbite."], "hit": true, "ghost": "LUNETTES", "lines": [{"text": "DES LUNETTES,", "at": [0, 0.35], "punch": true}, {"text": "EN ORBITE.", "at": [0, 0.85]}]},
-  {"say": ["Depuis, Hubble a pris certaines des images les plus célèbres de l'univers."], "ghost": "IMAGES", "il": {"type": "galaxy"}, "lines": [{"text": "DEPUIS,", "at": 0, "max": 200}, {"text": "[DES IMAGES]", "at": [0, 0.6], "punch": true}, {"text": "DE LÉGENDE.", "at": [0, 0.9]}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que le télescope le plus célèbre du monde a commencé sa carrière myope ?"
+   ]
+  },
+  {
+   "say": [
+    "Hubble est lancé dans l'espace en mille neuf cent quatre-vingt-dix, mais ses premières images sont floues,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "lancé en 1990",
+     "size": "l",
+     "color": "gold",
+     "on": "mille neuf cent"
+    },
+    {
+     "t": "text",
+     "text": "images floues !",
+     "size": "l",
+     "color": "pink",
+     "on": "floues"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancé",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que son miroir principal a été poli avec une toute petite erreur, plus fine qu'un cheveu humain,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le miroir :",
+     "size": "m",
+     "on": "miroir"
+    },
+    {
+     "t": "text",
+     "text": "une erreur",
+     "size": "l",
+     "on": "erreur"
+    },
+    {
+     "t": "text",
+     "text": "+ fine qu'un cheveu !",
+     "size": "l",
+     "color": "pink",
+     "on": "cheveu",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors en mille neuf cent quatre-vingt-treize, des astronautes sont montés le réparer et lui ont installé une optique correctrice,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1993 : des astronautes",
+     "size": "m",
+     "color": "gold",
+     "on": "mille neuf cent"
+    },
+    {
+     "t": "text",
+     "text": "installent une correction",
+     "size": "m",
+     "on": "optique"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "astronautes",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "en clair, on a mis des lunettes à un télescope, en orbite."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des lunettes",
+     "size": "xl",
+     "color": "pink",
+     "on": "lunettes",
+     "under": true
+    },
+    {
+     "t": "text",
+     "text": "en orbite !",
+     "size": "l",
+     "color": "gold",
+     "on": "orbite"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le télescope spatial Hubble était myope à son lancement 👓\n\nLancé en 1990, Hubble a d'abord envoyé des images floues. En cause : son miroir principal avait été poli avec une minuscule erreur, plus fine qu'un cheveu humain, mais suffisante pour tout brouiller. En 1993, des astronautes sont montés le réparer en orbite et lui ont installé une optique correctrice. En clair, on a mis des lunettes à un télescope dans l'espace ! Depuis, Hubble a pris certaines des plus belles images de l'histoire de l'astronomie. Sur la photo, Hubble en orbite en 2009.\n\nTu connaissais cette histoire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#hubble",
+  "#telescope",
+  "#astronomie",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/hubble/impacts-and-benefits/comeback-story"
  ]
 }

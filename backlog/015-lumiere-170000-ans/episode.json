@@ -1,19 +1,185 @@
 {
- "date": null,
- "title": "La lumière du Soleil a mis des milliers d'années à sortir",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "La lumière du Soleil met environ 8 minutes à nous atteindre… mais son énergie a mis environ 170 000 ans à remonter du cœur jusqu'à la surface ☀️\n\nLa chaleur que tu sens sur ta peau est née bien avant l'Histoire humaine.\n\nTu le savais ? 👇",
- "hashtags": ["#soleil", "#lumiere", "#espace", "#univers", "#astronomie", "#physique", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
- "sources": ["https://science.nasa.gov/sun/facts/"],
+ "format": "planche",
+ "valide": true,
+ "num": 23,
+ "title": "La lumière du Soleil met 170 000 ans à sortir de l'étoile",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La lumière du Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a commencé son voyage",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il y a 170 000 ANS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "soleil",
+  "tagline": {
+   "text": "un très long voyage !",
+   "on": "voyage"
+  }
+ },
  "scenes": [
-  {"say": ["La lumière du Soleil met environ huit minutes pour arriver jusqu'à toi."], "ghost": "8 MIN", "kicker": "TERRE - SOLEIL · 150 MILLIONS DE KM", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "TERRE"}, "lines": [{"text": "DU SOLEIL À TOI :", "at": [0, 0.3]}, {"text": "[8 MINUTES]", "at": [0, 0.75], "punch": true}]},
-  {"say": ["Mais ce n'est que la fin du voyage."], "hit": true, "ghost": "VOYAGE", "lines": [{"text": "CE N'EST QUE", "at": [0, 0.1]}, {"text": "LA FIN.", "at": [0, 0.6], "punch": true, "max": 420}]},
-  {"say": ["Cette énergie est née au cœur du Soleil, où il fait plus de quinze millions de degrés."], "ghost": "CŒUR", "kicker": "CŒUR · 15 MILLIONS °C", "il": {"type": "sun"}, "lines": [{"text": "AU CŒUR", "at": [0, 0.35]}, {"text": "DU SOLEIL :", "at": [0, 0.5]}, {"text": "[15 MILLIONS °C]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Et pour remonter jusqu'à la surface, elle rebondit d'atome en atome…", "pendant environ cent soixante-dix mille ans."], "ghost": "170 000", "kicker": "DU CŒUR À LA SURFACE · ~170 000 ANS", "il": {"type": "tunnel"}, "lines": [{"text": "ELLE REBONDIT", "at": [0, 0.6]}, {"text": "PENDANT", "at": [1, 0.05], "max": 200}, {"text": "[170 000 ANS]", "at": [1, 0.4], "punch": true, "count": {"from": 0, "to": 170000, "fmt": "[{v} ANS]", "dur": 1}}]},
-  {"say": ["Cent soixante-dix mille ans."], "hit": true, "ghost": "170 000", "lines": [{"text": "170 000", "at": [0, 0.1], "punch": true, "max": 400}, {"text": "ANS.", "at": [0, 0.6], "max": 400}]},
-  {"say": ["Puis à peine huit minutes pour traverser l'espace jusqu'à la Terre."], "ghost": "ESPACE", "il": {"type": "lightTravel", "from": "SOLEIL", "to": "TERRE"}, "lines": [{"text": "PUIS", "at": 0, "max": 200}, {"text": "[8 MINUTES]", "at": [0, 0.3], "punch": true}, {"text": "JUSQU'À LA TERRE.", "at": [0, 0.8]}]},
-  {"say": ["Alors la chaleur que tu sens sur ta peau a commencé son voyage… bien avant l'invention de l'écriture."], "ghost": "PEAU", "kicker": "L'ÉCRITURE · IL Y A ~5 000 ANS", "il": {"type": "timeline", "left": "-170 000 ANS", "leftSub": "AU CŒUR", "right": "AUJOURD'HUI", "rightSub": "SUR TA PEAU"}, "lines": [{"text": "LA CHALEUR", "at": [0, 0.05]}, {"text": "SUR TA PEAU", "at": [0, 0.2]}, {"text": "EST PARTIE", "at": [0, 0.45]}, {"text": "[AVANT L'ÉCRITURE.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que la chaleur du Soleil que tu sens sur ta peau a commencé son voyage il y a environ cent soixante-dix mille ans ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle est née au cœur du Soleil, où il fait plus de quinze millions de degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au cœur du Soleil :",
+     "size": "m",
+     "on": "cœur"
+    },
+    {
+     "t": "text",
+     "text": "15 millions °C",
+     "size": "xl",
+     "color": "gold",
+     "on": "quinze"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "degrés",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pour remonter vers la surface, elle rebondit d'atome en atome pendant environ cent soixante-dix mille ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle rebondit…",
+     "size": "m",
+     "on": "rebondit"
+    },
+    {
+     "t": "text",
+     "text": "170 000 ans !",
+     "size": "xl",
+     "color": "pink",
+     "on": "cent soixante-dix",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "atome",
+     "scale": 0.7
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis il ne lui faut qu'environ huit minutes pour traverser l'espace jusqu'à la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "puis…",
+     "size": "m",
+     "on": "puis"
+    },
+    {
+     "t": "text",
+     "text": "8 minutes",
+     "size": "xl",
+     "color": "gold",
+     "on": "huit minutes"
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "on": "Terre",
+     "from": "Soleil",
+     "to": "Terre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "donc cette énergie a commencé son voyage bien avant l'invention de l'écriture."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "partie bien avant",
+     "size": "m",
+     "on": "avant"
+    },
+    {
+     "t": "text",
+     "text": "l'écriture !",
+     "size": "l",
+     "color": "pink",
+     "on": "écriture",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "voyage",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La lumière du Soleil a mis des milliers d'années à sortir de l'étoile ☀️\n\nL'énergie du Soleil naît dans son cœur, à plus de 15 millions de degrés. Pour remonter vers l'extérieur, elle rebondit d'atome en atome pendant environ 170 000 ans, selon la NASA. Puis il ne lui faut qu'environ 8 minutes pour traverser l'espace jusqu'à la Terre. La chaleur que tu sens sur ta peau a donc commencé son voyage bien avant l'invention de l'écriture ! Sur la photo, le Soleil vu par le satellite SDO. Un fait fascinant d'astronomie et de physique.\n\nÇa change ta façon de voir le soleil ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#lumiere",
+  "#astrophysique",
+  "#lesaviezvous",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/"
  ]
 }
