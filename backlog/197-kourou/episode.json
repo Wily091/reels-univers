@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 196,
+ "title": "Pourquoi les fusées européennes décollent de Guyane",
+ "subject": "Kourou",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pourquoi les fusées",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "décollent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de GUYANE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'avantage de l'équateur",
+   "on": "fusées"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les fusées européennes décollent de Guyane pour profiter de la rotation de la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Le port spatial de Kourou est tout près de l'équateur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Kourou",
+     "size": "xl",
+     "color": "pink",
+     "on": "Kourou"
+    },
+    {
+     "t": "text",
+     "text": "tout près de l'équateur",
+     "size": "m",
+     "on": "équateur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à l'équateur, le sol tourne vers l'est à plus de mille six cents kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le sol file vers l'est",
+     "size": "m",
+     "on": "est"
+    },
+    {
+     "t": "text",
+     "text": "+ de 1 600 km/h !",
+     "size": "l",
+     "color": "gold",
+     "on": "mille six cents",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, une fusée qui décolle vers l'est reçoit cet élan gratuitement, comme un coup de pouce,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un élan gratuit",
+     "size": "l",
+     "color": "pink",
+     "on": "élan"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "fusée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle peut emporter plus de charge, avec moins de carburant."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de charge",
+     "size": "l",
+     "color": "gold",
+     "on": "charge"
+    },
+    {
+     "t": "text",
+     "text": "- de carburant !",
+     "size": "m",
+     "on": "carburant",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pourquoi les fusées européennes décollent de Kourou, en Guyane 🚀\n\nLe Centre spatial guyanais, à Kourou, est l'un des ports spatiaux les mieux placés au monde : il se trouve à seulement 5° au nord de l'équateur. Or, à l'équateur, la surface de la Terre tourne vers l'est à plus de 1 600 km/h. Une fusée qui décolle vers l'est profite de cette vitesse comme d'un élan gratuit ! Résultat : elle peut emporter des satellites plus lourds, ou consommer moins de carburant, que si elle partait d'un site plus au nord. C'est de là que décollent les fusées Ariane. Sur la photo, la Terre. De la physique au service de l'espace.\n\nTu as déjà vu un décollage ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#kourou",
+  "#ariane",
+  "#cnes",
+  "#fusee",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Centre_spatial_guyanais",
+  "https://cnes.fr/"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 195,
+ "title": "Claudie Haigneré, première Française dans l'espace",
+ "subject": "Haigneré",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La 1re Française",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "était MÉDECIN ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la 1re Française",
+   "on": "Française"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la première Française dans l'espace était médecin ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Claudie Haigneré, et elle était rhumatologue avant de devenir astronaute,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Claudie Haigneré",
+     "size": "l",
+     "color": "pink",
+     "on": "Haigneré"
+    },
+    {
+     "t": "text",
+     "text": "rhumatologue",
+     "size": "m",
+     "color": "gold",
+     "on": "rhumatologue"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en août mille neuf cent quatre-vingt-seize, elle part vers la station russe Mir pour la mission Cassiopée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "août 1996 : Mir",
+     "size": "l",
+     "color": "gold",
+     "on": "Mir"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "part",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille un, elle devient la première Européenne à bord de la Station spatiale internationale,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2001 : 1re Européenne",
+     "size": "l",
+     "color": "pink",
+     "on": "Européenne",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "sur l'ISS !",
+     "size": "m",
+     "on": "Station"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et plus tard, elle est même devenue ministre de la Recherche, puis des Affaires européennes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "puis… ministre !",
+     "size": "l",
+     "color": "gold",
+     "on": "ministre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Claudie Haigneré, la première Française dans l'espace, était médecin 🇫🇷\n\nClaudie Haigneré était médecin rhumatologue avant de devenir astronaute au CNES. En août 1996, elle s'envole vers la station russe Mir pour la mission Cassiopée et devient la première Française dans l'espace. En 2001, elle est la première femme européenne à séjourner à bord de la Station spatiale internationale. Après sa carrière d'astronaute, elle est devenue ministre déléguée à la Recherche, puis aux Affaires européennes, et a dirigé la Cité des sciences. Sur la photo, la Station spatiale internationale. Une pionnière de l'aventure spatiale française.\n\nTu la connaissais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#claudiehaignere",
+  "#femmesdanslespace",
+  "#cnes",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Claudie_Haigneré",
+  "https://cnes.fr/"
+ ]
+}

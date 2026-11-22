@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 202,
+ "title": "L'Inde s'est posée près du pôle sud de la Lune",
+ "subject": "Chandrayaan-3",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'Inde a été la 1re",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à se poser",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "près du PÔLE SUD lunaire ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une 1re historique",
+   "on": "Inde"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'Inde a été le premier pays à se poser près du pôle sud de la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Le vingt-trois août deux mille vingt-trois, la sonde indienne Chandrayaan trois s'est posée en douceur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "23 août 2023",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-trois"
+    },
+    {
+     "t": "text",
+     "text": "Chandrayaan-3",
+     "size": "l",
+     "color": "pink",
+     "on": "Chandrayaan"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "près du pôle sud de la Lune, une zone où de la glace d'eau pourrait se cacher dans les cratères,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "près du pôle sud",
+     "size": "l",
+     "color": "pink",
+     "on": "pôle sud",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de la glace possible",
+     "size": "m",
+     "on": "glace"
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'Inde est devenue le quatrième pays à réussir à se poser sur la Lune, après l'URSS, les États-Unis et la Chine,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "4e pays sur la Lune !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatrième"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et son petit rover, Pragyan, y a confirmé la présence de soufre dans le sol."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le rover Pragyan",
+     "size": "m",
+     "on": "Pragyan"
+    },
+    {
+     "t": "text",
+     "text": "a trouvé du soufre !",
+     "size": "l",
+     "color": "pink",
+     "on": "soufre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Chandrayaan-3 : l'Inde, première à se poser près du pôle sud de la Lune 🇮🇳🌕\n\nLe 23 août 2023, la sonde indienne Chandrayaan-3 s'est posée en douceur près du pôle sud de la Lune, une première mondiale. Cette région intéresse beaucoup les scientifiques : de la glace d'eau pourrait être piégée dans ses cratères toujours à l'ombre, une ressource précieuse pour de futures bases lunaires. Avec cette mission, l'Inde est devenue le quatrième pays à réussir un atterrissage sur la Lune, après l'URSS, les États-Unis et la Chine. Son petit rover, Pragyan, a notamment confirmé la présence de soufre dans le sol lunaire. Sur la photo, la pleine Lune.\n\nTu avais suivi cet exploit ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#chandrayaan3",
+  "#isro",
+  "#lune",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Chandrayaan-3",
+  "https://www.isro.gov.in/"
+ ]
+}

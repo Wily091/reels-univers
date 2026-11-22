@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 203,
+ "title": "Le premier selfie dans l'espace date de 1966",
+ "subject": "Buzz Aldrin",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le 1er selfie",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "date de 1966 ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le 1er selfie",
+   "on": "selfie"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le premier selfie dans l'espace a été pris en mille neuf cent soixante-six ?"
+   ]
+  },
+  {
+   "say": [
+    "C'était pendant la mission Gemini douze, en novembre mille neuf cent soixante-six,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Gemini 12",
+     "size": "l",
+     "color": "pink",
+     "on": "Gemini"
+    },
+    {
+     "t": "text",
+     "text": "novembre 1966",
+     "size": "m",
+     "color": "gold",
+     "on": "novembre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'astronaute Buzz Aldrin, pendant une sortie dans l'espace, a tourné l'appareil photo vers lui,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Buzz Aldrin",
+     "size": "l",
+     "color": "gold",
+     "on": "Aldrin"
+    },
+    {
+     "t": "text",
+     "text": "l'appareil vers lui !",
+     "size": "m",
+     "on": "appareil"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il a pris une photo de lui avec la Terre en arrière-plan,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "avec la Terre derrière",
+     "size": "l",
+     "color": "pink",
+     "on": "arrière-plan",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "trois ans plus tard, il marchait sur la Lune avec Neil Armstrong."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3 ans + tard…",
+     "size": "m",
+     "on": "trois ans"
+    },
+    {
+     "t": "text",
+     "text": "il marchait sur la Lune !",
+     "size": "l",
+     "color": "gold",
+     "on": "Lune",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Armstrong",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le premier selfie dans l'espace a été pris par Buzz Aldrin en 1966 🤳\n\nBien avant les smartphones, Buzz Aldrin a pris ce qui est considéré comme le premier selfie dans l'espace. C'était en novembre 1966, pendant la mission Gemini 12 de la NASA : lors d'une sortie hors de la capsule, il a tourné son appareil photo vers lui et s'est pris en photo, avec la Terre en arrière-plan. Trois ans plus tard, en juillet 1969, il devenait le deuxième homme à marcher sur la Lune, juste après Neil Armstrong, lors de la mission Apollo 11. Sur la photo, Buzz Aldrin sur la Lune. Une anecdote amusante de l'histoire spatiale.\n\nTu aurais fait quelle pose ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#buzzaldrin",
+  "#selfie",
+  "#nasa",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Buzz_Aldrin",
+  "https://fr.wikipedia.org/wiki/Gemini_12"
+ ]
+}

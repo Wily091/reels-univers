@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 200,
+ "title": "Un robot a fabriqué de l'oxygène sur Mars",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un robot",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a fabriqué de l'oxygène",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur MARS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "de l'oxygène martien",
+   "on": "oxygène"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un appareil a déjà fabriqué de l'oxygène sur Mars ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle MOXIE, une petite boîte de la taille d'une batterie de voiture, à bord du rover Perseverance,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "MOXIE",
+     "size": "xl",
+     "color": "pink",
+     "on": "MOXIE"
+    },
+    {
+     "t": "text",
+     "text": "à bord de Perseverance",
+     "size": "m",
+     "on": "Perseverance"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il aspire l'air de Mars, plein de dioxyde de carbone, et le casse pour en sortir de l'oxygène,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "CO₂ martien",
+     "size": "l",
+     "on": "dioxyde"
+    },
+    {
+     "t": "text",
+     "text": "→ oxygène !",
+     "size": "l",
+     "color": "gold",
+     "on": "oxygène",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "en tout, il en a produit environ cent vingt-deux grammes, de quoi faire respirer un petit chien pendant une dizaine d'heures,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 122 g d'oxygène",
+     "size": "l",
+     "color": "pink",
+     "on": "cent vingt-deux"
+    },
+    {
+     "t": "text",
+     "text": "~ 10 h pour un petit chien",
+     "size": "m",
+     "on": "chien"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est peu, mais ça prouve qu'un jour, on pourra fabriquer de l'air sur place pour les astronautes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "de l'air sur place",
+     "size": "l",
+     "color": "gold",
+     "on": "air"
+    },
+    {
+     "t": "text",
+     "text": "pour les futurs astronautes !",
+     "size": "m",
+     "on": "astronautes",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Un appareil a déjà fabriqué de l'oxygène sur Mars 🫁\n\nÀ bord du rover Perseverance de la NASA, un instrument de la taille d'une batterie de voiture, MOXIE, a réussi une première historique : fabriquer de l'oxygène sur une autre planète. Il aspirait l'atmosphère martienne, composée surtout de dioxyde de carbone, et en séparait les atomes d'oxygène. Entre 2021 et 2023, il a produit au total environ 122 grammes d'oxygène, de quoi faire respirer un petit chien pendant une dizaine d'heures. Une petite quantité, mais une grande preuve : les futurs astronautes pourraient produire sur place de l'air à respirer et du carburant pour revenir. Sur la photo, Mars.\n\nTu irais vivre sur Mars ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#perseverance",
+  "#nasa",
+  "#oxygene",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/mars-2020-perseverance/",
+  "https://fr.wikipedia.org/wiki/MOXIE"
+ ]
+}

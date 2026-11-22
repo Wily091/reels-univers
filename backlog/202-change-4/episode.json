@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 201,
+ "title": "Le premier atterrissage sur la face cachée de la Lune",
+ "subject": "Chang'e 4",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "farside",
+   "file": "assets/images/lune_face_cachee_lro.jpg",
+   "credit": "Face cachée de la Lune · NASA/GSFC/Arizona State University (LRO)",
+   "page": "https://commons.wikimedia.org/wiki/File:Moon_Farside_LRO.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le 1er atterrissage",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur la face cachée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la face cachée",
+   "on": "face cachée"
+  },
+  "photo": "farside"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que personne ne s'était jamais posé sur la face cachée de la Lune avant deux mille dix-neuf ?"
+   ]
+  },
+  {
+   "say": [
+    "Le trois janvier deux mille dix-neuf, la sonde chinoise Chang'e quatre s'y est posée en douceur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3 janvier 2019",
+     "size": "l",
+     "color": "gold",
+     "on": "trois janvier"
+    },
+    {
+     "t": "text",
+     "text": "Chang'e 4",
+     "size": "l",
+     "color": "pink",
+     "on": "Chang'e"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "le problème, c'est que de là, on ne voit jamais la Terre, donc impossible de communiquer directement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas de contact direct",
+     "size": "m",
+     "on": "communiquer"
+    },
+    {
+     "t": "text",
+     "text": "avec la Terre !",
+     "size": "l",
+     "on": "Terre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors la Chine a placé un satellite relais derrière la Lune, appelé Queqiao, le pont des pies,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un satellite relais :",
+     "size": "m",
+     "on": "relais"
+    },
+    {
+     "t": "text",
+     "text": "Queqiao",
+     "size": "l",
+     "color": "gold",
+     "on": "Queqiao",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et son petit rover, Yutu deux, a roulé là-bas pendant des années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le rover Yutu-2",
+     "size": "l",
+     "color": "pink",
+     "on": "Yutu"
+    },
+    {
+     "t": "text",
+     "text": "y a roulé des années !",
+     "size": "m",
+     "on": "années",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Chang'e 4, le premier atterrissage sur la face cachée de la Lune 🌑\n\nLe 3 janvier 2019, la sonde chinoise Chang'e 4 a réussi le premier atterrissage en douceur de l'histoire sur la face cachée de la Lune, dans le cratère Von Kármán. Un défi : depuis cette face, la Terre n'est jamais visible, donc impossible de communiquer directement. La Chine avait placé au préalable un satellite relais, Queqiao (« le pont des pies »), au-delà de la Lune. Son rover, Yutu-2, a ensuite exploré la surface pendant plusieurs années, battant des records de longévité. En 2024, la mission Chang'e 6 a même rapporté les premiers échantillons de la face cachée. Sur la photo, la face cachée de la Lune.\n\nTu savais qu'on n'y était jamais allés avant ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#change4",
+  "#lune",
+  "#facecachee",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Chang'e_4",
+  "https://fr.wikipedia.org/wiki/Yutu_2"
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 198,
+ "title": "On ne voit pas la Muraille de Chine depuis l'espace",
+ "subject": "Idée reçue",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Muraille de Chine",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "visible depuis l'espace ?",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "FAUX !",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une idée reçue",
+   "on": "Muraille"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu as sûrement entendu dire que la Muraille de Chine est visible depuis l'espace à l'œil nu ?"
+   ]
+  },
+  {
+   "say": [
+    "Eh bien, c'est faux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "c'est FAUX !",
+     "size": "xl",
+     "color": "pink",
+     "on": "faux",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "la Muraille est très longue, mais elle ne fait que quelques mètres de large, et elle a presque la même couleur que le sol,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "quelques mètres de large",
+     "size": "l",
+     "color": "gold",
+     "on": "mètres"
+    },
+    {
+     "t": "text",
+     "text": "même couleur que le sol",
+     "size": "m",
+     "on": "couleur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "même le premier astronaute chinois, Yang Liwei, a dit qu'il ne l'avait pas vue,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Yang Liwei",
+     "size": "l",
+     "color": "pink",
+     "on": "Yang"
+    },
+    {
+     "t": "text",
+     "text": "ne l'a pas vue !",
+     "size": "m",
+     "on": "vue"
+    }
+   ]
+  },
+  {
+   "say": [
+    "par contre, la nuit, depuis la Station spatiale, on voit très bien les lumières des villes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ce qu'on voit :",
+     "size": "m",
+     "on": "voit"
+    },
+    {
+     "t": "text",
+     "text": "les lumières des villes !",
+     "size": "l",
+     "color": "gold",
+     "on": "lumières",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Non, la Muraille de Chine n'est pas visible depuis l'espace à l'œil nu 🧱\n\nC'est une idée reçue tenace : la Grande Muraille de Chine serait visible depuis l'espace, voire depuis la Lune. En réalité, c'est faux ! Elle est immensément longue, mais ne fait que quelques mètres de large, et sa couleur se confond avec le paysage. Même le premier astronaute chinois, Yang Liwei, a déclaré en 2003 qu'il ne l'avait pas vue. Ce qui se voit très bien depuis la Station spatiale, à environ 400 km d'altitude, ce sont plutôt les grandes villes, les routes éclairées et les lumières des côtes la nuit. Sur l'image, la Terre de nuit vue par la NASA.\n\nTu y croyais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#ideerecue",
+  "#murailledechine",
+  "#iss",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Grande_Muraille",
+  "https://fr.wikipedia.org/wiki/Yang_Liwei"
+ ]
+}

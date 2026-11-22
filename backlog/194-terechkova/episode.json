@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 193,
+ "title": "Valentina Terechkova, première femme dans l'espace",
+ "subject": "Terechkova",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La 1re femme",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "y est allée SEULE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la 1re femme",
+   "on": "femme"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la première femme dans l'espace y est partie toute seule, pendant presque trois jours ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Valentina Terechkova, une ancienne ouvrière du textile passionnée de parachutisme,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Valentina Terechkova",
+     "size": "l",
+     "color": "pink",
+     "on": "Terechkova"
+    },
+    {
+     "t": "text",
+     "text": "passionnée de parachutisme",
+     "size": "m",
+     "on": "parachutisme"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le seize juin mille neuf cent soixante-trois, à seulement vingt-six ans, elle décolle à bord de Vostok six,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "16 juin 1963",
+     "size": "l",
+     "color": "gold",
+     "on": "seize juin"
+    },
+    {
+     "t": "text",
+     "text": "à 26 ans",
+     "size": "m",
+     "on": "vingt-six"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décolle",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle fait quarante-huit fois le tour de la Terre, seule dans sa capsule,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "48 tours de la Terre",
+     "size": "l",
+     "color": "pink",
+     "on": "quarante-huit",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "toute seule !",
+     "size": "m",
+     "on": "seule"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et aujourd'hui encore, elle reste la seule femme à avoir fait une mission spatiale en solitaire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la seule femme",
+     "size": "m",
+     "on": "seule femme"
+    },
+    {
+     "t": "text",
+     "text": "en solo, à ce jour !",
+     "size": "l",
+     "color": "gold",
+     "on": "solitaire",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Valentina Terechkova, la première femme dans l'espace, y est allée seule 🚀\n\nLe 16 juin 1963, la Soviétique Valentina Terechkova, 26 ans, décolle à bord de Vostok 6 et devient la première femme dans l'espace. Ancienne ouvrière du textile et parachutiste amateure, elle a été choisie parmi des centaines de candidates. Pendant près de trois jours, elle fait 48 fois le tour de la Terre, seule dans sa capsule. Aujourd'hui encore, elle reste la seule femme à avoir effectué une mission spatiale entièrement en solitaire. Il faudra ensuite attendre 1982 pour qu'une deuxième femme, Svetlana Savitskaïa, aille dans l'espace. Une pionnière de la conquête spatiale.\n\nTu la connaissais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terechkova",
+  "#femmesdanslespace",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Valentina_Terechkova",
+  "https://fr.wikipedia.org/wiki/Vostok_6"
+ ]
+}

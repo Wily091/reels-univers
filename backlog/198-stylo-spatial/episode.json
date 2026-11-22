@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 197,
+ "title": "Le mythe du stylo spatial à des millions",
+ "subject": "Stylo",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La NASA a dépensé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des millions",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pour un STYLO ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un mythe célèbre",
+   "on": "millions"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu connais l'histoire de la NASA qui aurait dépensé des millions pour un stylo, alors que les Russes utilisaient un crayon ?"
+   ]
+  },
+  {
+   "say": [
+    "Eh bien, c'est un mythe, au début, les Américains aussi utilisaient des crayons,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "c'est un mythe !",
+     "size": "xl",
+     "color": "pink",
+     "on": "mythe",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais le crayon pose problème, des petits bouts de mine peuvent flotter et abîmer les appareils électriques,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le crayon flotte…",
+     "size": "m",
+     "on": "flotter"
+    },
+    {
+     "t": "text",
+     "text": "et abîme les appareils",
+     "size": "l",
+     "color": "gold",
+     "on": "électriques"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est un fabricant privé, Paul Fisher, qui a payé lui-même le développement d'un stylo spatial,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Paul Fisher",
+     "size": "l",
+     "color": "pink",
+     "on": "Fisher"
+    },
+    {
+     "t": "text",
+     "text": "a tout payé lui-même",
+     "size": "m",
+     "on": "payé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la NASA, puis les Soviétiques, l'ont ensuite acheté quelques dollars pièce."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vendu quelques dollars",
+     "size": "l",
+     "color": "gold",
+     "on": "dollars"
+    },
+    {
+     "t": "text",
+     "text": "à la NASA et à l'URSS !",
+     "size": "m",
+     "on": "Soviétiques",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le stylo spatial à des millions de la NASA ? Un mythe ✏️\n\nOn raconte souvent que la NASA aurait dépensé des millions pour inventer un stylo qui écrit dans l'espace, alors que les Soviétiques utilisaient simplement un crayon. C'est un mythe ! Au début, les astronautes américains comme les cosmonautes utilisaient des crayons. Mais les crayons posent problème : des fragments de mine en graphite, conducteurs, peuvent flotter et endommager l'électronique, et le bois est inflammable. C'est l'entreprise privée de Paul Fisher qui a financé elle-même le stylo spatial, à cartouche pressurisée. La NASA puis l'URSS l'ont ensuite acheté quelques dollars pièce. Sur la photo, l'ISS.\n\nTu croyais à cette histoire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#nasa",
+  "#mythe",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Fisher_Space_Pen",
+  "https://www.nasa.gov/history/"
+ ]
+}

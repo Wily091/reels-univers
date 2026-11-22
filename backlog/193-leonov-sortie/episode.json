@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 192,
+ "title": "La première sortie dans l'espace a failli mal finir",
+ "subject": "Leonov",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La 1re sortie",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a failli MAL FINIR ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la 1re sortie",
+   "on": "sortie"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la toute première sortie dans l'espace a bien failli mal finir ?"
+   ]
+  },
+  {
+   "say": [
+    "Le dix-huit mars mille neuf cent soixante-cinq, le cosmonaute soviétique Alexeï Leonov sort de son vaisseau,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "18 mars 1965",
+     "size": "l",
+     "color": "gold",
+     "on": "dix-huit mars"
+    },
+    {
+     "t": "text",
+     "text": "Alexeï Leonov",
+     "size": "l",
+     "color": "pink",
+     "on": "Leonov"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "vaisseau",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il flotte une douzaine de minutes dans le vide, relié par un câble,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 12 minutes dans le vide",
+     "size": "m",
+     "on": "douzaine"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais sa combinaison gonfle tellement qu'il n'arrive plus à rentrer par le sas,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sa combinaison gonfle !",
+     "size": "l",
+     "color": "pink",
+     "on": "gonfle",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "impossible de rentrer",
+     "size": "m",
+     "on": "rentrer"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors il fait baisser la pression de sa combinaison, au risque de perdre connaissance, et il réussit enfin à rentrer."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il vide un peu d'air",
+     "size": "m",
+     "on": "pression"
+    },
+    {
+     "t": "text",
+     "text": "et réussit à rentrer !",
+     "size": "l",
+     "color": "gold",
+     "on": "réussit",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La première sortie dans l'espace, en 1965, a failli tourner au drame 👨‍🚀\n\nLe 18 mars 1965, lors de la mission Voskhod 2, le cosmonaute soviétique Alexeï Leonov devient le premier être humain à sortir dans l'espace. Il flotte une douzaine de minutes dans le vide, relié à son vaisseau par un câble. Mais au moment de rentrer, sa combinaison a tellement gonflé dans le vide qu'il ne parvient plus à passer par le sas ! Il prend alors une décision risquée : baisser la pression de sa combinaison, au risque de perdre connaissance, pour réussir enfin à rentrer. Le retour sur Terre sera lui aussi mouvementé. Un moment légendaire de la conquête spatiale.\n\nTu aurais osé sortir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#leonov",
+  "#histoire",
+  "#conquetespatiale",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Alexeï_Leonov",
+  "https://fr.wikipedia.org/wiki/Voskhod_2"
+ ]
+}

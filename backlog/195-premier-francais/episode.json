@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 194,
+ "title": "Jean-Loup Chrétien, premier Français dans l'espace",
+ "subject": "Chrétien",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le 1er Français",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "c'était QUI ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le 1er Français",
+   "on": "Français"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le premier Français dans l'espace n'était pas Thomas Pesquet ?"
+   ]
+  },
+  {
+   "say": [
+    "C'était Jean-Loup Chrétien, un pilote de chasse,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Jean-Loup Chrétien",
+     "size": "l",
+     "color": "pink",
+     "on": "Chrétien"
+    },
+    {
+     "t": "text",
+     "text": "pilote de chasse",
+     "size": "m",
+     "on": "pilote"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en juin mille neuf cent quatre-vingt-deux, il décolle avec deux Soviétiques vers la station Saliout sept,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "juin 1982",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-deux"
+    },
+    {
+     "t": "text",
+     "text": "vers Saliout 7",
+     "size": "m",
+     "on": "Saliout"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décolle",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il devient le premier Européen de l'Ouest dans l'espace,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er Européen de l'Ouest !",
+     "size": "l",
+     "color": "pink",
+     "on": "Européen",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en mille neuf cent quatre-vingt-huit, il réalise aussi une sortie dans l'espace, une première pour un astronaute ni américain ni soviétique."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1988 : sortie dans l'espace",
+     "size": "m",
+     "on": "sortie"
+    },
+    {
+     "t": "text",
+     "text": "une 1re mondiale !",
+     "size": "l",
+     "color": "gold",
+     "on": "première",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Jean-Loup Chrétien, le premier Français dans l'espace, en 1982 🇫🇷\n\nBien avant Thomas Pesquet, le premier Français dans l'espace s'appelait Jean-Loup Chrétien. Ce pilote de chasse décolle en juin 1982 à bord d'un vaisseau soviétique Soyouz, avec deux cosmonautes, pour rejoindre la station Saliout 7. Il devient alors le premier astronaute d'Europe de l'Ouest. En 1988, lors d'une deuxième mission vers la station Mir, il réalise une sortie dans l'espace : une première pour un astronaute ni américain ni soviétique. Il volera aussi à bord de la navette spatiale américaine en 1997. Une figure de l'histoire spatiale française.\n\nTu connaissais son nom ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jeanloupchretien",
+  "#cnes",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Jean-Loup_Chrétien",
+  "https://cnes.fr/"
+ ]
+}
