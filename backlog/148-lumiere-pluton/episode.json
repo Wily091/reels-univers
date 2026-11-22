@@ -1,167 +1,167 @@
 {
- "format": "planche",
- "valide": true,
- "num": 147,
- "title": "La lumière du Soleil met plus de 5 heures pour atteindre Pluton",
- "subject": "Pluton",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "pluton",
-   "file": "assets/images/pluton_new_horizons.jpg",
-   "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
-   "page": "https://science.nasa.gov/dwarf-planets/pluto/",
-   "license": "Domaine public (NASA)"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "La lumière du Soleil",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "met + de 5 HEURES",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "pour arriver ici ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
+  "format": "planche",
+  "valide": true,
+  "num": 147,
+  "title": "La lumière du Soleil met plus de 5 heures pour atteindre Pluton",
+  "subject": "Pluton",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [
+    {
+      "id": "pluton",
+      "file": "assets/images/pluton_new_horizons.jpg",
+      "credit": "Pluton vue par New Horizons · NASA/JHUAPL/SwRI",
+      "page": "https://science.nasa.gov/dwarf-planets/pluto/",
+      "license": "Domaine public (NASA)"
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "La lumière du Soleil",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "met + de 5 HEURES",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "pour arriver ici ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "5 h 30 de voyage",
+      "on": "lumière"
+    },
+    "photo": "pluton"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que la lumière du Soleil met plus de cinq heures pour arriver jusqu'à Pluton ?"
+      ]
+    },
+    {
+      "say": [
+        "Pour arriver jusqu'à la Terre, elle ne met qu'environ huit minutes,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "jusqu'à la Terre :",
+          "size": "m",
+          "on": "Terre"
+        },
+        {
+          "t": "text",
+          "text": "~ 8 minutes",
+          "size": "l",
+          "color": "gold",
+          "on": "huit minutes"
+        },
+        {
+          "t": "sketch",
+          "kind": "sun",
+          "on": "minutes",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "say": [
+        "mais Pluton est en moyenne près de quarante fois plus loin du Soleil que nous,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Pluton : ~ 40 ×",
+          "size": "l",
+          "color": "pink",
+          "on": "quarante"
+        },
+        {
+          "t": "text",
+          "text": "+ loin que la Terre",
+          "size": "m",
+          "on": "plus loin"
+        }
+      ]
+    },
+    {
+      "say": [
+        "du coup, la lumière met en moyenne environ cinq heures et demie pour l'atteindre,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "~ 5 h 30",
+          "size": "xl",
+          "color": "pink",
+          "on": "cinq heures",
+          "circle": true
+        },
+        {
+          "t": "sketch",
+          "kind": "ray",
+          "on": "atteindre",
+          "from": "Soleil",
+          "to": "Pluton"
+        }
+      ]
+    },
+    {
+      "say": [
+        "et là-bas, le Soleil n'est plus qu'une étoile très brillante, mais à midi, il fait à peu près aussi clair que chez nous au crépuscule."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "à midi sur Pluton :",
+          "size": "m",
+          "on": "midi"
+        },
+        {
+          "t": "text",
+          "text": "comme notre crépuscule",
+          "size": "l",
+          "color": "gold",
+          "on": "crépuscule",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "La lumière du Soleil met environ 5 h 30 pour atteindre Pluton ☀️\n\nLa lumière du Soleil voyage à environ 300 000 km par seconde. Pour arriver jusqu'à la Terre, elle met à peu près 8 minutes. Mais Pluton est en moyenne près de 40 fois plus éloignée du Soleil que nous : la lumière met donc environ 5 heures et demie pour l'atteindre ! Vu depuis Pluton, le Soleil n'est plus qu'un point très brillant. Pourtant, à midi, la lumière y est comparable à celle de notre crépuscule : la NASA appelle même ce moment le « Pluto Time ». Sur la photo, Pluton vue par New Horizons. Un fait d'astronomie qui donne l'échelle du système solaire.\n\nÇa te paraît loin ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#pluton",
+    "#lumiere",
+    "#systemesolaire",
+    "#astronomie",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+    "https://fr.wikipedia.org/wiki/Pluton_(planète_naine)"
   ]
- },
- "center": {
-  "tagline": {
-   "text": "5 h 30 de voyage",
-   "on": "lumière"
-  },
-  "photo": "pluton"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que la lumière du Soleil met plus de cinq heures pour arriver jusqu'à Pluton ?"
-   ]
-  },
-  {
-   "say": [
-    "Pour arriver jusqu'à la Terre, elle ne met qu'environ huit minutes,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "jusqu'à la Terre :",
-     "size": "m",
-     "on": "Terre"
-    },
-    {
-     "t": "text",
-     "text": "~ 8 minutes",
-     "size": "l",
-     "color": "gold",
-     "on": "huit minutes"
-    },
-    {
-     "t": "sketch",
-     "kind": "sun",
-     "on": "minutes",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "mais Pluton est en moyenne près de quarante fois plus loin du Soleil que nous,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Pluton : ~ 40 ×",
-     "size": "l",
-     "color": "pink",
-     "on": "quarante"
-    },
-    {
-     "t": "text",
-     "text": "+ loin que la Terre",
-     "size": "m",
-     "on": "plus loin"
-    }
-   ]
-  },
-  {
-   "say": [
-    "du coup, la lumière met en moyenne environ cinq heures et demie pour l'atteindre,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "~ 5 h 30",
-     "size": "xl",
-     "color": "pink",
-     "on": "cinq heures",
-     "circle": true
-    },
-    {
-     "t": "sketch",
-     "kind": "ray",
-     "on": "atteindre",
-     "from": "Soleil",
-     "to": "Pluton"
-    }
-   ]
-  },
-  {
-   "say": [
-    "et là-bas, le Soleil n'est plus qu'une étoile très brillante, mais à midi, il fait à peu près aussi clair que chez nous au crépuscule."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "à midi sur Pluton :",
-     "size": "m",
-     "on": "midi"
-    },
-    {
-     "t": "text",
-     "text": "comme notre crépuscule",
-     "size": "l",
-     "color": "gold",
-     "on": "crépuscule",
-     "under": true
-    }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "La lumière du Soleil met environ 5 h 30 pour atteindre Pluton ☀️\n\nLa lumière du Soleil voyage à environ 300 000 km par seconde. Pour arriver jusqu'à la Terre, elle met à peu près 8 minutes. Mais Pluton est en moyenne près de 40 fois plus éloignée du Soleil que nous : la lumière met donc environ 5 heures et demie pour l'atteindre ! Vu depuis Pluton, le Soleil n'est plus qu'un point très brillant. Pourtant, à midi, la lumière y est comparable à celle de notre crépuscule : la NASA appelle même ce moment le « Pluto Time ». Sur la photo, Pluton vue par New Horizons. Un fait d'astronomie qui donne l'échelle du système solaire.\n\nÇa te paraît loin ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#pluton",
-  "#lumiere",
-  "#systemesolaire",
-  "#astronomie",
-  "#universenbref"
- ],
- "sources": [
-  "https://science.nasa.gov/dwarf-planets/pluto/facts/",
-  "https://science.nasa.gov/solar-system/pluto-time/"
- ]
 }
