@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 110,
+ "title": "Le Soleil n'est pas jaune, il est blanc",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le Soleil n'est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pas jaune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il est BLANC ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "il est blanc !",
+   "on": "blanc"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le Soleil n'est pas jaune, mais blanc ?"
+   ]
+  },
+  {
+   "say": [
+    "Sa lumière contient toutes les couleurs mélangées, et ce mélange donne du blanc,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toutes les couleurs",
+     "size": "m",
+     "on": "couleurs"
+    },
+    {
+     "t": "text",
+     "text": "= du blanc !",
+     "size": "xl",
+     "color": "pink",
+     "on": "blanc",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "vu depuis l'espace, par les astronautes, le Soleil paraît d'ailleurs bien blanc,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "depuis l'espace :",
+     "size": "m",
+     "on": "espace"
+    },
+    {
+     "t": "text",
+     "text": "bien blanc",
+     "size": "l",
+     "color": "gold",
+     "on": "astronautes"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "astronautes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais sur Terre, notre atmosphère disperse une partie de la lumière bleue, ce qui le fait paraître un peu jaune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'air disperse le bleu",
+     "size": "m",
+     "on": "disperse"
+    },
+    {
+     "t": "text",
+     "text": "→ il paraît jaune",
+     "size": "l",
+     "color": "pink",
+     "on": "jaune"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce bleu dispersé, c'est justement lui qui colore notre ciel."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "et ce bleu dispersé",
+     "size": "m",
+     "on": "bleu dispersé"
+    },
+    {
+     "t": "text",
+     "text": "= la couleur du ciel !",
+     "size": "l",
+     "color": "gold",
+     "on": "ciel",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le Soleil n'est pas jaune, il est blanc ☀️\n\nLa lumière du Soleil contient toutes les couleurs de l'arc-en-ciel, et leur mélange donne du blanc. Vu depuis l'espace, le Soleil apparaît d'ailleurs blanc. Mais depuis le sol, notre atmosphère disperse davantage la lumière bleue que les autres couleurs : le Soleil nous paraît donc légèrement jaune, et encore plus orange au coucher. Et cette lumière bleue dispersée dans toutes les directions, c'est justement elle qui donne sa couleur au ciel ! Attention, ne regarde jamais le Soleil directement. Sur l'image, le Soleil vu par SDO (couleurs choisies par la NASA). Un fait d'astronomie qui change notre regard.\n\nTu l'as toujours dessiné en jaune ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#couleur",
+  "#ideerecue",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/",
+  "https://spaceplace.nasa.gov/blue-sky/"
+ ]
+}

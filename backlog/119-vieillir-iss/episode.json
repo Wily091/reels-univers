@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 118,
+ "title": "Dans la Station spatiale, on vieillit un peu moins vite",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans la Station,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu vieillis",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "MOINS VITE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le temps ralentit !",
+   "on": "vieillis"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que dans la Station spatiale, les astronautes vieillissent un tout petit peu moins vite que nous ?"
+   ]
+  },
+  {
+   "say": [
+    "D'après Einstein, plus on va vite, plus le temps passe lentement pour soi,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "selon Einstein :",
+     "size": "m",
+     "on": "Einstein"
+    },
+    {
+     "t": "text",
+     "text": "+ vite = temps + lent",
+     "size": "l",
+     "color": "pink",
+     "on": "lentement",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la Station fonce à environ vingt-huit mille kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 28 000 km/h",
+     "size": "xl",
+     "color": "gold",
+     "on": "vingt-huit"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "fonce",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, après six mois là-haut, un astronaute a vieilli d'environ cinq millièmes de seconde de moins que nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "après 6 mois :",
+     "size": "m",
+     "on": "six mois"
+    },
+    {
+     "t": "text",
+     "text": "~ 0,005 s de moins !",
+     "size": "l",
+     "color": "pink",
+     "on": "cinq millièmes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce n'est pas beaucoup, mais c'est bien réel, et ça a été mesuré avec des horloges très précises."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "minuscule…",
+     "size": "m",
+     "on": "beaucoup"
+    },
+    {
+     "t": "text",
+     "text": "mais bien réel !",
+     "size": "l",
+     "color": "gold",
+     "on": "réel",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans la Station spatiale, les astronautes vieillissent un peu moins vite ⏳\n\nSelon la relativité d'Einstein, plus on se déplace vite, plus le temps passe lentement pour soi. La Station spatiale internationale file à environ 28 000 km/h autour de la Terre. Résultat : après six mois à bord, un astronaute a vieilli d'environ cinq millièmes de seconde de moins que s'il était resté sur Terre ! (La gravité plus faible là-haut joue en sens inverse, mais l'effet de la vitesse l'emporte.) C'est minuscule, mais c'est bien réel et mesurable avec des horloges atomiques. Sur la photo, la Station vue depuis Crew Dragon. De la physique qui donne le vertige.\n\nTu signerais pour quelques millisecondes ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#einstein",
+  "#relativite",
+  "#astronaute",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/missions/station/iss-research/twins-study/",
+  "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"
+ ]
+}

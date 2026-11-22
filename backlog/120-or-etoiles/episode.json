@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 119,
+ "title": "L'or de tes bijoux vient de collisions d'étoiles",
+ "subject": "L'or",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'or de tes bijoux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "vient d'une",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "COLLISION d'étoiles ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "de l'or venu des étoiles",
+   "on": "or"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'or de tes bijoux a été fabriqué par des collisions d'étoiles ?"
+   ]
+  },
+  {
+   "say": [
+    "Les étoiles fabriquent beaucoup d'éléments, mais pas assez d'or,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les étoiles fabriquent",
+     "size": "m",
+     "on": "fabriquent"
+    },
+    {
+     "t": "text",
+     "text": "pas assez d'or…",
+     "size": "l",
+     "color": "pink",
+     "on": "pas assez"
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'or viendrait surtout de collisions entre deux étoiles à neutrons, des astres ultra denses,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 étoiles à neutrons",
+     "size": "l",
+     "color": "gold",
+     "on": "étoiles à neutrons"
+    },
+    {
+     "t": "text",
+     "text": "qui se percutent !",
+     "size": "l",
+     "color": "pink",
+     "on": "collisions",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "collisions",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en deux mille dix-sept, des astronomes ont observé une de ces collisions, qui a créé plusieurs fois la masse de la Terre en or,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2017 : une collision observée",
+     "size": "m",
+     "on": "deux mille dix-sept"
+    },
+    {
+     "t": "text",
+     "text": "→ des Terres d'or !",
+     "size": "l",
+     "color": "gold",
+     "on": "masse"
+    }
+   ]
+  },
+  {
+   "say": [
+    "donc ton or a voyagé dans l'espace pendant des milliards d'années avant d'arriver sur Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ton or a voyagé",
+     "size": "m",
+     "on": "voyagé"
+    },
+    {
+     "t": "text",
+     "text": "des milliards d'années !",
+     "size": "l",
+     "color": "pink",
+     "on": "milliards",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'or de tes bijoux a été fabriqué par des collisions d'étoiles ✨\n\nLes étoiles fabriquent de nombreux éléments chimiques, mais pas assez d'or pour expliquer tout celui qu'on trouve sur Terre. Selon les astronomes, une grande partie de l'or proviendrait de collisions entre étoiles à neutrons, des astres ultra denses. En 2017, des scientifiques ont pour la première fois observé une telle collision, à la fois grâce aux ondes gravitationnelles et à la lumière : elle aurait produit plusieurs fois la masse de la Terre en or ! L'or de tes bijoux a donc voyagé dans l'espace pendant des milliards d'années. Un fait d'astrophysique qui brille.\n\nTu regarderas tes bijoux autrement ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#or",
+  "#etoileaneutrons",
+  "#astrophysique",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/universe/nasa-missions-catch-first-light-from-a-gravitational-wave-event/"
+ ]
+}

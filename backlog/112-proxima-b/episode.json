@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 111,
+ "title": "La planète la plus proche hors du système solaire",
+ "subject": "Proxima b",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Il faudrait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "73 000 ANS",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pour l'atteindre ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la + proche de nous",
+   "on": "proche"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la planète la plus proche en dehors du système solaire est à des dizaines de milliers d'années de voyage ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Proxima b, et elle tourne autour de Proxima du Centaure, l'étoile la plus proche du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Proxima b",
+     "size": "xl",
+     "color": "pink",
+     "on": "Proxima b"
+    },
+    {
+     "t": "text",
+     "text": "autour de Proxima du Centaure",
+     "size": "m",
+     "color": "gold",
+     "on": "Centaure"
+    }
+   ]
+  },
+  {
+   "say": [
+    "qui se trouve à environ quatre virgule deux années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à ~ 4,2 années-lumière",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre virgule"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "années-lumière",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "ça a l'air proche, mais avec la vitesse de la sonde Voyager, il faudrait environ soixante-treize mille ans pour y arriver,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "avec la sonde Voyager :",
+     "size": "m",
+     "on": "Voyager"
+    },
+    {
+     "t": "text",
+     "text": "~ 73 000 ans !",
+     "size": "xl",
+     "color": "pink",
+     "on": "soixante-treize",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "arriver",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle se trouve dans la zone où de l'eau liquide pourrait exister."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans la zone où",
+     "size": "m",
+     "on": "zone"
+    },
+    {
+     "t": "text",
+     "text": "l'eau pourrait être liquide",
+     "size": "l",
+     "color": "gold",
+     "on": "liquide",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Proxima b, la planète la plus proche hors du système solaire 🪐\n\nLa planète connue la plus proche en dehors du système solaire s'appelle Proxima b. Elle tourne autour de Proxima du Centaure, l'étoile la plus proche du Soleil, à environ 4,2 années-lumière. Ça paraît proche… mais à la vitesse de la sonde Voyager 1, il faudrait environ 73 000 ans pour l'atteindre ! Découverte en 2016, Proxima b se trouve dans la zone habitable de son étoile, là où l'eau pourrait être liquide, même si son étoile, une naine rouge, l'expose à de violentes éruptions. Un fait d'astronomie qui donne le vertige.\n\nTu y enverrais quoi, toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#exoplanete",
+  "#proximab",
+  "#astronomie",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/exoplanet-catalog/proxima-centauri-b/"
+ ]
+}

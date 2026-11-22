@@ -1,0 +1,164 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 113,
+ "title": "Les étoiles scintillent, pas les planètes",
+ "subject": "Étoiles",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Si ça scintille,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "c'est une étoile.",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "Sinon… une PLANÈTE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "étoile ou planète ?",
+   "on": "planète"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il existe une astuce simple pour savoir si un point brillant est une étoile ou une planète ?"
+   ]
+  },
+  {
+   "say": [
+    "Les étoiles scintillent, alors que les planètes brillent d'une lumière plus calme,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "étoile = scintille",
+     "size": "l",
+     "color": "pink",
+     "on": "scintillent"
+    },
+    {
+     "t": "text",
+     "text": "planète = lumière calme",
+     "size": "l",
+     "color": "gold",
+     "on": "planètes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que les étoiles sont si loin qu'elles ne sont qu'un point minuscule,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les étoiles :",
+     "size": "m",
+     "on": "étoiles sont"
+    },
+    {
+     "t": "text",
+     "text": "un point minuscule",
+     "size": "l",
+     "on": "point"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "point",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce petit point est secoué par les mouvements de l'air au-dessus de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'air bouge",
+     "size": "m",
+     "on": "air"
+    },
+    {
+     "t": "text",
+     "text": "→ la lumière tremble !",
+     "size": "l",
+     "color": "pink",
+     "on": "secoué",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "mouvements",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors que les planètes, plus proches, forment un tout petit disque, et ça compense les tremblements."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les planètes : un petit disque",
+     "size": "m",
+     "on": "disque"
+    },
+    {
+     "t": "text",
+     "text": "→ elles scintillent peu",
+     "size": "l",
+     "color": "gold",
+     "on": "compense",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les étoiles scintillent, les planètes non ✨\n\nVoici une astuce pour reconnaître une planète dans le ciel : les étoiles scintillent, tandis que les planètes brillent d'une lumière plus stable. La raison : les étoiles sont si lointaines qu'elles ne forment qu'un point minuscule. Les mouvements de l'air dans notre atmosphère font trembler ce point, d'où le scintillement. Les planètes, bien plus proches, forment un tout petit disque : les tremblements se compensent et leur éclat reste plus calme. Fais le test ce soir avec Vénus ou Jupiter ! Un fait d'astronomie à vérifier à l'œil nu.\n\nTu vas faire le test ce soir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etoiles",
+  "#planetes",
+  "#ciel",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://spaceplace.nasa.gov/twinkling/"
+ ]
+}

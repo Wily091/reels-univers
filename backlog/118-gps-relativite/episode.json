@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 117,
+ "title": "Ton GPS doit tenir compte de la relativité d'Einstein",
+ "subject": "GPS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sans Einstein,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ton GPS se tromperait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de 10 KM par jour ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "merci Einstein !",
+   "on": "Einstein"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sans la relativité d'Einstein, ton GPS se tromperait de plusieurs kilomètres chaque jour ?"
+   ]
+  },
+  {
+   "say": [
+    "Les satellites GPS tournent à environ vingt mille kilomètres au-dessus de nous, avec des horloges ultra précises,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "satellites à ~ 20 000 km",
+     "size": "m",
+     "on": "vingt mille"
+    },
+    {
+     "t": "text",
+     "text": "+ horloges ultra précises",
+     "size": "m",
+     "color": "gold",
+     "on": "horloges"
+    },
+    {
+     "t": "sketch",
+     "kind": "clock",
+     "on": "horloges",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme la gravité est plus faible là-haut, et qu'ils vont très vite, leur temps ne passe pas au même rythme que le nôtre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "là-haut, le temps",
+     "size": "m",
+     "on": "temps"
+    },
+    {
+     "t": "text",
+     "text": "ne passe pas pareil !",
+     "size": "l",
+     "color": "pink",
+     "on": "rythme",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "leurs horloges avancent d'environ trente-huit millionièmes de seconde par jour,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ 38 millionièmes",
+     "size": "l",
+     "color": "gold",
+     "on": "trente-huit"
+    },
+    {
+     "t": "text",
+     "text": "de seconde par jour",
+     "size": "m",
+     "on": "par jour"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sans correction, cette petite avance créerait une erreur d'environ dix kilomètres chaque jour sur ta position."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sans correction :",
+     "size": "m",
+     "on": "correction"
+    },
+    {
+     "t": "text",
+     "text": "~ 10 km d'erreur / jour !",
+     "size": "l",
+     "color": "pink",
+     "on": "dix kilomètres",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sans la relativité d'Einstein, ton GPS se tromperait d'environ 10 km par jour 📍\n\nLes satellites GPS tournent à environ 20 000 km d'altitude et embarquent des horloges atomiques ultra précises. Mais selon la relativité d'Einstein, le temps ne s'écoule pas au même rythme là-haut : la gravité plus faible le fait avancer, et la grande vitesse des satellites le fait ralentir. Au total, leurs horloges avancent d'environ 38 millionièmes de seconde par jour. Ça paraît minuscule, mais sans correction, l'erreur de position atteindrait environ 10 km par jour ! Sur la photo, la Terre vue par Apollo 17. De la physique d'Einstein dans ta poche.\n\nTu savais que ton téléphone utilisait la relativité ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#gps",
+  "#einstein",
+  "#relativite",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.gps.gov/systems/gps/space/",
+  "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps.html"
+ ]
+}

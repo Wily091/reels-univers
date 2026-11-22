@@ -1,0 +1,174 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 109,
+ "title": "Les aurores boréales viennent du Soleil",
+ "subject": "Aurores",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les aurores boréales",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "viennent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "du SOLEIL ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une lumière venue du Soleil",
+   "on": "aurores"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les aurores boréales viennent du Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "Le Soleil envoie en permanence des particules dans l'espace, c'est le vent solaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le vent solaire",
+     "size": "l",
+     "color": "pink",
+     "on": "vent solaire"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    },
+    {
+     "t": "text",
+     "text": "des particules en continu",
+     "size": "m",
+     "on": "particules"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le champ magnétique de la Terre guide ces particules vers les pôles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le bouclier magnétique",
+     "size": "m",
+     "on": "magnétique"
+    },
+    {
+     "t": "text",
+     "text": "les guide vers les pôles",
+     "size": "l",
+     "color": "gold",
+     "on": "pôles"
+    }
+   ]
+  },
+  {
+   "say": [
+    "là-haut, elles percutent les gaz de notre atmosphère, qui se mettent à briller,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elles percutent l'air",
+     "size": "m",
+     "on": "percutent"
+    },
+    {
+     "t": "text",
+     "text": "qui se met à briller !",
+     "size": "l",
+     "color": "pink",
+     "on": "briller",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "gaz",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "le vert vient de l'oxygène, et quand le Soleil est très actif, on peut même en voir en France."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vert = oxygène",
+     "size": "l",
+     "color": "gold",
+     "on": "vert"
+    },
+    {
+     "t": "text",
+     "text": "parfois visibles en France !",
+     "size": "m",
+     "color": "pink",
+     "on": "France",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les aurores boréales viennent du Soleil 💚\n\nLe Soleil envoie en permanence dans l'espace un flot de particules chargées : le vent solaire. En arrivant près de la Terre, ces particules sont guidées par notre champ magnétique vers les régions polaires. Là, elles percutent les gaz de la haute atmosphère, qui se mettent à briller : ce sont les aurores ! Le vert vient de l'oxygène, le violet et le bleu plutôt de l'azote. Quand le Soleil est très actif, comme en mai 2024, les aurores peuvent même être visibles depuis la France. Sur la photo, la Terre vue par Apollo 17. Un spectacle d'astronomie magique.\n\nTu as déjà vu une aurore ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#aurore",
+  "#auroreboreale",
+  "#soleil",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://spaceplace.nasa.gov/aurora/",
+  "https://science.nasa.gov/sun/"
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 108,
+ "title": "En 1859, une tempête solaire a fait des étincelles dans les télégraphes",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1859,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une tempête solaire",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a ENFLAMMÉ des télégraphes ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la tempête de 1859",
+   "on": "tempête"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille huit cent cinquante-neuf, une tempête solaire a fait jaillir des étincelles des télégraphes ?"
+   ]
+  },
+  {
+   "say": [
+    "Le premier septembre mille huit cent cinquante-neuf, l'astronome Richard Carrington a vu un éclair de lumière sur le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er septembre 1859",
+     "size": "l",
+     "color": "gold",
+     "on": "premier septembre"
+    },
+    {
+     "t": "text",
+     "text": "Richard Carrington",
+     "size": "m",
+     "color": "pink",
+     "on": "Carrington"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le lendemain, une énorme bouffée de particules du Soleil a frappé la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une bouffée de particules",
+     "size": "m",
+     "on": "particules"
+    },
+    {
+     "t": "text",
+     "text": "frappe la Terre !",
+     "size": "l",
+     "color": "pink",
+     "on": "frappé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "des aurores ont été vues jusque dans les Caraïbes, et des télégraphes ont lancé des étincelles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aurores jusqu'aux Caraïbes",
+     "size": "m",
+     "color": "gold",
+     "on": "Caraïbes"
+    },
+    {
+     "t": "text",
+     "text": "des télégraphes en étincelles !",
+     "size": "m",
+     "color": "pink",
+     "on": "étincelles",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et si une tempête pareille arrivait aujourd'hui, elle pourrait perturber les satellites et les réseaux électriques."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aujourd'hui ?",
+     "size": "m",
+     "on": "aujourd'hui"
+    },
+    {
+     "t": "text",
+     "text": "satellites + électricité en danger",
+     "size": "m",
+     "color": "gold",
+     "on": "satellites",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1859, une tempête solaire a fait jaillir des étincelles des télégraphes ⚡\n\nLe 1er septembre 1859, l'astronome britannique Richard Carrington observe un éclair de lumière intense à la surface du Soleil. Le lendemain, une énorme bouffée de particules solaires frappe la Terre. Des aurores sont aperçues jusque dans les Caraïbes, et des lignes de télégraphe lancent des étincelles, certaines fonctionnant même sans pile ! C'est la plus puissante tempête solaire jamais observée. Si un tel événement se produisait aujourd'hui, il pourrait perturber les satellites, le GPS et les réseaux électriques. Sur la photo, le Soleil vu par SDO.\n\nTu imagines ça aujourd'hui ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#tempetesolaire",
+  "#histoire",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/",
+  "https://www.swpc.noaa.gov/phenomena"
+ ]
+}

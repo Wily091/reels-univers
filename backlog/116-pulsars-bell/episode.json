@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 115,
+ "title": "Le premier pulsar a d'abord été surnommé « petits hommes verts »",
+ "subject": "Pulsars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "crabe",
+   "file": "assets/images/crabe_hubble.jpg",
+   "credit": "Nébuleuse du Crabe · NASA, ESA, J. Hester, A. Loll (ASU)",
+   "page": "https://esahubble.org/images/heic0515a/",
+   "license": "CC BY 4.0 (ESA/Hubble)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce signal",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a été surnommé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "« petits hommes VERTS » ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un signal mystérieux",
+   "on": "hommes"
+  },
+  "photo": "crabe"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le premier pulsar découvert a d'abord été surnommé petits hommes verts ?"
+   ]
+  },
+  {
+   "say": [
+    "En mille neuf cent soixante-sept, une jeune astronome, Jocelyn Bell, repère un signal radio qui revient très régulièrement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1967 : Jocelyn Bell",
+     "size": "l",
+     "color": "pink",
+     "on": "Jocelyn"
+    },
+    {
+     "t": "text",
+     "text": "un signal régulier",
+     "size": "m",
+     "on": "signal"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "radio",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "un top toutes les une virgule trois secondes, aussi précis qu'une horloge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 top / 1,3 s",
+     "size": "xl",
+     "color": "gold",
+     "on": "une virgule"
+    },
+    {
+     "t": "sketch",
+     "kind": "clock",
+     "on": "horloge",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "son équipe le surnomme alors petits hommes verts, en pensant même à un signal extraterrestre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« petits hommes verts »",
+     "size": "l",
+     "color": "pink",
+     "on": "petits hommes",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais c'était une étoile à neutrons qui tourne très vite, un pulsar, qui balaye l'espace comme un phare."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en vrai : un pulsar",
+     "size": "l",
+     "color": "gold",
+     "on": "pulsar"
+    },
+    {
+     "t": "text",
+     "text": "comme un phare cosmique !",
+     "size": "m",
+     "on": "phare",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le premier pulsar a d'abord été surnommé « petits hommes verts » 👽\n\nEn 1967, Jocelyn Bell, une jeune doctorante en astronomie, repère un signal radio étrange qui revient toutes les 1,3 seconde, avec la précision d'une horloge. Son équipe le surnomme alors « LGM-1 », pour « Little Green Men », les petits hommes verts ! En réalité, il s'agissait du premier pulsar découvert : une étoile à neutrons qui tourne très vite sur elle-même et balaie l'espace de faisceaux, comme un phare. Sur l'image, la nébuleuse du Crabe, qui abrite un pulsar en son centre. Une découverte majeure de l'histoire de l'astronomie.\n\nTu aurais pensé aux extraterrestres ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pulsar",
+  "#jocelynbell",
+  "#astronomie",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://imagine.gsfc.nasa.gov/science/objects/neutron_stars1.html"
+ ]
+}

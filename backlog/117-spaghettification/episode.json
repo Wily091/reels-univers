@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 116,
+ "title": "Près d'un trou noir, tu serais étiré comme un spaghetti",
+ "subject": "Trou noir",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "m87",
+   "file": "assets/images/m87_trou_noir_eht.jpg",
+   "credit": "Trou noir de M87 · EHT Collaboration",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Près d'un trou noir,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu serais étiré",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "comme un SPAGHETTI ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la spaghettification",
+   "on": "étiré"
+  },
+  "photo": "m87"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que si tu tombais dans un trou noir, tu serais étiré comme un spaghetti ?"
+   ]
+  },
+  {
+   "say": [
+    "Près d'un trou noir, la gravité est si forte qu'elle change énormément sur une toute petite distance,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une gravité extrême",
+     "size": "l",
+     "color": "pink",
+     "on": "gravité"
+    },
+    {
+     "t": "text",
+     "text": "qui change très vite",
+     "size": "m",
+     "on": "change"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, si tu tombes les pieds en premier, tes pieds sont tirés beaucoup plus fort que ta tête,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les pieds tirés",
+     "size": "m",
+     "on": "pieds"
+    },
+    {
+     "t": "text",
+     "text": "+ fort que la tête !",
+     "size": "l",
+     "color": "gold",
+     "on": "tête"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "tirés",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ton corps est étiré en longueur et écrasé sur les côtés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "étiré en long",
+     "size": "l",
+     "color": "pink",
+     "on": "étiré"
+    },
+    {
+     "t": "text",
+     "text": "écrasé sur les côtés",
+     "size": "m",
+     "on": "écrasé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "les scientifiques appellent vraiment ça la spaghettification."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la « spaghettification »",
+     "size": "l",
+     "color": "gold",
+     "on": "spaghettification",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Près d'un trou noir, tu serais étiré comme un spaghetti 🍝\n\nPrès d'un trou noir, la gravité devient si intense qu'elle varie énormément sur une très courte distance. Si tu y tombais les pieds en premier, tes pieds seraient attirés beaucoup plus fort que ta tête : ton corps serait étiré dans la longueur et compressé sur les côtés. Les scientifiques ont un nom très sérieux pour ce phénomène : la « spaghettification » ! Des télescopes ont même déjà observé des étoiles déchirées de cette façon par des trous noirs géants. Sur l'image, le trou noir de la galaxie M87, photographié par l'Event Horizon Telescope. De l'astrophysique extrême.\n\nTu oserais t'approcher ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#trounoir",
+  "#spaghettification",
+  "#astrophysique",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/universe/black-holes/",
+  "https://www.eso.org/public/news/eso2018/"
+ ]
+}

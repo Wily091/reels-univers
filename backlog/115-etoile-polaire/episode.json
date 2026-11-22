@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 114,
+ "title": "L'étoile polaire ne sera pas toujours la même",
+ "subject": "Étoile polaire",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans 12 000 ans,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "l'étoile polaire",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sera VÉGA ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "elle va changer !",
+   "on": "polaire"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'étoile polaire ne sera pas toujours la même ?"
+   ]
+  },
+  {
+   "say": [
+    "Aujourd'hui, l'axe de la Terre pointe presque vers l'étoile Polaris, qui indique le nord,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aujourd'hui : Polaris",
+     "size": "l",
+     "color": "gold",
+     "on": "Polaris"
+    },
+    {
+     "t": "text",
+     "text": "indique le nord",
+     "size": "m",
+     "on": "nord"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais cet axe tourne lentement, comme une toupie qui oscille, et fait un tour en environ vingt-six mille ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'axe tourne comme une toupie",
+     "size": "m",
+     "on": "toupie"
+    },
+    {
+     "t": "text",
+     "text": "1 tour = 26 000 ans",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-six mille"
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, dans environ douze mille ans, c'est l'étoile Véga qui deviendra notre étoile polaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dans ~ 12 000 ans :",
+     "size": "m",
+     "on": "douze mille"
+    },
+    {
+     "t": "text",
+     "text": "Véga !",
+     "size": "xl",
+     "color": "pink",
+     "on": "Véga",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pour info, Polaris n'est même pas l'étoile la plus brillante du ciel, loin de là."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "et Polaris n'est pas",
+     "size": "m",
+     "on": "Polaris"
+    },
+    {
+     "t": "text",
+     "text": "la + brillante !",
+     "size": "l",
+     "color": "gold",
+     "on": "brillante",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'étoile polaire ne sera pas toujours la même ⭐\n\nAujourd'hui, l'axe de rotation de la Terre pointe presque vers Polaris, l'étoile polaire, qui indique le nord. Mais cet axe n'est pas fixe : il décrit lentement un cercle, comme une toupie qui oscille, en environ 26 000 ans. C'est la précession. Résultat : dans environ 12 000 ans, c'est la brillante étoile Véga qui jouera le rôle d'étoile polaire ! Et contrairement à une idée reçue, Polaris n'est pas du tout l'étoile la plus brillante du ciel : c'est Sirius. Un fait d'astronomie à l'échelle des millénaires.\n\nTu sais trouver l'étoile polaire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etoilepolaire",
+  "#vega",
+  "#astronomie",
+  "#ciel",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/skywatching/",
+  "https://spaceplace.nasa.gov/review/dr-marc-earth/polaris.html"
+ ]
+}

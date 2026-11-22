@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 112,
+ "title": "Les trois quarts des étoiles sont des naines rouges",
+ "subject": "Naines rouges",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La plupart des étoiles",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sont trop faibles",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pour être VUES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les naines rouges",
+   "on": "étoiles"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la plupart des étoiles de notre galaxie sont invisibles à l'œil nu ?"
+   ]
+  },
+  {
+   "say": [
+    "Environ trois étoiles sur quatre sont des naines rouges, plus petites et plus froides que le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 3 étoiles sur 4",
+     "size": "l",
+     "color": "pink",
+     "on": "trois étoiles",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "= des naines rouges",
+     "size": "m",
+     "color": "gold",
+     "on": "naines"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles brillent si faiblement qu'aucune n'est visible à l'œil nu depuis la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "si faibles",
+     "size": "m",
+     "on": "faiblement"
+    },
+    {
+     "t": "text",
+     "text": "qu'on ne les voit pas !",
+     "size": "l",
+     "color": "pink",
+     "on": "visible"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "brillent",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "même la plus proche de nous, Proxima du Centaure, en est une,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "même Proxima",
+     "size": "m",
+     "on": "Proxima"
+    },
+    {
+     "t": "text",
+     "text": "est une naine rouge",
+     "size": "l",
+     "color": "gold",
+     "on": "en est une"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elles brûlent leur carburant si lentement qu'elles peuvent vivre des milliers de milliards d'années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elles vivent",
+     "size": "m",
+     "on": "vivre"
+    },
+    {
+     "t": "text",
+     "text": "des milliers de milliards d'années !",
+     "size": "m",
+     "color": "pink",
+     "on": "milliers",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "années",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les trois quarts des étoiles sont des naines rouges invisibles à l'œil nu ⭐\n\nQuand on lève les yeux, on voit surtout des étoiles brillantes. Mais la plupart des étoiles de la Voie lactée sont invisibles à l'œil nu ! Environ trois étoiles sur quatre sont des naines rouges : plus petites, plus froides et beaucoup moins lumineuses que le Soleil. Même Proxima du Centaure, l'étoile la plus proche de nous, en fait partie. Elles consomment leur carburant si lentement qu'elles peuvent briller pendant des milliers de milliards d'années, bien plus longtemps que l'âge actuel de l'univers. Un fait d'astronomie surprenant.\n\nTu en avais déjà entendu parler ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etoiles",
+  "#nainerouge",
+  "#astronomie",
+  "#univers",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/universe/stars/types/"
+ ]
+}
