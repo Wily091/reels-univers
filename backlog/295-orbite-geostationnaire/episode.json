@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 294,
+ "title": "Certains satellites restent immobiles au-dessus de la Terre",
+ "subject": "Satellites",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces satellites",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "restent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "IMMOBILES dans le ciel ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'orbite géostationnaire",
+   "on": "satellites"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que certains satellites semblent rester parfaitement immobiles au-dessus de la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Ils se trouvent à environ trente-six mille kilomètres d'altitude, au-dessus de l'équateur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 36 000 km d'altitude",
+     "size": "l",
+     "color": "gold",
+     "on": "trente-six",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "à cette distance, ils font le tour de la Terre en un jour, exactement à la même vitesse qu'elle tourne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 tour = 1 jour",
+     "size": "l",
+     "color": "pink",
+     "on": "un jour"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, vus du sol, ils restent toujours au même endroit dans le ciel, c'est l'orbite géostationnaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toujours au même endroit",
+     "size": "m",
+     "on": "endroit"
+    },
+    {
+     "t": "text",
+     "text": "orbite géostationnaire",
+     "size": "l",
+     "color": "gold",
+     "on": "géostationnaire"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est pour ça que les paraboles de télévision n'ont jamais besoin de bouger."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les paraboles",
+     "size": "m",
+     "on": "paraboles"
+    },
+    {
+     "t": "text",
+     "text": "ne bougent jamais !",
+     "size": "l",
+     "color": "pink",
+     "on": "bouger",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pourquoi certains satellites restent immobiles au-dessus de la Terre 📡\n\nÀ environ 36 000 km d'altitude au-dessus de l'équateur se trouve une orbite très particulière : l'orbite géostationnaire. Un satellite placé là fait le tour de la Terre en un jour, exactement au même rythme que la rotation de notre planète. Vu du sol, il semble donc immobile, toujours au même point du ciel ! C'est idéal pour les télécommunications et la météo : les paraboles de télévision peuvent rester fixées dans une seule direction, sans jamais suivre le satellite. L'idée avait été popularisée en 1945 par l'écrivain de science-fiction Arthur C. Clarke. Des centaines de satellites occupent aujourd'hui cette orbite. Sur la photo, la Terre.\n\nTu savais d'où venait la télé satellite ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#satellite",
+  "#geostationnaire",
+  "#espace",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Orbite_géostationnaire",
+  "https://science.nasa.gov/"
+ ]
+}

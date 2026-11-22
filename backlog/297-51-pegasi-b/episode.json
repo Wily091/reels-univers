@@ -1,0 +1,149 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 296,
+ "title": "La première exoplanète autour d'une étoile comme le Soleil a été trouvée en France",
+ "subject": "51 Pegasi b",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La 1re exoplanète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "autour d'un soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a été trouvée en FRANCE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une découverte historique",
+   "on": "planète"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la première planète découverte autour d'une étoile comme le Soleil a été trouvée depuis la France ?"
+   ]
+  },
+  {
+   "say": [
+    "En mille neuf cent quatre-vingt-quinze, deux astronomes suisses, Michel Mayor et Didier Queloz, observent l'étoile cinquante et un Pégase,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1995 : Mayor et Queloz",
+     "size": "l",
+     "color": "pink",
+     "on": "Mayor"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "avec un télescope de l'observatoire de Haute-Provence, en France,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "observatoire de Haute-Provence",
+     "size": "m",
+     "color": "gold",
+     "on": "Haute-Provence",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils découvrent une planète géante, collée à son étoile, qui en fait le tour en à peine quatre jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une géante brûlante",
+     "size": "l",
+     "on": "géante"
+    },
+    {
+     "t": "text",
+     "text": "1 année = ~ 4 jours !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre jours"
+    }
+   ]
+  },
+  {
+   "say": [
+    "cette découverte a lancé la chasse aux exoplanètes, et elle leur a valu le prix Nobel de physique en deux mille dix-neuf."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "prix Nobel 2019",
+     "size": "l",
+     "color": "pink",
+     "on": "Nobel",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La première exoplanète autour d'une étoile comme le Soleil a été découverte depuis la France 🇫🇷🪐\n\nEn 1995, les astronomes suisses Michel Mayor et Didier Queloz, de l'université de Genève, annoncent la découverte de 51 Pegasi b, la première exoplanète trouvée autour d'une étoile semblable au Soleil. Ils ont utilisé le spectrographe ELODIE installé sur un télescope de l'observatoire de Haute-Provence, en France ! Surprise : il s'agit d'une planète géante, de la masse d'environ la moitié de Jupiter, qui tourne si près de son étoile qu'elle en fait le tour en à peine 4 jours. Une « Jupiter chaude », un type de planète que personne n'imaginait. Cette découverte a lancé la chasse aux exoplanètes et leur a valu le prix Nobel de physique 2019.\n\nTu savais que c'était en France ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#exoplanete",
+  "#nobel",
+  "#astronomie",
+  "#france",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/51_Pegasi_b",
+  "https://fr.wikipedia.org/wiki/Observatoire_de_Haute-Provence"
+ ]
+}

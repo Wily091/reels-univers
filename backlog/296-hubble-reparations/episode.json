@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 295,
+ "title": "Des astronautes sont allés réparer Hubble cinq fois",
+ "subject": "Hubble",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hubble",
+   "file": "assets/images/hubble_sm4.jpg",
+   "credit": "Hubble en orbite (2009) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:HST-SM4.jpeg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Des astronautes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sont allés le réparer",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "5 FOIS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les mécaniciens de l'espace",
+   "on": "astronautes"
+  },
+  "photo": "hubble"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des astronautes sont allés réparer le télescope Hubble directement dans l'espace, cinq fois ?"
+   ]
+  },
+  {
+   "say": [
+    "Hubble a été lancé le vingt-quatre avril mille neuf cent quatre-vingt-dix, il est grand comme un bus,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "lancé en avril 1990",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-quatre"
+    },
+    {
+     "t": "text",
+     "text": "grand comme un bus",
+     "size": "m",
+     "on": "bus"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été conçu pour être réparé, et entre mille neuf cent quatre-vingt-treize et deux mille neuf, les navettes spatiales sont venues le voir cinq fois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "5 missions de réparation",
+     "size": "l",
+     "color": "pink",
+     "on": "cinq fois",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "1993 → 2009",
+     "size": "m",
+     "on": "quatre-vingt-treize"
+    }
+   ]
+  },
+  {
+   "say": [
+    "les astronautes ont corrigé sa vue, changé ses caméras, ses gyroscopes et ses batteries, pendant de longues sorties dans l'espace,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "caméras, gyroscopes…",
+     "size": "m",
+     "on": "caméras"
+    },
+    {
+     "t": "text",
+     "text": "réparés dans le vide !",
+     "size": "l",
+     "color": "gold",
+     "on": "sorties"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et grâce à ça, plus de trente ans après, il observe toujours l'univers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 30 ans après…",
+     "size": "m",
+     "on": "trente"
+    },
+    {
+     "t": "text",
+     "text": "toujours en service !",
+     "size": "l",
+     "color": "pink",
+     "on": "observe",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Des astronautes sont allés réparer le télescope Hubble cinq fois dans l'espace 🔧\n\nLancé le 24 avril 1990 par la navette Discovery, le télescope spatial Hubble, grand comme un bus, a été conçu pour être entretenu en orbite. Entre 1993 et 2009, cinq missions de navettes spatiales sont venues à sa rencontre. Lors de longues sorties dans l'espace, les astronautes ont corrigé le défaut de son miroir, remplacé des caméras et des spectrographes, changé ses gyroscopes, ses batteries et ses panneaux solaires. Ces interventions spectaculaires lui ont permis de rester à la pointe pendant plus de 30 ans, et de produire certaines des images les plus célèbres de l'astronomie. Sur la photo, Hubble lors de la dernière mission de réparation, en 2009.\n\nTu aurais osé réparer un télescope dans l'espace ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#hubble",
+  "#nasa",
+  "#telescope",
+  "#astronaute",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/hubble/",
+  "https://fr.wikipedia.org/wiki/Hubble_(télescope_spatial)"
+ ]
+}

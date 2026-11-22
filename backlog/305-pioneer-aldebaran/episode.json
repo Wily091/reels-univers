@@ -1,0 +1,140 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 304,
+ "title": "Une sonde se dirige vers l'étoile Aldébaran… pour dans 2 millions d'années",
+ "subject": "Pioneer 10",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "arrivera près d'une étoile",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans 2 MILLIONS d'années ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un très long voyage",
+   "on": "sonde"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde lancée en mille neuf cent soixante-douze file vers une étoile qu'elle n'approchera que dans deux millions d'années ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Pioneer dix, la première sonde à avoir survolé Jupiter, en mille neuf cent soixante-treize,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Pioneer 10",
+     "size": "xl",
+     "color": "pink",
+     "on": "Pioneer"
+    },
+    {
+     "t": "text",
+     "text": "1re à survoler Jupiter",
+     "size": "m",
+     "on": "Jupiter"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "on a perdu le contact avec elle en deux mille trois, mais elle continue sa route dans le noir,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "contact perdu en 2003",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille trois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle se dirige à peu près vers Aldébaran, l'œil rouge de la constellation du Taureau,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "direction : Aldébaran",
+     "size": "l",
+     "color": "pink",
+     "on": "Aldébaran",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à sa vitesse, il lui faudra environ deux millions d'années pour passer près de cette région."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 2 millions d'années !",
+     "size": "xl",
+     "color": "gold",
+     "on": "deux millions",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pioneer 10 file vers Aldébaran… qu'elle n'approchera que dans 2 millions d'années 🚀\n\nLancée en mars 1972, la sonde Pioneer 10 de la NASA a été la première à traverser la ceinture d'astéroïdes et à survoler Jupiter, en décembre 1973. Elle a ensuite poursuivi sa route vers l'extérieur du système solaire. Son dernier signal, très faible, a été capté en janvier 2003. Depuis, elle continue silencieusement son voyage, en direction approximative de l'étoile Aldébaran, l'œil rouge de la constellation du Taureau, située à environ 65 années-lumière. À sa vitesse, il lui faudra environ deux millions d'années pour passer dans cette région ! Elle emporte une plaque gravée destinée à d'éventuels extraterrestres.\n\nTu imagines le monde dans 2 millions d'années ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pioneer10",
+  "#nasa",
+  "#aldebaran",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Pioneer_10",
+  "https://science.nasa.gov/mission/pioneer-10/"
+ ]
+}

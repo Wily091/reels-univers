@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 293,
+ "title": "Ce « train » de lumières dans le ciel, ce sont des satellites",
+ "subject": "Satellites",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce train de lumières",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans le ciel,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ce sont des SATELLITES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un train dans le ciel",
+   "on": "lumières"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu as peut-être déjà vu une file de petites lumières traverser le ciel, comme un train ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont des satellites Starlink, de SpaceX, juste après leur lancement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des satellites Starlink",
+     "size": "l",
+     "color": "pink",
+     "on": "Starlink"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancement",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils sont lancés par dizaines, et au début, ils voyagent en file indienne, encore bas, en reflétant le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "lancés par dizaines",
+     "size": "m",
+     "on": "dizaines"
+    },
+    {
+     "t": "text",
+     "text": "en file indienne !",
+     "size": "l",
+     "color": "gold",
+     "on": "file",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis ils montent et se dispersent, et il y en a aujourd'hui plusieurs milliers en orbite,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "plusieurs milliers",
+     "size": "l",
+     "color": "pink",
+     "on": "milliers"
+    },
+    {
+     "t": "text",
+     "text": "en orbite",
+     "size": "m",
+     "on": "orbite"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ça inquiète les astronomes, car leurs traînées lumineuses gênent les observations du ciel."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les astronomes",
+     "size": "m",
+     "on": "astronomes"
+    },
+    {
+     "t": "text",
+     "text": "s'inquiètent !",
+     "size": "l",
+     "color": "gold",
+     "on": "gênent",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Ce « train » de lumières dans le ciel, ce sont des satellites Starlink 🛰️\n\nSi tu as déjà vu une file de petits points lumineux traverser lentement le ciel, comme un train, il s'agissait très probablement de satellites Starlink de SpaceX, quelques jours après leur lancement. Ils sont mis en orbite par dizaines à la fois et voyagent d'abord en file indienne, à basse altitude, en reflétant la lumière du Soleil, avant de monter et de se disperser sur leur orbite définitive. Ils sont aujourd'hui plusieurs milliers en orbite pour fournir Internet par satellite partout sur la planète. Mais ils inquiètent les astronomes : leurs traînées lumineuses gâchent des images de télescopes. Sur l'image, un ciel nocturne.\n\nTu l'as déjà vu passer ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#starlink",
+  "#satellites",
+  "#cielnocturne",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Starlink",
+  "https://science.nasa.gov/"
+ ]
+}

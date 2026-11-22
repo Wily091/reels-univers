@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 302,
+ "title": "Antarès, l'étoile qu'on surnomme la rivale de Mars",
+ "subject": "Antarès",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette étoile",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "porte le nom",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la RIVALE de Mars ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une géante rouge",
+   "on": "étoile"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une étoile très connue porte un nom qui veut dire la rivale de Mars ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Antarès, c'est le cœur rouge de la constellation du Scorpion, bien visible en été,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Antarès",
+     "size": "xl",
+     "color": "pink",
+     "on": "Antarès"
+    },
+    {
+     "t": "text",
+     "text": "le cœur du Scorpion",
+     "size": "m",
+     "on": "Scorpion"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "constellation",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "son nom vient du grec, et signifie à peu près rivale d'Arès, le nom grec de Mars, à cause de sa couleur rouge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« rivale d'Arès » (Mars)",
+     "size": "l",
+     "color": "gold",
+     "on": "Arès"
+    },
+    {
+     "t": "text",
+     "text": "à cause du rouge",
+     "size": "m",
+     "on": "rouge"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est une supergéante rouge, environ sept cents fois plus large que le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 700 × le Soleil !",
+     "size": "l",
+     "color": "pink",
+     "on": "sept cents",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "si on la mettait à la place du Soleil, elle engloutirait Mercure, Vénus, la Terre et Mars."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle avalerait",
+     "size": "m",
+     "on": "engloutirait"
+    },
+    {
+     "t": "text",
+     "text": "jusqu'à Mars !",
+     "size": "l",
+     "color": "gold",
+     "on": "Mars.",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Antarès, la supergéante rouge surnommée « la rivale de Mars » 🔴\n\nAntarès est l'étoile la plus brillante de la constellation du Scorpion, bien visible en été, bas sur l'horizon sud depuis la France. Son nom vient du grec et signifie à peu près « rivale d'Arès », le dieu que les Romains appelaient Mars, en raison de sa couleur rouge orangé, semblable à celle de la planète. Antarès est une supergéante rouge, située à environ 550 années-lumière : elle est environ 700 fois plus large que le Soleil ! Placée au centre du système solaire, elle engloutirait Mercure, Vénus, la Terre et Mars. Comme Bételgeuse, elle finira sans doute en supernova. Sur l'image, un ciel nocturne.\n\nTu l'as déjà repérée ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#antares",
+  "#scorpion",
+  "#etoiles",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Antarès",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 305,
+ "title": "En 1933, la lumière d'une étoile a allumé une exposition",
+ "subject": "Arcturus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La lumière d'une étoile",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a allumé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une EXPOSITION ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une étoile interrupteur",
+   "on": "étoile"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille neuf cent trente-trois, la lumière d'une étoile a servi à allumer une exposition universelle ?"
+   ]
+  },
+  {
+   "say": [
+    "Pour l'exposition universelle de Chicago, en mille neuf cent trente-trois, les organisateurs ont eu une idée folle,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Chicago, 1933",
+     "size": "l",
+     "color": "gold",
+     "on": "Chicago"
+    }
+   ]
+  },
+  {
+   "say": [
+    "capter la lumière de l'étoile Arcturus avec des télescopes et des cellules photoélectriques,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'étoile Arcturus",
+     "size": "l",
+     "color": "pink",
+     "on": "Arcturus"
+    },
+    {
+     "t": "text",
+     "text": "+ des capteurs de lumière",
+     "size": "m",
+     "on": "cellules"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "on pensait alors que sa lumière était partie il y a environ quarante ans, au moment de la précédente exposition de Chicago, en mille huit cent quatre-vingt-treize,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "lumière partie vers 1893 ?",
+     "size": "l",
+     "color": "gold",
+     "on": "quarante ans",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "la précédente expo !",
+     "size": "m",
+     "on": "précédente"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce signal venu des étoiles a déclenché l'allumage des lumières de l'exposition."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une étoile",
+     "size": "m",
+     "on": "signal"
+    },
+    {
+     "t": "text",
+     "text": "a allumé l'expo !",
+     "size": "l",
+     "color": "pink",
+     "on": "allumage",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1933, la lumière de l'étoile Arcturus a allumé une exposition universelle 💡⭐\n\nPour l'ouverture de l'exposition universelle de Chicago, « A Century of Progress », en mai 1933, les organisateurs ont imaginé une mise en scène spectaculaire : capter la lumière de l'étoile Arcturus grâce à des télescopes équipés de cellules photoélectriques, et s'en servir pour déclencher l'allumage des lumières de l'exposition. Le symbole était fort : on estimait alors qu'Arcturus était à environ 40 années-lumière, donc que sa lumière avait quitté l'étoile vers 1893, l'année de la précédente exposition universelle de Chicago ! On sait aujourd'hui qu'elle est à environ 37 années-lumière. Arcturus est l'étoile la plus brillante de l'hémisphère céleste Nord. Sur l'image, un ciel nocturne.\n\nTu trouves l'idée géniale ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#arcturus",
+  "#histoire",
+  "#lumiere",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Arcturus",
+  "https://en.wikipedia.org/wiki/Century_of_Progress"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 299,
+ "title": "Un test de vue caché dans la Grande Ourse",
+ "subject": "Mizar",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un test de vue",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "caché dans",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la GRANDE OURSE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "Mizar et Alcor",
+   "on": "Grande Ourse"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il y a un test de vue caché dans la Grande Ourse ?"
+   ]
+  },
+  {
+   "say": [
+    "Regarde la deuxième étoile du manche de la casserole, elle s'appelle Mizar,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2e étoile du manche",
+     "size": "m",
+     "on": "manche"
+    },
+    {
+     "t": "text",
+     "text": "Mizar",
+     "size": "xl",
+     "color": "pink",
+     "on": "Mizar"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "casserole",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "avec une bonne vue, et un ciel bien noir, tu verras une petite étoile juste à côté, Alcor,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ une petite voisine :",
+     "size": "m",
+     "on": "petite"
+    },
+    {
+     "t": "text",
+     "text": "Alcor",
+     "size": "xl",
+     "color": "gold",
+     "on": "Alcor",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "selon la tradition, on s'en servait autrefois pour tester la vue des gens,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un test de vue",
+     "size": "l",
+     "color": "pink",
+     "on": "tester"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et au télescope, surprise, Mizar elle-même est double, et le système complet compterait six étoiles."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au télescope : Mizar est double",
+     "size": "m",
+     "on": "télescope"
+    },
+    {
+     "t": "text",
+     "text": "~ 6 étoiles en tout !",
+     "size": "l",
+     "color": "gold",
+     "on": "six",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Mizar et Alcor, le test de vue caché dans la Grande Ourse 👀\n\nDans le manche de la casserole de la Grande Ourse, la deuxième étoile s'appelle Mizar. Avec une bonne vue et un ciel bien noir, on distingue juste à côté une étoile plus faible : Alcor. Selon la tradition, notamment dans le monde arabe, ce couple servait autrefois de test de vue. Et ce n'est pas tout : au télescope, Mizar se dédouble elle-même. Elle a été l'une des premières étoiles doubles observées au télescope, au XVIIe siècle, et ses composantes sont elles-mêmes doubles. Avec Alcor, le système compterait au total six étoiles ! Sur l'image, un ciel nocturne. Un défi à tenter dès ce soir.\n\nTu arrives à voir les deux ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#grandeourse",
+  "#etoiles",
+  "#observation",
+  "#cielnocturne",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Mizar",
+  "https://fr.wikipedia.org/wiki/Alcor"
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 297,
+ "title": "Sur cette planète, il pleut du fer",
+ "subject": "WASP-76b",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur cette planète,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il pleut",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "du FER ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une pluie de fer",
+   "on": "pleut"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il existe une planète où il pleut du fer ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle WASP soixante-seize b, une planète géante à environ six cent quarante années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "WASP-76b",
+     "size": "xl",
+     "color": "pink",
+     "on": "WASP"
+    },
+    {
+     "t": "text",
+     "text": "~ 640 a.-l.",
+     "size": "m",
+     "color": "gold",
+     "on": "six cent quarante"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle montre toujours la même face à son étoile, et ce côté-là dépasse deux mille degrés, assez pour vaporiser du fer,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "côté jour : + de 2 000 °C",
+     "size": "l",
+     "color": "gold",
+     "on": "deux mille"
+    },
+    {
+     "t": "text",
+     "text": "le fer s'évapore !",
+     "size": "m",
+     "on": "vaporiser"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "face",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "des vents violents emportent ces vapeurs de fer vers la face de nuit, beaucoup plus froide,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des vents violents",
+     "size": "m",
+     "on": "vents"
+    },
+    {
+     "t": "text",
+     "text": "vers la face de nuit",
+     "size": "l",
+     "on": "nuit"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et là, le fer se condense, et retombe sous forme de gouttes, une vraie pluie de fer."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une pluie de fer !",
+     "size": "xl",
+     "color": "pink",
+     "on": "pluie",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur WASP-76b, il pleut du fer 🌧️⚙️\n\nWASP-76b est une exoplanète géante située à environ 640 années-lumière, dans la constellation des Poissons. Elle tourne si près de son étoile qu'elle lui montre toujours la même face : côté jour, la température dépasse les 2 000 °C, assez pour vaporiser du fer ! En 2020, grâce à l'instrument ESPRESSO du Very Large Telescope de l'ESO, au Chili, des astronomes ont découvert que des vents violents transportent ces vapeurs de fer vers la face de nuit, plus froide. Là, le fer se condense en gouttelettes et retomberait sous forme de pluie de fer. Un monde extrême parmi les plus étranges connus. Un fait d'astronomie fascinant.\n\nTu prendrais quel parapluie ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#exoplanete",
+  "#wasp76b",
+  "#eso",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/WASP-76b",
+  "https://www.eso.org/public/news/eso2004/"
+ ]
+}

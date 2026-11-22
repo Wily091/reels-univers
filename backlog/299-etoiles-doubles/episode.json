@@ -1,0 +1,147 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 298,
+ "title": "Beaucoup d'étoiles vivent en couple",
+ "subject": "Étoiles",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "sirius",
+   "file": "assets/images/sirius_hubble.jpg",
+   "credit": "Sirius A et B vues par Hubble · NASA, ESA, H. Bond, M. Barstow",
+   "page": "https://commons.wikimedia.org/wiki/File:Sirius_A_and_B_Hubble_photo.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Beaucoup d'étoiles",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "vivent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en COUPLE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des étoiles en couple",
+   "on": "étoiles"
+  },
+  "photo": "sirius"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une grande partie des étoiles ne vivent pas seules, mais en couple ?"
+   ]
+  },
+  {
+   "say": [
+    "Notre Soleil est une étoile solitaire, mais environ la moitié des étoiles qui lui ressemblent ont au moins une compagne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Soleil : solitaire",
+     "size": "m",
+     "on": "solitaire"
+    },
+    {
+     "t": "text",
+     "text": "~ la moitié en couple !",
+     "size": "l",
+     "color": "pink",
+     "on": "moitié",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles tournent l'une autour de l'autre, liées par leur gravité, on les appelle des étoiles binaires,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des étoiles binaires",
+     "size": "l",
+     "color": "gold",
+     "on": "binaires"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tournent",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il existe même des systèmes de trois, quatre, ou six étoiles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3, 4… ou 6 étoiles !",
+     "size": "l",
+     "on": "trois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Sirius, l'étoile la plus brillante de notre ciel, est d'ailleurs accompagnée d'une petite étoile, Sirius B."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Sirius A + Sirius B",
+     "size": "l",
+     "color": "pink",
+     "on": "Sirius",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Beaucoup d'étoiles vivent en couple : ce sont les étoiles binaires ⭐⭐\n\nNotre Soleil est une étoile solitaire, mais ce n'est pas le cas de toutes ! Environ la moitié des étoiles semblables au Soleil ont au moins une compagne, et la proportion est encore plus élevée pour les étoiles massives. Ces étoiles binaires tournent l'une autour de l'autre, liées par la gravité. Il existe aussi des systèmes triples, quadruples, voire sextuples, comme Castor ou Mizar. L'étoile la plus proche de nous, Alpha du Centaure, fait partie d'un système triple. Sirius, l'étoile la plus brillante du ciel nocturne, est accompagnée d'une naine blanche, Sirius B, visible sur cette photo de Hubble. Deux soleils dans le ciel, comme dans les films !\n\nTu imagines deux soleils dans le ciel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etoiles",
+  "#etoilebinaire",
+  "#sirius",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Étoile_binaire",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

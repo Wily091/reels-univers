@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 306,
+ "title": "Les sondes spatiales se repèrent grâce à une étoile",
+ "subject": "Canopus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les sondes spatiales",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "se guident",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "grâce à une ÉTOILE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une étoile-boussole",
+   "on": "étoile"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des sondes spatiales se guident en regardant une étoile précise ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Canopus, c'est la deuxième étoile la plus brillante du ciel nocturne, après Sirius,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Canopus",
+     "size": "xl",
+     "color": "pink",
+     "on": "Canopus"
+    },
+    {
+     "t": "text",
+     "text": "2e + brillante du ciel",
+     "size": "m",
+     "on": "deuxième"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle est très lumineuse, et située loin du plan où tournent les planètes, donc facile à repérer,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "très lumineuse",
+     "size": "m",
+     "on": "lumineuse"
+    },
+    {
+     "t": "text",
+     "text": "facile à repérer",
+     "size": "l",
+     "color": "gold",
+     "on": "repérer"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, de nombreuses sondes, depuis les années soixante, s'en servent comme repère pour savoir dans quelle direction elles pointent,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un repère pour s'orienter",
+     "size": "l",
+     "color": "pink",
+     "on": "repère",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sondes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "un peu comme les marins qui naviguaient autrefois grâce aux étoiles."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "comme les marins",
+     "size": "m",
+     "on": "marins"
+    },
+    {
+     "t": "text",
+     "text": "avec les étoiles !",
+     "size": "l",
+     "color": "gold",
+     "on": "naviguaient",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Canopus, l'étoile qui guide les sondes spatiales 🧭⭐\n\nCanopus est la deuxième étoile la plus brillante du ciel nocturne, après Sirius. Située dans la constellation de la Carène, elle est surtout visible depuis l'hémisphère Sud. Très lumineuse et éloignée du plan de l'écliptique, où se trouvent le Soleil et les planètes, elle constitue un repère idéal. Depuis les années 1960, de nombreuses sondes spatiales, comme les sondes Mariner ou Voyager, ont été équipées de capteurs d'étoile pointés vers Canopus pour connaître leur orientation, en combinaison avec un capteur solaire. Un peu comme les marins d'autrefois qui naviguaient grâce aux étoiles ! Sur l'image, un ciel nocturne.\n\nTu savais que les sondes regardaient les étoiles ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#canopus",
+  "#navigation",
+  "#espace",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Canopus",
+  "https://en.wikipedia.org/wiki/Star_tracker"
+ ]
+}

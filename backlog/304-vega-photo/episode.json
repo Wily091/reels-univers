@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 303,
+ "title": "Véga, la première étoile jamais photographiée",
+ "subject": "Véga",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La 1re étoile",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "jamais",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "PHOTOGRAPHIÉE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une photo historique",
+   "on": "étoile"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu sais quelle a été la toute première étoile photographiée de l'histoire ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Véga, une des étoiles les plus brillantes du ciel d'été, dans la constellation de la Lyre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Véga",
+     "size": "xl",
+     "color": "pink",
+     "on": "Véga"
+    },
+    {
+     "t": "text",
+     "text": "la Lyre, en été",
+     "size": "m",
+     "on": "Lyre"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "brillantes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en juillet mille huit cent cinquante, à l'observatoire de Harvard, aux États-Unis, des astronomes ont réussi à capturer son image,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "juillet 1850",
+     "size": "l",
+     "color": "gold",
+     "on": "juillet"
+    },
+    {
+     "t": "text",
+     "text": "à Harvard",
+     "size": "m",
+     "on": "Harvard"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ils ont utilisé un daguerréotype, l'ancêtre de la photographie, avec une pose d'environ cent secondes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un daguerréotype",
+     "size": "l",
+     "color": "pink",
+     "on": "daguerréotype",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "~ 100 s de pose",
+     "size": "m",
+     "on": "cent secondes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "aujourd'hui, un simple téléphone peut photographier des milliers d'étoiles en une seule image."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aujourd'hui :",
+     "size": "m",
+     "on": "aujourd'hui"
+    },
+    {
+     "t": "text",
+     "text": "des milliers avec un téléphone !",
+     "size": "l",
+     "color": "gold",
+     "on": "téléphone",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Véga, la première étoile jamais photographiée, en 1850 📷⭐\n\nEn juillet 1850, à l'observatoire du Harvard College, aux États-Unis, l'astronome William Cranch Bond et le photographe John Adams Whipple ont réalisé la toute première photographie d'une étoile : Véga, l'une des étoiles les plus brillantes du ciel d'été, dans la constellation de la Lyre. Ils ont utilisé un daguerréotype, l'ancêtre de la photographie, fixé à une grande lunette, avec un temps de pose d'environ 100 secondes. Véga forme avec Deneb et Altaïr le célèbre Triangle d'été. Aujourd'hui, un simple smartphone en mode nuit peut capturer des centaines d'étoiles d'un coup ! Sur l'image, un ciel nocturne.\n\nTu as déjà photographié une étoile ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#vega",
+  "#photographie",
+  "#histoire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Véga",
+  "https://en.wikipedia.org/wiki/Vega"
+ ]
+}
