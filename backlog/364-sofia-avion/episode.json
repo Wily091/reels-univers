@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 363,
+ "title": "La NASA avait un télescope dans un avion",
+ "subject": "SOFIA",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La NASA avait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un télescope géant",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans un AVION ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un observatoire volant",
+   "on": "télescope"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la NASA avait un grand télescope installé dans un avion de ligne ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait SOFIA, un télescope de deux virgule sept mètres, monté dans un Boeing sept cent quarante-sept modifié,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "SOFIA",
+     "size": "xl",
+     "color": "pink",
+     "on": "SOFIA"
+    },
+    {
+     "t": "text",
+     "text": "télescope de 2,7 m",
+     "size": "m",
+     "color": "gold",
+     "on": "deux virgule"
+    },
+    {
+     "t": "text",
+     "text": "dans un Boeing 747 !",
+     "size": "m",
+     "on": "Boeing"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en plein vol, vers treize kilomètres d'altitude, une grande porte s'ouvrait sur le côté de l'avion,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 13 km d'altitude",
+     "size": "l",
+     "color": "gold",
+     "on": "treize"
+    },
+    {
+     "t": "text",
+     "text": "une porte s'ouvre en vol !",
+     "size": "l",
+     "color": "pink",
+     "on": "porte",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "là-haut, il était au-dessus de presque toute la vapeur d'eau de l'atmosphère, qui bloque la lumière infrarouge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au-dessus de la vapeur d'eau",
+     "size": "m",
+     "on": "vapeur"
+    },
+    {
+     "t": "text",
+     "text": "idéal pour l'infrarouge",
+     "size": "l",
+     "on": "infrarouge"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a notamment détecté de l'eau sur la face éclairée de la Lune, avant de prendre sa retraite en deux mille vingt-deux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "de l'eau sur la Lune !",
+     "size": "l",
+     "color": "gold",
+     "on": "eau"
+    },
+    {
+     "t": "text",
+     "text": "retraite en 2022",
+     "size": "m",
+     "on": "retraite",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "SOFIA, le télescope de la NASA installé dans un Boeing 747 ✈️🔭\n\nSOFIA (Stratospheric Observatory for Infrared Astronomy) était un observatoire volant de la NASA et de l'agence spatiale allemande DLR : un télescope de 2,7 mètres de diamètre installé dans un Boeing 747SP modifié. En vol, vers 12 à 14 km d'altitude, une grande porte s'ouvrait sur le flanc arrière de l'avion pour laisser le télescope observer le ciel. À cette altitude, il se trouvait au-dessus de plus de 99 % de la vapeur d'eau atmosphérique, qui bloque la lumière infrarouge. Parmi ses découvertes : de l'eau moléculaire sur la face éclairée de la Lune, annoncée en 2020. SOFIA a effectué son dernier vol scientifique en 2022.\n\nTu aurais aimé voler avec lui ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#sofia",
+  "#nasa",
+  "#telescope",
+  "#infrarouge",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Stratospheric_Observatory_for_Infrared_Astronomy",
+  "https://science.nasa.gov/mission/sofia/"
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 362,
+ "title": "En 1954, une météorite a touché une femme sur son canapé",
+ "subject": "Météorite",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une météorite",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a touché une femme",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur son CANAPÉ ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un réveil brutal",
+   "on": "météorite"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une météorite a déjà blessé une personne, en pleine sieste sur son canapé ?"
+   ]
+  },
+  {
+   "say": [
+    "Le trente novembre mille neuf cent cinquante-quatre, en Alabama, aux États-Unis, Ann Hodges fait la sieste dans son salon,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "30 novembre 1954",
+     "size": "l",
+     "color": "gold",
+     "on": "trente novembre"
+    },
+    {
+     "t": "text",
+     "text": "Ann Hodges, en Alabama",
+     "size": "m",
+     "on": "Hodges"
+    }
+   ]
+  },
+  {
+   "say": [
+    "une pierre d'environ quatre kilos traverse le toit, rebondit sur une radio, et la frappe à la hanche,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 4 kg à travers le toit !",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre kilos",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "pierre",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle s'en sort avec un énorme bleu, mais sans blessure grave,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un gros bleu",
+     "size": "l",
+     "on": "bleu"
+    },
+    {
+     "t": "text",
+     "text": "rien de grave",
+     "size": "m",
+     "color": "gold",
+     "on": "grave"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est le premier cas bien documenté d'une personne blessée par une météorite, un événement extrêmement rare."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le 1er cas documenté",
+     "size": "m",
+     "on": "premier"
+    },
+    {
+     "t": "text",
+     "text": "extrêmement rare !",
+     "size": "l",
+     "color": "pink",
+     "on": "rare",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1954, une météorite a touché une femme pendant sa sieste 🛋️☄️\n\nLe 30 novembre 1954, à Sylacauga, en Alabama, Ann Hodges fait la sieste sur son canapé quand une pierre d'environ 4 kg traverse le toit de sa maison, rebondit sur un poste de radio et la frappe à la hanche. Elle s'en sort avec un énorme hématome, mais sans blessure grave. C'est le premier cas bien documenté d'une personne blessée par une météorite. La pierre, une chondrite, a ensuite fait l'objet d'une bataille juridique entre Ann Hodges et la propriétaire de la maison ; elle est aujourd'hui exposée dans un musée d'Alabama. Rassure-toi : la probabilité d'être touché par une météorite est infime. Une histoire vraie et incroyable !\n\nTu crois que ça pourrait t'arriver ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#meteorite",
+  "#insolite",
+  "#histoire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sylacauga_(meteorite)",
+  "https://science.nasa.gov/solar-system/meteors-meteorites/"
+ ]
+}

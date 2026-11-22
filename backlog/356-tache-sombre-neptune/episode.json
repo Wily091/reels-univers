@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 355,
+ "title": "La Grande Tache sombre de Neptune a disparu",
+ "subject": "Neptune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "neptune",
+   "file": "assets/images/neptune_voyager2.jpg",
+   "credit": "Neptune vue par Voyager 2 · NASA/JPL",
+   "page": "https://science.nasa.gov/neptune/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette tempête géante",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a tout simplement",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "DISPARU ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une tempête disparue",
+   "on": "tempête"
+  },
+  "photo": "neptune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une tempête aussi grande que la Terre a disparu de Neptune en quelques années ?"
+   ]
+  },
+  {
+   "say": [
+    "En mille neuf cent quatre-vingt-neuf, Voyager deux photographie une énorme tache sombre sur Neptune, qu'on appelle la Grande Tache sombre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1989 : Voyager 2",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-neuf"
+    },
+    {
+     "t": "text",
+     "text": "la Grande Tache sombre",
+     "size": "l",
+     "color": "pink",
+     "on": "Grande Tache"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était une tempête géante, à peu près aussi large que la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "≈ largeur de la Terre",
+     "size": "l",
+     "on": "large"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "tempête",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en mille neuf cent quatre-vingt-quatorze, quand Hubble a regardé Neptune, la tache avait disparu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1994 : Hubble regarde…",
+     "size": "m",
+     "on": "Hubble"
+    },
+    {
+     "t": "text",
+     "text": "disparue !",
+     "size": "xl",
+     "color": "gold",
+     "on": "disparu",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "contrairement à la tache de Jupiter, celles de Neptune apparaissent et disparaissent en quelques années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Neptune,",
+     "size": "m",
+     "on": "celles"
+    },
+    {
+     "t": "text",
+     "text": "elles vont et viennent !",
+     "size": "l",
+     "color": "pink",
+     "on": "apparaissent",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Grande Tache sombre de Neptune a disparu en quelques années 🌀\n\nEn août 1989, la sonde Voyager 2 photographie sur Neptune une immense tempête ovale et sombre, à peu près aussi large que la Terre, accompagnée de nuages blancs. On la baptise la Grande Tache sombre. Mais en 1994, quand le télescope spatial Hubble observe Neptune, la tache a complètement disparu ! Contrairement à la Grande Tache rouge de Jupiter, qui dure depuis des siècles, les tempêtes sombres de Neptune semblent ne durer que quelques années. Hubble en a depuis vu apparaître et disparaître plusieurs autres. Elles se forment dans une atmosphère balayée par les vents les plus rapides du système solaire. Sur la photo, Neptune vue par Voyager 2.\n\nTu crois qu'une nouvelle va apparaître ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#neptune",
+  "#tempete",
+  "#voyager2",
+  "#hubble",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Grande_Tache_sombre",
+  "https://science.nasa.gov/neptune/facts/"
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 361,
+ "title": "En 1992, une météorite a percuté une voiture",
+ "subject": "Météorite",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1992,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une météorite a percuté",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une VOITURE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la voiture météoritée",
+   "on": "voiture"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille neuf cent quatre-vingt-douze, une météorite est tombée en plein sur une voiture garée ?"
+   ]
+  },
+  {
+   "say": [
+    "Le neuf octobre mille neuf cent quatre-vingt-douze, un bolide traverse le ciel de l'est des États-Unis, filmé par de nombreux témoins,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "9 octobre 1992",
+     "size": "l",
+     "color": "gold",
+     "on": "neuf octobre"
+    },
+    {
+     "t": "text",
+     "text": "un bolide filmé",
+     "size": "m",
+     "on": "filmé"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "à Peekskill, près de New York, un morceau d'environ douze kilos traverse le coffre d'une voiture garée devant une maison,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 12 kg",
+     "size": "l",
+     "color": "pink",
+     "on": "douze kilos"
+    },
+    {
+     "t": "text",
+     "text": "à travers le coffre !",
+     "size": "l",
+     "color": "gold",
+     "on": "coffre",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "la propriétaire, une adolescente, entend un bruit énorme et découvre le trou, avec la pierre encore chaude dessous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la pierre",
+     "size": "m",
+     "on": "pierre"
+    },
+    {
+     "t": "text",
+     "text": "encore chaude !",
+     "size": "l",
+     "color": "pink",
+     "on": "chaude"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la voiture, devenue célèbre, a ensuite été exposée dans des musées du monde entier."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la voiture",
+     "size": "m",
+     "on": "voiture,"
+    },
+    {
+     "t": "text",
+     "text": "exposée dans des musées !",
+     "size": "l",
+     "color": "gold",
+     "on": "musées",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1992, une météorite a percuté une voiture garée à Peekskill 🚗☄️\n\nLe soir du 9 octobre 1992, un bolide spectaculaire traverse le ciel de l'est des États-Unis : il est filmé par de nombreux spectateurs de matchs de football américain. Un fragment d'environ 12 kg termine sa course à Peekskill, dans l'État de New York, en traversant de part en part le coffre d'une Chevrolet Malibu rouge garée devant une maison. Sa propriétaire, une jeune fille de 18 ans, entend un grand fracas et découvre le trou, avec la pierre encore chaude sous la voiture. La voiture, achetée par des collectionneurs, a ensuite été exposée dans des musées du monde entier, et la météorite vendue à prix d'or. Une anecdote cosmique !\n\nTu imagines la tête de la propriétaire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#meteorite",
+  "#insolite",
+  "#peekskill",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Peekskill_meteorite",
+  "https://science.nasa.gov/solar-system/meteors-meteorites/"
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 359,
+ "title": "Sur Mars, le son voyage à deux vitesses différentes",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Mars,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "le son voyage",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à DEUX vitesses ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les sons de Mars",
+   "on": "son"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur Mars, le son ne voyage pas à la même vitesse selon qu'il est grave ou aigu ?"
+   ]
+  },
+  {
+   "say": [
+    "Le rover Perseverance est le premier à avoir des micros qui ont enregistré les sons de Mars, depuis deux mille vingt et un,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Perseverance a des micros",
+     "size": "l",
+     "color": "pink",
+     "on": "micros"
+    },
+    {
+     "t": "text",
+     "text": "depuis 2021",
+     "size": "m",
+     "on": "vingt et un"
+    }
+   ]
+  },
+  {
+   "say": [
+    "on y entend le vent, et même le petit hélicoptère Ingenuity qui volait,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le vent, Ingenuity…",
+     "size": "m",
+     "on": "vent"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "entend",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'air martien, très fin et plein de dioxyde de carbone, fait que les sons aigus voyagent plus vite que les sons graves,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aigus + rapides",
+     "size": "l",
+     "color": "gold",
+     "on": "aigus",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "que les graves !",
+     "size": "m",
+     "on": "graves"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, une musique jouée sur Mars arriverait un peu désordonnée à tes oreilles, et beaucoup plus faible."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une musique",
+     "size": "m",
+     "on": "musique"
+    },
+    {
+     "t": "text",
+     "text": "un peu désordonnée !",
+     "size": "l",
+     "color": "pink",
+     "on": "désordonnée",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Mars, les sons aigus et graves ne voyagent pas à la même vitesse 🔊\n\nLe rover Perseverance de la NASA, posé en février 2021, est équipé de microphones, dont l'un conçu en France pour l'instrument SuperCam. Il a permis d'enregistrer pour la première fois les sons de Mars : le vent, les tirs laser de SuperCam, et même le bourdonnement de l'hélicoptère Ingenuity. En analysant ces sons, les scientifiques ont découvert une étrangeté : dans l'atmosphère très ténue de Mars, composée surtout de dioxyde de carbone, les sons aigus voyagent un peu plus vite (environ 250 m/s) que les sons graves (environ 240 m/s). Une musique jouée sur Mars arriverait donc légèrement désynchronisée, et très atténuée. Sur la photo, Mars.\n\nTu as déjà écouté les sons de Mars ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#perseverance",
+  "#son",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/mars-2020-perseverance/",
+  "https://fr.wikipedia.org/wiki/SuperCam"
+ ]
+}

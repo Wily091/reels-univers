@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 358,
+ "title": "L'atmosphère de la Terre brille faiblement la nuit",
+ "subject": "Atmosphère",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Terre est entourée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'un halo",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "VERT la nuit ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la luminescence nocturne",
+   "on": "halo"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que vue de l'espace, la Terre est entourée la nuit d'un fin halo vert lumineux ?"
+   ]
+  },
+  {
+   "say": [
+    "On appelle ça la luminescence atmosphérique, ou airglow,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la luminescence",
+     "size": "l",
+     "color": "pink",
+     "on": "luminescence"
+    },
+    {
+     "t": "text",
+     "text": "atmosphérique",
+     "size": "m",
+     "on": "atmosphérique"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le jour, la lumière du Soleil casse des molécules dans la haute atmosphère,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le jour :",
+     "size": "m",
+     "on": "jour"
+    },
+    {
+     "t": "text",
+     "text": "le Soleil casse des molécules",
+     "size": "l",
+     "color": "gold",
+     "on": "casse"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la nuit, quand les atomes se recombinent, ils libèrent un peu de lumière, surtout verte, vers cent kilomètres d'altitude,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la nuit : ils brillent",
+     "size": "m",
+     "on": "libèrent"
+    },
+    {
+     "t": "text",
+     "text": "en vert, vers 100 km",
+     "size": "l",
+     "color": "pink",
+     "on": "verte",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est pour ça que même loin des villes, le ciel nocturne n'est jamais complètement noir."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le ciel n'est jamais",
+     "size": "m",
+     "on": "jamais"
+    },
+    {
+     "t": "text",
+     "text": "complètement noir !",
+     "size": "l",
+     "color": "gold",
+     "on": "noir",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La nuit, l'atmosphère de la Terre brille d'un faible halo vert 💚🌍\n\nSur les photos prises de nuit depuis la Station spatiale internationale, on voit souvent la Terre entourée d'un fin liseré vert ou orangé : c'est la luminescence atmosphérique, ou « airglow ». Pendant la journée, le rayonnement ultraviolet du Soleil brise des molécules d'oxygène et d'azote dans la haute atmosphère. La nuit, quand ces atomes se recombinent ou se désexcitent, ils libèrent un peu d'énergie sous forme de lumière, en particulier une lueur verte émise par l'oxygène vers 90 à 100 km d'altitude. Ce phénomène très faible explique en partie pourquoi, même loin de toute ville, le ciel nocturne n'est jamais parfaitement noir. Sur la photo, la Terre.\n\nTu savais que le ciel ne devenait jamais vraiment noir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#airglow",
+  "#atmosphere",
+  "#iss",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Airglow",
+  "https://science.nasa.gov/earth/"
+ ]
+}
