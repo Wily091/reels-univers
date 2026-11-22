@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 287,
+ "title": "La Lune est presque aussi large que l'Australie",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Lune est presque",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "aussi large",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que l'AUSTRALIE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la vraie taille de la Lune",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Lune est presque aussi large que l'Australie ?"
+   ]
+  },
+  {
+   "say": [
+    "La Lune mesure environ trois mille quatre cent soixante-quinze kilomètres de diamètre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 3 475 km",
+     "size": "xl",
+     "color": "pink",
+     "on": "trois mille",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "ruler",
+     "on": "diamètre",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'Australie, d'est en ouest, fait environ quatre mille kilomètres, à peine plus,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Australie : ~ 4 000 km",
+     "size": "l",
+     "color": "gold",
+     "on": "Australie"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est environ un quart de la taille de la Terre, et on pourrait mettre une cinquantaine de Lunes dans la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 1/4 de la Terre",
+     "size": "l",
+     "on": "quart"
+    },
+    {
+     "t": "text",
+     "text": "~ 50 Lunes dans la Terre",
+     "size": "m",
+     "color": "pink",
+     "on": "cinquantaine"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pourtant, c'est la cinquième plus grande lune du système solaire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "5e + grande lune",
+     "size": "l",
+     "color": "gold",
+     "on": "cinquième"
+    },
+    {
+     "t": "text",
+     "text": "du système solaire !",
+     "size": "m",
+     "on": "système",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Lune est presque aussi large que l'Australie 🌕🇦🇺\n\nLa Lune mesure environ 3 475 km de diamètre, à peine moins que la largeur de l'Australie d'est en ouest, qui fait près de 4 000 km. C'est un peu plus d'un quart du diamètre de la Terre : on pourrait loger une cinquantaine de Lunes dans le volume de notre planète. Malgré tout, c'est la cinquième plus grande lune du système solaire, derrière Ganymède, Titan, Callisto et Io. Et par rapport à la taille de sa planète, c'est l'une des plus grosses lunes connues, ce qui joue un grand rôle dans la stabilité de l'axe de la Terre et donc de notre climat. Sur la photo, la pleine Lune.\n\nTu l'imaginais plus grande ou plus petite ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#taille",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/",
+  "https://fr.wikipedia.org/wiki/Lune"
+ ]
+}

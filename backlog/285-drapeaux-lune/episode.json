@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 284,
+ "title": "Les drapeaux plantés sur la Lune sont sans doute devenus blancs",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "drapeau",
+   "file": "assets/images/drapeau_apollo11.jpg",
+   "credit": "Apollo 11 sur la Lune · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Buzz_salutes_the_U.S._Flag.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les drapeaux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur la Lune sont",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "devenus BLANCS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des drapeaux délavés",
+   "on": "drapeaux"
+  },
+  "photo": "drapeau"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les drapeaux plantés sur la Lune par les astronautes sont sans doute devenus tout blancs ?"
+   ]
+  },
+  {
+   "say": [
+    "Les missions Apollo ont planté six drapeaux américains sur la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "6 drapeaux",
+     "size": "xl",
+     "color": "pink",
+     "on": "six drapeaux"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille douze, la sonde LRO a photographié les sites, et la plupart des drapeaux tiennent encore debout, on voit leurs ombres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2012 : la sonde LRO",
+     "size": "l",
+     "color": "gold",
+     "on": "LRO"
+    },
+    {
+     "t": "text",
+     "text": "ils tiennent debout !",
+     "size": "m",
+     "on": "debout"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sauf celui d'Apollo onze, renversé par le souffle du moteur au décollage, comme l'a raconté Buzz Aldrin,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sauf Apollo 11 :",
+     "size": "m",
+     "on": "sauf"
+    },
+    {
+     "t": "text",
+     "text": "renversé au décollage",
+     "size": "l",
+     "color": "pink",
+     "on": "renversé"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et après des décennies de rayons ultraviolets du Soleil, leurs couleurs ont probablement complètement pâli."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les UV du Soleil",
+     "size": "m",
+     "on": "ultraviolets"
+    },
+    {
+     "t": "text",
+     "text": "→ sans doute blancs !",
+     "size": "l",
+     "color": "gold",
+     "on": "pâli",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les drapeaux plantés sur la Lune sont sans doute devenus blancs 🏳️\n\nEntre 1969 et 1972, les six missions Apollo qui se sont posées sur la Lune y ont planté un drapeau américain. En 2012, les images de la sonde Lunar Reconnaissance Orbiter (LRO) de la NASA ont montré que la plupart d'entre eux tiennent encore debout : on distingue leurs ombres projetées au sol ! Seul celui d'Apollo 11 a été renversé par le souffle du moteur au moment du décollage, comme l'a rapporté Buzz Aldrin. Sans atmosphère pour les protéger, ces drapeaux en nylon sont exposés depuis des décennies au rayonnement ultraviolet intense du Soleil : leurs couleurs ont très probablement pâli jusqu'à devenir blanches. Sur la photo, la mission Apollo 11.\n\nTu savais qu'ils étaient encore là ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#apollo",
+  "#nasa",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/lro/",
+  "https://fr.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter"
+ ]
+}

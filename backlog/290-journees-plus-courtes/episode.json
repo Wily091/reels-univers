@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 289,
+ "title": "Certaines journées sont plus courtes d'une milliseconde",
+ "subject": "Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Certaines journées",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "durent MOINS",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de 24 heures ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des jours raccourcis",
+   "on": "journées"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que certaines journées récentes ont duré un tout petit peu moins de vingt-quatre heures ?"
+   ]
+  },
+  {
+   "say": [
+    "La vitesse de rotation de la Terre n'est pas parfaitement régulière, elle varie un tout petit peu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "rotation irrégulière",
+     "size": "l",
+     "color": "gold",
+     "on": "rotation"
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "vitesse",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "les marées, le noyau de la Terre, les océans, l'atmosphère, et même les séismes peuvent la modifier,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "marées, noyau, océans…",
+     "size": "m",
+     "on": "marées"
+    },
+    {
+     "t": "text",
+     "text": "même les séismes !",
+     "size": "l",
+     "color": "pink",
+     "on": "séismes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ces dernières années, des horloges atomiques ont mesuré des journées plus courtes d'environ une milliseconde et demie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 1,5 milliseconde",
+     "size": "xl",
+     "color": "pink",
+     "on": "milliseconde",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "en moins !",
+     "size": "m",
+     "on": "courtes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est minuscule, mais pour les satellites et les GPS, chaque milliseconde compte."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "minuscule…",
+     "size": "m",
+     "on": "minuscule"
+    },
+    {
+     "t": "text",
+     "text": "mais crucial pour les GPS !",
+     "size": "l",
+     "color": "gold",
+     "on": "GPS",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Certaines journées récentes ont duré un peu moins de 24 heures ⏱️\n\nLa Terre ne tourne pas sur elle-même à une vitesse parfaitement constante. Sa rotation varie très légèrement sous l'effet des marées dues à la Lune, des mouvements du noyau, des océans, de l'atmosphère et même de certains grands séismes. Sur le long terme, les journées s'allongent, mais ces dernières années, les horloges atomiques ont enregistré des journées plus courtes que 24 heures d'environ une milliseconde et demie, comme le 29 juin 2022. C'est imperceptible pour nous, mais crucial pour les systèmes de positionnement par satellite, les télécommunications et la mesure du temps. Sur la photo, la Terre vue par Apollo 17.\n\nTu as senti la différence ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#temps",
+  "#rotation",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Rotation_de_la_Terre",
+  "https://science.nasa.gov/earth/facts/"
+ ]
+}

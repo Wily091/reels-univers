@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 291,
+ "title": "La Terre ressemble en réalité à une patate",
+ "subject": "Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Terre",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'est pas ronde,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "c'est une PATATE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la Terre patate",
+   "on": "Terre"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que si on regarde sa gravité en détail, la Terre ressemble plutôt à une patate ?"
+   ]
+  },
+  {
+   "say": [
+    "La Terre est presque ronde, mais sa gravité n'est pas la même partout, à cause des montagnes et des roches plus ou moins lourdes sous nos pieds,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la gravité varie",
+     "size": "l",
+     "color": "gold",
+     "on": "gravité"
+    },
+    {
+     "t": "text",
+     "text": "selon les roches",
+     "size": "m",
+     "on": "roches"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "montagnes",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "entre deux mille neuf et deux mille treize, le satellite européen GOCE a mesuré ces petites différences très précisément,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le satellite GOCE",
+     "size": "l",
+     "color": "pink",
+     "on": "GOCE"
+    },
+    {
+     "t": "text",
+     "text": "2009 → 2013",
+     "size": "m",
+     "on": "deux mille neuf"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en exagérant énormément ces bosses et ces creux, les scientifiques ont obtenu une Terre en forme de patate,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une Terre-patate 🥔",
+     "size": "xl",
+     "color": "gold",
+     "on": "patate",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est ce qu'on appelle le géoïde, et il sert à mesurer précisément le niveau des océans et l'altitude des montagnes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le géoïde",
+     "size": "l",
+     "color": "pink",
+     "on": "géoïde"
+    },
+    {
+     "t": "text",
+     "text": "pour mesurer les altitudes",
+     "size": "m",
+     "on": "altitude",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Vue par sa gravité, la Terre ressemble à une patate 🥔🌍\n\nLa Terre est presque ronde, légèrement aplatie aux pôles. Mais sa gravité n'est pas la même partout : elle varie selon les montagnes, les fosses océaniques et la densité des roches sous nos pieds. Entre 2009 et 2013, le satellite GOCE de l'Agence spatiale européenne a cartographié ces infimes variations avec une précision inédite. En représentant ces différences de façon très exagérée, les scientifiques ont obtenu le célèbre modèle de la « Terre patate » : le géoïde, la forme qu'aurait la surface des océans sous la seule influence de la gravité. Il sert de référence pour mesurer les altitudes et suivre l'évolution du niveau des mers. Sur la photo, la Terre.\n\nTu l'imaginais comme ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#geoide",
+  "#esa",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Géoïde",
+  "https://en.wikipedia.org/wiki/Gravity_Field_and_Steady-State_Ocean_Circulation_Explorer"
+ ]
+}

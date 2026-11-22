@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 283,
+ "title": "Les mers de la Lune n'ont jamais contenu d'eau",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les « mers » de la Lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'ont jamais eu",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'EAU ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des mers sans eau",
+   "on": "mers"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les grandes taches sombres de la Lune s'appellent des mers, alors qu'elles n'ont jamais contenu d'eau ?"
+   ]
+  },
+  {
+   "say": [
+    "Les premiers astronomes pensaient que ces zones sombres étaient des océans, alors ils les ont appelées des mers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on croyait voir des océans",
+     "size": "l",
+     "color": "gold",
+     "on": "océans"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en réalité, ce sont d'immenses plaines de lave refroidie, du basalte, qui a rempli de grands bassins d'impact il y a des milliards d'années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "de la lave refroidie !",
+     "size": "l",
+     "color": "pink",
+     "on": "lave",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "du basalte",
+     "size": "m",
+     "on": "basalte"
+    }
+   ]
+  },
+  {
+   "say": [
+    "leurs jolis noms datent du dix-septième siècle, comme la mer de la Tranquillité, ou l'océan des Tempêtes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "mer de la Tranquillité",
+     "size": "l",
+     "on": "Tranquillité"
+    },
+    {
+     "t": "text",
+     "text": "océan des Tempêtes",
+     "size": "m",
+     "color": "gold",
+     "on": "Tempêtes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est justement dans la mer de la Tranquillité qu'Apollo onze s'est posé en mille neuf cent soixante-neuf."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Apollo 11 s'y est posé",
+     "size": "m",
+     "on": "Apollo"
+    },
+    {
+     "t": "text",
+     "text": "en 1969 !",
+     "size": "l",
+     "color": "pink",
+     "on": "soixante-neuf",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "posé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les « mers » de la Lune n'ont jamais contenu d'eau 🌕\n\nLes grandes taches sombres visibles à l'œil nu sur la Lune sont appelées des « mers » (maria en latin). Les premiers astronomes à les observer au télescope pensaient qu'il s'agissait d'étendues d'eau. En réalité, ce sont d'immenses plaines de basalte : de la lave qui a jailli de l'intérieur de la Lune et rempli de grands bassins d'impact, il y a 3 à 4 milliards d'années. Leurs noms poétiques ont été popularisés au XVIIe siècle par l'astronome italien Riccioli : mer de la Tranquillité, mer de la Sérénité, océan des Tempêtes… C'est dans la mer de la Tranquillité qu'Apollo 11 s'est posé le 20 juillet 1969. Sur la photo, la pleine Lune.\n\nTu pensais que c'était de l'eau ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#merslunaires",
+  "#apollo11",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Mer_lunaire",
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

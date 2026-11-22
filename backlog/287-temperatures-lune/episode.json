@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 286,
+ "title": "Sur la Lune, il fait 120 °C le jour et −130 °C la nuit",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "+120 °C le jour,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "−130 °C la NUIT ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des écarts extrêmes",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur la Lune, la température passe de plus cent vingt à moins cent trente degrés ?"
+   ]
+  },
+  {
+   "say": [
+    "Près de l'équateur de la Lune, en plein jour, le sol monte à environ cent vingt degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le jour : ~ +120 °C",
+     "size": "l",
+     "color": "pink",
+     "on": "cent vingt",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "jour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la nuit, il descend à environ moins cent trente degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la nuit : ~ −130 °C",
+     "size": "l",
+     "color": "gold",
+     "on": "moins cent trente"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "nuit",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "la raison, c'est que la Lune n'a presque pas d'atmosphère pour garder la chaleur, comme une couverture,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'atmosphère",
+     "size": "l",
+     "on": "atmosphère"
+    },
+    {
+     "t": "text",
+     "text": "= pas de couverture !",
+     "size": "m",
+     "color": "pink",
+     "on": "couverture"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est pour ça que les combinaisons des astronautes doivent les protéger à la fois du chaud et du froid."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des combinaisons",
+     "size": "m",
+     "on": "combinaisons"
+    },
+    {
+     "t": "text",
+     "text": "anti-chaud ET anti-froid",
+     "size": "l",
+     "color": "gold",
+     "on": "froid.",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur la Lune, il fait environ +120 °C le jour et −130 °C la nuit 🌡️\n\nLa Lune connaît des écarts de température extrêmes. Près de son équateur, en plein jour, le sol peut atteindre environ 120 °C, plus que l'eau bouillante ! La nuit, la température chute à environ −130 °C. Et dans certains cratères polaires jamais éclairés, elle descend même sous les −240 °C. La raison : la Lune n'a quasiment pas d'atmosphère. Sur Terre, l'air agit comme une couverture qui retient et répartit la chaleur ; sur la Lune, rien n'empêche la chaleur de s'échapper la nuit. Les combinaisons et les engins lunaires doivent donc protéger à la fois du chaud et du froid. Sur la photo, la pleine Lune.\n\nTu préfères le jour ou la nuit lunaire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#temperature",
+  "#espace",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/",
+  "https://fr.wikipedia.org/wiki/Lune"
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 292,
+ "title": "La Station spatiale doit parfois esquiver des débris",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Station spatiale",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "doit parfois",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ESQUIVER des débris ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des manœuvres d'évitement",
+   "on": "Station"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Station spatiale internationale doit parfois changer de trajectoire pour éviter des débris ?"
+   ]
+  },
+  {
+   "say": [
+    "Autour de la Terre, des milliers de morceaux de vieux satellites et de fusées filent à plus de vingt-cinq mille kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des milliers de débris",
+     "size": "l",
+     "color": "gold",
+     "on": "milliers"
+    },
+    {
+     "t": "text",
+     "text": "à + de 25 000 km/h !",
+     "size": "m",
+     "on": "vingt-cinq"
+    }
+   ]
+  },
+  {
+   "say": [
+    "à cette vitesse, même un petit morceau peut faire de gros dégâts,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un petit morceau",
+     "size": "m",
+     "on": "petit"
+    },
+    {
+     "t": "text",
+     "text": "= de gros dégâts",
+     "size": "l",
+     "color": "pink",
+     "on": "dégâts"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors quand un débris risque de passer trop près, la Station allume ses moteurs pour s'écarter,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle allume ses moteurs",
+     "size": "l",
+     "on": "moteurs"
+    },
+    {
+     "t": "text",
+     "text": "et s'écarte !",
+     "size": "m",
+     "color": "gold",
+     "on": "écarter"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "allume",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "depuis mille neuf cent quatre-vingt-dix-neuf, elle a dû faire ça plus d'une trentaine de fois."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ d'une trentaine",
+     "size": "l",
+     "color": "pink",
+     "on": "trentaine",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de manœuvres depuis 1999",
+     "size": "m",
+     "on": "quatre-vingt-dix-neuf",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Station spatiale doit parfois manœuvrer pour esquiver des débris 🛰️💥\n\nAutour de la Terre gravitent des milliers de débris : morceaux de satellites hors service, étages de fusées, éclats de collisions. Ils filent à plus de 25 000 km/h, si bien que même un petit fragment peut causer de gros dégâts. Les agences spatiales surveillent en permanence les objets qui pourraient passer près de la Station spatiale internationale. Quand le risque de collision devient trop élevé, la station allume ses propulseurs pour modifier légèrement son orbite : c'est une manœuvre d'évitement. Elle en a réalisé plus d'une trentaine depuis 1999. Parfois, l'équipage se réfugie même dans ses vaisseaux par précaution. Sur la photo, l'ISS.\n\nTu savais que c'était si encombré ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#debrisspatiaux",
+  "#nasa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/",
+  "https://fr.wikipedia.org/wiki/Débris_spatial"
+ ]
+}

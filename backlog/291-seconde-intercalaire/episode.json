@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 290,
+ "title": "On a déjà ajouté 27 secondes à nos horloges",
+ "subject": "Temps",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On a ajouté",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "27 secondes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à nos HORLOGES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la seconde intercalaire",
+   "on": "secondes"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'on a déjà dû ajouter vingt-sept secondes à nos horloges ?"
+   ]
+  },
+  {
+   "say": [
+    "Nos horloges atomiques sont ultra-précises, mais la rotation de la Terre, elle, varie un peu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "horloges atomiques",
+     "size": "l",
+     "color": "gold",
+     "on": "atomiques"
+    },
+    {
+     "t": "text",
+     "text": "vs Terre irrégulière",
+     "size": "m",
+     "on": "rotation"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour rester d'accord avec la Terre, depuis mille neuf cent soixante-douze, on a parfois ajouté une seconde, la seconde intercalaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la seconde intercalaire",
+     "size": "l",
+     "color": "pink",
+     "on": "intercalaire",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "depuis 1972",
+     "size": "m",
+     "on": "soixante-douze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce jour-là, la dernière minute de l'année dure soixante et une secondes, et on en a ajouté vingt-sept au total,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une minute de 61 s !",
+     "size": "l",
+     "on": "soixante et une"
+    },
+    {
+     "t": "text",
+     "text": "27 au total",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-sept"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais elle pose des problèmes aux ordinateurs, et il a été décidé de l'abandonner d'ici deux mille trente-cinq."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "abandon prévu",
+     "size": "m",
+     "on": "abandonner"
+    },
+    {
+     "t": "text",
+     "text": "d'ici 2035 !",
+     "size": "l",
+     "color": "pink",
+     "on": "trente-cinq",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "On a déjà ajouté 27 secondes intercalaires à nos horloges ⏰\n\nLe temps officiel est mesuré par des horloges atomiques d'une précision extrême, mais la rotation de la Terre, elle, varie légèrement. Pour que l'heure officielle reste alignée avec la position du Soleil, on a introduit en 1972 la « seconde intercalaire » : de temps en temps, on ajoute une seconde, et la dernière minute du 30 juin ou du 31 décembre dure alors 61 secondes ! 27 secondes ont été ajoutées en tout, la dernière le 31 décembre 2016. Mais ces secondes surprises posent des problèmes aux systèmes informatiques. En 2022, la Conférence générale des poids et mesures a décidé de les abandonner d'ici 2035. Sur la photo, la Terre.\n\nTu savais qu'une minute pouvait durer 61 secondes ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#temps",
+  "#horloge",
+  "#terre",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Seconde_intercalaire",
+  "https://science.nasa.gov/earth/facts/"
+ ]
+}

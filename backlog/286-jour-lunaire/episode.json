@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 285,
+ "title": "Sur la Lune, une journée dure environ un mois",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une journée dure",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "UN MOIS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un jour d'un mois",
+   "on": "journée"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur la Lune, une journée complète dure environ un mois ?"
+   ]
+  },
+  {
+   "say": [
+    "La Lune fait un tour sur elle-même en environ vingt-neuf jours et demi, par rapport au Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 jour lunaire",
+     "size": "m",
+     "on": "tour"
+    },
+    {
+     "t": "text",
+     "text": "≈ 29,5 jours terrestres",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-neuf",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, un endroit de la Lune reçoit le Soleil pendant environ deux semaines,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 2 semaines de jour",
+     "size": "l",
+     "color": "pink",
+     "on": "deux semaines"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "reçoit",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis il plonge dans la nuit pendant environ deux semaines aussi,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 2 semaines de nuit",
+     "size": "l",
+     "on": "nuit"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est pour ça que les robots lunaires doivent survivre à de très longues nuits glaciales, et beaucoup n'y arrivent pas."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des nuits glaciales",
+     "size": "m",
+     "on": "glaciales"
+    },
+    {
+     "t": "text",
+     "text": "dures pour les robots !",
+     "size": "l",
+     "color": "gold",
+     "on": "robots",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur la Lune, une journée complète dure environ un mois terrestre 🌗\n\nLa Lune tourne sur elle-même très lentement : par rapport au Soleil, une rotation complète prend environ 29,5 jours terrestres, autant qu'un cycle de phases lunaires. Résultat : en un point donné de la Lune, le Soleil brille pendant environ deux semaines d'affilée, puis vient une nuit d'environ deux semaines. Ces longues nuits, très froides, sont un véritable défi pour les robots et atterrisseurs lunaires qui fonctionnent à l'énergie solaire : beaucoup ne se réveillent pas après leur première nuit. Les futures bases lunaires devront s'en protéger, d'où l'intérêt de certains sommets du pôle sud, éclairés presque en permanence. Sur la photo, la pleine Lune.\n\nTu supporterais deux semaines de nuit ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#jourlunaire",
+  "#espace",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/facts/",
+  "https://fr.wikipedia.org/wiki/Lune"
+ ]
+}

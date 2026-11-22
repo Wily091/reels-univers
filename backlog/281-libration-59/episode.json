@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 280,
+ "title": "On voit en réalité 59 % de la surface de la Lune",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On ne voit pas 50 %",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "mais 59 % ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "59 % de la Lune",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que depuis la Terre, on ne voit pas la moitié de la Lune, mais environ cinquante-neuf pour cent ?"
+   ]
+  },
+  {
+   "say": [
+    "La Lune nous montre toujours à peu près la même face, parce qu'elle tourne sur elle-même au même rythme qu'elle tourne autour de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toujours la même face",
+     "size": "l",
+     "color": "gold",
+     "on": "même face"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais son orbite est un peu ovale et un peu penchée, alors elle semble se balancer légèrement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle se balance",
+     "size": "l",
+     "color": "pink",
+     "on": "balancer"
+    },
+    {
+     "t": "text",
+     "text": "c'est la libration",
+     "size": "m",
+     "on": "penchée"
+    }
+   ]
+  },
+  {
+   "say": [
+    "grâce à ce petit balancement, on aperçoit un peu de ses bords, comme si elle tournait la tête,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on voit un peu",
+     "size": "m",
+     "on": "aperçoit"
+    },
+    {
+     "t": "text",
+     "text": "de ses bords !",
+     "size": "l",
+     "color": "gold",
+     "on": "bords"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et au total, au fil du temps, on peut observer environ cinquante-neuf pour cent de sa surface."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 59 % visible !",
+     "size": "xl",
+     "color": "pink",
+     "on": "cinquante-neuf",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Depuis la Terre, on voit en réalité environ 59 % de la surface de la Lune 🌕\n\nLa Lune nous montre toujours à peu près la même face, car elle tourne sur elle-même exactement au même rythme qu'elle fait le tour de la Terre : c'est la rotation synchrone. Pourtant, on n'en voit pas seulement 50 % ! Comme son orbite est légèrement elliptique et inclinée, et que nous l'observons depuis différents points de la Terre, la Lune semble se balancer légèrement, un phénomène appelé la libration. Au fil du temps, ce balancement nous permet d'apercevoir un peu plus de ses bords, et d'observer au total environ 59 % de sa surface. Les 41 % restants n'ont été vus que grâce aux sondes spatiales. Sur la photo, la pleine Lune.\n\nTu pensais qu'on en voyait la moitié ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#libration",
+  "#facecachee",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Libration",
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

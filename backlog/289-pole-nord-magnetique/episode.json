@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 288,
+ "title": "Le pôle Nord magnétique se déplace vers la Sibérie",
+ "subject": "Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le pôle Nord",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "se déplace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "vers la SIBÉRIE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un pôle qui voyage",
+   "on": "pôle Nord"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le pôle Nord magnétique, celui qu'indique ta boussole, se déplace tout le temps ?"
+   ]
+  },
+  {
+   "say": [
+    "Le pôle Nord magnétique n'est pas au même endroit que le pôle Nord géographique, et il bouge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pôle magnétique ≠",
+     "size": "m",
+     "on": "magnétique"
+    },
+    {
+     "t": "text",
+     "text": "pôle géographique",
+     "size": "l",
+     "color": "gold",
+     "on": "géographique"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il est créé par le fer liquide qui tourbillonne au cœur de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "du fer liquide",
+     "size": "l",
+     "color": "pink",
+     "on": "fer"
+    },
+    {
+     "t": "text",
+     "text": "au cœur de la Terre",
+     "size": "m",
+     "on": "cœur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "depuis le début des années deux mille, il a filé à près de cinquante kilomètres par an, du Canada vers la Sibérie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jusqu'à ~ 50 km / an !",
+     "size": "l",
+     "color": "gold",
+     "on": "cinquante",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "Canada → Sibérie",
+     "size": "m",
+     "on": "Sibérie"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, les cartes et les GPS doivent régulièrement mettre à jour leurs modèles magnétiques."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les cartes et GPS",
+     "size": "m",
+     "on": "cartes"
+    },
+    {
+     "t": "text",
+     "text": "se mettent à jour !",
+     "size": "l",
+     "color": "pink",
+     "on": "jour",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le pôle Nord magnétique se déplace vers la Sibérie 🧭\n\nLe pôle Nord indiqué par une boussole n'est pas le pôle Nord géographique (l'axe de rotation de la Terre) : c'est le pôle Nord magnétique, et il se déplace en permanence. Il est lié aux mouvements du fer liquide dans le noyau externe de la Terre, qui génèrent notre champ magnétique. Au début des années 2000, il a accéléré jusqu'à environ 50 km par an, quittant l'Arctique canadien en direction de la Sibérie, avant de ralentir un peu ces dernières années. Pour que la navigation reste précise, les scientifiques mettent régulièrement à jour le Modèle magnétique mondial, utilisé par les avions, les bateaux et les smartphones. Sur la photo, la Terre.\n\nTu savais que ta boussole changeait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#polenord",
+  "#magnetisme",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Pôle_Nord_magnétique",
+  "https://www.ncei.noaa.gov/products/world-magnetic-model"
+ ]
+}

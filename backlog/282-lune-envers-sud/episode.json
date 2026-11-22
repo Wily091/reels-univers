@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 281,
+ "title": "Dans l'hémisphère Sud, la Lune est à l'envers",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En Australie,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Lune est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "À L'ENVERS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une Lune renversée",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que depuis l'hémisphère Sud, la Lune apparaît à l'envers ?"
+   ]
+  },
+  {
+   "say": [
+    "Quand tu regardes la Lune depuis la France, tu la vois avec un certain sens, avec ses taches sombres toujours à la même place,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "depuis la France",
+     "size": "m",
+     "on": "France"
+    },
+    {
+     "t": "text",
+     "text": "un certain sens",
+     "size": "l",
+     "color": "gold",
+     "on": "sens"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "taches",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais depuis l'Australie ou l'Argentine, les gens la regardent tête en bas par rapport à nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "depuis l'hémisphère Sud",
+     "size": "m",
+     "on": "Australie"
+    },
+    {
+     "t": "text",
+     "text": "tête en bas !",
+     "size": "l",
+     "color": "pink",
+     "on": "tête",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, la Lune leur apparaît retournée, et les croissants sont tournés dans l'autre sens,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Lune retournée",
+     "size": "l",
+     "on": "retournée"
+    },
+    {
+     "t": "text",
+     "text": "croissants inversés",
+     "size": "m",
+     "color": "gold",
+     "on": "croissants"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et près de l'équateur, le croissant peut même apparaître couché, comme un sourire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à l'équateur :",
+     "size": "m",
+     "on": "équateur"
+    },
+    {
+     "t": "text",
+     "text": "un croissant-sourire 🙂",
+     "size": "l",
+     "color": "pink",
+     "on": "sourire",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans l'hémisphère Sud, la Lune apparaît à l'envers 🙃🌙\n\nLa Lune nous montre toujours la même face, mais pas sous le même angle selon l'endroit d'où on l'observe ! Depuis l'hémisphère Sud, en Australie, en Argentine ou en Afrique du Sud, les observateurs la regardent « tête en bas » par rapport à nous : les reliefs et les taches sombres apparaissent retournés, et les croissants sont orientés dans l'autre sens. Près de l'équateur, le croissant de Lune peut même apparaître couché, comme un sourire ou une barque. Le célèbre « lapin » ou le « visage » de la Lune change donc d'aspect selon l'hémisphère ! Sur la photo, la pleine Lune vue depuis l'hémisphère Nord.\n\nTu as déjà vu la Lune depuis l'hémisphère Sud ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#hemispheresud",
+  "#observation",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/moon-phases/",
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

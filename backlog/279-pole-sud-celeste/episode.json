@@ -1,0 +1,162 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 278,
+ "title": "Il n'y a pas d'étoile polaire au pôle Sud",
+ "subject": "Ciel austral",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Au pôle Sud,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il n'y a pas",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'ÉTOILE POLAIRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "pas d'étoile du Sud",
+   "on": "étoile"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que dans l'hémisphère Sud, il n'y a pas d'étoile polaire brillante pour indiquer le sud ?"
+   ]
+  },
+  {
+   "say": [
+    "Dans le Nord, l'étoile polaire est presque pile au-dessus du pôle, et elle indique le nord,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au Nord : l'étoile polaire",
+     "size": "l",
+     "color": "gold",
+     "on": "polaire"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "pôle",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "au Sud, l'étoile la plus proche du pôle céleste s'appelle Sigma Octantis, mais elle est si faible qu'on la voit à peine,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au Sud : Sigma Octantis",
+     "size": "l",
+     "color": "pink",
+     "on": "Sigma"
+    },
+    {
+     "t": "text",
+     "text": "presque invisible !",
+     "size": "m",
+     "on": "peine",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, les navigateurs utilisaient plutôt la Croix du Sud, une petite constellation en forme de croix,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Croix du Sud",
+     "size": "l",
+     "color": "gold",
+     "on": "Croix"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "constellation",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en prolongeant sa grande branche, on trouve à peu près la direction du sud."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "prolonge la croix",
+     "size": "m",
+     "on": "prolongeant"
+    },
+    {
+     "t": "text",
+     "text": "→ le sud !",
+     "size": "l",
+     "color": "pink",
+     "on": "sud.",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il n'y a pas d'étoile polaire brillante dans l'hémisphère Sud 🧭\n\nDans l'hémisphère Nord, l'étoile Polaire se trouve presque exactement dans l'axe de rotation de la Terre : elle semble immobile et indique le nord. Dans l'hémisphère Sud, il n'y a pas d'équivalent brillant ! L'étoile la plus proche du pôle céleste sud, Sigma Octantis, est tout juste visible à l'œil nu sous un ciel très noir. Les navigateurs et les habitants de l'hémisphère Sud utilisent plutôt la Croix du Sud : en prolongeant sa grande branche d'environ quatre fois et demie sa longueur, on tombe près du pôle sud céleste. La Croix du Sud figure d'ailleurs sur plusieurs drapeaux, comme ceux de l'Australie et du Brésil. Sur l'image, un ciel nocturne.\n\nTu as déjà vu la Croix du Sud ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#croixdusud",
+  "#etoiles",
+  "#cielnocturne",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Sigma_Octantis",
+  "https://fr.wikipedia.org/wiki/Croix_du_Sud"
+ ]
+}

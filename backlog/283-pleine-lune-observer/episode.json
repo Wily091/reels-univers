@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 282,
+ "title": "La pleine Lune est le pire moment pour observer la Lune",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La pleine Lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "c'est le PIRE moment",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pour l'observer ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une idée reçue",
+   "on": "pleine Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la pleine Lune est en fait le pire moment pour observer la Lune au télescope ?"
+   ]
+  },
+  {
+   "say": [
+    "À la pleine Lune, le Soleil l'éclaire de face, donc il n'y a presque pas d'ombres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "éclairée de face",
+     "size": "l",
+     "color": "gold",
+     "on": "face"
+    },
+    {
+     "t": "text",
+     "text": "presque pas d'ombres",
+     "size": "m",
+     "on": "ombres"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, les cratères et les montagnes paraissent plats, et la lumière est éblouissante,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "tout paraît plat",
+     "size": "l",
+     "color": "pink",
+     "on": "plats"
+    },
+    {
+     "t": "text",
+     "text": "+ éblouissant",
+     "size": "m",
+     "on": "éblouissante"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le meilleur moment, c'est autour du premier quartier, le long de la ligne entre l'ombre et la lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le + beau :",
+     "size": "m",
+     "on": "meilleur"
+    },
+    {
+     "t": "text",
+     "text": "le 1er quartier !",
+     "size": "l",
+     "color": "gold",
+     "on": "premier quartier",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "là, les ombres sont très longues, et les cratères apparaissent en relief, comme en trois dimensions."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des ombres longues",
+     "size": "m",
+     "on": "ombres sont"
+    },
+    {
+     "t": "text",
+     "text": "relief en 3D !",
+     "size": "l",
+     "color": "pink",
+     "on": "trois dimensions",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La pleine Lune est le pire moment pour observer la Lune au télescope 🔭\n\nC'est contre-intuitif, mais la pleine Lune n'est pas le meilleur moment pour observer notre satellite ! Ce jour-là, le Soleil l'éclaire de face, comme un flash : il n'y a presque pas d'ombres, les cratères et les montagnes paraissent plats, et la lumière est éblouissante dans un instrument. Le meilleur moment est autour du premier quartier, ou du dernier : le long du terminateur, la limite entre la partie éclairée et la partie sombre, le Soleil est rasant. Les ombres des reliefs sont alors très longues, et les cratères apparaissent en relief, comme en 3D. Même de simples jumelles suffisent pour s'en rendre compte ! Sur la photo, la pleine Lune.\n\nTu l'observes quand, toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#observation",
+  "#telescope",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Terminateur_(astronomie)",
+  "https://science.nasa.gov/moon/moon-phases/"
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 279,
+ "title": "On voit souvent la Lune en plein jour",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pourquoi on voit",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en PLEIN JOUR ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la Lune de jour",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu t'es déjà demandé pourquoi on voit souvent la Lune en plein jour ?"
+   ]
+  },
+  {
+   "say": [
+    "La Lune n'est pas faite pour la nuit, elle est simplement au-dessus de l'horizon environ la moitié du temps, de jour comme de nuit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas que la nuit !",
+     "size": "l",
+     "color": "pink",
+     "on": "nuit"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "horizon",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "comme elle renvoie beaucoup de lumière du Soleil, elle reste visible même quand le ciel est bleu,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "assez brillante",
+     "size": "m",
+     "on": "lumière"
+    },
+    {
+     "t": "text",
+     "text": "pour le ciel bleu",
+     "size": "l",
+     "color": "gold",
+     "on": "bleu",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "le meilleur moment, c'est autour du premier quartier, l'après-midi, ou au dernier quartier, le matin,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er quartier : l'après-midi",
+     "size": "m",
+     "on": "premier quartier"
+    },
+    {
+     "t": "text",
+     "text": "dernier quartier : le matin",
+     "size": "m",
+     "color": "gold",
+     "on": "dernier"
+    }
+   ]
+  },
+  {
+   "say": [
+    "par contre, la pleine Lune, elle, se lève quand le Soleil se couche, donc on ne la voit que la nuit."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la pleine Lune :",
+     "size": "m",
+     "on": "pleine"
+    },
+    {
+     "t": "text",
+     "text": "que la nuit !",
+     "size": "l",
+     "color": "pink",
+     "on": "couche",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pourquoi voit-on souvent la Lune en plein jour ? 🌗☀️\n\nOn associe la Lune à la nuit, mais elle passe en réalité environ autant de temps au-dessus de l'horizon le jour que la nuit. Comme elle réfléchit beaucoup de lumière solaire, elle reste bien visible dans le ciel bleu. Les meilleurs moments pour la voir de jour : autour du premier quartier, l'après-midi et en début de soirée, et autour du dernier quartier, le matin. La pleine Lune, elle, est située à l'opposé du Soleil : elle se lève au coucher du Soleil et se couche à son lever, on ne la voit donc que la nuit. Et la nouvelle Lune est invisible, perdue dans l'éclat du Soleil. Sur la photo, la pleine Lune.\n\nTu l'as déjà remarquée en plein jour ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#ciel",
+  "#observation",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/moon-phases/",
+  "https://fr.wikipedia.org/wiki/Phase_de_la_Lune"
+ ]
+}
