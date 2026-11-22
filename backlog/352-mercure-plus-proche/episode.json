@@ -1,166 +1,167 @@
 {
- "format": "planche",
- "valide": true,
- "num": 351,
- "title": "Mercure est la planète la plus proche… de toutes les autres",
- "subject": "Mercure",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "mercure",
-   "file": "assets/images/mercure_messenger.jpg",
-   "credit": "Mercure vue par MESSENGER · NASA/JHUAPL/Carnegie Institution",
-   "page": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
-   "license": "Domaine public (NASA)"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "La planète la + proche",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "de la Terre,",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "c'est MERCURE ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
-  ]
- },
- "center": {
-  "tagline": {
-   "text": "une surprise de calcul",
-   "on": "planète"
+  "format": "planche",
+  "valide": true,
+  "num": 351,
+  "title": "Mercure est la planète la plus proche… de toutes les autres",
+  "subject": "Mercure",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
   },
-  "photo": "mercure"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais qu'en moyenne, la planète la plus proche de la Terre n'est pas Vénus, mais Mercure ?"
-   ]
-  },
-  {
-   "say": [
-    "Vénus est celle qui peut venir le plus près de nous, mais elle passe aussi beaucoup de temps de l'autre côté du Soleil, très loin,"
-   ],
-   "note": [
+  "images": [
     {
-     "t": "text",
-     "text": "Vénus : parfois très près…",
-     "size": "m",
-     "on": "Vénus"
-    },
-    {
-     "t": "text",
-     "text": "parfois très loin !",
-     "size": "l",
-     "color": "gold",
-     "on": "loin"
-    },
-    {
-     "t": "sketch",
-     "kind": "sun",
-     "on": "Soleil",
-     "row": "same",
-     "scale": 0.5
+      "id": "mercure",
+      "file": "assets/images/mercure_messenger.jpg",
+      "credit": "Mercure vue par MESSENGER · NASA/JHUAPL/Carnegie Institution",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+      "license": "Domaine public (NASA)"
     }
-   ]
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "La planète la + proche",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "de la Terre,",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "c'est MERCURE ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
   },
-  {
-   "say": [
-    "Mercure, elle, tourne tout près du Soleil, donc elle ne s'éloigne jamais vraiment beaucoup,"
-   ],
-   "note": [
+  "center": {
+    "tagline": {
+      "text": "une surprise de calcul",
+      "on": "planète"
+    },
+    "photo": "mercure"
+  },
+  "scenes": [
     {
-     "t": "text",
-     "text": "Mercure reste",
-     "size": "m",
-     "on": "Mercure"
+      "say": [
+        "Tu savais qu'en moyenne, la planète la plus proche de la Terre n'est pas Vénus, mais Mercure ?"
+      ]
     },
     {
-     "t": "text",
-     "text": "près du Soleil",
-     "size": "l",
-     "color": "pink",
-     "on": "tourne"
-    }
-   ]
-  },
-  {
-   "say": [
-    "en faisant la moyenne sur des années, c'est Mercure qui est la planète la plus proche de la Terre,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "en moyenne :",
-     "size": "m",
-     "on": "moyenne"
+      "say": [
+        "Vénus est celle qui peut venir le plus près de nous, mais elle passe aussi beaucoup de temps de l'autre côté du Soleil, très loin,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Vénus : parfois très près…",
+          "size": "m",
+          "on": "Vénus"
+        },
+        {
+          "t": "text",
+          "text": "parfois très loin !",
+          "size": "l",
+          "color": "gold",
+          "on": "loin"
+        },
+        {
+          "t": "sketch",
+          "kind": "sun",
+          "on": "Soleil",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "Mercure gagne !",
-     "size": "xl",
-     "color": "pink",
-     "on": "plus proche",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "et en fait, elle est aussi en moyenne la plus proche de toutes les autres planètes, même de Neptune."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "la + proche de",
-     "size": "m",
-     "on": "aussi"
+      "say": [
+        "Mercure, elle, tourne tout près du Soleil, donc elle ne s'éloigne jamais vraiment beaucoup,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Mercure reste",
+          "size": "m",
+          "on": "Mercure"
+        },
+        {
+          "t": "text",
+          "text": "près du Soleil",
+          "size": "l",
+          "color": "pink",
+          "on": "tourne"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "toutes les planètes !",
-     "size": "l",
-     "color": "gold",
-     "on": "Neptune",
-     "under": true
+      "say": [
+        "en faisant la moyenne sur des années, c'est Mercure qui est la planète la plus proche de la Terre,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "en moyenne :",
+          "size": "m",
+          "on": "moyenne"
+        },
+        {
+          "t": "text",
+          "text": "Mercure gagne !",
+          "size": "xl",
+          "color": "pink",
+          "on": "plus proche",
+          "circle": true
+        }
+      ]
+    },
+    {
+      "say": [
+        "et en fait, elle est aussi en moyenne la plus proche de toutes les autres planètes, même de Neptune."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "la + proche de",
+          "size": "m",
+          "on": "aussi"
+        },
+        {
+          "t": "text",
+          "text": "toutes les planètes !",
+          "size": "l",
+          "color": "gold",
+          "on": "Neptune",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
     }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "En moyenne, la planète la plus proche de la Terre… c'est Mercure ☿️\n\nOn pense souvent que la planète la plus proche de la Terre est Vénus. C'est vrai au plus près : Vénus peut s'approcher à environ 40 millions de kilomètres. Mais elle passe aussi une bonne partie de son temps de l'autre côté du Soleil, à plus de 250 millions de kilomètres. En 2019, un article publié dans le magazine Physics Today a fait le calcul de la distance moyenne dans le temps : comme Mercure ne s'éloigne jamais beaucoup du Soleil, c'est elle qui est en moyenne la planète la plus proche de la Terre ! Et pour la même raison, Mercure est aussi, en moyenne, la plus proche de toutes les autres planètes, Neptune comprise. Sur la photo, Mercure.\n\nTu pensais que c'était Vénus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#mercure",
-  "#planetes",
-  "#systemesolaire",
-  "#astronomie",
-  "#universenbref"
- ],
- "sources": [
-  "https://science.nasa.gov/mercury/facts/",
-  "https://physicstoday.aip.org/"
- ]
+  ],
+  "caption": "En moyenne, la planète la plus proche de la Terre… c'est Mercure ☿️\n\nOn pense souvent que la planète la plus proche de la Terre est Vénus. C'est vrai au plus près : Vénus peut s'approcher à environ 40 millions de kilomètres. Mais elle passe aussi une bonne partie de son temps de l'autre côté du Soleil, à plus de 250 millions de kilomètres. En 2019, un article publié dans le magazine Physics Today a fait le calcul de la distance moyenne dans le temps : comme Mercure ne s'éloigne jamais beaucoup du Soleil, c'est elle qui est en moyenne la planète la plus proche de la Terre ! Et pour la même raison, Mercure est aussi, en moyenne, la plus proche de toutes les autres planètes, Neptune comprise. Sur la photo, Mercure.\n\nTu pensais que c'était Vénus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#mercure",
+    "#planetes",
+    "#systemesolaire",
+    "#astronomie",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://science.nasa.gov/mercury/facts/",
+    "https://physicstoday.aip.org/"
+  ],
+  "voix_plus_tard": true
 }

@@ -1,162 +1,163 @@
 {
- "format": "planche",
- "valide": true,
- "num": 352,
- "title": "Une seule sonde a visité Uranus et Neptune",
- "subject": "Voyager 2",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "neptune",
-   "file": "assets/images/neptune_voyager2.jpg",
-   "credit": "Neptune vue par Voyager 2 · NASA/JPL",
-   "page": "https://science.nasa.gov/neptune/facts/",
-   "license": "Domaine public (NASA)"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Une SEULE sonde",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "a visité",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "Uranus et Neptune ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
-  ]
- },
- "center": {
-  "tagline": {
-   "text": "la seule visiteuse",
-   "on": "sonde"
+  "format": "planche",
+  "valide": true,
+  "num": 352,
+  "title": "Une seule sonde a visité Uranus et Neptune",
+  "subject": "Voyager 2",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
   },
-  "photo": "neptune"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais qu'une seule sonde dans toute l'histoire a visité Uranus et Neptune ?"
-   ]
-  },
-  {
-   "say": [
-    "C'est Voyager deux, lancée en mille neuf cent soixante-dix-sept, qui a profité d'un alignement rare des planètes géantes,"
-   ],
-   "note": [
+  "images": [
     {
-     "t": "text",
-     "text": "Voyager 2",
-     "size": "xl",
-     "color": "pink",
-     "on": "Voyager"
+      "id": "neptune",
+      "file": "assets/images/neptune_voyager2.jpg",
+      "credit": "Neptune vue par Voyager 2 · NASA/JPL",
+      "page": "https://science.nasa.gov/neptune/facts/",
+      "license": "Domaine public (NASA)"
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Une SEULE sonde",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "a visité",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "Uranus et Neptune ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "la seule visiteuse",
+      "on": "sonde"
+    },
+    "photo": "neptune"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais qu'une seule sonde dans toute l'histoire a visité Uranus et Neptune ?"
+      ]
     },
     {
-     "t": "text",
-     "text": "un alignement rare",
-     "size": "m",
-     "color": "gold",
-     "on": "alignement"
+      "say": [
+        "C'est Voyager deux, lancée en mille neuf cent soixante-dix-sept, qui a profité d'un alignement rare des planètes géantes,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Voyager 2",
+          "size": "xl",
+          "color": "pink",
+          "on": "Voyager"
+        },
+        {
+          "t": "text",
+          "text": "un alignement rare",
+          "size": "m",
+          "color": "gold",
+          "on": "alignement"
+        },
+        {
+          "t": "sketch",
+          "kind": "rocket",
+          "on": "lancée",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
     },
     {
-     "t": "sketch",
-     "kind": "rocket",
-     "on": "lancée",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "elle a survolé Jupiter, Saturne, puis Uranus en mille neuf cent quatre-vingt-six, et Neptune en mille neuf cent quatre-vingt-neuf,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Uranus : 1986",
-     "size": "l",
-     "color": "gold",
-     "on": "quatre-vingt-six"
+      "say": [
+        "elle a survolé Jupiter, Saturne, puis Uranus en mille neuf cent quatre-vingt-six, et Neptune en mille neuf cent quatre-vingt-neuf,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Uranus : 1986",
+          "size": "l",
+          "color": "gold",
+          "on": "quatre-vingt-six"
+        },
+        {
+          "t": "text",
+          "text": "Neptune : 1989",
+          "size": "l",
+          "color": "pink",
+          "on": "quatre-vingt-neuf",
+          "circle": true
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "Neptune : 1989",
-     "size": "l",
-     "color": "pink",
-     "on": "quatre-vingt-neuf",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "presque tout ce qu'on sait de près sur ces deux planètes vient de ces deux survols rapides,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "tout ce qu'on sait",
-     "size": "m",
-     "on": "sait"
+      "say": [
+        "presque tout ce qu'on sait de près sur ces deux planètes vient de ces deux survols rapides,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "tout ce qu'on sait",
+          "size": "m",
+          "on": "sait"
+        },
+        {
+          "t": "text",
+          "text": "vient de 2 survols !",
+          "size": "l",
+          "color": "gold",
+          "on": "survols"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "vient de 2 survols !",
-     "size": "l",
-     "color": "gold",
-     "on": "survols"
-    }
-   ]
-  },
-  {
-   "say": [
-    "et depuis, aucune autre sonde n'y est jamais retournée."
-   ],
-   "note": [
+      "say": [
+        "et depuis, aucune autre sonde n'y est jamais retournée."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "aucune autre depuis",
+          "size": "l",
+          "color": "pink",
+          "on": "aucune",
+          "under": true
+        }
+      ]
+    },
     {
-     "t": "text",
-     "text": "aucune autre depuis",
-     "size": "l",
-     "color": "pink",
-     "on": "aucune",
-     "under": true
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
     }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Voyager 2, la seule sonde à avoir visité Uranus et Neptune 🔵\n\nLancée en août 1977, la sonde Voyager 2 de la NASA a profité d'un alignement exceptionnel des planètes géantes, qui ne se produit qu'environ tous les 175 ans, pour enchaîner les survols grâce à l'assistance gravitationnelle. Après Jupiter et Saturne, elle a survolé Uranus en janvier 1986, puis Neptune en août 1989. Elle a découvert de nouvelles lunes, des anneaux, et les vents les plus rapides du système solaire. Aujourd'hui encore, presque toutes nos images rapprochées de ces deux planètes viennent de ces deux survols : aucune autre sonde n'y est retournée ! Une mission vers Uranus est à l'étude. Sur la photo, Neptune vue par Voyager 2.\n\nTu crois qu'on y retournera bientôt ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#voyager2",
-  "#uranus",
-  "#neptune",
-  "#nasa",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Voyager_2",
-  "https://science.nasa.gov/mission/voyager/"
- ]
+  ],
+  "caption": "Voyager 2, la seule sonde à avoir visité Uranus et Neptune 🔵\n\nLancée en août 1977, la sonde Voyager 2 de la NASA a profité d'un alignement exceptionnel des planètes géantes, qui ne se produit qu'environ tous les 175 ans, pour enchaîner les survols grâce à l'assistance gravitationnelle. Après Jupiter et Saturne, elle a survolé Uranus en janvier 1986, puis Neptune en août 1989. Elle a découvert de nouvelles lunes, des anneaux, et les vents les plus rapides du système solaire. Aujourd'hui encore, presque toutes nos images rapprochées de ces deux planètes viennent de ces deux survols : aucune autre sonde n'y est retournée ! Une mission vers Uranus est à l'étude. Sur la photo, Neptune vue par Voyager 2.\n\nTu crois qu'on y retournera bientôt ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#voyager2",
+    "#uranus",
+    "#neptune",
+    "#nasa",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Voyager_2",
+    "https://science.nasa.gov/mission/voyager/"
+  ],
+  "voix_plus_tard": true
 }

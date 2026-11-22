@@ -1,167 +1,168 @@
 {
- "format": "planche",
- "valide": true,
- "num": 357,
- "title": "Les nuages les plus hauts du monde brillent la nuit",
- "subject": "Nuages",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "nuit",
-   "file": "assets/images/terre_nuit.jpg",
-   "credit": "La Terre la nuit · NASA (Black Marble)",
-   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
-   "license": "Domaine public (NASA)",
-   "pad": true
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Ces nuages",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "brillent",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "en pleine NUIT ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
-  ]
- },
- "center": {
-  "tagline": {
-   "text": "les nuages noctulescents",
-   "on": "nuages"
+  "format": "planche",
+  "valide": true,
+  "num": 357,
+  "title": "Les nuages les plus hauts du monde brillent la nuit",
+  "subject": "Nuages",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
   },
-  "photo": "nuit"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que certains nuages brillent dans le ciel, même après le coucher du soleil ?"
-   ]
-  },
-  {
-   "say": [
-    "On les appelle les nuages noctulescents, et ce sont les nuages les plus hauts de la Terre, vers quatre-vingts kilomètres d'altitude,"
-   ],
-   "note": [
+  "images": [
     {
-     "t": "text",
-     "text": "nuages noctulescents",
-     "size": "l",
-     "color": "pink",
-     "on": "noctulescents"
-    },
-    {
-     "t": "text",
-     "text": "~ 80 km d'altitude !",
-     "size": "l",
-     "color": "gold",
-     "on": "quatre-vingts",
-     "circle": true
-    },
-    {
-     "t": "sketch",
-     "kind": "clouds",
-     "on": "nuages",
-     "row": "same",
-     "scale": 0.5
+      "id": "nuit",
+      "file": "assets/images/terre_nuit.jpg",
+      "credit": "La Terre la nuit · NASA (Black Marble)",
+      "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+      "license": "Domaine public (NASA)",
+      "pad": true
     }
-   ]
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Ces nuages",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "brillent",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "en pleine NUIT ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
   },
-  {
-   "say": [
-    "ils sont si hauts qu'ils restent éclairés par le Soleil, alors que le sol est déjà dans la nuit,"
-   ],
-   "note": [
+  "center": {
+    "tagline": {
+      "text": "les nuages noctulescents",
+      "on": "nuages"
+    },
+    "photo": "nuit"
+  },
+  "scenes": [
     {
-     "t": "text",
-     "text": "encore au soleil",
-     "size": "m",
-     "on": "éclairés"
+      "say": [
+        "Tu savais que certains nuages brillent dans le ciel, même après le coucher du soleil ?"
+      ]
     },
     {
-     "t": "text",
-     "text": "quand le sol est dans la nuit",
-     "size": "l",
-     "on": "sol"
-    }
-   ]
-  },
-  {
-   "say": [
-    "ils sont faits de minuscules cristaux de glace, qui se forment parfois autour de poussières de météores,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "glace + poussières",
-     "size": "m",
-     "on": "cristaux"
+      "say": [
+        "On les appelle les nuages noctulescents, et ce sont les nuages les plus hauts de la Terre, vers quatre-vingts kilomètres d'altitude,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "nuages noctulescents",
+          "size": "l",
+          "color": "pink",
+          "on": "noctulescents"
+        },
+        {
+          "t": "text",
+          "text": "~ 80 km d'altitude !",
+          "size": "l",
+          "color": "gold",
+          "on": "quatre-vingts",
+          "circle": true
+        },
+        {
+          "t": "sketch",
+          "kind": "clouds",
+          "on": "nuages",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "de météores !",
-     "size": "l",
-     "color": "pink",
-     "on": "météores"
-    }
-   ]
-  },
-  {
-   "say": [
-    "on les voit surtout en été, dans le ciel du nord, avec une jolie couleur bleu électrique."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "en été, au nord",
-     "size": "m",
-     "on": "été"
+      "say": [
+        "ils sont si hauts qu'ils restent éclairés par le Soleil, alors que le sol est déjà dans la nuit,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "encore au soleil",
+          "size": "m",
+          "on": "éclairés"
+        },
+        {
+          "t": "text",
+          "text": "quand le sol est dans la nuit",
+          "size": "l",
+          "on": "sol"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "bleu électrique",
-     "size": "l",
-     "color": "gold",
-     "on": "bleu",
-     "under": true
+      "say": [
+        "ils sont faits de minuscules cristaux de glace, qui se forment parfois autour de poussières de météores,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "glace + poussières",
+          "size": "m",
+          "on": "cristaux"
+        },
+        {
+          "t": "text",
+          "text": "de météores !",
+          "size": "l",
+          "color": "pink",
+          "on": "météores"
+        }
+      ]
+    },
+    {
+      "say": [
+        "on les voit surtout en été, dans le ciel du nord, avec une jolie couleur bleu électrique."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "en été, au nord",
+          "size": "m",
+          "on": "été"
+        },
+        {
+          "t": "text",
+          "text": "bleu électrique",
+          "size": "l",
+          "color": "gold",
+          "on": "bleu",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
     }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Les nuages noctulescents, les plus hauts du monde, brillent la nuit ✨☁️\n\nLes nuages noctulescents (« qui brillent la nuit ») sont les nuages les plus élevés de la Terre : ils se forment dans la mésosphère, vers 80 à 85 km d'altitude, bien au-dessus des nuages ordinaires. Ils sont si hauts qu'ils restent éclairés par le Soleil alors que, au sol, il fait déjà nuit, ce qui leur donne une teinte bleu électrique. Ils sont composés de minuscules cristaux de glace qui se forment notamment autour de poussières laissées par les météores. On les observe surtout en été, aux latitudes moyennes et hautes, en regardant vers le nord, une à deux heures après le coucher du soleil. Sur l'image, un ciel nocturne.\n\nTu les as déjà vus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#nuages",
-  "#cielnocturne",
-  "#atmosphere",
-  "#science",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Nuage_noctulescent",
-  "https://science.nasa.gov/earth/"
- ]
+  ],
+  "caption": "Les nuages noctulescents, les plus hauts du monde, brillent la nuit ✨☁️\n\nLes nuages noctulescents (« qui brillent la nuit ») sont les nuages les plus élevés de la Terre : ils se forment dans la mésosphère, vers 80 à 85 km d'altitude, bien au-dessus des nuages ordinaires. Ils sont si hauts qu'ils restent éclairés par le Soleil alors que, au sol, il fait déjà nuit, ce qui leur donne une teinte bleu électrique. Ils sont composés de minuscules cristaux de glace qui se forment notamment autour de poussières laissées par les météores. On les observe surtout en été, aux latitudes moyennes et hautes, en regardant vers le nord, une à deux heures après le coucher du soleil. Sur l'image, un ciel nocturne.\n\nTu les as déjà vus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#nuages",
+    "#cielnocturne",
+    "#atmosphere",
+    "#science",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Nuage_noctulescent",
+    "https://science.nasa.gov/earth/"
+  ],
+  "voix_plus_tard": true
 }

@@ -1,160 +1,161 @@
 {
- "format": "planche",
- "valide": true,
- "num": 356,
- "title": "Des éclairs rouges jaillissent au-dessus des orages",
- "subject": "Sprites",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "terre",
-   "file": "assets/images/terre_apollo17.jpg",
-   "credit": "La Terre vue par Apollo 17 · NASA",
-   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
-   "license": "Domaine public (NASA)"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Des éclairs ROUGES",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "jaillissent",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "AU-DESSUS des orages ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
-  ]
- },
- "center": {
-  "tagline": {
-   "text": "les farfadets rouges",
-   "on": "éclairs"
+  "format": "planche",
+  "valide": true,
+  "num": 356,
+  "title": "Des éclairs rouges jaillissent au-dessus des orages",
+  "subject": "Sprites",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
   },
-  "photo": "terre"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que des éclairs rouges géants jaillissent parfois au-dessus des orages, vers l'espace ?"
-   ]
-  },
-  {
-   "say": [
-    "On les appelle des sprites, ou farfadets, des flashs rouges qui apparaissent très haut, entre cinquante et quatre-vingt-dix kilomètres d'altitude,"
-   ],
-   "note": [
+  "images": [
     {
-     "t": "text",
-     "text": "les sprites (farfadets)",
-     "size": "l",
-     "color": "pink",
-     "on": "sprites"
+      "id": "terre",
+      "file": "assets/images/terre_apollo17.jpg",
+      "credit": "La Terre vue par Apollo 17 · NASA",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+      "license": "Domaine public (NASA)"
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Des éclairs ROUGES",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "jaillissent",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "AU-DESSUS des orages ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "les farfadets rouges",
+      "on": "éclairs"
+    },
+    "photo": "terre"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que des éclairs rouges géants jaillissent parfois au-dessus des orages, vers l'espace ?"
+      ]
     },
     {
-     "t": "text",
-     "text": "~ 50 à 90 km d'altitude",
-     "size": "m",
-     "color": "gold",
-     "on": "cinquante"
+      "say": [
+        "On les appelle des sprites, ou farfadets, des flashs rouges qui apparaissent très haut, entre cinquante et quatre-vingt-dix kilomètres d'altitude,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "les sprites (farfadets)",
+          "size": "l",
+          "color": "pink",
+          "on": "sprites"
+        },
+        {
+          "t": "text",
+          "text": "~ 50 à 90 km d'altitude",
+          "size": "m",
+          "color": "gold",
+          "on": "cinquante"
+        },
+        {
+          "t": "sketch",
+          "kind": "clouds",
+          "on": "flashs",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
     },
     {
-     "t": "sketch",
-     "kind": "clouds",
-     "on": "flashs",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "ils ressemblent à des méduses ou à des carottes rouges, et ne durent que quelques millisecondes,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "des méduses rouges !",
-     "size": "l",
-     "color": "gold",
-     "on": "méduses",
-     "circle": true
+      "say": [
+        "ils ressemblent à des méduses ou à des carottes rouges, et ne durent que quelques millisecondes,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "des méduses rouges !",
+          "size": "l",
+          "color": "gold",
+          "on": "méduses",
+          "circle": true
+        },
+        {
+          "t": "text",
+          "text": "quelques ms",
+          "size": "m",
+          "on": "millisecondes"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "quelques ms",
-     "size": "m",
-     "on": "millisecondes"
-    }
-   ]
-  },
-  {
-   "say": [
-    "ils sont déclenchés par de très puissants éclairs entre le nuage et le sol,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "déclenchés par la foudre",
-     "size": "m",
-     "on": "déclenchés"
-    }
-   ]
-  },
-  {
-   "say": [
-    "longtemps considérés comme une légende de pilotes, ils ont été photographiés pour la première fois en mille neuf cent quatre-vingt-neuf, et les astronautes les voient depuis la Station spatiale."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "1re photo : 1989",
-     "size": "l",
-     "color": "pink",
-     "on": "quatre-vingt-neuf"
+      "say": [
+        "ils sont déclenchés par de très puissants éclairs entre le nuage et le sol,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "déclenchés par la foudre",
+          "size": "m",
+          "on": "déclenchés"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "vus depuis l'ISS !",
-     "size": "m",
-     "on": "Station",
-     "under": true
+      "say": [
+        "longtemps considérés comme une légende de pilotes, ils ont été photographiés pour la première fois en mille neuf cent quatre-vingt-neuf, et les astronautes les voient depuis la Station spatiale."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "1re photo : 1989",
+          "size": "l",
+          "color": "pink",
+          "on": "quatre-vingt-neuf"
+        },
+        {
+          "t": "text",
+          "text": "vus depuis l'ISS !",
+          "size": "m",
+          "on": "Station",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
     }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Les sprites, des éclairs rouges qui jaillissent au-dessus des orages ⚡🔴\n\nAu-dessus des gros orages, à des altitudes de 50 à 90 km, se produisent parfois de brefs flashs rouges géants : les sprites, ou « farfadets rouges ». Ils ressemblent à des méduses ou à des carottes lumineuses, peuvent s'étendre sur des dizaines de kilomètres et ne durent que quelques millisecondes. Ils sont déclenchés par des éclairs très puissants entre le nuage et le sol. Longtemps rapportés par des pilotes sans preuve, ils ont été photographiés pour la première fois en 1989, par hasard. Depuis, des astronautes, dont le Français Thomas Pesquet, les ont photographiés depuis la Station spatiale internationale. Sur la photo, la Terre.\n\nTu en avais déjà entendu parler ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#sprites",
-  "#orage",
-  "#foudre",
-  "#science",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Farfadet_(météorologie)",
-  "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration"
- ]
+  ],
+  "caption": "Les sprites, des éclairs rouges qui jaillissent au-dessus des orages ⚡🔴\n\nAu-dessus des gros orages, à des altitudes de 50 à 90 km, se produisent parfois de brefs flashs rouges géants : les sprites, ou « farfadets rouges ». Ils ressemblent à des méduses ou à des carottes lumineuses, peuvent s'étendre sur des dizaines de kilomètres et ne durent que quelques millisecondes. Ils sont déclenchés par des éclairs très puissants entre le nuage et le sol. Longtemps rapportés par des pilotes sans preuve, ils ont été photographiés pour la première fois en 1989, par hasard. Depuis, des astronautes, dont le Français Thomas Pesquet, les ont photographiés depuis la Station spatiale internationale. Sur la photo, la Terre.\n\nTu en avais déjà entendu parler ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#sprites",
+    "#orage",
+    "#foudre",
+    "#science",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Farfadet_(météorologie)",
+    "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration"
+  ],
+  "voix_plus_tard": true
 }

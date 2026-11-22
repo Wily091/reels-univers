@@ -1,154 +1,155 @@
 {
- "format": "planche",
- "valide": true,
- "num": 353,
- "title": "Il y a aussi des aurores sur Mars",
- "subject": "Mars",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "mars",
-   "file": "assets/images/mars_rosetta.jpg",
-   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
-   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
-   "license": "CC BY-SA 3.0 IGO"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Il y a des aurores",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "sur",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "MARS ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
-  ]
- },
- "center": {
-  "tagline": {
-   "text": "des aurores martiennes",
-   "on": "aurores"
+  "format": "planche",
+  "valide": true,
+  "num": 353,
+  "title": "Il y a aussi des aurores sur Mars",
+  "subject": "Mars",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
   },
-  "photo": "mars"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais qu'il y a aussi des aurores sur Mars ?"
-   ]
-  },
-  {
-   "say": [
-    "Sur Terre, les aurores apparaissent surtout près des pôles, guidées par notre champ magnétique global,"
-   ],
-   "note": [
+  "images": [
     {
-     "t": "text",
-     "text": "sur Terre : aux pôles",
-     "size": "l",
-     "color": "gold",
-     "on": "pôles"
+      "id": "mars",
+      "file": "assets/images/mars_rosetta.jpg",
+      "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+      "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+      "license": "CC BY-SA 3.0 IGO"
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Il y a des aurores",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "sur",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "MARS ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "des aurores martiennes",
+      "on": "aurores"
+    },
+    "photo": "mars"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais qu'il y a aussi des aurores sur Mars ?"
+      ]
     },
     {
-     "t": "sketch",
-     "kind": "wave",
-     "on": "aurores",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "Mars n'a plus de champ magnétique global, seulement des restes dans certaines roches,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Mars : pas de bouclier global",
-     "size": "m",
-     "on": "global,"
+      "say": [
+        "Sur Terre, les aurores apparaissent surtout près des pôles, guidées par notre champ magnétique global,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "sur Terre : aux pôles",
+          "size": "l",
+          "color": "gold",
+          "on": "pôles"
+        },
+        {
+          "t": "sketch",
+          "kind": "wave",
+          "on": "aurores",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "juste des restes",
-     "size": "l",
-     "color": "pink",
-     "on": "restes"
-    }
-   ]
-  },
-  {
-   "say": [
-    "du coup, ses aurores peuvent apparaître un peu partout, et parfois sur toute la planète à la fois,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "des aurores partout !",
-     "size": "l",
-     "color": "gold",
-     "on": "partout",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "en deux mille vingt-quatre, le rover Perseverance a même photographié une aurore depuis le sol martien, une première."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "2024 : Perseverance",
-     "size": "m",
-     "on": "Perseverance"
+      "say": [
+        "Mars n'a plus de champ magnétique global, seulement des restes dans certaines roches,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Mars : pas de bouclier global",
+          "size": "m",
+          "on": "global,"
+        },
+        {
+          "t": "text",
+          "text": "juste des restes",
+          "size": "l",
+          "color": "pink",
+          "on": "restes"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "photo depuis le sol !",
-     "size": "l",
-     "color": "pink",
-     "on": "sol",
-     "under": true
+      "say": [
+        "du coup, ses aurores peuvent apparaître un peu partout, et parfois sur toute la planète à la fois,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "des aurores partout !",
+          "size": "l",
+          "color": "gold",
+          "on": "partout",
+          "circle": true
+        }
+      ]
+    },
+    {
+      "say": [
+        "en deux mille vingt-quatre, le rover Perseverance a même photographié une aurore depuis le sol martien, une première."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "2024 : Perseverance",
+          "size": "m",
+          "on": "Perseverance"
+        },
+        {
+          "t": "text",
+          "text": "photo depuis le sol !",
+          "size": "l",
+          "color": "pink",
+          "on": "sol",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
     }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Il y a aussi des aurores sur Mars 🌌🔴\n\nComme sur Terre, des aurores se produisent sur Mars lorsque des particules venues du Soleil frappent son atmosphère. Mais Mars n'a plus de champ magnétique global depuis des milliards d'années : il n'en reste que des traces figées dans certaines roches de sa croûte. Ses aurores ne se concentrent donc pas aux pôles : elles peuvent apparaître un peu partout, et parfois envelopper toute la planète. Plusieurs sondes en orbite, comme MAVEN de la NASA et Hope des Émirats arabes unis, les ont observées en ultraviolet. En 2024, le rover Perseverance a même photographié pour la première fois une aurore visible depuis la surface martienne ! Sur la photo, Mars.\n\nTu aimerais voir une aurore martienne ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#mars",
-  "#aurores",
-  "#perseverance",
-  "#nasa",
-  "#universenbref"
- ],
- "sources": [
-  "https://science.nasa.gov/mars/",
-  "https://science.nasa.gov/mission/maven/"
- ]
+  ],
+  "caption": "Il y a aussi des aurores sur Mars 🌌🔴\n\nComme sur Terre, des aurores se produisent sur Mars lorsque des particules venues du Soleil frappent son atmosphère. Mais Mars n'a plus de champ magnétique global depuis des milliards d'années : il n'en reste que des traces figées dans certaines roches de sa croûte. Ses aurores ne se concentrent donc pas aux pôles : elles peuvent apparaître un peu partout, et parfois envelopper toute la planète. Plusieurs sondes en orbite, comme MAVEN de la NASA et Hope des Émirats arabes unis, les ont observées en ultraviolet. En 2024, le rover Perseverance a même photographié pour la première fois une aurore visible depuis la surface martienne ! Sur la photo, Mars.\n\nTu aimerais voir une aurore martienne ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#mars",
+    "#aurores",
+    "#perseverance",
+    "#nasa",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://science.nasa.gov/mars/",
+    "https://science.nasa.gov/mission/maven/"
+  ],
+  "voix_plus_tard": true
 }

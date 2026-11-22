@@ -1,153 +1,154 @@
 {
- "format": "planche",
- "valide": true,
- "num": 360,
- "title": "Le carbone 14 qui sert à dater les fossiles vient de l'espace",
- "subject": "Carbone 14",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "terre",
-   "file": "assets/images/terre_apollo17.jpg",
-   "credit": "La Terre vue par Apollo 17 · NASA",
-   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
-   "license": "Domaine public (NASA)"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Ce qui sert à dater",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "les fossiles",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "vient de l'ESPACE ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
-  ]
- },
- "center": {
-  "tagline": {
-   "text": "le carbone 14",
-   "on": "dater"
+  "format": "planche",
+  "valide": true,
+  "num": 360,
+  "title": "Le carbone 14 qui sert à dater les fossiles vient de l'espace",
+  "subject": "Carbone 14",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
   },
-  "photo": "terre"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que le carbone quatorze, utilisé pour dater les vieux objets, est fabriqué grâce à des particules venues de l'espace ?"
-   ]
-  },
-  {
-   "say": [
-    "Des particules très énergétiques, les rayons cosmiques, frappent sans cesse le haut de notre atmosphère,"
-   ],
-   "note": [
+  "images": [
     {
-     "t": "text",
-     "text": "les rayons cosmiques",
-     "size": "l",
-     "color": "pink",
-     "on": "rayons cosmiques"
+      "id": "terre",
+      "file": "assets/images/terre_apollo17.jpg",
+      "credit": "La Terre vue par Apollo 17 · NASA",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+      "license": "Domaine public (NASA)"
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Ce qui sert à dater",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "les fossiles",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "vient de l'ESPACE ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "le carbone 14",
+      "on": "dater"
+    },
+    "photo": "terre"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que le carbone quatorze, utilisé pour dater les vieux objets, est fabriqué grâce à des particules venues de l'espace ?"
+      ]
     },
     {
-     "t": "sketch",
-     "kind": "ray",
-     "on": "frappent",
-     "row": "same",
-     "scale": 0.5
-    }
-   ]
-  },
-  {
-   "say": [
-    "en percutant l'azote de l'air, ils fabriquent du carbone quatorze, un carbone légèrement radioactif,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "azote → carbone 14",
-     "size": "l",
-     "color": "gold",
-     "on": "azote",
-     "circle": true
-    }
-   ]
-  },
-  {
-   "say": [
-    "les plantes et les animaux en absorbent toute leur vie, puis à leur mort, il disparaît lentement, à un rythme connu,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "absorbé toute la vie",
-     "size": "m",
-     "on": "absorbent"
+      "say": [
+        "Des particules très énergétiques, les rayons cosmiques, frappent sans cesse le haut de notre atmosphère,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "les rayons cosmiques",
+          "size": "l",
+          "color": "pink",
+          "on": "rayons cosmiques"
+        },
+        {
+          "t": "sketch",
+          "kind": "ray",
+          "on": "frappent",
+          "row": "same",
+          "scale": 0.5
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "puis il disparaît lentement",
-     "size": "l",
-     "on": "disparaît"
-    }
-   ]
-  },
-  {
-   "say": [
-    "en mesurant ce qu'il en reste, on peut dater des os, du bois ou des tissus vieux de plusieurs dizaines de milliers d'années."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "dater jusqu'à",
-     "size": "m",
-     "on": "dater"
+      "say": [
+        "en percutant l'azote de l'air, ils fabriquent du carbone quatorze, un carbone légèrement radioactif,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "azote → carbone 14",
+          "size": "l",
+          "color": "gold",
+          "on": "azote",
+          "circle": true
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "~ 50 000 ans !",
-     "size": "l",
-     "color": "pink",
-     "on": "dizaines",
-     "under": true
+      "say": [
+        "les plantes et les animaux en absorbent toute leur vie, puis à leur mort, il disparaît lentement, à un rythme connu,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "absorbé toute la vie",
+          "size": "m",
+          "on": "absorbent"
+        },
+        {
+          "t": "text",
+          "text": "puis il disparaît lentement",
+          "size": "l",
+          "on": "disparaît"
+        }
+      ]
+    },
+    {
+      "say": [
+        "en mesurant ce qu'il en reste, on peut dater des os, du bois ou des tissus vieux de plusieurs dizaines de milliers d'années."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "dater jusqu'à",
+          "size": "m",
+          "on": "dater"
+        },
+        {
+          "t": "text",
+          "text": "~ 50 000 ans !",
+          "size": "l",
+          "color": "pink",
+          "on": "dizaines",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
     }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Le carbone 14, qui sert à dater les fossiles, est fabriqué grâce à l'espace 🦴✨\n\nLe carbone 14, utilisé par les archéologues pour dater des objets anciens, a une origine cosmique ! Il se forme en haute atmosphère, quand des neutrons produits par les rayons cosmiques, des particules très énergétiques venues de l'espace, percutent des atomes d'azote. Ce carbone légèrement radioactif se mélange au dioxyde de carbone de l'air, et tous les êtres vivants en absorbent tant qu'ils vivent. À leur mort, il se désintègre lentement : sa quantité diminue de moitié environ tous les 5 700 ans. En mesurant ce qu'il en reste, on peut dater des os, du bois ou des tissus jusqu'à environ 50 000 ans. Sur la photo, la Terre.\n\nTu savais que l'espace servait à l'archéologie ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#carbone14",
-  "#datation",
-  "#rayonscosmiques",
-  "#science",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Datation_par_le_carbone_14",
-  "https://fr.wikipedia.org/wiki/Rayon_cosmique"
- ]
+  ],
+  "caption": "Le carbone 14, qui sert à dater les fossiles, est fabriqué grâce à l'espace 🦴✨\n\nLe carbone 14, utilisé par les archéologues pour dater des objets anciens, a une origine cosmique ! Il se forme en haute atmosphère, quand des neutrons produits par les rayons cosmiques, des particules très énergétiques venues de l'espace, percutent des atomes d'azote. Ce carbone légèrement radioactif se mélange au dioxyde de carbone de l'air, et tous les êtres vivants en absorbent tant qu'ils vivent. À leur mort, il se désintègre lentement : sa quantité diminue de moitié environ tous les 5 700 ans. En mesurant ce qu'il en reste, on peut dater des os, du bois ou des tissus jusqu'à environ 50 000 ans. Sur la photo, la Terre.\n\nTu savais que l'espace servait à l'archéologie ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#carbone14",
+    "#datation",
+    "#rayonscosmiques",
+    "#science",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Datation_par_le_carbone_14",
+    "https://fr.wikipedia.org/wiki/Rayon_cosmique"
+  ],
+  "voix_plus_tard": true
 }

@@ -77,4 +77,5 @@ Les agents (publication, montage) se parlent dans **`equipe/DISCUSSION.md`** (r�
 - Chaque chiffre/affirmation vérifié sur une source fiable (NASA, ESA, ESO, CNES, IAU…), URL dans `sources`. Photos : `tools/IMAGES.json` puis push.
 - `"valide": false` tant que William n'a pas validé le texte. **Toujours lui montrer les textes avant de générer les voix.**
 - Contrôle gratuit : `bash engine/build.sh backlog/<NNN-slug> --mock` (texte, photos, mise en page, anti-chevauchement) puis regarder `build/preview.jpg`.
+- `"voix_plus_tard": true` dans un épisode = écrit et validé, mais voix volontairement différée (budget ElevenLabs) : le workflow le saute. Pour le débloquer, retirer ce champ puis relancer les voix.
 - Générer les voix (consomme des crédits, épisodes validés uniquement) : modifier `backlog/GENERER_VOIX.txt` (ex. y écrire la date) et pousser.

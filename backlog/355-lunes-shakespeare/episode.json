@@ -1,159 +1,160 @@
 {
- "format": "planche",
- "valide": true,
- "num": 354,
- "title": "Les lunes d'Uranus portent des noms de personnages de Shakespeare",
- "subject": "Uranus",
- "voice": {
-  "id": "TojRWZatQyy9dujEdiQ1",
-  "model": "eleven_multilingual_v2",
-  "tempo": 1.1,
-  "api_speed": 1.1
- },
- "images": [
-  {
-   "id": "uranus",
-   "file": "assets/images/uranus_voyager2.jpg",
-   "credit": "Uranus vue par Voyager 2 · NASA/JPL-Caltech",
-   "page": "https://science.nasa.gov/uranus/facts/",
-   "license": "Domaine public (NASA)"
-  }
- ],
- "hook": {
-  "until": 3.0,
-  "top": 200,
-  "lines": [
-   {
-    "text": "Les lunes d'Uranus",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "s'appellent comme",
-    "size": 118,
-    "color": "ink"
-   },
-   {
-    "text": "des personnages de THÉÂTRE ?!",
-    "size": 170,
-    "color": "pink",
-    "under": true,
-    "underColor": "gold"
-   }
-  ]
- },
- "center": {
-  "tagline": {
-   "text": "des lunes littéraires",
-   "on": "lunes"
+  "format": "planche",
+  "valide": true,
+  "num": 354,
+  "title": "Les lunes d'Uranus portent des noms de personnages de Shakespeare",
+  "subject": "Uranus",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
   },
-  "photo": "uranus"
- },
- "scenes": [
-  {
-   "say": [
-    "Tu savais que les lunes d'Uranus portent des noms de personnages de théâtre ?"
-   ]
-  },
-  {
-   "say": [
-    "La plupart des lunes du système solaire ont des noms de la mythologie grecque ou romaine,"
-   ],
-   "note": [
+  "images": [
     {
-     "t": "text",
-     "text": "d'habitude :",
-     "size": "m",
-     "on": "plupart"
+      "id": "uranus",
+      "file": "assets/images/uranus_voyager2.jpg",
+      "credit": "Uranus vue par Voyager 2 · NASA/JPL-Caltech",
+      "page": "https://science.nasa.gov/uranus/facts/",
+      "license": "Domaine public (NASA)"
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Les lunes d'Uranus",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "s'appellent comme",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "des personnages de THÉÂTRE ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "tagline": {
+      "text": "des lunes littéraires",
+      "on": "lunes"
+    },
+    "photo": "uranus"
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais que les lunes d'Uranus portent des noms de personnages de théâtre ?"
+      ]
     },
     {
-     "t": "text",
-     "text": "la mythologie",
-     "size": "l",
-     "color": "gold",
-     "on": "mythologie"
-    }
-   ]
-  },
-  {
-   "say": [
-    "mais celles d'Uranus portent surtout des noms de personnages de Shakespeare, et quelques-uns d'Alexander Pope,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Shakespeare !",
-     "size": "xl",
-     "color": "pink",
-     "on": "Shakespeare",
-     "circle": true
+      "say": [
+        "La plupart des lunes du système solaire ont des noms de la mythologie grecque ou romaine,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "d'habitude :",
+          "size": "m",
+          "on": "plupart"
+        },
+        {
+          "t": "text",
+          "text": "la mythologie",
+          "size": "l",
+          "color": "gold",
+          "on": "mythologie"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "+ Alexander Pope",
-     "size": "m",
-     "on": "Pope"
-    }
-   ]
-  },
-  {
-   "say": [
-    "il y a Titania et Obéron, du Songe d'une nuit d'été, Miranda et Ariel, de La Tempête, ou encore Juliette,"
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "Titania, Obéron",
-     "size": "l",
-     "color": "gold",
-     "on": "Titania"
+      "say": [
+        "mais celles d'Uranus portent surtout des noms de personnages de Shakespeare, et quelques-uns d'Alexander Pope,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Shakespeare !",
+          "size": "xl",
+          "color": "pink",
+          "on": "Shakespeare",
+          "circle": true
+        },
+        {
+          "t": "text",
+          "text": "+ Alexander Pope",
+          "size": "m",
+          "on": "Pope"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "Miranda, Ariel, Juliette…",
-     "size": "m",
-     "on": "Juliette"
-    }
-   ]
-  },
-  {
-   "say": [
-    "cette tradition a été lancée au dix-neuvième siècle par John Herschel, le fils de l'astronome qui avait découvert Uranus."
-   ],
-   "note": [
-    {
-     "t": "text",
-     "text": "une idée de",
-     "size": "m",
-     "on": "tradition"
+      "say": [
+        "il y a Titania et Obéron, du Songe d'une nuit d'été, Miranda et Ariel, de La Tempête, ou encore Juliette,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "Titania, Obéron",
+          "size": "l",
+          "color": "gold",
+          "on": "Titania"
+        },
+        {
+          "t": "text",
+          "text": "Miranda, Ariel, Juliette…",
+          "size": "m",
+          "on": "Juliette"
+        }
+      ]
     },
     {
-     "t": "text",
-     "text": "John Herschel",
-     "size": "l",
-     "color": "pink",
-     "on": "John",
-     "under": true
+      "say": [
+        "cette tradition a été lancée au dix-neuvième siècle par John Herschel, le fils de l'astronome qui avait découvert Uranus."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "une idée de",
+          "size": "m",
+          "on": "tradition"
+        },
+        {
+          "t": "text",
+          "text": "John Herschel",
+          "size": "l",
+          "color": "pink",
+          "on": "John",
+          "under": true
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
     }
-   ]
-  },
-  {
-   "fin": true,
-   "say": [
-    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
-   ]
-  }
- ],
- "caption": "Les lunes d'Uranus portent des noms de personnages de Shakespeare 🎭\n\nLa plupart des lunes du système solaire portent des noms issus de la mythologie grecque et romaine. Uranus fait exception : ses lunes sont nommées d'après des personnages des pièces de William Shakespeare et du poème « La Boucle de cheveux enlevée » d'Alexander Pope. On y trouve Titania et Obéron, le roi et la reine des fées du « Songe d'une nuit d'été », Miranda et Ariel de « La Tempête », mais aussi Juliette, Desdémone, Ophélie ou Puck. Cette tradition a été lancée au XIXe siècle par John Herschel, fils de William Herschel, qui avait découvert Uranus en 1781 et ses deux plus grandes lunes. Sur la photo, Uranus vue par Voyager 2.\n\nTu en connais, des pièces de Shakespeare ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
- "hashtags": [
-  "#uranus",
-  "#lunes",
-  "#shakespeare",
-  "#astronomie",
-  "#universenbref"
- ],
- "sources": [
-  "https://fr.wikipedia.org/wiki/Satellites_naturels_d'Uranus",
-  "https://science.nasa.gov/uranus/moons/"
- ]
+  ],
+  "caption": "Les lunes d'Uranus portent des noms de personnages de Shakespeare 🎭\n\nLa plupart des lunes du système solaire portent des noms issus de la mythologie grecque et romaine. Uranus fait exception : ses lunes sont nommées d'après des personnages des pièces de William Shakespeare et du poème « La Boucle de cheveux enlevée » d'Alexander Pope. On y trouve Titania et Obéron, le roi et la reine des fées du « Songe d'une nuit d'été », Miranda et Ariel de « La Tempête », mais aussi Juliette, Desdémone, Ophélie ou Puck. Cette tradition a été lancée au XIXe siècle par John Herschel, fils de William Herschel, qui avait découvert Uranus en 1781 et ses deux plus grandes lunes. Sur la photo, Uranus vue par Voyager 2.\n\nTu en connais, des pièces de Shakespeare ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#uranus",
+    "#lunes",
+    "#shakespeare",
+    "#astronomie",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Satellites_naturels_d'Uranus",
+    "https://science.nasa.gov/uranus/moons/"
+  ],
+  "voix_plus_tard": true
 }
