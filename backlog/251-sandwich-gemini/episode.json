@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 250,
+ "title": "Un astronaute a fait passer un sandwich en douce dans l'espace",
+ "subject": "Gemini 3",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un astronaute",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a emporté un sandwich",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "en CACHETTE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un sandwich clandestin",
+   "on": "sandwich"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un astronaute a emporté un sandwich en cachette dans l'espace ?"
+   ]
+  },
+  {
+   "say": [
+    "Le vingt-trois mars mille neuf cent soixante-cinq, pendant la mission Gemini trois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "23 mars 1965",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-trois"
+    },
+    {
+     "t": "text",
+     "text": "Gemini 3",
+     "size": "l",
+     "color": "pink",
+     "on": "Gemini"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "mission",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'astronaute John Young sort de sa poche un sandwich au corned-beef, acheté dans une sandwicherie de Floride,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "John Young",
+     "size": "l",
+     "on": "Young"
+    },
+    {
+     "t": "text",
+     "text": "un sandwich au corned-beef !",
+     "size": "m",
+     "color": "gold",
+     "on": "corned-beef",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "problème, en apesanteur, les miettes s'envolent et pourraient abîmer les instruments,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les miettes flottent…",
+     "size": "l",
+     "color": "pink",
+     "on": "miettes"
+    },
+    {
+     "t": "text",
+     "text": "danger pour l'électronique",
+     "size": "m",
+     "on": "instruments"
+    }
+   ]
+  },
+  {
+   "say": [
+    "l'histoire a fait tellement de bruit qu'elle a été évoquée devant le Congrès américain."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'affaire est arrivée",
+     "size": "m",
+     "on": "évoquée"
+    },
+    {
+     "t": "text",
+     "text": "au Congrès !",
+     "size": "l",
+     "color": "gold",
+     "on": "Congrès",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1965, un astronaute a emporté un sandwich en cachette dans l'espace 🥪\n\nLe 23 mars 1965, lors de la mission Gemini 3, le premier vol habité à deux de la NASA, l'astronaute John Young a surpris son coéquipier Gus Grissom en sortant de sa poche un sandwich au corned-beef, acheté dans une sandwicherie de Floride. Grissom en prend une bouchée, mais les miettes commencent à flotter dans la cabine : en apesanteur, elles auraient pu se glisser dans les instruments. L'anecdote a fait grand bruit et a même été évoquée devant le Congrès américain ! Depuis, la nourriture des astronautes est conçue pour éviter les miettes. Une anecdote savoureuse de la conquête spatiale.\n\nTu aurais emporté quoi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#gemini",
+  "#nasa",
+  "#histoire",
+  "#insolite",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Gemini_3",
+  "https://fr.wikipedia.org/wiki/John_Young_(astronaute)"
+ ]
+}

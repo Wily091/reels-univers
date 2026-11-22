@@ -1,0 +1,174 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 257,
+ "title": "La sonde qui a survécu 2 heures sur Vénus",
+ "subject": "Venera 13",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde a survécu",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "2 heures",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur VÉNUS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un exploit infernal",
+   "on": "sonde"
+  },
+  "photo": "venus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde soviétique a réussi à survivre plus de deux heures à la surface de Vénus ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelait Venera treize, et elle s'est posée sur Vénus le premier mars mille neuf cent quatre-vingt-deux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Venera 13",
+     "size": "xl",
+     "color": "pink",
+     "on": "Venera"
+    },
+    {
+     "t": "text",
+     "text": "1er mars 1982",
+     "size": "l",
+     "color": "gold",
+     "on": "premier mars"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "posée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "là-bas, il fait plus de quatre cent cinquante degrés, avec une pression quatre-vingt-dix fois plus forte que sur Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 450 °C",
+     "size": "l",
+     "color": "pink",
+     "on": "cinquante degrés"
+    },
+    {
+     "t": "text",
+     "text": "pression × 90 !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-dix",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle était prévue pour tenir trente-deux minutes, mais elle a fonctionné cent vingt-sept minutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "prévue : 32 min",
+     "size": "m",
+     "on": "trente-deux"
+    },
+    {
+     "t": "text",
+     "text": "réalité : 127 min !",
+     "size": "l",
+     "color": "pink",
+     "on": "cent vingt-sept"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle a envoyé les premières photos en couleur de la surface de Vénus."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les 1res photos couleur",
+     "size": "l",
+     "color": "gold",
+     "on": "couleur"
+    },
+    {
+     "t": "text",
+     "text": "du sol de Vénus",
+     "size": "m",
+     "on": "surface",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Venera 13 a survécu 127 minutes sur Vénus et envoyé les premières photos couleur 📸\n\nLe 1er mars 1982, la sonde soviétique Venera 13 se pose à la surface de Vénus, l'un des environnements les plus hostiles du système solaire : plus de 450 °C et une pression environ 90 fois supérieure à celle de la Terre, comme à 900 mètres sous la mer. Conçue pour survivre 32 minutes, elle a tenu 127 minutes ! Pendant ce temps, elle a envoyé les premières photographies en couleur de la surface vénusienne, analysé le sol, et enregistré des sons. Aucune sonde n'a fait mieux depuis. Sur la photo, Vénus. Un exploit de l'exploration spatiale.\n\nTu aurais parié sur combien de temps ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#venera",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Venera_13",
+  "https://science.nasa.gov/venus/facts/"
+ ]
+}

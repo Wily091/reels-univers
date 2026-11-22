@@ -1,0 +1,173 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 256,
+ "title": "Sur Vénus, il pleut de l'acide… qui n'atteint jamais le sol",
+ "subject": "Vénus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur Vénus,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il pleut",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de l'ACIDE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une pluie d'acide",
+   "on": "pleut"
+  },
+  "photo": "venus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur Vénus, il pleut de l'acide, mais que pas une goutte ne touche le sol ?"
+   ]
+  },
+  {
+   "say": [
+    "Vénus est enveloppée d'épais nuages d'acide sulfurique, très corrosif,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des nuages",
+     "size": "m",
+     "on": "nuages"
+    },
+    {
+     "t": "text",
+     "text": "d'acide sulfurique !",
+     "size": "l",
+     "color": "pink",
+     "on": "acide",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "enveloppée",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "de ces nuages tombent des gouttes d'acide, une vraie pluie acide,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une pluie acide",
+     "size": "l",
+     "color": "gold",
+     "on": "pluie"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais plus bas, il fait si chaud, plus de quatre cents degrés, que les gouttes s'évaporent en route,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 400 °C en bas",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre cents"
+    },
+    {
+     "t": "text",
+     "text": "elles s'évaporent !",
+     "size": "m",
+     "on": "évaporent"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "chaud",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, il pleut tout le temps sur Vénus, mais son sol reste parfaitement sec."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il pleut sans cesse…",
+     "size": "m",
+     "on": "tout le temps"
+    },
+    {
+     "t": "text",
+     "text": "mais le sol est sec !",
+     "size": "l",
+     "color": "gold",
+     "on": "sec",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Vénus, il pleut de l'acide… mais pas une goutte ne touche le sol ☔\n\nVénus est recouverte d'une épaisse couche de nuages composés en grande partie de gouttelettes d'acide sulfurique. De ces nuages tombe une véritable pluie d'acide ! Mais en descendant, les gouttes traversent une atmosphère de plus en plus chaude : près de la surface, la température dépasse les 450 °C. Elles s'évaporent donc bien avant d'atteindre le sol, un phénomène appelé virga. Résultat : il « pleut » en permanence dans le ciel de Vénus, mais sa surface reste parfaitement sèche. Plusieurs futures missions, comme EnVision de l'ESA ou DAVINCI et VERITAS de la NASA, doivent étudier cette planète infernale. Sur la photo, Vénus.\n\nTu trouves Vénus accueillante ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#pluieacide",
+  "#planete",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/venus/facts/",
+  "https://fr.wikipedia.org/wiki/Atmosphère_de_Vénus"
+ ]
+}

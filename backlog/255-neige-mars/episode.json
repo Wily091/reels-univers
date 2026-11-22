@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 254,
+ "title": "Il neige sur Mars, parfois de la glace carbonique",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Il neige",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur Mars…",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la GLACE SÈCHE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "de la neige martienne",
+   "on": "neige"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il neige sur Mars, et que parfois, ce n'est même pas de la neige d'eau ?"
+   ]
+  },
+  {
+   "say": [
+    "En deux mille huit, la sonde Phoenix a vu de la neige d'eau tomber des nuages martiens, mais elle s'évaporait avant de toucher le sol,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2008 : Phoenix",
+     "size": "l",
+     "color": "gold",
+     "on": "Phoenix"
+    },
+    {
+     "t": "text",
+     "text": "neige d'eau qui s'évapore",
+     "size": "m",
+     "on": "évaporait"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "nuages",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et près des pôles, en hiver, il tombe aussi de la neige de dioxyde de carbone gelé, de la glace carbonique,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "de la glace carbonique !",
+     "size": "l",
+     "color": "pink",
+     "on": "glace carbonique",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "la même que la glace sèche qu'on utilise sur Terre pour faire de la fumée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "= la glace sèche",
+     "size": "l",
+     "on": "glace sèche"
+    },
+    {
+     "t": "text",
+     "text": "des effets de fumée",
+     "size": "m",
+     "color": "gold",
+     "on": "fumée"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il y fait tellement froid, environ moins cent vingt-cinq degrés, que l'air lui-même gèle."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ −125 °C",
+     "size": "xl",
+     "color": "pink",
+     "on": "moins cent",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "froid",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il neige sur Mars… parfois de la glace carbonique ❄️\n\nSur Mars, il neige, mais pas comme chez nous ! En 2008, la sonde Phoenix de la NASA a observé de la neige d'eau tomber de nuages martiens, mais elle se sublimait avant d'atteindre le sol. Près des pôles, en hiver, il fait si froid, autour de −125 °C, que le dioxyde de carbone de l'atmosphère gèle à son tour : il tombe alors de la neige de glace carbonique, la même « glace sèche » qu'on utilise sur Terre pour créer des effets de fumée. La sonde Mars Reconnaissance Orbiter a détecté ces chutes de neige carbonique. Chaque hiver, une partie de l'atmosphère de Mars se dépose ainsi aux pôles. Sur la photo, Mars.\n\nTu imagines un bonhomme de neige sur Mars ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#neige",
+  "#nasa",
+  "#planete",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mars/facts/",
+  "https://fr.wikipedia.org/wiki/Phoenix_(sonde_spatiale)"
+ ]
+}

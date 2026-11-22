@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 253,
+ "title": "Dans l'espace, roter est une très mauvaise idée",
+ "subject": "Apesanteur",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "roter est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une MAUVAISE idée ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le rot spatial",
+   "on": "roter"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que dans l'espace, roter est une très mauvaise idée ?"
+   ]
+  },
+  {
+   "say": [
+    "Sur Terre, quand on boit une boisson gazeuse, les bulles montent en haut de l'estomac, et le liquide reste en bas,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre :",
+     "size": "m",
+     "on": "Terre"
+    },
+    {
+     "t": "text",
+     "text": "le gaz monte, le liquide reste",
+     "size": "l",
+     "color": "gold",
+     "on": "bulles"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en apesanteur, il n'y a ni haut ni bas, donc le gaz et la nourriture restent mélangés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en apesanteur :",
+     "size": "m",
+     "on": "apesanteur"
+    },
+    {
+     "t": "text",
+     "text": "tout est mélangé !",
+     "size": "l",
+     "color": "pink",
+     "on": "mélangés",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, si un astronaute rote, il risque de faire remonter un peu de son repas avec,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un rot…",
+     "size": "l",
+     "on": "rote"
+    },
+    {
+     "t": "text",
+     "text": "pas très propre !",
+     "size": "m",
+     "color": "gold",
+     "on": "repas"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est pour ça qu'il n'y a pas de sodas à bord de la Station spatiale."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas de sodas",
+     "size": "l",
+     "color": "pink",
+     "on": "sodas"
+    },
+    {
+     "t": "text",
+     "text": "à bord de l'ISS !",
+     "size": "m",
+     "on": "Station",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans l'espace, roter est une très mauvaise idée 🤢\n\nSur Terre, quand on avale de l'air ou une boisson gazeuse, la gravité sépare les choses : les gaz remontent en haut de l'estomac, les liquides et aliments restent en bas, et un rot ne laisse s'échapper que de l'air. En apesanteur, plus de haut ni de bas : gaz, liquides et nourriture restent mélangés. Un astronaute qui rote risque donc de faire remonter un peu de son repas avec, un phénomène surnommé le « rot mouillé » ! C'est l'une des raisons pour lesquelles les boissons gazeuses ne font pas partie des menus habituels de la Station spatiale internationale. Sur la photo, l'ISS.\n\nTu savais ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#astronaute",
+  "#apesanteur",
+  "#insolite",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/",
+  "https://en.wikipedia.org/wiki/Space_food"
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 258,
+ "title": "Mercure porte une cicatrice de 1 500 km",
+ "subject": "Mercure",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mercure",
+   "file": "assets/images/mercure_messenger.jpg",
+   "credit": "Mercure vue par MESSENGER · NASA/JHUAPL/Carnegie Institution",
+   "page": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Mercure porte",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une cicatrice",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de 1 500 KM ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le bassin Caloris",
+   "on": "Mercure"
+  },
+  "photo": "mercure"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la petite planète Mercure porte une cicatrice d'impact d'environ mille cinq cents kilomètres ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle le bassin Caloris, un des plus grands cratères d'impact du système solaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le bassin Caloris",
+     "size": "l",
+     "color": "pink",
+     "on": "Caloris"
+    },
+    {
+     "t": "text",
+     "text": "un cratère géant",
+     "size": "m",
+     "on": "cratères"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il mesure environ mille cinq cents kilomètres, presque la distance entre Paris et Rome,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 1 500 km !",
+     "size": "xl",
+     "color": "gold",
+     "on": "mille cinq cents",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "≈ Paris → Rome",
+     "size": "m",
+     "on": "Rome"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été creusé par un astéroïde géant, il y a près de quatre milliards d'années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un astéroïde géant",
+     "size": "l",
+     "on": "astéroïde"
+    },
+    {
+     "t": "text",
+     "text": "il y a ~ 4 milliards d'années",
+     "size": "m",
+     "color": "gold",
+     "on": "quatre milliards"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le choc a été si violent que le sol a été chamboulé de l'autre côté de la planète."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le sol chamboulé",
+     "size": "m",
+     "on": "chamboulé"
+    },
+    {
+     "t": "text",
+     "text": "de l'autre côté !",
+     "size": "l",
+     "color": "pink",
+     "on": "côté",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Mercure porte une cicatrice d'impact d'environ 1 500 km : le bassin Caloris 💥\n\nLe bassin Caloris est l'un des plus grands bassins d'impact du système solaire. Il mesure environ 1 500 kilomètres de diamètre, soit à peu près la distance entre Paris et Rome, sur une planète qui ne fait que 4 880 km de diamètre ! Il a été creusé par la collision d'un très gros astéroïde il y a près de 4 milliards d'années. L'impact a été si violent que les ondes de choc ont convergé de l'autre côté de Mercure, y créant un terrain chaotique surnommé le « terrain bizarre ». Son nom vient du latin « calor », la chaleur, car il se trouve dans une des régions les plus chaudes de Mercure. Sur la photo, Mercure.\n\nTu imagines la taille de l'impact ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mercure",
+  "#cratere",
+  "#planete",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Caloris_Planitia",
+  "https://science.nasa.gov/mercury/facts/"
+ ]
+}

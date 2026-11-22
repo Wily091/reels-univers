@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 260,
+ "title": "On ne connaissait pas la durée du jour sur Saturne avant 2019",
+ "subject": "Saturne",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "saturne",
+   "file": "assets/images/saturne_cassini.jpg",
+   "credit": "Saturne vue par Cassini · NASA/JPL/Space Science Institute",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.06,
+    0,
+    0.88,
+    1
+   ],
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On ne savait pas",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "combien dure une journée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur SATURNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un mystère résolu",
+   "on": "journée"
+  },
+  "photo": "saturne"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que jusqu'en deux mille dix-neuf, on ne savait pas exactement combien dure une journée sur Saturne ?"
+   ]
+  },
+  {
+   "say": [
+    "Saturne n'a pas de surface solide, et ses nuages bougent tous à des vitesses différentes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas de surface solide",
+     "size": "m",
+     "on": "surface"
+    },
+    {
+     "t": "text",
+     "text": "des nuages qui bougent",
+     "size": "l",
+     "color": "gold",
+     "on": "nuages"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, impossible de prendre un repère fixe pour compter ses tours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aucun repère fixe !",
+     "size": "l",
+     "color": "pink",
+     "on": "repère",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille dix-neuf, des chercheurs ont étudié les petites vagues dans ses anneaux, causées par les vibrations de la planète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2019 : les anneaux",
+     "size": "m",
+     "on": "anneaux"
+    },
+    {
+     "t": "text",
+     "text": "trahissent la rotation",
+     "size": "l",
+     "color": "gold",
+     "on": "vibrations"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "vagues",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ils ont trouvé une journée de dix heures, trente-trois minutes et trente-huit secondes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "10 h 33 min 38 s",
+     "size": "xl",
+     "color": "pink",
+     "on": "trente-trois",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "On ne connaissait pas la durée exacte du jour sur Saturne avant 2019 🪐\n\nMesurer la durée d'une journée sur Saturne a longtemps été un casse-tête. La planète n'a pas de surface solide, ses nuages se déplacent à des vitesses différentes selon la latitude, et son champ magnétique est presque parfaitement aligné avec son axe, ce qui empêche de s'en servir comme repère. En 2019, des chercheurs ont trouvé une solution originale grâce aux données de la sonde Cassini : les vibrations internes de Saturne créent de petites ondes dans ses anneaux. En les analysant, ils ont calculé qu'un jour sur Saturne dure environ 10 heures, 33 minutes et 38 secondes. Sur la photo, Saturne vue par Cassini.\n\nTu savais que c'était si dur à mesurer ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#saturne",
+  "#cassini",
+  "#anneaux",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/facts/",
+  "https://fr.wikipedia.org/wiki/Saturne_(planète)"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 255,
+ "title": "Mars tremble : plus de 1 300 séismes détectés",
+ "subject": "Mars",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mars",
+   "file": "assets/images/mars_rosetta.jpg",
+   "credit": "Mars vue par Rosetta (OSIRIS) · ESA & MPS",
+   "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+   "license": "CC BY-SA 3.0 IGO"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Mars",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tremble",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "comme la TERRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des séismes martiens",
+   "on": "Mars"
+  },
+  "photo": "mars"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que Mars tremble, et qu'on y a détecté plus de mille trois cents séismes ?"
+   ]
+  },
+  {
+   "say": [
+    "En novembre deux mille dix-huit, l'atterrisseur InSight de la NASA se pose sur Mars avec un sismomètre ultra-sensible,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2018 : InSight",
+     "size": "l",
+     "color": "pink",
+     "on": "InSight"
+    },
+    {
+     "t": "text",
+     "text": "un sismomètre",
+     "size": "m",
+     "color": "gold",
+     "on": "sismomètre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en quatre ans, il a enregistré plus de mille trois cents tremblements de Mars,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 1 300 séismes !",
+     "size": "xl",
+     "color": "gold",
+     "on": "mille trois cents",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "tremblements",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "le plus fort, en mai deux mille vingt-deux, a atteint une magnitude d'environ quatre virgule sept,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le + fort : ~ 4,7",
+     "size": "l",
+     "color": "pink",
+     "on": "magnitude"
+    },
+    {
+     "t": "text",
+     "text": "mai 2022",
+     "size": "m",
+     "on": "mai"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ces vibrations ont permis de découvrir que Mars a un noyau liquide, plus gros que prévu."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un noyau liquide",
+     "size": "l",
+     "color": "gold",
+     "on": "noyau"
+    },
+    {
+     "t": "text",
+     "text": "+ gros que prévu !",
+     "size": "m",
+     "on": "prévu",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Mars tremble : InSight a détecté plus de 1 300 séismes martiens 🌋\n\nEn novembre 2018, l'atterrisseur InSight de la NASA s'est posé sur Mars avec à son bord un sismomètre ultra-sensible conçu en grande partie en France (CNES). Pendant quatre ans, il a « écouté » la planète et enregistré plus de 1 300 séismes martiens, provoqués notamment par le refroidissement de la planète et par des impacts de météorites. Le plus fort, en mai 2022, a atteint une magnitude d'environ 4,7. En étudiant ces vibrations, les scientifiques ont pu sonder l'intérieur de Mars et découvrir que son noyau est liquide et plus grand que prévu. La mission s'est terminée en décembre 2022. Sur la photo, Mars.\n\nTu pensais que Mars était morte ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mars",
+  "#insight",
+  "#nasa",
+  "#cnes",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/insight/",
+  "https://fr.wikipedia.org/wiki/InSight"
+ ]
+}

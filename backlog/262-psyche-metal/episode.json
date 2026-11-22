@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 261,
+ "title": "Une sonde file vers un astéroïde peut-être fait de métal",
+ "subject": "Psyché",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cet astéroïde serait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "fait de",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "MÉTAL ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un astéroïde métallique",
+   "on": "astéroïde"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde est en route vers un astéroïde qui pourrait être fait en grande partie de métal ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Psyché, il mesure environ deux cent vingt kilomètres, et il tourne dans la ceinture d'astéroïdes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Psyché",
+     "size": "xl",
+     "color": "pink",
+     "on": "Psyché"
+    },
+    {
+     "t": "text",
+     "text": "~ 220 km",
+     "size": "m",
+     "color": "gold",
+     "on": "deux cent vingt"
+    }
+   ]
+  },
+  {
+   "say": [
+    "les astronomes pensent qu'il contient beaucoup de fer et de nickel, peut-être le cœur d'une ancienne planète en formation,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "du fer + du nickel",
+     "size": "l",
+     "color": "gold",
+     "on": "fer",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "le cœur d'une planète ?",
+     "size": "m",
+     "on": "cœur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la NASA a lancé la sonde Psyché en octobre deux mille vingt-trois pour aller le voir de près,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "lancée en oct. 2023",
+     "size": "l",
+     "color": "pink",
+     "on": "octobre"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle doit arriver vers deux mille vingt-neuf, et ce sera la première fois qu'on explore un monde de ce genre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "arrivée ~ 2029",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-neuf"
+    },
+    {
+     "t": "text",
+     "text": "une 1re !",
+     "size": "m",
+     "on": "première",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une sonde file vers Psyché, un astéroïde peut-être fait de métal 🔩\n\nPsyché est un astéroïde d'environ 220 km de large, situé dans la ceinture principale, entre Mars et Jupiter. Les observations suggèrent qu'il contient une grande proportion de métal, du fer et du nickel. Il pourrait s'agir du noyau mis à nu d'une planète en formation, dont les couches extérieures auraient été arrachées par des collisions. L'étudier permettrait de mieux comprendre le cœur de planètes comme la Terre, impossible à atteindre. La NASA a lancé la sonde Psyché le 13 octobre 2023 ; elle doit arriver autour de l'astéroïde en 2029. Ce sera la première exploration d'un monde de ce type. Un voyage à suivre !\n\nTu crois qu'il est vraiment en métal ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#psyche",
+  "#asteroide",
+  "#nasa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/psyche/",
+  "https://fr.wikipedia.org/wiki/(16)_Psyché"
+ ]
+}

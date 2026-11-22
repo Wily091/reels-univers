@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 251,
+ "title": "Dans l'espace, la nourriture a moins de goût",
+ "subject": "Goût",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Dans l'espace,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la nourriture",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a MOINS DE GOÛT ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un goût fade",
+   "on": "nourriture"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que dans l'espace, la nourriture paraît beaucoup plus fade ?"
+   ]
+  },
+  {
+   "say": [
+    "Sur Terre, la gravité tire les liquides de notre corps vers les jambes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sur Terre :",
+     "size": "m",
+     "on": "Terre"
+    },
+    {
+     "t": "text",
+     "text": "les liquides descendent",
+     "size": "l",
+     "color": "gold",
+     "on": "jambes"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "gravité",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais en apesanteur, ils remontent vers la tête, et les astronautes ont le nez un peu bouché, comme un rhume permanent,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ils remontent à la tête",
+     "size": "m",
+     "on": "remontent"
+    },
+    {
+     "t": "text",
+     "text": "nez bouché !",
+     "size": "l",
+     "color": "pink",
+     "on": "bouché",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme l'odorat joue un rôle énorme dans le goût, tout paraît plus fade,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "moins d'odorat",
+     "size": "m",
+     "on": "odorat"
+    },
+    {
+     "t": "text",
+     "text": "= moins de goût",
+     "size": "l",
+     "color": "gold",
+     "on": "fade"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, beaucoup d'astronautes adorent les plats épicés et la sauce piquante."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vive la sauce",
+     "size": "m",
+     "on": "sauce"
+    },
+    {
+     "t": "text",
+     "text": "piquante ! 🌶️",
+     "size": "l",
+     "color": "pink",
+     "on": "piquante",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Dans l'espace, la nourriture a moins de goût 🌶️\n\nEn apesanteur, les liquides du corps ne sont plus attirés vers les jambes par la gravité : ils se redistribuent vers le haut du corps et la tête. Résultat : le visage gonfle légèrement et les astronautes ont souvent le nez un peu congestionné, comme lors d'un rhume. Or, l'odorat joue un rôle essentiel dans la perception des saveurs. Beaucoup d'astronautes trouvent donc la nourriture plus fade dans l'espace, et raffolent des plats épicés, des condiments et de la sauce piquante ! Les odeurs de la station, qui circulent peu, jouent aussi un rôle. Sur la photo, l'ISS. La vie quotidienne en orbite.\n\nTu mettrais quelle sauce ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#astronaute",
+  "#nourriture",
+  "#iss",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/",
+  "https://en.wikipedia.org/wiki/Space_food"
+ ]
+}

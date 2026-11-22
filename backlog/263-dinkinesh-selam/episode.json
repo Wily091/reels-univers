@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 262,
+ "title": "Un petit astéroïde avait une lune… qui était double",
+ "subject": "Dinkinesh",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce petit astéroïde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "avait une lune…",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "elle-même DOUBLE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une double surprise",
+   "on": "astéroïde"
+  },
+  "sketch": "planet"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un tout petit astéroïde avait une lune, qui était elle-même faite de deux morceaux collés ?"
+   ]
+  },
+  {
+   "say": [
+    "Le premier novembre deux mille vingt-trois, la sonde Lucy de la NASA survole l'astéroïde Dinkinesh, d'environ huit cents mètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er nov. 2023 : Lucy",
+     "size": "l",
+     "color": "gold",
+     "on": "Lucy"
+    },
+    {
+     "t": "text",
+     "text": "Dinkinesh ~ 800 m",
+     "size": "m",
+     "on": "Dinkinesh"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "surprise, elle découvre qu'il a une petite lune qui tourne autour de lui,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il a une lune !",
+     "size": "l",
+     "color": "pink",
+     "on": "lune",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en s'approchant, deuxième surprise, cette lune est faite de deux rochers collés l'un à l'autre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 rochers collés !",
+     "size": "l",
+     "color": "gold",
+     "on": "deux rochers"
+    }
+   ]
+  },
+  {
+   "say": [
+    "on l'a appelée Selam, et ce n'était qu'un petit test, avant que Lucy ne parte vers les astéroïdes troyens de Jupiter."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Selam",
+     "size": "l",
+     "color": "pink",
+     "on": "Selam"
+    },
+    {
+     "t": "text",
+     "text": "avant les Troyens",
+     "size": "m",
+     "on": "troyens",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le petit astéroïde Dinkinesh avait une lune… elle-même double 🪨🪨\n\nLe 1er novembre 2023, la sonde Lucy de la NASA a survolé Dinkinesh, un petit astéroïde de la ceinture principale d'environ 800 mètres, une simple répétition avant sa vraie mission. Première surprise : Dinkinesh possède une petite lune. Deuxième surprise, en s'approchant : cette lune, baptisée Selam, est en réalité un « binaire de contact », formé de deux rochers collés l'un à l'autre ! Une découverte inattendue qui en dit long sur la façon dont ces petits corps se forment et évoluent. Lucy poursuit sa route vers les astéroïdes troyens de Jupiter, qu'elle doit atteindre à partir de 2027. Les noms Dinkinesh et Selam viennent de l'amharique, en hommage au fossile Lucy.\n\nTu t'y attendais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lucy",
+  "#asteroide",
+  "#nasa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/lucy/",
+  "https://fr.wikipedia.org/wiki/(152830)_Dinkinesh"
+ ]
+}

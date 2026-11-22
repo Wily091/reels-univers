@@ -1,0 +1,142 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 259,
+ "title": "Sur Jupiter, une journée dure moins de 10 heures",
+ "subject": "Jupiter",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La + grosse planète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a la journée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la + COURTE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une journée express",
+   "on": "journée"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la plus grosse planète du système solaire a la journée la plus courte ?"
+   ]
+  },
+  {
+   "say": [
+    "Jupiter fait un tour sur elle-même en environ neuf heures et cinquante-six minutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 jour ≈ 9 h 56",
+     "size": "xl",
+     "color": "pink",
+     "on": "neuf heures",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pourtant, elle est tellement grosse qu'on pourrait y mettre plus de mille Terres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 1 000 Terres",
+     "size": "l",
+     "color": "gold",
+     "on": "mille Terres"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, à son équateur, les nuages filent à plus de quarante mille kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 40 000 km/h !",
+     "size": "l",
+     "color": "pink",
+     "on": "quarante mille"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle tourne si vite qu'elle est aplatie, plus large à l'équateur qu'entre ses pôles."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle est aplatie !",
+     "size": "l",
+     "color": "gold",
+     "on": "aplatie",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Jupiter, une journée dure moins de 10 heures 🌀\n\nJupiter, la plus grande planète du système solaire, est aussi celle qui tourne le plus vite sur elle-même : un jour y dure environ 9 heures et 56 minutes. Avec un diamètre d'environ 140 000 km, on pourrait y loger plus de 1 000 Terres ! À son équateur, sa surface nuageuse file donc à plus de 40 000 km/h. Cette rotation très rapide aplatit la planète : Jupiter est nettement plus large à l'équateur qu'entre ses pôles, ce qui se voit même dans un petit télescope. Elle contribue aussi à former ses bandes nuageuses colorées. Sur la photo, Jupiter. Un fait d'astronomie étonnant.\n\nTu ferais quoi d'une journée de 10 h ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jupiter",
+  "#planete",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/jupiter/facts/",
+  "https://fr.wikipedia.org/wiki/Jupiter_(planète)"
+ ]
+}

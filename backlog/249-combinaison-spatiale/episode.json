@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 248,
+ "title": "Une combinaison spatiale pèse plus de 120 kilos",
+ "subject": "Combinaison",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette combinaison",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pèse + de",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "120 KILOS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un vaisseau à porter",
+   "on": "combinaison"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une combinaison pour sortir dans l'espace pèse plus de cent vingt kilos sur Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "La combinaison de sortie de la NASA, c'est en fait un mini vaisseau spatial à porter sur soi,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un mini vaisseau",
+     "size": "l",
+     "color": "pink",
+     "on": "vaisseau",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle fournit de l'oxygène, de l'eau pour boire, de la ventilation, et une protection contre les micrométéorites,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "oxygène + eau",
+     "size": "m",
+     "on": "oxygène"
+    },
+    {
+     "t": "text",
+     "text": "+ protection",
+     "size": "l",
+     "color": "gold",
+     "on": "protection"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sur Terre, l'ensemble pèse plus de cent vingt kilos, mais en apesanteur, elle ne pèse plus rien,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 120 kg sur Terre",
+     "size": "l",
+     "color": "pink",
+     "on": "cent vingt"
+    },
+    {
+     "t": "text",
+     "text": "0 en apesanteur",
+     "size": "m",
+     "on": "apesanteur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et une sortie peut durer plus de six heures, sans pause pour manger ni aller aux toilettes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 6 heures",
+     "size": "l",
+     "color": "gold",
+     "on": "six heures"
+    },
+    {
+     "t": "text",
+     "text": "sans pause !",
+     "size": "m",
+     "on": "pause",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une combinaison de sortie spatiale pèse plus de 120 kilos sur Terre 👨‍🚀\n\nLa combinaison de sortie extravéhiculaire de la NASA (EMU) n'est pas un simple vêtement : c'est un véritable petit vaisseau spatial individuel. Elle fournit l'oxygène, régule la pression et la température, évacue le dioxyde de carbone, contient une poche d'eau à boire et protège des micrométéorites et des rayonnements. Avec son sac à dos de survie, l'ensemble pèse plus de 120 kg sur Terre… mais ne pèse plus rien en apesanteur. Les sorties dans l'espace durent souvent plus de six heures d'affilée, sans pause repas, d'où la couche spéciale que portent les astronautes ! Sur la photo, l'ISS.\n\nTu arriverais à la porter ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#astronaute",
+  "#combinaison",
+  "#nasa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Extravehicular_Mobility_Unit",
+  "https://www.nasa.gov/international-space-station/"
+ ]
+}
