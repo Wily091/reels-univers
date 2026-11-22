@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 180,
+ "title": "Uranus tourne couchée sur le côté",
+ "subject": "Uranus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "uranus",
+   "file": "assets/images/uranus_voyager2.jpg",
+   "credit": "Uranus vue par Voyager 2 · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/uranus/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tourne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "COUCHÉE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une planète couchée",
+   "on": "planète"
+  },
+  "photo": "uranus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une planète du système solaire tourne couchée sur le côté ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Uranus, son axe est penché d'environ quatre-vingt-dix-huit degrés, elle roule presque comme une bille,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Uranus",
+     "size": "xl",
+     "color": "pink",
+     "on": "Uranus"
+    },
+    {
+     "t": "text",
+     "text": "axe penché de ~ 98° !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-dix-huit",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "roule",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "les scientifiques pensent qu'un énorme choc l'a renversée il y a très longtemps,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un énorme choc",
+     "size": "l",
+     "on": "choc"
+    },
+    {
+     "t": "text",
+     "text": "l'aurait renversée",
+     "size": "m",
+     "on": "renversée"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et comme une année sur Uranus dure quatre-vingt-quatre ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 année = 84 ans",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-quatre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "chaque pôle a environ quarante-deux ans de jour, puis quarante-deux ans de nuit."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "42 ans de jour…",
+     "size": "l",
+     "color": "pink",
+     "on": "jour"
+    },
+    {
+     "t": "text",
+     "text": "puis 42 ans de nuit !",
+     "size": "l",
+     "on": "nuit",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Uranus tourne couchée sur le côté, avec 42 ans de jour puis 42 ans de nuit 🪐\n\nUranus est la planète la plus penchée du système solaire : son axe de rotation est incliné d'environ 98°. Elle tourne donc presque couchée sur le côté, en roulant sur son orbite comme une bille. Les scientifiques pensent qu'une énorme collision avec un objet de la taille d'une planète l'a renversée il y a des milliards d'années. Comme une année sur Uranus dure environ 84 années terrestres, chaque pôle connaît environ 42 ans de jour continu, puis 42 ans de nuit ! Sur la photo, Uranus vue par la sonde Voyager 2 en 1986. Une bizarrerie fascinante de notre système solaire.\n\nTu imagines 42 ans de nuit ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#uranus",
+  "#planete",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/uranus/facts/",
+  "https://fr.wikipedia.org/wiki/Uranus_(planète)"
+ ]
+}

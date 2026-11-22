@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 190,
+ "title": "En 2024, la Terre a eu une deuxième lune pendant deux mois",
+ "subject": "Mini-lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 2024,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la Terre a eu",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une 2e LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une mini-lune",
+   "on": "Terre"
+  },
+  "sketch": "moon"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en deux mille vingt-quatre, la Terre a eu une deuxième lune pendant presque deux mois ?"
+   ]
+  },
+  {
+   "say": [
+    "C'était un petit astéroïde appelé deux mille vingt-quatre P T cinq, d'une dizaine de mètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2024 PT5",
+     "size": "xl",
+     "color": "pink",
+     "on": "P T cinq"
+    },
+    {
+     "t": "text",
+     "text": "~ 10 m",
+     "size": "m",
+     "color": "gold",
+     "on": "dizaine"
+    }
+   ]
+  },
+  {
+   "say": [
+    "de fin septembre à fin novembre deux mille vingt-quatre, la gravité de la Terre l'a capturé,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "fin sept. → fin nov.",
+     "size": "l",
+     "color": "gold",
+     "on": "septembre"
+    },
+    {
+     "t": "text",
+     "text": "capturé par la Terre",
+     "size": "m",
+     "on": "capturé",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a fait un bout de chemin autour de nous, comme une mini-lune temporaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une mini-lune",
+     "size": "l",
+     "color": "pink",
+     "on": "mini-lune"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "autour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il était trop petit et trop sombre pour être vu à l'œil nu, et il est reparti autour du Soleil."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "invisible à l'œil nu",
+     "size": "m",
+     "on": "œil"
+    },
+    {
+     "t": "text",
+     "text": "puis il est reparti !",
+     "size": "l",
+     "color": "gold",
+     "on": "reparti",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 2024, la Terre a eu une deuxième « mini-lune » pendant deux mois 🌒\n\nDu 29 septembre au 25 novembre 2024, la Terre a eu de la compagnie : un petit astéroïde d'une dizaine de mètres, baptisé 2024 PT5, a été temporairement capturé par la gravité terrestre. Il a parcouru une partie d'une boucle autour de nous avant de repartir sur son orbite autour du Soleil. Trop petit et trop sombre, il était invisible à l'œil nu, mais de grands télescopes ont pu le suivre. Ces « mini-lunes » temporaires ne sont pas si rares, mais elles sont difficiles à repérer. 2024 PT5 pourrait d'ailleurs être lui aussi un éclat de notre Lune. Un fait d'astronomie étonnant.\n\nTu étais au courant ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#minilune",
+  "#asteroide",
+  "#lune",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/2024_PT5",
+  "https://science.nasa.gov/solar-system/asteroids/"
+ ]
+}

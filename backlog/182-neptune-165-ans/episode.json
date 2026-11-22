@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 181,
+ "title": "Neptune n'a fait qu'un seul tour du Soleil depuis sa découverte",
+ "subject": "Neptune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "neptune",
+   "file": "assets/images/neptune_voyager2.jpg",
+   "credit": "Neptune vue par Voyager 2 · NASA/JPL",
+   "page": "https://science.nasa.gov/neptune/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Depuis sa découverte,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "elle a fait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "UN SEUL tour ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une année de 165 ans",
+   "on": "tour"
+  },
+  "photo": "neptune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que depuis sa découverte, Neptune n'a fait qu'un seul tour autour du Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "Neptune a été découverte le vingt-trois septembre mille huit cent quarante-six,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "découverte en 1846",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-trois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais elle est si loin qu'elle met environ cent soixante-cinq ans à faire le tour du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 année = ~ 165 ans",
+     "size": "xl",
+     "color": "gold",
+     "on": "cent soixante-cinq",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, elle a bouclé son premier tour complet depuis sa découverte seulement en juillet deux mille onze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er tour bouclé",
+     "size": "m",
+     "on": "premier"
+    },
+    {
+     "t": "text",
+     "text": "en 2011 !",
+     "size": "l",
+     "color": "pink",
+     "on": "deux mille onze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sur Neptune, personne sur Terre n'aurait encore fêté son premier anniversaire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "aucun Terrien n'a",
+     "size": "m",
+     "on": "personne"
+    },
+    {
+     "t": "text",
+     "text": "1 an de Neptune !",
+     "size": "l",
+     "color": "gold",
+     "on": "anniversaire",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Neptune n'a fait qu'un seul tour du Soleil depuis sa découverte en 1846 🔵\n\nNeptune a été découverte le 23 septembre 1846, grâce aux calculs de l'astronome français Urbain Le Verrier. Mais cette planète géante est si éloignée du Soleil, environ 30 fois plus loin que la Terre, qu'elle met près de 165 ans à en faire le tour. Résultat : elle n'a bouclé son premier tour complet depuis sa découverte qu'en juillet 2011 ! En « années de Neptune », aucun être humain vivant n'a encore fêté son premier anniversaire. Sur la photo, Neptune vue par la sonde Voyager 2 en 1989. Un fait d'astronomie qui donne le vertige.\n\nTu aurais quel âge en années de Neptune ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#neptune",
+  "#planete",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/neptune/facts/",
+  "https://fr.wikipedia.org/wiki/Neptune_(planète)"
+ ]
+}

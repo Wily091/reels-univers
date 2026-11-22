@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 183,
+ "title": "La Grande Tache rouge de Jupiter est une tempête plus grande que la Terre",
+ "subject": "Jupiter",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette tempête",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est plus grande",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que la TERRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une tempête géante",
+   "on": "tempête"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la grosse tache rouge sur Jupiter est en fait une tempête plus grande que la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle la Grande Tache rouge, et c'est un gigantesque anticyclone,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Grande Tache rouge",
+     "size": "l",
+     "color": "pink",
+     "on": "Grande Tache"
+    },
+    {
+     "t": "text",
+     "text": "un anticyclone géant",
+     "size": "m",
+     "on": "anticyclone"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle est plus large que notre planète tout entière, avec des vents de plus de quatre cents kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ large que la Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "large",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "vents > 400 km/h",
+     "size": "m",
+     "on": "vents"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "planète",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "on l'observe depuis au moins mille huit cent trente, ça fait presque deux siècles qu'elle tourne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "observée depuis 1830",
+     "size": "m",
+     "on": "mille huit cent"
+    },
+    {
+     "t": "text",
+     "text": "~ 2 siècles !",
+     "size": "l",
+     "color": "pink",
+     "on": "siècles"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais depuis plus de cent ans, elle rétrécit, et personne ne sait si elle va disparaître."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle rétrécit…",
+     "size": "l",
+     "color": "gold",
+     "on": "rétrécit"
+    },
+    {
+     "t": "text",
+     "text": "va-t-elle disparaître ?",
+     "size": "m",
+     "on": "disparaître",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Grande Tache rouge de Jupiter, une tempête plus large que la Terre 🌪️\n\nLa célèbre Grande Tache rouge de Jupiter est un gigantesque anticyclone, une tempête plus large que la Terre entière, où les vents dépassent les 400 km/h. Elle est observée sans interruption depuis au moins 1830, et peut-être depuis le XVIIe siècle : cela fait presque deux siècles qu'elle tourbillonne ! Mais depuis plus de cent ans, elle rétrécit et devient plus ronde. Les scientifiques, grâce notamment à Hubble et à la sonde Juno, cherchent à comprendre si elle finira par disparaître. Sur la photo, Jupiter et sa Grande Tache rouge. Un phénomène météo hors norme.\n\nTu avais déjà remarqué cette tache ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jupiter",
+  "#grandetacherouge",
+  "#tempete",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/jupiter/facts/",
+  "https://fr.wikipedia.org/wiki/Grande_Tache_rouge"
+ ]
+}

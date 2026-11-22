@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 185,
+ "title": "Mercure et Vénus n'ont aucune lune",
+ "subject": "Planètes",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "mercure",
+   "file": "assets/images/mercure_messenger.jpg",
+   "credit": "Mercure vue par MESSENGER · NASA/JHUAPL/Carnegie Institution",
+   "page": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces deux planètes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'ont",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "AUCUNE lune ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des planètes sans lune",
+   "on": "lune"
+  },
+  "photo": "mercure"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que deux planètes du système solaire n'ont aucune lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont Mercure et Vénus, les deux planètes les plus proches du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Mercure",
+     "size": "l",
+     "color": "pink",
+     "on": "Mercure"
+    },
+    {
+     "t": "text",
+     "text": "et Vénus",
+     "size": "l",
+     "color": "gold",
+     "on": "Vénus"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "une des raisons, c'est que le Soleil est tout près, et sa gravité énorme rend une lune difficile à garder,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Soleil est trop près",
+     "size": "m",
+     "on": "près"
+    },
+    {
+     "t": "text",
+     "text": "sa gravité les vole !",
+     "size": "l",
+     "color": "pink",
+     "on": "gravité",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "à l'inverse, Saturne en a plus de deux cent soixante-dix,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Saturne : + de 270 lunes",
+     "size": "l",
+     "color": "gold",
+     "on": "soixante-dix"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et nous, on a une seule Lune, mais une des plus grosses par rapport à sa planète."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la Terre : 1 seule…",
+     "size": "m",
+     "on": "seule"
+    },
+    {
+     "t": "text",
+     "text": "mais énorme !",
+     "size": "l",
+     "color": "pink",
+     "on": "grosses",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Mercure et Vénus n'ont aucune lune 🌑\n\nSur les huit planètes du système solaire, deux n'ont aucune lune : Mercure et Vénus, les plus proches du Soleil. Une des explications : la gravité du Soleil, toute proche, rend très difficile pour ces planètes de capturer ou de garder un satellite sur une orbite stable. À l'opposé, Saturne détient le record avec plus de 270 lunes connues ! La Terre, elle, n'en a qu'une, mais notre Lune est l'une des plus grosses du système solaire par rapport à la taille de sa planète. Sur la photo, Mercure vue par la sonde MESSENGER.\n\nTu imagines nos nuits sans la Lune ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#mercure",
+  "#venus",
+  "#lunes",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mercury/facts/",
+  "https://science.nasa.gov/venus/facts/"
+ ]
+}

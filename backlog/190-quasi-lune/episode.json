@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 189,
+ "title": "La Terre a une quasi-lune qui pourrait venir de la Lune",
+ "subject": "Quasi-lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Terre a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une 2e « lune »",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qui vient de la LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une quasi-lune",
+   "on": "Terre"
+  },
+  "sketch": "moon"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Terre est accompagnée d'un petit astéroïde qui pourrait être un morceau de la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Kamo'oalewa, il a été découvert en deux mille seize, et il mesure moins de cent mètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Kamo'oalewa",
+     "size": "l",
+     "color": "pink",
+     "on": "Kamo'oalewa"
+    },
+    {
+     "t": "text",
+     "text": "découvert en 2016",
+     "size": "m",
+     "color": "gold",
+     "on": "deux mille seize"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est une quasi-lune, il tourne autour du Soleil, mais en restant tout le temps près de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une quasi-lune",
+     "size": "l",
+     "color": "gold",
+     "on": "quasi-lune",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la lumière qu'il renvoie ressemble beaucoup à celle des roches lunaires,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il ressemble",
+     "size": "m",
+     "on": "ressemble"
+    },
+    {
+     "t": "text",
+     "text": "aux roches lunaires !",
+     "size": "l",
+     "color": "pink",
+     "on": "roches"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, la Chine a lancé en deux mille vingt-cinq la sonde Tianwen deux, pour aller en rapporter des morceaux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2025 : Tianwen-2",
+     "size": "l",
+     "color": "gold",
+     "on": "Tianwen"
+    },
+    {
+     "t": "text",
+     "text": "va le visiter !",
+     "size": "m",
+     "on": "rapporter",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Terre a une « quasi-lune » qui serait peut-être un morceau de la Lune 🌗\n\nDécouvert en 2016, l'astéroïde Kamo'oalewa est l'une des « quasi-lunes » de la Terre. Il ne tourne pas vraiment autour de nous : il fait le tour du Soleil, mais sur une orbite qui le garde toujours près de la Terre. Mesurant moins de 100 mètres, il intrigue les scientifiques : la lumière qu'il réfléchit ressemble beaucoup à celle des roches lunaires. Il pourrait donc être un fragment arraché à la Lune par un impact ! Pour en avoir le cœur net, la Chine a lancé en 2025 la sonde Tianwen-2, qui doit rapporter des échantillons sur Terre. Un mystère de l'astronomie à suivre.\n\nTu en avais déjà entendu parler ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#quasilune",
+  "#asteroide",
+  "#lune",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/(469219)_Kamoʻoalewa",
+  "https://fr.wikipedia.org/wiki/Tianwen-2"
+ ]
+}

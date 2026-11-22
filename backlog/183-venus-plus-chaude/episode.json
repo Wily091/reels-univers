@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 182,
+ "title": "Vénus est plus chaude que Mercure",
+ "subject": "Vénus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La planète la + chaude",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'est PAS",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la + proche du Soleil ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "+ chaude que Mercure",
+   "on": "chaude"
+  },
+  "photo": "venus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la planète la plus chaude du système solaire n'est pas la plus proche du Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "Mercure est la plus proche, mais la plus chaude, c'est Vénus, avec plus de quatre cent cinquante degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Vénus",
+     "size": "xl",
+     "color": "pink",
+     "on": "Vénus"
+    },
+    {
+     "t": "text",
+     "text": "+ de 450 °C !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre cent cinquante",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "chaude",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "assez chaud pour faire fondre du plomb,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le plomb y fond !",
+     "size": "l",
+     "color": "pink",
+     "on": "plomb"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la raison, c'est son atmosphère très épaisse, pleine de dioxyde de carbone, qui piège la chaleur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une atmosphère épaisse",
+     "size": "m",
+     "on": "atmosphère"
+    },
+    {
+     "t": "text",
+     "text": "= un effet de serre géant",
+     "size": "l",
+     "color": "gold",
+     "on": "piège"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il y fait aussi chaud le jour que la nuit, aux pôles comme à l'équateur."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jour comme nuit,",
+     "size": "m",
+     "on": "nuit"
+    },
+    {
+     "t": "text",
+     "text": "partout pareil !",
+     "size": "l",
+     "color": "pink",
+     "on": "pôles",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Vénus est plus chaude que Mercure, pourtant plus proche du Soleil 🔥\n\nMercure est la planète la plus proche du Soleil, mais la plus chaude, c'est Vénus ! Sa surface dépasse les 450 °C, assez pour faire fondre du plomb. La raison : son atmosphère extrêmement épaisse, composée surtout de dioxyde de carbone et couverte de nuages d'acide sulfurique, piège la chaleur dans un effet de serre géant. Résultat : il fait presque aussi chaud le jour que la nuit, aux pôles comme à l'équateur. Mercure, elle, sans vraie atmosphère, passe d'environ 430 °C le jour à −180 °C la nuit. Sur la photo, Vénus. Un fait d'astronomie qui surprend.\n\nTu pensais que c'était Mercure ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#planete",
+  "#effetdeserre",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/venus/facts/",
+  "https://fr.wikipedia.org/wiki/Vénus_(planète)"
+ ]
+}

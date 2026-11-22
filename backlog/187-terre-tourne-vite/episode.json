@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 186,
+ "title": "La Terre tourne à 1 670 km/h à l'équateur",
+ "subject": "Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Là, maintenant,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu tournes à",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "1 670 KM/H ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "1 670 km/h",
+   "on": "tournes"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en ce moment, tu tournes à plus de mille kilomètres heure sans le sentir ?"
+   ]
+  },
+  {
+   "say": [
+    "À l'équateur, la Terre tourne sur elle-même à environ mille six cent soixante-dix kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à l'équateur :",
+     "size": "m",
+     "on": "équateur"
+    },
+    {
+     "t": "text",
+     "text": "~ 1 670 km/h",
+     "size": "xl",
+     "color": "pink",
+     "on": "six cent soixante-dix",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "à Paris, c'est un peu moins, environ mille cent kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à Paris : ~ 1 100 km/h",
+     "size": "l",
+     "color": "gold",
+     "on": "Paris"
+    }
+   ]
+  },
+  {
+   "say": [
+    "si on ne sent rien, c'est parce que cette vitesse est parfaitement régulière, comme dans un avion qui vole bien droit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on ne sent rien",
+     "size": "l",
+     "on": "sent"
+    },
+    {
+     "t": "text",
+     "text": "vitesse régulière",
+     "size": "m",
+     "color": "gold",
+     "on": "régulière"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est cette rotation qui nous donne le jour et la nuit."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "= le jour",
+     "size": "l",
+     "color": "gold",
+     "on": "jour"
+    },
+    {
+     "t": "text",
+     "text": "et la nuit !",
+     "size": "l",
+     "color": "pink",
+     "on": "nuit",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Terre tourne sur elle-même à 1 670 km/h à l'équateur 🌍\n\nEn ce moment même, tu te déplaces très vite sans le sentir ! À l'équateur, la surface de la Terre tourne à environ 1 670 km/h. Plus on s'approche des pôles, plus cette vitesse diminue : à Paris, elle est d'environ 1 100 km/h. Si on ne ressent rien, c'est parce que ce mouvement est parfaitement régulier, comme dans un avion qui vole droit sans turbulences : notre corps ne perçoit que les changements de vitesse. C'est cette rotation, en environ 24 heures, qui crée l'alternance du jour et de la nuit. Sur la photo, la Terre vue par Apollo 17.\n\nTu le sens, toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#rotation",
+  "#physique",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/earth/facts/",
+  "https://fr.wikipedia.org/wiki/Rotation_de_la_Terre"
+ ]
+}

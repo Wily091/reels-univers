@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 188,
+ "title": "Une lune de Saturne a la forme d'un ravioli",
+ "subject": "Pan",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a la forme",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'un RAVIOLI ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une lune ravioli",
+   "on": "lune"
+  },
+  "sketch": "moon"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une petite lune de Saturne a exactement la forme d'un ravioli ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Pan, elle mesure environ trente-cinq kilomètres, et elle vit à l'intérieur des anneaux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Pan",
+     "size": "xl",
+     "color": "pink",
+     "on": "Pan"
+    },
+    {
+     "t": "text",
+     "text": "~ 35 km",
+     "size": "m",
+     "color": "gold",
+     "on": "trente-cinq"
+    },
+    {
+     "t": "text",
+     "text": "dans les anneaux !",
+     "size": "m",
+     "on": "anneaux"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille dix-sept, la sonde Cassini l'a photographiée de près, et surprise, elle a un gros bourrelet autour de son équateur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2017 : Cassini",
+     "size": "l",
+     "color": "gold",
+     "on": "Cassini"
+    },
+    {
+     "t": "text",
+     "text": "un bourrelet autour",
+     "size": "m",
+     "on": "bourrelet",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce bourrelet viendrait des poussières des anneaux qu'elle ramasse en tournant,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle ramasse",
+     "size": "m",
+     "on": "ramasse"
+    },
+    {
+     "t": "text",
+     "text": "la poussière des anneaux",
+     "size": "l",
+     "color": "pink",
+     "on": "poussières"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est elle qui nettoie un espace vide dans les anneaux, qu'on appelle la division d'Encke."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle creuse",
+     "size": "m",
+     "on": "nettoie"
+    },
+    {
+     "t": "text",
+     "text": "la division d'Encke !",
+     "size": "l",
+     "color": "gold",
+     "on": "Encke",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pan, la lune de Saturne en forme de ravioli 🥟\n\nPan est une petite lune de Saturne d'environ 35 km, qui tourne à l'intérieur même des anneaux. En 2017, la sonde Cassini de la NASA l'a photographiée de près, révélant une forme étonnante : une sorte de ravioli, ou de noix, avec un épais bourrelet autour de son équateur. Ce bourrelet se serait formé avec la poussière et la glace des anneaux, accumulées au fil du temps. En tournant, Pan dégage un espace vide dans les anneaux, appelé la division d'Encke. On la surnomme parfois « la lune berger ». Une curiosité du système solaire.\n\nTu l'aurais appelée comment ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pan",
+  "#saturne",
+  "#cassini",
+  "#lunes",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/moons/pan/",
+  "https://fr.wikipedia.org/wiki/Pan_(lune)"
+ ]
+}

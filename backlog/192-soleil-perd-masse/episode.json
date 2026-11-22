@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 191,
+ "title": "Le Soleil perd 4 millions de tonnes chaque seconde",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le Soleil perd",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "4 millions de tonnes",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "chaque SECONDE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "4 millions de t/s",
+   "on": "Soleil"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le Soleil perd environ quatre millions de tonnes chaque seconde ?"
+   ]
+  },
+  {
+   "say": [
+    "Dans son cœur, il fusionne environ six cents millions de tonnes d'hydrogène par seconde pour fabriquer de l'hélium,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 600 millions de t",
+     "size": "l",
+     "color": "gold",
+     "on": "six cents millions"
+    },
+    {
+     "t": "text",
+     "text": "d'hydrogène / seconde",
+     "size": "m",
+     "on": "hydrogène"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais l'hélium obtenu pèse un peu moins lourd, et la différence se transforme en lumière et en chaleur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la masse perdue",
+     "size": "m",
+     "on": "différence"
+    },
+    {
+     "t": "text",
+     "text": "→ lumière + chaleur !",
+     "size": "l",
+     "color": "pink",
+     "on": "lumière"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "chaleur",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ça fait environ quatre millions de tonnes qui disparaissent chaque seconde,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 4 millions de t / s",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre millions",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pourtant, il est tellement énorme qu'il peut continuer comme ça pendant encore des milliards d'années."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "encore des milliards",
+     "size": "l",
+     "color": "gold",
+     "on": "milliards"
+    },
+    {
+     "t": "text",
+     "text": "d'années !",
+     "size": "m",
+     "on": "années",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le Soleil perd environ 4 millions de tonnes chaque seconde ☀️\n\nAu cœur du Soleil, environ 600 millions de tonnes d'hydrogène fusionnent chaque seconde pour former de l'hélium. Mais l'hélium produit est un peu plus léger que l'hydrogène de départ : la différence de masse est convertie en énergie, selon la célèbre formule d'Einstein E = mc². Résultat : le Soleil « perd » environ 4 millions de tonnes de matière par seconde, transformées en lumière et en chaleur ! Rassure-toi : il est tellement massif qu'il pourra continuer ainsi encore environ 5 milliards d'années. Sur la photo, le Soleil vu par la NASA. Un fait de physique qui donne le vertige.\n\nTu pensais qu'il maigrissait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#fusion",
+  "#physique",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/",
+  "https://fr.wikipedia.org/wiki/Soleil"
+ ]
+}
