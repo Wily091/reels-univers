@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 100,
+ "title": "Un astronaute a joué au golf sur la Lune",
+ "subject": "Apollo 14",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "drapeau",
+   "file": "assets/images/drapeau_apollo11.jpg",
+   "credit": "Apollo 11 sur la Lune · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Buzz_salutes_the_U.S._Flag.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Un astronaute",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a joué au",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "GOLF sur la Lune ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "du golf sur la Lune !",
+   "on": "golf"
+  },
+  "photo": "drapeau"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un astronaute a joué au golf sur la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "C'était Alan Shepard, pendant la mission Apollo quatorze, en février mille neuf cent soixante et onze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Alan Shepard",
+     "size": "l",
+     "color": "pink",
+     "on": "Shepard"
+    },
+    {
+     "t": "text",
+     "text": "Apollo 14, février 1971",
+     "size": "m",
+     "color": "gold",
+     "on": "quatorze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il avait caché une tête de club de golf dans ses affaires, et il l'a fixée sur un outil de prélèvement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une tête de club cachée",
+     "size": "m",
+     "on": "tête"
+    },
+    {
+     "t": "text",
+     "text": "fixée sur un outil !",
+     "size": "l",
+     "color": "gold",
+     "on": "outil"
+    }
+   ]
+  },
+  {
+   "say": [
+    "puis il a frappé deux balles, avec sa grosse combinaison qui l'empêchait de bien tourner,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 balles frappées",
+     "size": "xl",
+     "color": "pink",
+     "on": "deux balles",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "(en combinaison !)",
+     "size": "s",
+     "color": "soft",
+     "on": "combinaison"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ces balles de golf sont toujours là-haut, sur la Lune."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les balles sont",
+     "size": "m",
+     "on": "balles"
+    },
+    {
+     "t": "text",
+     "text": "toujours sur la Lune !",
+     "size": "l",
+     "color": "gold",
+     "on": "toujours",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Un astronaute a joué au golf sur la Lune ⛳\n\nLe 6 février 1971, pendant la mission Apollo 14, l'astronaute Alan Shepard a réalisé un rêve insolite : jouer au golf sur la Lune. Il avait discrètement emporté une tête de club, qu'il a fixée sur le manche d'un outil de prélèvement d'échantillons. Gêné par sa combinaison, il a frappé deux balles d'une seule main. Ces balles de golf sont toujours sur la Lune aujourd'hui ! Sur la photo, un astronaute d'Apollo sur la Lune. Un moment improbable de l'histoire de l'exploration spatiale.\n\nTu aurais fait quel sport là-haut ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo14",
+  "#golf",
+  "#lune",
+  "#insolite",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/history/alan-shepard-golf/",
+  "https://www.nasa.gov/mission/apollo-14/"
+ ]
+}

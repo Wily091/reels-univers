@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 98,
+ "title": "La poussière lunaire sent la poudre à canon",
+ "subject": "Apollo",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La poussière",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la Lune sent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la POUDRE à canon ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "ça sent la poudre !",
+   "on": "poudre"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la poussière de la Lune sent la poudre à canon ?"
+   ]
+  },
+  {
+   "say": [
+    "Après leurs sorties, les astronautes d'Apollo rentraient dans le module avec de la poussière collée partout,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "de la poussière",
+     "size": "l",
+     "on": "poussière"
+    },
+    {
+     "t": "text",
+     "text": "collée partout !",
+     "size": "m",
+     "color": "pink",
+     "on": "collée"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en retirant leur casque, ils sentaient une odeur de poudre brûlée, comme après un feu d'artifice,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une odeur de",
+     "size": "m",
+     "on": "odeur"
+    },
+    {
+     "t": "text",
+     "text": "poudre brûlée !",
+     "size": "xl",
+     "color": "gold",
+     "on": "poudre",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "feu d'artifice",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "cette poussière est aussi très coupante, parce qu'aucun vent ni aucune eau n'a jamais arrondi ses grains,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "très coupante",
+     "size": "l",
+     "color": "pink",
+     "on": "coupante"
+    },
+    {
+     "t": "text",
+     "text": "(jamais usée par l'eau ni le vent)",
+     "size": "s",
+     "color": "soft",
+     "on": "vent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle abîmait les combinaisons et irritait les yeux et le nez des astronautes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle abîme les combinaisons",
+     "size": "m",
+     "on": "combinaisons"
+    },
+    {
+     "t": "text",
+     "text": "et irrite le nez !",
+     "size": "l",
+     "color": "gold",
+     "on": "nez",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La poussière de la Lune sent la poudre à canon 🌕\n\nAprès leurs sorties sur la Lune, les astronautes des missions Apollo rentraient dans leur module couverts de poussière lunaire. En retirant leur casque, beaucoup ont décrit la même odeur : celle de la poudre à canon brûlée, comme après un feu d'artifice ! Cette poussière est aussi très abrasive : comme il n'y a ni vent ni eau sur la Lune, ses grains n'ont jamais été arrondis et restent coupants comme du verre. Elle abîmait les combinaisons et irritait les yeux et le nez des astronautes. Sur la photo, Buzz Aldrin sur la Lune. Un fait insolite de l'exploration spatiale.\n\nTu aimerais la sentir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#apollo",
+  "#astronaute",
+  "#insolite",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/history/the-smell-of-moondust/"
+ ]
+}

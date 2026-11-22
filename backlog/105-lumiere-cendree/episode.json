@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 104,
+ "title": "La lumière cendrée de la Lune vient de la Terre",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette lueur",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur la Lune vient",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la TERRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la lumière cendrée",
+   "on": "briller"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu as déjà vu la partie sombre de la Lune briller faiblement, quand il n'y a qu'un fin croissant ?"
+   ]
+  },
+  {
+   "say": [
+    "Cette faible lueur s'appelle la lumière cendrée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la lumière cendrée",
+     "size": "l",
+     "color": "pink",
+     "on": "cendrée",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle vient de la Terre, qui renvoie la lumière du Soleil vers la Lune, comme un miroir,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle vient de la Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "Terre"
+    },
+    {
+     "t": "text",
+     "text": "(qui renvoie le Soleil)",
+     "size": "s",
+     "color": "soft",
+     "on": "miroir"
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "on": "renvoie",
+     "from": "Terre",
+     "to": "Lune"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en clair, c'est un clair de Terre qui éclaire la Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un « clair de Terre »",
+     "size": "l",
+     "color": "pink",
+     "on": "clair de Terre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est Léonard de Vinci qui a été l'un des premiers à l'expliquer, il y a plus de cinq cents ans."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "expliqué par",
+     "size": "m",
+     "on": "expliquer"
+    },
+    {
+     "t": "text",
+     "text": "Léonard de Vinci !",
+     "size": "l",
+     "color": "gold",
+     "on": "Léonard",
+     "under": true
+    },
+    {
+     "t": "text",
+     "text": "(il y a + de 500 ans)",
+     "size": "s",
+     "color": "soft",
+     "on": "cinq cents"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La lumière cendrée de la Lune vient… de la Terre 🌒\n\nQuand la Lune n'est qu'un fin croissant, on peut souvent voir le reste de son disque briller faiblement : c'est la lumière cendrée. Cette lueur vient de la Terre ! Notre planète renvoie la lumière du Soleil vers la Lune, comme un grand miroir, et éclaire sa partie qui devrait être dans le noir : c'est un « clair de Terre ». Léonard de Vinci a été l'un des premiers à l'expliquer correctement, il y a plus de 500 ans. Observe-la quelques jours avant ou après la nouvelle Lune ! Sur la photo, la pleine Lune. Un phénomène d'astronomie à voir à l'œil nu.\n\nTu l'as déjà remarquée ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#lumierecendree",
+  "#leonarddevinci",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/earthshine/"
+ ]
+}

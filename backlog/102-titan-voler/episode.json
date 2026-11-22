@@ -1,0 +1,179 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 101,
+ "title": "Sur Titan, tu pourrais voler avec des ailes",
+ "subject": "Titan",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "titan",
+   "file": "assets/images/titan_lacs_cassini.jpg",
+   "credit": "Mers de Titan · radar Cassini (couleurs simulées) · NASA/JPL-Caltech/ASI/USGS",
+   "page": "https://science.nasa.gov/photojournal/titans-north/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.05,
+    0.3,
+    0.65,
+    0.65
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur cette lune,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tu pourrais",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "VOLER avec des ailes ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "voler comme un oiseau",
+   "on": "voler"
+  },
+  "photo": "titan"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur Titan, une lune de Saturne, tu pourrais voler en battant des ailes ?"
+   ]
+  },
+  {
+   "say": [
+    "Titan a une atmosphère très épaisse, environ une fois et demie la pression de la Terre au sol,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une atmosphère épaisse",
+     "size": "l",
+     "on": "atmosphère"
+    },
+    {
+     "t": "text",
+     "text": "× 1,5 la pression d'ici",
+     "size": "m",
+     "color": "gold",
+     "on": "une fois"
+    },
+    {
+     "t": "sketch",
+     "kind": "clouds",
+     "on": "épaisse",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sa gravité est très faible, à peine quatorze pour cent de celle de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "gravité :",
+     "size": "m",
+     "on": "gravité"
+    },
+    {
+     "t": "text",
+     "text": "14 % seulement !",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatorze",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, avec des ailes attachées aux bras, un humain pourrait décoller en les battant,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des ailes aux bras",
+     "size": "m",
+     "on": "ailes"
+    },
+    {
+     "t": "text",
+     "text": "→ tu décolles !",
+     "size": "l",
+     "color": "gold",
+     "on": "décoller"
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais il faudrait une combinaison bien chauffée, car il y fait environ moins cent quatre-vingts degrés."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "mais il fait",
+     "size": "m",
+     "on": "mais"
+    },
+    {
+     "t": "text",
+     "text": "−180 °C !",
+     "size": "xl",
+     "color": "pink",
+     "on": "moins",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "degrés",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur Titan, tu pourrais voler en battant des ailes 🪽\n\nTitan, la plus grande lune de Saturne, a une atmosphère très épaisse : la pression au sol y est environ 1,5 fois celle de la Terre, et l'air y est bien plus dense. En plus, sa gravité ne fait qu'environ 14 % de celle de la Terre. Résultat : avec des ailes attachées aux bras, un humain pourrait réellement s'envoler en les battant ! Il faudrait quand même une combinaison chauffée et une réserve d'oxygène, car il y fait environ −180 °C. C'est d'ailleurs un drone volant, Dragonfly, que la NASA prévoit d'y envoyer. Sur l'image, Titan vue au radar par Cassini.\n\nTu essaierais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#titan",
+  "#saturne",
+  "#voler",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/moons/titan/facts/",
+  "https://science.nasa.gov/mission/dragonfly/"
+ ]
+}

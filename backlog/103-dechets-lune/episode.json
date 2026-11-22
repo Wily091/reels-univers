@@ -1,0 +1,147 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 102,
+ "title": "Les astronautes ont laissé 96 sacs de déchets sur la Lune",
+ "subject": "Apollo",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "empreinte",
+   "file": "assets/images/lune_empreinte_apollo11.jpg",
+   "credit": "Empreinte d'Apollo 11 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_bootprint.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les astronautes ont laissé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "96 sacs de",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "DÉCHETS sur la Lune ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "96 sacs !",
+   "on": "sacs"
+  },
+  "photo": "empreinte"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les astronautes d'Apollo ont laissé quatre-vingt-seize sacs de déchets sur la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Pour pouvoir rapporter des roches lunaires, il fallait alléger le module au maximum,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pour rapporter des roches",
+     "size": "m",
+     "on": "roches"
+    },
+    {
+     "t": "text",
+     "text": "il faut alléger !",
+     "size": "l",
+     "color": "pink",
+     "on": "alléger"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, ils ont laissé sur place tout ce qui ne servait plus, dont quatre-vingt-seize sacs de déchets,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "96 sacs",
+     "size": "xl",
+     "color": "gold",
+     "on": "quatre-vingt-seize",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de déchets",
+     "size": "m",
+     "on": "déchets"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dedans, il y avait même les excréments des astronautes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dedans : leurs crottes !",
+     "size": "l",
+     "color": "pink",
+     "on": "excréments"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et aujourd'hui, des scientifiques aimeraient bien les récupérer, pour savoir si des microbes ont survécu là-haut."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des microbes ont-ils survécu ?",
+     "size": "m",
+     "color": "gold",
+     "on": "microbes",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les astronautes d'Apollo ont laissé 96 sacs de déchets sur la Lune 🌕\n\nPour pouvoir rapporter le plus possible de roches lunaires, les astronautes des missions Apollo devaient alléger leur module au maximum avant de repartir. Ils ont donc laissé sur la Lune tout ce qui ne servait plus : du matériel, des outils… et 96 sacs de déchets, dont des sacs contenant leurs excréments ! Aujourd'hui, certains scientifiques aimeraient récupérer ces sacs pour savoir si des microbes ont pu survivre des décennies sur la Lune. Sur la photo, une empreinte laissée par Apollo 11. Un fait insolite de l'exploration spatiale.\n\nTu pensais qu'ils avaient laissé quoi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo",
+  "#lune",
+  "#insolite",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/history/",
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

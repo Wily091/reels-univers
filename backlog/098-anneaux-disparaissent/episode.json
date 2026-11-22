@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 97,
+ "title": "Les anneaux de Saturne sont en train de disparaître",
+ "subject": "Saturne",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "saturne",
+   "file": "assets/images/saturne_cassini.jpg",
+   "credit": "Saturne vue par Cassini · NASA/JPL/Space Science Institute",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.06,
+    0,
+    0.88,
+    1
+   ],
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les anneaux de Saturne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sont en train",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de DISPARAÎTRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "ils disparaissent !",
+   "on": "anneaux"
+  },
+  "photo": "saturne"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les anneaux de Saturne sont en train de disparaître ?"
+   ]
+  },
+  {
+   "say": [
+    "Ils sont faits de morceaux de glace, et ces morceaux tombent petit à petit sur la planète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des morceaux de glace",
+     "size": "m",
+     "on": "glace"
+    },
+    {
+     "t": "text",
+     "text": "tombent sur Saturne",
+     "size": "l",
+     "color": "pink",
+     "on": "tombent"
+    },
+    {
+     "t": "sketch",
+     "kind": "arrowdown",
+     "on": "tombent",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "attirés par sa gravité et par son champ magnétique, comme une pluie d'anneaux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une « pluie d'anneaux »",
+     "size": "l",
+     "color": "gold",
+     "on": "pluie",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et selon la NASA, ils pourraient avoir presque disparu d'ici environ trois cents millions d'années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "disparus d'ici",
+     "size": "m",
+     "on": "disparu"
+    },
+    {
+     "t": "text",
+     "text": "~ 300 millions d'années",
+     "size": "l",
+     "color": "pink",
+     "on": "trois cents"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "années",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "donc on a de la chance, car on vit à une époque où Saturne a encore ses magnifiques anneaux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "on a de la chance !",
+     "size": "l",
+     "color": "gold",
+     "on": "chance",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les anneaux de Saturne sont en train de disparaître 🪐\n\nLes célèbres anneaux de Saturne sont faits de morceaux de glace et de roche. Mais petit à petit, ces particules tombent sur la planète, attirées par sa gravité et son champ magnétique : les scientifiques parlent de « pluie d'anneaux ». Selon une étude de la NASA publiée en 2018, les anneaux pourraient avoir presque disparu d'ici environ 300 millions d'années. À l'échelle de l'univers, c'est très court ! On a donc la chance de vivre à une époque où Saturne porte encore ses magnifiques anneaux. Sur la photo, Saturne vue par Cassini.\n\nTu es content de vivre à la bonne époque ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#saturne",
+  "#anneaux",
+  "#nasa",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/research-suggests-saturns-rings-are-disappearing/",
+  "https://science.nasa.gov/saturn/facts/"
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 96,
+ "title": "Il y a des tremblements de terre sur la Lune",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a des",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "TREMBLEMENTS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la Lune tremble !",
+   "on": "tremblements"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il y a des tremblements de terre sur la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Les astronautes d'Apollo ont laissé des sismomètres là-haut, qui ont enregistré des séismes de mille neuf cent soixante-neuf à mille neuf cent soixante-dix-sept,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des sismomètres Apollo",
+     "size": "m",
+     "on": "sismomètres"
+    },
+    {
+     "t": "text",
+     "text": "1969 → 1977",
+     "size": "l",
+     "color": "gold",
+     "on": "mille neuf cent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ils ont mesuré des milliers de séismes lunaires,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des milliers",
+     "size": "xl",
+     "color": "pink",
+     "on": "milliers"
+    },
+    {
+     "t": "text",
+     "text": "de séismes lunaires !",
+     "size": "m",
+     "on": "séismes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "certains, près de la surface, ont duré jusqu'à dix minutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jusqu'à 10 minutes !",
+     "size": "l",
+     "color": "gold",
+     "on": "dix minutes",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "duré",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce que la Lune, sèche et froide, vibre longtemps, un peu comme une cloche qu'on aurait frappée."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle vibre longtemps",
+     "size": "m",
+     "on": "vibre"
+    },
+    {
+     "t": "text",
+     "text": "comme une cloche !",
+     "size": "l",
+     "color": "pink",
+     "on": "cloche",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il y a des tremblements de terre sur la Lune 🌕\n\nLes astronautes des missions Apollo ont installé des sismomètres sur la Lune, qui ont fonctionné de 1969 à 1977. Ils ont enregistré des milliers de « séismes lunaires » ! Certains, proches de la surface, ont duré jusqu'à dix minutes, alors que sur Terre, la plupart des séismes ne durent que quelques secondes. La raison : la Lune est sèche, froide et rigide, elle vibre donc longtemps, un peu comme une cloche qu'on aurait frappée. Sur la photo, la pleine Lune. Un fait d'astronomie qui fait trembler.\n\nTu pensais que la Lune était immobile ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#seisme",
+  "#apollo",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/moonquakes/",
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

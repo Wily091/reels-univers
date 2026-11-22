@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 106,
+ "title": "Une super Lune peut paraître 14 % plus grande",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une « super Lune »",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "paraît 14 % + grande",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "et 30 % + BRILLANTE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la super Lune !",
+   "on": "brillantes"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que certaines pleines Lunes paraissent plus grandes et plus brillantes que d'autres ?"
+   ]
+  },
+  {
+   "say": [
+    "La Lune ne tourne pas autour de la Terre en faisant un cercle parfait, mais une sorte d'ovale,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas un cercle :",
+     "size": "m",
+     "on": "cercle"
+    },
+    {
+     "t": "text",
+     "text": "un ovale !",
+     "size": "l",
+     "color": "pink",
+     "on": "ovale"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, elle est parfois plus proche de nous, et quand c'est la pleine Lune à ce moment-là, on parle de super Lune,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ proche + pleine Lune",
+     "size": "m",
+     "on": "proche"
+    },
+    {
+     "t": "text",
+     "text": "= une super Lune !",
+     "size": "l",
+     "color": "gold",
+     "on": "super Lune",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle peut alors paraître jusqu'à quatorze pour cent plus grande et trente pour cent plus brillante,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jusqu'à + 14 % de taille",
+     "size": "l",
+     "color": "pink",
+     "on": "quatorze"
+    },
+    {
+     "t": "text",
+     "text": "et + 30 % de lumière",
+     "size": "m",
+     "color": "gold",
+     "on": "trente"
+    }
+   ]
+  },
+  {
+   "say": [
+    "comparée à une pleine Lune quand elle est au plus loin."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vs la Lune la + lointaine",
+     "size": "m",
+     "on": "loin",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "Lune",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une super Lune peut paraître 14 % plus grande et 30 % plus brillante 🌕\n\nLa Lune ne tourne pas autour de la Terre en suivant un cercle parfait, mais une orbite légèrement ovale. Elle est donc parfois plus proche de nous, parfois plus éloignée. Quand la pleine Lune tombe au moment où elle est au plus près, on parle de « super Lune ». Selon la NASA, elle peut alors paraître jusqu'à 14 % plus grande et 30 % plus brillante qu'une pleine Lune au plus loin. La différence est subtile à l'œil nu, mais elle se voit en photo ! Sur la photo, la pleine Lune. Un rendez-vous d'astronomie à guetter.\n\nTu as déjà vu une super Lune ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#superlune",
+  "#lune",
+  "#pleinelune",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/moon/supermoon/"
+ ]
+}

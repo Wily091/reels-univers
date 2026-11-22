@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 105,
+ "title": "Les anneaux de Saturne deviennent invisibles tous les 15 ans",
+ "subject": "Saturne",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "saturne",
+   "file": "assets/images/saturne_cassini.jpg",
+   "credit": "Saturne vue par Cassini · NASA/JPL/Space Science Institute",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.06,
+    0,
+    0.88,
+    1
+   ],
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Tous les 15 ans,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "les anneaux de Saturne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "DISPARAISSENT ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des anneaux invisibles",
+   "on": "invisibles"
+  },
+  "photo": "saturne"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que tous les quinze ans environ, les anneaux de Saturne deviennent presque invisibles depuis la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Saturne est inclinée, et en tournant autour du Soleil, elle nous montre ses anneaux sous des angles différents,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Saturne est penchée",
+     "size": "m",
+     "on": "inclinée"
+    },
+    {
+     "t": "text",
+     "text": "l'angle change",
+     "size": "l",
+     "color": "gold",
+     "on": "angles"
+    },
+    {
+     "t": "sketch",
+     "kind": "planet",
+     "on": "anneaux",
+     "row": "same",
+     "ring": true,
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et parfois, on les voit exactement par la tranche,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "vus par la tranche",
+     "size": "l",
+     "color": "pink",
+     "on": "tranche",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "comme ils ne font qu'une dizaine de mètres d'épaisseur, ils disparaissent presque complètement,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 10 m d'épaisseur",
+     "size": "m",
+     "on": "dizaine"
+    },
+    {
+     "t": "text",
+     "text": "→ presque invisibles !",
+     "size": "l",
+     "color": "pink",
+     "on": "disparaissent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est justement arrivé en mars deux mille vingt-cinq."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "dernière fois :",
+     "size": "m",
+     "on": "arrivé"
+    },
+    {
+     "t": "text",
+     "text": "mars 2025 !",
+     "size": "xl",
+     "color": "gold",
+     "on": "mars",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Tous les 15 ans environ, les anneaux de Saturne deviennent presque invisibles 🪐\n\nSaturne est inclinée sur son orbite. En tournant autour du Soleil, elle nous présente donc ses anneaux sous des angles qui changent au fil des années. Environ tous les 13 à 15 ans, la Terre se retrouve exactement dans le plan des anneaux : on les voit alors par la tranche. Comme les anneaux principaux ne font qu'une dizaine de mètres d'épaisseur, ils deviennent presque invisibles depuis la Terre ! C'est justement arrivé en mars 2025. Sur la photo, Saturne vue par la sonde Cassini. Un fait d'astronomie surprenant.\n\nTu savais ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#saturne",
+  "#anneaux",
+  "#astronomie",
+  "#ciel",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/facts/",
+  "https://science.nasa.gov/solar-system/skywatching/"
+ ]
+}

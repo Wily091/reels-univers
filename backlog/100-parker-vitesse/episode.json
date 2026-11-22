@@ -1,0 +1,169 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 99,
+ "title": "La sonde Parker est l'objet le plus rapide jamais construit",
+ "subject": "Parker",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde file à",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "près de",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "700 000 km/h ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'objet le + rapide !",
+   "on": "rapide"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'objet le plus rapide jamais construit par l'humain fonce vers le Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est la sonde Parker Solar Probe de la NASA, qui étudie le Soleil de tout près,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Parker Solar Probe",
+     "size": "l",
+     "color": "pink",
+     "on": "Parker"
+    },
+    {
+     "t": "text",
+     "text": "étudie le Soleil",
+     "size": "m",
+     "on": "étudie"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en décembre deux mille vingt-quatre, elle est passée à environ six millions de kilomètres de sa surface,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "décembre 2024 :",
+     "size": "m",
+     "on": "décembre"
+    },
+    {
+     "t": "text",
+     "text": "à ~ 6 millions de km",
+     "size": "l",
+     "color": "gold",
+     "on": "six millions"
+    },
+    {
+     "t": "text",
+     "text": "du Soleil !",
+     "size": "m",
+     "on": "surface"
+    }
+   ]
+  },
+  {
+   "say": [
+    "à une vitesse d'environ six cent quatre-vingt-dix mille kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 690 000 km/h",
+     "size": "xl",
+     "color": "pink",
+     "on": "six cent",
+     "count": {
+      "to": 690000,
+      "fmt": "~ {n} km/h"
+     },
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, à cette vitesse, tu ferais Paris New York en une trentaine de secondes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Paris → New York",
+     "size": "l",
+     "on": "Paris"
+    },
+    {
+     "t": "text",
+     "text": "en ~ 30 secondes !",
+     "size": "l",
+     "color": "gold",
+     "on": "trentaine",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La sonde Parker est l'objet le plus rapide jamais construit par l'humain 🚀\n\nLa sonde Parker Solar Probe de la NASA plonge régulièrement vers le Soleil pour l'étudier de très près. Le 24 décembre 2024, elle est passée à environ 6 millions de kilomètres de sa surface, à une vitesse d'environ 690 000 km/h : un record absolu pour un objet fabriqué par l'humain ! À cette vitesse, on ferait Paris–New York en une trentaine de secondes. Pour survivre, la sonde est protégée par un bouclier thermique qui supporte plus de 1 000 °C. Sur la photo, le Soleil vu par le satellite SDO. Un exploit de l'exploration spatiale.\n\nTu imagines aller aussi vite ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#parkersolarprobe",
+  "#soleil",
+  "#nasa",
+  "#record",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/parker-solar-probe/"
+ ]
+}

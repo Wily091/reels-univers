@@ -1,0 +1,173 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 103,
+ "title": "Les taches du Soleil sont plus grandes que la Terre",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces taches",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur le Soleil sont",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "+ GRANDES que la Terre ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des taches géantes !",
+   "on": "taches"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le Soleil a des taches plus grandes que la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle les taches solaires, et elles apparaissent plus sombres que le reste du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les taches solaires",
+     "size": "l",
+     "color": "pink",
+     "on": "taches"
+    },
+    {
+     "t": "text",
+     "text": "+ sombres",
+     "size": "m",
+     "on": "sombres"
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce qu'elles sont plus froides, environ quatre mille degrés au lieu de cinq mille cinq cents,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 4 000 °C",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre mille"
+    },
+    {
+     "t": "text",
+     "text": "au lieu de 5 500 °C",
+     "size": "m",
+     "on": "cinq mille"
+    },
+    {
+     "t": "sketch",
+     "kind": "thermo",
+     "on": "froides",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et beaucoup d'entre elles sont plus grandes que notre planète tout entière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ grandes que",
+     "size": "m",
+     "on": "grandes"
+    },
+    {
+     "t": "text",
+     "text": "la Terre !",
+     "size": "xl",
+     "color": "pink",
+     "on": "planète",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "planet",
+     "on": "planète",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles sont créées par le champ magnétique du Soleil, qui bloque une partie de sa chaleur."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "causées par",
+     "size": "m",
+     "on": "créées"
+    },
+    {
+     "t": "text",
+     "text": "le magnétisme du Soleil",
+     "size": "l",
+     "color": "gold",
+     "on": "magnétique",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les taches du Soleil sont souvent plus grandes que la Terre ☀️\n\nLe Soleil est parfois parsemé de taches sombres : les taches solaires. Elles paraissent sombres parce qu'elles sont plus « froides » que le reste de la surface, environ 4 000 °C au lieu de 5 500 °C. Et beaucoup sont plus grandes que la Terre tout entière ! Ces taches sont créées par le champ magnétique du Soleil, qui freine la remontée de la chaleur. Leur nombre augmente et diminue selon un cycle d'environ 11 ans. Attention : ne regarde jamais le Soleil sans protection adaptée ! Sur la photo, le Soleil vu par le satellite SDO.\n\nTu savais que le Soleil avait des taches ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#tachesolaire",
+  "#astronomie",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/",
+  "https://spaceplace.nasa.gov/solar-activity/"
+ ]
+}
