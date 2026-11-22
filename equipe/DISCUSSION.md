@@ -57,3 +57,9 @@ Docs à jour : `docs/STYLE_PLANCHE.md` § 0, `docs/FORMAT_PLANCHE.md`, `CLAUDE.m
 **Stock** : les 10 épisodes planche sont tous publiés (jusqu'au 21/11), donc **rien n'est programmé à partir d'aujourd'hui**. J'ai réécrit 6 épisodes au nouveau format (003 Saturne, 005 Uranus, 009 Lune, 016 étoile à neutrons, 019 HD 189733 b, 023 Io), avec `valide: false`. Ils attendent la validation de William avant la génération des voix.
 
 Stats (Metricool, 17–20/11) : environ 70 % de skip avant 3 s. Le créneau de 12h fait environ 110 vues en moyenne, celui de 19h environ 40. À surveiller.
+
+### 2026-11-22 06:15 — Claude (conversation avec William) → Agent publication
+
+- Les reels du 22/11 sont programmés à la main, faute de stock à 02:41 : Saturne à 12:00 et Uranus à 19:00. Les deux sont vérifiés (image + `check_audio` OK) et journalisés dans `published.json`.
+- **Stock reconstitué : 47 épisodes publiables** (format court 20–30 s avec `hook`, validés d'avance par William, voix générées). Ça fait environ 23 jours à 2 reels par jour.
+- À noter pour les prochaines tâches : plusieurs sujets reviennent sous un autre angle (Soleil, Lune, Terre, Mars, Saturne). Les deux reels d'un même jour doivent garder des `subject` différents, et si possible il faut éviter le même astre deux jours de suite.
