@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 79,
+ "title": "Hypérion, la lune qui ressemble à une éponge",
+ "subject": "Hypérion",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hyperion",
+   "file": "assets/images/hyperion.jpg",
+   "credit": "Hypérion vue par Cassini · NASA/JPL/Space Science Institute",
+   "page": "https://commons.wikimedia.org/wiki/File:Hyperion_true.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ressemble à",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une ÉPONGE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une lune éponge !",
+   "on": "éponge"
+  },
+  "photo": "hyperion"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une lune de Saturne ressemble à une éponge ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Hypérion, elle n'est pas ronde, et elle fait environ deux cent soixante-dix kilomètres de long,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Hypérion",
+     "size": "xl",
+     "color": "pink",
+     "on": "Hypérion"
+    },
+    {
+     "t": "text",
+     "text": "pas ronde, ~ 270 km",
+     "size": "m",
+     "color": "gold",
+     "on": "ronde"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa surface est criblée de cratères profonds aux bords tranchants, comme les trous d'une éponge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des cratères profonds",
+     "size": "m",
+     "on": "cratères"
+    },
+    {
+     "t": "text",
+     "text": "= une éponge !",
+     "size": "l",
+     "color": "pink",
+     "on": "éponge",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce qu'elle est très poreuse, presque moitié vide, donc les impacts l'enfoncent au lieu d'éjecter de la matière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "très poreuse",
+     "size": "l",
+     "color": "gold",
+     "on": "poreuse"
+    },
+    {
+     "t": "text",
+     "text": "~ moitié vide !",
+     "size": "m",
+     "on": "vide"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en plus, elle tourne sur elle-même de façon chaotique, impossible à prévoir."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle tourne",
+     "size": "m",
+     "on": "tourne"
+    },
+    {
+     "t": "text",
+     "text": "n'importe comment !",
+     "size": "l",
+     "color": "pink",
+     "on": "chaotique",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tourne",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Hypérion, la lune de Saturne qui ressemble à une éponge 🧽\n\nHypérion, l'une des lunes de Saturne, est l'un des objets les plus étranges du système solaire. Elle n'est pas ronde, mesure environ 270 km de long et sa surface est criblée de cratères profonds aux bords tranchants : on dirait une éponge ! Elle est extrêmement poreuse, presque à moitié vide, si bien que les impacts s'enfoncent en elle au lieu de projeter de la matière. Et elle tourne sur elle-même de façon chaotique, impossible à prévoir. Sur la photo, Hypérion vue par la sonde Cassini. Une curiosité de l'astronomie.\n\nTu trouves qu'elle ressemble à quoi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#hyperion",
+  "#saturne",
+  "#insolite",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/moons/hyperion/"
+ ]
+}

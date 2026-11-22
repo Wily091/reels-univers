@@ -1,0 +1,175 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 73,
+ "title": "Des milliers de galaxies dans un minuscule coin de ciel",
+ "subject": "Deep Field",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Chaque point",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur cette photo",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est une GALAXIE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "~ 10 000 galaxies !",
+   "on": "galaxie"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que sur cette photo, presque chaque point lumineux est une galaxie entière ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est le champ ultra-profond de Hubble, un tout petit morceau de ciel qui avait l'air vide,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le champ ultra-profond",
+     "size": "l",
+     "color": "pink",
+     "on": "champ"
+    },
+    {
+     "t": "text",
+     "text": "un coin de ciel « vide »",
+     "size": "m",
+     "on": "vide"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce morceau est aussi petit qu'un grain de sable tenu à bout de bras,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "grand comme",
+     "size": "m",
+     "on": "petit"
+    },
+    {
+     "t": "text",
+     "text": "un grain de sable",
+     "size": "l",
+     "color": "gold",
+     "on": "sable",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "à bout de bras !",
+     "size": "m",
+     "on": "bras"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et pourtant, Hubble y a compté environ dix mille galaxies,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 10 000",
+     "size": "xl",
+     "color": "pink",
+     "on": "dix mille",
+     "count": {
+      "to": 10000,
+      "fmt": "~ {n}"
+     }
+    },
+    {
+     "t": "text",
+     "text": "galaxies !",
+     "size": "l",
+     "on": "galaxies"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et chacune contient des milliards d'étoiles, ce qui donne une idée de l'immensité de l'univers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "chacune : des milliards",
+     "size": "m",
+     "on": "milliards"
+    },
+    {
+     "t": "text",
+     "text": "d'étoiles !",
+     "size": "l",
+     "color": "gold",
+     "on": "étoiles",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Chaque point de cette image est une galaxie entière 🌌\n\nEn 2004, le télescope spatial Hubble a observé pendant des semaines un minuscule morceau de ciel qui semblait vide, pas plus grand qu'un grain de sable tenu à bout de bras. Résultat : le « Hubble Ultra Deep Field », une image où l'on compte environ 10 000 galaxies ! Chacune contient des milliards d'étoiles, et certaines sont si lointaines qu'on les voit telles qu'elles étaient il y a plus de 13 milliards d'années. Une seule image qui montre l'immensité de l'univers. Un chef-d'œuvre de l'astronomie.\n\nÇa te donne le vertige ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#hubble",
+  "#galaxies",
+  "#univers",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-deep-fields/"
+ ]
+}

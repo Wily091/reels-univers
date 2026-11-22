@@ -1,0 +1,179 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 83,
+ "title": "Il y a un hexagone géant au pôle nord de Saturne",
+ "subject": "Saturne",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hexagone",
+   "file": "assets/images/saturne_hexagone.jpg",
+   "credit": "L'hexagone de Saturne · NASA/JPL-Caltech/Space Science Institute",
+   "page": "https://science.nasa.gov/saturn/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Au pôle de Saturne,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "il y a un",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "HEXAGONE géant ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un hexagone géant !",
+   "on": "hexagone"
+  },
+  "photo": "hexagone"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'au pôle nord de Saturne, il y a un hexagone géant ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est un courant de vents qui tourne autour du pôle en formant six côtés presque parfaits,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des vents qui forment",
+     "size": "m",
+     "on": "vents"
+    },
+    {
+     "t": "text",
+     "text": "6 côtés !",
+     "size": "xl",
+     "color": "pink",
+     "on": "six",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et chaque côté est plus long que le diamètre de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 côté >",
+     "size": "m",
+     "on": "côté"
+    },
+    {
+     "t": "text",
+     "text": "la largeur de la Terre !",
+     "size": "l",
+     "color": "gold",
+     "on": "Terre"
+    },
+    {
+     "t": "sketch",
+     "kind": "planet",
+     "on": "Terre",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été découvert grâce aux sondes Voyager, au début des années quatre-vingt,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "découvert par Voyager",
+     "size": "m",
+     "on": "Voyager"
+    },
+    {
+     "t": "text",
+     "text": "années 1980",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sondes",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la sonde Cassini l'a même vu changer de couleur, passant du bleu au doré."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Cassini l'a vu changer",
+     "size": "m",
+     "on": "Cassini"
+    },
+    {
+     "t": "text",
+     "text": "du bleu au doré !",
+     "size": "l",
+     "color": "pink",
+     "on": "doré",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Il y a un hexagone géant au pôle nord de Saturne 🪐\n\nAu pôle nord de Saturne tourne un étonnant courant de vents qui dessine un hexagone presque parfait. Chacun de ses six côtés est plus long que le diamètre de la Terre ! Découvert grâce aux sondes Voyager au début des années 1980, il a été étudié en détail par la sonde Cassini, qui l'a même vu changer de couleur, du bleu vers le doré, au fil des saisons de Saturne. Les scientifiques pensent que sa forme vient de différences de vitesse entre les vents. Sur l'image, l'hexagone vu par Cassini. L'un des phénomènes les plus étranges de l'astronomie.\n\nTu l'aurais cru ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#saturne",
+  "#hexagone",
+  "#cassini",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/saturn/facts/",
+  "https://www.jpl.nasa.gov/news/nasa-cassini-spacecraft-reveals-clues-about-saturns-hexagon/"
+ ]
+}

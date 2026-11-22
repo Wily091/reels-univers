@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 82,
+ "title": "La toute première photo de la Terre depuis l'espace date de 1946",
+ "subject": "La Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "photo1946",
+   "file": "assets/images/premiere_photo_terre_1946.jpg",
+   "credit": "1re photo de la Terre depuis l'espace (1946) · US Army/WSMR",
+   "page": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg",
+   "license": "Domaine public"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La 1re photo",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la Terre depuis l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "date de 1946 ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "24 octobre 1946",
+   "on": "photo"
+  },
+  "photo": "photo1946"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la toute première photo de la Terre prise depuis l'espace date de mille neuf cent quarante-six ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle a été prise le vingt-quatre octobre mille neuf cent quarante-six, au Nouveau-Mexique, aux États-Unis,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "24 octobre 1946",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-quatre"
+    },
+    {
+     "t": "text",
+     "text": "au Nouveau-Mexique",
+     "size": "m",
+     "on": "Nouveau-Mexique"
+    }
+   ]
+  },
+  {
+   "say": [
+    "par une caméra fixée sur une fusée V-deux, qui est montée à environ cent cinq kilomètres d'altitude,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une caméra sur une fusée",
+     "size": "m",
+     "on": "caméra"
+    },
+    {
+     "t": "text",
+     "text": "à ~ 105 km !",
+     "size": "xl",
+     "color": "pink",
+     "on": "cent cinq",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "fusée",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la pellicule a survécu à la chute, protégée dans une boîte en acier,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la pellicule a survécu",
+     "size": "l",
+     "color": "gold",
+     "on": "survécu"
+    },
+    {
+     "t": "text",
+     "text": "(dans une boîte en acier)",
+     "size": "s",
+     "color": "soft",
+     "on": "acier"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était en noir et blanc, et pour la première fois, on voyait la courbure de notre planète."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en noir et blanc…",
+     "size": "m",
+     "on": "noir"
+    },
+    {
+     "t": "text",
+     "text": "la courbure de la Terre !",
+     "size": "l",
+     "color": "pink",
+     "on": "courbure",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La toute première photo de la Terre depuis l'espace date de 1946 📸\n\nLe 24 octobre 1946, au Nouveau-Mexique, une caméra fixée sur une fusée V-2 a pris la toute première photo de la Terre depuis l'espace, à environ 105 km d'altitude. La fusée est retombée, mais la pellicule, protégée dans une boîte en acier, a survécu ! Le résultat : une image en noir et blanc où l'on voit, pour la première fois, la courbure de notre planète. Onze ans avant le premier satellite, c'était déjà une révolution. Sur l'image, cette photo historique. Un moment clé de l'histoire de l'espace.\n\nTu l'avais déjà vue ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#histoire",
+  "#photo",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.airandspacemag.com/space/the-first-photo-from-space-13721411/",
+  "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg"
+ ]
+}

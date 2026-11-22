@@ -1,0 +1,172 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 75,
+ "title": "Tu peux voir une pouponnière d'étoiles à l'œil nu",
+ "subject": "Orion",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "orion",
+   "file": "assets/images/orion_nebuleuse.jpg",
+   "credit": "Nébuleuse d'Orion · NASA, ESA, M. Robberto",
+   "page": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Des étoiles naissent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "et tu peux les voir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à l'ŒIL NU ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une maternité d'étoiles",
+   "on": "étoiles"
+  },
+  "photo": "orion"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que tu peux voir un endroit où naissent des étoiles, à l'œil nu ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est la nébuleuse d'Orion, juste sous les trois étoiles alignées de la ceinture d'Orion,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la nébuleuse d'Orion",
+     "size": "l",
+     "color": "pink",
+     "on": "nébuleuse"
+    },
+    {
+     "t": "text",
+     "text": "sous la ceinture d'Orion",
+     "size": "m",
+     "on": "ceinture"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "étoiles alignées",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle se trouve à environ mille trois cent quarante années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à ~ 1 340",
+     "size": "xl",
+     "color": "gold",
+     "on": "mille trois cent"
+    },
+    {
+     "t": "text",
+     "text": "années-lumière",
+     "size": "m",
+     "on": "années-lumière",
+     "row": "same"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est un nuage de gaz géant où des milliers d'étoiles sont en train de se former,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un nuage géant",
+     "size": "m",
+     "on": "nuage"
+    },
+    {
+     "t": "text",
+     "text": "des milliers d'étoiles",
+     "size": "l",
+     "color": "pink",
+     "on": "milliers",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "en train de naître !",
+     "size": "m",
+     "on": "former"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors l'hiver, regarde Orion et tu verras une petite tache floue, c'est elle."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en hiver : cherche",
+     "size": "m",
+     "on": "hiver"
+    },
+    {
+     "t": "text",
+     "text": "une petite tache floue",
+     "size": "l",
+     "color": "gold",
+     "on": "tache",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La nébuleuse d'Orion : une pouponnière d'étoiles visible à l'œil nu ✨\n\nSous les trois étoiles alignées de la ceinture d'Orion, on peut apercevoir à l'œil nu une petite tache floue : c'est la nébuleuse d'Orion, à environ 1 340 années-lumière. Ce gigantesque nuage de gaz et de poussière est l'une des pouponnières d'étoiles les plus proches de nous : des milliers d'étoiles y sont en train de naître. En hiver, depuis un endroit sombre, essaie de la repérer ! Sur l'image, la nébuleuse d'Orion vue par le télescope spatial Hubble. De l'astronomie à observer soi-même.\n\nTu vas la chercher ce soir ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#orion",
+  "#nebuleuse",
+  "#etoiles",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/"
+ ]
+}

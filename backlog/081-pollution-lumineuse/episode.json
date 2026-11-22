@@ -1,0 +1,173 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 80,
+ "title": "Plus d'un tiers de l'humanité ne voit plus la Voie lactée",
+ "subject": "Voie lactée",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "1 humain sur 3",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ne peut plus voir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la VOIE LACTÉE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le ciel disparaît",
+   "on": "Voie lactée"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que plus d'un tiers de l'humanité ne peut plus voir la Voie lactée ?"
+   ]
+  },
+  {
+   "say": [
+    "À cause de la lumière des villes, environ quatre-vingts pour cent des humains vivent sous un ciel pollué par la lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "80 % des humains",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingts"
+    },
+    {
+     "t": "text",
+     "text": "sous un ciel pollué",
+     "size": "m",
+     "on": "pollué"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en Europe, c'est encore pire, puisque la majorité des habitants ne voit plus la Voie lactée depuis chez eux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "en Europe :",
+     "size": "m",
+     "on": "Europe"
+    },
+    {
+     "t": "text",
+     "text": "la plupart ne la voient plus !",
+     "size": "m",
+     "color": "pink",
+     "on": "majorité"
+    }
+   ]
+  },
+  {
+   "say": [
+    "cette lumière éclaire le ciel et efface les étoiles les plus faibles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la lumière des villes",
+     "size": "m",
+     "on": "lumière"
+    },
+    {
+     "t": "text",
+     "text": "efface les étoiles",
+     "size": "l",
+     "color": "pink",
+     "on": "efface",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors pour la retrouver, il suffit souvent de s'éloigner des villes par une nuit sans Lune."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la solution :",
+     "size": "m",
+     "on": "retrouver"
+    },
+    {
+     "t": "text",
+     "text": "loin des villes",
+     "size": "l",
+     "color": "gold",
+     "on": "villes"
+    },
+    {
+     "t": "text",
+     "text": "nuit sans Lune",
+     "size": "m",
+     "on": "sans Lune",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Plus d'un tiers de l'humanité ne peut plus voir la Voie lactée 🌌\n\nSelon un grand atlas mondial publié en 2016, environ 80 % des humains vivent sous un ciel pollué par la lumière artificielle, et plus d'un tiers de l'humanité ne peut plus voir la Voie lactée depuis chez soi. En Europe, c'est la majorité des habitants ! La lumière des villes éclaire le ciel et efface les étoiles les plus faibles. Pour retrouver le spectacle, il suffit souvent de s'éloigner des villes par une nuit sans Lune. Sur l'image, la Terre la nuit vue par les satellites de la NASA. Un enjeu pour l'astronomie et la biodiversité.\n\nTu l'as déjà vue de tes yeux ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pollutionlumineuse",
+  "#voielactee",
+  "#cieletoile",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.science.org/doi/10.1126/sciadv.1600377",
+  "https://earthobservatory.nasa.gov/features/NightLights"
+ ]
+}

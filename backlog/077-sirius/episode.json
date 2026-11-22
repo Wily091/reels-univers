@@ -1,0 +1,183 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 76,
+ "title": "Sirius, l'étoile la plus brillante, cache une compagne",
+ "subject": "Sirius",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "sirius",
+   "file": "assets/images/sirius_hubble.jpg",
+   "credit": "Sirius A et B vues par Hubble · NASA, ESA, H. Bond, M. Barstow",
+   "page": "https://commons.wikimedia.org/wiki/File:Sirius_A_and_B_Hubble_photo.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "L'étoile la + brillante",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "du ciel est en fait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "DEUX étoiles ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "2 étoiles en 1 !",
+   "on": "brillante"
+  },
+  "photo": "sirius",
+  "annot": [
+   {
+    "text": "Sirius B",
+    "color": "pink",
+    "pos": "bl",
+    "arrow": [
+     0.38,
+     0.62
+    ]
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que l'étoile la plus brillante du ciel de nuit, c'est en fait deux étoiles ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Sirius, et elle se trouve à environ huit virgule six années-lumière, tout près de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Sirius",
+     "size": "xl",
+     "color": "pink",
+     "on": "Sirius"
+    },
+    {
+     "t": "text",
+     "text": "à 8,6 années-lumière",
+     "size": "m",
+     "color": "gold",
+     "on": "huit virgule"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle brille autant parce qu'elle est proche, et environ vingt-cinq fois plus lumineuse que le Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "proche +",
+     "size": "m",
+     "on": "proche"
+    },
+    {
+     "t": "text",
+     "text": "25 × + lumineuse",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-cinq"
+    },
+    {
+     "t": "text",
+     "text": "que le Soleil",
+     "size": "m",
+     "on": "Soleil"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et autour d'elle tourne une petite étoile, Sirius B, une naine blanche à peine plus grande que la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Sirius B",
+     "size": "l",
+     "color": "pink",
+     "on": "Sirius B"
+    },
+    {
+     "t": "text",
+     "text": "une naine blanche",
+     "size": "m",
+     "on": "naine"
+    },
+    {
+     "t": "text",
+     "text": "≈ taille de la Terre !",
+     "size": "m",
+     "color": "gold",
+     "on": "Terre",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "tellement dense qu'une cuillère de sa matière pèserait plusieurs tonnes."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 cuillère =",
+     "size": "m",
+     "on": "cuillère"
+    },
+    {
+     "t": "text",
+     "text": "plusieurs tonnes !",
+     "size": "xl",
+     "color": "pink",
+     "on": "tonnes",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sirius, l'étoile la plus brillante du ciel, cache une compagne ✨\n\nSirius est l'étoile la plus brillante du ciel nocturne. Elle se trouve à environ 8,6 années-lumière, tout près de nous à l'échelle de la galaxie, et elle est environ 25 fois plus lumineuse que le Soleil. Mais Sirius n'est pas seule : autour d'elle tourne Sirius B, une naine blanche à peine plus grande que la Terre et si dense qu'une cuillère de sa matière pèserait plusieurs tonnes. Sur l'image du télescope Hubble, le petit point en bas à gauche, c'est Sirius B. Un duo fascinant de l'astronomie.\n\nTu sais la repérer dans le ciel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#sirius",
+  "#etoile",
+  "#naineblanche",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/missions/hubble/hubble-finds-mass-of-white-dwarf-sirius-b/"
+ ]
+}

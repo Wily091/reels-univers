@@ -1,0 +1,166 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 78,
+ "title": "Callisto, le monde le plus criblé de cratères",
+ "subject": "Callisto",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "callisto",
+   "file": "assets/images/callisto.jpg",
+   "credit": "Callisto vue par Galileo · NASA/JPL/DLR",
+   "page": "https://commons.wikimedia.org/wiki/File:Callisto.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette lune est",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "le monde le + criblé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de CRATÈRES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des cratères partout !",
+   "on": "cratères"
+  },
+  "photo": "callisto"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le monde le plus couvert de cratères du système solaire est une lune de Jupiter ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Callisto, et c'est presque aussi grande que la planète Mercure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Callisto",
+     "size": "xl",
+     "color": "pink",
+     "on": "Callisto"
+    },
+    {
+     "t": "text",
+     "text": "≈ taille de Mercure",
+     "size": "m",
+     "color": "gold",
+     "on": "Mercure"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa surface est couverte de cratères, collés les uns aux autres, sans presque aucune zone intacte,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des cratères",
+     "size": "l",
+     "on": "cratères"
+    },
+    {
+     "t": "text",
+     "text": "partout !",
+     "size": "xl",
+     "color": "pink",
+     "on": "collés",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "parce qu'elle n'a presque pas changé depuis environ quatre milliards d'années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "inchangée depuis",
+     "size": "m",
+     "on": "changé"
+    },
+    {
+     "t": "text",
+     "text": "~ 4 milliards d'années",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre milliards"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "années",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup elle garde la mémoire de tous les impacts reçus depuis la jeunesse du système solaire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la mémoire de",
+     "size": "m",
+     "on": "mémoire"
+    },
+    {
+     "t": "text",
+     "text": "tous les impacts !",
+     "size": "l",
+     "color": "pink",
+     "on": "impacts",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Callisto, le monde le plus criblé de cratères du système solaire 🌑\n\nCallisto, l'une des quatre grandes lunes de Jupiter, est presque aussi grande que la planète Mercure. Sa surface est la plus couverte de cratères de tout le système solaire : ils se touchent presque tous ! Comme elle n'a quasiment pas d'activité géologique, sa surface n'a presque pas changé depuis environ 4 milliards d'années. Elle garde donc la trace de tous les impacts reçus depuis la jeunesse du système solaire. Sur la photo, Callisto vue par la sonde Galileo. Un livre d'histoire de l'astronomie à ciel ouvert.\n\nTu la connaissais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#callisto",
+  "#jupiter",
+  "#crateres",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/jupiter/jupiter-moons/callisto/"
+ ]
+}

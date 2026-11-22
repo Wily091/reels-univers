@@ -1,0 +1,176 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 77,
+ "title": "Sur l'astéroïde Vesta, une montagne de 22 km de haut",
+ "subject": "Vesta",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "vesta",
+   "file": "assets/images/vesta.jpg",
+   "credit": "Vesta vue par Dawn · NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+   "page": "https://commons.wikimedia.org/wiki/File:Vesta_full_mosaic.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Sur cet astéroïde,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une montagne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "2,5 × l'EVEREST ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "22 km de haut !",
+   "on": "montagne"
+  },
+  "photo": "vesta"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un astéroïde porte une des plus hautes montagnes du système solaire ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Vesta, il fait environ cinq cent trente kilomètres de large et il tourne entre Mars et Jupiter,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Vesta",
+     "size": "xl",
+     "color": "pink",
+     "on": "Vesta"
+    },
+    {
+     "t": "text",
+     "text": "~ 530 km de large",
+     "size": "m",
+     "color": "gold",
+     "on": "cinq cent trente"
+    },
+    {
+     "t": "text",
+     "text": "(entre Mars et Jupiter)",
+     "size": "s",
+     "color": "soft",
+     "on": "Mars"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et au pôle sud, au centre d'un immense cratère, se dresse un pic d'environ vingt-deux kilomètres de haut,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un pic de",
+     "size": "m",
+     "on": "pic"
+    },
+    {
+     "t": "text",
+     "text": "22 km !",
+     "size": "xl",
+     "color": "gold",
+     "on": "vingt-deux",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "haut",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est environ deux fois et demie la hauteur de l'Everest,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "≈ 2,5 × l'Everest",
+     "size": "l",
+     "color": "pink",
+     "on": "Everest"
+    },
+    {
+     "t": "sketch",
+     "kind": "compare",
+     "on": "hauteur",
+     "big": "pic",
+     "small": "Everest",
+     "ratio": 0.4,
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce cratère est la trace d'une collision géante qui a arraché une partie de l'astéroïde."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la trace d'une",
+     "size": "m",
+     "on": "trace"
+    },
+    {
+     "t": "text",
+     "text": "collision géante !",
+     "size": "l",
+     "color": "gold",
+     "on": "collision",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur l'astéroïde Vesta, une montagne de 22 km de haut ⛰️\n\nVesta, l'un des plus gros astéroïdes de la ceinture entre Mars et Jupiter, mesure environ 530 km de large. Au centre d'un immense cratère, près de son pôle sud, se dresse un pic d'environ 22 km de haut, soit à peu près deux fois et demie l'Everest ! C'est l'une des plus hautes montagnes du système solaire. Ce cratère géant est la trace d'une collision colossale qui a arraché une partie de l'astéroïde. Sur la photo, Vesta vue par la sonde Dawn de la NASA. Un relief extrême de l'astronomie.\n\nTu l'escaladerais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#vesta",
+  "#asteroide",
+  "#dawn",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/solar-system/asteroids/4-vesta/"
+ ]
+}

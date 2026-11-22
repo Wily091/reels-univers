@@ -1,0 +1,168 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 74,
+ "title": "Les Piliers de la Création, une pouponnière d'étoiles",
+ "subject": "Les Piliers",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "piliers",
+   "file": "assets/images/piliers_creation.jpg",
+   "credit": "Piliers de la Création · NASA, ESA, Hubble Heritage Team",
+   "page": "https://commons.wikimedia.org/wiki/File:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces piliers",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "font plusieurs",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ANNÉES-LUMIÈRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une pouponnière d'étoiles",
+   "on": "piliers"
+  },
+  "photo": "piliers"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que ces piliers de gaz mesurent plusieurs années-lumière de haut ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle les Piliers de la Création, et ils se trouvent dans la nébuleuse de l'Aigle,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les Piliers de la Création",
+     "size": "m",
+     "color": "pink",
+     "on": "Piliers"
+    },
+    {
+     "t": "text",
+     "text": "nébuleuse de l'Aigle",
+     "size": "l",
+     "color": "gold",
+     "on": "Aigle"
+    }
+   ]
+  },
+  {
+   "say": [
+    "à environ six mille cinq cents années-lumière de nous,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à ~ 6 500",
+     "size": "xl",
+     "color": "gold",
+     "on": "six mille"
+    },
+    {
+     "t": "text",
+     "text": "années-lumière",
+     "size": "m",
+     "on": "années-lumière",
+     "row": "same"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le plus grand pilier mesure à peu près quatre années-lumière, soit des dizaines de milliers de milliards de kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 pilier ≈ 4 années-lumière",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "ruler",
+     "on": "mesure",
+     "label": "4 al",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à l'intérieur de ces nuages de gaz et de poussière, de nouvelles étoiles sont en train de naître."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à l'intérieur :",
+     "size": "m",
+     "on": "intérieur"
+    },
+    {
+     "t": "text",
+     "text": "des étoiles naissent !",
+     "size": "l",
+     "color": "gold",
+     "on": "naître",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoiles",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les Piliers de la Création, des colonnes de gaz hautes de plusieurs années-lumière ✨\n\nCette image célèbre du télescope spatial Hubble montre les « Piliers de la Création », dans la nébuleuse de l'Aigle, à environ 6 500 années-lumière de nous. Ces colonnes de gaz et de poussière sont gigantesques : la plus grande mesure à peu près 4 années-lumière de haut, soit des dizaines de milliers de milliards de kilomètres ! À l'intérieur, la matière se contracte et de nouvelles étoiles sont en train de naître : c'est une véritable pouponnière d'étoiles. L'une des plus belles images de l'astronomie.\n\nTu la connaissais, cette image ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pilierdelacreation",
+  "#hubble",
+  "#nebuleuse",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/"
+ ]
+}

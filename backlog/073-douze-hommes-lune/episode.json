@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 72,
+ "title": "Seulement 12 humains ont marché sur la Lune",
+ "subject": "Apollo",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Seulement",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "12 humains ont marché",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur la LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "12 humains en tout",
+   "on": "douze"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que seulement douze humains ont marché sur la Lune ?"
+   ]
+  },
+  {
+   "say": [
+    "Le premier, c'est Neil Armstrong, le vingt et un juillet mille neuf cent soixante-neuf, avec la mission Apollo onze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er : Neil Armstrong",
+     "size": "l",
+     "color": "pink",
+     "on": "Armstrong"
+    },
+    {
+     "t": "text",
+     "text": "juillet 1969, Apollo 11",
+     "size": "m",
+     "color": "gold",
+     "on": "mille neuf cent"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en tout, six missions Apollo se sont posées là-haut, avec deux astronautes à chaque fois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "6 missions",
+     "size": "xl",
+     "color": "gold",
+     "on": "six"
+    },
+    {
+     "t": "text",
+     "text": "× 2 astronautes = 12",
+     "size": "l",
+     "on": "deux astronautes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "le dernier à en repartir, c'est Eugene Cernan, en décembre mille neuf cent soixante-douze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le dernier : Gene Cernan",
+     "size": "l",
+     "color": "pink",
+     "on": "Cernan"
+    },
+    {
+     "t": "text",
+     "text": "décembre 1972",
+     "size": "m",
+     "color": "gold",
+     "on": "décembre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et depuis plus de cinquante ans, plus personne n'y a remis les pieds."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "depuis + de 50 ans…",
+     "size": "l",
+     "on": "cinquante"
+    },
+    {
+     "t": "text",
+     "text": "personne !",
+     "size": "xl",
+     "color": "pink",
+     "on": "personne",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Seulement 12 humains ont marché sur la Lune 👨‍🚀\n\nEntre 1969 et 1972, six missions Apollo de la NASA se sont posées sur la Lune, avec deux astronautes à chaque fois : seulement 12 personnes au total ont foulé son sol. Le premier, Neil Armstrong, y a posé le pied le 21 juillet 1969 lors d'Apollo 11. Le dernier à repartir, Eugene Cernan, a quitté la Lune en décembre 1972 avec Apollo 17. Depuis, plus aucun humain n'y est retourné… mais le programme Artemis prévoit d'y renvoyer des astronautes. Sur la photo, Buzz Aldrin sur la Lune. Un moment unique de l'histoire de l'exploration spatiale.\n\nTu aimerais être le 13e ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#apollo",
+  "#lune",
+  "#nasa",
+  "#histoire",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/the-apollo-program/",
+  "https://science.nasa.gov/moon/facts/"
+ ]
+}

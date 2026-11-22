@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 81,
+ "title": "Spoutnik, le premier satellite, faisait bip-bip",
+ "subject": "Spoutnik",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "spoutnik",
+   "file": "assets/images/spoutnik.jpg",
+   "credit": "Réplique de Spoutnik 1 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Sputnik_asm.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le 1er satellite",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de l'histoire",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "faisait BIP-BIP ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "4 octobre 1957",
+   "on": "satellite"
+  },
+  "photo": "spoutnik"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le premier satellite de l'histoire était une boule qui faisait bip-bip ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait Spoutnik un, et il a été lancé par l'Union soviétique le quatre octobre mille neuf cent cinquante-sept,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Spoutnik 1",
+     "size": "xl",
+     "color": "pink",
+     "on": "Spoutnik"
+    },
+    {
+     "t": "text",
+     "text": "4 octobre 1957",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre octobre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était une sphère de cinquante-huit centimètres avec quatre longues antennes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une boule de 58 cm",
+     "size": "l",
+     "on": "cinquante-huit"
+    },
+    {
+     "t": "text",
+     "text": "+ 4 antennes",
+     "size": "m",
+     "color": "gold",
+     "on": "antennes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il faisait le tour de la Terre en à peu près quatre-vingt-seize minutes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 tour de Terre :",
+     "size": "m",
+     "on": "tour"
+    },
+    {
+     "t": "text",
+     "text": "~ 96 minutes",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre-vingt-seize"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "Terre",
+     "row": "same",
+     "scale": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il envoyait un simple bip-bip que des radioamateurs du monde entier pouvaient capter, le début de l'ère spatiale."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "« bip-bip »",
+     "size": "xl",
+     "color": "gold",
+     "on": "bip"
+    },
+    {
+     "t": "text",
+     "text": "= le début de l'ère spatiale !",
+     "size": "m",
+     "color": "pink",
+     "on": "ère",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Spoutnik, le premier satellite de l'histoire, faisait bip-bip 🛰️\n\nLe 4 octobre 1957, l'Union soviétique a lancé Spoutnik 1, le tout premier satellite artificiel. C'était une simple sphère de métal de 58 cm de diamètre, munie de quatre longues antennes. Elle faisait le tour de la Terre en environ 96 minutes et émettait un petit « bip-bip » que des radioamateurs du monde entier pouvaient capter. Ce son a marqué le début de la course à l'espace et de l'ère spatiale. Sur la photo, une réplique de Spoutnik 1. Un moment clé de l'histoire de l'exploration spatiale.\n\nTu connaissais ce son ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#spoutnik",
+  "#satellite",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/history/sputnik/",
+  "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1957-001B"
+ ]
+}
