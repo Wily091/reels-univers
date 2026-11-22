@@ -135,7 +135,7 @@ async function build(){
    box(G,x0-20,y0-80,x0+w+20,y0+h+20);const b=BOX[G];SH.push({t:0,x:(b[0]+b[2])/2,y:(b[1]+b[3])/2,s:.95,g:G})});
  // ===== fin
  G='fin';const fsi=EP.scenes.findIndex(sc=>sc.fin);const fs=fsi>=0?scS(fsi):last.s;
- X(fs,200,3660,'Si ça t\'a plu, abonne-toi ✶',80,TH.gold,-2,'Caveat','start',.9);X(fsi>=0?cue(fsi,/envoie/.test(EP.scenes[fsi].say.join(' '))?'envoie':'partage',fs+3):fs+3,420,3770,'… et partage-la',64,TH.pink,-3,'Caveat','start',.6);box('fin',180,3590,1060,3800);
+ const SHORT=fsi>=0&&/envoie/.test(EP.scenes[fsi].say.join(' '));X(fs,200,3660,SHORT?'Abonne-toi ✶':'Si ça t\'a plu, abonne-toi ✶',80,TH.gold,-2,'Caveat','start',.9);X(fsi>=0?cue(fsi,/envoie/.test(EP.scenes[fsi].say.join(' '))?'envoie':'partage',fs+3):fs+3,420,3770,SHORT?'… et envoie-la à un ami':'… et partage-la',64,TH.pink,-3,'Caveat','start',.6);box('fin',180,3590,1060,3800);
  SH.push({t:0,x:1080,y:1920,s:.5,g:'fin'});
 
  let hk='';if(EP.hook){const L=EP.hook.lines;let y=EP.hook.top||250;L.forEach((ln,i)=>{let sz=ln.size||128;const w=meas(ln.text,sz,'Caveat');if(w>960)sz=Math.floor(sz*960/w);y+=sz*.95;

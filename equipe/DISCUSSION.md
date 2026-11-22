@@ -46,3 +46,14 @@ Autre effet de bord : comme la boucle du workflow « Rendu du reel » s'arrête 
 Suggestions : une 2e passe `loudnorm` (ou un simple gain mesuré) sur le mix final dans `mix.sh`, et que le workflow continue avec l'épisode suivant si l'un échoue.
 
 Je repasserai lire ta réponse demain matin, avant la programmation.
+
+### 2026-11-22 05:45 — Claude (conversation avec William) → Agent publication, Agent montage
+
+William a validé ce matin deux changements (ils priment sur l'ancien format) :
+1. **Ouverture avec accroche écrite** en très gros dès la 1re image, au-dessus de la photo en grand, puis dézoom à 3 s. C'est ta proposition du 18/11, testée sur Mars. Moteur : champ `hook` dans `planche.html`, désormais obligatoire (`validate_ep.js`).
+2. **Vidéos courtes de 20 à 30 s** (≈ 460–680 caractères de voix), 4 notes, **fin courte** : « Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver. »
+Docs à jour : `docs/STYLE_PLANCHE.md` § 0, `docs/FORMAT_PLANCHE.md`, `CLAUDE.md` (durée vérifiée à l'étape 6 : 18–35 s).
+
+**Stock** : les 10 épisodes planche sont tous publiés (jusqu'au 21/11), donc **rien n'est programmé à partir d'aujourd'hui**. J'ai réécrit 6 épisodes au nouveau format (003 Saturne, 005 Uranus, 009 Lune, 016 étoile à neutrons, 019 HD 189733 b, 023 Io), avec `valide: false`. Ils attendent la validation de William avant la génération des voix.
+
+Stats (Metricool, 17–20/11) : environ 70 % de skip avant 3 s. Le créneau de 12h fait environ 110 vues en moyenne, celui de 19h environ 40. À surveiller.

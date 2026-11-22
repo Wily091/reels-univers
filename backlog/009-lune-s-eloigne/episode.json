@@ -1,19 +1,193 @@
 {
- "date": null,
- "title": "La Lune s'éloigne de nous chaque année",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "La Lune s'éloigne de la Terre d'environ 3,8 cm par an 🌕\n\nOn le sait grâce aux miroirs laissés sur la Lune par les astronautes d'Apollo : on y envoie des lasers depuis la Terre !\n\nTu le savais ? 👇",
- "hashtags": ["#lune", "#apollo", "#espace", "#univers", "#astronomie", "#science", "#lesaviezvous", "#nasa", "#cosmos", "#terre"],
- "sources": ["https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/", "https://science.nasa.gov/moon/facts/"],
+ "format": "planche",
+ "valide": false,
+ "num": 13,
+ "title": "La Lune s'éloigne de nous de 3,8 cm par an",
+ "subject": "La Lune",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "miroir",
+   "file": "assets/images/apollo11_miroir_laser.jpg",
+   "nasa_id": "as11-40-5952",
+   "credit": "Miroir laser posé par Apollo 11 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Laser_Ranging_Experiment.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "s'éloigne de nous",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de 3,8 cm par an ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "miroir",
+  "annot": [
+   {
+    "text": "un vrai miroir sur la Lune !",
+    "color": "pink",
+    "under": true,
+    "pos": "tl"
+   }
+  ],
+  "tagline": {
+   "text": "elle s'en va !",
+   "on": "éloigne"
+  }
+ },
  "scenes": [
-  {"say": ["La Lune est en train de s'éloigner de nous."], "ghost": "LUNE", "kicker": "DISTANCE MOYENNE · 384 400 KM", "il": {"type": "moon", "label": "LA LUNE"}, "lines": [{"text": "LA LUNE", "at": [0, 0.1], "max": 300}, {"text": "[S'ÉLOIGNE.]", "at": [0, 0.6], "punch": true}]},
-  {"say": ["Chaque année, d'environ trois virgule huit centimètres."], "ghost": "3,8 CM", "kicker": "+3,8 CM PAR AN", "il": {"type": "distance", "label": "+3,8 CM / AN"}, "lines": [{"text": "CHAQUE ANNÉE :", "at": 0}, {"text": "[+3,8 CM]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 3.8, "dec": 1, "fmt": "[+{v} CM]", "dur": 0.8}}]},
-  {"say": ["À peu près la vitesse à laquelle poussent tes ongles."], "hit": true, "ghost": "ONGLES", "lines": [{"text": "LA VITESSE DE", "at": [0, 0.4]}, {"text": "TES ONGLES.", "at": [0, 0.8], "punch": true, "max": 380}]},
-  {"say": ["Mais comment on peut mesurer ça ?"], "ghost": "?", "il": {"type": "question"}, "lines": [{"text": "MAIS COMMENT", "at": 0}, {"text": "[ON LE SAIT ?]", "at": [0, 0.6], "punch": true}]},
-  {"say": ["Les astronautes d'Apollo ont laissé des miroirs sur la Lune."], "ghost": "APOLLO", "kicker": "APOLLO 11, 14 ET 15", "il": {"type": "rocket"}, "lines": [{"text": "LES ASTRONAUTES", "at": [0, 0.1]}, {"text": "D'[APOLLO]", "at": [0, 0.3], "punch": true}, {"text": "ONT LAISSÉ", "at": [0, 0.55]}, {"text": "[DES MIROIRS.]", "at": [0, 0.85]}]},
-  {"say": ["Depuis la Terre, on tire des lasers dessus…", "et on chronomètre le temps que met la lumière pour revenir."], "ghost": "LASER", "kicker": "TÉLÉMÉTRIE LASER LUNE", "il": {"type": "lightTravel", "from": "TERRE", "to": "LUNE"}, "lines": [{"text": "ON TIRE", "at": [0, 0.3]}, {"text": "[DES LASERS]", "at": [0, 0.6], "punch": true}, {"text": "ET ON CHRONOMÈTRE", "at": [1, 0.3], "gap": 30, "max": 150}, {"text": "LE RETOUR.", "at": [1, 0.8], "max": 150}]},
-  {"say": ["Ces miroirs fonctionnent encore aujourd'hui… plus de cinquante ans après."], "ghost": "50 ANS", "il": {"type": "clock", "forward": true}, "lines": [{"text": "ILS MARCHENT", "at": [0, 0.2]}, {"text": "[ENCORE.]", "at": [0, 0.45], "punch": true}, {"text": "PLUS DE 50 ANS APRÈS.", "at": [0, 0.85]}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais que la Lune s'éloigne de nous un petit peu chaque année ?"
+   ]
+  },
+  {
+   "say": [
+    "En fait, elle recule d'environ trois virgule huit centimètres par an, à peu près la vitesse à laquelle poussent tes ongles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3,8 cm / an",
+     "size": "xl",
+     "color": "gold",
+     "on": "trois virgule",
+     "count": {
+      "to": 3.8,
+      "fmt": "{n} cm / an",
+      "dec": 1
+     }
+    },
+    {
+     "t": "text",
+     "text": "= la vitesse de tes ongles !",
+     "size": "m",
+     "color": "pink",
+     "on": "ongles"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et on le sait grâce aux miroirs que les astronautes d'Apollo onze, quatorze et quinze ont laissés là-haut,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des miroirs laissés par",
+     "size": "m",
+     "on": "miroirs"
+    },
+    {
+     "t": "text",
+     "text": "Apollo 11, 14, 15",
+     "size": "l",
+     "color": "gold",
+     "on": "Apollo"
+    },
+    {
+     "t": "sketch",
+     "kind": "moon",
+     "on": "là-haut",
+     "scale": 0.8
+    }
+   ]
+  },
+  {
+   "say": [
+    "puisque depuis la Terre, on tire des lasers dessus et on chronomètre le temps que met la lumière pour revenir,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "laser → miroir → retour",
+     "size": "m",
+     "color": "pink",
+     "on": "lasers"
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "on": "lumière",
+     "from": "Terre",
+     "to": "Lune"
+    },
+    {
+     "t": "text",
+     "text": "on chronomètre !",
+     "size": "m",
+     "on": "chronomètre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce qui donne la distance à quelques millimètres près, plus de cinquante ans après."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "précision :",
+     "size": "m",
+     "on": "distance"
+    },
+    {
+     "t": "text",
+     "text": "quelques mm !",
+     "size": "xl",
+     "color": "pink",
+     "on": "millimètres",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "+ de 50 ans après",
+     "size": "m",
+     "color": "gold",
+     "on": "cinquante"
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Lune s'éloigne de la Terre d'environ 3,8 cm par an 🌕\n\nChaque année, la Lune recule un tout petit peu, à peu près à la vitesse à laquelle poussent tes ongles. Comment le sait-on ? Les astronautes des missions Apollo 11, 14 et 15 ont laissé sur la Lune des panneaux de miroirs. Depuis la Terre, des observatoires tirent des lasers dessus et chronomètrent le temps que met la lumière pour revenir : on obtient la distance Terre–Lune à quelques millimètres près, plus de 50 ans après ! Sur la photo, le miroir laser posé par Apollo 11. De l'astronomie et de la science spatiale toujours en service.\n\nTu savais qu'il y avait des miroirs sur la Lune ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lune",
+  "#apollo11",
+  "#espace",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/",
+  "https://science.nasa.gov/moon/facts/"
  ]
 }

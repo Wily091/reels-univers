@@ -3,6 +3,11 @@
 **Validée par William le 16 novembre 2026 (« C'est magnifique, on reste comme ça »).**
 **C'est LA DA de toutes les vidéos, jusqu'à ce que William dise de changer.** Ne rien modifier (fond, couleurs, polices, caméra, voix, son, rythme, photos) sans son accord explicite.
 
+## 0. Mises à jour validées par William le 22/11/2026 (priment sur le reste du document)
+- **Ouverture avec accroche écrite** : dès la 1re image, l'accroche (le fait le plus fou, 1 à 3 lignes, ex. « Sur Mars, / le coucher de Soleil / est BLEU ?! ») est écrite **en très gros** en haut de l'écran (Caveat, 118 px, dernière ligne 170 px en rose soulignée de doré, contour noir, voile sombre derrière), au-dessus de la **photo officielle en grand** (échelle 1,42, la photo occupe presque toute la largeur). Petit effet d'apparition (0,25 s) et léger zoom avant continu (+6 %) dès la seconde 0. À **3 s**, l'accroche s'efface (0,35 s), le titre s'écrit et le dézoom habituel commence. Champ `hook` de `episode.json` (voir `docs/FORMAT_PLANCHE.md`). Vidéo test validée : Mars.
+- **Vidéos courtes : 20 à 30 s** (≈ 460–680 caractères de voix au total, fin comprise), 4 notes, un seul fait fort.
+- **Fin courte** (voix) : « Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver. » ; à l'écran : « Abonne-toi ✶ » puis « … et envoie-la à un ami ».
+
 ## Références (à regarder avant tout travail)
 - Vidéo de référence : `docs/reference/univers_en_bref_reference_DA.mp4` (Vénus, 38,5 s).
 - Images clés : `docs/reference/1_debut.jpg` (1re image), `2_note_photo.jpg` (une note avec photo annotée), `3_planche_finale.jpg` (dernière image = couverture).

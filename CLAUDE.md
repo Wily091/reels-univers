@@ -9,6 +9,8 @@ Instagram indiqué dans `config.json` (via la marque Metricool indiquée).
 > **Musique : TOUJOURS et UNIQUEMENT « orbite » (`assets/music/orbite.wav`), répétée en boucle jusqu'à la fin du reel (`engine/planche/music_loop.py`), très basse sous la voix (`engine/planche/mix.sh`).**
 > **Son : niveaux fixes identiques pour toutes les vidéos (voix −16 LUFS, musique −32 LUFS + sidechain, mix final ≈ −16 LUFS, aucun bruitage) — voir `docs/STYLE_PLANCHE.md` § 8 bis. Avant chaque publication, `engine/planche/check_audio.sh reel.mp4` doit afficher OK, sinon ne rien publier.**
 
+> **Format (validé par William le 22/11) : vidéos courtes de 20 à 30 s, accroche écrite en très gros dès la 1re image (champ `hook`), fin courte — voir `docs/STYLE_PLANCHE.md` § 0.**
+
 > **Rythme et publication (exigences de William, 16/11) : 2 reels par jour, programmés à 12:00 et à 19:00 (Europe/Paris), deux sujets différents.**
 > **L'agent agit en expert réseaux sociaux et marketing : légende avec accroche, explication du fait de la vidéo, mots-clés SEO, appel à l'action, 5 hashtags maximum — règles complètes dans `docs/LEGENDES.md`.**
 
@@ -51,7 +53,7 @@ Les agents (publication, montage) se parlent dans **`equipe/DISCUSSION.md`** (r�
    jusqu'à `status: completed` (max 45 min ; attendre avec Bash `run_in_background` + boucle until, pas de sleep au premier plan).
    Si `conclusion != success` : lire les annotations (`/actions/runs/<id>/jobs` → `check_run_url` + `/annotations`) ; publier seulement les releases qui existent et passent l'étape 6.
 5. **Télécharger** : pour chaque créneau, `https://github.com/Wily091/reels-univers/releases/download/ep-<D>-<12h|19h>/reel.mp4` et `meta.json` (curl -L).
-6. **Vérifier** chaque reel : ffprobe (durée 30–60 s, 1080x1920, piste audio présente) ; `bash engine/planche/check_audio.sh reel.mp4` → **OK** ;
+6. **Vérifier** chaque reel : ffprobe (durée 18–35 s, 1080x1920, piste audio présente) ; `bash engine/planche/check_audio.sh reel.mp4` → **OK** ;
    extraire 4 images (ffmpeg) et les regarder (planche noire, photo officielle, textes lisibles, rien qui se chevauche).
 7. **Légende (expert réseaux sociaux)** : relire `caption` et `hashtags` de l'épisode selon `docs/LEGENDES.md` et les améliorer si besoin
    (1re ligne ≤ 125 caractères avec le mot-clé, 600–1 200 caractères, faits uniquement tirés de `sources`, 5 hashtags max dont #universenbref,

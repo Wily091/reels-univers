@@ -16,6 +16,10 @@ Exemple complet : `backlog/001-venus-jour-annee/episode.json` (même planche que
              "credit": "Saturne vue par Cassini · NASA/JPL/Space Science Institute", "page": "https://…", "license": "Domaine public (NASA)",
              "crop": [x, y, largeur, hauteur],   // optionnel, en fractions de l'image
              "pad": true}],                       // optionnel : complète en carré noir (image très large)
+ "hook": {"until": 3.0, "top": 200, "lines": [                // OBLIGATOIRE : accroche écrite en très gros dès la 1re image (1 à 3 lignes)
+   {"text": "Les anneaux de Saturne", "size": 118, "color": "ink"},
+   {"text": "font à peine", "size": 118, "color": "ink"},
+   {"text": "10 m d'épaisseur ?!", "size": 170, "color": "pink", "under": true, "underColor": "gold"}]},   // dernière ligne = le choc
  "center": {"photo": "saturne",
             "annot": [{"text": "vraie photo !", "color": "pink", "under": true, "pos": "tl"}],   // optionnel (valeur par défaut)
             "tagline": {"text": "elle flotterait !", "on": "flotter"}},                           // sous la photo, calée sur un mot de la 1re phrase
@@ -23,7 +27,7 @@ Exemple complet : `backlog/001-venus-jour-annee/episode.json` (même planche que
   {"say": ["Tu savais que … ?"]},                                    // 1re phrase = question d'accroche (centre)
   {"say": ["En fait, …,"], "note": [ … éléments … ]},                 // une scène avec "note" = une nouvelle zone de la planche
   {"say": ["donc …"]},                                                // sans "note" : la voix continue sur la note précédente
-  {"fin": true, "say": ["Si ça t'a plu, abonne-toi pour d'autres histoires sur l'univers, et si tu connais quelqu'un que ça pourrait faire rêver, partage-lui la vidéo."]}
+  {"fin": true, "say": ["Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."]}
  ],
  "caption": "…", "hashtags": ["#saturne", "#espace", "#planetes", "#science", "#universenbref"],
  "sources": ["https://science.nasa.gov/…"]
@@ -42,7 +46,7 @@ sinon il suit l'élément précédent ; et `"row": "same"` = à droite de l'él�
 | photo ronde | `{"t":"round","img":"id","flip":true,"arrow":false}` (découpée en rond, flèche de rotation par défaut) |
 
 Tailles : `xl` 190 px, `l` 120, `m` 92 (Caveat), `s` 62, `xs` 48 (Kalam). Une ligne trop large est réduite automatiquement.
-Chiffres **en chiffres à l'écran**, **en lettres dans la voix** ; pas de points de suspension dans la voix ; 35–45 s (≈ 800–1 000 caractères au total).
+Chiffres **en chiffres à l'écran**, **en lettres dans la voix** ; pas de points de suspension dans la voix ; **20–30 s (≈ 460–680 caractères au total, fin comprise)**, 4 notes.
 
 ## Contrôle (gratuit, sans voix)
 `bash engine/build.sh backlog/NNN-slug --mock` : vérifie le texte, la légende, les photos, la mise en page et l'absence de chevauchement,

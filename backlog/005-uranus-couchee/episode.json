@@ -1,20 +1,203 @@
 {
- "date": null,
+ "format": "planche",
+ "valide": false,
+ "num": 12,
  "title": "Uranus tourne couchée sur le côté",
- "theme": "nebuleuse",
- "voice": {"id": "c98DOuI9MUphjtgxeDDc", "model": "eleven_multilingual_v2", "tempo": 1.1},
- "caption": "Uranus est penchée à presque 98° : elle roule autour du Soleil couchée sur le côté 🪐\n\nRésultat : certaines régions vivent un hiver sombre de 21 ans.\n\nTu savais qu'une planète pouvait être aussi bizarre ? 👇",
- "hashtags": ["#uranus", "#espace", "#univers", "#astronomie", "#systemesolaire", "#planetes", "#science", "#lesaviezvous", "#nasa", "#cosmos"],
- "sources": ["https://science.nasa.gov/uranus/facts/"],
+ "subject": "Uranus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "uranus",
+   "file": "assets/images/uranus_voyager2.jpg",
+   "nasa_id": "PIA18182",
+   "credit": "Uranus vue par Voyager 2 · NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/photojournal/uranus-as-seen-by-nasas-voyager-2/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette planète tourne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "autour du Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "COUCHÉE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "photo": "uranus",
+  "tagline": {
+   "text": "couchée sur le côté !",
+   "on": "couchée"
+  }
+ },
  "scenes": [
-  {"say": ["Il y a une planète qui tourne autour du Soleil… couchée sur le côté."], "ghost": "URANUS", "kicker": "SEPTIÈME PLANÈTE DU SYSTÈME SOLAIRE", "il": {"type": "planet", "label": "URANUS"}, "lines": [{"text": "UNE PLANÈTE", "at": [0, 0.1]}, {"text": "QUI TOURNE", "at": [0, 0.3]}, {"text": "[COUCHÉE.]", "at": [0, 0.85], "punch": true}]},
-  {"say": ["C'est Uranus."], "hit": true, "ghost": "URANUS", "lines": [{"text": "URANUS.", "at": [0, 0.3], "punch": true, "max": 420}]},
-  {"say": ["Son axe est incliné de presque quatre-vingt-dix-huit degrés."], "ghost": "98°", "kicker": "INCLINAISON · 97,77°", "il": {"type": "globe", "label": "AXE · 98°"}, "lines": [{"text": "SON AXE", "at": [0, 0.1]}, {"text": "EST INCLINÉ DE", "at": [0, 0.35]}, {"text": "[98°]", "at": [0, 0.6], "punch": true, "count": {"from": 0, "to": 98, "fmt": "[{v}°]", "dur": 0.8}}]},
-  {"say": ["La Terre, elle, n'est penchée que d'environ vingt-trois degrés."], "ghost": "TERRE", "kicker": "TERRE · 23,4°", "il": {"type": "globe", "label": "TERRE · 23°"}, "lines": [{"text": "LA TERRE :", "at": [0, 0.1]}, {"text": "[23°]", "at": [0, 0.6], "punch": true}]},
-  {"say": ["Résultat : pendant une partie de son orbite, un de ses pôles fait face au Soleil…", "pendant que l'autre moitié de la planète plonge dans un hiver sombre de vingt et un ans."], "ghost": "HIVER", "kicker": "UNE ANNÉE SUR URANUS · 84 ANS", "il": {"type": "orbit", "center": "SOLEIL", "speed": 0.5}, "lines": [{"text": "UN HIVER", "at": [1, 0.55]}, {"text": "SOMBRE DE", "at": [1, 0.7]}, {"text": "[21 ANS.]", "at": [1, 0.85], "punch": true}]},
-  {"say": ["Vingt et un ans sans voir le Soleil."], "hit": true, "ghost": "21 ANS", "lines": [{"text": "21 ANS", "at": [0, 0.1], "punch": true, "max": 420}, {"text": "SANS SOLEIL.", "at": [0, 0.6]}]},
-  {"say": ["Et comme Vénus, elle tourne sur elle-même dans le sens inverse des autres planètes."], "ghost": "INVERSE", "il": {"type": "clock"}, "lines": [{"text": "ELLE TOURNE", "at": [0, 0.35]}, {"text": "[À L'ENVERS.]", "at": [0, 0.75], "punch": true}]},
-  {"say": ["Quand William Herschel l'a découverte, en mille sept cent quatre-vingt-un… il a d'abord cru que c'était une comète."], "ghost": "1781", "kicker": "DÉCOUVERTE · 1781 · W. HERSCHEL", "il": {"type": "comet", "label": "UNE COMÈTE ?"}, "lines": [{"text": "EN [1781],", "at": [0, 0.4]}, {"text": "ON L'A PRISE", "at": [0, 0.7]}, {"text": "POUR UNE [COMÈTE.]", "at": [0, 0.9], "punch": true}]},
-  {"say": ["Si ça t'a plu, tu peux t'abonner pour d'autres histoires sur l'univers.", "Et si tu connais quelqu'un que ça pourrait faire rêver… partage-lui."], "ghost": "UNIVERS", "il": {"type": "horizon"}, "lines": [{"text": "SI ÇA T'A PLU…", "at": 0}, {"text": "D'AUTRES HISTOIRES", "at": [0, 0.5]}, {"text": "[SUR L'UNIVERS.]", "at": [0, 0.75]}, {"text": "[PARTAGE-LA.]", "at": [1, 0.6], "gap": 30, "max": 140}]}
+  {
+   "say": [
+    "Tu savais qu'il y a une planète qui tourne autour du Soleil couchée sur le côté ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est Uranus, dont l'axe est penché de presque quatre-vingt-dix-huit degrés, alors que celui de la Terre ne l'est que d'environ vingt-trois degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "axe penché :",
+     "size": "m",
+     "on": "axe"
+    },
+    {
+     "t": "text",
+     "text": "98°",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre-vingt-dix-huit",
+     "count": {
+      "to": 98,
+      "fmt": "{n}°"
+     }
+    },
+    {
+     "t": "text",
+     "text": "Terre : 23°",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-trois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, l'une de ses moitiés passe un hiver de vingt et un ans dans le noir,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un hiver de",
+     "size": "m",
+     "on": "hiver"
+    },
+    {
+     "t": "text",
+     "text": "21 ans",
+     "size": "xl",
+     "color": "gold",
+     "on": "vingt et un",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "dans le noir !",
+     "size": "m",
+     "color": "pink",
+     "on": "noir"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "noir",
+     "row": "same",
+     "scale": 0.7
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en plus, elle tourne sur elle-même à l'envers, comme Vénus."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "elle tourne",
+     "size": "m",
+     "on": "tourne"
+    },
+    {
+     "t": "text",
+     "text": "à l'envers",
+     "size": "l",
+     "color": "pink",
+     "on": "l'envers"
+    },
+    {
+     "t": "round",
+     "img": "uranus",
+     "on": "l'envers"
+    },
+    {
+     "t": "text",
+     "text": "(comme Vénus)",
+     "size": "s",
+     "color": "soft",
+     "on": "Vénus"
+    }
+   ]
+  },
+  {
+   "say": [
+    "Quand William Herschel l'a découverte, en mille sept cent quatre-vingt-un, il a d'abord cru que c'était une comète ou une étoile."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1781 : Herschel",
+     "size": "l",
+     "color": "gold",
+     "on": "mille"
+    },
+    {
+     "t": "text",
+     "text": "« une comète ? »",
+     "size": "l",
+     "color": "pink",
+     "on": "comète"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.7
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Uranus, la planète qui tourne couchée sur le côté 🪐\n\nL'axe d'Uranus est incliné de presque 98°, contre environ 23° pour la Terre : cette planète géante roule autour du Soleil comme une boule de bowling. Conséquence : une partie de la planète vit un hiver de 21 ans dans l'obscurité totale. Et comme Vénus, Uranus tourne sur elle-même dans le sens inverse des autres planètes. Quand l'astronome William Herschel l'a découverte en 1781, il a d'abord cru avoir trouvé une comète ou une étoile. Sur la photo, Uranus vue par la sonde Voyager 2. Un fait insolite d'astronomie et du système solaire.\n\nTu savais qu'une planète pouvait être couchée ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#uranus",
+  "#planetes",
+  "#espace",
+  "#culturegenerale",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/uranus/facts/"
  ]
 }
