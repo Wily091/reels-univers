@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 229,
+ "title": "Deux chiennes sont revenues vivantes de l'espace en 1960",
+ "subject": "Belka",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les 1ers êtres vivants",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "revenus vivants",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de l'ORBITE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "Belka et Strelka",
+   "on": "vivants"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les premiers êtres vivants revenus vivants d'un voyage en orbite étaient deux chiennes ?"
+   ]
+  },
+  {
+   "say": [
+    "Elles s'appelaient Belka et Strelka, et elles ont décollé le dix-neuf août mille neuf cent soixante,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Belka et Strelka",
+     "size": "l",
+     "color": "pink",
+     "on": "Belka"
+    },
+    {
+     "t": "text",
+     "text": "19 août 1960",
+     "size": "m",
+     "color": "gold",
+     "on": "dix-neuf août"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décollé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles ont fait dix-sept fois le tour de la Terre, avec des souris, des insectes et des plantes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "17 tours de la Terre",
+     "size": "l",
+     "color": "gold",
+     "on": "dix-sept",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elles sont revenues en pleine forme, un an avant le premier vol de Youri Gagarine,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "revenues en forme !",
+     "size": "l",
+     "color": "pink",
+     "on": "forme"
+    },
+    {
+     "t": "text",
+     "text": "1 an avant Gagarine",
+     "size": "m",
+     "on": "Gagarine"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et plus tard, un chiot de Strelka a même été offert à la fille du président américain Kennedy."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un chiot offert",
+     "size": "m",
+     "on": "chiot"
+    },
+    {
+     "t": "text",
+     "text": "à la fille de Kennedy !",
+     "size": "l",
+     "color": "gold",
+     "on": "Kennedy",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Belka et Strelka, les premières chiennes revenues vivantes de l'espace 🐕\n\nLe 19 août 1960, à bord du vaisseau soviétique Spoutnik 5, deux chiennes, Belka et Strelka, décollent avec des souris, des insectes et des plantes. Elles font 17 fois le tour de la Terre et reviennent saines et sauves le lendemain : ce sont les premiers êtres vivants à revenir vivants d'un vol en orbite ! Ce succès a ouvert la voie au vol de Youri Gagarine, moins d'un an plus tard. Plus tard, Strelka a eu des chiots, dont l'un, Pouchinka, a été offert par Nikita Khrouchtchev à Caroline Kennedy, la fille du président américain, en pleine guerre froide. Une belle histoire de la conquête spatiale.\n\nTu connaissais leur histoire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#belkaetstrelka",
+  "#chiens",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Belka_et_Strelka",
+  "https://fr.wikipedia.org/wiki/Spoutnik_5"
+ ]
+}

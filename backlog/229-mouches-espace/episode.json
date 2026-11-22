@@ -1,0 +1,146 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 228,
+ "title": "Les premiers animaux dans l'espace étaient des mouches",
+ "subject": "Mouches",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les 1ers animaux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "étaient des MOUCHES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des pionnières",
+   "on": "animaux"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les tout premiers animaux envoyés dans l'espace étaient des mouches ?"
+   ]
+  },
+  {
+   "say": [
+    "Le vingt février mille neuf cent quarante-sept, des drosophiles, des petites mouches à fruits, décollent des États-Unis,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "20 février 1947",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt février"
+    },
+    {
+     "t": "text",
+     "text": "des mouches à fruits",
+     "size": "l",
+     "color": "pink",
+     "on": "mouches"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décollent",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles étaient à bord d'une fusée V deux, récupérée après la guerre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "à bord d'une V2",
+     "size": "m",
+     "on": "V deux"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la fusée a dépassé cent kilomètres d'altitude, la limite de l'espace,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 100 km !",
+     "size": "xl",
+     "color": "gold",
+     "on": "cent kilomètres",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et les mouches sont revenues vivantes, en parachute, pour étudier les effets des rayons de l'espace."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "revenues vivantes",
+     "size": "l",
+     "color": "pink",
+     "on": "vivantes"
+    },
+    {
+     "t": "text",
+     "text": "en parachute !",
+     "size": "m",
+     "on": "parachute",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les premiers animaux dans l'espace étaient… des mouches 🪰\n\nAvant Laïka et avant les astronautes, les premiers animaux envoyés dans l'espace étaient des mouches ! Le 20 février 1947, des scientifiques américains ont placé des drosophiles, des mouches à fruits, à bord d'une fusée V2 récupérée après la Seconde Guerre mondiale. Lancée depuis le Nouveau-Mexique, la fusée a dépassé les 100 km d'altitude, la limite de l'espace. La capsule est redescendue en parachute, et les mouches ont été retrouvées vivantes. Le but : étudier les effets des rayonnements de l'espace sur des êtres vivants. Les drosophiles sont toujours très utilisées en génétique. Une anecdote insolite de la conquête spatiale.\n\nTu t'attendais à ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#animauxdanslespace",
+  "#histoire",
+  "#fusee",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Animaux_dans_l'espace",
+  "https://www.nasa.gov/history/"
+ ]
+}

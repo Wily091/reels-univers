@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 231,
+ "title": "La fusée Saturn V n'a jamais perdu une seule mission",
+ "subject": "Saturn V",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "aldrin",
+   "file": "assets/images/aldrin_lune.jpg",
+   "credit": "Buzz Aldrin sur la Lune (Apollo 11) · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette fusée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'a jamais",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "PERDU une mission ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la fusée d'Apollo",
+   "on": "fusée"
+  },
+  "photo": "aldrin"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la fusée qui a emmené les hommes sur la Lune n'a jamais perdu une seule de ses charges ?"
+   ]
+  },
+  {
+   "say": [
+    "C'est la Saturn cinq, haute d'environ cent dix mètres, plus grande que la statue de la Liberté,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Saturn V",
+     "size": "xl",
+     "color": "pink",
+     "on": "Saturn"
+    },
+    {
+     "t": "text",
+     "text": "~ 110 m de haut",
+     "size": "l",
+     "color": "gold",
+     "on": "cent dix"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "haute",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "au décollage, elle pesait près de trois mille tonnes, presque entièrement du carburant,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 3 000 tonnes",
+     "size": "l",
+     "color": "pink",
+     "on": "trois mille",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "surtout du carburant",
+     "size": "m",
+     "on": "carburant"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a été lancée treize fois entre mille neuf cent soixante-sept et mille neuf cent soixante-treize,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "13 lancements",
+     "size": "l",
+     "on": "treize"
+    },
+    {
+     "t": "text",
+     "text": "1967 → 1973",
+     "size": "m",
+     "color": "gold",
+     "on": "soixante-sept"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle a toujours mis sa charge en orbite, y compris les vingt-quatre astronautes partis vers la Lune."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "jamais d'échec de charge",
+     "size": "m",
+     "on": "toujours"
+    },
+    {
+     "t": "text",
+     "text": "24 astronautes vers la Lune",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-quatre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La fusée Saturn V n'a jamais perdu une seule de ses charges 🚀\n\nConçue sous la direction de Wernher von Braun pour le programme Apollo, la fusée Saturn V mesurait environ 110 mètres de haut, plus que la statue de la Liberté, et pesait près de 3 000 tonnes au décollage, essentiellement du carburant. Entre 1967 et 1973, elle a été lancée 13 fois, et a toujours placé sa charge sur la bonne trajectoire : elle a notamment envoyé 24 astronautes vers la Lune, et mis en orbite la station Skylab lors de son dernier vol. Un record de fiabilité pour cette fusée géante, longtemps la plus puissante jamais lancée. Sur la photo, Buzz Aldrin sur la Lune, en 1969.\n\nTu savais qu'elle était aussi fiable ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#saturnv",
+  "#apollo",
+  "#nasa",
+  "#fusee",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Saturn_V",
+  "https://www.nasa.gov/history/"
+ ]
+}

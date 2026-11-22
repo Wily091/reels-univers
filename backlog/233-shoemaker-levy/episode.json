@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 232,
+ "title": "En 1994, une comète s'est écrasée sur Jupiter",
+ "subject": "Jupiter",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1994,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une comète s'est écrasée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sur JUPITER ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un impact en direct",
+   "on": "comète"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille neuf cent quatre-vingt-quatorze, on a vu une comète s'écraser sur Jupiter ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelait Shoemaker-Levy neuf, et la gravité de Jupiter l'avait cassée en une vingtaine de morceaux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Shoemaker-Levy 9",
+     "size": "l",
+     "color": "pink",
+     "on": "Shoemaker"
+    },
+    {
+     "t": "text",
+     "text": "cassée en ~ 20 morceaux",
+     "size": "m",
+     "color": "gold",
+     "on": "vingtaine"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en juillet mille neuf cent quatre-vingt-quatorze, les morceaux ont percuté Jupiter, un par un, pendant six jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "juillet 1994",
+     "size": "l",
+     "color": "gold",
+     "on": "juillet"
+    },
+    {
+     "t": "text",
+     "text": "6 jours d'impacts",
+     "size": "m",
+     "on": "six jours"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "percuté",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "certains impacts ont laissé des taches sombres plus grandes que la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des taches",
+     "size": "m",
+     "on": "taches"
+    },
+    {
+     "t": "text",
+     "text": "+ grandes que la Terre !",
+     "size": "l",
+     "color": "pink",
+     "on": "plus grandes",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était la première fois qu'on voyait en direct deux objets du système solaire entrer en collision."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une 1re",
+     "size": "m",
+     "on": "première"
+    },
+    {
+     "t": "text",
+     "text": "en direct !",
+     "size": "l",
+     "color": "gold",
+     "on": "direct",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1994, on a vu une comète s'écraser sur Jupiter ☄️\n\nDécouverte en 1993 par Carolyn et Eugene Shoemaker et David Levy, la comète Shoemaker-Levy 9 avait été capturée par Jupiter, puis brisée en une vingtaine de morceaux par sa gravité. Du 16 au 22 juillet 1994, ces fragments ont percuté la planète géante les uns après les autres. Les impacts ont créé des taches sombres dans l'atmosphère de Jupiter, certaines plus grandes que la Terre, visibles même avec de petits télescopes ! C'était la première fois que l'on observait directement la collision entre deux objets du système solaire. L'événement a montré le rôle de « bouclier » de Jupiter. Sur la photo, Jupiter.\n\nTu imagines si ça arrivait chez nous ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#jupiter",
+  "#comete",
+  "#impact",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Shoemaker-Levy_9",
+  "https://science.nasa.gov/jupiter/facts/"
+ ]
+}

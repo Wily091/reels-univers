@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 225,
+ "title": "Le plus grand télescope du monde aura un miroir de 39 mètres",
+ "subject": "ELT",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce télescope",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "aura un miroir de",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "39 MÈTRES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un œil géant",
+   "on": "télescope"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un télescope géant en construction au Chili aura un miroir de trente-neuf mètres ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle l'Extremely Large Telescope, l'ELT, construit par l'observatoire européen austral,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'ELT",
+     "size": "xl",
+     "color": "pink",
+     "on": "ELT"
+    },
+    {
+     "t": "text",
+     "text": "observatoire européen",
+     "size": "m",
+     "on": "européen"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il est installé au sommet d'une montagne, dans le désert d'Atacama, un des ciels les plus purs du monde,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "désert d'Atacama",
+     "size": "l",
+     "color": "gold",
+     "on": "Atacama"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "montagne",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "son miroir principal fera trente-neuf mètres, et sera composé de près de huit cents morceaux hexagonaux,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "miroir de 39 m",
+     "size": "xl",
+     "color": "gold",
+     "on": "trente-neuf",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "~ 800 morceaux",
+     "size": "m",
+     "on": "huit cents"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et il pourrait même photographier directement certaines planètes autour d'autres étoiles."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "photographier des",
+     "size": "m",
+     "on": "photographier"
+    },
+    {
+     "t": "text",
+     "text": "exoplanètes !",
+     "size": "l",
+     "color": "pink",
+     "on": "planètes",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le plus grand télescope du monde aura un miroir de 39 mètres 🔭\n\nL'Extremely Large Telescope (ELT), en construction par l'Observatoire européen austral (ESO), sera le plus grand télescope optique du monde. Il est installé au sommet du Cerro Armazones, dans le désert d'Atacama, au Chili, l'un des ciels les plus secs et les plus purs de la planète. Son miroir principal mesurera 39 mètres de diamètre et sera composé de 798 segments hexagonaux. Il collectera bien plus de lumière que tous les grands télescopes actuels, et pourrait photographier directement des planètes autour d'autres étoiles, voire y chercher des indices de vie. La France participe largement au projet. Un œil géant sur l'univers.\n\nTu aimerais regarder dedans ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#elt",
+  "#eso",
+  "#telescope",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://elt.eso.org/",
+  "https://fr.wikipedia.org/wiki/Extremely_Large_Telescope"
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 223,
+ "title": "La sonde Galileo s'est jetée dans Jupiter pour protéger Europe",
+ "subject": "Galileo",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "jupiter",
+   "file": "assets/images/jupiter_hubble_2019.jpg",
+   "credit": "Jupiter vue par Hubble · NASA, ESA, A. Simon, M.H. Wong",
+   "page": "https://esahubble.org/images/heic1914a/",
+   "license": "CC BY 4.0 (ESA/Hubble)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "s'est sacrifiée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pour protéger une LUNE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un sacrifice",
+   "on": "sonde"
+  },
+  "photo": "jupiter"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une sonde s'est jetée dans Jupiter pour protéger une de ses lunes ?"
+   ]
+  },
+  {
+   "say": [
+    "La sonde Galileo de la NASA a étudié Jupiter et ses lunes à partir de mille neuf cent quatre-vingt-quinze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la sonde Galileo",
+     "size": "l",
+     "color": "pink",
+     "on": "Galileo"
+    },
+    {
+     "t": "text",
+     "text": "autour de Jupiter dès 1995",
+     "size": "m",
+     "on": "quatre-vingt-quinze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a trouvé des indices d'un océan d'eau liquide caché sous la glace de la lune Europe,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un océan caché",
+     "size": "l",
+     "color": "gold",
+     "on": "océan",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "sous la glace d'Europe",
+     "size": "m",
+     "on": "Europe"
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, pas question de risquer qu'elle s'écrase un jour sur Europe et la contamine,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ne pas contaminer",
+     "size": "l",
+     "color": "pink",
+     "on": "contamine"
+    },
+    {
+     "t": "text",
+     "text": "Europe !",
+     "size": "m",
+     "on": "risquer"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors le vingt et un septembre deux mille trois, elle a plongé dans Jupiter."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "21 sept. 2003",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt et un"
+    },
+    {
+     "t": "text",
+     "text": "plongeon dans Jupiter",
+     "size": "m",
+     "on": "plongé",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La sonde Galileo s'est jetée dans Jupiter pour protéger la lune Europe 🛰️\n\nArrivée autour de Jupiter en 1995, la sonde Galileo de la NASA a étudié pendant huit ans la planète géante et ses lunes. Elle a notamment trouvé des indices solides d'un océan d'eau liquide caché sous la croûte glacée d'Europe, l'un des endroits les plus prometteurs pour chercher la vie ailleurs. Pour éviter qu'un jour, à court de carburant, la sonde ne s'écrase sur Europe et ne la contamine avec des microbes terrestres, la NASA l'a dirigée vers Jupiter : le 21 septembre 2003, Galileo a plongé dans l'atmosphère de la planète. Sur la photo, Jupiter. Une belle leçon de protection planétaire.\n\nTu savais qu'on faisait ça ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#galileo",
+  "#jupiter",
+  "#europe",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/galileo/",
+  "https://fr.wikipedia.org/wiki/Galileo_(sonde_spatiale)"
+ ]
+}

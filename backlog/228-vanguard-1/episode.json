@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 227,
+ "title": "Le plus vieux satellite encore en orbite date de 1958",
+ "subject": "Vanguard 1",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce satellite",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "tourne autour de la Terre",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "depuis 1958 ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le + vieux satellite",
+   "on": "satellite"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un satellite lancé en mille neuf cent cinquante-huit tourne encore autour de la Terre ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Vanguard un, un satellite américain lancé le dix-sept mars mille neuf cent cinquante-huit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Vanguard 1",
+     "size": "xl",
+     "color": "pink",
+     "on": "Vanguard"
+    },
+    {
+     "t": "text",
+     "text": "17 mars 1958",
+     "size": "l",
+     "color": "gold",
+     "on": "dix-sept mars"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il est minuscule, une boule d'environ seize centimètres, à peine plus grosse qu'un pamplemousse,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 16 cm",
+     "size": "l",
+     "on": "seize"
+    },
+    {
+     "t": "text",
+     "text": "un « pamplemousse » !",
+     "size": "l",
+     "color": "pink",
+     "on": "pamplemousse",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été l'un des premiers satellites à utiliser des panneaux solaires,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des panneaux solaires",
+     "size": "m",
+     "color": "gold",
+     "on": "panneaux"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "solaires",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il ne fonctionne plus depuis longtemps, mais c'est le plus vieil objet humain encore en orbite."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le + vieil objet",
+     "size": "m",
+     "on": "vieil"
+    },
+    {
+     "t": "text",
+     "text": "encore en orbite !",
+     "size": "l",
+     "color": "gold",
+     "on": "orbite",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Vanguard 1, lancé en 1958, est le plus vieux satellite encore en orbite 🛰️\n\nLancé par les États-Unis le 17 mars 1958, Vanguard 1 est le plus ancien objet fabriqué par l'humain encore en orbite autour de la Terre. Ce petit satellite sphérique d'environ 16 cm et 1,5 kg avait été surnommé « le pamplemousse » par le dirigeant soviétique Nikita Khrouchtchev. Il fut l'un des premiers satellites alimentés par des panneaux solaires, et ses mesures ont aidé à montrer que la Terre est légèrement en forme de poire. Il ne communique plus depuis 1964, mais il devrait rester en orbite encore plusieurs siècles. Un vétéran de l'ère spatiale.\n\nTu savais qu'il était encore là-haut ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#vanguard1",
+  "#satellite",
+  "#histoire",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Vanguard_1",
+  "https://www.nasa.gov/history/"
+ ]
+}

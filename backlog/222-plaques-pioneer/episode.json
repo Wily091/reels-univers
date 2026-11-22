@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 221,
+ "title": "Deux sondes emportent un dessin pour les extraterrestres",
+ "subject": "Pioneer",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce dessin",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "voyage dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pour les EXTRATERRESTRES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un message gravé",
+   "on": "dessin"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que deux sondes spatiales emportent un dessin gravé destiné à d'éventuels extraterrestres ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont Pioneer dix et onze, lancées en mille neuf cent soixante-douze et soixante-treize vers Jupiter et Saturne,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Pioneer 10 et 11",
+     "size": "l",
+     "color": "pink",
+     "on": "Pioneer"
+    },
+    {
+     "t": "text",
+     "text": "1972 et 1973",
+     "size": "m",
+     "color": "gold",
+     "on": "soixante-douze"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancées",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "chacune porte une plaque en métal doré, imaginée notamment par l'astronome Carl Sagan,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une plaque dorée",
+     "size": "l",
+     "color": "gold",
+     "on": "plaque",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "idée de Carl Sagan",
+     "size": "m",
+     "on": "Sagan"
+    }
+   ]
+  },
+  {
+   "say": [
+    "on y voit un homme et une femme, et une carte qui montre d'où vient la sonde, grâce à la position de quatorze pulsars,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un homme + une femme",
+     "size": "m",
+     "on": "homme"
+    },
+    {
+     "t": "text",
+     "text": "une carte avec 14 pulsars",
+     "size": "l",
+     "color": "pink",
+     "on": "quatorze"
+    }
+   ]
+  },
+  {
+   "say": [
+    "aujourd'hui, ces deux sondes sont silencieuses, mais elles continuent de filer hors du système solaire."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "silencieuses…",
+     "size": "m",
+     "on": "silencieuses"
+    },
+    {
+     "t": "text",
+     "text": "mais toujours en route !",
+     "size": "l",
+     "color": "gold",
+     "on": "filer",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les sondes Pioneer emportent un dessin gravé pour d'éventuels extraterrestres 👽\n\nLancées en 1972 et 1973, les sondes Pioneer 10 et 11 de la NASA ont été les premières à survoler Jupiter, puis Saturne pour Pioneer 11. Chacune transporte une plaque en aluminium dorée, conçue notamment par l'astronome Carl Sagan et Frank Drake. On y voit un homme et une femme, la silhouette de la sonde, le système solaire, et une carte indiquant la position du Soleil par rapport à 14 pulsars. Un message destiné à d'éventuels extraterrestres qui la trouveraient un jour. Les deux sondes ne communiquent plus, mais elles poursuivent leur route vers les étoiles. Une bouteille à la mer cosmique.\n\nTu aurais dessiné quoi, toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#pioneer",
+  "#nasa",
+  "#extraterrestres",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Plaque_de_Pioneer",
+  "https://fr.wikipedia.org/wiki/Pioneer_10"
+ ]
+}

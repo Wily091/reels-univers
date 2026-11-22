@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 220,
+ "title": "Le premier robot à rouler sur la Lune était soviétique",
+ "subject": "Lunokhod",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "lune",
+   "file": "assets/images/pleine_lune.jpg",
+   "credit": "Pleine Lune · Gregory H. Revera",
+   "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "license": "CC BY-SA 3.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le 1er robot",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à rouler sur la Lune",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "était téléguidé depuis la TERRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le 1er rover lunaire",
+   "on": "Lune"
+  },
+  "photo": "lune"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le premier robot à rouler sur la Lune était piloté depuis la Terre, en mille neuf cent soixante-dix ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait Lunokhod un, il était soviétique, et il s'est posé le dix-sept novembre mille neuf cent soixante-dix,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Lunokhod 1",
+     "size": "xl",
+     "color": "pink",
+     "on": "Lunokhod"
+    },
+    {
+     "t": "text",
+     "text": "17 novembre 1970",
+     "size": "l",
+     "color": "gold",
+     "on": "dix-sept novembre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il avait huit roues, et une équipe le pilotait depuis la Terre, avec un décalage de plusieurs secondes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "8 roues",
+     "size": "l",
+     "on": "huit roues"
+    },
+    {
+     "t": "text",
+     "text": "piloté depuis la Terre !",
+     "size": "m",
+     "color": "gold",
+     "on": "pilotait",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a parcouru environ dix kilomètres en dix mois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 10 km en 10 mois",
+     "size": "l",
+     "color": "pink",
+     "on": "dix kilomètres"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et son réflecteur, toujours sur la Lune, sert encore aujourd'hui aux scientifiques qui y envoient des lasers."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "son réflecteur sert",
+     "size": "m",
+     "on": "réflecteur"
+    },
+    {
+     "t": "text",
+     "text": "encore aujourd'hui !",
+     "size": "l",
+     "color": "gold",
+     "on": "lasers",
+     "under": true
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "on": "envoient",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Lunokhod 1, le premier robot à rouler sur la Lune, était piloté depuis la Terre 🌕\n\nLe 17 novembre 1970, la sonde soviétique Luna 17 dépose sur la Lune Lunokhod 1, le premier véhicule robotisé à rouler sur un autre astre. Monté sur huit roues, il était piloté à distance par une équipe sur Terre, malgré le décalage de plusieurs secondes dû à la distance. Pendant environ dix mois, il a parcouru une dizaine de kilomètres, envoyant des milliers d'images et analysant le sol lunaire. Son réflecteur laser, toujours en place, est encore utilisé aujourd'hui par des scientifiques pour mesurer précisément la distance Terre-Lune. Sur la photo, la pleine Lune. Une prouesse de la conquête spatiale.\n\nTu aurais aimé le piloter ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lunokhod",
+  "#lune",
+  "#histoire",
+  "#rover",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Lunokhod_1",
+  "https://fr.wikipedia.org/wiki/Luna_17"
+ ]
+}

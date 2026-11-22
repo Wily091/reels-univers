@@ -1,0 +1,173 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 222,
+ "title": "La sonde Cassini a plongé volontairement dans Saturne",
+ "subject": "Cassini",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "saturne",
+   "file": "assets/images/saturne_cassini.jpg",
+   "credit": "Saturne vue par Cassini · NASA/JPL/Space Science Institute",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06193",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.06,
+    0,
+    0.88,
+    1
+   ],
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette sonde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a plongé dans Saturne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "VOLONTAIREMENT ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un plongeon final",
+   "on": "Saturne"
+  },
+  "photo": "saturne"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la sonde Cassini a été envoyée volontairement s'écraser dans Saturne ?"
+   ]
+  },
+  {
+   "say": [
+    "Lancée en mille neuf cent quatre-vingt-dix-sept, elle a tourné autour de Saturne pendant treize ans,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "lancée en 1997",
+     "size": "m",
+     "on": "quatre-vingt-dix-sept"
+    },
+    {
+     "t": "text",
+     "text": "13 ans autour de Saturne",
+     "size": "l",
+     "color": "gold",
+     "on": "treize"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "tourné",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a découvert des geysers sur Encelade, et des lacs de méthane sur Titan, deux lunes où la vie pourrait exister,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "geysers d'Encelade",
+     "size": "m",
+     "on": "Encelade"
+    },
+    {
+     "t": "text",
+     "text": "lacs de Titan",
+     "size": "m",
+     "color": "pink",
+     "on": "Titan"
+    }
+   ]
+  },
+  {
+   "say": [
+    "à court de carburant, la NASA ne voulait surtout pas qu'elle s'écrase un jour sur ces lunes et les contamine avec des microbes terrestres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ne pas contaminer",
+     "size": "l",
+     "color": "pink",
+     "on": "contamine",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "ces lunes !",
+     "size": "m",
+     "on": "microbes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "alors le quinze septembre deux mille dix-sept, elle a plongé dans Saturne, en envoyant des données jusqu'à la dernière seconde."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "15 septembre 2017",
+     "size": "l",
+     "color": "gold",
+     "on": "quinze septembre"
+    },
+    {
+     "t": "text",
+     "text": "le plongeon final",
+     "size": "m",
+     "on": "plongé",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La sonde Cassini a plongé volontairement dans Saturne en 2017 🪐\n\nLancée en 1997, la sonde Cassini (NASA, ESA et ASI) a exploré Saturne pendant 13 ans, à partir de 2004. Elle a notamment découvert les geysers d'eau d'Encelade et les lacs de méthane de Titan, deux lunes qui pourraient offrir des conditions favorables à la vie. À court de carburant, la sonde risquait de s'écraser un jour sur l'une d'elles et de les contaminer avec des microbes venus de la Terre. La NASA a donc choisi de la faire plonger dans l'atmosphère de Saturne : le 15 septembre 2017, Cassini a transmis des données jusqu'à sa dernière seconde. Sur la photo, Saturne vue par Cassini.\n\nTu trouves ça triste ou beau ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#cassini",
+  "#saturne",
+  "#nasa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/mission/cassini/",
+  "https://fr.wikipedia.org/wiki/Cassini-Huygens"
+ ]
+}

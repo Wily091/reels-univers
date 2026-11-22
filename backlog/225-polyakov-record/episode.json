@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 224,
+ "title": "Le record du plus long séjour dans l'espace : 437 jours",
+ "subject": "Mir",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Il est resté",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans l'espace",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "437 JOURS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le record absolu",
+   "on": "espace"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le record du plus long séjour dans l'espace d'un seul coup est de quatre cent trente-sept jours ?"
+   ]
+  },
+  {
+   "say": [
+    "Il est détenu par le cosmonaute et médecin russe Valeri Poliakov,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Valeri Poliakov",
+     "size": "l",
+     "color": "pink",
+     "on": "Poliakov"
+    },
+    {
+     "t": "text",
+     "text": "cosmonaute et médecin",
+     "size": "m",
+     "on": "médecin"
+    }
+   ]
+  },
+  {
+   "say": [
+    "de janvier mille neuf cent quatre-vingt-quatorze à mars mille neuf cent quatre-vingt-quinze, il vit à bord de la station Mir,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1994 → 1995",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-quatorze"
+    },
+    {
+     "t": "text",
+     "text": "à bord de Mir",
+     "size": "m",
+     "on": "Mir"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ça fait quatre cent trente-sept jours, plus d'un an et deux mois sans poser le pied sur Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "437 jours !",
+     "size": "xl",
+     "color": "pink",
+     "on": "quatre cent trente-sept",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "il voulait prouver que le corps humain pourrait tenir un voyage jusqu'à Mars."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "objectif :",
+     "size": "m",
+     "on": "prouver"
+    },
+    {
+     "t": "text",
+     "text": "tenir jusqu'à Mars !",
+     "size": "l",
+     "color": "gold",
+     "on": "Mars",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "437 jours : le record du plus long séjour dans l'espace 🧑‍🚀\n\nLe record du plus long séjour continu dans l'espace est détenu par le cosmonaute russe Valeri Poliakov. Médecin de formation, il a vécu à bord de la station spatiale Mir de janvier 1994 à mars 1995, soit 437 jours d'affilée, plus d'un an et deux mois ! Son objectif : montrer que le corps et l'esprit humains pouvaient supporter la durée d'un voyage vers Mars. À son retour, il a même tenu à sortir de la capsule en marchant. Ce record tient toujours aujourd'hui. Sur la photo, la Station spatiale internationale. Un exploit humain de la conquête spatiale.\n\nTu tiendrais combien de temps ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#record",
+  "#mir",
+  "#astronaute",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Valeri_Poliakov",
+  "https://fr.wikipedia.org/wiki/Mir_(station_spatiale)"
+ ]
+}
