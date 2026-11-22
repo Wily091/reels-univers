@@ -80,6 +80,34 @@
    "id": "PIA23645",
    "credit": "NASA/JPL-Caltech",
    "page": "https://science.nasa.gov/photojournal/pale-blue-dot-revisited"
+  },
+  {
+   "file": "assets/images/uranus_voyager2.jpg",
+   "id": "PIA18182",
+   "credit": "NASA/JPL-Caltech",
+   "page": "https://science.nasa.gov/photojournal/uranus-as-seen-by-nasas-voyager-2/"
+  },
+  {
+   "file": "assets/images/apollo11_miroir_laser.jpg",
+   "id": "as11-40-5952",
+   "credit": "NASA",
+   "page": "https://images.nasa.gov/details/as11-40-5952"
+  },
+  {
+   "file": "assets/images/io_galileo.jpg",
+   "id": "PIA02308",
+   "credit": "NASA/JPL/University of Arizona",
+   "page": "https://science.nasa.gov/photojournal/ios-true-color/"
+  },
+  {
+   "file": "assets/images/crabe_hubble.jpg",
+   "id": "heic0515a",
+   "urls": [
+    "https://cdn.esahubble.org/archives/images/large/heic0515a.jpg",
+    "https://cdn.esahubble.org/archives/images/screen/heic0515a.jpg"
+   ],
+   "credit": "NASA, ESA, J. Hester, A. Loll (ASU)",
+   "page": "https://esahubble.org/images/heic0515a/"
   }
  ],
  "note": "Liste des photos officielles. Pousser une modification de ce fichier déclenche le téléchargement des images absentes."
