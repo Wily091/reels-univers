@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 347,
+ "title": "Les plus vieux cristaux de la Terre ont 4,4 milliards d'années",
+ "subject": "Terre",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ces petits cristaux",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ont presque",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "l'ÂGE de la Terre ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les doyens de la Terre",
+   "on": "cristaux"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les plus vieux morceaux de la Terre sont de minuscules cristaux de plus de quatre milliards d'années ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont des zircons, des cristaux plus petits qu'un grain de sable, trouvés dans les collines de Jack Hills, en Australie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des zircons",
+     "size": "l",
+     "color": "pink",
+     "on": "zircons"
+    },
+    {
+     "t": "text",
+     "text": "Jack Hills, Australie",
+     "size": "m",
+     "on": "Australie"
+    }
+   ]
+  },
+  {
+   "say": [
+    "les plus anciens ont environ quatre virgule quatre milliards d'années,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 4,4 milliards d'années !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre virgule",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "la Terre, elle, s'est formée il y a environ quatre virgule cinq milliards d'années, donc ils datent presque de sa naissance,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Terre : ~ 4,5 milliards",
+     "size": "m",
+     "on": "formée"
+    },
+    {
+     "t": "text",
+     "text": "presque sa naissance !",
+     "size": "l",
+     "color": "pink",
+     "on": "naissance"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et leur chimie suggère qu'il y avait déjà de l'eau liquide sur Terre à cette époque."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "déjà de l'eau",
+     "size": "l",
+     "color": "gold",
+     "on": "eau"
+    },
+    {
+     "t": "text",
+     "text": "à cette époque ?",
+     "size": "m",
+     "on": "époque",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les plus vieux cristaux de la Terre ont environ 4,4 milliards d'années 💎\n\nDans les collines de Jack Hills, en Australie-Occidentale, des géologues ont découvert les plus vieux fragments connus de la Terre : de minuscules cristaux de zircon, plus petits qu'un grain de sable. Les plus anciens ont environ 4,4 milliards d'années, alors que la Terre s'est formée il y a environ 4,54 milliards d'années ! Ces cristaux ultra-résistants ont survécu à l'érosion et aux bouleversements géologiques. Leur composition chimique suggère qu'à cette époque très reculée, la Terre avait déjà refroidi et possédait peut-être de l'eau liquide et une croûte continentale, bien plus tôt qu'on ne le pensait. Sur la photo, la Terre.\n\nTu savais que des cailloux pouvaient être si vieux ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#terre",
+  "#geologie",
+  "#zircon",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jack_Hills",
+  "https://fr.wikipedia.org/wiki/Zircon"
+ ]
+}

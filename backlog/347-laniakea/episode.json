@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 346,
+ "title": "Notre galaxie fait partie d'un superamas appelé Laniakea",
+ "subject": "Laniakea",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Notre galaxie",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "vit dans",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un SUPERAMAS géant ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "notre adresse XXL",
+   "on": "galaxie"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que notre galaxie fait partie d'une structure géante qui contient environ cent mille galaxies ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Laniakea, ce qui signifie horizon céleste immense, en hawaïen,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Laniakea",
+     "size": "xl",
+     "color": "pink",
+     "on": "Laniakea"
+    },
+    {
+     "t": "text",
+     "text": "« horizon céleste immense »",
+     "size": "m",
+     "on": "hawaïen"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est un superamas de galaxies, d'environ cinq cents millions d'années-lumière de large,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un superamas",
+     "size": "l",
+     "color": "gold",
+     "on": "superamas"
+    },
+    {
+     "t": "text",
+     "text": "~ 500 millions d'a.-l.",
+     "size": "m",
+     "on": "cinq cents"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il regroupe environ cent mille galaxies, dont la nôtre, qui se trouve tout au bord,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 100 000 galaxies !",
+     "size": "l",
+     "color": "pink",
+     "on": "cent mille",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "nous : au bord",
+     "size": "m",
+     "on": "bord"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a été défini en deux mille quatorze par une équipe d'astronomes, dont la Française Hélène Courtois."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2014",
+     "size": "l",
+     "on": "deux mille quatorze"
+    },
+    {
+     "t": "text",
+     "text": "dont Hélène Courtois 🇫🇷",
+     "size": "m",
+     "color": "gold",
+     "on": "Courtois",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Laniakea, le superamas de galaxies où se trouve la Voie lactée 🌌\n\nEn 2014, une équipe d'astronomes, dont la Française Hélène Courtois de l'université de Lyon et R. Brent Tully de l'université d'Hawaï, a cartographié les mouvements de milliers de galaxies et défini les contours de notre « continent » cosmique : le superamas Laniakea, qui signifie « horizon céleste immense » en hawaïen. Il s'étend sur environ 500 millions d'années-lumière et regroupe environ 100 000 grandes galaxies, dont la Voie lactée, située en périphérie. Toutes ces galaxies s'écoulent vers une région centrale, le Grand Attracteur. Notre adresse cosmique complète : Terre, système solaire, Voie lactée, Groupe local, Laniakea ! Sur la photo, le champ profond de Hubble.\n\nTu connaissais Laniakea ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#laniakea",
+  "#galaxies",
+  "#univers",
+  "#cosmologie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Laniakea",
+  "https://en.wikipedia.org/wiki/Laniakea_Supercluster"
+ ]
+}

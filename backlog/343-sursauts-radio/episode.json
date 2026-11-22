@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 342,
+ "title": "Des flashs radio mystérieux viennent du fond de l'univers",
+ "subject": "Sursauts radio",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Des flashs radio",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'une milliseconde",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "venus de l'UNIVERS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un mystère cosmique",
+   "on": "flashs"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des flashs radio ultra-courts et mystérieux nous arrivent du fond de l'univers ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle les sursauts radio rapides, et ils ne durent que quelques millisecondes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sursauts radio rapides",
+     "size": "l",
+     "color": "pink",
+     "on": "sursauts"
+    },
+    {
+     "t": "text",
+     "text": "quelques millisecondes !",
+     "size": "m",
+     "on": "millisecondes"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "radio",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "le premier a été repéré en deux mille sept, et aujourd'hui, on en a détecté des milliers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1er repéré en 2007",
+     "size": "m",
+     "on": "deux mille sept"
+    },
+    {
+     "t": "text",
+     "text": "des milliers depuis",
+     "size": "l",
+     "color": "gold",
+     "on": "milliers"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en une milliseconde, certains libèrent autant d'énergie que le Soleil en plusieurs jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 ms = des jours de Soleil",
+     "size": "l",
+     "color": "pink",
+     "on": "énergie",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "on soupçonne les magnétars d'en produire une partie, mais leur origine reste en grande partie un mystère."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des magnétars ?",
+     "size": "m",
+     "on": "magnétars"
+    },
+    {
+     "t": "text",
+     "text": "encore un mystère !",
+     "size": "l",
+     "color": "gold",
+     "on": "mystère",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Des flashs radio mystérieux nous arrivent du fond de l'univers 📡\n\nLes sursauts radio rapides (FRB, pour « fast radio bursts ») sont de brefs éclairs d'ondes radio qui ne durent que quelques millisecondes. Le premier a été identifié en 2007 dans des données d'archives du radiotélescope de Parkes, en Australie. Depuis, des radiotélescopes comme CHIME, au Canada, en ont détecté des milliers. La plupart viennent d'autres galaxies, parfois à des milliards d'années-lumière : en une milliseconde, certains libèrent autant d'énergie que le Soleil en plusieurs jours ! En 2020, un sursaut a été associé à un magnétar de notre galaxie, mais l'origine de beaucoup d'entre eux reste un mystère. Et non, ce ne sont pas des extraterrestres !\n\nTu crois que c'est naturel ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#sursautsradio",
+  "#mystere",
+  "#radioastronomie",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Sursaut_radio_rapide",
+  "https://science.nasa.gov/universe/"
+ ]
+}

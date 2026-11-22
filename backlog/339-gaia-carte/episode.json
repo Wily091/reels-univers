@@ -1,0 +1,169 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 338,
+ "title": "Le satellite Gaia a cartographié près de 2 milliards d'étoiles",
+ "subject": "Gaia",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce satellite",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a cartographié",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "~ 2 MILLIARDS d'étoiles ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la carte de la galaxie",
+   "on": "satellite"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un satellite européen a cartographié près de deux milliards d'étoiles de notre galaxie ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Gaia, lancé par l'Agence spatiale européenne en deux mille treize,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Gaia",
+     "size": "xl",
+     "color": "pink",
+     "on": "Gaia"
+    },
+    {
+     "t": "text",
+     "text": "lancé en 2013",
+     "size": "m",
+     "color": "gold",
+     "on": "treize"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "pendant plus de dix ans, il a mesuré la position, la distance et le mouvement de près de deux milliards d'étoiles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 2 milliards d'étoiles !",
+     "size": "l",
+     "color": "gold",
+     "on": "deux milliards",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "mouvement",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ça a permis de découvrir des trous noirs cachés, des milliers d'astéroïdes, et l'histoire de notre galaxie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "trous noirs, astéroïdes…",
+     "size": "m",
+     "on": "trous noirs"
+    },
+    {
+     "t": "text",
+     "text": "et l'histoire de la galaxie",
+     "size": "l",
+     "color": "pink",
+     "on": "histoire"
+    }
+   ]
+  },
+  {
+   "say": [
+    "il a terminé sa mission en mars deux mille vingt-cinq, mais ses données occuperont les astronomes pendant des décennies."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "fin de mission : 2025",
+     "size": "m",
+     "on": "vingt-cinq"
+    },
+    {
+     "t": "text",
+     "text": "des données pour des décennies !",
+     "size": "l",
+     "color": "gold",
+     "on": "décennies",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le satellite Gaia a cartographié près de 2 milliards d'étoiles 🗺️⭐\n\nLancé en décembre 2013 par l'Agence spatiale européenne, le satellite Gaia a réalisé la carte la plus précise jamais faite de notre galaxie. Pendant plus de dix ans, il a mesuré la position, la distance, le mouvement et la couleur de près de deux milliards d'étoiles de la Voie lactée, soit environ 1 % de ses étoiles. Ses données ont permis de reconstituer l'histoire de notre galaxie, de découvrir des trous noirs dormants comme Gaia BH1, des milliers d'astéroïdes et d'exoplanètes potentielles. Gaia a été désactivé en mars 2025, mais ses catalogues, dont le prochain est attendu, occuperont les astronomes pendant des décennies. Sur l'image, un ciel nocturne.\n\nTu imagines compter 2 milliards d'étoiles ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#gaia",
+  "#esa",
+  "#voielactee",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gaia_(spacecraft)",
+  "https://fr.wikipedia.org/wiki/Gaia_(satellite)"
+ ]
+}

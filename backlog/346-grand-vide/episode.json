@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 345,
+ "title": "Il existe un « grand vide » presque sans galaxies",
+ "subject": "Grand Vide",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Il existe une zone",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "presque vide",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de GALAXIES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le Grand Vide",
+   "on": "galaxies"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'il existe dans l'univers une zone gigantesque presque vide de galaxies ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle le Grand Vide du Bouvier, parce qu'il se trouve dans la direction de la constellation du Bouvier,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Grand Vide du Bouvier",
+     "size": "l",
+     "color": "pink",
+     "on": "Bouvier"
+    },
+    {
+     "t": "sketch",
+     "kind": "constellation",
+     "on": "constellation",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il mesure environ trois cents millions d'années-lumière de large,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 300 millions d'a.-l.",
+     "size": "xl",
+     "color": "gold",
+     "on": "trois cents",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et à l'intérieur, on n'a trouvé qu'une soixantaine de galaxies, alors qu'il devrait y en avoir des milliers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 60 galaxies",
+     "size": "l",
+     "color": "pink",
+     "on": "soixantaine"
+    },
+    {
+     "t": "text",
+     "text": "au lieu de milliers !",
+     "size": "m",
+     "on": "milliers"
+    }
+   ]
+  },
+  {
+   "say": [
+    "si la Voie lactée était au milieu, on n'aurait découvert l'existence des autres galaxies que bien plus tard."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au milieu,",
+     "size": "m",
+     "on": "milieu"
+    },
+    {
+     "t": "text",
+     "text": "on se croirait seuls !",
+     "size": "l",
+     "color": "gold",
+     "on": "autres",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le Grand Vide du Bouvier, une zone gigantesque presque sans galaxies 🌌\n\nDécouvert en 1981, le Grand Vide du Bouvier est l'une des plus grandes régions vides connues de l'univers. Situé dans la direction de la constellation du Bouvier, à environ 700 millions d'années-lumière, il mesure quelque 300 millions d'années-lumière de diamètre ! Dans un tel volume, on s'attendrait à trouver des milliers de galaxies, mais on n'en a recensé qu'une soixantaine. Ces grands vides font partie de la « toile cosmique », la structure de l'univers à grande échelle, formée de filaments de galaxies entourant d'immenses bulles vides. Si la Voie lactée se trouvait en son centre, nous aurions longtemps cru être presque seuls. Sur la photo, le champ profond de Hubble.\n\nÇa te fait flipper ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#grandvide",
+  "#univers",
+  "#galaxies",
+  "#cosmologie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Grand_Vide_du_Bouvier",
+  "https://en.wikipedia.org/wiki/Boötes_Void"
+ ]
+}

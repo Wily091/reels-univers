@@ -1,0 +1,151 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 344,
+ "title": "Un des plus gros trous noirs connus pèse des dizaines de milliards de Soleils",
+ "subject": "TON 618",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce trou noir pèse",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des dizaines de milliards",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de SOLEILS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un monstre cosmique",
+   "on": "noirs"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un des plus gros trous noirs connus pèserait des dizaines de milliards de fois plus que le Soleil ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle TON six cent dix-huit, et il se cache au cœur d'un quasar très lointain,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "TON 618",
+     "size": "xl",
+     "color": "pink",
+     "on": "TON"
+    },
+    {
+     "t": "text",
+     "text": "au cœur d'un quasar",
+     "size": "m",
+     "on": "quasar"
+    }
+   ]
+  },
+  {
+   "say": [
+    "sa masse est estimée à plusieurs dizaines de milliards de fois celle du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des dizaines de milliards",
+     "size": "l",
+     "color": "gold",
+     "on": "dizaines",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "de masses solaires !",
+     "size": "m",
+     "on": "masse"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est des milliers de fois plus que le trou noir au centre de notre galaxie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "× des milliers",
+     "size": "l",
+     "on": "milliers"
+    },
+    {
+     "t": "text",
+     "text": "vs le trou noir de la Voie lactée",
+     "size": "m",
+     "color": "pink",
+     "on": "centre"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et sa zone de non-retour serait plus grande que tout notre système solaire, jusqu'à Neptune."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ grand que",
+     "size": "m",
+     "on": "grande"
+    },
+    {
+     "t": "text",
+     "text": "tout le système solaire !",
+     "size": "l",
+     "color": "gold",
+     "on": "Neptune",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "TON 618, un trou noir de plusieurs dizaines de milliards de masses solaires 🕳️\n\nTON 618 est l'un des trous noirs les plus massifs connus. Il se trouve au cœur d'un quasar extrêmement lumineux, si lointain que sa lumière a voyagé environ 10 milliards d'années pour nous parvenir. Sa masse est estimée à plusieurs dizaines de milliards de fois celle du Soleil, des milliers de fois plus que Sagittarius A*, le trou noir au centre de notre galaxie (environ 4 millions de masses solaires). Son horizon des événements, la zone de non-retour, serait si vaste qu'il engloberait largement tout notre système solaire jusqu'à l'orbite de Neptune et bien au-delà. Les estimations de sa masse restent incertaines, mais c'est un véritable monstre cosmique.\n\nTu imagines sa taille ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#trounoir",
+  "#ton618",
+  "#quasar",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/TON_618",
+  "https://fr.wikipedia.org/wiki/TON_618"
+ ]
+}

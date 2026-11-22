@@ -1,0 +1,165 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 348,
+ "title": "Des volcans seraient encore actifs sur Vénus",
+ "subject": "Vénus",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "venus",
+   "file": "assets/images/venus_mariner10.jpg",
+   "credit": "Vénus vue par Mariner 10 · NASA/JPL-Caltech",
+   "page": "https://www.jpl.nasa.gov/images/pia23791-venus-from-mariner-10/",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Vénus a",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "des volcans",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "ENCORE ACTIFS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des volcans vivants",
+   "on": "volcans"
+  },
+  "photo": "venus"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que des volcans seraient encore en activité sur Vénus ?"
+   ]
+  },
+  {
+   "say": [
+    "Vénus est couverte de volcans, plus que n'importe quelle autre planète du système solaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "couverte de volcans",
+     "size": "l",
+     "color": "gold",
+     "on": "volcans"
+    },
+    {
+     "t": "sketch",
+     "kind": "mountains",
+     "on": "couverte",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais ses nuages épais empêchent de voir la surface, alors on utilise des radars,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "cachée par les nuages",
+     "size": "m",
+     "on": "nuages"
+    },
+    {
+     "t": "text",
+     "text": "vue au radar",
+     "size": "l",
+     "color": "pink",
+     "on": "radars"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille vingt-trois, des chercheurs ont comparé des images radar de la sonde Magellan, prises à quelques mois d'écart au début des années quatre-vingt-dix,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "images de Magellan",
+     "size": "l",
+     "color": "gold",
+     "on": "Magellan"
+    },
+    {
+     "t": "text",
+     "text": "à quelques mois d'écart",
+     "size": "m",
+     "on": "mois"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ils ont vu une bouche volcanique changer de forme, signe d'une éruption récente."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une bouche volcanique",
+     "size": "m",
+     "on": "bouche"
+    },
+    {
+     "t": "text",
+     "text": "a changé de forme !",
+     "size": "l",
+     "color": "pink",
+     "on": "changer",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Des volcans seraient encore actifs sur Vénus 🌋\n\nVénus est la planète qui compte le plus de volcans dans le système solaire, mais ses épais nuages empêchent de voir sa surface : il faut utiliser des radars. En 2023, deux chercheurs ont réexaminé des images radar prises par la sonde Magellan de la NASA au début des années 1990. En comparant deux images d'un même endroit, prises à huit mois d'écart, ils ont remarqué qu'une bouche volcanique près du volcan Maat Mons avait changé de forme et de taille, signe probable d'une éruption. C'était la première preuve directe d'une activité volcanique récente sur Vénus ! D'autres indices ont suivi en 2024. Les futures missions VERITAS et EnVision devraient le confirmer. Sur la photo, Vénus.\n\nTu imagines une éruption sur Vénus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#venus",
+  "#volcans",
+  "#nasa",
+  "#planete",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/venus/facts/",
+  "https://en.wikipedia.org/wiki/Maat_Mons"
+ ]
+}

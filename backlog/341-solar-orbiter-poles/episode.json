@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 340,
+ "title": "On a photographié les pôles du Soleil pour la première fois",
+ "subject": "Solar Orbiter",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Pour la 1re fois,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "on a vu",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "les PÔLES du Soleil ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "les pôles du Soleil",
+   "on": "Soleil"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'on n'avait jamais vu les pôles du Soleil avant deux mille vingt-cinq ?"
+   ]
+  },
+  {
+   "say": [
+    "Depuis la Terre, et avec presque toutes les sondes, on voit toujours le Soleil par son équateur,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "toujours vu de face",
+     "size": "l",
+     "color": "gold",
+     "on": "équateur"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "la sonde européenne Solar Orbiter, lancée en deux mille vingt, a peu à peu incliné son orbite,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Solar Orbiter",
+     "size": "l",
+     "color": "pink",
+     "on": "Solar Orbiter"
+    },
+    {
+     "t": "text",
+     "text": "orbite inclinée",
+     "size": "m",
+     "on": "incliné"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "sonde",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en deux mille vingt-cinq, elle a envoyé les toutes premières images d'un pôle du Soleil,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2025 : 1res images",
+     "size": "l",
+     "color": "gold",
+     "on": "premières",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "d'un pôle solaire !",
+     "size": "m",
+     "on": "pôle"
+    }
+   ]
+  },
+  {
+   "say": [
+    "ces images doivent aider à comprendre le champ magnétique du Soleil, et pourquoi son activité suit un cycle d'environ onze ans."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "comprendre son cycle",
+     "size": "m",
+     "on": "cycle"
+    },
+    {
+     "t": "text",
+     "text": "de ~ 11 ans",
+     "size": "l",
+     "color": "pink",
+     "on": "onze",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Pour la première fois, on a photographié les pôles du Soleil ☀️\n\nDepuis toujours, nous observons le Soleil presque uniquement depuis le plan de son équateur, celui dans lequel tournent les planètes. Ses pôles restaient donc quasiment invisibles. La sonde Solar Orbiter de l'Agence spatiale européenne, lancée en février 2020 en collaboration avec la NASA, a été conçue pour changer cela : grâce à des survols de Vénus, elle incline progressivement son orbite. En 2025, elle a transmis les toutes premières images d'un pôle du Soleil ! Ces observations doivent aider à comprendre le champ magnétique solaire et son cycle d'activité d'environ 11 ans, qui influence la météo de l'espace. Sur la photo, le Soleil.\n\nTu savais qu'on ne les avait jamais vus ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#solarorbiter",
+  "#soleil",
+  "#esa",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Solar_Orbiter",
+  "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter"
+ ]
+}

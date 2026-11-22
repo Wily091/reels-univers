@@ -1,0 +1,151 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 341,
+ "title": "Les magnétars sont les aimants les plus puissants de l'univers",
+ "subject": "Magnétar",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cet aimant",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "effacerait ta carte bancaire",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "à des MILLIERS de km ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'aimant ultime",
+   "on": "aimant"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les aimants les plus puissants de l'univers sont des étoiles mortes ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle les magnétars, des étoiles à neutrons, à peine plus grandes qu'une ville,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les magnétars",
+     "size": "xl",
+     "color": "pink",
+     "on": "magnétars"
+    },
+    {
+     "t": "text",
+     "text": "grands comme une ville",
+     "size": "m",
+     "on": "ville"
+    }
+   ]
+  },
+  {
+   "say": [
+    "leur champ magnétique est des milliards de fois plus puissant que les aimants les plus forts fabriqués sur Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des milliards de fois",
+     "size": "l",
+     "color": "gold",
+     "on": "milliards",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "+ fort que nos aimants",
+     "size": "m",
+     "on": "aimants"
+    }
+   ]
+  },
+  {
+   "say": [
+    "si un magnétar passait à des milliers de kilomètres de toi, il effacerait les données de ta carte bancaire,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ta carte bancaire",
+     "size": "l",
+     "color": "pink",
+     "on": "carte"
+    },
+    {
+     "t": "text",
+     "text": "effacée à distance !",
+     "size": "m",
+     "on": "effacerait"
+    }
+   ]
+  },
+  {
+   "say": [
+    "heureusement, le plus proche connu est à des milliers d'années-lumière."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "heureusement :",
+     "size": "m",
+     "on": "heureusement"
+    },
+    {
+     "t": "text",
+     "text": "très, très loin !",
+     "size": "l",
+     "color": "gold",
+     "on": "années-lumière",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les magnétars, les aimants les plus puissants de l'univers 🧲\n\nLes magnétars sont des étoiles à neutrons, des restes d'étoiles massives effondrées, à peine plus larges qu'une ville, mais plus massives que le Soleil. Leur particularité : un champ magnétique colossal, des milliards de fois plus puissant que les aimants les plus forts fabriqués sur Terre. Un magnétar qui passerait à des milliers de kilomètres de la Terre suffirait à effacer les bandes magnétiques de toutes les cartes bancaires, et de bien plus près, son champ déformerait même les atomes. Ils peuvent aussi libérer des éruptions géantes de rayons gamma. Heureusement, les magnétars connus se trouvent tous à des milliers d'années-lumière de nous. Un objet extrême de l'univers.\n\nTu savais que ça existait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#magnetar",
+  "#etoileaneutrons",
+  "#magnetisme",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Magnétar",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

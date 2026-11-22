@@ -1,0 +1,155 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 339,
+ "title": "Un télescope solaire a découvert plus de 5 000 comètes",
+ "subject": "SOHO",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce télescope",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qui regarde le Soleil",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "a trouvé 5 000 COMÈTES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le chasseur de comètes",
+   "on": "télescope"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un télescope fait pour observer le Soleil a découvert plus de cinq mille comètes ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle SOHO, une mission européenne et américaine lancée en mille neuf cent quatre-vingt-quinze,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "SOHO",
+     "size": "xl",
+     "color": "pink",
+     "on": "SOHO"
+    },
+    {
+     "t": "text",
+     "text": "lancé en 1995",
+     "size": "m",
+     "color": "gold",
+     "on": "quatre-vingt-quinze"
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "mission",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour étudier le Soleil, il cache son disque éblouissant, comme une éclipse artificielle,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une éclipse artificielle",
+     "size": "l",
+     "color": "gold",
+     "on": "éclipse"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et du coup, il voit passer de petites comètes qui plongent vers le Soleil, il en a découvert plus de cinq mille,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ de 5 000 comètes !",
+     "size": "xl",
+     "color": "pink",
+     "on": "cinq mille",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la plupart ont été repérées par des amateurs, depuis chez eux, en regardant ses images sur Internet."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "trouvées par des amateurs",
+     "size": "l",
+     "color": "gold",
+     "on": "amateurs"
+    },
+    {
+     "t": "text",
+     "text": "depuis chez eux !",
+     "size": "m",
+     "on": "chez eux",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le télescope solaire SOHO a découvert plus de 5 000 comètes ☄️\n\nLancé en décembre 1995, l'observatoire SOHO, une mission commune de l'ESA et de la NASA, observe le Soleil sans interruption depuis près de 30 ans. Pour étudier l'atmosphère solaire, son instrument LASCO masque le disque éblouissant du Soleil, créant une sorte d'éclipse artificielle. Résultat inattendu : il voit passer de petites comètes qui frôlent le Soleil, et souvent s'y désintègrent. SOHO est ainsi devenu le plus grand découvreur de comètes de l'histoire, avec plus de 5 000 comètes ! La plupart ont été repérées par des astronomes amateurs du monde entier, qui scrutent ses images publiées sur Internet. Sur la photo, le Soleil.\n\nTu aimerais chercher des comètes depuis chez toi ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soho",
+  "#comete",
+  "#soleil",
+  "#esa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Solar_and_Heliospheric_Observatory",
+  "https://science.nasa.gov/mission/soho/"
+ ]
+}

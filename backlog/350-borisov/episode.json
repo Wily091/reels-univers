@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 349,
+ "title": "La première comète interstellaire a été découverte par un amateur",
+ "subject": "Borisov",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une comète",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "venue d'une autre étoile,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "trouvée par un AMATEUR ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la comète venue d'ailleurs",
+   "on": "comète"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la première comète venue d'une autre étoile a été découverte par un astronome amateur ?"
+   ]
+  },
+  {
+   "say": [
+    "Le trente août deux mille dix-neuf, Guennadi Borissov, un astronome amateur, la repère avec un télescope qu'il a fabriqué lui-même, en Crimée,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "30 août 2019",
+     "size": "l",
+     "color": "gold",
+     "on": "trente août"
+    },
+    {
+     "t": "text",
+     "text": "un amateur, Borissov",
+     "size": "l",
+     "color": "pink",
+     "on": "Borissov"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en calculant sa trajectoire, les astronomes ont compris qu'elle ne tournait pas autour du Soleil, elle venait d'ailleurs,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas d'orbite autour du Soleil",
+     "size": "m",
+     "on": "trajectoire"
+    },
+    {
+     "t": "text",
+     "text": "elle vient d'ailleurs !",
+     "size": "l",
+     "color": "gold",
+     "on": "ailleurs",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est le deuxième objet interstellaire connu, après 'Oumuamua, et la première vraie comète venue d'un autre système,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2I/Borisov",
+     "size": "xl",
+     "color": "pink",
+     "on": "deuxième"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et elle contenait beaucoup de monoxyde de carbone, signe qu'elle est née dans un endroit très froid."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "beaucoup de CO",
+     "size": "m",
+     "on": "monoxyde"
+    },
+    {
+     "t": "text",
+     "text": "née dans le grand froid",
+     "size": "l",
+     "color": "gold",
+     "on": "froid",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "2I/Borisov, la première comète interstellaire, découverte par un amateur ☄️\n\nLe 30 août 2019, l'astronome amateur Guennadi Borissov, depuis son observatoire en Crimée, repère une comète avec un télescope qu'il a construit lui-même. En calculant sa trajectoire, les astronomes comprennent qu'elle ne tourne pas autour du Soleil : elle traverse le système solaire à grande vitesse et vient d'un autre système stellaire ! Baptisée 2I/Borisov, c'est le deuxième objet interstellaire identifié, après 'Oumuamua en 2017, et la première véritable comète interstellaire. Les observations ont montré qu'elle était très riche en monoxyde de carbone, signe qu'elle s'est formée dans une région très froide autour d'une autre étoile. Un messager venu d'ailleurs !\n\nTu aimerais découvrir une comète ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#comete",
+  "#interstellaire",
+  "#borisov",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/2I/Borisov",
+  "https://en.wikipedia.org/wiki/2I/Borisov"
+ ]
+}

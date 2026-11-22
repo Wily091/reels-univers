@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 343,
+ "title": "La NASA a transformé les ondes d'un trou noir en son",
+ "subject": "Trou noir",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "m87",
+   "file": "assets/images/m87_trou_noir_eht.jpg",
+   "credit": "Trou noir de M87 · EHT Collaboration",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Voici le son",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "d'un trou noir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "transformé pour nos OREILLES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le chant d'un trou noir",
+   "on": "son"
+  },
+  "photo": "m87"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la NASA a transformé les ondes autour d'un trou noir en un son que nos oreilles peuvent entendre ?"
+   ]
+  },
+  {
+   "say": [
+    "Au centre de l'amas de galaxies de Persée, un trou noir géant crée des ondes de pression dans le gaz chaud qui l'entoure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'amas de Persée",
+     "size": "l",
+     "color": "pink",
+     "on": "Persée"
+    },
+    {
+     "t": "text",
+     "text": "des ondes dans le gaz",
+     "size": "m",
+     "on": "ondes"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "pression",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ces ondes sont de vraies ondes sonores, mais beaucoup trop graves pour nous, cinquante-sept octaves sous le do du milieu du piano,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "57 octaves",
+     "size": "xl",
+     "color": "gold",
+     "on": "cinquante-sept",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "sous le do du piano !",
+     "size": "m",
+     "on": "piano"
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille vingt-deux, la NASA les a accélérées des millions de milliards de fois pour les rendre audibles,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2022 : rendues audibles",
+     "size": "l",
+     "color": "pink",
+     "on": "audibles"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et le résultat ressemble à un grondement grave et inquiétant."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un grondement",
+     "size": "l",
+     "color": "gold",
+     "on": "grondement"
+    },
+    {
+     "t": "text",
+     "text": "inquiétant…",
+     "size": "m",
+     "on": "inquiétant",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La NASA a transformé les ondes autour d'un trou noir en son 🔊🕳️\n\nOn dit que dans l'espace, il n'y a pas de son. Mais dans les amas de galaxies, le gaz très chaud et diffus permet à des ondes de pression de se propager. Au centre de l'amas de Persée, à environ 240 millions d'années-lumière, un trou noir supermassif génère de telles ondes, découvertes en 2003 grâce au télescope Chandra : elles correspondent à une note située 57 octaves sous le do du milieu du piano, bien trop grave pour nos oreilles ! En 2022, la NASA les a transposées en les accélérant des millions de milliards de fois. Le résultat, un grondement grave et inquiétant, a fait le tour d'Internet. Sur l'image, le trou noir de M87.\n\nTu as déjà écouté ce son ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#trounoir",
+  "#son",
+  "#nasa",
+  "#chandra",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://chandra.harvard.edu/photo/2022/sonify3/",
+  "https://en.wikipedia.org/wiki/Perseus_Cluster"
+ ]
+}

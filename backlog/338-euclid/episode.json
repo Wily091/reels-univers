@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 337,
+ "title": "Le télescope européen Euclid cartographie l'univers sombre",
+ "subject": "Euclid",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "hudf",
+   "file": "assets/images/hubble_ultra_deep_field.jpg",
+   "credit": "Hubble Ultra Deep Field · NASA, ESA, S. Beckwith",
+   "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Ce télescope",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "cartographie",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "l'univers INVISIBLE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la carte de l'univers sombre",
+   "on": "télescope"
+  },
+  "photo": "hudf"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'un télescope européen est en train de cartographier l'univers invisible ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelle Euclid, lancé par l'Agence spatiale européenne en juillet deux mille vingt-trois,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Euclid",
+     "size": "xl",
+     "color": "pink",
+     "on": "Euclid"
+    },
+    {
+     "t": "text",
+     "text": "lancé en juillet 2023",
+     "size": "m",
+     "color": "gold",
+     "on": "juillet"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "lancé",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "son but, comprendre la matière noire et l'énergie noire, qui forment environ quatre-vingt-quinze pour cent de l'univers,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "matière + énergie noires",
+     "size": "l",
+     "on": "matière noire"
+    },
+    {
+     "t": "text",
+     "text": "~ 95 % de l'univers !",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre-vingt-quinze",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour ça, il photographie des milliards de galaxies sur plus d'un tiers du ciel,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des milliards de galaxies",
+     "size": "l",
+     "color": "pink",
+     "on": "milliards"
+    },
+    {
+     "t": "text",
+     "text": "+ d'1/3 du ciel",
+     "size": "m",
+     "on": "tiers"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et en mesurant leurs formes et leurs distances, il dessine la carte en trois dimensions de l'univers sombre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une carte en 3D",
+     "size": "l",
+     "color": "gold",
+     "on": "trois dimensions"
+    },
+    {
+     "t": "text",
+     "text": "de l'univers sombre",
+     "size": "m",
+     "on": "sombre",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Euclid, le télescope européen qui cartographie l'univers invisible 🔭\n\nLancé le 1er juillet 2023, le télescope spatial Euclid de l'Agence spatiale européenne (ESA) a une mission ambitieuse : percer les mystères de la matière noire et de l'énergie noire, qui représenteraient ensemble environ 95 % du contenu de l'univers, et que personne n'a jamais observées directement. Pendant six ans, Euclid photographie des milliards de galaxies sur plus d'un tiers du ciel. En mesurant très précisément leurs formes, légèrement déformées par la matière noire, et leurs distances, il construit la plus grande carte en 3D de l'univers jamais réalisée. La France a joué un rôle majeur dans sa construction. Sur la photo, le champ ultra-profond de Hubble.\n\nTu crois qu'on comprendra un jour la matière noire ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#euclid",
+  "#esa",
+  "#matierenoire",
+  "#cosmologie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Euclid_(télescope_spatial)",
+  "https://en.wikipedia.org/wiki/Euclid_(spacecraft)"
+ ]
+}
