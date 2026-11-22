@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 234,
+ "title": "Le Soleil ne tourne pas à la même vitesse partout",
+ "subject": "Le Soleil",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le Soleil tourne",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "+ vite à l'équateur",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qu'aux PÔLES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une rotation bizarre",
+   "on": "Soleil"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le Soleil ne tourne pas sur lui-même à la même vitesse partout ?"
+   ]
+  },
+  {
+   "say": [
+    "Comme il n'est pas solide, mais fait de gaz très chaud, chaque partie tourne à son rythme,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pas solide :",
+     "size": "m",
+     "on": "solide"
+    },
+    {
+     "t": "text",
+     "text": "du gaz brûlant",
+     "size": "l",
+     "color": "gold",
+     "on": "gaz"
+    }
+   ]
+  },
+  {
+   "say": [
+    "à l'équateur, il fait un tour en environ vingt-cinq jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "équateur : ~ 25 jours",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-cinq",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rotation",
+     "on": "tour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais près des pôles, il lui faut plus de trente jours,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "pôles : + de 30 jours",
+     "size": "l",
+     "color": "gold",
+     "on": "trente"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et ce mouvement tord ses lignes magnétiques, ce qui crée les taches solaires et les éruptions."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "ça tord le magnétisme",
+     "size": "m",
+     "on": "tord"
+    },
+    {
+     "t": "text",
+     "text": "→ taches + éruptions !",
+     "size": "l",
+     "color": "pink",
+     "on": "éruptions",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le Soleil ne tourne pas à la même vitesse à l'équateur et aux pôles ☀️\n\nLe Soleil tourne sur lui-même, mais pas d'un seul bloc ! Comme il n'est pas solide mais constitué de gaz très chaud (du plasma), chaque région tourne à son propre rythme : c'est la rotation différentielle. À l'équateur, il fait un tour en environ 25 jours, tandis que près des pôles, il lui faut plus de 30 jours. Ce mouvement inégal tord et emmêle peu à peu les lignes du champ magnétique solaire, ce qui fait apparaître les taches solaires et déclenche les éruptions. C'est aussi lié au cycle solaire d'environ 11 ans. Sur la photo, le Soleil vu par la NASA. Un fait étonnant sur notre étoile.\n\nTu savais que le Soleil tournait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#soleil",
+  "#etoile",
+  "#astronomie",
+  "#nasa",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/",
+  "https://fr.wikipedia.org/wiki/Rotation_différentielle"
+ ]
+}

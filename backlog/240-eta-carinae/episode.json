@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 239,
+ "title": "Une étoile a failli exploser au XIXe siècle",
+ "subject": "Eta Carinae",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1843,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "cette étoile a failli",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "EXPLOSER ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une éruption géante",
+   "on": "étoile"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'au dix-neuvième siècle, une étoile a bien failli exploser sous les yeux des astronomes ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle Eta Carinae, un système d'étoiles géantes à environ sept mille cinq cents années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Eta Carinae",
+     "size": "xl",
+     "color": "pink",
+     "on": "Eta Carinae"
+    },
+    {
+     "t": "text",
+     "text": "~ 7 500 a.-l.",
+     "size": "m",
+     "color": "gold",
+     "on": "sept mille"
+    }
+   ]
+  },
+  {
+   "say": [
+    "vers mille huit cent quarante-trois, elle a connu une éruption gigantesque, et elle est devenue la deuxième étoile la plus brillante du ciel,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1843 : éruption géante",
+     "size": "l",
+     "color": "gold",
+     "on": "éruption"
+    },
+    {
+     "t": "text",
+     "text": "2e + brillante du ciel !",
+     "size": "m",
+     "on": "deuxième",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle a éjecté une énorme quantité de matière, qui forme aujourd'hui un nuage en forme de sablier,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un nuage en sablier",
+     "size": "l",
+     "color": "pink",
+     "on": "sablier"
+    },
+    {
+     "t": "sketch",
+     "kind": "hourglass",
+     "on": "nuage",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et un jour, peut-être dans un avenir proche à l'échelle cosmique, elle devrait vraiment exploser."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un jour,",
+     "size": "m",
+     "on": "jour"
+    },
+    {
+     "t": "text",
+     "text": "elle explosera !",
+     "size": "l",
+     "color": "gold",
+     "on": "exploser.",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Eta Carinae, l'étoile qui a failli exploser au XIXe siècle 💫\n\nEta Carinae est un système de deux étoiles massives situé à environ 7 500 années-lumière, dans la constellation de la Carène. Dans les années 1840, l'étoile principale a connu une « Grande Éruption » : en 1843, elle est devenue la deuxième étoile la plus brillante du ciel nocturne, avant de faiblir. Elle a alors éjecté une quantité de matière équivalente à plusieurs fois la masse du Soleil, qui forme aujourd'hui la nébuleuse de l'Homoncule, en forme de sablier, photographiée par Hubble. Cette étoile instable, des dizaines de fois plus massive que le Soleil, devrait un jour exploser en supernova. Un spectacle cosmique annoncé !\n\nTu crois qu'on la verra exploser ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etacarinae",
+  "#etoile",
+  "#supernova",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Eta_Carinae",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

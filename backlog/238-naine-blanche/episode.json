@@ -1,0 +1,153 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 237,
+ "title": "Une cuillère de naine blanche pèserait des tonnes",
+ "subject": "Naine blanche",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "sirius",
+   "file": "assets/images/sirius_hubble.jpg",
+   "credit": "Sirius A et B vues par Hubble · NASA, ESA, H. Bond, M. Barstow",
+   "page": "https://commons.wikimedia.org/wiki/File:Sirius_A_and_B_Hubble_photo.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Une cuillère",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de cette étoile",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "pèserait des TONNES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une étoile ultra-dense",
+   "on": "naine"
+  },
+  "photo": "sirius"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une petite cuillère de matière d'une naine blanche pèserait plusieurs tonnes ?"
+   ]
+  },
+  {
+   "say": [
+    "Une naine blanche, c'est le cœur qui reste quand une étoile comme le Soleil arrive en fin de vie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une naine blanche",
+     "size": "l",
+     "color": "pink",
+     "on": "naine blanche"
+    },
+    {
+     "t": "text",
+     "text": "= un cœur d'étoile morte",
+     "size": "m",
+     "on": "cœur"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle contient environ la masse du Soleil, mais tassée dans une boule de la taille de la Terre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la masse du Soleil",
+     "size": "l",
+     "color": "gold",
+     "on": "masse"
+    },
+    {
+     "t": "text",
+     "text": "dans la taille de la Terre !",
+     "size": "m",
+     "on": "taille",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, sa matière est si dense qu'une petite cuillère pèserait plusieurs tonnes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 cuillère =",
+     "size": "m",
+     "on": "cuillère"
+    },
+    {
+     "t": "text",
+     "text": "plusieurs tonnes !",
+     "size": "xl",
+     "color": "pink",
+     "on": "tonnes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et la plus connue tourne autour de Sirius, l'étoile la plus brillante de notre ciel nocturne."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Sirius B",
+     "size": "l",
+     "color": "gold",
+     "on": "Sirius",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Une cuillère de matière de naine blanche pèserait plusieurs tonnes 🥄\n\nQuand une étoile comme le Soleil arrive au bout de sa vie, elle expulse ses couches extérieures et ne laisse qu'un cœur très chaud : une naine blanche. Elle contient à peu près la masse du Soleil, mais comprimée dans une boule de la taille de la Terre ! Sa matière est donc extrêmement dense : une petite cuillère pèserait plusieurs tonnes sur Terre. La plus célèbre est Sirius B, une naine blanche qui tourne autour de Sirius, l'étoile la plus brillante du ciel nocturne. Sur la photo de Hubble, Sirius A et, en bas à gauche, le petit point de Sirius B. Le Soleil deviendra lui aussi une naine blanche dans plusieurs milliards d'années.\n\nTu imagines porter cette cuillère ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#naineblanche",
+  "#sirius",
+  "#etoile",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Naine_blanche",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

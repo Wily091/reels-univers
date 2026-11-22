@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 235,
+ "title": "Le vent solaire souffle à plus d'un million de km/h",
+ "subject": "Vent solaire",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Le Soleil souffle",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un vent à",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "1 MILLION de km/h ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le vent solaire",
+   "on": "Soleil"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que le Soleil souffle en permanence un vent à plus d'un million de kilomètres heure ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle le vent solaire, un flot de particules chargées qui s'échappe du Soleil dans toutes les directions,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le vent solaire",
+     "size": "l",
+     "color": "pink",
+     "on": "vent solaire"
+    },
+    {
+     "t": "text",
+     "text": "des particules chargées",
+     "size": "m",
+     "on": "particules"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "directions",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il file à environ quatre cents kilomètres par seconde, soit plus d'un million de kilomètres heure,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 400 km/s",
+     "size": "l",
+     "color": "gold",
+     "on": "quatre cents"
+    },
+    {
+     "t": "text",
+     "text": "+ d'1 million de km/h !",
+     "size": "l",
+     "color": "pink",
+     "on": "million",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "heureusement, le champ magnétique de la Terre nous protège comme un bouclier,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "notre bouclier :",
+     "size": "m",
+     "on": "bouclier"
+    },
+    {
+     "t": "text",
+     "text": "le champ magnétique",
+     "size": "l",
+     "color": "gold",
+     "on": "champ"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et quand ces particules arrivent quand même près des pôles, elles allument les aurores boréales."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "→ les aurores",
+     "size": "l",
+     "color": "pink",
+     "on": "aurores",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le vent solaire souffle à plus d'un million de km/h 💨☀️\n\nLe Soleil ne fait pas qu'éclairer : il souffle aussi en permanence un « vent » de particules chargées (surtout des protons et des électrons) dans tout le système solaire. Ce vent solaire file en moyenne à environ 400 km par seconde, soit plus d'un million de km/h, et peut dépasser 750 km/s dans ses courants rapides ! Il met quelques jours pour atteindre la Terre. Heureusement, notre champ magnétique dévie la plupart de ces particules, comme un bouclier. Près des pôles, certaines parviennent à entrer dans l'atmosphère et font briller les aurores boréales et australes. La sonde Parker Solar Probe l'étudie de près. Sur la photo, le Soleil.\n\nTu savais que le Soleil soufflait ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#ventsolaire",
+  "#soleil",
+  "#aurores",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://science.nasa.gov/sun/facts/",
+  "https://fr.wikipedia.org/wiki/Vent_solaire"
+ ]
+}

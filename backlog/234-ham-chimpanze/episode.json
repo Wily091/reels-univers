@@ -1,0 +1,159 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 233,
+ "title": "Un chimpanzé est allé dans l'espace avant les astronautes américains",
+ "subject": "Ham",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Avant les astronautes,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "la NASA a envoyé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un CHIMPANZÉ ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "Ham, le chimpanzé",
+   "on": "chimpanzé"
+  },
+  "sketch": "rocket"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'avant d'envoyer un astronaute, la NASA a envoyé un chimpanzé dans l'espace ?"
+   ]
+  },
+  {
+   "say": [
+    "Il s'appelait Ham, et le trente et un janvier mille neuf cent soixante et un, il décolle à bord d'une capsule Mercury,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Ham",
+     "size": "xl",
+     "color": "pink",
+     "on": "Ham"
+    },
+    {
+     "t": "text",
+     "text": "31 janvier 1961",
+     "size": "l",
+     "color": "gold",
+     "on": "trente et un"
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "décolle",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "il avait appris à tirer des leviers quand une lumière s'allumait, et il l'a fait pendant le vol,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "il tire des leviers",
+     "size": "l",
+     "on": "leviers"
+    },
+    {
+     "t": "text",
+     "text": "en plein vol !",
+     "size": "m",
+     "color": "gold",
+     "on": "vol",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "après un vol d'environ seize minutes, il est retombé dans l'océan, sain et sauf,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 16 minutes de vol",
+     "size": "m",
+     "on": "seize"
+    },
+    {
+     "t": "text",
+     "text": "sain et sauf !",
+     "size": "l",
+     "color": "pink",
+     "on": "sauf"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et trois mois plus tard, Alan Shepard devenait le premier Américain dans l'espace."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "3 mois + tard :",
+     "size": "m",
+     "on": "trois mois"
+    },
+    {
+     "t": "text",
+     "text": "Alan Shepard",
+     "size": "l",
+     "color": "gold",
+     "on": "Shepard",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Ham, le chimpanzé qui est allé dans l'espace avant les astronautes américains 🐒\n\nLe 31 janvier 1961, un chimpanzé nommé Ham décolle à bord d'une capsule Mercury de la NASA. Entraîné pendant des mois, il avait appris à tirer des leviers lorsqu'une lumière s'allumait, et il a réussi ces tâches en plein vol, prouvant qu'on pouvait agir normalement en apesanteur. Après un vol suborbital d'environ 16 minutes, sa capsule est retombée dans l'océan Atlantique, et Ham a été récupéré sain et sauf. Trois mois plus tard, le 5 mai 1961, Alan Shepard devenait le premier Américain dans l'espace. Ham a ensuite vécu dans des zoos jusqu'en 1983. Un pionnier de la conquête spatiale.\n\nTu connaissais Ham ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#ham",
+  "#nasa",
+  "#histoire",
+  "#animauxdanslespace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Ham_(chimpanzé)",
+  "https://fr.wikipedia.org/wiki/Mercury-Redstone_2"
+ ]
+}

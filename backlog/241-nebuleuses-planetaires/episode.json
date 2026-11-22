@@ -1,0 +1,158 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 240,
+ "title": "Les nébuleuses planétaires n'ont rien à voir avec les planètes",
+ "subject": "Nébuleuses",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les nébuleuses planétaires",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "n'ont rien à voir",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "avec les PLANÈTES ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "un nom trompeur",
+   "on": "planètes"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les nébuleuses planétaires n'ont absolument rien à voir avec les planètes ?"
+   ]
+  },
+  {
+   "say": [
+    "Ce sont des bulles de gaz colorées, éjectées par une étoile comme le Soleil à la fin de sa vie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des bulles de gaz",
+     "size": "l",
+     "color": "pink",
+     "on": "bulles"
+    },
+    {
+     "t": "text",
+     "text": "d'une étoile mourante",
+     "size": "m",
+     "on": "fin"
+    }
+   ]
+  },
+  {
+   "say": [
+    "au centre, il reste une naine blanche, qui éclaire ce gaz et le fait briller,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "au centre :",
+     "size": "m",
+     "on": "centre"
+    },
+    {
+     "t": "text",
+     "text": "une naine blanche",
+     "size": "l",
+     "color": "gold",
+     "on": "naine",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "briller",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "ce nom trompeur vient de l'astronome William Herschel, pour qui, dans son télescope, elles ressemblaient à des disques de planètes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "William Herschel",
+     "size": "l",
+     "color": "pink",
+     "on": "Herschel"
+    },
+    {
+     "t": "text",
+     "text": "croyait voir des planètes",
+     "size": "m",
+     "on": "ressemblaient"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dans environ cinq milliards d'années, le Soleil créera lui aussi sa propre nébuleuse."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le Soleil aussi,",
+     "size": "m",
+     "on": "Soleil"
+    },
+    {
+     "t": "text",
+     "text": "dans ~ 5 milliards d'années",
+     "size": "l",
+     "color": "gold",
+     "on": "cinq milliards",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Les nébuleuses planétaires n'ont rien à voir avec les planètes 🌈\n\nLes nébuleuses planétaires comptent parmi les plus beaux objets du ciel : des bulles et anneaux de gaz colorés. Pourtant, elles n'ont rien à voir avec les planètes ! Elles se forment quand une étoile de masse comparable au Soleil, en fin de vie, expulse ses couches extérieures. Au centre, il reste une naine blanche très chaude, qui illumine ce gaz et le fait briller de mille couleurs. Le nom vient de l'astronome William Herschel, au XVIIIe siècle : dans son télescope, ces objets ronds ressemblaient aux petits disques des planètes. Dans environ 5 milliards d'années, le Soleil formera lui aussi sa nébuleuse planétaire.\n\nTu aurais aussi cru à des planètes ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#nebuleuse",
+  "#etoile",
+  "#herschel",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Nébuleuse_planétaire",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

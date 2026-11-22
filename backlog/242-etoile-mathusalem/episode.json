@@ -1,0 +1,155 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 241,
+ "title": "Une étoile presque aussi vieille que l'univers",
+ "subject": "Mathusalem",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette étoile serait",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "presque aussi vieille",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que l'UNIVERS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "l'étoile Mathusalem",
+   "on": "étoile"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'une étoile proche de nous serait presque aussi vieille que l'univers lui-même ?"
+   ]
+  },
+  {
+   "say": [
+    "Elle s'appelle HD cent quarante mille deux cent quatre-vingt-trois, mais on la surnomme l'étoile Mathusalem,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'étoile Mathusalem",
+     "size": "l",
+     "color": "pink",
+     "on": "Mathusalem",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle se trouve à environ cent quatre-vingt-dix années-lumière, dans notre galaxie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 190 années-lumière",
+     "size": "l",
+     "color": "gold",
+     "on": "cent quatre-vingt-dix"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "galaxie",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "selon les études, elle aurait entre douze et quatorze milliards d'années, alors que l'univers en a environ treize virgule huit,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 12 à 14 milliards d'années",
+     "size": "l",
+     "color": "pink",
+     "on": "douze"
+    },
+    {
+     "t": "text",
+     "text": "univers : ~ 13,8",
+     "size": "m",
+     "on": "treize virgule huit"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elle contient très peu de métaux, signe qu'elle est née parmi les toutes premières générations d'étoiles."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "très peu de métaux",
+     "size": "m",
+     "on": "métaux"
+    },
+    {
+     "t": "text",
+     "text": "= une des 1res étoiles !",
+     "size": "l",
+     "color": "gold",
+     "on": "générations",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'étoile Mathusalem serait presque aussi vieille que l'univers ⭐\n\nSituée à environ 190 années-lumière de nous, l'étoile HD 140283, surnommée « Mathusalem », est l'une des plus vieilles étoiles connues. Selon les études, son âge est estimé entre environ 12 et 14 milliards d'années, très proche de l'âge de l'univers, environ 13,8 milliards d'années ! Une première estimation lui donnait même un âge supérieur à celui de l'univers, ce qui posait un paradoxe, aujourd'hui résolu par la prise en compte des incertitudes. Elle contient très peu d'éléments lourds, signe qu'elle est née parmi les toutes premières générations d'étoiles. Sur l'image, un ciel étoilé. Un fossile vivant du cosmos.\n\nTu savais qu'une étoile pouvait être si vieille ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etoile",
+  "#univers",
+  "#mathusalem",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/HD_140283",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

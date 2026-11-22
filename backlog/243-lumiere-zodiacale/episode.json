@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 242,
+ "title": "La lumière zodiacale, une lueur faite de poussière",
+ "subject": "Lumière",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Cette lueur",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans le ciel",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "c'est de la POUSSIÈRE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "la lumière zodiacale",
+   "on": "lueur"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'après le coucher du soleil, on peut parfois voir une lueur faite de poussière spatiale ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle la lumière zodiacale, un faible cône de lumière qui monte depuis l'horizon,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la lumière zodiacale",
+     "size": "l",
+     "color": "pink",
+     "on": "zodiacale"
+    },
+    {
+     "t": "text",
+     "text": "un cône de lumière",
+     "size": "m",
+     "on": "cône"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'est la lumière du Soleil, renvoyée par des milliards de grains de poussière qui flottent entre les planètes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "du Soleil renvoyé",
+     "size": "m",
+     "on": "renvoyée"
+    },
+    {
+     "t": "text",
+     "text": "par de la poussière !",
+     "size": "l",
+     "color": "gold",
+     "on": "poussière",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "sun",
+     "on": "Soleil",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "une grande partie de cette poussière viendrait de Mars et des comètes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "poussières de Mars",
+     "size": "m",
+     "on": "Mars"
+    },
+    {
+     "t": "text",
+     "text": "et de comètes",
+     "size": "l",
+     "color": "pink",
+     "on": "comètes"
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour la voir, il faut un ciel très noir, au printemps après le coucher du soleil, ou en automne avant l'aube."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "printemps : le soir",
+     "size": "m",
+     "on": "printemps"
+    },
+    {
+     "t": "text",
+     "text": "automne : avant l'aube",
+     "size": "m",
+     "color": "gold",
+     "on": "automne",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La lumière zodiacale, une lueur faite de poussière spatiale ✨\n\nLoin de toute pollution lumineuse, on peut parfois apercevoir un faible cône de lumière qui s'élève de l'horizon : la lumière zodiacale. Ce n'est pas une aurore, mais la lumière du Soleil réfléchie par d'innombrables grains de poussière qui flottent dans le plan du système solaire, entre les planètes. Des études basées sur la sonde Juno suggèrent qu'une bonne partie de cette poussière viendrait de Mars, le reste provenant notamment des comètes. Pour l'observer dans l'hémisphère Nord, le meilleur moment est le printemps, à la fin du crépuscule, ou l'automne, juste avant l'aube. Sur l'image, un ciel nocturne.\n\nTu l'as déjà vue ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#lumierezodiacale",
+  "#cielnocturne",
+  "#poussiere",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Lumière_zodiacale",
+  "https://science.nasa.gov/solar-system/"
+ ]
+}

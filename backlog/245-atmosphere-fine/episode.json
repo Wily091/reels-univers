@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 244,
+ "title": "L'atmosphère de la Terre est aussi fine que la peau d'une pomme",
+ "subject": "Atmosphère",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Notre atmosphère",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "est aussi fine",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "qu'une PEAU DE POMME ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "une couche ultra-fine",
+   "on": "atmosphère"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'à l'échelle de la Terre, notre atmosphère est aussi fine que la peau d'une pomme ?"
+   ]
+  },
+  {
+   "say": [
+    "La Terre fait environ douze mille sept cents kilomètres de diamètre,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Terre : ~ 12 700 km",
+     "size": "l",
+     "color": "gold",
+     "on": "douze mille"
+    },
+    {
+     "t": "sketch",
+     "kind": "planet",
+     "on": "diamètre",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "mais la grande majorité de l'air qu'on respire se trouve dans les quinze premiers kilomètres,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'essentiel de l'air :",
+     "size": "m",
+     "on": "air"
+    },
+    {
+     "t": "text",
+     "text": "~ 15 premiers km",
+     "size": "l",
+     "color": "pink",
+     "on": "quinze",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "à cette échelle, c'est comme la peau d'une pomme,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "comme la peau",
+     "size": "l",
+     "on": "peau"
+    },
+    {
+     "t": "text",
+     "text": "d'une pomme 🍎",
+     "size": "l",
+     "color": "gold",
+     "on": "pomme"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et depuis la Station spatiale, les astronautes la voient comme un fin trait bleu au-dessus de l'horizon."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "un fin trait bleu",
+     "size": "l",
+     "color": "pink",
+     "on": "trait"
+    },
+    {
+     "t": "text",
+     "text": "vu de l'espace !",
+     "size": "m",
+     "on": "Station",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "L'atmosphère de la Terre est aussi fine que la peau d'une pomme 🍎\n\nLa Terre mesure environ 12 700 km de diamètre. Pourtant, l'essentiel de l'air que nous respirons, environ les trois quarts de la masse de l'atmosphère, se trouve dans la troposphère, à peine les 10 à 15 premiers kilomètres au-dessus de nos têtes ! À l'échelle de la planète, cette couche est aussi fine que la peau d'une pomme. Depuis la Station spatiale internationale, les astronautes la voient comme un mince liseré bleu au-dessus de l'horizon, et beaucoup racontent avoir été frappés par sa fragilité. Elle nous protège pourtant des météores et des rayons nocifs. Sur la photo, la Terre vue par Apollo 17.\n\nTu la voyais plus épaisse ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#atmosphere",
+  "#terre",
+  "#planete",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Atmosphère_terrestre",
+  "https://science.nasa.gov/earth/facts/"
+ ]
+}

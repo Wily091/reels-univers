@@ -1,0 +1,155 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 243,
+ "title": "Où se trouve-t-on dans la Voie lactée ?",
+ "subject": "Voie lactée",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "nuit",
+   "file": "assets/images/terre_nuit.jpg",
+   "credit": "La Terre la nuit · NASA (Black Marble)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg",
+   "license": "Domaine public (NASA)",
+   "pad": true
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "On vit",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "dans la banlieue",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de la VOIE LACTÉE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "notre adresse cosmique",
+   "on": "Voie lactée"
+  },
+  "photo": "nuit"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu sais où se trouve exactement le système solaire dans la Voie lactée ?"
+   ]
+  },
+  {
+   "say": [
+    "Notre galaxie est une immense spirale, avec plusieurs grands bras,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une spirale géante",
+     "size": "l",
+     "color": "pink",
+     "on": "spirale"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "bras",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et nous, on se trouve dans un petit bras appelé le bras d'Orion,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le bras d'Orion",
+     "size": "l",
+     "color": "gold",
+     "on": "Orion",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "à environ vingt-six mille années-lumière du centre, un peu comme dans la banlieue de la galaxie,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 26 000 a.-l. du centre",
+     "size": "l",
+     "color": "pink",
+     "on": "vingt-six mille"
+    },
+    {
+     "t": "text",
+     "text": "en banlieue !",
+     "size": "m",
+     "on": "banlieue"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et c'est plutôt une chance, car le centre est plein d'étoiles serrées et de rayonnements dangereux."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "loin du centre",
+     "size": "m",
+     "on": "centre"
+    },
+    {
+     "t": "text",
+     "text": "= une chance !",
+     "size": "l",
+     "color": "gold",
+     "on": "chance",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Où se trouve-t-on dans la Voie lactée ? Dans le bras d'Orion 🌌\n\nLa Voie lactée est une galaxie spirale barrée d'environ 100 000 années-lumière de diamètre, avec plusieurs grands bras où naissent les étoiles. Le système solaire, lui, se trouve dans un bras plus petit, appelé le bras d'Orion (ou bras local), entre deux grands bras. Nous sommes à environ 26 000 années-lumière du centre galactique, un peu comme dans la banlieue de la galaxie. Une position plutôt favorable : la région centrale est beaucoup plus dense en étoiles, avec des supernovae et des rayonnements plus fréquents, et abrite le trou noir Sagittarius A*. Sur l'image, un ciel nocturne. Voici notre adresse cosmique !\n\nTu connaissais ton adresse cosmique ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#voielactee",
+  "#galaxie",
+  "#systemesolaire",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Bras_d'Orion",
+  "https://science.nasa.gov/universe/galaxies/"
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 247,
+ "title": "Sur l'ISS, on recycle 98 % de l'eau, y compris l'urine",
+ "subject": "ISS",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "iss",
+   "file": "assets/images/iss_crew_dragon_2021.jpg",
+   "credit": "La Station vue depuis Crew Dragon · NASA (photo T. Pesquet)",
+   "page": "https://images.nasa.gov/details/iss066e081130",
+   "license": "Domaine public (NASA)",
+   "crop": [
+    0.17,
+    0,
+    0.66,
+    1
+   ]
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les astronautes boivent",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "leur urine",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "RECYCLÉE ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "98 % de l'eau recyclée",
+   "on": "urine"
+  },
+  "photo": "iss"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les astronautes de la Station spatiale boivent leur urine recyclée ?"
+   ]
+  },
+  {
+   "say": [
+    "Envoyer de l'eau dans l'espace coûte très cher, alors à bord, on récupère presque tout,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'eau coûte cher",
+     "size": "m",
+     "on": "coûte"
+    },
+    {
+     "t": "text",
+     "text": "on récupère tout !",
+     "size": "l",
+     "color": "gold",
+     "on": "récupère"
+    }
+   ]
+  },
+  {
+   "say": [
+    "la sueur, l'humidité de l'air, et même l'urine passent dans un système de recyclage,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "sueur + air + urine",
+     "size": "l",
+     "color": "pink",
+     "on": "urine"
+    },
+    {
+     "t": "sketch",
+     "kind": "wave",
+     "on": "recyclage",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "en deux mille vingt-trois, la NASA a annoncé que la station arrivait à recycler environ quatre-vingt-dix-huit pour cent de son eau,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "~ 98 % recyclée !",
+     "size": "xl",
+     "color": "gold",
+     "on": "quatre-vingt-dix-huit",
+     "circle": true
+    }
+   ]
+  },
+  {
+   "say": [
+    "et selon les astronautes, l'eau obtenue est plus pure que celle du robinet sur Terre."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "+ pure que",
+     "size": "m",
+     "on": "pure"
+    },
+    {
+     "t": "text",
+     "text": "l'eau du robinet !",
+     "size": "l",
+     "color": "pink",
+     "on": "robinet",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Sur l'ISS, les astronautes boivent leur urine recyclée… et c'est très pur 💧\n\nEnvoyer de l'eau dans l'espace coûte extrêmement cher. À bord de la Station spatiale internationale, chaque goutte compte : le système de récupération de l'eau collecte la sueur et l'humidité de l'air expirée par l'équipage, ainsi que l'urine, qui est distillée et purifiée. En 2023, la NASA a annoncé que l'ISS avait atteint un taux de recyclage d'environ 98 % de son eau ! Le résultat est une eau potable très pure, plus pure, selon les astronautes, que beaucoup d'eaux du robinet sur Terre. Une technologie indispensable pour de futures missions vers la Lune ou Mars. Sur la photo, l'ISS.\n\nTu en boirais ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#iss",
+  "#nasa",
+  "#recyclage",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://www.nasa.gov/international-space-station/",
+  "https://en.wikipedia.org/wiki/ISS_ECLSS"
+ ]
+}

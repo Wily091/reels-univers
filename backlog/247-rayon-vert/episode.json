@@ -1,0 +1,167 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 246,
+ "title": "Le rayon vert existe vraiment au coucher du soleil",
+ "subject": "Rayon vert",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "soleil",
+   "file": "assets/images/soleil_sdo.jpg",
+   "credit": "Le Soleil vu par SDO · NASA/SDO (AIA)",
+   "page": "https://science.nasa.gov/sun/facts/",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Au coucher du soleil,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "un éclair",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "VERT ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "le rayon vert",
+   "on": "soleil"
+  },
+  "photo": "soleil"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'au moment exact où le soleil disparaît, on peut parfois voir un éclair vert ?"
+   ]
+  },
+  {
+   "say": [
+    "On l'appelle le rayon vert, et ce n'est pas une légende,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "le rayon vert",
+     "size": "xl",
+     "color": "pink",
+     "on": "rayon vert"
+    },
+    {
+     "t": "text",
+     "text": "pas une légende !",
+     "size": "m",
+     "on": "légende"
+    }
+   ]
+  },
+  {
+   "say": [
+    "notre atmosphère agit comme un prisme, et dévie un peu plus les couleurs bleues et vertes que le rouge,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "l'atmosphère =",
+     "size": "m",
+     "on": "atmosphère"
+    },
+    {
+     "t": "text",
+     "text": "un prisme !",
+     "size": "l",
+     "color": "gold",
+     "on": "prisme",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "ray",
+     "on": "couleurs",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "du coup, au tout dernier instant du coucher, le haut du Soleil peut briller en vert pendant une à deux secondes,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1 à 2 secondes",
+     "size": "l",
+     "color": "pink",
+     "on": "secondes"
+    },
+    {
+     "t": "sketch",
+     "kind": "sunrise",
+     "on": "coucher",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "pour le voir, le mieux est un horizon bien dégagé, comme au-dessus de la mer, et un air très clair."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "horizon dégagé",
+     "size": "m",
+     "on": "horizon"
+    },
+    {
+     "t": "text",
+     "text": "au-dessus de la mer !",
+     "size": "l",
+     "color": "gold",
+     "on": "mer",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "Le rayon vert existe vraiment au coucher du soleil 🟢🌅\n\nLe rayon vert n'est pas qu'un titre de roman de Jules Verne ou de film d'Éric Rohmer : c'est un vrai phénomène ! Au moment précis où le Soleil disparaît sous l'horizon (ou apparaît au lever), son bord supérieur peut briller d'un éclat vert pendant une à deux secondes. Notre atmosphère agit comme un prisme : elle dévie (réfracte) davantage les couleurs vertes et bleues que le rouge. Le bleu étant en grande partie dispersé, c'est le vert qui reste visible en dernier. Pour le voir, il faut un horizon très dégagé, idéalement au-dessus de la mer, et un air très limpide. Ne regarde jamais le Soleil directement quand il est haut !\n\nTu l'as déjà vu ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#rayonvert",
+  "#coucherdesoleil",
+  "#ciel",
+  "#science",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Rayon_vert",
+  "https://science.nasa.gov/sun/"
+ ]
+}

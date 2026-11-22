@@ -1,0 +1,154 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 236,
+ "title": "La couleur d'une étoile révèle sa température",
+ "subject": "Étoiles",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "orion",
+   "file": "assets/images/orion_nebuleuse.jpg",
+   "credit": "Nébuleuse d'Orion · NASA, ESA, M. Robberto",
+   "page": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "Les étoiles bleues",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "sont + CHAUDES",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "que les rouges ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des étoiles colorées",
+   "on": "étoiles"
+  },
+  "photo": "orion"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que les étoiles ont des couleurs différentes, et que ça révèle leur température ?"
+   ]
+  },
+  {
+   "say": [
+    "Si tu regardes bien le ciel, certaines étoiles sont un peu rouges, d'autres plutôt bleues,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "rouges ou bleues",
+     "size": "l",
+     "color": "pink",
+     "on": "rouges"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "ciel",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et contrairement aux robinets, ici le bleu est le plus chaud, plus de dix mille degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "bleu = le + chaud !",
+     "size": "l",
+     "color": "gold",
+     "on": "bleu",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "+ de 10 000 °C",
+     "size": "m",
+     "on": "dix mille"
+    }
+   ]
+  },
+  {
+   "say": [
+    "les étoiles rouges, elles, sont les plus froides, autour de trois mille degrés,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "rouge = ~ 3 000 °C",
+     "size": "l",
+     "color": "pink",
+     "on": "trois mille"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et dans Orion, tu peux comparer Bételgeuse, rouge orangé, et Rigel, d'un blanc bleuté."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Bételgeuse 🔴",
+     "size": "m",
+     "on": "Bételgeuse"
+    },
+    {
+     "t": "text",
+     "text": "vs Rigel 🔵",
+     "size": "l",
+     "color": "gold",
+     "on": "Rigel",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La couleur d'une étoile révèle sa température 🔵🔴\n\nEn observant attentivement le ciel, on remarque que les étoiles n'ont pas toutes la même couleur. Cette couleur dépend de leur température de surface. Contrairement aux robinets, c'est le bleu qui est le plus chaud : les étoiles bleues dépassent les 10 000 °C, voire beaucoup plus. Les étoiles jaunes comme le Soleil tournent autour de 5 500 °C, et les étoiles rouges sont les plus « froides », autour de 3 000 °C. Dans la constellation d'Orion, on peut facilement comparer Bételgeuse, rouge orangé, et Rigel, blanc bleuté. Sur la photo, la nébuleuse d'Orion. Un fait d'astronomie à vérifier dès ce soir !\n\nTu avais remarqué leurs couleurs ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#etoiles",
+  "#orion",
+  "#couleurs",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Classification_stellaire",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 245,
+ "title": "La Terre est entourée de ceintures de radiations invisibles",
+ "subject": "Van Allen",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [
+  {
+   "id": "terre",
+   "file": "assets/images/terre_apollo17.jpg",
+   "credit": "La Terre vue par Apollo 17 · NASA",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "license": "Domaine public (NASA)"
+  }
+ ],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "La Terre est entourée",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de ceintures",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "de RADIATIONS ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "des ceintures invisibles",
+   "on": "Terre"
+  },
+  "photo": "terre"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais que la Terre est entourée de deux immenses ceintures de radiations invisibles ?"
+   ]
+  },
+  {
+   "say": [
+    "On les appelle les ceintures de Van Allen, des zones où le champ magnétique piège des particules très énergétiques,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "les ceintures de Van Allen",
+     "size": "l",
+     "color": "pink",
+     "on": "Van Allen"
+    },
+    {
+     "t": "text",
+     "text": "des particules piégées",
+     "size": "m",
+     "on": "piège"
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles ont été découvertes en mille neuf cent cinquante-huit grâce à Explorer un, le premier satellite américain,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "1958 : Explorer 1",
+     "size": "l",
+     "color": "gold",
+     "on": "Explorer",
+     "circle": true
+    },
+    {
+     "t": "sketch",
+     "kind": "rocket",
+     "on": "satellite",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "elles forment comme deux gros beignets autour de la planète,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "2 gros beignets",
+     "size": "l",
+     "color": "pink",
+     "on": "beignets"
+    },
+    {
+     "t": "sketch",
+     "kind": "orbit",
+     "on": "autour",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "et les astronautes d'Apollo les ont traversées rapidement pour limiter les radiations reçues."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "Apollo les a traversées",
+     "size": "m",
+     "on": "Apollo"
+    },
+    {
+     "t": "text",
+     "text": "rapidement !",
+     "size": "l",
+     "color": "gold",
+     "on": "rapidement",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "La Terre est entourée de ceintures de radiations invisibles : les ceintures de Van Allen 🍩\n\nAutour de la Terre se trouvent deux grandes zones en forme de beignets où notre champ magnétique piège des particules chargées très énergétiques, venues notamment du Soleil et des rayons cosmiques : les ceintures de Van Allen. Elles ont été découvertes en 1958 grâce au premier satellite américain, Explorer 1, et à l'instrument conçu par le physicien James Van Allen. Ces radiations peuvent endommager les satellites et sont dangereuses pour les astronautes. Lors des missions Apollo, les trajectoires étaient choisies pour les traverser rapidement et limiter la dose reçue. Sur la photo, la Terre vue par Apollo 17.\n\nTu en avais déjà entendu parler ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#vanallen",
+  "#terre",
+  "#radiation",
+  "#espace",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Ceinture_de_Van_Allen",
+  "https://science.nasa.gov/earth/"
+ ]
+}

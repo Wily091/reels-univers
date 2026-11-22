@@ -1,0 +1,152 @@
+{
+ "format": "planche",
+ "valide": true,
+ "num": 238,
+ "title": "En 1987, une supernova a explosé assez près pour être vue à l'œil nu",
+ "subject": "Supernova",
+ "voice": {
+  "id": "TojRWZatQyy9dujEdiQ1",
+  "model": "eleven_multilingual_v2",
+  "tempo": 1.1,
+  "api_speed": 1.1
+ },
+ "images": [],
+ "hook": {
+  "until": 3.0,
+  "top": 200,
+  "lines": [
+   {
+    "text": "En 1987,",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "une étoile a explosé",
+    "size": 118,
+    "color": "ink"
+   },
+   {
+    "text": "visible à l'ŒIL NU ?!",
+    "size": 170,
+    "color": "pink",
+    "under": true,
+    "underColor": "gold"
+   }
+  ]
+ },
+ "center": {
+  "tagline": {
+   "text": "SN 1987A",
+   "on": "étoile"
+  },
+  "sketch": "star"
+ },
+ "scenes": [
+  {
+   "say": [
+    "Tu savais qu'en mille neuf cent quatre-vingt-sept, on a vu une étoile exploser à l'œil nu ?"
+   ]
+  },
+  {
+   "say": [
+    "Le vingt-quatre février mille neuf cent quatre-vingt-sept, des astronomes repèrent une nouvelle étoile brillante dans le ciel austral,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "24 février 1987",
+     "size": "l",
+     "color": "gold",
+     "on": "vingt-quatre"
+    },
+    {
+     "t": "sketch",
+     "kind": "star",
+     "on": "étoile",
+     "row": "same",
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était une supernova, l'explosion d'une étoile géante, dans le Grand Nuage de Magellan, à environ cent soixante-huit mille années-lumière,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "une supernova !",
+     "size": "l",
+     "color": "pink",
+     "on": "supernova",
+     "circle": true
+    },
+    {
+     "t": "text",
+     "text": "~ 168 000 a.-l.",
+     "size": "m",
+     "on": "cent soixante-huit"
+    }
+   ]
+  },
+  {
+   "say": [
+    "et quelques heures avant la lumière, des détecteurs sur Terre ont capté des neutrinos venus de l'explosion,"
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "des neutrinos",
+     "size": "l",
+     "color": "gold",
+     "on": "neutrinos"
+    },
+    {
+     "t": "text",
+     "text": "captés sur Terre !",
+     "size": "m",
+     "on": "détecteurs"
+    }
+   ]
+  },
+  {
+   "say": [
+    "c'était la supernova la plus proche observée depuis près de quatre cents ans."
+   ],
+   "note": [
+    {
+     "t": "text",
+     "text": "la + proche",
+     "size": "m",
+     "on": "proche"
+    },
+    {
+     "t": "text",
+     "text": "depuis ~ 400 ans !",
+     "size": "l",
+     "color": "pink",
+     "on": "quatre cents",
+     "under": true
+    }
+   ]
+  },
+  {
+   "fin": true,
+   "say": [
+    "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+   ]
+  }
+ ],
+ "caption": "En 1987, une supernova a explosé assez près pour être vue à l'œil nu 💥\n\nLe 24 février 1987, des astronomes au Chili découvrent une nouvelle étoile brillante dans le Grand Nuage de Magellan, une galaxie voisine située à environ 168 000 années-lumière. C'était une supernova, l'explosion d'une étoile géante, baptisée SN 1987A, et visible à l'œil nu depuis l'hémisphère Sud ! Quelques heures avant l'arrivée de sa lumière, des détecteurs au Japon et aux États-Unis avaient capté une vingtaine de neutrinos émis par l'effondrement de l'étoile : une première historique. C'était la supernova la plus proche observée depuis celle de Kepler en 1604. Hubble et Webb l'étudient encore aujourd'hui.\n\nTu aimerais voir une supernova ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+ "hashtags": [
+  "#supernova",
+  "#etoile",
+  "#neutrinos",
+  "#astronomie",
+  "#universenbref"
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/SN_1987A",
+  "https://science.nasa.gov/universe/stars/"
+ ]
+}
