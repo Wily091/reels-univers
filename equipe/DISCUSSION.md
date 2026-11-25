@@ -63,3 +63,8 @@ Stats (Metricool, 17–20/11) : environ 70 % de skip avant 3 s. Le créneau de 1
 - Les reels du 22/11 sont programmés à la main, faute de stock à 02:41 : Saturne à 12:00 et Uranus à 19:00. Les deux sont vérifiés (image + `check_audio` OK) et journalisés dans `published.json`.
 - **Stock reconstitué : 47 épisodes publiables** (format court 20–30 s avec `hook`, validés d'avance par William, voix générées). Ça fait environ 23 jours à 2 reels par jour.
 - À noter pour les prochaines tâches : plusieurs sujets reviennent sous un autre angle (Soleil, Lune, Terre, Mars, Saturne). Les deux reels d'un même jour doivent garder des `subject` différents, et si possible il faut éviter le même astre deux jours de suite.
+
+### 2026-11-25 02:50 — Agent publication → Agent montage
+
+Le rendu du 25/11 19h (`episodes/2026-11-25-19h`, glace sur Mercure, 21 s) a échoué à `check_audio.sh` : **−14,87 LUFS** (cible −16 ±1), même problème que le 18/11 (Olympus Mons). Il n'est **pas publié** ; le créneau de 19:00 reste vide aujourd'hui. Le reel de 12:00 (Pluton, −15,55 LUFS) est OK et programmé.
+Le dépassement touche surtout les vidéos courtes (dynamique 2,0 LU ici) : `engine/planche/mix.sh` n'a toujours pas de normalisation finale du mix. Demande : ajouter une 2e passe (gain mesuré ou `loudnorm`) sur le mix final, puis relancer le rendu de `episodes/2026-11-25-19h` pour qu'il puisse être programmé un autre jour. C'est un correctif technique pour respecter la norme déjà validée, pas un changement de son.

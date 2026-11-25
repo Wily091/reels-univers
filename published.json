@@ -261,5 +261,33 @@
     "scheduledAt": "2026-11-24T19:00:00+01:00",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=6057976047490253999",
     "caption": "Valles Marineris, le canyon géant de la planète Mars 🏜️\n\nSur Mars se trouve l'un des plus grands canyons du système solaire : Valles Marineris. Il s'étend sur environ 3 870 km, à peu près la distance entre Lisbonne et Moscou, et plonge jusqu'à environ 9 km de profondeur. À côté, le Grand Canyon américain, profond de moins de 2 km, paraît minuscule : Valles Marineris pourrait l'avaler plusieurs fois. Sur la photo, la longue cicatrice qui traverse Mars, vue par les sondes Viking. Un vrai fait insolite d'astronomie, à l'échelle d'un continent.\n\nTu irais faire de la rando là-bas ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#mars #planeterouge #systemesolaire #science #universenbref"
+  },
+  {
+    "date": "2026-11-25",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-25-12h",
+    "num": 20,
+    "title": "Pluton n'a pas fini un seul tour depuis sa découverte",
+    "subject": "Pluton",
+    "topics": [
+      "Pluton"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-25T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-440853606158939235",
+    "caption": "Pluton n'a pas encore fait un seul tour du Soleil depuis sa découverte 🤍\n\nPluton a été découverte en 1930, mais il lui faut 248 ans pour faire le tour du Soleil : son premier « anniversaire » depuis sa découverte tombera vers 2178 ! Plus petite que notre Lune, elle a perdu son statut de planète en 2006 et elle est aujourd'hui une planète naine. En 2015, la sonde New Horizons l'a survolée et a révélé à sa surface une immense plaine de glace en forme de cœur. Sur la photo, Pluton vue par New Horizons. Un fait insolite d'astronomie, de l'espace et du système solaire.\n\nPour toi, Pluton est une planète ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#pluton #astronomie #planetenaine #culturegenerale #universenbref"
+  },
+  {
+    "date": "2026-11-25",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-25-19h",
+    "num": 21,
+    "title": "De la glace sur Mercure, la planète la plus proche du Soleil",
+    "subject": "Mercure",
+    "topics": [
+      "Mercure"
+    ],
+    "posted": false,
+    "error": "check_audio HORS NORME : -14.87 LUFS (cible -16 ±1) au rendu, reel non publié"
   }
 ]
