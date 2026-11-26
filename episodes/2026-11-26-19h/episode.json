@@ -1,0 +1,224 @@
+{
+  "format": "planche",
+  "valide": true,
+  "num": 14,
+  "title": "Un sucre d'étoile à neutrons pèserait un milliard de tonnes",
+  "subject": "Neutrons",
+  "voice": {
+    "id": "TojRWZatQyy9dujEdiQ1",
+    "model": "eleven_multilingual_v2",
+    "tempo": 1.1,
+    "api_speed": 1.1
+  },
+  "images": [
+    {
+      "id": "crabe",
+      "file": "assets/images/crabe_hubble.jpg",
+      "nasa_id": "heic0515a",
+      "credit": "Nébuleuse du Crabe · NASA, ESA, J. Hester, A. Loll (ASU)",
+      "page": "https://esahubble.org/images/heic0515a/",
+      "license": "CC BY 4.0 (ESA/Hubble)",
+      "pad": true
+    }
+  ],
+  "hook": {
+    "until": 3.0,
+    "top": 200,
+    "lines": [
+      {
+        "text": "Un morceau de sucre",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "qui pèse",
+        "size": 118,
+        "color": "ink"
+      },
+      {
+        "text": "1 milliard de tonnes ?!",
+        "size": 170,
+        "color": "pink",
+        "under": true,
+        "underColor": "gold"
+      }
+    ]
+  },
+  "center": {
+    "photo": "crabe",
+    "annot": [
+      {
+        "text": "une étoile à neutrons est cachée au centre",
+        "color": "white",
+        "pos": "bl",
+        "size": 34
+      }
+    ],
+    "tagline": {
+      "text": "1 sucre = 1 milliard de t",
+      "on": "milliard"
+    }
+  },
+  "scenes": [
+    {
+      "say": [
+        "Tu savais qu'un morceau d'étoile à neutrons de la taille d'un sucre pèserait un milliard de tonnes ?"
+      ]
+    },
+    {
+      "say": [
+        "Autant qu'une montagne entière, dans un simple sucre,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "1 sucre",
+          "size": "l",
+          "on": "sucre"
+        },
+        {
+          "t": "text",
+          "text": "= 1 montagne !",
+          "size": "xl",
+          "color": "pink",
+          "on": "montagne",
+          "circle": true
+        },
+        {
+          "t": "sketch",
+          "kind": "mountains",
+          "on": "montagne",
+          "big": "",
+          "small": ""
+        }
+      ]
+    },
+    {
+      "say": [
+        "parce qu'une étoile à neutrons, c'est ce qui reste quand une étoile géante explose et que son cœur s'effondre sur lui-même,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "une étoile géante",
+          "size": "m",
+          "on": "géante"
+        },
+        {
+          "t": "text",
+          "text": "explose",
+          "size": "l",
+          "color": "gold",
+          "on": "explose"
+        },
+        {
+          "t": "sketch",
+          "kind": "star",
+          "on": "explose",
+          "row": "same",
+          "scale": 0.8
+        },
+        {
+          "t": "text",
+          "text": "son cœur s'effondre",
+          "size": "m",
+          "color": "pink",
+          "on": "effondre"
+        },
+        {
+          "t": "sketch",
+          "kind": "arrowdown",
+          "on": "effondre",
+          "row": "same",
+          "scale": 0.6
+        }
+      ]
+    },
+    {
+      "say": [
+        "du coup, on se retrouve avec plus que la masse du Soleil écrasée dans une boule d'environ vingt kilomètres, la taille d'une ville,"
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "+ que la masse du Soleil",
+          "size": "m",
+          "color": "gold",
+          "on": "masse"
+        },
+        {
+          "t": "text",
+          "text": "dans 20 km !",
+          "size": "xl",
+          "color": "pink",
+          "on": "vingt",
+          "count": {
+            "to": 20,
+            "fmt": "dans {n} km !"
+          }
+        },
+        {
+          "t": "text",
+          "text": "(la taille d'une ville)",
+          "size": "s",
+          "color": "soft",
+          "on": "ville"
+        }
+      ]
+    },
+    {
+      "say": [
+        "et certaines tournent sur elles-mêmes des centaines de fois par seconde."
+      ],
+      "note": [
+        {
+          "t": "text",
+          "text": "elles tournent",
+          "size": "m",
+          "on": "tournent"
+        },
+        {
+          "t": "text",
+          "text": "des centaines de fois",
+          "size": "l",
+          "color": "gold",
+          "on": "centaines"
+        },
+        {
+          "t": "text",
+          "text": "par seconde !",
+          "size": "l",
+          "color": "pink",
+          "on": "seconde"
+        },
+        {
+          "t": "sketch",
+          "kind": "rotation",
+          "on": "tournent",
+          "row": "same",
+          "scale": 0.6
+        }
+      ]
+    },
+    {
+      "fin": true,
+      "say": [
+        "Abonne-toi pour d'autres histoires sur l'univers, et envoie la vidéo à quelqu'un que ça va faire rêver."
+      ]
+    }
+  ],
+  "caption": "Un sucre d'étoile à neutrons pèserait environ 1 milliard de tonnes ⭐\n\nUne étoile à neutrons, c'est ce qui reste quand une étoile géante explose en supernova et que son cœur s'effondre sur lui-même. Résultat : plus que la masse du Soleil écrasée dans une boule d'une vingtaine de kilomètres, la taille d'une ville. Sa matière est si dense qu'un seul morceau de sucre pèserait autant qu'une montagne. Certaines de ces étoiles, les pulsars, tournent sur elles-mêmes des centaines de fois par seconde. Sur la photo, la nébuleuse du Crabe vue par Hubble : en son cœur se cache une étoile à neutrons. L'objet le plus extrême de l'astrophysique.\n\nTu arrives à imaginer ce poids ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨",
+  "hashtags": [
+    "#etoileaneutrons",
+    "#astrophysique",
+    "#espace",
+    "#lesaviezvous",
+    "#universenbref"
+  ],
+  "sources": [
+    "https://imagine.gsfc.nasa.gov/science/objects/neutron_stars1.html",
+    "https://esahubble.org/images/heic0515a/"
+  ],
+  "date": "2026-11-26",
+  "slot": "19:00"
+}
