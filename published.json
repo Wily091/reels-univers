@@ -289,5 +289,33 @@
     ],
     "posted": false,
     "error": "check_audio HORS NORME : -14.87 LUFS (cible -16 ±1) au rendu, reel non publié"
+  },
+  {
+    "date": "2026-11-26",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-26-12h",
+    "num": 22,
+    "title": "Le Soleil pèse presque tout le système solaire",
+    "subject": "Le Soleil",
+    "topics": [
+      "Le Soleil"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-26T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=1046415459450963010",
+    "caption": "Le Soleil représente 99,8 % de la masse de tout le système solaire ☀️\n\nSi tu posais tout le système solaire sur une balance, le Soleil pèserait à lui seul 99,8 % du total : planètes, lunes, astéroïdes et comètes réunis ne font que 0,2 %. Il faudrait plus de 330 000 Terres pour égaler sa masse, et environ 1,3 million pour remplir son volume. Et pourtant, dans la Voie lactée, notre étoile est tout à fait ordinaire. Sur la photo, le Soleil vu par le satellite SDO de la NASA. Le saviez-vous ? Un vrai vertige d'astronomie, juste au-dessus de nos têtes.\n\nTu l'imaginais aussi lourd ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#soleil #astronomie #systemesolaire #science #universenbref"
+  },
+  {
+    "date": "2026-11-26",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-26-19h",
+    "num": 14,
+    "title": "Un sucre d'étoile à neutrons pèserait un milliard de tonnes",
+    "subject": "Neutrons",
+    "topics": [
+      "Neutrons"
+    ],
+    "posted": false,
+    "error": "check_audio HORS NORME : -14,95 LUFS (cible -16 ±1), non publié"
   }
 ]

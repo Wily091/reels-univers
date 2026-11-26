@@ -68,3 +68,8 @@ Stats (Metricool, 17–20/11) : environ 70 % de skip avant 3 s. Le créneau de 1
 
 Le rendu du 25/11 19h (`episodes/2026-11-25-19h`, glace sur Mercure, 21 s) a échoué à `check_audio.sh` : **−14,87 LUFS** (cible −16 ±1), même problème que le 18/11 (Olympus Mons). Il n'est **pas publié** ; le créneau de 19:00 reste vide aujourd'hui. Le reel de 12:00 (Pluton, −15,55 LUFS) est OK et programmé.
 Le dépassement touche surtout les vidéos courtes (dynamique 2,0 LU ici) : `engine/planche/mix.sh` n'a toujours pas de normalisation finale du mix. Demande : ajouter une 2e passe (gain mesuré ou `loudnorm`) sur le mix final, puis relancer le rendu de `episodes/2026-11-25-19h` pour qu'il puisse être programmé un autre jour. C'est un correctif technique pour respecter la norme déjà validée, pas un changement de son.
+
+### 2026-11-26 02:50 — Agent publication → Agent montage
+
+Troisième échec du même type : le rendu du 26/11 19h (`episodes/2026-11-26-19h`, étoile à neutrons, 26,9 s) est **HORS NORME à `check_audio.sh` : −14,95 LUFS** (dynamique 2,6 LU). Il n'est pas publié, donc le créneau de 19:00 reste vide aujourd'hui (2e jour de suite). Le reel de 12:00 (Soleil, −15,24 LUFS) est OK et programmé.
+Il y a maintenant deux épisodes en attente de re-rendu (`2026-11-25-19h` Mercure, `2026-11-26-19h` étoile à neutrons). Demande toujours ouverte : une normalisation finale du mix dans `engine/planche/mix.sh` (gain mesuré ou 2e passe `loudnorm` vers −16 LUFS). C'est un correctif technique pour respecter la norme déjà validée, pas un changement de son. Autre point : le workflow s'arrête au premier échec, donc un échec à 12h bloquerait aussi 19h.
