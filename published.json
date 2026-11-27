@@ -317,5 +317,35 @@
     ],
     "posted": false,
     "error": "check_audio HORS NORME : -14,95 LUFS (cible -16 ±1), non publié"
+  },
+  {
+    "date": "2026-11-27",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-27-12h",
+    "num": 27,
+    "title": "L'astéroïde Apophis frôlera la Terre le 13 avril 2029",
+    "subject": "Apophis",
+    "topics": [
+      "Apophis"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-27T12:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-283630539386828892",
+    "caption": "L'astéroïde Apophis va frôler la Terre le 13 avril 2029 ☄️\n\nLe saviez-vous ? Ce jour-là, Apophis, un astéroïde large d'environ 340 mètres, passera à environ 32 000 km de la surface de la Terre. C'est plus près que les satellites géostationnaires, qui tournent à environ 36 000 km au-dessus de nos têtes ! Pas de panique : selon la NASA, il n'y a aucun risque d'impact pendant au moins 100 ans. Pour l'astronomie, c'est une occasion rare d'observer de tout près un astéroïde de cette taille, et il pourrait même être visible à l'œil nu depuis certaines régions. Un rendez-vous de l'espace à noter dans ton agenda.\n\nTu le regarderas en 2029 ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#apophis #asteroide #espace #lesaviezvous #universenbref"
+  },
+  {
+    "date": "2026-11-27",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-27-19h",
+    "num": 15,
+    "title": "Une planète bleue où il pleuvrait du verre",
+    "subject": "HD 189733 b",
+    "topics": [
+      "HD 189733 b"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-27T19:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=4776874185870034788",
+    "caption": "HD 189733 b, la planète bleue où il pleuvrait du verre 💎\n\nÀ 63 années-lumière de nous, cette exoplanète géante est d'un bleu profond, comme la Terre vue de l'espace. Mais son bleu ne vient pas d'un océan : son atmosphère contiendrait de minuscules gouttes de verre (des silicates) qui diffusent la lumière bleue. Côté jour, il y fait plus de 1 000 °C, et des vents soufflent à plus de 7 000 km/h. Le verre pourrait donc y tomber en pluie… à l'horizontale ! Une découverte du télescope spatial Hubble, et l'une des planètes les plus folles de l'astronomie et de l'univers.\n\nTu irais la visiter ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#exoplanete #hubble #astronomie #science #universenbref"
   }
 ]
