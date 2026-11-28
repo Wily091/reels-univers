@@ -347,5 +347,33 @@
     "scheduledAt": "2026-11-27T19:00:00+01:00",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=4776874185870034788",
     "caption": "HD 189733 b, la planète bleue où il pleuvrait du verre 💎\n\nÀ 63 années-lumière de nous, cette exoplanète géante est d'un bleu profond, comme la Terre vue de l'espace. Mais son bleu ne vient pas d'un océan : son atmosphère contiendrait de minuscules gouttes de verre (des silicates) qui diffusent la lumière bleue. Côté jour, il y fait plus de 1 000 °C, et des vents soufflent à plus de 7 000 km/h. Le verre pourrait donc y tomber en pluie… à l'horizontale ! Une découverte du télescope spatial Hubble, et l'une des planètes les plus folles de l'astronomie et de l'univers.\n\nTu irais la visiter ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#exoplanete #hubble #astronomie #science #universenbref"
+  },
+  {
+    "date": "2026-11-28",
+    "slot": "12:00",
+    "folder": "episodes/2026-11-28-12h",
+    "num": 23,
+    "title": "La lumière du Soleil met 170 000 ans à sortir de l'étoile",
+    "subject": "Le Soleil",
+    "topics": [
+      "Le Soleil"
+    ],
+    "posted": false,
+    "error": "check_audio HORS NORME : -14,82 LUFS (cible -16 ±1), non publié"
+  },
+  {
+    "date": "2026-11-28",
+    "slot": "19:00",
+    "folder": "episodes/2026-11-28-19h",
+    "num": 24,
+    "title": "La face cachée de la Lune n'est pas sombre",
+    "subject": "La Lune",
+    "topics": [
+      "La Lune"
+    ],
+    "posted": true,
+    "scheduledAt": "2026-11-28T19:00:00+01:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7007176&openWithPostUuid=-7989095273699196112",
+    "caption": "La face cachée de la Lune n'est pas sombre : elle reçoit autant de soleil que l'autre 🌕\n\nOn l'appelle souvent « face sombre », mais c'est une idée reçue. La Lune tourne sur elle-même exactement au même rythme qu'elle tourne autour de la Terre : elle nous montre donc toujours la même face. L'autre côté est simplement caché de nous, pas plongé dans le noir. Et quand c'est la nouvelle Lune pour nous, la face cachée est en plein soleil !\n\nPersonne ne l'avait jamais vue avant 1959, quand une sonde soviétique l'a photographiée pour la première fois. Un fait insolite d'astronomie et d'espace à ressortir au prochain dîner. Sur l'image : la face cachée vue par la sonde LRO.\n\nTu pensais qu'elle était sombre ? 👇\n\nAbonne-toi à @universenbref pour une nouvelle histoire de l'univers deux fois par jour ✨\n\n#lune #astronomie #systemesolaire #culturegenerale #universenbref"
   }
 ]
